@@ -1,0 +1,13 @@
+main:
+  - name: "主页"
+    url: "/"
+    weight: 1
+
+  - name: "演员风采"
+    url: "/comedians/"
+    weight: 2
+
+footer:
+  - name: "合作"
+    url: "mailto:contact@ggtkx.org"
+    weight: 1
