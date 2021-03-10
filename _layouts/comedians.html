@@ -20,7 +20,7 @@ bodyClass: page-comedian-list
 
 <div class="container pt-6 pb-6">
     <div class="row pt-6 pb-6">
-        {% assign comedians = site.data.comedians | sort: "weight" %}
+        {% assign comedians = site.data.comedians | sort: "weight" | reverse %}
         {% for comedian in comedians %}
         <div class="col-12 col-md-4 mb-3">
             <div class="comedian comedian-summary">
