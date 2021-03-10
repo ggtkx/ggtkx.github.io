@@ -25,9 +25,7 @@ bodyClass: page-comedian-list
         <div class="col-12 col-md-4 mb-3">
             <div class="comedian comedian-summary">
                 {% if comedian.image %}
-                <div class="comedian-image">
-                    <img alt="{{ comedian.title }}" class="img-fluid mb-2" src="{{ comedian.image }}" />
-                </div>
+                <div class="comedian-image"><img alt="{{ comedian.title }}" src="{{ comedian.image }}" /></div>
                 {% endif %}
                 <div class="comedian-meta">
                     <h2 class="comedian-name">{{ comedian.title }}</h2>
