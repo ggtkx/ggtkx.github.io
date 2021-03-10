@@ -1,0 +1,20 @@
+<div class="col-12 col-md-6 col-lg-4 mb-2">
+  <div class="comedian">
+    {% if comedian.image %}
+      <div class="comedian-image"><img alt="{{ comedian.title }}" src="{{ comedian.image }}" /></div>
+    {% endif %}
+    <h2 class="comedian-title">{{ comedian.title }}</h2>
+    <div class="comedian-content">
+      <p>{{ comedian.description }}</p>
+      {% if comedian.contact %}
+        <p>
+          <ul>
+          {% for contact in comedian.contact %}
+            <li>{{ contact | markdownify }}</li>
+          {% endfor %}
+          </ul>
+        </p>
+      {% endif %}
+    </div>
+  </div>
+</div>
