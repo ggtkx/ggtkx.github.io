@@ -1,0 +1,46 @@
+baseurl: '/'
+permalink: pretty
+title: '硅谷脱口秀：硅谷地区华人喜剧社团！'
+
+google_analytics_id: "G-BMDYGYHPGF"
+
+homepage:
+  show_call_box: false
+
+logo:
+  mobile: "https://imgur.com/IBygmEY.png"
+  desktop: "https://imgur.com/IBygmEY.png"
+  desktop_height: "36px"
+
+seo:
+  meta_og_title: "硅谷脱口秀"
+  meta_og_type: "website"
+  meta_og_url: "https://ggtkx.org"
+  meta_og_image: "https://i.imgur.com/KYG4PhK.png"
+  meta_og_description: "硅谷脱口秀：硅谷地区华人喜剧社团！"
+
+collections:
+  comedians:
+    output: true
+  team:
+    output: true
+
+sass:
+  indentWidth: 4
+  style: compact # possible values: nested expanded compact compressed
+  precision: 10
+
+plugins:
+  - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

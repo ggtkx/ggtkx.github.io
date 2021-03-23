@@ -1,0 +1,85 @@
+---
+title: Jekyll Serif - Jekyll Small Business Theme
+layout: default
+bodyClass: page-home
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        {{ content }}
+        {% if site.homepage.show_call_box %}
+          {% include call.html show_button=true %}
+        {% endif %}
+      </div>
+      {% if page.intro_image %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+<div class="strip">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-12 order-1 order-md-1">
+        <iframe width="100%" height="600" src="https://www.youtube.com/embed/kf2sMdP_FHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if site.data.comedians %}
+<div class="strip">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h1>热门演员</h1>
+    <div class="row justify-content-center">
+      {% assign comedians = site.data.comedians | sort: "weight" | reverse %}
+      {% for comedian in site.data.comedians limit:6 %}
+        {% include comedian.html comedian=comedian %}
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="/comedians/">所有 {{ comedians.size }} 位演员</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <h1>主创团队</h1>
+    <div class="row justify-content-start">
+      {% for member in site.team %}
+      <div class="col-12 col-md-3 mb-1">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title">
+              {{ member.title }}
+            </h2>
+            <p>{{ member.content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="container pt-0 pb-0 pb-md-10">
+    <h1>友情链接</h1>
+    <div class="row justify-content-start">
+      <div class="col-auto">
+        <ul>
+          {% for friend in site.data.friends.friends %}
+          <li>
+            <a href="{{ friend.url }}">{{ friend.name }}</a>：{{ friend.description }}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

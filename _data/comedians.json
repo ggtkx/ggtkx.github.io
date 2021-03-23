@@ -1,0 +1,150 @@
+[
+    {
+        "title": "Aaron",
+        "weight": "33",
+        "image": "https://i.imgur.com/puBEgwz.png",
+        "description": "白天演程序员 晚上演脱口秀",
+        "contact": ""
+    },
+    {
+        "title": "龚老板",
+        "weight": "29",
+        "image": "https://i.imgur.com/19pCCdn.png",
+        "description": "一只迷茫的，在观众和自己快乐之间挣扎的，把脱口秀说的像相声，把相声说的像脱口秀的，窜上台的观众。",
+        "contact": [
+            "微信： `gillgong109`"
+        ]
+    },
+    {
+        "title": "早恋",
+        "weight": "27",
+        "image": "https://i.imgur.com/mSfLTWx.png",
+        "description": "临渊羡鱼，不如退而结网。",
+        "contact": [
+            "Clubhouse ID: `zaolian`"
+        ]
+    },
+    {
+        "title": "Monkey",
+        "weight": "20",
+        "image": "https://i.imgur.com/rIg21xp.png",
+        "description": "想成为带来欢笑和温暖的人。猫狗双全，差一人组成狗男女。大大方方说：我要找男朋友 （感谢社长让在这谋私利）",
+        "contact": [
+            "Instagram: [bigmonkeyma](https://www.instagram.com/bigmonkeyma/)"
+        ]
+    },
+    {
+        "title": "Tracy",
+        "weight": "20",
+        "image": "https://i.imgur.com/EjEYK7y.png",
+        "description": "生活=经历 经历=段子 生活=段子",
+        "contact": [
+            "微信： `51423369`"
+        ]
+    },
+    {
+        "title": "方圆",
+        "weight": "16",
+        "image": "https://i.imgur.com/VcpirXv.png",
+        "description": "躁起来呗",
+        "contact": [
+            "Clubhouse ID: `fangyuanj`"
+        ]
+    },
+    {
+        "title": "邵天宇",
+        "weight": "15",
+        "image": "https://i.imgur.com/scQgJSc.png",
+        "description": "曾经是一名脱口秀表演者",
+        "contact": [
+            "ch：@ericshao"
+        ]
+    },
+    {
+        "title": "小企鹅 Lisa",
+        "weight": "14",
+        "image": "https://i.imgur.com/IOg9VMj.png",
+        "description": "我是小企鹅 Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~",
+        "contact": ""
+    },
+    {
+        "title": "小朱",
+        "weight": "14",
+        "image": "https://i.imgur.com/gSysgyB.png",
+        "description": "大家好我叫小朱，my English name is Sandeep",
+        "contact": ""
+    },
+    {
+        "title": "兔子特特",
+        "weight": "11",
+        "image": "https://imgur.com/J3uXn3Gl.png",
+        "description": "中年少女一枚。在家对娃脱口训在外对你脱口秀！你快乐所以我快乐～～",
+        "contact": [
+            "Clubhouse ID: `rabbit1`"
+        ]
+    },
+    {
+        "title": "大国",
+        "weight": "9",
+        "image": "https://i.imgur.com/LzaNx8t.png",
+        "description": "硅谷脱口秀，你讲段子的理想港湾！",
+        "contact": ""
+    },
+    {
+        "title": "邵远",
+        "weight": "8",
+        "image": "https://i.imgur.com/50YpVbT.png",
+        "description": "攀岩界最会说相声的数学家。",
+        "contact": [
+            "豆瓣：[灭鼠办梁同志](https: //www.douban.com/people/msbltz/)"
+        ]
+    },
+    {
+        "title": "于晓凡",
+        "weight": "7",
+        "image": "https://i.imgur.com/NPodfRG.jpg",
+        "description": "CS Ph.D. 在读，特立独行，兴趣广泛，爱好吃和睡。",
+        "contact": [
+            "[cseweb.ucsd.edu / ~x1yu](https: //cseweb.ucsd.edu/~x1yu/) —— Ph.D.社交当然是发邮件啦"
+        ]
+    },
+    {
+        "title": "黎明洋",
+        "weight": "6",
+        "image": "https://i.imgur.com/8kHVjfD.png",
+        "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
+        "contact": [
+            "[个人主页](https://myli.page)"
+        ]
+    },
+    {
+        "title": "王大拿",
+        "weight": "6",
+        "image": "https://i.imgur.com/tyc7toZ.png",
+        "description": "集美貌与智慧于一身",
+        "contact": ""
+    },
+    {
+        "title": "拉面",
+        "weight": "4",
+        "image": "https://imgur.com/F5p49Uql.png",
+        "description": "辩论靠段子，脱口秀靠逻辑。",
+        "contact": ""
+    },
+    {
+        "title": "萌萌",
+        "weight": "2",
+        "image": "https://imgur.com/pFidyoJ.png",
+        "description": "中年妇女。",
+        "contact": [
+            "抖音： `@gongsunmengmeng`"
+        ]
+    },
+    {
+        "title": "费费",
+        "weight": "0",
+        "image": "https://i.imgur.com/oGuVFF7.png",
+        "description": "还在憋段子的伪脱口秀演员",
+        "contact": ""
+    }
+]

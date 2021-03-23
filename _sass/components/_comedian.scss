@@ -1,0 +1,31 @@
+.comedian {
+  height: 100%;
+  border: 1px solid $white-offset;
+  border-radius: 3px;
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  .comedian-image {
+    flex: 0 0 auto;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  .comedian-title {
+  }
+  .comedian-content {
+    margin-bottom: 0;
+    margin-top: auto;
+  }
+}
