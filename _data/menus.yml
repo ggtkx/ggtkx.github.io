@@ -7,6 +7,10 @@ main:
     url: "/comedians/"
     weight: 2
 
+  - name: "English"
+    url: "/english/"
+    weight: 3
+
 footer:
   - name: "合作"
     url: "mailto:contact@ggtkx.org"
@@ -15,3 +19,7 @@ footer:
   - name: "捐款"
     url: "https://paypal.me/pandyfoundation"
     weight: 2
+
+  - name: "English"
+    url: "/english/"
+    weight: 3
