@@ -1,7 +1,7 @@
 ---
-title: 硅谷脱口秀：硅谷地区华人喜剧社团！
+title: 硅谷脱口秀：硅谷地区汉语喜剧社团！
 layout: home
-description: 硅谷脱口秀：硅谷地区华人喜剧社团！
+description: 硅谷脱口秀：硅谷地区汉语喜剧社团！
 intro_image: "images/illustrations/micdrop.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
@@ -13,7 +13,7 @@ intro_image_hide_on_mobile: true
 
 我们是硅谷地区的一群汉语喜剧爱好者，以脱口秀为主。我们欢迎各路朋友来观赏、参演！
 
-过去的三年里，我们几乎每周都要相聚。至今，《硅谷脱口秀》已举办了近百次活动，陆续参演的嘉宾也多达六十余位。在网上，演出录像已有数万观众。
+过去的三年里，我们几乎每周都要相聚。至今，《硅谷脱口秀》已举办了上百次活动，陆续参演的嘉宾也多达六十余位。在网上，演出视频已有近5万次播放。
 
 疫情期间，每周五 8 PM（PT），我们在 Zoom 上举办开放麦，在 YouTube 上同步直播。
 
