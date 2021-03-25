@@ -2,9 +2,10 @@
 title: 硅谷脱口秀：硅谷地区汉语喜剧社团！
 layout: home
 description: 硅谷脱口秀：硅谷地区汉语喜剧社团！
-intro_image: "images/illustrations/micdrop.svg"
+intro_image: "/images/illustrations/micdrop.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
+show_people: true
 ---
 
 # 硅谷脱口秀
