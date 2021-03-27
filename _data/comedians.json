@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": "33",
+        "weight": "34",
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": ""
@@ -96,7 +96,16 @@
         "image": "https://i.imgur.com/50YpVbT.png",
         "description": "攀岩界最会说相声的数学家。",
         "contact": [
-            "豆瓣：[灭鼠办梁同志](https: //www.douban.com/people/msbltz/)"
+            "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz/)"
+        ]
+    },
+    {
+        "title": "黎明洋",
+        "weight": "7",
+        "image": "https://i.imgur.com/8kHVjfD.png",
+        "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
+        "contact": [
+            "[个人主页](https://myli.page)"
         ]
     },
     {
@@ -105,16 +114,7 @@
         "image": "https://i.imgur.com/NPodfRG.jpg",
         "description": "CS Ph.D. 在读，特立独行，兴趣广泛，爱好吃和睡。",
         "contact": [
-            "[cseweb.ucsd.edu / ~x1yu](https: //cseweb.ucsd.edu/~x1yu/) —— Ph.D.社交当然是发邮件啦"
-        ]
-    },
-    {
-        "title": "黎明洋",
-        "weight": "6",
-        "image": "https://i.imgur.com/8kHVjfD.png",
-        "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
-        "contact": [
-            "[个人主页](https://myli.page)"
+            "[cseweb.ucsd.edu/~x1yu](https://cseweb.ucsd.edu/~x1yu/) —— Ph.D.社交当然是发邮件啦"
         ]
     },
     {
