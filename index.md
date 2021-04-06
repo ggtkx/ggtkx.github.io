@@ -8,7 +8,7 @@ intro_image_hide_on_mobile: true
 show_people: true
 ---
 
-![硅谷脱口秀](https://i.imgur.com/VlQWnmB.png)
+<img width="50%" alt="硅谷脱口秀" src="images/logo.svg" />
 
 图个开心！
 
