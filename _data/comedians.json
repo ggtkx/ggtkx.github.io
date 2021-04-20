@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": "35",
+        "weight": "36",
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": ""
@@ -108,7 +108,7 @@
     },
     {
         "title": "黎明洋",
-        "weight": "7",
+        "weight": "8",
         "image": "https://i.imgur.com/8kHVjfD.png",
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
         "contact": [
@@ -149,7 +149,7 @@
     },
     {
         "title": "萌萌",
-        "weight": "3",
+        "weight": "4",
         "image": "https://imgur.com/pFidyoJ.png",
         "description": "中年妇女。",
         "contact": [
@@ -167,11 +167,20 @@
     },
     {
         "title": "何能能",
-        "weight": "2",
+        "weight": "3",
         "image": "https://i.imgur.com/JjRvHRC.png",
         "description": "就是很能",
         "contact": [
             "社交媒体：直接报我身份证号吧"
+        ]
+    },
+    {
+        "title": "keke",
+        "weight": "1",
+        "image": "https://i.imgur.com/UQ0tOnk.png",
+        "description": "可可爱爱就是我！",
+        "contact": [
+            "Instagram: [ringwring](https://www.instagram.com/ringwring/)"
         ]
     },
     {
