@@ -1,31 +1,42 @@
 .comedian {
   height: 100%;
-  border: 1px solid $white-offset;
-  border-radius: 3px;
-  padding: 20px;
+  border-radius: 5px;
+  overflow: hidden;
   background-color: #ffffff;
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: left;
+  padding-bottom: 20px;
+  box-shadow: 0 30px 60px -10px rgba(black, .2), 0 18px 36px -18px rgba(black, .22);
   .comedian-image {
-    flex: 0 0 auto;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 250px;
     display: flex;
+    border-radius: 0 0 0 100%;
     margin-bottom: 20px;
+    overflow: hidden;
     text-align: center;
   }
   img {
     width: 100%;
     height: auto;
-    border-radius: 100%;
     object-fit: cover;
   }
   .comedian-title {
+    color: #555;
+    margin-bottom: 20px;
   }
-  .comedian-content {
-    margin-bottom: 0;
-    margin-top: auto;
+  .comedian-description, .comedian-contact {
+    padding: 0 30px;
+    width: 100%;
+    display: inline-block;
+  }
+  .comedian-contact {
+    background-color: $white-offset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-position: inside;
+    box-sizing: border-box;
   }
 }
