@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": "36",
+        "weight": "37",
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": ""
@@ -17,7 +17,7 @@
     },
     {
         "title": "早恋",
-        "weight": "28",
+        "weight": "29",
         "image": "https://i.imgur.com/mSfLTWx.png",
         "description": "临渊羡鱼，不如退而结网。",
         "contact": [
@@ -91,6 +91,15 @@
         "contact": ""
     },
     {
+        "title": "黎明洋",
+        "weight": "9",
+        "image": "https://i.imgur.com/8kHVjfD.png",
+        "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
+        "contact": [
+            "[个人主页](https://myli.page)"
+        ]
+    },
+    {
         "title": "詹姆斯",
         "weight": "8",
         "image": "https://i.imgur.com/gTRZYM0.png",
@@ -104,15 +113,6 @@
         "description": "攀岩界最会说相声的数学家。",
         "contact": [
             "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz/)"
-        ]
-    },
-    {
-        "title": "黎明洋",
-        "weight": "8",
-        "image": "https://i.imgur.com/8kHVjfD.png",
-        "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
-        "contact": [
-            "[个人主页](https://myli.page)"
         ]
     },
     {
@@ -130,6 +130,15 @@
         "image": "https://i.imgur.com/tyc7toZ.png",
         "description": "集美貌与智慧于一身",
         "contact": ""
+    },
+    {
+        "title": "萌萌",
+        "weight": "5",
+        "image": "https://imgur.com/pFidyoJ.png",
+        "description": "中年妇女。",
+        "contact": [
+            "抖音： `@gongsunmengmeng`"
+        ]
     },
     {
         "title": "睡不醒",
@@ -153,15 +162,6 @@
         "image": "https://imgur.com/F5p49Uql.png",
         "description": "辩论靠段子，脱口秀靠逻辑。",
         "contact": ""
-    },
-    {
-        "title": "萌萌",
-        "weight": "4",
-        "image": "https://imgur.com/pFidyoJ.png",
-        "description": "中年妇女。",
-        "contact": [
-            "抖音： `@gongsunmengmeng`"
-        ]
     },
     {
         "title": "尹航",
