@@ -20,3 +20,6 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 .idea
+
+# pre-commit hook artifacts
+.isort.cfg
