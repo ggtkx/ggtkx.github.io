@@ -7,9 +7,13 @@ main:
     url: "/comedians/"
     weight: 2
 
+  - name: "成为喜剧人"
+    url: "/become/"
+    weight: 3
+
   - name: "English"
     url: "/en/"
-    weight: 3
+    weight: 4
 
 footer:
   - name: "合作"
