@@ -46,6 +46,49 @@ $(document).ready(function() {
 
 console.log($resource);
 
+function publish($products) {
+  $new_products = new Array();
+  for (let index in $products) {
+      let current_person = $products[index];
+      if (current_person["image"] != "") {
+          if (current_person["contact"] != "") {
+              current_person["contact"] = [current_person["contact"]]
+          }
+          $new_products.push(current_person)
+      }
+  }
+  $json_dump = JSON.stringify($new_products, null, 4);
+  document.getElementById('source').value = $json_dump;
+
+  // Grab the token from cookie
+  $oAuthToken = Cookies.get('token');
+
+  let github = new Github({ token: $oAuthToken, auth: "oauth" });
+  let repo = github.getRepo($org, $repo);
+
+  $writepath = '_data/' + $resource + '.json';
+  const current_time = Date.now()
+  repo.write($branch, $writepath, $json_dump, 'Update comedian info based on Google sheets at ' + current_time, function(err) {});
+  console.log("writing 1:" + $writepath);
+  repo.getTree($branch + '?recursive=true', function(err, tree) {
+
+      $.each(tree, function(treeKey, treeValue) {
+
+          $path = treeValue['path'];
+          $sha = treeValue['sha'];
+
+          //console.log($path + ' == ' + $writepath);
+
+          if ($path == $writepath) {
+              console.log($json_dump)
+              repo.writemanual($branch, $writepath, $json_dump, 'Update comedian info based on Google sheets at ' + current_time, $sha, function(err) {});
+              console.log("writing 2:" + $writepath);
+              //alert("saved " + $writepath);
+          }
+      });
+  });
+}
+
 function showInfo(data, tabletop) {
 
     $products = new Array();
@@ -72,47 +115,7 @@ function showInfo(data, tabletop) {
         $count++;
         //console.log($count + ' == ' + $total_count);
         if ($count == $total_count) {
-            $new_products = new Array();
-            for (let index in $products) {
-                let current_person = $products[index];
-                if (current_person["image"] != "") {
-                    if (current_person["contact"] != "") {
-                        current_person["contact"] = [current_person["contact"]]
-                    }
-                    $new_products.push(current_person)
-                }
-            }
-            $json_dump = JSON.stringify($new_products, null, 4);
-            document.getElementById('source').value = $json_dump;
-
-            // Grab the token from cookie
-            $oAuthToken = Cookies.get('token');
-
-            let github = new Github({ token: $oAuthToken, auth: "oauth" });
-            let repo = github.getRepo($org, $repo);
-
-            $writepath = '_data/' + $resource + '.json';
-            const current_time = Date.now()
-            repo.write($branch, $writepath, $json_dump, 'Update comedian info based on Google sheets at ' + current_time, function(err) {});
-            console.log("writing 1:" + $writepath);
-            repo.getTree($branch + '?recursive=true', function(err, tree) {
-
-                $.each(tree, function(treeKey, treeValue) {
-
-                    $path = treeValue['path'];
-                    $sha = treeValue['sha'];
-
-                    //console.log($path + ' == ' + $writepath);
-
-                    if ($path == $writepath) {
-                        console.log($json_dump)
-                        repo.writemanual($branch, $writepath, $json_dump, 'Update comedian info based on Google sheets at ' + current_time, $sha, function(err) {});
-                        console.log("writing 2:" + $writepath);
-                        //alert("saved " + $writepath);
-                    }
-                });
-            });
-
+          publish($products);
         }
     });
 
