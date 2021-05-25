@@ -2,88 +2,85 @@
 layout: default
 title: Update Spreadsheet
 ---
-
 <!--These are JavaScript Libraries-->
 <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/jquery-latest.min.js"></script>
 <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/utility.js"></script>
 <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/cookies.js"></script>
 <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/tabletop.js"></script>
 <script type="text/javascript" src="https://ggtkx.org/assets/js/github.js"></script>
-
 <h1>Update</h1>
 <script type="text/javascript">
+// Reset the cookie manually
+//Cookies.expire('token');
 
-    // Reset the cookie manually
-    //Cookies.expire('token');
+// URL: https://ggtkx.org/pull-sheet/?key=your_key&worksheet=worksheet_name&token=your_personal_access_token&org=your_org&repo=your_repo&branch=your_branch
 
-    // URL: https://ggtkx.org/pull-sheet/?key=your_key&worksheet=worksheet_name&token=your_personal_access_token&org=your_org&repo=your_repo&branch=your_branch
+// Incoming Variables append
+var $key = getUrlVar('key');
+var $resource = getUrlVar('worksheet');
+var $oAuthToken = getUrlVar('token');
+var $org = getUrlVar('org');
+var $repo = getUrlVar('repo');
+var $branch = getUrlVar('branch');
 
-    // Incoming Variables append
-    var $key = getUrlVar('key');
-    var $resource = getUrlVar('worksheet');
-    var $oAuthToken = getUrlVar('token');
-    var $org = getUrlVar('org');
-    var $repo = getUrlVar('repo');
-    var $branch = getUrlVar('branch');
+var $yaml_store = "";
 
-    var $yaml_store = "";
+if ($oAuthToken != '') {
+    // Setting a cookie value
+    Cookies.set('token', $oAuthToken);
+    // Set with expiration
+    // Cookies.set('token', $oAuthToken, { expires: '01/01/2017' });
+}
 
-    if($oAuthToken !='')
-      {
-      // Setting a cookie value
-      Cookies.set('token', $oAuthToken);
-      // Set with expiration
-      // Cookies.set('token', $oAuthToken, { expires: '01/01/2017' });
-      }
+// Grab the token from cookie
+$oAuthToken = Cookies.get('token');
 
-    // Grab the token from cookie
-    $oAuthToken = Cookies.get('token');
-
-    $(document).ready( function() {
-      Tabletop.init( { key: $key,
-                       callback: showInfo,
-                       wanted: [ $resource ],
-                       debug: true } )
+$(document).ready(function() {
+    Tabletop.init({
+        key: $key,
+        callback: showInfo,
+        wanted: [$resource],
+        debug: true
     })
+})
 
-    console.log($resource);
+console.log($resource);
 
-    function showInfo(data, tabletop) {
+function showInfo(data, tabletop) {
 
-      $products = new Array();
+    $products = new Array();
 
-      $("#table_info").text("We found the tables " + tabletop.model_names.join(", "));
+    $("#table_info").text("We found the tables " + tabletop.model_names.join(", "));
 
-      $.each( tabletop.sheets(), function(i, sheet) {
+    $.each(tabletop.sheets(), function(i, sheet) {
         $("#table_info").append("<p>" + sheet.name + " has " + sheet.column_names.join(", ") + "</p>");
-      });
+    });
 
-      $product = tabletop.sheets($resource).all();
+    $product = tabletop.sheets($resource).all();
 
-      $count = 0;
-      $total_count = $product.length;
-      $.each( tabletop.sheets($resource).all(), function(i, service) {
+    $count = 0;
+    $total_count = $product.length;
+    $.each(tabletop.sheets($resource).all(), function(i, service) {
 
-          $p = {};
-          $.each(service, function($key, $value) {
+        $p = {};
+        $.each(service, function($key, $value) {
             //console.log($key + ' == ' + $value);
             $p[$key] = $value;
-          });
-          $products.push($p);
+        });
+        $products.push($p);
 
-          $count++;
-          //console.log($count + ' == ' + $total_count);
-          if ($count==$total_count)
-            {
+        $count++;
+        //console.log($count + ' == ' + $total_count);
+        if ($count == $total_count) {
             $new_products = new Array();
             for (var index in $products) {
-              var current_person = $products[index];
-              if (current_person["image"] != "") {
-                if (current_person["contact"] != "") {
-                  current_person["contact"] = [current_person["contact"]]
+                var current_person = $products[index];
+                if (current_person["image"] != "") {
+                    if (current_person["contact"] != "") {
+                        current_person["contact"] = [current_person["contact"]]
+                    }
+                    $new_products.push(current_person)
                 }
-                $new_products.push(current_person)
-              }
             }
             $json_dump = JSON.stringify($new_products, null, 4);
             document.getElementById('source').value = $json_dump;
@@ -91,36 +88,34 @@ title: Update Spreadsheet
             // Grab the token from cookie
             $oAuthToken = Cookies.get('token');
 
-            var github = new Github({token: $oAuthToken,auth: "oauth"});
-            var repo = github.getRepo($org,$repo);
+            var github = new Github({ token: $oAuthToken, auth: "oauth" });
+            var repo = github.getRepo($org, $repo);
 
             $writepath = '_data/' + $resource + '.json';
             const current_time = Date.now()
-            repo.write($branch, $writepath, $json_dump, 'Update comedian info based on Google sheets at ' + current_time, function(err) { });
+            repo.write($branch, $writepath, $json_dump, 'Update comedian info based on Google sheets at ' + current_time, function(err) {});
             console.log("writing 1:" + $writepath);
             repo.getTree($branch + '?recursive=true', function(err, tree) {
 
-              $.each(tree, function(treeKey, treeValue) {
+                $.each(tree, function(treeKey, treeValue) {
 
-                $path = treeValue['path'];
-                $sha = treeValue['sha'];
+                    $path = treeValue['path'];
+                    $sha = treeValue['sha'];
 
-                //console.log($path + ' == ' + $writepath);
+                    //console.log($path + ' == ' + $writepath);
 
-                if($path==$writepath)
-                  {
-                  console.log($json_dump)
-                  repo.writemanual($branch, $writepath, $json_dump, 'Update comedian info based on Google sheets at ' + current_time, $sha, function(err) { });
-                  console.log("writing 2:" + $writepath);
-                  //alert("saved " + $writepath);
-                  }
+                    if ($path == $writepath) {
+                        console.log($json_dump)
+                        repo.writemanual($branch, $writepath, $json_dump, 'Update comedian info based on Google sheets at ' + current_time, $sha, function(err) {});
+                        console.log("writing 2:" + $writepath);
+                        //alert("saved " + $writepath);
+                    }
                 });
-              });
+            });
 
-            }
-      });
+        }
+    });
 
-    }
-
+}
 </script>
 <textarea cols="10" rows="5" id="source" style="border: 1px solid #000; width: 100%; height: 350px;"></textarea>
