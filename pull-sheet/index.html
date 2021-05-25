@@ -32,7 +32,7 @@ oAuthToken = Cookies.get('token');
 document.addEventListener("DOMContentLoaded", () => {
     Tabletop.init({
         key: key,
-        callback: showInfo,
+        callback: convert,
         wanted: [resource],
         debug: true
     })
@@ -88,7 +88,7 @@ function publish(people) {
   });
 }
 
-function showInfo(data, tabletop) {
+function convert(data, tabletop) {
     rows = tabletop.sheets(resource).all();
     people = new Array();
 
