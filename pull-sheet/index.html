@@ -13,6 +13,7 @@ title: Update Spreadsheet
 
 // URL: https://ggtkx.org/pull-sheet/?key=your_key&worksheet=worksheet_name&token=your_personal_access_token&org=your_org&repo=your_repo&branch=your_branch
 
+const multilined_properties = ["contact", "highlights"];
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const key = urlParams.get('key');
@@ -36,71 +37,53 @@ document.addEventListener("DOMContentLoaded", () => {
         wanted: [resource],
         debug: true
     })
-})
-
-console.log(resource);
-
-function publish(people) {
-  new_people = new Array();
-  for (let index in people) {
-      let current_person = people[index];
-      if (current_person["image"] != "") {
-          if (current_person["contact"] != "") {
-              current_person["contact"] = [current_person["contact"]]
-          }
-          new_people.push(current_person)
-      }
-  }
-  json_dump = JSON.stringify(new_people, null, 4);
-  document.getElementById('source').value = json_dump;
-
-  if (dry_run != '') {
-    console.log('Dry run. Will not commit.');
-    return;
-  }
-
-  // Grab the token from cookie
-  oAuthToken = Cookies.get('token');
-
-  let github = new Github({ token: oAuthToken, auth: "oauth" });
-  let repo = github.getRepo(org, repo_name);
-
-  writepath = '_data/' + resource + '.json';
-  const current_time = Date.now()
-  repo.write(branch, writepath, json_dump, 'Update comedian info based on Google sheets at ' + current_time, function(err) {});
-  console.log("writing 1:" + writepath);
-  repo.getTree(branch + '?recursive=true', function(err, tree) {
-
-      tree.forEach(treeValue => {
-
-          path = treeValue['path'];
-          sha = treeValue['sha'];
-
-          //console.log(path + ' == ' + writepath);
-
-          if (path == writepath) {
-              console.log(json_dump)
-              repo.writemanual(branch, writepath, json_dump, 'Update comedian info based on Google sheets at ' + current_time, sha, function(err) {});
-              console.log("writing 2:" + writepath);
-              //alert("saved " + writepath);
-          }
-      });
-  });
-}
+});
 
 function convert(data, tabletop) {
+    people = [];
     rows = tabletop.sheets(resource).all();
-    people = new Array();
-
-    rows.forEach(row => {
-        person = {};
-        for (const [key, value] of Object.entries(row)) {
-            person[key] = value;
-        };
-        people.push(person);
-        if (people.length == rows.length) {
-          publish(people);
+    rows.forEach(person => {
+        // Remove all empty properties.
+        for (const [key, value] of Object.entries(person)) {
+            if (value == "") {
+                delete person[key];
+            }
         }
+        // Skip people without images.
+        if (!("image" in person)) {
+            return;
+        }
+        // Split multilined properties into lists of strings.
+        multilined_properties.forEach(property => {
+            if (property in person) {
+                person[property] = person[property].split('\n');
+            }
+        })
+        people.push(person);
+    })
+    json = JSON.stringify(people, null, 4);
+    document.getElementById('source').value = json;
+    if (dry_run) {
+        console.log('Dry run. Will not commit.');
+        return;
+    }
+    publish(json);
+}
+
+function publish(json) {
+    // Grab the token from cookie
+    oAuthToken = Cookies.get('token');
+    github = new Github({ token: oAuthToken, auth: "oauth" });
+    repo = github.getRepo(org, repo_name);
+    writepath = '_data/' + resource + '.json';
+    const current_time = Date.now();
+    const message = 'Update comedian info based on Google sheets at ' + current_time;
+    repo.getTree(branch + '?recursive=true', (err, tree) => {
+        tree.forEach(treeValue => {
+            if (treeValue['path'] == writepath) {
+                repo.writemanual(branch, writepath, json, message, treeValue['sha'], err => {});
+            }
+        });
     });
 }
 </script>
