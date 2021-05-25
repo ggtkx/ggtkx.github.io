@@ -63,7 +63,7 @@ function publish(people) {
   oAuthToken = Cookies.get('token');
 
   let github = new Github({ token: oAuthToken, auth: "oauth" });
-  let repo = github.getRepo(org, repo);
+  let repo = github.getRepo(org, repo_name);
 
   writepath = '_data/' + resource + '.json';
   const current_time = Date.now()
