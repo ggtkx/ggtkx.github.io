@@ -16,14 +16,14 @@ title: Update Spreadsheet
 // URL: https://ggtkx.org/pull-sheet/?key=your_key&worksheet=worksheet_name&token=your_personal_access_token&org=your_org&repo=your_repo&branch=your_branch
 
 // Incoming Variables append
-var $key = getUrlVar('key');
-var $resource = getUrlVar('worksheet');
-var $oAuthToken = getUrlVar('token');
-var $org = getUrlVar('org');
-var $repo = getUrlVar('repo');
-var $branch = getUrlVar('branch');
+let $key = getUrlVar('key');
+let $resource = getUrlVar('worksheet');
+let $oAuthToken = getUrlVar('token');
+let $org = getUrlVar('org');
+let $repo = getUrlVar('repo');
+let $branch = getUrlVar('branch');
 
-var $yaml_store = "";
+let $yaml_store = "";
 
 if ($oAuthToken != '') {
     // Setting a cookie value
@@ -73,8 +73,8 @@ function showInfo(data, tabletop) {
         //console.log($count + ' == ' + $total_count);
         if ($count == $total_count) {
             $new_products = new Array();
-            for (var index in $products) {
-                var current_person = $products[index];
+            for (let index in $products) {
+                let current_person = $products[index];
                 if (current_person["image"] != "") {
                     if (current_person["contact"] != "") {
                         current_person["contact"] = [current_person["contact"]]
@@ -88,8 +88,8 @@ function showInfo(data, tabletop) {
             // Grab the token from cookie
             $oAuthToken = Cookies.get('token');
 
-            var github = new Github({ token: $oAuthToken, auth: "oauth" });
-            var repo = github.getRepo($org, $repo);
+            let github = new Github({ token: $oAuthToken, auth: "oauth" });
+            let repo = github.getRepo($org, $repo);
 
             $writepath = '_data/' + $resource + '.json';
             const current_time = Date.now()
