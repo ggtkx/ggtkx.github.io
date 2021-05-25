@@ -3,7 +3,6 @@ layout: default
 title: Update Spreadsheet
 ---
 <!--These are JavaScript Libraries-->
-<script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/utility.js"></script>
 <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/cookies.js"></script>
 <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/tabletop.js"></script>
 <script type="text/javascript" src="https://ggtkx.org/assets/js/github.js"></script>
@@ -14,24 +13,19 @@ title: Update Spreadsheet
 
 // URL: https://ggtkx.org/pull-sheet/?key=your_key&worksheet=worksheet_name&token=your_personal_access_token&org=your_org&repo=your_repo&branch=your_branch
 
-// Incoming Variables append
-let key = getUrlVar('key');
-let resource = getUrlVar('worksheet');
-let oAuthToken = getUrlVar('token');
-let org = getUrlVar('org');
-let repo = getUrlVar('repo');
-let branch = getUrlVar('branch');
-let dry_run = getUrlVar('dry_run');
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const key = urlParams.get('key');
+const resource = urlParams.get('worksheet');
+const org = urlParams.get('org');
+const repo_name = urlParams.get('repo');
+const branch = urlParams.get('branch');
+const dry_run = urlParams.has('dry_run');
 
-let yaml_store = "";
-
+let oAuthToken = urlParams.get('token');
 if (oAuthToken != '') {
-    // Setting a cookie value
     Cookies.set('token', oAuthToken);
-    // Set with expiration
-    // Cookies.set('token', oAuthToken, { expires: '01/01/2017' });
 }
-
 // Grab the token from cookie
 oAuthToken = Cookies.get('token');
 
