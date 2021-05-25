@@ -3,8 +3,7 @@
         "title": "Aaron",
         "weight": "37",
         "image": "https://i.imgur.com/puBEgwz.png",
-        "description": "白天演程序员 晚上演脱口秀",
-        "contact": ""
+        "description": "白天演程序员 晚上演脱口秀"
     },
     {
         "title": "早恋",
@@ -64,15 +63,13 @@
         "title": "小企鹅 Lisa",
         "weight": "14",
         "image": "https://i.imgur.com/IOg9VMj.png",
-        "description": "我是小企鹅 Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~",
-        "contact": ""
+        "description": "我是小企鹅 Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~"
     },
     {
         "title": "小朱",
         "weight": "14",
         "image": "https://i.imgur.com/gSysgyB.png",
-        "description": "大家好我叫小朱，my English name is Sandeep",
-        "contact": ""
+        "description": "大家好我叫小朱，my English name is Sandeep"
     },
     {
         "title": "兔子特特",
@@ -90,21 +87,23 @@
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
         "contact": [
             "[个人主页](https://myli.page)"
+        ],
+        "highlights": [
+            "- [拿“拖泥带水”造个句。他说：“爬山好热呀！托尼，带水了吗？”](https://youtu.be/UV0gTHfLdrU)",
+            "- [酒肉穿肠过，化作相思泪。](https://youtu.be/9X5QyQHBpPE)"
         ]
     },
     {
         "title": "大国",
         "weight": "9",
         "image": "https://i.imgur.com/LzaNx8t.png",
-        "description": "硅谷脱口秀，你讲段子的理想港湾！",
-        "contact": ""
+        "description": "硅谷脱口秀，你讲段子的理想港湾！"
     },
     {
         "title": "詹姆斯",
         "weight": "8",
         "image": "https://i.imgur.com/gTRZYM0.png",
-        "description": "打了疫苗的小胖子~",
-        "contact": ""
+        "description": "打了疫苗的小胖子~"
     },
     {
         "title": "邵远",
@@ -128,8 +127,7 @@
         "title": "王大拿",
         "weight": "6",
         "image": "https://i.imgur.com/tyc7toZ.png",
-        "description": "集美貌与智慧于一身",
-        "contact": ""
+        "description": "集美貌与智慧于一身"
     },
     {
         "title": "萌萌",
@@ -144,8 +142,7 @@
         "title": "睡不醒",
         "weight": "4",
         "image": "https://i.imgur.com/ZO4EMEq.png",
-        "description": "早恋你为什么总针对我喷垃圾话？",
-        "contact": ""
+        "description": "早恋你为什么总针对我喷垃圾话？"
     },
     {
         "title": "丝丝",
@@ -160,8 +157,7 @@
         "title": "拉面",
         "weight": "4",
         "image": "https://imgur.com/F5p49Uql.png",
-        "description": "辩论靠段子，脱口秀靠逻辑。",
-        "contact": ""
+        "description": "辩论靠段子，脱口秀靠逻辑。"
     },
     {
         "title": "尹航",
@@ -185,50 +181,42 @@
         "title": "赵老师",
         "weight": "3",
         "image": "https://i.imgur.com/mznM741.png",
-        "description": "我哦，开开心心最重要！",
-        "contact": ""
+        "description": "我哦，开开心心最重要！"
     },
     {
         "title": "Chloe",
         "weight": "2",
-        "image": "https://i.imgur.com/B60VWOE.png",
-        "description": "",
-        "contact": ""
+        "image": "https://i.imgur.com/B60VWOE.png"
     },
     {
         "title": "小V",
         "weight": "1",
         "image": "https://i.imgur.com/M0HNbdR.png",
-        "description": "喜爱街健请联系我",
-        "contact": ""
+        "description": "喜爱街健请联系我"
     },
     {
         "title": "小明",
         "weight": "1",
         "image": "https://i.imgur.com/hyvlB26.png",
-        "description": "跟我走吧，天亮就出发",
-        "contact": ""
+        "description": "跟我走吧，天亮就出发"
     },
     {
         "title": "Sky",
         "weight": "1",
         "image": "https://i.imgur.com/gUvlV5a.png",
-        "description": "我家有好多事我真的是不吐不快",
-        "contact": ""
+        "description": "我家有好多事我真的是不吐不快"
     },
     {
         "title": "平俊哲",
         "weight": "1",
         "image": "https://i.imgur.com/ss9oyjU.png",
-        "description": "新加坡英语新加坡汉语都很6",
-        "contact": ""
+        "description": "新加坡英语新加坡汉语都很6"
     },
     {
         "title": "戴智开",
         "weight": "1",
         "image": "https://i.imgur.com/M7wFRow.png",
-        "description": "我在东部有时差，你们先多说说",
-        "contact": ""
+        "description": "我在东部有时差，你们先多说说"
     },
     {
         "title": "keke",
@@ -243,7 +231,6 @@
         "title": "费费",
         "weight": "0",
         "image": "https://i.imgur.com/oGuVFF7.png",
-        "description": "还在憋段子的伪脱口秀演员",
-        "contact": ""
+        "description": "还在憋段子的伪脱口秀演员"
     }
 ]
