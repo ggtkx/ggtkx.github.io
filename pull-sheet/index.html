@@ -16,97 +16,97 @@ title: Update Spreadsheet
 // URL: https://ggtkx.org/pull-sheet/?key=your_key&worksheet=worksheet_name&token=your_personal_access_token&org=your_org&repo=your_repo&branch=your_branch
 
 // Incoming Variables append
-let $key = getUrlVar('key');
-let $resource = getUrlVar('worksheet');
-let $oAuthToken = getUrlVar('token');
-let $org = getUrlVar('org');
-let $repo = getUrlVar('repo');
-let $branch = getUrlVar('branch');
-let $dry_run = getUrlVar('dry_run');
+let key = getUrlVar('key');
+let resource = getUrlVar('worksheet');
+let oAuthToken = getUrlVar('token');
+let org = getUrlVar('org');
+let repo = getUrlVar('repo');
+let branch = getUrlVar('branch');
+let dry_run = getUrlVar('dry_run');
 
-let $yaml_store = "";
+let yaml_store = "";
 
-if ($oAuthToken != '') {
+if (oAuthToken != '') {
     // Setting a cookie value
-    Cookies.set('token', $oAuthToken);
+    Cookies.set('token', oAuthToken);
     // Set with expiration
-    // Cookies.set('token', $oAuthToken, { expires: '01/01/2017' });
+    // Cookies.set('token', oAuthToken, { expires: '01/01/2017' });
 }
 
 // Grab the token from cookie
-$oAuthToken = Cookies.get('token');
+oAuthToken = Cookies.get('token');
 
 $(document).ready(function() {
     Tabletop.init({
-        key: $key,
+        key: key,
         callback: showInfo,
-        wanted: [$resource],
+        wanted: [resource],
         debug: true
     })
 })
 
-console.log($resource);
+console.log(resource);
 
-function publish($people) {
-  $new_people = new Array();
-  for (let index in $people) {
-      let current_person = $people[index];
+function publish(people) {
+  new_people = new Array();
+  for (let index in people) {
+      let current_person = people[index];
       if (current_person["image"] != "") {
           if (current_person["contact"] != "") {
               current_person["contact"] = [current_person["contact"]]
           }
-          $new_people.push(current_person)
+          new_people.push(current_person)
       }
   }
-  $json_dump = JSON.stringify($new_people, null, 4);
-  document.getElementById('source').value = $json_dump;
+  json_dump = JSON.stringify(new_people, null, 4);
+  document.getElementById('source').value = json_dump;
 
-  if ($dry_run != '') {
+  if (dry_run != '') {
     console.log('Dry run. Will not commit.');
     return;
   }
 
   // Grab the token from cookie
-  $oAuthToken = Cookies.get('token');
+  oAuthToken = Cookies.get('token');
 
-  let github = new Github({ token: $oAuthToken, auth: "oauth" });
-  let repo = github.getRepo($org, $repo);
+  let github = new Github({ token: oAuthToken, auth: "oauth" });
+  let repo = github.getRepo(org, repo);
 
-  $writepath = '_data/' + $resource + '.json';
+  writepath = '_data/' + resource + '.json';
   const current_time = Date.now()
-  repo.write($branch, $writepath, $json_dump, 'Update comedian info based on Google sheets at ' + current_time, function(err) {});
-  console.log("writing 1:" + $writepath);
-  repo.getTree($branch + '?recursive=true', function(err, tree) {
+  repo.write(branch, writepath, json_dump, 'Update comedian info based on Google sheets at ' + current_time, function(err) {});
+  console.log("writing 1:" + writepath);
+  repo.getTree(branch + '?recursive=true', function(err, tree) {
 
-      $.each(tree, function(treeKey, treeValue) {
+      .each(tree, function(treeKey, treeValue) {
 
-          $path = treeValue['path'];
-          $sha = treeValue['sha'];
+          path = treeValue['path'];
+          sha = treeValue['sha'];
 
-          //console.log($path + ' == ' + $writepath);
+          //console.log(path + ' == ' + writepath);
 
-          if ($path == $writepath) {
-              console.log($json_dump)
-              repo.writemanual($branch, $writepath, $json_dump, 'Update comedian info based on Google sheets at ' + current_time, $sha, function(err) {});
-              console.log("writing 2:" + $writepath);
-              //alert("saved " + $writepath);
+          if (path == writepath) {
+              console.log(json_dump)
+              repo.writemanual(branch, writepath, json_dump, 'Update comedian info based on Google sheets at ' + current_time, sha, function(err) {});
+              console.log("writing 2:" + writepath);
+              //alert("saved " + writepath);
           }
       });
   });
 }
 
 function showInfo(data, tabletop) {
-    $rows = tabletop.sheets($resource).all();
-    $people = new Array();
+    rows = tabletop.sheets(resource).all();
+    people = new Array();
 
-    $.each($rows, function(i, row) {
-        $person = {};
-        $.each(row, function($key, $value) {
-            $person[$key] = $value;
+    .each(rows, function(i, row) {
+        person = {};
+        .each(row, function(key, value) {
+            person[key] = value;
         });
-        $people.push($person);
-        if ($people.length == $rows.length) {
-          publish($people);
+        people.push(person);
+        if (people.length == rows.length) {
+          publish(people);
         }
     });
 }
