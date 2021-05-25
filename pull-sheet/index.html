@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function convert(data, tabletop) {
-    people = [];
-    rows = tabletop.sheets(resource).all();
+    const people = [];
+    const rows = tabletop.sheets(resource).all();
     rows.forEach(person => {
         // Remove all empty properties.
         for (const [key, value] of Object.entries(person)) {
@@ -61,7 +61,7 @@ function convert(data, tabletop) {
         })
         people.push(person);
     })
-    json = JSON.stringify(people, null, 4);
+    const json = JSON.stringify(people, null, 4);
     document.getElementById('source').value = json;
     if (dry_run) {
         console.log('Dry run. Will not commit.');
@@ -72,10 +72,10 @@ function convert(data, tabletop) {
 
 function publish(json) {
     // Grab the token from cookie
-    oAuthToken = Cookies.get('token');
-    github = new Github({ token: oAuthToken, auth: "oauth" });
-    repo = github.getRepo(org, repo_name);
-    writepath = '_data/' + resource + '.json';
+    const oAuthToken = Cookies.get('token');
+    const github = new Github({ token: oAuthToken, auth: "oauth" });
+    const repo = github.getRepo(org, repo_name);
+    const writepath = '_data/' + resource + '.json';
     const current_time = Date.now();
     const message = 'Update comedian info based on Google sheets at ' + current_time;
     repo.getTree(branch + '?recursive=true', (err, tree) => {
