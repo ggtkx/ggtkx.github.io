@@ -71,7 +71,7 @@ function publish(people) {
   console.log("writing 1:" + writepath);
   repo.getTree(branch + '?recursive=true', function(err, tree) {
 
-      .each(tree, function(treeKey, treeValue) {
+      tree.forEach(treeValue => {
 
           path = treeValue['path'];
           sha = treeValue['sha'];
@@ -92,11 +92,11 @@ function showInfo(data, tabletop) {
     rows = tabletop.sheets(resource).all();
     people = new Array();
 
-    .each(rows, function(i, row) {
+    rows.forEach(row => {
         person = {};
-        .each(row, function(key, value) {
+        for (const [key, value] of Object.entries(row)) {
             person[key] = value;
-        });
+        };
         people.push(person);
         if (people.length == rows.length) {
           publish(people);
