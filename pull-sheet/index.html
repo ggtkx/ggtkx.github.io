@@ -3,7 +3,6 @@ layout: default
 title: Update Spreadsheet
 ---
 <!--These are JavaScript Libraries-->
-<script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/jquery-latest.min.js"></script>
 <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/utility.js"></script>
 <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/cookies.js"></script>
 <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/tabletop.js"></script>
@@ -36,7 +35,7 @@ if (oAuthToken != '') {
 // Grab the token from cookie
 oAuthToken = Cookies.get('token');
 
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", () => {
     Tabletop.init({
         key: key,
         callback: showInfo,
