@@ -7,7 +7,7 @@
     },
     {
         "title": "早恋",
-        "weight": "30",
+        "weight": "31",
         "image": "https://i.imgur.com/mSfLTWx.png",
         "description": "临渊羡鱼，不如退而结网。",
         "contact": [
@@ -82,7 +82,7 @@
     },
     {
         "title": "黎明洋",
-        "weight": "10",
+        "weight": "11",
         "image": "https://i.imgur.com/8kHVjfD.png",
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
         "contact": [
@@ -139,12 +139,6 @@
         ]
     },
     {
-        "title": "睡不醒",
-        "weight": "4",
-        "image": "https://i.imgur.com/ZO4EMEq.png",
-        "description": "早恋你为什么总针对我喷垃圾话？"
-    },
-    {
         "title": "丝丝",
         "weight": "4",
         "image": "https://i.imgur.com/eCMvhmf.png",
@@ -160,13 +154,10 @@
         "description": "辩论靠段子，脱口秀靠逻辑。"
     },
     {
-        "title": "尹航",
-        "weight": "3",
-        "image": "https://i.imgur.com/AikgWGF.png",
-        "description": "2012年赴美上山下乡；2014年分配到加州参加工作；2020年开始随硅谷脱口文工团进行慰问演出",
-        "contact": [
-            "知乎: [hang yin](http://www.zhihu.com/people/hang-yin-72-38)"
-        ]
+        "title": "睡不醒",
+        "weight": "4",
+        "image": "https://i.imgur.com/ZO4EMEq.png",
+        "description": "早恋你为什么总针对我喷垃圾话？"
     },
     {
         "title": "何能能",
@@ -175,6 +166,15 @@
         "description": "就是很能",
         "contact": [
             "社交媒体：直接报我身份证号吧"
+        ]
+    },
+    {
+        "title": "尹航",
+        "weight": "3",
+        "image": "https://i.imgur.com/AikgWGF.png",
+        "description": "2012年赴美上山下乡；2014年分配到加州参加工作；2020年开始随硅谷脱口文工团进行慰问演出",
+        "contact": [
+            "知乎: [hang yin](http://www.zhihu.com/people/hang-yin-72-38)"
         ]
     },
     {
@@ -189,6 +189,21 @@
         "image": "https://i.imgur.com/B60VWOE.png"
     },
     {
+        "title": "keke",
+        "weight": "1",
+        "image": "https://i.imgur.com/UQ0tOnk.png",
+        "description": "可可爱爱就是我！",
+        "contact": [
+            "Instagram: [ringwring](https://www.instagram.com/ringwring/)"
+        ]
+    },
+    {
+        "title": "Sky",
+        "weight": "1",
+        "image": "https://i.imgur.com/gUvlV5a.png",
+        "description": "我家有好多事我真的是不吐不快"
+    },
+    {
         "title": "小V",
         "weight": "1",
         "image": "https://i.imgur.com/M0HNbdR.png",
@@ -201,12 +216,6 @@
         "description": "跟我走吧，天亮就出发"
     },
     {
-        "title": "Sky",
-        "weight": "1",
-        "image": "https://i.imgur.com/gUvlV5a.png",
-        "description": "我家有好多事我真的是不吐不快"
-    },
-    {
         "title": "平俊哲",
         "weight": "1",
         "image": "https://i.imgur.com/ss9oyjU.png",
@@ -217,15 +226,6 @@
         "weight": "1",
         "image": "https://i.imgur.com/M7wFRow.png",
         "description": "我在东部有时差，你们先多说说"
-    },
-    {
-        "title": "keke",
-        "weight": "1",
-        "image": "https://i.imgur.com/UQ0tOnk.png",
-        "description": "可可爱爱就是我！",
-        "contact": [
-            "Instagram: [ringwring](https://www.instagram.com/ringwring/)"
-        ]
     },
     {
         "title": "费费",
