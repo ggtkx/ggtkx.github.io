@@ -13,6 +13,13 @@
         {% endfor %}
         </ul>
       {% endif %}
+      {% if comedian.highlights.size > 0 %}
+        <ul class="comedian-highlights">
+        {% for highlight in comedian.highlights %}
+          <li>{{ highlight | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
     </div>
   </div>
 </div>

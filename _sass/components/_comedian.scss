@@ -27,13 +27,19 @@
     color: #555;
     margin-bottom: 20px;
   }
-  .comedian-description, .comedian-contact {
+  .comedian-description, .comedian-contact, .comedian-highlights {
     padding: 0 30px;
     width: 100%;
     display: inline-block;
   }
   .comedian-contact {
     background-color: $white-offset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-position: inside;
+    box-sizing: border-box;
+  }
+  .comedian-highlights {
     padding-top: 20px;
     padding-bottom: 20px;
     list-style-position: inside;
