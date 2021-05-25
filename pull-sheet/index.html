@@ -47,18 +47,18 @@ $(document).ready(function() {
 
 console.log($resource);
 
-function publish($products) {
-  $new_products = new Array();
-  for (let index in $products) {
-      let current_person = $products[index];
+function publish($people) {
+  $new_people = new Array();
+  for (let index in $people) {
+      let current_person = $people[index];
       if (current_person["image"] != "") {
           if (current_person["contact"] != "") {
               current_person["contact"] = [current_person["contact"]]
           }
-          $new_products.push(current_person)
+          $new_people.push(current_person)
       }
   }
-  $json_dump = JSON.stringify($new_products, null, 4);
+  $json_dump = JSON.stringify($new_people, null, 4);
   document.getElementById('source').value = $json_dump;
 
   if ($dry_run != '') {
@@ -96,35 +96,19 @@ function publish($products) {
 }
 
 function showInfo(data, tabletop) {
+    $rows = tabletop.sheets($resource).all();
+    $people = new Array();
 
-    $products = new Array();
-
-    $("#table_info").text("We found the tables " + tabletop.model_names.join(", "));
-
-    $.each(tabletop.sheets(), function(i, sheet) {
-        $("#table_info").append("<p>" + sheet.name + " has " + sheet.column_names.join(", ") + "</p>");
-    });
-
-    $product = tabletop.sheets($resource).all();
-
-    $count = 0;
-    $total_count = $product.length;
-    $.each(tabletop.sheets($resource).all(), function(i, service) {
-
-        $p = {};
-        $.each(service, function($key, $value) {
-            //console.log($key + ' == ' + $value);
-            $p[$key] = $value;
+    $.each($rows, function(i, row) {
+        $person = {};
+        $.each(row, function($key, $value) {
+            $person[$key] = $value;
         });
-        $products.push($p);
-
-        $count++;
-        //console.log($count + ' == ' + $total_count);
-        if ($count == $total_count) {
-          publish($products);
+        $people.push($person);
+        if ($people.length == $rows.length) {
+          publish($people);
         }
     });
-
 }
 </script>
 <textarea cols="10" rows="5" id="source" style="border: 1px solid #000; width: 100%; height: 350px;"></textarea>
