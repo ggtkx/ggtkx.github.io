@@ -20,11 +20,7 @@ permalink: /become/
 - 在异乡旅行时，有什么意外经历，让你回味无穷？
 - 与朋友聊天，有过什么机智、有趣的对话？
 
-**尽量用自己的亲身经历。**自己的经历，比起编造的故事来，写起来更得心应手，演出来也更容易感染观众。此外，您也可以编造一个故事。
-
-- “猜猜我是谁？”你从后面捂住了 ta 的眼睛，以为 ta 是你的朋友。结果，ta 其实是个陌生人！这时，ta 转过身来，说……
-- 我们本来在……，但是忽然停电了。这时，有人……
-- [更多写作提示（writing prompts）](https://blog.reedsy.com/short-story-ideas/comedy/)
+**尽量用自己的亲身经历。**自己的经历，比起编造的故事来，写起来更得心应手，演出来也更容易感染观众。此外，您也可以编造一个故事。[^1]
 
 **需要帮助？**您可以联系我们的微信公众号 `svcomedy`。我们的志愿者可以帮您一对一完善稿子！
 
@@ -47,13 +43,13 @@ permalink: /become/
 
 事实是，你的每个故事，都会有人会觉得好笑，也有人会觉得不好笑。想要知道你的故事到底能不能至少逗笑一个人，只能把它讲出来。
 
-实验段子好不好笑的场合，叫作“开放麦”。每周五（西部时间）晚八点，《硅谷脱口秀》举办开放麦活动，欢迎您来报名——我们的微信公众号是 `svcomedy`。
+实验段子好不好笑的场合，叫作“开放麦”。每周五（西部时间）晚八点，《硅谷脱口秀》举办开放麦活动，欢迎您来报名——请联系我们的微信公众号 `svcomedy`[^2]。
 
 您可以无限重复第一、二步，直到您有足够的信心来踏出下一步。
 
 # 第三步：表演
 
-准备得如此充分，为什么不来一场演出呢？同样地，请联系我们的微信公众号 `svcomedy`。
+准备得如此充分，为什么不来一场演出呢？同样地，请联系我们的微信公众号 `svcomedy`[^2]。
 
 # 未来：正式学习
 
@@ -62,3 +58,12 @@ permalink: /become/
 - 书籍《[手把手教你玩脱口秀](https://www.goodreads.com/book/show/37943569)》。可在[豆瓣](https://book.douban.com/subject/27617213/)、[Amazon](https://www.amazon.com/Step-Stand-Up-Comedy-Revised/dp/0989735176) 上找到。
 - 书籍《[The Comedy Bible](https://www.goodreads.com/book/show/228732)》。可在 [Amazon](https://www.amazon.com/Comedy-Bible-Stand-up-Sitcom-Ultimate/dp/0743201256) 上找到。
 - 课程《[单立人学院](http://www.danlirencomedy.com/dlrxy)》。
+
+
+[^1]: 一些[写作提示（writing prompts）](https://blog.reedsy.com/short-story-ideas/comedy/)：
+    - “猜猜我是谁？”你从后面捂住了 ta 的眼睛，以为 ta 是你的朋友。结果，ta 其实是个陌生人！这时，ta 转过身来，说……
+    - 我们本来在……，但是忽然停电了。这时，有人……
+
+[^2]: 微信公众号二维码：
+    <img alt="微信公众号二维码" src="https://imgur.com/UAjnF2l.png" height=200 />
+
