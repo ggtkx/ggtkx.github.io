@@ -1,4 +1,5 @@
-# Website for _Chinese Comedy at Silicon Valley_
+# Website for the _Chinese Comedy at Silicon Valley_
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/ggtkx/ggtkx.github.io/main.svg)](https://results.pre-commit.ci/latest/github/ggtkx/ggtkx.github.io/main)
 
 The website is deployed to [GitHub pages](https://ggtkx.github.io/) and is served at [ggtkx.org](http://ggtkx.org/en/).
 
