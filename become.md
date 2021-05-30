@@ -66,4 +66,3 @@ permalink: /become/
 
 [^2]: 微信公众号二维码：
     <img alt="微信公众号二维码" src="https://imgur.com/UAjnF2l.png" height=200 />
-
