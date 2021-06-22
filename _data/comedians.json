@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": "37",
+        "weight": "38",
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀"
     },
@@ -24,21 +24,21 @@
         ]
     },
     {
+        "title": "Tracy",
+        "weight": "21",
+        "image": "https://i.imgur.com/EjEYK7y.png",
+        "description": "生活=经历 经历=段子 生活=段子",
+        "contact": [
+            "微信： `51423369`"
+        ]
+    },
+    {
         "title": "Monkey",
         "weight": "20",
         "image": "https://i.imgur.com/rIg21xp.png",
         "description": "想成为带来欢笑和温暖的人。猫狗双全，差一人组成狗男女。大大方方说：我要找男朋友 （感谢社长让在这谋私利）",
         "contact": [
             "Instagram: [bigmonkeyma](https://www.instagram.com/bigmonkeyma/)"
-        ]
-    },
-    {
-        "title": "Tracy",
-        "weight": "20",
-        "image": "https://i.imgur.com/EjEYK7y.png",
-        "description": "生活=经历 经历=段子 生活=段子",
-        "contact": [
-            "微信： `51423369`"
         ]
     },
     {
@@ -73,7 +73,7 @@
     },
     {
         "title": "兔子特特",
-        "weight": "11",
+        "weight": "13",
         "image": "https://imgur.com/J3uXn3Gl.png",
         "description": "中年少女一枚。在家对娃脱口训在外对你脱口秀！你快乐所以我快乐～～",
         "contact": [
@@ -82,7 +82,7 @@
     },
     {
         "title": "黎明洋",
-        "weight": "11",
+        "weight": "13",
         "image": "https://i.imgur.com/8kHVjfD.png",
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
         "contact": [
@@ -124,19 +124,19 @@
         ]
     },
     {
-        "title": "王大拿",
-        "weight": "6",
-        "image": "https://i.imgur.com/tyc7toZ.png",
-        "description": "集美貌与智慧于一身"
-    },
-    {
         "title": "萌萌",
-        "weight": "6",
+        "weight": "7",
         "image": "https://imgur.com/pFidyoJ.png",
         "description": "中年妇女。",
         "contact": [
             "抖音： `@gongsunmengmeng`"
         ]
+    },
+    {
+        "title": "王大拿",
+        "weight": "6",
+        "image": "https://i.imgur.com/tyc7toZ.png",
+        "description": "集美貌与智慧于一身"
     },
     {
         "title": "丝丝",
