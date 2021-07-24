@@ -201,7 +201,10 @@
         "title": "Larry",
         "weight": "2",
         "image": "https://i.imgur.com/KJJz7Ek.png",
-        "description": "毁人不倦的中文老湿"
+        "description": "毁人不倦的中文老湿",
+        "contact": [
+            "[俺的学校](https://www.sanjoselearningcenter.com)"
+        ]
     },
     {
         "title": "jinn",
@@ -209,7 +212,7 @@
         "image": "https://i.imgur.com/0p0xsKo.jpg",
         "description": "就这么着吧（这句就不用了）",
         "contact": [
-            "Linkedin:`https://www.linkedin.com/in/jin-liu-a5b697140`"
+            "Linkedin:[Jin Liu](https://www.linkedin.com/in/jin-liu-a5b697140)"
         ]
     },
     {
