@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": "38",
+        "weight": "40",
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -10,7 +10,7 @@
     },
     {
         "title": "早恋",
-        "weight": "31",
+        "weight": "32",
         "image": "https://i.imgur.com/mSfLTWx.png",
         "description": "临渊羡鱼，不如退而结网。",
         "contact": [
@@ -28,7 +28,7 @@
     },
     {
         "title": "Tracy",
-        "weight": "21",
+        "weight": "25",
         "image": "https://i.imgur.com/EjEYK7y.png",
         "description": "生活=经历 经历=段子 生活=段子",
         "contact": [
@@ -37,7 +37,7 @@
     },
     {
         "title": "Monkey",
-        "weight": "20",
+        "weight": "21",
         "image": "https://i.imgur.com/rIg21xp.png",
         "description": "想成为带来欢笑和温暖的人。猫狗双全，差一人组成狗男女。大大方方说：我要找男朋友 （感谢社长让在这谋私利）",
         "contact": [
@@ -46,11 +46,24 @@
     },
     {
         "title": "方圆",
-        "weight": "16",
+        "weight": "17",
         "image": "https://i.imgur.com/VcpirXv.png",
         "description": "躁起来呗",
         "contact": [
             "Clubhouse ID: `fangyuanj`"
+        ]
+    },
+    {
+        "title": "黎明洋",
+        "weight": "16",
+        "image": "https://i.imgur.com/8kHVjfD.png",
+        "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
+        "contact": [
+            "[个人主页](https://myli.page)"
+        ],
+        "highlights": [
+            "[用“拖泥带水”造句：“托尼，带水了吗？”](https://youtu.be/UV0gTHfLdrU)",
+            "[酒肉穿肠过，化作相思泪。](https://youtu.be/9X5QyQHBpPE)"
         ]
     },
     {
@@ -64,19 +77,13 @@
     },
     {
         "title": "小企鹅 Lisa",
-        "weight": "14",
+        "weight": "15",
         "image": "https://i.imgur.com/IOg9VMj.png",
         "description": "我是小企鹅 Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~"
     },
     {
-        "title": "小朱",
-        "weight": "14",
-        "image": "https://i.imgur.com/gSysgyB.png",
-        "description": "大家好我叫小朱，my English name is Sandeep"
-    },
-    {
         "title": "兔子特特",
-        "weight": "13",
+        "weight": "15",
         "image": "https://imgur.com/J3uXn3Gl.png",
         "description": "中年少女一枚。在家对娃脱口训在外对你脱口秀！你快乐所以我快乐～～",
         "contact": [
@@ -84,17 +91,10 @@
         ]
     },
     {
-        "title": "黎明洋",
-        "weight": "13",
-        "image": "https://i.imgur.com/8kHVjfD.png",
-        "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
-        "contact": [
-            "[个人主页](https://myli.page)"
-        ],
-        "highlights": [
-            "[用“拖泥带水”造句：“托尼，带水了吗？”](https://youtu.be/UV0gTHfLdrU)",
-            "[酒肉穿肠过，化作相思泪。](https://youtu.be/9X5QyQHBpPE)"
-        ]
+        "title": "小朱",
+        "weight": "14",
+        "image": "https://i.imgur.com/gSysgyB.png",
+        "description": "大家好我叫小朱，my English name is Sandeep"
     },
     {
         "title": "大国",
@@ -140,6 +140,12 @@
         "weight": "6",
         "image": "https://i.imgur.com/tyc7toZ.png",
         "description": "集美貌与智慧于一身"
+    },
+    {
+        "title": "Timur",
+        "weight": "5",
+        "image": "https://i.imgur.com/o0y7QF2.jpg",
+        "description": "筚路蓝缕，以启山林；吃喝玩乐，醉生梦死。"
     },
     {
         "title": "丝丝",
@@ -193,9 +199,18 @@
     },
     {
         "title": "Larry",
-        "weight": "1",
+        "weight": "2",
         "image": "https://i.imgur.com/KJJz7Ek.png",
         "description": "毁人不倦的中文老湿"
+    },
+    {
+        "title": "jinn",
+        "weight": "1",
+        "image": "https://i.imgur.com/0p0xsKo.jpg",
+        "description": "就这么着吧（这句就不用了）",
+        "contact": [
+            "Linkedin:`https://www.linkedin.com/in/jin-liu-a5b697140`"
+        ]
     },
     {
         "title": "平俊哲",
@@ -235,6 +250,12 @@
         "weight": "1",
         "image": "https://i.imgur.com/hyvlB26.png",
         "description": "跟我走吧，天亮就出发"
+    },
+    {
+        "title": "Whoaaaa",
+        "weight": "1",
+        "image": "https://i.imgur.com/Wzr0KQF.png",
+        "description": "吐槽生活好好玩哦～"
     },
     {
         "title": "费费",
