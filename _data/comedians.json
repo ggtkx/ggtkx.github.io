@@ -61,7 +61,7 @@
     },
     {
         "title": "黎明洋",
-        "weight": "16",
+        "weight": "17",
         "image": "https://i.imgur.com/8kHVjfD.png",
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
         "contact": [
@@ -176,7 +176,7 @@
     },
     {
         "title": "丝丝",
-        "weight": "4",
+        "weight": "5",
         "image": "https://i.imgur.com/eCMvhmf.png",
         "description": "不讲脱口秀的时候我都在帮客户抢房子",
         "contact": [
@@ -250,6 +250,12 @@
         ]
     },
     {
+        "title": "大花儿",
+        "weight": "2",
+        "image": "https://i.imgur.com/Wzr0KQF.png",
+        "description": "吐槽生活好好玩哦～"
+    },
+    {
         "title": "jinn",
         "weight": "1",
         "image": "https://i.imgur.com/0p0xsKo.jpg",
@@ -305,12 +311,6 @@
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nGUew6HQb2e9WlfbaNWK9M)"
         ]
-    },
-    {
-        "title": "Whoaaaa",
-        "weight": "1",
-        "image": "https://i.imgur.com/Wzr0KQF.png",
-        "description": "吐槽生活好好玩哦～"
     },
     {
         "title": "费费",
