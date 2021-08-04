@@ -15,9 +15,10 @@ repos:
     -   id: check-symlinks
     -   id: check-vcs-permalinks
     -   id: check-yaml
+    -   id: pretty-format-json
+        args: ['--autofix']
     -   id: destroyed-symlinks
     -   id: detect-private-key
     -   id: end-of-file-fixer
-        exclude: _data/comedians.json
     -   id: trailing-whitespace
     -   id: mixed-line-ending

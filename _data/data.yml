@@ -3,10 +3,6 @@ main:
     url: "/"
     weight: 1
 
-  - name: "在谷春晚"
-    url: "/gala/"
-    weight: 2
-
 footer:
   - name: "合作"
     url: "mailto:contact-us@zgzg.io"
@@ -36,7 +32,7 @@ friends:
 programmes:
   - name: 想唱就唱
     image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hlqastyj30u00u0djk.jpg
-    description: 周末线上K歌＋Live music小聚会，大家zoom上一起听歌，唱歌，聊天，以歌会友，共度一个惬意的周日晚上。
+    description: 周末线上K歌 + Live music 小聚会，大家在 Zoom 上一起听歌、唱歌、聊天、以歌会友，共度一个惬意的周日晚上。
     contact:
       - "[第二季演唱精彩合辑](https://www.youtube.com/watch?v=E4BjWM-kNXA&list=PLa7OKLszvN9fH1Vsi1ggwPx-h7Yo30bPf&index=9)"
   - name: 云娱乐
@@ -61,6 +57,6 @@ programmes:
 sponsors:
   - name: Lorem
     image: https://picsum.photos/seed/lorem/200/200
-    description: Lorem ipsum et dolor sit amet. 
+    description: Lorem ipsum et dolor sit amet.
     contact:
       - zgzg.io
