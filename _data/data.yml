@@ -1,0 +1,66 @@
+main:
+  - name: "主页"
+    url: "/"
+    weight: 1
+
+  - name: "在谷春晚"
+    url: "/gala/"
+    weight: 2
+
+footer:
+  - name: "合作"
+    url: "mailto:contact-us@zgzg.io"
+    weight: 2
+
+  - name: "YouTube"
+    url: "https://zgzg.link/youtube"
+    weight: 1
+
+  - name: "Instagram"
+    url: "https://zgzg.link/ins"
+    weight: 1
+
+  - name: "Weibo"
+    url: "https://zgzg.link/weibo"
+    weight: 1
+
+  - name: "Facebook"
+    url: "https://zgzg.link/fb"
+    weight: 1
+
+friends:
+  - name: "硅谷脱口秀"
+    url: "https://ggtkx.org"
+    description: "硅谷地区汉语喜剧社团。"
+
+programmes:
+  - name: 想唱就唱
+    image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hlqastyj30u00u0djk.jpg
+    description: 周末线上K歌＋Live music小聚会，大家zoom上一起听歌，唱歌，聊天，以歌会友，共度一个惬意的周日晚上。
+    contact:
+      - "[第二季演唱精彩合辑](https://www.youtube.com/watch?v=E4BjWM-kNXA&list=PLa7OKLszvN9fH1Vsi1ggwPx-h7Yo30bPf&index=9)"
+  - name: 云娱乐
+    image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hogopaxj60hy0hy76w02.jpg
+    description: 我们组织羽毛球、桌游、趣味运动会、聚餐……
+  - name: 众说纷云
+    image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hpjeqnpj30u00u0q7g.jpg
+    description: 一个自由讨论的平台。我们欢迎：分享者在这里表达观点、经历，培养逻辑思辨能力；听众在这里收获多元想法，启发灵感。
+    contact:
+      - "[第一季活动录像](https://www.youtube.com/watch?v=rkqZEjEaUrE&list=PLa7OKLszvN9cCMDy7O_RXHEGPfSKZ7b-6)"
+  - name: 职挂云帆
+    image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hqf0i8ij30i00i0wg2.jpg
+    description: 规划职业生涯，提升职业技能，了解不同行业，收获创业灵感。
+    contact:
+      - "[YouTube 频道](https://www.youtube.com/channel/UCG2VTUUT3OWEYcAEi3ELamA)"
+  - name: 一饱演福
+    image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hsk13w4j30ku0ku413.jpg
+    description: 戏剧/表演爱好者相互交流，共同创作，共同成长的平台。我们会定期举行线上/线下话剧or表演相关的活动。
+    contact:
+      - "[宣传片](https://www.youtube.com/watch?v=Nr_5BrSIIzY)"
+
+sponsors:
+  - name: Lorem
+    image: https://picsum.photos/seed/lorem/200/200
+    description: Lorem ipsum et dolor sit amet. 
+    contact:
+      - zgzg.io

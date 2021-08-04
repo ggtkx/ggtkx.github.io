@@ -1,4 +1,4 @@
-.comedian {
+.programme {
   height: 100%;
   border-radius: 5px;
   overflow: hidden;
@@ -9,7 +9,7 @@
   text-align: left;
   padding-bottom: 20px;
   box-shadow: 0 30px 60px -10px rgba(black, .2), 0 18px 36px -18px rgba(black, .22);
-  .comedian-image {
+  .programme-image {
     width: 100%;
     height: 250px;
     display: flex;
@@ -23,23 +23,23 @@
     height: auto;
     object-fit: cover;
   }
-  .comedian-title {
+  .programme-title {
     color: #555;
     margin-bottom: 20px;
   }
-  .comedian-description, .comedian-contact, .comedian-highlights {
+  .programme-description, .programme-contact, .programme-highlights {
     padding: 0 30px;
     width: 100%;
     display: inline-block;
   }
-  .comedian-contact {
+  .programme-contact {
     background-color: $white-offset;
     padding-top: 20px;
     padding-bottom: 20px;
     list-style-position: inside;
     box-sizing: border-box;
   }
-  .comedian-highlights {
+  .programme-highlights {
     padding-top: 20px;
     padding-bottom: 20px;
     list-style-position: inside;

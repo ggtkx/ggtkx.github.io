@@ -18,67 +18,71 @@ bodyClass: page-home
     </div>
   </div>
 </div>
-<div class="strip">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-12 col-lg-12 order-1 order-md-1">
-        <iframe width="100%" height="600" src="https://www.youtube.com/embed/kf2sMdP_FHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-</div>
 
-{% if page.show_people %}
-  {% if site.data.comedians %}
+  {% if site.data.data.programmes %}
   <div class="strip">
     <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-      <h1>热门演员</h1>
+      <h1>《云集》系列栏目</h1>
       <div class="row justify-content-center">
-        {% assign comedians = site.data.comedians | sort: "weight" | reverse %}
-        {% for comedian in site.data.comedians limit:6 %}
-          {% include comedian.html comedian=comedian %}
+        {% for programme in site.data.data.programmes %}
+          {% include programme.html programme=programme %}
         {% endfor %}
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-auto">
-          <a class="button button-primary" href="/comedians/">所有 {{ comedians.size }} 位演员</a>
-        </div>
       </div>
     </div>
   </div>
   {% endif %}
 
-  <div class="strip strip-grey">
-    <div class="container pt-6 pb-6 pb-md-10">
-      <h1>主创团队</h1>
-      <div class="row justify-content-start">
-        {% for member in site.team %}
-        <div class="col-12 col-md-3 mb-1">
-          <div class="service service-summary">
-            <div class="service-content">
-              <h2 class="service-title">
-                {{ member.title }}
-              </h2>
-              <p>{{ member.content | markdownify }}</p>
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <h1>赞助商</h1>
+    <div class="row justify-content-start">
+      {% for sponsor in site.data.data.sponsors %}
+      <div class="col-12 col-md-3 mb-1">
+        <div class="sponsor sponsor-summary">
+          <div class="sponsor-content">
+            {% if sponsor.image %}
+              <div class="sponsor-image">
+                <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
+              </div>
+            {% endif %}
+            <h2 class="sponsor-title">
+              {{ sponsor.name }}
+            </h2>
+            <div class="sponsor-content">
+              <p class="sponsor-description">{{ sponsor.description }}</p>
+              {% if sponsor.contact.size > 0 %}
+                <ul class="sponsor-contact">
+                {% for contact in sponsor.contact %}
+                  <li>{{ contact | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                {% endfor %}
+                </ul>
+              {% endif %}
+              {% if sponsor.highlights.size > 0 %}
+                <ul class="sponsor-highlights">
+                {% for highlight in sponsor.highlights %}
+                  <li>{{ highlight | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                {% endfor %}
+                </ul>
+              {% endif %}
             </div>
           </div>
         </div>
-        {% endfor %}
       </div>
+      {% endfor %}
     </div>
-    <div class="container pt-0 pb-0 pb-md-10">
-      <h1>友情链接</h1>
-      <div class="row justify-content-start">
-        <div class="col-auto">
-          <ul>
-            {% for friend in site.data.friends.friends %}
-            <li>
-              <a href="{{ friend.url }}">{{ friend.name }}</a>：{{ friend.description }}
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
+  </div>
+  <div class="container pt-0 pb-0 pb-md-10">
+    <h1>友情链接</h1>
+    <div class="row justify-content-start">
+      <div class="col-auto">
+        <ul>
+          {% for friend in site.data.data.friends %}
+          <li>
+            <a href="{{ friend.url }}">{{ friend.name }}</a>：{{ friend.description }}
+          </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
-{% endif %}
+</div>

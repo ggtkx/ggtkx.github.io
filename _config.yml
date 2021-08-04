@@ -1,6 +1,6 @@
 baseurl: '/'
 permalink: pretty
-title: '硅谷脱口秀：硅谷地区华人喜剧社团！'
+title: '载歌在谷：硅谷地区华人志愿者社区'
 
 google_analytics_id: "G-BMDYGYHPGF"
 
@@ -8,19 +8,19 @@ homepage:
   show_call_box: false
 
 logo:
-  mobile: "https://i.imgur.com/7uqTHYY.png"
-  desktop: "https://i.imgur.com/7uqTHYY.png"
+  mobile: "https://tva1.sinaimg.cn/large/008i3skNgy1gt4hh18wv7j303j03ma9z.jpg"
+  desktop: "https://tva1.sinaimg.cn/large/008i3skNgy1gt4hh18wv7j303j03ma9z.jpg"
   desktop_height: "36px"
 
 seo:
-  meta_og_title: "硅谷脱口秀"
+  meta_og_title: "载歌在谷"
   meta_og_type: "website"
-  meta_og_url: "https://ggtkx.org"
-  meta_og_image: "https://i.imgur.com/uXrPUla.png"
-  meta_og_description: "硅谷脱口秀：硅谷地区汉语喜剧社团！"
+  meta_og_url: "https://zgzg.io"
+  meta_og_image: "https://picsum.photos/seed/zgzg/200/300"
+  meta_og_description: "载歌在谷：硅谷地区华人志愿者社区！"
 
 collections:
-  comedians:
+  programmes:
     output: true
   team:
     output: true
