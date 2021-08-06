@@ -18,4 +18,3 @@ show_programmes: true
 <img alt="微信公众号二维码" src="https://tva1.sinaimg.cn/large/008i3skNgy1gt7pmhz306j3046046jrh.jpg" height=100 />
 
 近期活动一览：
-<iframe src="https://calendar.google.com/calendar/embed?height=200&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=Y2ItdC5vcmdfbHZzbDkxdGJqZnNpazUydWlmOTI5bTU3NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23D81B60&showCalendars=0&showTabs=0&mode=AGENDA&showPrint=0&showDate=0&showNav=0&showTitle=0&showTz=1&hl=zh_CN" style="border: none;" width="400" height="200" frameborder="0" scrolling="no"></iframe>
