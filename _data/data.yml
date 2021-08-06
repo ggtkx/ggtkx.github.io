@@ -61,15 +61,12 @@ sponsors:
   - name: Bill Qin 硅谷地产
     image: https://i.imgur.com/7aJXzbs.png
     description: 秦由棕：房地产投资、交易专家。
-    contact:
-      - "[网站](https://www.billqin.com/chinese/)"
+    website: https://www.billqin.com/chinese/
   - name: 快手 Kwai Inc.
     image: https://i.imgur.com/EqmDPD5.png
     description: Capture the world, share your story.
-    contact:
-      - "[网站](https://www.kwai.com/)"
+    website: https://www.kwai.com/
   - name: 红叶故事
     image: https://i.imgur.com/b5dcJAY.png
     description: 免费北美华人交友、约会和婚恋平台。
-    contact:
-      - "[网站](http://lovevite.com/)"
+    website: https://lovevite.com/

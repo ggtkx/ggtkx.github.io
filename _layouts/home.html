@@ -42,7 +42,9 @@ bodyClass: page-home
           <div class="sponsor-content">
             {% if sponsor.image %}
               <div class="sponsor-image">
-                <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
+                <a href="{{ sponsor.website }}">
+                  <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
+                </a>
               </div>
             {% endif %}
             <div class="sponsor-content">
