@@ -43,9 +43,9 @@ programmes:
     description: 我们组织羽毛球、桌游、趣味运动会、聚餐……
   - name: 众说纷云
     image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hpjeqnpj30u00u0q7g.jpg
-    description: 一个自由讨论的平台。我们欢迎：分享者在这里表达观点、经历，培养逻辑思辨能力；听众在这里收获多元想法，启发灵感。
+    description: 一个自由讨论、辩论的平台。我们欢迎：分享者在这里表达观点、经历，培养逻辑思辨能力；听众在这里收获多元想法，启发灵感。
     contact:
-      - "[第一季活动录像](https://www.youtube.com/watch?v=rkqZEjEaUrE&list=PLa7OKLszvN9cCMDy7O_RXHEGPfSKZ7b-6)"
+      - "[活动录像](https://www.youtube.com/watch?v=rkqZEjEaUrE&list=PLa7OKLszvN9cCMDy7O_RXHEGPfSKZ7b-6)"
   - name: 职挂云帆
     image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hqf0i8ij30i00i0wg2.jpg
     description: 规划职业生涯，提升职业技能，了解不同行业，收获创业灵感。
@@ -53,13 +53,23 @@ programmes:
       - "[YouTube 频道](https://www.youtube.com/channel/UCG2VTUUT3OWEYcAEi3ELamA)"
   - name: 一饱演福
     image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hsk13w4j30ku0ku413.jpg
-    description: 戏剧/表演爱好者相互交流，共同创作，共同成长的平台。我们会定期举行线上/线下话剧or表演相关的活动。
+    description: 戏剧/表演爱好者相互交流，共同创作，共同成长的平台。我们会定期举行线上/线下话剧 or 表演相关的活动。
     contact:
       - "[宣传片](https://www.youtube.com/watch?v=Nr_5BrSIIzY)"
 
 sponsors:
-  - name: Lorem
-    image: https://picsum.photos/seed/lorem/200/200
-    description: Lorem ipsum et dolor sit amet.
+  - name: Bill Qin 硅谷地产
+    image: https://i.imgur.com/7aJXzbs.png
+    description: 秦由棕：房地产投资、交易专家。
     contact:
-      - zgzg.io
+      - "[网站](https://www.billqin.com/chinese/)"
+  - name: 快手 Kwai Inc.
+    image: https://i.imgur.com/EqmDPD5.png
+    description: Capture the world, share your story.
+    contact:
+      - "[网站](https://www.kwai.com/)"
+  - name: 红叶故事
+    image: https://i.imgur.com/b5dcJAY.png
+    description: 免费北美华人交友、约会和婚恋平台。
+    contact:
+      - "[网站](http://lovevite.com/)"
