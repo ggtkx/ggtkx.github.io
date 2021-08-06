@@ -45,24 +45,12 @@ bodyClass: page-home
                 <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
               </div>
             {% endif %}
-            <h2 class="sponsor-title">
-              {{ sponsor.name }}
-            </h2>
             <div class="sponsor-content">
               <p class="sponsor-description">{{ sponsor.description }}</p>
               {% if sponsor.contact.size > 0 %}
-                <ul class="sponsor-contact">
                 {% for contact in sponsor.contact %}
-                  <li>{{ contact | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                  {{ contact | markdownify }}
                 {% endfor %}
-                </ul>
-              {% endif %}
-              {% if sponsor.highlights.size > 0 %}
-                <ul class="sponsor-highlights">
-                {% for highlight in sponsor.highlights %}
-                  <li>{{ highlight | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-                {% endfor %}
-                </ul>
               {% endif %}
             </div>
           </div>
