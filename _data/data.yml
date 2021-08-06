@@ -2,6 +2,9 @@ main:
   - name: "主页"
     url: "/"
     weight: 1
+  - name: "春晚"
+    url: "/gala/"
+    weight: 2
 
 footer:
   - name: "合作"
