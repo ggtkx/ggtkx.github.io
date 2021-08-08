@@ -1,5 +1,4 @@
 ---
-title: 春节活动
 layout: page
 permalink: /gala/
 ---

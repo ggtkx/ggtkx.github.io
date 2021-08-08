@@ -1,8 +1,8 @@
 main:
-  - name: "主页"
+  - name: "社区主页"
     url: "/"
     weight: 1
-  - name: "春晚"
+  - name: "春节活动"
     url: "/gala/"
     weight: 2
 
