@@ -12,7 +12,7 @@ permalink: /gala/
 
 2022载歌在谷线下春节系列活动重磅回归！
 
-# Q&A
+# <span style="color:coral">Q&A</span>
 
 ## Q: 今年晚会时间地点是什么？
 
