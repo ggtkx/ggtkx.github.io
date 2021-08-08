@@ -1,4 +1,5 @@
 ---
+title: <span stype="color:coral">春节系列活动</span>
 layout: page
 permalink: /gala/
 ---
