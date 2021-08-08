@@ -1,10 +1,10 @@
 ---
-title: <span stype="color:coral">春节系列活动</span>
+title: 春节活动
 layout: page
 permalink: /gala/
 ---
 
-# 载歌在谷春晚
+# <span style="color:coral">载歌在谷春晚</span>
 
 “载歌在谷”社区是一个以硅谷高科技从业者为主要贡献者的非盈利组织。社区以文艺活动为载体，旨在丰富硅谷华人的日常生活，弘扬中华文化，并最终为贡献者的自我提升提供实践的平台。
 
