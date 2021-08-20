@@ -10,8 +10,8 @@ permalink: /gala/
 
 载歌在谷从2015年谷歌内部春节晚会，经历6年发展到现在面向全湾区的多达2500人的大型春晚。2021年由于疫情，载歌在谷首次将晚会搬到了线上，并在2021年2月13日为大家呈现了一台别开生面的载歌在谷牛年线上春晚。
 
-重磅! 2022 “载歌在谷” 春节晚会 
-<a href="https://mp.weixin.qq.com/s/ugBaUYEJl_A720cAHPlPZA">节目征集及主持人招募开始啦！</a>
+重磅! 2022 “载歌在谷” 春节晚会 <br>
+<a href="https://mp.weixin.qq.com/s/ugBaUYEJl_A720cAHPlPZA">节目征集及主持人招募开始啦</a>
 
 # <span style="color:coral">Q&A</span>
 
