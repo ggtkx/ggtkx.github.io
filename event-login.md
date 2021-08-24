@@ -8,9 +8,9 @@ permalink: /event-login
         [style*="--aspect-ratio"] > :first-child {
             width: 100%;
         }
-        [style*="--aspect-ratio"] > img {  
+        [style*="--aspect-ratio"] > img {
             height: auto;
-        } 
+        }
         @supports (--custom:property) {
             [style*="--aspect-ratio"] {
                 position: relative;
@@ -19,13 +19,13 @@ permalink: /event-login
                 content: "";
                 display: block;
                 padding-bottom: calc(100% / (var(--aspect-ratio)));
-            }  
+            }
             [style*="--aspect-ratio"] > :first-child {
                 position: absolute;
                 top: 0;
                 left: 0;
                 height: 100%;
-            }  
+            }
         }
     </style>
 </head>
@@ -34,4 +34,3 @@ permalink: /event-login
         <iframe class="responsive-iframe" src="https://app.miniextensions.com/form/47GpGhBrUGLlLQUpYQvT" width="900" height="1600" frameborder="0"></iframe>
     </div>
 </body>
-
