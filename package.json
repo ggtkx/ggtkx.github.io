@@ -1,28 +1,28 @@
 {
-  "name": "yj.zgzg.io",
-  "version": "1.0.0",
-  "description": "Official website for ZGZG, a volunteer community at the Silicon Valley area.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zgzgorg/yj.zgzg.io.git"
-  },
-  "keywords": [
-    "website"
-  ],
   "author": "Mingyang Li",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zgzgorg/yj.zgzg.io/issues"
   },
-  "homepage": "https://github.com/zgzgorg/yj.zgzg.io#readme",
+  "description": "Official website for ZGZG, a volunteer community at the Silicon Valley area.",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",
     "eslint": "^7.32.0",
     "eslint-config-google": "^0.14.0"
-  }
+  },
+  "homepage": "https://github.com/zgzgorg/yj.zgzg.io#readme",
+  "keywords": [
+    "website"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "yj.zgzg.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgzgorg/yj.zgzg.io.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
