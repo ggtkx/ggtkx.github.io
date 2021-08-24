@@ -9,7 +9,7 @@ The Website is statically generated with [Jekyll](https://jekyllrb.com/). To ser
 bundle exec jekyll serve
 ```
 
-# Contributing
+## Contributing
 This repo uses [pre-commit hooks](https://pre-commit.com/) to automate many checks upon making a git commit. (See `.pre-commit-config.yaml` for a list of all hooks enabled.) One of the hooks use the [ESLint](https://eslint.org/) tool to check JavaScript files, including enforcing the [Google JavaScript Code Style](https://google.github.io/styleguide/jsguide.html). (See `.eslintrc.json` for the exact config.) As a [npm package](https://www.npmjs.com/), ESLint is installed via npm and specified in the `package.json`.
 
 Data organization:
@@ -22,5 +22,5 @@ Other technical details:
 - `sidenotes.js` is a pure-JavaScript plugin that puts `.footnotes` into `#sidebar`, aligning each piece of note at their corresponding superscript.
 - This website uses the [Serif](https://github.com/zerostaticthemes/jekyll-serif-theme) theme by [Robert Austin](https://github.com/zerostaticthemes).
 
-# LICENSE
+## LICENSE
 The MIT License (MIT).
