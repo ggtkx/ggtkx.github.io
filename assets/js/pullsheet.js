@@ -21,11 +21,10 @@ if (oAuthToken != '') {
 // Grab the token from cookie
 oAuthToken = Cookies.get('token');
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () =>
   fetch(`https://docs.google.com/spreadsheets/d/${key}/gviz/tq?tqx=out:json`)
       .then((res) => res.text())
-      .then(processData);
-});
+      .then(processData));
 
 /**
  * processData processes the data returned from Google Sheets.
