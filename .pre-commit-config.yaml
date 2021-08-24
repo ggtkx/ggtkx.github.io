@@ -21,3 +21,9 @@ repos:
         exclude: _data/comedians.json
     -   id: trailing-whitespace
     -   id: mixed-line-ending
+-   repo: https://github.com/pre-commit/mirrors-eslint
+    rev: ''  # Use the sha / tag you want to point at
+    hooks:
+    -   id: eslint
+        args: ['--fix']
+        exclude: assets/js/github.js
