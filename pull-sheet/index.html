@@ -4,87 +4,14 @@ title: Update Spreadsheet
 ---
 <!--These are JavaScript Libraries-->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.0.1/cookies.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.4.2/tabletop.min.js"></script>
-<script type="text/javascript" src="https://ggtkx.org/assets/js/github.js"></script>
-<h1>Update</h1>
-<script type="text/javascript">
-// Reset the cookie manually
-//Cookies.expire('token');
-
-// URL: https://ggtkx.org/pull-sheet/?key=your_key&worksheet=worksheet_name&token=your_personal_access_token&org=your_org&repo=your_repo&branch=your_branch
-
-const multilined_properties = ["contact", "highlights"];
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-const key = urlParams.get('key');
-const resource = urlParams.get('worksheet');
-const org = urlParams.get('org');
-const repo_name = urlParams.get('repo');
-const branch = urlParams.get('branch');
-const dry_run = urlParams.has('dry_run');
-
-let oAuthToken = urlParams.get('token');
-if (oAuthToken != '') {
-    Cookies.set('token', oAuthToken);
-}
-// Grab the token from cookie
-oAuthToken = Cookies.get('token');
-
-document.addEventListener("DOMContentLoaded", () => {
-    Tabletop.init({
-        key: key,
-        callback: convert,
-        wanted: [resource],
-        debug: true
-    })
-});
-
-function convert(data, tabletop) {
-    const people = [];
-    const rows = tabletop.sheets(resource).all();
-    rows.forEach(person => {
-        // Remove all empty properties.
-        for (const [key, value] of Object.entries(person)) {
-            if (value == "") {
-                delete person[key];
-            }
-        }
-        // Skip people without images.
-        if (!("image" in person)) {
-            return;
-        }
-        // Split multilined properties into lists of strings.
-        multilined_properties.forEach(property => {
-            if (property in person) {
-                person[property] = person[property].split('\n');
-            }
-        })
-        people.push(person);
-    })
-    const json = JSON.stringify(people, null, 4);
-    document.getElementById('source').value = json;
-    if (dry_run) {
-        console.log('Dry run. Will not commit.');
-        return;
-    }
-    publish(json);
-}
-
-function publish(json) {
-    // Grab the token from cookie
-    const oAuthToken = Cookies.get('token');
-    const github = new Github({ token: oAuthToken, auth: "oauth" });
-    const repo = github.getRepo(org, repo_name);
-    const writepath = '_data/' + resource + '.json';
-    const current_time = Date.now();
-    const message = 'Update comedian info based on Google sheets at ' + current_time;
-    repo.getTree(branch + '?recursive=true', (err, tree) => {
-        tree.forEach(treeValue => {
-            if (treeValue['path'] == writepath) {
-                repo.writemanual(branch, writepath, json, message, treeValue['sha'], err => {});
-            }
-        });
-    });
-}
-</script>
-<textarea cols="10" rows="5" id="source" style="border: 1px solid #000; width: 100%; height: 350px;"></textarea>
+<script type="text/javascript" src="/assets/js/github.js"></script>
+<script type="text/javascript" src="/assets/js/pullsheet.js"></script>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 order-1 order-md-1">
+            <h1>Update</h1>
+            <p>See JavaScript Console for more information.</p>
+            <textarea cols="10" rows="5" id="source" style="width: 100%; height: 350px;"></textarea>
+        </div>
+    </div>
+</div>
