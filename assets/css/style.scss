@@ -72,3 +72,25 @@ body {
 #sidebar > .footnotes > ol > li {
 	background: white;
 }
+
+#join {
+  display: contents;
+  .programme {
+    box-shadow: none;
+    border: #ccc dashed 5px;
+    .programme-image {
+      line-height: 250px;
+      font-size: 10em;
+      border-radius: 0;
+      color: #aaa;
+      width: auto;
+    }
+  }
+}
+
+#join:hover {
+  text-decoration: none;
+  .programme {
+    background: #eee;
+  }
+}
