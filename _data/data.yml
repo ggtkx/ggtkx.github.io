@@ -31,6 +31,12 @@ friends:
   - name: "硅谷脱口秀"
     url: "https://ggtkx.org"
     description: "硅谷地区汉语喜剧社团。"
+  - name: "男生女生说"
+    url: "https://mp.weixin.qq.com/s/78P6K1O8TtHdNmAuShirfw"
+    description: "湾区本地年轻人线上社交平台。"
+  - name: "同位素"
+    url: "https://mp.weixin.qq.com/s/DUXP7Sz1Hm1Nep-rVjYGQQ"
+    description: "致力于帮助身在北美，尤其是湾区的小伙伴们，拓宽交际圈，真诚交友的平台。"
 
 programmes:
   - name: 想唱就唱
