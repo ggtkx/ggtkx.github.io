@@ -10,8 +10,13 @@
 }
 
 #calendar {
+    width: 100%;
+    max-width: 550px;
+    height: 200px;
+}
+
+iframe {
     border: none;
     width: 100%;
-    max-width: 425px;
-    height: 200px;
+    height: 400px;
 }

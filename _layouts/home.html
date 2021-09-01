@@ -9,21 +9,20 @@ bodyClass: page-home
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
+      </div>
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <iframe src="https://www.youtube.com/embed/YhlDT3Eqqzs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="teaser"></iframe>
         <iframe src="https://calendar.google.com/calendar/embed?height=200&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=Y2ItdC5vcmdfbHZzbDkxdGJqZnNpazUydWlmOTI5bTU3NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23D81B60&showCalendars=0&showTabs=0&mode=AGENDA&showPrint=0&showDate=0&showNav=0&showTitle=0&showTz=1&hl=zh_CN" frameborder="0" scrolling="no" id="calendar"></iframe>
       </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
-      </div>
-      {% endif %}
     </div>
   </div>
 </div>
 
   {% if site.data.data.programmes %}
   <div class="strip">
-    <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="container pt-6 pb-6 pt-md-10 pb-md-10" id="yj">
       <h1>《云集》系列栏目</h1>
+      <p>载歌在谷社区孵化了许多群体，常年举办各种活动。快来参加吧！</p>
       <div class="row justify-content-center">
         {% for programme in site.data.data.programmes %}
           {% include programme.html programme=programme %}
@@ -47,7 +46,7 @@ bodyClass: page-home
   {% endif %}
 
 <div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pb-md-10">
+  <div class="container pt-6 pb-6 pb-md-10" id="sponsors">
     <h1>赞助商</h1>
     <div class="row justify-content-start">
       {% for sponsor in site.data.data.sponsors %}
