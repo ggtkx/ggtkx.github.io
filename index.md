@@ -8,9 +8,9 @@ intro_image_hide_on_mobile: true
 show_programmes: true
 ---
 
-# 2022 《载歌在谷》春节晚会
+<h1>载歌在谷 春节晚会 <img src="mages/illustrations/undraw_Partying_re_at7f.svg" /></h1>
 我们开始征集节目、招募主持人啦！详情[见此](/gala/)。
-* 时间：2022年1月15日周六，7pm PST (暂定)
+* 时间：2022年1月15日周六，7pm PST
 * 地点：[San José Center for the Performing Arts](https://sanjosetheaters.org/theaters/center-for-performing-arts/)   
    255 S Almaden Blvd, San Jose, CA 95113 （[地图](https://goo.gl/maps/niXAKJ49jv6L1TtC6)）
 
