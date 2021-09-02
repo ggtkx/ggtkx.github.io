@@ -80,7 +80,7 @@ function processData(text) {
   // Sort people by decreasing order in weight.
   people.sort((a, b) => b.weight - a.weight);
 
-  const json = JSON.stringify(people, null, 4);
+  const json = JSON.stringify(people, null, 4) + '\n';
   document.getElementById('source').value = json;
   if (dryRun) {
     console.log('Dry run. Will not commit.');
