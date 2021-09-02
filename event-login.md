@@ -31,6 +31,6 @@ permalink: /event-login
 </head>
 <body>
     <div style="--aspect-ratio: 9/16;">
-        <iframe class="responsive-iframe" src="https://app.miniextensions.com/form/47GpGhBrUGLlLQUpYQvT" width="900" height="1600" frameborder="0"></iframe>
+        <iframe class="responsive-iframe" src="https://app.miniextensions.com/portal-form/47GpGhBrUGLlLQUpYQvT" width="900" height="1600" frameborder="0"></iframe>
     </div>
 </body>
