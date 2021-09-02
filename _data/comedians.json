@@ -84,7 +84,7 @@
     },
     {
         "title": "邵天宇",
-        "weight": 15,
+        "weight": 16,
         "image": "https://i.imgur.com/scQgJSc.png",
         "description": "曾经是一名脱口秀表演者",
         "contact": [
@@ -121,22 +121,22 @@
         ]
     },
     {
+        "title": "邵远",
+        "weight": 9,
+        "image": "https://i.imgur.com/50YpVbT.png",
+        "description": "攀岩界最会说相声的数学家。",
+        "contact": [
+            "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz/)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mOqnLKXBeAHISpq2FMpu9z)"
+        ]
+    },
+    {
         "title": "詹姆斯",
         "weight": 8,
         "image": "https://i.imgur.com/gTRZYM0.png",
         "description": "打了疫苗的小胖子~",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34krufKqN4tAfyr6N03wV2AG)"
-        ]
-    },
-    {
-        "title": "邵远",
-        "weight": 8,
-        "image": "https://i.imgur.com/50YpVbT.png",
-        "description": "攀岩界最会说相声的数学家。",
-        "contact": [
-            "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz/)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mOqnLKXBeAHISpq2FMpu9z)"
         ]
     },
     {
