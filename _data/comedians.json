@@ -112,6 +112,14 @@
         ]
     },
     {
+        "title": "Spicy Zinc",
+        "weight": 9,
+        "image": "https://i.imgur.com/2HfUjHM.png",
+        "contact": [
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mZ0UkmzqrrEyq7KvfU-bxw)"
+        ]
+    },
+    {
         "title": "大国",
         "weight": 9,
         "image": "https://i.imgur.com/LzaNx8t.png",
@@ -138,6 +146,11 @@
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34krufKqN4tAfyr6N03wV2AG)"
         ]
+    },
+    {
+        "title": "寇寇",
+        "weight": 8,
+        "image": "https://i.imgur.com/LnobTPF.png"
     },
     {
         "title": "于晓凡",
@@ -181,6 +194,14 @@
         "description": "不讲脱口秀的时候我都在帮客户抢房子",
         "contact": [
             "小红书：丝丝去哪儿"
+        ]
+    },
+    {
+        "title": "Jack",
+        "weight": 4,
+        "image": "https://i.imgur.com/bb66MWl.png",
+        "contact": [
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34lsvzXfHS9NyGFr-i6m0jhm)"
         ]
     },
     {
