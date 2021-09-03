@@ -32,6 +32,7 @@ sass:
 
 plugins:
   - jekyll-environment-variables
+  - jekyll-tsc
 
 exclude:
   - Gemfile
@@ -44,3 +45,10 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+typescript:
+  temp_dir: .typescript
+  extensions: ['.ts', '.tsx']
+  copy_ext: []
+  command: ['./node_modules/.bin/tsc']
+  cache: true
