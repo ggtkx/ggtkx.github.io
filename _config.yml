@@ -46,6 +46,10 @@ exclude:
   - LICENSE
   - README.md
 
+include:
+  - node_modules/
+  - vendor/
+
 typescript:
   temp_dir: .typescript
   extensions: ['.ts', '.tsx']
