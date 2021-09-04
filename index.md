@@ -9,7 +9,9 @@ show_programmes: true
 ---
 
 # 载歌在谷春节晚会
-我们开始征集2022年节目、招募主持人啦！[<u>详情</u>](/gala/)<br>
+<h3>我们开始征集2022年节目、招募主持人啦！[<u>详情</u>](/gala/)</h3>
+<a class="button" href="/gala"><b>春晚报名</b></a> <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSepoCkWFIVBIVNc4NdbBzf33wXHiHPQwyVty0rOycKusMG3LA/viewform"><b>志愿者报名</b></a>
+
 <h4>2022年1月15日周六，7pm PST</h4>
 <h4>San José Center for the Performing Arts</h4>
 <h4>255 S Almaden Blvd, San Jose, CA 95113 </h4>
