@@ -9,7 +9,7 @@ show_programmes: true
 ---
 # 载歌在谷春节晚会
 <h3>我们开始征集2022年节目、招募主持人啦!</h3>
-<a class="button" href="/gala"><b>春晚报名</b></a> 
+<a class="button home-button" href="/gala"><b>春晚报名</b></a> 
 &nbsp; <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSepoCkWFIVBIVNc4NdbBzf33wXHiHPQwyVty0rOycKusMG3LA/viewform"><b>志愿者报名</b></a>
 
 <h4>2022年1月15日周六，7pm PST</h4>
