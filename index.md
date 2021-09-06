@@ -21,4 +21,4 @@ show_programmes: true
 <h4>微信公众号 ZaiGeZaiGu</h4>
 <h4>联系我们 contact-us@zgzg.io<h4><br>
 
-<img alt="微信公众号二维码" src="https://tva1.sinaimg.cn/large/008i3skNgy1gt7pmhz306j3046046jrh.jpg" height=100 />
+<img alt="微信公众号二维码" src="images/qrcode.png" height=100 />
