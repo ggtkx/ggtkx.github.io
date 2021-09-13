@@ -1,0 +1,25 @@
+<div class="col-12 col-md-6 col-lg-6 mb-5">
+  <div class="special_event">
+    {% if special_event.image %}
+      <div class="special_event-image"><img alt="{{ special_event.name }}" src="{{ special_event.image }}" /></div>
+    {% endif %}
+    <h2 class="special_event-title"><a href="{{ special_event.url }}">{{ special_event.name }}</a></h2>
+    <div class="special_event-content">
+      <p class="special_event-description">{{ special_event.description }}</p>
+      {% if special_event.contact.size > 0 %}
+        <ul class="special_event-contact">
+        {% for contact in special_event.contact %}
+          <li>{{ contact | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+      {% if special_event.highlights.size > 0 %}
+        <ul class="special_event-highlights">
+        {% for highlight in special_event.highlights %}
+          <li>{{ highlight | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </div>
+</div>

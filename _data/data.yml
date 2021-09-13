@@ -62,6 +62,16 @@ footer:
     url: "https://zgzg.link/fb"
     weight: 1
 
+special_events:
+  - name: 《载歌在谷》春晚
+    image: https://blog.zgzg.io/wp-content/uploads/11581655426.jpg
+    url: "/past-events/"
+    description: 《载歌在谷》社区的开山之作。
+  - name: 《想唱就唱》歌手赛
+    image: https://blog.zgzg.io/wp-content/uploads/IMG_3320.jpg
+    url: "/past-events/"
+    description: 《想唱就唱》栏目最靓丽的声音，在这里群星荟萃！
+
 friends:
   - name: "硅谷脱口秀"
     url: "https://ggtkx.org"
