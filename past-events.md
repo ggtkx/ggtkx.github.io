@@ -1,7 +1,5 @@
 ---
 title: 往届活动
-layout: page
+layout: past-events
 permalink: /past-events/
 ---
-
-# <span style="color:coral">往届活动</span>
