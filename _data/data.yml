@@ -22,8 +22,8 @@ main:
   - name: "赞助商"
     url: "#sponsors"
     weight: 4
-  - name: "春晚往届回顾"
-    url: "http://blog.zgzg.io/past-events/"
+  - name: "往届回顾"
+    url: "/past-events/"
     weight: 5
   - name: "关于载歌在谷"
     url: "http://blog.zgzg.io/community/"

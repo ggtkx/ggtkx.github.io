@@ -21,4 +21,60 @@
     - title: 文案回顾
       url: https://blog.zgzg.io/2019/08/26/2019s-review/
     - title: 活动剪影
-      url: https://zgzg.link/2019s-photos   
+      url: https://zgzg.link/2019s-photos
+- title: 春晚+游园会
+  date: 2019.2.2
+  location: Flint Center, Cuptertino
+  image: https://blog.zgzg.io/wp-content/uploads/01569214165.jpg
+  url: https://blog.zgzg.io/2019/05/02/2019-review/
+  links:
+    - title: 视频回顾
+      url: https://www.youtube.com/watch?time_continue=4&v=et57vrTcMIs&feature=emb_title
+    - title: 文案回顾
+      url: https://blog.zgzg.io/2019/05/02/2019-review/
+    - title: 活动剪影
+      url: https://zgzg.link/2019s-photos        
+- title: 歌手赛
+  date: 2018.8.19
+  location: SJSU Hammer Theatre Center, San Jose
+  image: https://blog.zgzg.io/wp-content/uploads/2018%E6%AD%8C%E6%89%8B%E8%B5%9B-scaled.png
+  url: https://blog.zgzg.io/2018/08/28/2018-review/
+  links:
+    - title: 视频回顾
+      url: https://www.youtube.com/watch?v=Kwc-f_TblAE
+    - title: 文案回顾
+      url: https://blog.zgzg.io/2018/08/28/2018-review/
+    - title: 活动剪影
+      url: https://drive.google.com/drive/u/1/folders/1WZt_JG3U47btaQNVDaruWZsAgA5WqOiE
+- title: 春晚+游园会
+  date: 2018.2.17
+  location: Flint Center, Cuptertino
+  image: https://blog.zgzg.io/wp-content/uploads/2018%E6%98%A5%E6%99%9A-scaled.png
+  url: https://blog.zgzg.io/2018/05/08/cec642be81/
+  links:
+    - title: 视频回顾
+      url: https://www.youtube.com/watch?v=6XtOXfPGvlM&t=1247s
+    - title: 文案回顾
+      url: https://blog.zgzg.io/2018/05/08/cec642be81/
+    - title: 活动剪影
+      url: https://photos.app.goo.gl/V9i0GsrigcZ76x733   
+- title: 歌手赛
+  date: 2017.8.26
+  location: Sofia University Auditorium, Palo Auto
+  image: https://blog.zgzg.io/wp-content/uploads/2017-%E6%AD%8C%E6%89%8B%E8%B5%9B-scaled.png
+  url: https://blog.zgzg.io/2018/08/28/2018-review/
+  links:
+    - title: 视频回顾
+      url: https://www.youtube.com/watch?v=TQVvXLveM-Y
+    - title: 文案回顾
+      url: https://blog.zgzg.io/2017/09/07/2017s-review/
+- title: 春晚+游园会
+  date: 2017.2.4
+  location: Foothill College Theatre, Los Altos Hills
+  image: https://blog.zgzg.io/wp-content/uploads/2017-%E6%98%A5%E6%99%9A-scaled.png
+  url: https://blog.zgzg.io/2018/05/08/cec642be81/
+  links:
+    - title: 视频回顾
+      url: https://www.youtube.com/watch?v=BkPyo8KOwy8&list=PLa7OKLszvN9fzeK1MdXFoeGOpt-ET5JkJ&index=14
+    - title: 文案回顾
+      url: https://blog.zgzg.io/2017/02/22/2017-review/

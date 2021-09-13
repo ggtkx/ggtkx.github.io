@@ -94,3 +94,25 @@ body {
     background: #eee;
   }
 }
+
+.event {
+   background-image: url(https://blog.zgzg.io/wp-content/uploads/circel.png), url(http://blog.zgzg.io/wp-content/uploads/line2.png);
+   background-repeat: no-repeat, no-repeat;
+   background-position-x: 0, 12px;
+   background-position-y: 0, 30px;
+   padding-left:25px;
+   margin-bottom:15px;
+  }
+
+.event-metadata h2 {
+margin-top:0px;
+}
+
+.event img {
+margin: 0px;
+}
+
+.event li {
+  margin-top:10px;
+  margin-bottom:10px;
+}
