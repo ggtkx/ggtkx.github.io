@@ -68,6 +68,9 @@ friends:
   - name: "Enjoy Dance Studio (EDS)"
     url: "https://www.eds.dance/"
     description: "湾区华人舞蹈工作室。"
+  - name: 湾区文化沙龙
+    url: https://baccs.org/
+    description: 一个对话、分享的平台。尽可能地满足我们对这个世界不该磨灭的好奇心。
 
 programmes:
   - name: 想唱就唱
