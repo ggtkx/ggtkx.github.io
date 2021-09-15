@@ -62,14 +62,17 @@ special_events:
     description: 《想唱就唱》栏目最靓丽的声音，在这里群星荟萃！
 
 friends:
-  - name: "硅谷脱口秀"
-    url: "https://ggtkx.org"
-    description: "硅谷地区汉语喜剧社团。"
-  - name: "Enjoy Dance Studio (EDS)"
-    url: "https://www.eds.dance/"
-    description: "湾区华人舞蹈工作室。"
+  - name: 硅谷脱口秀
+    image: images/ggtkx.svg
+    website: https://ggtkx.org
+    description: 硅谷地区汉语喜剧社团。
+  - name: Enjoy Dance Studio (EDS)
+    image: images/eds.svg
+    website: https://eds.dance/
+    description: 湾区华人舞蹈工作室。
   - name: 湾区文化沙龙
-    url: https://baccs.org/
+    image: images/baccs.svg
+    website: https://baccs.org/
     description: 一个对话、分享的平台。尽可能地满足我们对这个世界不该磨灭的好奇心。
 
 programmes:

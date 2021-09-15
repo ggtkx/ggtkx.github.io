@@ -88,18 +88,32 @@ bodyClass: page-home
       {% endfor %}
     </div>
   </div>
-  <div class="container pt-0 pb-0 pb-md-10">
+  <div class="container pt-0 pb-0 pb-md-10" id="friends">
     <h1>友情链接</h1>
     <div class="row justify-content-start">
-      <div class="col-auto">
-        <ul>
-          {% for friend in site.data.data.friends %}
-          <li>
-            <a href="{{ friend.url }}">{{ friend.name }}</a>：{{ friend.description }}
-          </li>
-          {% endfor %}
-        </ul>
+      {% for friend in site.data.data.friends %}
+      <div class="col-12 col-md-3 mb-1">
+        <div class="friend friend-summary">
+          <div class="friend-content">
+            {% if friend.image %}
+              <div class="friend-image">
+                <a href="{{ friend.website }}">
+                  <img alt="{{ friend.name }}" src="{{ friend.image }}" />
+                </a>
+              </div>
+            {% endif %}
+            <div class="friend-content">
+              <p class="friend-description">{{ friend.description }}</p>
+              {% if friend.contact.size > 0 %}
+                {% for contact in friend.contact %}
+                  {{ contact | markdownify }}
+                {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
       </div>
+      {% endfor %}
     </div>
   </div>
   <div class="container pt-0 pb-0 pb-md-10">

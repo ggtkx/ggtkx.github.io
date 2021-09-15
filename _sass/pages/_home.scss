@@ -1,11 +1,17 @@
 .page-home {
 }
 
-.sponsor-image {
+.sponsor-image, .friend-image {
 	line-height: 100px;
 }
 
-.sponsor-image > img {
+.friend-image {
+    width: 100%;
+    aspect-ratio: 1;
+    padding: 1.5em;
+}
+
+.sponsor-image > img, .friend-image > img {
 	vertical-align: text-bottom;
 }
 
