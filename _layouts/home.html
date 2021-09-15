@@ -61,7 +61,12 @@ bodyClass: page-home
 
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pb-md-10" id="sponsors">
-    <h1>赞助商</h1>
+    <div class="row">
+      <h1>友情链接</h1>
+    </div>
+    <div class="row">
+      <h2>赞助商</h2>
+    </div>
     <div class="row justify-content-start">
       {% for sponsor in site.data.data.sponsors %}
       <div class="col-12 col-md-3 mb-1">
@@ -87,9 +92,12 @@ bodyClass: page-home
       </div>
       {% endfor %}
     </div>
-  </div>
-  <div class="container pt-0 pb-0 pb-md-10" id="friends">
-    <h1>友情链接</h1>
+    <div class="row">
+      <h2>伙伴社区</h2>
+    </div>
+    <div class="row">
+      <p>湾区其他以华人为主的非盈利组织。</p>
+    </div>
     <div class="row justify-content-start">
       {% for friend in site.data.data.friends %}
       <div class="col-12 col-md-3 mb-1">
@@ -102,6 +110,7 @@ bodyClass: page-home
                 </a>
               </div>
             {% endif %}
+            <a href="{{ friend.website }}"><h3>{{ friend.name }}</h3></a>
             <div class="friend-content">
               <p class="friend-description">{{ friend.description }}</p>
               {% if friend.contact.size > 0 %}
