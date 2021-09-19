@@ -94,6 +94,9 @@ programmes:
     description: 戏剧/表演爱好者相互交流，共同创作，共同成长的平台。我们会定期举行线上/线下话剧 or 表演相关的活动。
     contact:
       - "[宣传片](https://www.youtube.com/watch?v=Nr_5BrSIIzY)"
+  - name: 书影婆娑
+    image: https://tva1.sinaimg.cn/large/008i3skNgy1gumieg96wqj60lw0lwmyt02.jpg
+    description: 我们组织多种书籍电影类文化活动：线下分享会、客厅沙龙、好书共读、P2P图书馆、朗读会、电影马拉松……
 
 past-programmes:
   - name: 众说纷云
