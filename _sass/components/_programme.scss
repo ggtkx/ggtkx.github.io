@@ -46,3 +46,10 @@
     box-sizing: border-box;
   }
 }
+
+#concluded-programmes .programme {
+  box-shadow: 0 10px 20px -3px rgba(black, .2), 0 6px 12px -6px rgba(black, .22);
+  .programme-title {
+    color: #888;
+  }
+}

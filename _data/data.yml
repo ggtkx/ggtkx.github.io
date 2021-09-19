@@ -95,6 +95,13 @@ programmes:
     contact:
       - "[宣传片](https://www.youtube.com/watch?v=Nr_5BrSIIzY)"
 
+past-programmes:
+  - name: 众说纷云
+    image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hpjeqnpj30u00u0q7g.jpg
+    description: 一个自由讨论、辩论的平台。我们欢迎：分享者在这里表达观点、经历，培养逻辑思辨能力；听众在这里收获多元想法，启发灵感。
+    contact:
+      - "[活动录像](https://www.youtube.com/watch?v=rkqZEjEaUrE&list=PLa7OKLszvN9cCMDy7O_RXHEGPfSKZ7b-6)"
+
 sponsors:
   - name: 快手 Kwai Inc.
     image: https://i.imgur.com/EqmDPD5.png
