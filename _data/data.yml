@@ -104,7 +104,11 @@ past-programmes:
     description: 一个自由讨论、辩论的平台。我们欢迎：分享者在这里表达观点、经历，培养逻辑思辨能力；听众在这里收获多元想法，启发灵感。
     contact:
       - "[活动录像](https://www.youtube.com/watch?v=rkqZEjEaUrE&list=PLa7OKLszvN9cCMDy7O_RXHEGPfSKZ7b-6)"
-
+  - name: 云生活
+    image: https://tva1.sinaimg.cn/large/008i3skNgy1gumiy3v19jj60mi0mitb802.jpg
+    description: 交流你我的生活方式！我们聊宅家好物、买车养车、健康饮食、自学才艺……
+    contact:
+      - "[活动录像](https://www.youtube.com/watch?v=ox7mGP-Niwo&list=PLa7OKLszvN9cVA2sci9rp2PAmz8kR-Bp1)"
 sponsors:
   - name: 快手 Kwai Inc.
     image: https://i.imgur.com/EqmDPD5.png
