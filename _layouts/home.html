@@ -36,7 +36,8 @@ bodyClass: page-home
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10" id="yj">
     <h1>“云集”系列栏目</h1>
     <p>载歌在谷社区孵化了许多群体，常年举办各种活动。快来参加吧！</p>
-    {% include programmes.html programmes=programmes %}
+    {% assign show_concluded_programmes = false %}
+    {% include programmes.html %}
   </div>
 </div>
 

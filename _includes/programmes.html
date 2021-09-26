@@ -1,7 +1,7 @@
 <div class="row justify-content-center">
   {% if site.data.data.programmes %}
     {% for programme in site.data.data.programmes %}
-      {% include programme.html programme=programme %}
+      {% include programme.html %}
     {% endfor %}
   {% endif %}
   <a href="mailto:contact-us@zgzg.io" id="join">
@@ -20,9 +20,13 @@
 </div>
 <p>新志愿者？请参阅<a href="https://zgzg.link/onboard">《新人大礼包》</a>。</p>
 <h2>已完结栏目</h2>
-<p>完成了历史使命，也值得在主页上拥有姓名！</p>
-<div class="row" id="concluded-programmes">
-  {% for programme in site.data.data.past-programmes %}
-    {% include programme.html programme=programme %}
-  {% endfor %}
-</div>
+{% if show_concluded_programmes == true %}
+  <p>完成了历史使命，也值得拥有姓名！</p>
+  <div class="row" id="concluded-programmes">
+    {% for programme in site.data.data.past-programmes %}
+      {% include programme.html %}
+    {% endfor %}
+  </div>
+{% else %}
+  <p>请参见<a href="/yj/">云集专页</a>。</p>
+{% endif %}

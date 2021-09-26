@@ -6,7 +6,7 @@ main:
     url: "/gala/"
     weight: 2
   - name: "云集栏目"
-    url: "#yj"
+    url: "/yj/"
     weight: 3
   - name: "赞助商"
     url: "#sponsors"
