@@ -41,3 +41,10 @@ permalink: /gala/
 ## Q: 今年有节目单吗？在哪里可以找到？
 
 志愿者及节目招募即将开始，敬请关注公众号!
+
+# 历届媒体报道
+
+- [美国旧金山湾区华人的春节](https://www.chinanews.com/hr/2021/02-10/9409274.shtml)（2021年2月）
+- [载歌在谷：硅谷程序员自己的完美春晚](https://tech.qq.com/a/20190217/002309.htm) （2019年2月）
+
+![志愿者照片](https://tva1.sinaimg.cn/large/008i3skNgy1guri51d2mij61mz0u0akc02.jpg)
