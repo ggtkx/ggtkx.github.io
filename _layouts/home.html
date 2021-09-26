@@ -36,34 +36,7 @@ bodyClass: page-home
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10" id="yj">
     <h1>“云集”系列栏目</h1>
     <p>载歌在谷社区孵化了许多群体，常年举办各种活动。快来参加吧！</p>
-    <div class="row justify-content-center">
-      {% if site.data.data.programmes %}
-        {% for programme in site.data.data.programmes %}
-          {% include programme.html programme=programme %}
-        {% endfor %}
-      {% endif %}
-      <a href="mailto:contact-us@zgzg.io" id="join">
-        <div class="col-12 col-md-6 col-lg-4 mb-5">
-          <div class="programme">
-              <div class="programme-image">
-                +
-              </div>
-            <h2 class="programme-title">加入我们</h2>
-            <div class="programme-content">
-              <p class="programme-description">加入我们社区，孵化你的兴趣小组；或者，帮助已有栏目办得更好！</p>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <p>新志愿者？请参阅<a href="https://zgzg.link/onboard">《新人大礼包》</a>。</p>
-    <h2>已完结栏目</h2>
-    <p>完成了历史使命，也值得在主页上拥有姓名！</p>
-    <div class="row" id="concluded-programmes">
-      {% for programme in site.data.data.past-programmes %}
-        {% include programme.html programme=programme %}
-      {% endfor %}
-    </div>
+    {% include programmes.html programmes=programmes %}
   </div>
 </div>
 
