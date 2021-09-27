@@ -11,6 +11,11 @@
     padding: 1.5em;
 }
 
+.friend-image img {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
 .sponsor-image > img, .friend-image > img {
 	vertical-align: text-bottom;
 }
