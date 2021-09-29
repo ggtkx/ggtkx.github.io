@@ -6,7 +6,7 @@ main:
     url: "/gala/"
     weight: 2
   - name: "云集栏目"
-    url: "#yj"
+    url: "/yj/"
     weight: 3
   - name: "赞助商"
     url: "#sponsors"
@@ -52,7 +52,7 @@ footer:
     weight: 1
 
 special_events:
-  - name: 《载歌在谷》春晚
+  - name: 《载歌在谷》历年春晚回眸
     image: https://blog.zgzg.io/wp-content/uploads/11581655426.jpg
     url: "/past-events/"
     description: 《载歌在谷》社区的开山之作。
@@ -66,6 +66,10 @@ friends:
     image: images/ggtkx.svg
     website: https://ggtkx.org
     description: 硅谷地区汉语喜剧社团。
+  - name: 桌游联萌
+    image: https://i.imgur.com/7BEwXYv.png
+    website: https://www.game-mixer.org/
+    description: 致力于打造高质量、最具影响力的“泛社交”平台。举办大型桌游、主题聚会、行业交流、公益和社区活动等。
   - name: Enjoy Dance Studio (EDS)
     image: images/eds.svg
     website: https://eds.dance/
