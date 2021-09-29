@@ -15,7 +15,7 @@ main:
     url: "/past-events/"
     weight: 5
   - name: "关于载歌在谷"
-    url: "http://blog.zgzg.io/community/"
+    url: "/about/"
     weight: 6
   - name: "联系我们"
     url: "mailto:contact-us@zgzg.io"
@@ -23,7 +23,7 @@ main:
 
 footer:
   - name: "关于我们"
-    url: "http://blog.zgzg.io/community/"
+    url: "/about/"
     weight: 2
   - name: "加入我们"
     url: "mailto:contact-us@zgzg.io?subject=加入"
