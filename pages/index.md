@@ -6,6 +6,7 @@ intro_image: "images/illustrations/undraw_Partying_re_at7f.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_programmes: true
+permalink: /
 ---
 # 载歌在谷春节晚会
 <h3>我们开始征集2022年节目、招募主持人啦!</h3>
