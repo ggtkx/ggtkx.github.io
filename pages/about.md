@@ -23,4 +23,4 @@ permalink: /about/
 
 各节目组之外，我们还有四大功能组来负责日常事宜：内联组、外联组、运营组及创作组。当有特殊需要时，功能组内部将会适时抽调组员、组成各种委员会。例如，我们有贡献者委员会、预算委员会和美食地图委员会。
 
-![组织架构图](https://tva1.sinaimg.cn/large/008i3skNgy1gurhx3g2qrj61hg0u0q7602.jpg)
+![组织架构图](https://tva1.sinaimg.cn/large/008i3skNgy1guy8blhllvj61gv0u078x02.jpg)
