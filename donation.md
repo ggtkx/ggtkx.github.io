@@ -1,6 +1,6 @@
 ---
 title: 硅谷脱口秀 - 活动捐赠
-layout: default
+layout: page
 permalink: /donation
 ---
 硅谷脱口秀每周五晚8点在举行开放麦，这里既是脱口秀新人首秀的舞台，也是脱口秀老司机试炼新段子、打磨老段子的地方。
