@@ -1,4 +1,14 @@
 - title: 春节晚会
+  date: 2021.2.14
+  location: 线上
+  image: images/2021.png
+  url: https://www.youtube.com/watch?v=Og79WYH9cLA
+  links:
+    - title: 全程录像
+      url: https://www.youtube.com/watch?v=Og79WYH9cLA
+    - title: 文案回顾
+      url: https://mp.weixin.qq.com/s/VhQ00wBnL0_VQXhpX_Jn4g
+- title: 春节晚会
   date: 2020.1.25
   location: 线上
   image: https://blog.zgzg.io/wp-content/uploads/11581655426.jpg
