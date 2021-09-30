@@ -11,9 +11,13 @@ main:
     url: "/become/"
     weight: 3
 
+  - name: "开放麦"
+    url: "/donation/"
+    weight: 4
+
   - name: "English"
     url: "/en/"
-    weight: 4
+    weight: 5
 
 footer:
   - name: "合作"
