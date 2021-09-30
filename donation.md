@@ -11,4 +11,6 @@ permalink: /donation
 
 硅谷脱口秀开放麦在提供免费门票的同时也接受捐赠，用以承担房租及设备费用。硅谷脱口秀 由P&Y基金会承办。P&Y基金会是一个 501(c)(3) 非营利组织。
 
+开放麦于19:45开放入场，20:05关门停止入场，场地内请勿吃喝并佩戴口罩。因为目前开放麦场地与舞蹈教室共享，进入场地需穿鞋套（现场提供）或者脱鞋，感谢您的配合。
+
 <iframe class="full" src="https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1" frameborder="0"></iframe>
