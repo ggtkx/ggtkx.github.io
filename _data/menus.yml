@@ -21,7 +21,7 @@ footer:
     weight: 1
 
   - name: "捐款"
-    url: "https://paypal.me/pandyfoundation"
+    url: "/donation/"
     weight: 2
 
   - name: "English"
