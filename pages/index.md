@@ -22,4 +22,4 @@ permalink: /
 <h4>微信公众号 ZaiGeZaiGu</h4>
 <h4>联系我们 contact-us@zgzg.io<h4><br>
 
-<img alt="微信公众号二维码" src="images/qrcode.png" height=100 />
+<img alt="微信公众号二维码" src="images/qrcode.png" height=130 />
