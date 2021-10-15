@@ -17,9 +17,6 @@ main:
   - name: "关于载歌在谷"
     url: "/about/"
     weight: 6
-  - name: "联系我们"
-    url: "mailto:contact-us@zgzg.io"
-    weight: 7
 
 footer:
   - name: "关于我们"
@@ -30,9 +27,6 @@ footer:
     weight: 2
   - name: "合作咨询"
     url: "mailto:contact-us@zgzg.io?subject=合作"
-    weight: 2
-  - name: "联系我们"
-    url: "mailto:contact-us@zgzg.io"
     weight: 2
 
   - name: "YouTube"
