@@ -13,12 +13,10 @@ permalink: /gala/
 ## 春晚赞助商联系信息
 Email: 2022-info@zgzg.io
 
-关注我们：
+关注我们：<br>
 Website: zgzg.io<br>
 YouTube: <a href="https://www.youtube.com/channel/UCY7-f7HBl8kvmoGtQX4TGUg">ZaiGeZaiGu</a><br>
 WeChat: “载歌在谷”<br>
-
-<a href="https://mp.weixin.qq.com/s/ugBaUYEJl_A720cAHPlPZA"><b>2022 “载歌在谷”春节晚会节目征集及主持人招募!</b></a>
 
 # <span style="color:coral">Q&A</span>
 
