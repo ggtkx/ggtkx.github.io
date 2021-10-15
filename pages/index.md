@@ -22,4 +22,4 @@ permalink: /
 [<u>剧场</u>](https://sanjosetheaters.org/theaters/center-for-performing-arts/) &nbsp; [<u>地图</u>](https://goo.gl/maps/niXAKJ49jv6L1TtC6)<br>
 
 <a class="button home-button" href="/gala"><b>春晚须知</b></a>
-&nbsp; <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSepoCkWFIVBIVNc4NdbBzf33wXHiHPQwyVty0rOycKusMG3LA/viewform"><b>志愿者报名</b></a>
+&nbsp; <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSepoCkWFIVBIVNc4NdbBzf33wXHiHPQwyVty0rOycKusMG3LA/viewform"><b>春晚志愿者报名</b></a>
