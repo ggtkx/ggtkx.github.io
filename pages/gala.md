@@ -14,12 +14,9 @@ permalink: /gala/
 Email: 2022-info@zgzg.io
 
 关注我们：
-Website: zgzg.io
-YouTube: https://zgzg.link/youtube
-WeChat: “载歌在谷”
-
-时间：2022年1月15日周六，7pm PST (暂定)<br>
-地点：SJCPA，255 S Almaden Blvd, San Jose, CA 95113
+Website: zgzg.io<br>
+YouTube: <a href="https://www.youtube.com/channel/UCY7-f7HBl8kvmoGtQX4TGUg">ZaiGeZaiGu</a><br>
+WeChat: “载歌在谷”<br>
 
 <a href="https://mp.weixin.qq.com/s/ugBaUYEJl_A720cAHPlPZA"><b>2022 “载歌在谷”春节晚会节目征集及主持人招募!</b></a>
 

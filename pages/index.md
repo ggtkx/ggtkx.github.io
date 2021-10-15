@@ -10,7 +10,7 @@ permalink: /
 ---
 # 载歌在谷春节晚会及云集系列活动
 <h3>赞助商火热招募中，赶快联系我们！</h3>
-<h4>春晚和云集活动独立运作
+<h4>春晚和云集活动独立运作<br>
 请有兴趣的赞助商通过下方相对应的渠道联系</h4>
 <a class="button home-button" href="/gala"><b>春晚赞助商</b></a>
 &nbsp; <a class="button home-button" href="/yj"><b>云集系列赞助商</b></a>
