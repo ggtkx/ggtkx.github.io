@@ -11,4 +11,4 @@ permalink: /yj/
 <h4>微信公众号 ZaiGeZaiGu</h4>
 <h4>联系我们 contact-us@zgzg.io<h4><br>
 
-<img alt="微信公众号二维码" src="images/qrcode.png" height=130 />
+<img alt="微信公众号二维码" src="https://res.cloudinary.com/zaigezaigu/image/upload/v1634266692/zgzg-io-website/qrcode_abc5e1.png" height=130 />
