@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": 45,
+        "weight": 46,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -51,7 +51,7 @@
     },
     {
         "title": "黎明洋",
-        "weight": 19,
+        "weight": 20,
         "image": "https://i.imgur.com/8kHVjfD.png",
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
         "contact": [
@@ -84,7 +84,7 @@
     },
     {
         "title": "方圆",
-        "weight": 18,
+        "weight": 19,
         "image": "https://i.imgur.com/VcpirXv.png",
         "description": "躁起来呗",
         "contact": [
@@ -173,19 +173,19 @@
         ]
     },
     {
-        "title": "王大拿",
-        "weight": 6,
-        "image": "https://i.imgur.com/tyc7toZ.png",
-        "description": "集美貌与智慧于一身"
-    },
-    {
         "title": "Larry",
-        "weight": 6,
+        "weight": 7,
         "image": "https://i.imgur.com/KJJz7Ek.png",
         "description": "毁人不倦的中文老湿",
         "contact": [
             "[俺的学校](https://www.sanjoselearningcenter.com)"
         ]
+    },
+    {
+        "title": "王大拿",
+        "weight": 6,
+        "image": "https://i.imgur.com/tyc7toZ.png",
+        "description": "集美貌与智慧于一身"
     },
     {
         "title": "Timur",
