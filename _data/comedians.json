@@ -293,7 +293,11 @@
     {
         "title": "Frankie",
         "weight": 2,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk24kktm3j60n40n440h02.jpg"
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk24kktm3j60n40n440h02.jpg",
+        "description": "不好笑？那就忍一忍。",
+        "contact": [
+            "小红书：`425269388`"
+        ]
     },
     {
         "title": "小马哥",
