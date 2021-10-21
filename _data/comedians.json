@@ -266,6 +266,20 @@
         "description": "我哦，开开心心最重要！"
     },
     {
+        "title": "福禄",
+        "weight": 3,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
+        "description": "幽默儿神童"
+    },
+    {
+        "title": "Mandy",
+        "weight": 3,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
+        "contact": [
+            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
+        ]
+    },
+    {
         "title": "Chloe",
         "weight": 2,
         "image": "https://i.imgur.com/B60VWOE.png"
@@ -275,6 +289,20 @@
         "weight": 2,
         "image": "https://i.imgur.com/Wzr0KQF.png",
         "description": "吐槽生活好好玩哦～"
+    },
+    {
+        "title": "Frankie",
+        "weight": 2,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk24kktm3j60n40n440h02.jpg"
+    },
+    {
+        "title": "小马哥",
+        "weight": 2,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk2udrwevj60an0anjrv02.jpg",
+        "description": "我的生活很甜，需要喝黑咖啡来找点苦。",
+        "contact": [
+            "小红书：`1069782970`"
+        ]
     },
     {
         "title": "jinn",
