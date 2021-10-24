@@ -10,5 +10,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center top;
+  background-size: 100% auto;
 }
 </style>
