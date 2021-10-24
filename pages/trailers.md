@@ -1,12 +1,12 @@
 ---
-title: 花絮
+title: 
 layout: page
-permalink: /trailer/
+permalink: trailer/
 ---
 
 <style>
 body {
-  background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1635105538/zgzg-io-website/IMG_5218_pcaul9.jpg');
+  background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1635106799/zgzg-io-website/bg_iywufx.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
