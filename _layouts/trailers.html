@@ -1,6 +1,8 @@
 ---
 layout: page-no-sidebar
 ---
+<div class="row">
 {% for image in site.data.trailer-images %}
-  <img src="{{image.src}}"/>
+  <img class="col-sm-6 col-md-4 align-self-center" src="{{image.src}}"/>
 {% endfor %}
+</div>
