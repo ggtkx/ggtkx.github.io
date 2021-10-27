@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": 46,
+        "weight": 47,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -64,22 +64,22 @@
         ]
     },
     {
+        "title": "邵天宇",
+        "weight": 20,
+        "image": "https://i.imgur.com/scQgJSc.png",
+        "description": "曾经是一名脱口秀表演者",
+        "contact": [
+            "ClubHouse ID: `ericshao`",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kU4T0eL_Y5MzjOkEYdOFvb)"
+        ]
+    },
+    {
         "title": "小企鹅 Lisa",
         "weight": 19,
         "image": "https://i.imgur.com/IOg9VMj.png",
         "description": "我是小企鹅 Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nhrZ5Y6uELqJiH7MMPoS4N)"
-        ]
-    },
-    {
-        "title": "邵天宇",
-        "weight": 19,
-        "image": "https://i.imgur.com/scQgJSc.png",
-        "description": "曾经是一名脱口秀表演者",
-        "contact": [
-            "ClubHouse ID: `ericshao`",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kU4T0eL_Y5MzjOkEYdOFvb)"
         ]
     },
     {
@@ -117,6 +117,16 @@
         "image": "https://i.imgur.com/LnobTPF.png"
     },
     {
+        "title": "邵远",
+        "weight": 10,
+        "image": "https://i.imgur.com/50YpVbT.png",
+        "description": "攀岩界最会说相声的数学家。",
+        "contact": [
+            "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz/)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mOqnLKXBeAHISpq2FMpu9z)"
+        ]
+    },
+    {
         "title": "Spicy Zinc",
         "weight": 9,
         "image": "https://i.imgur.com/2HfUjHM.png",
@@ -131,16 +141,6 @@
         "description": "硅谷脱口秀，你讲段子的理想港湾！",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nNANUxLPdSBeU--pKX56kE)"
-        ]
-    },
-    {
-        "title": "邵远",
-        "weight": 9,
-        "image": "https://i.imgur.com/50YpVbT.png",
-        "description": "攀岩界最会说相声的数学家。",
-        "contact": [
-            "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz/)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mOqnLKXBeAHISpq2FMpu9z)"
         ]
     },
     {
@@ -188,21 +188,21 @@
         "description": "集美貌与智慧于一身"
     },
     {
+        "title": "丝丝",
+        "weight": 6,
+        "image": "https://i.imgur.com/eCMvhmf.png",
+        "description": "不讲脱口秀的时候我都在帮客户抢房子",
+        "contact": [
+            "小红书：丝丝去哪儿"
+        ]
+    },
+    {
         "title": "Timur",
         "weight": 5,
         "image": "https://i.imgur.com/o0y7QF2.jpg",
         "description": "筚路蓝缕，以启山林；吃喝玩乐，醉生梦死。",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kg_t2ZChitJHYOJDokYSqB)"
-        ]
-    },
-    {
-        "title": "丝丝",
-        "weight": 5,
-        "image": "https://i.imgur.com/eCMvhmf.png",
-        "description": "不讲脱口秀的时候我都在帮客户抢房子",
-        "contact": [
-            "小红书：丝丝去哪儿"
         ]
     },
     {
