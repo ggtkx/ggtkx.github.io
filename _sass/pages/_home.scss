@@ -1,8 +1,11 @@
-.rainbow {
+#rainbow {
   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  height: 43px;
+  font-size: 16px;
+  color: #AA336A;
 }
 
-.rainbow:hover {
+#rainbow:hover {
   animation:slidebg 2s linear infinite;
 }
 
