@@ -22,3 +22,5 @@ permalink: /
 
 <a class="button home-button" href="/gala"><b>春晚须知</b></a>
 &nbsp; <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSepoCkWFIVBIVNc4NdbBzf33wXHiHPQwyVty0rOycKusMG3LA/viewform"><b>春晚志愿者报名</b></a>
+
+<a class="button rainbow-button" href="/trailer"><b>春晚拍摄花絮</b></a>
