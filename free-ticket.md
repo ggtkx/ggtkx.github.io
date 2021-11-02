@@ -7,7 +7,7 @@ permalink: /free-ticket
 
 请移步[eventbrite](https://www.eventbrite.com/e/200653609347)领票。
 领取免费票方法：
-1.关注Youtube频道[硅谷脱口秀](https://youtube.ggtkx.org)
+1. 关注Youtube频道[硅谷脱口秀](https://youtube.ggtkx.org)
 2. 观看最新一期表演视频并在字幕中找到免费promo彩蛋
 3. 在eventbrite的checkout页面输入该promo code获得100% off
 
