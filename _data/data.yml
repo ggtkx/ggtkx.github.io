@@ -114,9 +114,16 @@ sponsors_yj:
     description: 真诚靠谱为客户着想的资深地产团队
     website: https://www.bqrealtygroup.com/agents/23-ginny-lee
 
+    name: MOOMOO
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1636008024/zgzg-io-website/moo_mmj1sb.png
+    description: 职场人超爱的高效交易APP
+    website: https://www.moomoo.com/
+
+    
+
 sponsors:
   - name: 红叶故事
     image: https://i.imgur.com/b5dcJAY.png
-    description: 免费北美华人交友、约会和婚恋平台。
+    description: 免费北美华人交友,约会和婚恋平台。
     website: https://www.lovevite.com/?src=zgzg&redir=1
 
