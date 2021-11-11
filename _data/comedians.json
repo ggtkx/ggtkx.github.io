@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": 48,
+        "weight": 49,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -50,6 +50,25 @@
         ]
     },
     {
+        "title": "邵天宇",
+        "weight": 21,
+        "image": "https://i.imgur.com/scQgJSc.png",
+        "description": "曾经是一名脱口秀表演者",
+        "contact": [
+            "ClubHouse ID: `ericshao`",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kU4T0eL_Y5MzjOkEYdOFvb)"
+        ]
+    },
+    {
+        "title": "小企鹅 Lisa",
+        "weight": 20,
+        "image": "https://i.imgur.com/IOg9VMj.png",
+        "description": "我是小企鹅 Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~",
+        "contact": [
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nhrZ5Y6uELqJiH7MMPoS4N)"
+        ]
+    },
+    {
         "title": "黎明洋",
         "weight": 20,
         "image": "https://i.imgur.com/8kHVjfD.png",
@@ -64,25 +83,6 @@
         ]
     },
     {
-        "title": "邵天宇",
-        "weight": 20,
-        "image": "https://i.imgur.com/scQgJSc.png",
-        "description": "曾经是一名脱口秀表演者",
-        "contact": [
-            "ClubHouse ID: `ericshao`",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kU4T0eL_Y5MzjOkEYdOFvb)"
-        ]
-    },
-    {
-        "title": "小企鹅 Lisa",
-        "weight": 19,
-        "image": "https://i.imgur.com/IOg9VMj.png",
-        "description": "我是小企鹅 Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~",
-        "contact": [
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nhrZ5Y6uELqJiH7MMPoS4N)"
-        ]
-    },
-    {
         "title": "方圆",
         "weight": 19,
         "image": "https://i.imgur.com/VcpirXv.png",
@@ -93,14 +93,9 @@
         ]
     },
     {
-        "title": "兔子特特",
+        "title": "寇寇",
         "weight": 15,
-        "image": "https://imgur.com/J3uXn3Gl.png",
-        "description": "中年少女一枚。在家对娃脱口训在外对你脱口秀！你快乐所以我快乐～～",
-        "contact": [
-            "Clubhouse ID: `rabbit1`",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kapbhDaBG-qFjV5cI8hNor)"
-        ]
+        "image": "https://i.imgur.com/LnobTPF.png"
     },
     {
         "title": "小朱",
@@ -112,9 +107,14 @@
         ]
     },
     {
-        "title": "寇寇",
-        "weight": 14,
-        "image": "https://i.imgur.com/LnobTPF.png"
+        "title": "兔子特特",
+        "weight": 15,
+        "image": "https://imgur.com/J3uXn3Gl.png",
+        "description": "中年少女一枚。在家对娃脱口训在外对你脱口秀！你快乐所以我快乐～～",
+        "contact": [
+            "Clubhouse ID: `rabbit1`",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kapbhDaBG-qFjV5cI8hNor)"
+        ]
     },
     {
         "title": "邵远",
@@ -215,6 +215,14 @@
         ]
     },
     {
+        "title": "Mandy",
+        "weight": 5,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
+        "contact": [
+            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
+        ]
+    },
+    {
         "title": "Jack",
         "weight": 4,
         "image": "https://i.imgur.com/bb66MWl.png",
@@ -238,14 +246,6 @@
         "description": "早恋你为什么总针对我喷垃圾话？",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34lOFq1S6g1zTcySvmTKmilC)"
-        ]
-    },
-    {
-        "title": "Mandy",
-        "weight": 4,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
-        "contact": [
-            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
         ]
     },
     {
