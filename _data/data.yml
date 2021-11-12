@@ -107,11 +107,11 @@ past-programmes:
 
 sponsors_yj:
   - name: Ginny Lee
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1636007705/zgzg-io-website/zgzg-io-website_640_thurn5-c_scale_w_250_woml1t.webp
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_200/v1636007705/zgzg-io-website/zgzg-io-website_640_thurn5-c_scale_w_250_woml1t.webp
     description:  真诚靠谱为客户着想的资深地产团队。
     website: https://www.bqrealtygroup.com/agents/23-ginny-lee
   - name: MOOMOO
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1636009327/zgzg-io-website/moo_slji2u.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_200/v1636009327/zgzg-io-website/moo_slji2u.png
     description:  职场人超爱的高效交易APP。
     website: https://www.moomoo.com/
 
