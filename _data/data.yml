@@ -8,15 +8,12 @@ main:
   - name: "云集栏目"
     url: "/yj/"
     weight: 3
-  - name: "赞助商"
-    url: "#sponsors"
-    weight: 4
   - name: "往届回顾"
     url: "/past-events/"
-    weight: 5
+    weight: 4
   - name: "关于载歌在谷"
     url: "/about/"
-    weight: 6
+    weight: 5
 
 footer:
   - name: "关于我们"
