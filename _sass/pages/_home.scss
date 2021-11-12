@@ -19,7 +19,11 @@
 }
 
 .sponsor-image, .friend-image {
-	line-height: 100px;
+    line-height: 100px;
+}
+
+.sponsor-image {
+    padding: 20px 0 20px 0;
 }
 
 .friend-image {
@@ -34,8 +38,7 @@
 }
 
 .sponsor-image > img, .friend-image > img {
-	vertical-align: text-bottom;
-	padding: 10px 0
+    vertical-align: text-bottom;
 }
 
 .home-button {
