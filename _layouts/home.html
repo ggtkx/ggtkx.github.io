@@ -58,12 +58,11 @@ bodyClass: page-home
             {% if sponsor.image %}
               <div class="sponsor-image">
                 <a href="{{ sponsor.website }}">
-                  <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
+                  <br><img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" /><br>
                 </a>
               </div>
             {% endif %}
             <div class="sponsor-content">
-              <p class="sponsor-description">{{ sponsor.description }}</p>
               {% if sponsor.contact.size > 0 %}
                 {% for contact in sponsor.contact %}
                   {{ contact | markdownify }}
@@ -86,7 +85,7 @@ bodyClass: page-home
             {% if sponsor.image %}
               <div class="sponsor-image">
                 <a href="{{ sponsor.website }}">
-                  <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
+                  <br><img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" /><br>
                 </a>
               </div>
             {% endif %}
