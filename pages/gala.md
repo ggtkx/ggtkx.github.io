@@ -1,55 +1,20 @@
 ---
 title: 春节活动
-layout: page
+layout: gala
 permalink: /gala/
 ---
 
-# <span style="color:coral">载歌在谷春晚</span>
-
-“载歌在谷”社区是一个以硅谷高科技从业者为主要贡献者的非盈利组织。社区以文艺活动为载体，旨在丰富硅谷华人的日常生活，弘扬中华文化，并最终为贡献者的自我提升提供实践的平台。
-
-载歌在谷从2015年谷歌内部春节晚会，经历6年发展到现在面向全湾区的多达2500人的大型春晚。2021年由于疫情，载歌在谷首次将晚会搬到了线上，并在2021年2月13日为大家呈现了一台别开生面的载歌在谷牛年线上春晚。
-
-## 春晚赞助商联系信息
+### 春晚赞助商联系信息
 Email: 2022-info@zgzg.io
 
-## 关注我们
-Website: zgzg.io<br>
-YouTube: <a href="https://www.youtube.com/channel/UCY7-f7HBl8kvmoGtQX4TGUg">ZaiGeZaiGu</a><br>
-WeChat: “载歌在谷”<br>
+## <span style="color:coral">Q&A</span>
 
-# <span style="color:coral">Q&A</span>
-
-## Q: 今年晚会时间地点是什么？
-
-时间：2022年1月15日周六，7pm PST (暂定)<br>
-地点：SJCPA，255 S Almaden Blvd, San Jose, CA 95113
-
-## Q: 今年如何参与节目选拔？
-
-节目报名截止：2021年10月9日<br>
-节目选拔Audition：2021年10月23日 – 2021年10月24日
-
-## Q: 今年是否组织游园会？
-
-游园会已有规划：
-
-时间：2022年1月15日周六，1pm – 4pm PST (暂定)<br>
-地点：SJCPA 门前广场，255 S Almaden Blvd, San Jose, CA 95113
-
-## Q: 今年有哪些观看形式?
+### Q: 今年有哪些观看形式?
 
 - 载歌在谷官网首页([zgzg.io](https://www.zgzg.io/))
 - 载歌在谷官方[YouTube频道](https://zgzg.link/youtube)
 - [星岛星电视直播](http://www.singtao.tv/main/)
 
-## Q: 今年有节目单吗？在哪里可以找到？
+### Q: 今年有节目单吗？在哪里可以找到？
 
 志愿者及节目招募即将开始，敬请关注公众号!
-
-# 历届媒体报道
-
-- [美国旧金山湾区华人的春节](https://www.chinanews.com/hr/2021/02-10/9409274.shtml)（2021年2月）
-- [载歌在谷：硅谷程序员自己的完美春晚](https://tech.qq.com/a/20190217/002309.htm) （2019年2月）
-
-![志愿者照片](https://tva1.sinaimg.cn/large/008i3skNgy1guri51d2mij61mz0u0akc02.jpg)
