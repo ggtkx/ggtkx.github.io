@@ -11,7 +11,7 @@
     },
     {
         "title": "早恋",
-        "weight": 32,
+        "weight": 33,
         "image": "https://i.imgur.com/mSfLTWx.png",
         "description": "临渊羡鱼，不如退而结网。",
         "contact": [
@@ -40,16 +40,6 @@
         ]
     },
     {
-        "title": "Monkey",
-        "weight": 21,
-        "image": "https://i.imgur.com/rIg21xp.png",
-        "description": "想成为带来欢笑和温暖的人。猫狗双全，差一人组成狗男女。大大方方说：我要找男朋友 （感谢社长让在这谋私利）",
-        "contact": [
-            "Instagram: [bigmonkeyma](https://www.instagram.com/bigmonkeyma/)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kTGnvPs-sI21crusfMQLKO)"
-        ]
-    },
-    {
         "title": "邵天宇",
         "weight": 21,
         "image": "https://i.imgur.com/scQgJSc.png",
@@ -57,6 +47,16 @@
         "contact": [
             "ClubHouse ID: `ericshao`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kU4T0eL_Y5MzjOkEYdOFvb)"
+        ]
+    },
+    {
+        "title": "Monkey",
+        "weight": 21,
+        "image": "https://i.imgur.com/rIg21xp.png",
+        "description": "想成为带来欢笑和温暖的人。猫狗双全，差一人组成狗男女。大大方方说：我要找男朋友 （感谢社长让在这谋私利）",
+        "contact": [
+            "Instagram: [bigmonkeyma](https://www.instagram.com/bigmonkeyma/)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kTGnvPs-sI21crusfMQLKO)"
         ]
     },
     {
@@ -94,7 +94,7 @@
     },
     {
         "title": "寇寇",
-        "weight": 15,
+        "weight": 16,
         "image": "https://i.imgur.com/LnobTPF.png"
     },
     {
@@ -118,7 +118,7 @@
     },
     {
         "title": "邵远",
-        "weight": 10,
+        "weight": 11,
         "image": "https://i.imgur.com/50YpVbT.png",
         "description": "攀岩界最会说相声的数学家。",
         "contact": [
@@ -153,6 +153,15 @@
         ]
     },
     {
+        "title": "Larry",
+        "weight": 8,
+        "image": "https://i.imgur.com/KJJz7Ek.png",
+        "description": "毁人不倦的中文老湿",
+        "contact": [
+            "[俺的学校](https://www.sanjoselearningcenter.com)"
+        ]
+    },
+    {
         "title": "于晓凡",
         "weight": 7,
         "image": "https://i.imgur.com/NPodfRG.jpg",
@@ -170,15 +179,6 @@
         "contact": [
             "抖音： `@gongsunmengmeng`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34l9rKebmdwPUeB6oOMZWh9K)"
-        ]
-    },
-    {
-        "title": "Larry",
-        "weight": 7,
-        "image": "https://i.imgur.com/KJJz7Ek.png",
-        "description": "毁人不倦的中文老湿",
-        "contact": [
-            "[俺的学校](https://www.sanjoselearningcenter.com)"
         ]
     },
     {
@@ -309,6 +309,12 @@
         ]
     },
     {
+        "title": "平俊哲",
+        "weight": 2,
+        "image": "https://i.imgur.com/ss9oyjU.png",
+        "description": "新加坡英语新加坡汉语都很6"
+    },
+    {
         "title": "jinn",
         "weight": 1,
         "image": "https://i.imgur.com/0p0xsKo.jpg",
@@ -316,12 +322,6 @@
         "contact": [
             "Linkedin: [Jin Liu](https://www.linkedin.com/in/jin-liu-a5b697140)"
         ]
-    },
-    {
-        "title": "平俊哲",
-        "weight": 1,
-        "image": "https://i.imgur.com/ss9oyjU.png",
-        "description": "新加坡英语新加坡汉语都很6"
     },
     {
         "title": "戴智开",
