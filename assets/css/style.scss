@@ -130,7 +130,8 @@ body {
 } 
 
 #ticket-button {
-  background: beige;
+  background: forestgreen;     
+  color: white;
 }
 
 #ticket-banner h1{
@@ -138,6 +139,9 @@ body {
   font-size: 30px; 
   margin: 10px 0 30px 0
 } 
+#ticket-content {
+  padding: 0 20px;
+}
 
 #gala-banner {
   background-color: rgb(146, 84, 78);
