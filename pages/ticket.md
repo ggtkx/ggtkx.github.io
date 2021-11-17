@@ -4,4 +4,4 @@ layout: ticket
 permalink: /ticket/
 ---
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br>
