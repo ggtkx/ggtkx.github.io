@@ -4,6 +4,8 @@ main:
     weight: 1
   - name: " 春晚及游园"
     url: "/gala/"
+    name: " 票务信息"
+    url: "/ticket/"
     weight: 2
   - name: "云集栏目"
     url: "/yj/"
