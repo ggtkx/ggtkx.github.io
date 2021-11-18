@@ -3,10 +3,6 @@ title: 春节活动
 layout: gala
 permalink: /gala/
 ---
-
-### 春晚赞助商联系信息
-Email: 2022-info@zgzg.io
-
 ## <span style="color:coral">Q&A</span>
 
 ### Q: 今年有哪些观看形式?

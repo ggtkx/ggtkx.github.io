@@ -2,10 +2,8 @@ main:
   - name: "社区主页"
     url: "/"
     weight: 1
-  - name: " 春晚及游园"
+  - name: " 2022春晚及游园"
     url: "/gala/"
-    name: " 票务信息"
-    url: "/ticket/"
     weight: 2
   - name: "云集栏目"
     url: "/yj/"
@@ -122,4 +120,10 @@ sponsors:
     - name: Coco Tan
       image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1636693112/zgzg-io-website/coco_lx8uvq.jpg
       website: https://www.realtorcocotan.com/
+    - name: Captain Dental
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1637208837/zgzg-io-website/logo_CD_pam603.svg
+      website: https://www.captaindental.com/
+  gold:
+    - name: 红叶故事
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
 

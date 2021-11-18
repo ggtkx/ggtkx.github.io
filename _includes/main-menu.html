@@ -1,6 +1,7 @@
 <div id="main-menu" class="main-menu">
   {% assign mainmenu = site.data.data.main | sort: 'weight'  %}
   <ul>
+    <li> <a href="/ticket" style="background-color: red; color:white; border-radius:5px;">购票信息</a></li>
     {% for item in mainmenu %}
     <li class="{% if item.url == page.url %}active{% endif %}">
       <a href="{{ item.url | relative_url }}">{{ item.name }}</a>

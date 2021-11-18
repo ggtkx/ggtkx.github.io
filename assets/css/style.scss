@@ -96,6 +96,10 @@ body {
   }
 }
 
+img {
+  width:100%;
+}
+
 .event {
    background-image: url(https://blog.zgzg.io/wp-content/uploads/circel.png), url(http://blog.zgzg.io/wp-content/uploads/line2.png);
    background-repeat: no-repeat, no-repeat;
@@ -152,3 +156,7 @@ body {
 #gala-banner p{
   color:white;
 } 
+
+.sponsor img {
+  width:100%;
+}
