@@ -7,7 +7,7 @@ permalink: /gala/
 ## <span style="color:coral">Q&A</span>
 
 ### Q: 春晚和游园节目有何进展?
-- [<i>春晚快报 1</i>](https://www.zgzg.io/month1)
+- [春晚快报 One](https://www.zgzg.io/month1)
 
 ### Q: 今年有哪些观看形式?
 
