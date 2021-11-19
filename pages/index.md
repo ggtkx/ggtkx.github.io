@@ -13,8 +13,6 @@ permalink: /
 <h4>San José Center for the Performing Arts</h4>
 <h4>255 S Almaden Blvd, San Jose, CA 95113 </h4>
 
-<div style="width:80%;text-align:center"><a class="button home-button"  href="/ticket" style="font-size:200%;width:auto;padding:1em 2em;height:auto">春晚观众购票</a></div>
+<div style="width:80%;text-align:left; margin:20px 0px;"><a class="button home-button"  href="/ticket" style="font-size:200%;width:auto;padding:1em;height:auto">春晚观众购票</a></div>
+
 <div><a href="/gala">详细信息</a></div>
-
-
-
