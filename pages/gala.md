@@ -3,6 +3,7 @@ title: 春节活动
 layout: gala
 permalink: /gala/
 ---
+
 ## <span style="color:coral">Q&A</span>
 
 ### Q: 今年有哪些观看形式?
@@ -14,3 +15,6 @@ permalink: /gala/
 ### Q: 今年有节目单吗？在哪里可以找到？
 
 志愿者及节目招募即将开始，敬请关注公众号!
+
+### Q: 导航
+[<u>剧场</u>](https://sanjosetheaters.org/theaters/center-for-performing-arts/) &nbsp; [<u>地图</u>](https://goo.gl/maps/niXAKJ49jv6L1TtC6)<br>

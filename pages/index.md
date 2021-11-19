@@ -9,18 +9,12 @@ show_programmes: true
 permalink: /
 ---
 # 载歌在谷春节晚会及云集系列活动
-<h3>赞助商火热招募中，赶快联系我们！</h3>
-<h4>春晚和云集活动独立运作<br>
-请有兴趣的赞助商通过下方相对应的渠道联系</h4>
-<a class="button home-button" href="/gala"><b>春晚赞助商</b></a>
-&nbsp; <a class="button home-button" href="/yj"><b>云集系列赞助商</b></a>
-
 <h4>2022年1月15日周六，7pm PST</h4>
 <h4>San José Center for the Performing Arts</h4>
 <h4>255 S Almaden Blvd, San Jose, CA 95113 </h4>
-[<u>剧场</u>](https://sanjosetheaters.org/theaters/center-for-performing-arts/) &nbsp; [<u>地图</u>](https://goo.gl/maps/niXAKJ49jv6L1TtC6)<br>
 
-<a class="button home-button" id="ticket-button" href="/ticket"><b>春晚观众购票</b></a>
-&nbsp; <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSepoCkWFIVBIVNc4NdbBzf33wXHiHPQwyVty0rOycKusMG3LA/viewform"><b>春晚志愿者报名</b></a>
+<div style="width:70%;text-align:center"><a class="button home-button"  href="/ticket" style="font-size:200%;width:100%;padding:1em;height:auto">春晚观众购票</a></div>
+<div><a href="/gala">详细信息</a></div>
 
-<a class="button home-button" id="rainbow" href="/trailer"><b>最新春晚拍摄花絮</b></a>
+
+
