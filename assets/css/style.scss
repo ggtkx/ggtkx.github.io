@@ -3,7 +3,7 @@
 ---
 
 // Colors
-$primary: #E5261F;
+$primary: rgba(193,32,40,255);
 $secondary: #f88379;
 $black: #2f2f41;
 $white: #ffffff;
@@ -68,6 +68,16 @@ body {
     font-size: 16px;
     line-height: 1.3;
   }
+}
+
+.primary-background {
+  background-color:$primary;
+  color:$white;
+}
+
+.primary-text {
+  color:$primary;
+  background-color:$white
 }
 
 #sidebar > .footnotes > ol > li {
@@ -168,14 +178,15 @@ h2.gala-heading {
 }
 
 #gala-banner {
-  background-color: rgb(146, 84, 78);
+  background-color: rgba(193,32,40,255) !important;
   color:white;
   padding-top:50px;
+  background-position:left 0px center;
+  background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/v1637381379/zgzg-io-website/front-page-1280x712_ueloj5.png);
 } 
 
 #gala-banner p{
-  color:white;
-} 
+  color:white;} 
 
 .sponsor img {
   width:100%;
