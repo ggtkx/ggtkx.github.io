@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div id="gala-banner" class="section">
+<div id="gala-banner" class="">
     <div class="container">
         <div class="row">
             <div class="col-12 mb-6 col-md-6 col-lg-6 align-self-center">
@@ -16,7 +16,7 @@ layout: default
                 <p>春晚赞助商联系信息<br>
                     Email: 2022-info@zgzg.io</p>
             </div>
-            <div  class="col-12 mb-6 col-md-6 col-lg-6 align-self-end">
+            <div class="col-12 mb-6 col-md-6 col-lg-6 align-self-end">
                 <p><a class="primary-text button" href="/trailer"><b>最新春晚拍摄花絮</b></a></p>
             </div>
         </div>
@@ -27,39 +27,56 @@ layout: default
         <div class="content">{{content}}</div>
     </div>
 </div>
-<div id="gala-sponsors" class="section">
-    <div class="container">
-        <h2 class="gala-heading">钻石赞助</h2>
-        <div class="row diamond-sponsors">
-        {% for sponsor in site.data.data.sponsors.diamond %}
-        <div class="col-6 mb-1">  
-            {% include sponsor.html %}
+<div id="gala-sponsors">
+    <div class="light-background">
+        <div class="section row diamond-sponsors">
+            <div class="col-12 col-lg-4 align-self-center">
+                <h2 class="gala-heading">钻石赞助</h2>
             </div>
-        {% endfor %}
-        </div>
-        <h2 class="gala-heading">白金赞助</h2>
-        <div class="row platinum-sponsors">
-            {% for sponsor in site.data.data.sponsors.platinum %}
-            <div class="col-6 col-lg-3 mb-1">   
-            {% include sponsor.html %}
-            </div>
-            {% endfor %}
-            </div>
-        <h2 class="gala-heading">金牌赞助</h2>
-        <div class="row gold-sponsors">
-            {% for sponsor in site.data.data.sponsors.gold %}
-            <div class="col-6 col-lg-3 mb-1">   
-                {% include sponsor.html %}
-            </div>
-            {% endfor %}
-        </div>
-        <h2 class="gala-heading">合作伙伴</h2>
-        <div class="row gold-sponsors">
-            {% for sponsor in site.data.data.sponsors.partners %}
-            <div class="col-4 col-lg-3 mb-1">   
+
+            {% for sponsor in site.data.data.sponsors.diamond %}
+            <div class="col-6 col-lg-4 mb-1">
                 {% include sponsor.html %}
             </div>
             {% endfor %}
         </div>
     </div>
+    <div></div>
+    <div class="section row platinum-sponsors">
+        <div class="col-12 col-lg-4 align-self-center">
+            <h2 class="gala-heading">白金赞助</h2>
+        </div>
+        {% for sponsor in site.data.data.sponsors.platinum %}
+        <div class="col-6 col-lg-3 mb-1">
+            {% include sponsor.html %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<div class="light-background">
+    <div class="section gold-sponsors">
+        <h2 class="gala-heading">金牌赞助</h2>
+        <div class="row">
+            {% for sponsor in site.data.data.sponsors.gold %}
+            <div class="col-6 col-lg-3 mb-1">
+                {% include sponsor.html %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<div></div>
+<div class="section gold-sponsors">
+    <h2 class="gala-heading">合作伙伴</h2>
+
+    <div class="row">
+
+        {% for sponsor in site.data.data.sponsors.partners %}
+        <div class="col-4 col-lg-3 mb-1">
+            {% include sponsor.html %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+</div>
 </div>

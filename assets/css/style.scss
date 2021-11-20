@@ -8,6 +8,7 @@ $secondary: #f88379;
 $black: #2f2f41;
 $white: #ffffff;
 $white-offset: #fff6f8;
+$light: #fff6f8;
 $steel: #5C5A5A;
 
 // Links
@@ -78,6 +79,17 @@ body {
 .primary-text {
   color:$primary;
   background-color:$white
+}
+
+.light-background {
+  background-color:$light
+}
+
+.section {
+  max-width:960px;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 #sidebar > .footnotes > ol > li {
