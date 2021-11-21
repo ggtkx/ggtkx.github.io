@@ -2,7 +2,7 @@ main:
   - name: "社区主页"
     url: "/"
     weight: 1
-  - name: " 2022春晚及游园"
+  - name: " 2022春晚"
     url: "/gala/"
     weight: 2
   - name: "云集栏目"
