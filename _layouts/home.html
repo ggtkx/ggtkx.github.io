@@ -7,13 +7,13 @@ bodyClass: page-home
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        {{ content }}
-      </div>
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+      <div class="col-12 col-md-5 col-lg-6 order-2 order-md-1 position-relative">
         <br>
-	<iframe src="https://www.youtube.com/embed/YhlDT3Eqqzs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="teaser"></iframe>
+	      <iframe src="https://www.youtube.com/embed/YhlDT3Eqqzs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="teaser"></iframe>
         <iframe src="https://calendar.google.com/calendar/embed?height=200&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=Y2ItdC5vcmdfa3ZhNmNlYW9zMTJyaXFkM3JraWhhcGc0bjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23D81B60&showCalendars=0&showTabs=0&mode=AGENDA&showPrint=0&showDate=0&showNav=0&showTitle=0&showTz=1&hl=zh_CN" frameborder="0" scrolling="no" id="calendar"></iframe>
+      </div>
+      <div class="col-12 col-md-7 col-lg-6 order-1 order-md-2 d-flex align-items-end flex-column">
+        {{ content }}
       </div>
     </div>
   </div>
@@ -45,14 +45,11 @@ bodyClass: page-home
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pb-md-10" id="sponsors">
     <div class="row">
-      <h1>友情链接</h1>
-    </div>
-    <div class="row">
       <h2>2022春晚游园赞助商</h2>
     </div>
-    <div class="row justify-content-start">
+    <div class="row justify-content-start align-items-center">
       {% for sponsor in site.data.data.sponsors.diamond %}
-      <div class="col-12 col-md-3 mb-1">
+      <div class="col-12 col-md-3 mb-1 pl-3 pr-3">
         <div class="sponsor sponsor-summary">
           <div class="sponsor-content">
             {% if sponsor.image %}
@@ -77,9 +74,9 @@ bodyClass: page-home
     <div class="row">
       <h2>2021秋冬季云集赞助商</h2>
     </div>
-    <div class="row justify-content-start">
+    <div class="row justify-content-start align-items-center">
       {% for sponsor in site.data.data.sponsors_yj %}
-      <div class="col-12 col-md-3 mb-1">
+      <div class="col-12 col-md-3 mb-1 pl-3 pr-3">
         <div class="sponsor sponsor-summary">
           <div class="sponsor-content">
             {% if sponsor.image %}

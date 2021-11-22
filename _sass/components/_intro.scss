@@ -16,7 +16,6 @@
     font-weight: bold;
     line-height: 1.2;
     @include media-breakpoint-up(md) {
-      width: 80%;
       font-size: 48px;
     }
     @include media-breakpoint-up(lg) {
@@ -25,7 +24,6 @@
     margin: 30px 0 15px 0;
   }
   h2 {
-    width: 80%;
     font-size: 1.2rem;
     line-height: 1.4;
     margin: 30px 0 15px 0;
@@ -35,9 +33,6 @@
     font-size: 1.2rem;
     font-weight: light;
     line-height: 1.5;
-    @include media-breakpoint-up(md) {
-      width: 80%;
-    }
     color: $white;
   }
   a {

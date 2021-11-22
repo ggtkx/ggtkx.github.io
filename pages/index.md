@@ -8,11 +8,11 @@ intro_image_hide_on_mobile: true
 show_programmes: true
 permalink: /
 ---
-# 载歌在谷春节晚会及云集系列活动
+<h1 style="text-align: right;">载歌在谷春节晚会<br>及系列活动</h1>
 <h4>2022年1月15日周六，7pm PST</h4>
 <h4>San José Center for the Performing Arts</h4>
 <h4>255 S Almaden Blvd, San Jose, CA 95113 </h4>
 
-<div style="width:80%;text-align:left; margin:20px 0px;"><a class="button home-button"  href="/ticket" style="font-size:200%;width:auto;padding:1em;height:auto">春晚观众购票</a></div>
-
-<div><a href="/gala">详细信息</a></div>
+<div style="text-align:left; margin:20px 0px;">
+  <a class="button home-button"  href="/ticket">春晚观众购票</a>
+</div>
