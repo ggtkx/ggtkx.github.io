@@ -24,3 +24,13 @@ permalink: /about/
 各节目组之外，我们还有四大功能组来负责日常事宜：内联组、外联组、运营组及创作组。当有特殊需要时，功能组内部将会适时抽调组员、组成各种委员会。例如，我们有贡献者委员会、预算委员会和美食地图委员会。
 
 ![组织架构图](https://tva1.sinaimg.cn/large/008i3skNgy1guy8blhllvj61gv0u078x02.jpg)
+
+<div class="container pt-0 pb-0 pb-md-10">
+    <h1>关于《载歌在谷》</h1>
+    <div class="row justify-content-start" >
+      <p class="col-12 col-md-7 order-2 order-md-2 position-relative">
+        《载歌在谷》社区以硅谷高科技从业者为主要贡献者，是一个非盈利组织。社区以文艺活动为载体，旨在丰富硅谷华人的日常生活，弘扬中华文化，并最终为贡献者的自我提升提供实践的平台。<a href="faq/">常见问题</a>
+      </p>
+    </div>
+    <img class="fit-width" src="https://res.cloudinary.com/xinbenlv/image/upload/v1630469810/zgzg/front-page_about-photo.png">
+  </div>

@@ -11,7 +11,7 @@ main:
   - name: "往届回顾"
     url: "/past-events/"
     weight: 4
-  - name: "关于载歌在谷"
+  - name: "关于我们"
     url: "/about/"
     weight: 5
 
