@@ -81,7 +81,7 @@ body {
   background-color:$white
 }
 
-.light-background {
+#gala-sponsors>div:nth-child(odd) {
   background-color:$light
 }
 
@@ -148,11 +148,12 @@ img {
   background-image: url("https://res.cloudinary.com/zaigezaigu/image/upload/v1637130854/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/bg_j5qgs8.png");
   background-repeat: repeat;
   padding: 50px 20px 0 20px;
-}
-
-#ticket-banner p{
-  color:azure;
-  font-size: 18px;
+  h1, h2, h3, p {
+    color: azure;
+  }
+  img {
+    width: 120px
+  }
 }
 
 #ticket-button {
@@ -160,19 +161,11 @@ img {
   color: white;
 }
 
-#ticket-banner h1{
-  color:azure;
-  font-size: 30px;
-  margin: 10px 0 30px 0
-}
 
 #ticket-content {
   padding: 0 20px;
 }
 
-#ticket-img {
-  width: 120px
-}
 
 #yj-img {
   width: 130px

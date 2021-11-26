@@ -3,6 +3,9 @@ title: 常见问题
 layout: page
 permalink: /faq/
 ---
+本页面对一些常见问题作出解答。若有其他问题，敬请使用页面底部的“联系我们”链接。
+
+![](https://tva1.sinaimg.cn/large/008i3skNgy1gwt84eb0gwj31ys0toac3.jpg)
 
 # 这些词都是什么意思？
 

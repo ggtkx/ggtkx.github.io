@@ -1,5 +1,30 @@
 ---
 title: 往届活动
-layout: past-events
 permalink: /past-events/
+layout: page-no-sidebar
 ---
+{% for event in site.data.past-events %}
+<div class="row justify-content-center event">
+    <div class="col-12 col-md-4 event-metadata">
+        ## {{ event.date }}<br>{{ event.title }}</h2>
+        <span>{{ event.location }}</span>
+    </div>
+    <div class="col-12 col-md-8">
+        <a href="{{event.url}}">
+            <img src="{{ event.image }}" alt="" loading="lazy"
+                sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="551">
+        </a>
+        <div>
+            <ul class="row justify-content-center">
+                {% for link in event.links %}
+                <li style="list-style-type: none;">
+                    <a href="{{ link.url }}">
+                        <span >{{ link.title }}</span>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endfor %}
