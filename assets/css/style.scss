@@ -218,12 +218,12 @@ h2.gala-heading {
   width:100%;
 }
 .rainbow-letters {
+    font-weight: bold;
     background: red;
-    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
-    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    background: -webkit-linear-gradient(left, orange , yellow, green);
+    background: -o-linear-gradient(right, orange, yellow, green);
+    background: -moz-linear-gradient(right, orange, yellow, green);
+    background: linear-gradient(to right, orange , yellow, green);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 20vw;
 }
