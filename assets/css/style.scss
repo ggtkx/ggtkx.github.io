@@ -151,7 +151,7 @@ img {
 }
 
 #ticket-banner .container {
-  background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,h_700/v1638173336/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/banner_scioen.png);
+  background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,h_700/v1638173722/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/banner_agtg6y.png);
   background-repeat: no-repeat;
   background-position-x:-150px;
   margin: 0 auto 0 auto;
@@ -215,4 +215,37 @@ h2.gala-heading {
 
 .sponsor img {
   width:100%;
+}
+.rainbow-letters {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.rainbow-letters span:nth-child(10n + 1) {
+  color: #eee;
+}
+.rainbow-letters span:nth-child(10n + 2) {
+  color: #ab47bc;
+}
+
+.rainbow-letters span:nth-child(10n + 3){
+  color: #651fff;
+}
+.rainbow-letters span:nth-child(10n + 4) {
+  color: #2196f3;
+}
+.rainbow-letters span:nth-child(10n + 5){
+  color: #3949ab;
+}
+
+.rainbow-letters span:nth-child(10n + 6){
+  color: #00bcd4;
+}
+
+.rainbow-letters span:nth-child(10n + 7){
+  color: #4caf50;
+}
+
+.rainbow-letters span:nth-child(10n + 8){
+  color: #ffc107;
 }
