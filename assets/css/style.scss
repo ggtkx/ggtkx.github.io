@@ -150,23 +150,65 @@ img {
   background-position:left 0px center;
 }
 
-#ticket-banner .container {
-  background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,h_700/v1638174892/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/banner_ul21dr.png);
-  background-repeat: no-repeat;
-  background-position-x:-180px;
-  margin: 0 auto 0 auto;
-  min-height:600px;
-  padding-top:50px;
-  background-size: 120%;
+@media screen and (min-width: 767px) {
+  #ticket-banner .container {
+    background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,h_700/v1638174892/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/banner_ul21dr.png);
+    background-repeat: no-repeat;
+    background-position-x:-180px;
+    margin: 0 auto 0 auto;
+    min-height:600px;
+    padding-top:50px;
+    background-size: 120%;
+  }
+
+  .gala-info {
+    padding-left: 40px
+  }
+
+  #eventbrite-widget-container-216058214937 {
+    height: 90%;
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  #ticket-poster {
+     padding: 80px 20px;
+  }
 }
 
+@media (max-width: 767px) {
+  #ticket-banner .container {
+    margin: 0 auto 0 auto;
+    min-height:600px;
+    padding-top:50px;
+    background-size: 120%;
+  }
+
+  #eventbrite-widget-container-216058214937 {
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #ticket-poster {
+    padding: 40px 1px;
+  }
+
+  .gala-info {
+    padding-left: 20px
+  }
+}
+
+#eventbrite-option {
+    margin-bottom: 10px;
+}
 
 #ticket-banner p{
   color:white;
 }
 
 #ticket-banner img{
-  width: 90px;
+  width: 70px;
 }
 
 #ticket-button {
@@ -219,12 +261,36 @@ h2.gala-heading {
   width:100%;
 }
 .rainbow-letters {
-    font-weight: bold;
-    background: red;
-    background: -webkit-linear-gradient(left, orange , yellow, green);
-    background: -o-linear-gradient(right, orange, yellow, green);
-    background: -moz-linear-gradient(right, orange, yellow, green);
-    background: linear-gradient(to right, orange , yellow, green);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: medium;
+  background: red;
+  background: -webkit-linear-gradient(left, orange , yellow, green);
+  background: -o-linear-gradient(right, orange, yellow, green);
+  background: -moz-linear-gradient(right, orange, yellow, green);
+  background: linear-gradient(to right, orange , yellow, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
+#ticket-sell {
+  font-size: medium;
+}
+
+#eventbrite {
+  color: greenyellow;
+}
+
+#audience {
+  margin: 0px 20px 0 40px 
+}
+
+#audience img {
+  float: left;
+  margin:0 10px 0 0;
+  width: 80px
+}
+
+.title-font {
+  color: coral;
+}
+
