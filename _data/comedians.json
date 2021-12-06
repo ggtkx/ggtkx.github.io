@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": 49,
+        "weight": 51,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -21,7 +21,7 @@
     },
     {
         "title": "Tracy",
-        "weight": 30,
+        "weight": 31,
         "image": "https://i.imgur.com/EjEYK7y.png",
         "description": "生活=经历 经历=段子 生活=段子",
         "contact": [
@@ -41,7 +41,7 @@
     },
     {
         "title": "邵天宇",
-        "weight": 21,
+        "weight": 22,
         "image": "https://i.imgur.com/scQgJSc.png",
         "description": "曾经是一名脱口秀表演者",
         "contact": [
@@ -84,7 +84,7 @@
     },
     {
         "title": "方圆",
-        "weight": 19,
+        "weight": 20,
         "image": "https://i.imgur.com/VcpirXv.png",
         "description": "躁起来呗",
         "contact": [
@@ -174,19 +174,19 @@
         ]
     },
     {
-        "title": "王大拿",
-        "weight": 6,
-        "image": "https://i.imgur.com/tyc7toZ.png",
-        "description": "集美貌与智慧于一身"
-    },
-    {
         "title": "丝丝",
-        "weight": 6,
+        "weight": 7,
         "image": "https://i.imgur.com/eCMvhmf.png",
         "description": "不讲脱口秀的时候我都在帮客户抢房子",
         "contact": [
             "小红书：丝丝去哪儿"
         ]
+    },
+    {
+        "title": "王大拿",
+        "weight": 6,
+        "image": "https://i.imgur.com/tyc7toZ.png",
+        "description": "集美貌与智慧于一身"
     },
     {
         "title": "Yuheng",
@@ -198,20 +198,20 @@
         ]
     },
     {
+        "title": "Mandy",
+        "weight": 6,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
+        "contact": [
+            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
+        ]
+    },
+    {
         "title": "Timur",
         "weight": 5,
         "image": "https://i.imgur.com/o0y7QF2.jpg",
         "description": "筚路蓝缕，以启山林；吃喝玩乐，醉生梦死。",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kg_t2ZChitJHYOJDokYSqB)"
-        ]
-    },
-    {
-        "title": "Mandy",
-        "weight": 5,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
-        "contact": [
-            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
         ]
     },
     {
@@ -241,6 +241,12 @@
         ]
     },
     {
+        "title": "福禄",
+        "weight": 4,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
+        "description": "幽默儿神童"
+    },
+    {
         "title": "何能能",
         "weight": 3,
         "image": "https://i.imgur.com/JjRvHRC.png",
@@ -264,12 +270,6 @@
         "weight": 3,
         "image": "https://i.imgur.com/mznM741.png",
         "description": "我哦，开开心心最重要！"
-    },
-    {
-        "title": "福禄",
-        "weight": 3,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
-        "description": "幽默儿神童"
     },
     {
         "title": "Chloe",
