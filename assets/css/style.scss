@@ -161,6 +161,10 @@ img {
     background-size: 120%;
   }
 
+  .gala-info {
+    padding-left: 40px
+  }
+
   #eventbrite-widget-container-216058214937 {
     height: 90%;
     width: 90%;
@@ -187,7 +191,11 @@ img {
   }
 
   #ticket-poster {
-    padding: 20px 5px;
+    padding: 40px 5px;
+  }
+
+  .gala-info {
+    padding-left: 20px
   }
 }
 
@@ -277,15 +285,12 @@ h2.gala-heading {
 }
 
 #audience img {
-  float: right;
-  margin:0 10px;
-  width: 70px
+  float: left;
+  margin:0 10px 0 0;
+  width: 80px
 }
 
 .title-font {
   color: coral;
 }
 
-.gala-info {
-  padding-left: 40px
-}
