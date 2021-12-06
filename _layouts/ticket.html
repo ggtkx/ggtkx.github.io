@@ -16,6 +16,25 @@ layout: default
                 </p>
                 <h3>售票信息:</h3><p>
                     <span class="rainbow-letters">2021年12月15日周三 8PM PST</span> 正式开始售票！<br>
+                    <div id="eventbrite-widget-container-216058214937"></div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '216058214937',
+        iframeContainerId: 'eventbrite-widget-container-216058214937',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
                     欢迎加入载歌在谷观众群，一起聊春晚、看春晚<br>
                     扫描二维码加我们的志愿者微信，备注“观众群”</p>
                     <img src="https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_100/v1637133422/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/qr_xcombb.png">
@@ -24,3 +43,6 @@ layout: default
         </div>
     </div>
 </div>
+
+
+<img src="https://res.cloudinary.com/zaigezaigu/image/upload/v1638755486/zgzg-io-website/ticket_poster_flwyor.png">
