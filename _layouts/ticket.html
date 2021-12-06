@@ -6,64 +6,62 @@ layout: default
         <div class="row">
             <div class="col-12 mb-6 col-md-6 col-lg-6 align-self-center">
                 <h1>2022载歌在谷春晚观众售票！</h1>
-                <h3>售票信息:</h3>
-                    
-                    <span class="rainbow-letters">2021年12月15日周三 8PM PST</span> 正式开始售票！<br>
-                    
-                    <div id="eventbrite-widget-container-216058214937">
-                        <div id="eventbrite-option"> Option 1：在下面窗口购票 <br>
-                        Option 2：到 <a id="eventbrite" href="https://www.eventbrite.com/e/2022-zaigezaigu-chinese-new-year-gala-tickets-216058214937" target="_blank">Eventbrite</a> 网站购票
-                        </div>
-                    </div>
+                <span class="rainbow-letters">2021年12月15日周三 8PM PST</span> 正式开始售票！<br>
                 <br><br>
+                <div>
+                    <h3>春节晚会：</h3>
+                    <p>
+                        时间：2022年1月15日周六，7pm - 10pm PST<br>
+                        地点：SJCPA，255 S Almaden Blvd, San Jose, CA 95113 <br>
+                    </p>
+                    <h3>游园会:</h3>
+                    <p>
+                        时间：2022年1月15日周六，1pm – 4pm PST<br>
+                        地点：SJCPA 门前广场，255 S Almaden Blvd, San Jose, CA 95113
+                    </p>
+                </div>
                 <div id="audience">
-                <img src="https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_100/v1637133422/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/qr_xcombb.png">
-                欢迎加入载歌在谷观众群，一起聊春晚、看春晚<br>
-                扫描二维码加我们的志愿者微信，备注“观众群” 
+                    <img
+                        src="https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_100/v1637133422/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/qr_xcombb.png">
+                    欢迎加入载歌在谷观众群，一起聊春晚、看春晚<br>
+                    扫描二维码加我们的志愿者微信，备注“观众群”
 
                 </div>
 
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: '216058214937',
-        iframeContainerId: 'eventbrite-widget-container-216058214937',
-
-        // Optional
-        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });
-</script>
+               
             </div>
         </div>
     </div>
 </div>
 
 <div class="container">
-    <div>
-        <img id="ticket-poster" src="https://res.cloudinary.com/zaigezaigu/image/upload/v1638755486/zgzg-io-website/ticket_poster_flwyor.png">
-    </div>         
-    <div class="row">
-        <div class="col-12 mb-6 col-md-6 col-lg-6 align-self-center">
-            <div class="gala-info">
-                <h3 class="title-font">春节晚会：</h3>
-                <p>
-                    时间：2022年1月15日周六，7pm - 10pm PST<br>
-                    地点：SJCPA，255 S Almaden Blvd, San Jose, CA 95113 <br>
-                </p>
-                <h3 class="title-font">游园会:</h3>
-                <p>
-                    时间：2022年1月15日周六，1pm – 4pm PST<br>
-                    地点：SJCPA 门前广场，255 S Almaden Blvd, San Jose, CA 95113
-                </p>
-            </div>
+    <div id="eventbrite-widget-container-216058214937">
+        <div id="eventbrite-option">
+            <a id="eventbrite"
+                href="https://www.eventbrite.com/e/2022-zaigezaigu-chinese-new-year-gala-tickets-216058214937"
+                target="_blank">Eventbrite</a>
         </div>
+    </div>
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+    <script type="text/javascript">
+        var exampleCallback = function () {
+            console.log('Order complete!');
+        };
+
+        window.EBWidgets.createWidget({
+            // Required
+            widgetType: 'checkout',
+            eventId: '216058214937',
+            iframeContainerId: 'eventbrite-widget-container-216058214937',
+
+            // Optional
+            iframeContainerHeight: 600,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+            onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+        });
+    </script>
+    <div>
+        <img id="ticket-poster"
+            src="https://res.cloudinary.com/zaigezaigu/image/upload/v1638755486/zgzg-io-website/ticket_poster_flwyor.png">
     </div>
 </div>
 
@@ -78,7 +76,7 @@ layout: default
                 <div class="col-6 col-lg-3 mb-1">
                     {% include sponsor.html %}
                 </div>
-            {% endfor %}
+                {% endfor %}
             </div>
         </div>
     </div>
