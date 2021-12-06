@@ -150,18 +150,11 @@ img {
   background-position:left 0px center;
 }
 
-#ticket-banner .container {
-  background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,h_700/v1638174892/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/banner_ul21dr.png);
-  background-repeat: no-repeat;
-  background-position-x:-180px;
-  margin: 0 auto 0 auto;
-  min-height:600px;
-  padding-top:50px;
-  background-size: 120%;
-}
-
-@media (max-width: 767px) {
+@media screen and (min-width: 767px) {
   #ticket-banner .container {
+    background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,h_700/v1638174892/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/banner_ul21dr.png);
+    background-repeat: no-repeat;
+    background-position-x:-180px;
     margin: 0 auto 0 auto;
     min-height:600px;
     padding-top:50px;
@@ -174,16 +167,31 @@ img {
     margin-top: 10px;
   }
 
-  #ticket-poster {
-    padding: 60px 10px
+    #ticket-poster {
+    padding: 80px 20px
   }
 }
 
-#eventbrite-widget-container-216058214937 {
-    height: 90%;
-    width: 90%;
+@media (max-width: 767px) {
+  #ticket-banner .container {
+    margin: 0 auto 0 auto;
+    min-height:600px;
+    padding-top:50px;
+    background-size: 120%;
+  }
+
+  #eventbrite-widget-container-216058214937 {
+    height: 100%;
+    width: 100%;
     margin-top: 10px;
+  }
+
+  #ticket-poster {
+    padding: 40px 10px
+  }
 }
+
+
 
 #eventbrite-option {
     margin-bottom: 10px;
