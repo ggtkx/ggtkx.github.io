@@ -44,9 +44,10 @@ permalink: /faq/
 2. **预算委**根据当前余额、活动优先级，**预测**本季期结束之前，《载歌在谷》是否有能力报销该消费。若可，则**批准**；反之则否。
 3. **负责组**接到批准后，正式**开始筹办**这个活动。
 4. 筹办过程中，对于每笔支出，**负责组**都需要**暂时自行支付**。该笔支出产生后，负责组应将其填入申请表。预算委会定期在预算表里按优先级处理报销。
-   * 2021 春晚的[申请表](https://zgzg.link/2021-reimbursement-form)和[预算表](https://zgzg.link/2021-budget)。
+   * 2021 春晚、2020 秋冬季云集的[申请表](https://zgzg.link/2021-reimbursement-form)和[预算表](https://zgzg.link/2021-budget)。
    * 2021 夏季云集的[申请表](https://zgzg.link/2021s-reimbursement-form)和[预算表](https://zgzg.link/2021s-budget)。
    * 2021 秋冬季云集的[申请表](https://zgzg.link/2021f-reimbursement-form)和[预算表](https://zgzg.link/2021f-budget)。
+   * 2022 春晚的[申请表](https://zgzg.link/2022-reimbursement-form)和[预算表](https://zgzg.link/2022-budget)。
 
 **报销活动的优先级是什么？** 预算委会给每项支出标记0～4的一个数字（又称“P0～P4”），代表*依次递减*的优先级。
 
