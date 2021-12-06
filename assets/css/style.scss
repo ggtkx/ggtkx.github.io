@@ -169,7 +169,11 @@ img {
 #eventbrite-widget-container-216058214937 {
     height: 90%;
     width: 88%;
-    margin-top: 5px;
+    margin-top: -10px;
+}
+
+#eventbrite-option {
+    margin-bottom: 5px;
 }
 
 #ticket-banner p{
@@ -181,7 +185,7 @@ img {
 }
 
 #ticket-poster {
-  padding: 60px 20px
+  padding: 80px 20px
 }
 
 #ticket-button {
@@ -254,11 +258,11 @@ h2.gala-heading {
 }
 
 #audience img{
-  margin: 0px 20px 10px 20px;
+  margin: -20px 20px 10px 20px;
   float: right;
   width: 100px;
 }
 
 #audience {
-  margin: 20px 
+  margin: 0px 20px 0 40px 
 }
