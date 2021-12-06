@@ -158,12 +158,25 @@ img {
   min-height:600px;
   padding-top:50px;
   background-size: 120%;
+}
 
-   @media (max-width: 767px) {
-        .hidden-mobile {
-          display: none;
-        }
-   }
+@media (max-width: 767px) {
+  #ticket-banner .container {
+    margin: 0 auto 0 auto;
+    min-height:600px;
+    padding-top:50px;
+    background-size: 120%;
+  }
+
+  #eventbrite-widget-container-216058214937 {
+    height: 100%;
+    width: 100%;
+    margin-top: -10px;
+  }
+
+  #ticket-poster {
+    padding: 60px 10px
+  }
 }
 
 #eventbrite-widget-container-216058214937 {
@@ -185,7 +198,7 @@ img {
 }
 
 #ticket-poster {
-  padding: 80px 20px
+  padding: 80px 40px
 }
 
 #ticket-button {
@@ -265,4 +278,8 @@ h2.gala-heading {
 
 #audience {
   margin: 0px 20px 0 40px 
+}
+
+audience-text {
+  width: 60%;
 }

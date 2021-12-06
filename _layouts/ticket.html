@@ -19,7 +19,7 @@ layout: default
                     <span class="rainbow-letters">2021年12月15日周三 8PM PST</span> 正式开始售票！<br>
                     
                     <div id="eventbrite-widget-container-216058214937">
-                        <div id="eventbrite-option"> Option 1：在下面窗口购票 &nbsp; &nbsp; &nbsp; &nbsp;
+                        <div id="eventbrite-option"> Option 1：在下面窗口购票 <br>
                         Option 2：到 <a id="eventbrite" href="https://www.eventbrite.com/e/2022-zaigezaigu-chinese-new-year-gala-tickets-216058214937" target="_blank">Eventbrite</a> 网站购票
                         </div>
                     </div>
@@ -53,10 +53,71 @@ layout: default
     <div class="row">
         <div class="col-12 mb-6 col-md-6 col-lg-6 align-self-center">
             <div id="audience" >
-            欢迎加入载歌在谷观众群，一起聊春晚、看春晚<br>
-            扫描二维码加我们的志愿者微信，备注“观众群”
+                <div audience-text>
+                    欢迎加入载歌在谷观众群，一起聊春晚、看春晚<br>
+                    扫描二维码加我们的志愿者微信，备注“观众群”
+                </div>
             <img src="https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_100/v1637133422/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/qr_xcombb.png">
             </div>
         </div>
     </div>
+</div>
+
+<div id="gala-sponsors">
+    {% if site.data.data.sponsors.diamond %}
+    <div class="row">
+        <div class="container">
+            <h2 class="gala-heading">钻石赞助</h2>
+            <div class="row">
+                {% for sponsor in site.data.data.sponsors.diamond %}
+                <div class="col-6 col-lg-3 mb-1">
+                    {% include sponsor.html %}
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.data.data.sponsors.platinum %}
+    <div class="row">
+        <div class="container">
+            <h2 class="gala-heading">白金赞助</h2>
+            <div class="row">
+                {% for sponsor in site.data.data.sponsors.platinum %}
+                <div class="col-4 col-lg-3 mb-1">
+                    {% include sponsor.html %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.data.data.sponsors.gold %}
+    <div class="row">
+        <div class="container">
+            <h2 class="gala-heading">金牌赞助</h2>
+            <div class="row">
+                {% for sponsor in site.data.data.sponsors.gold %}
+                <div class="col-4 col-lg-3 mb-1">
+                    {% include sponsor.html %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.data.data.sponsors.partners %}
+    <div class="row">
+        <div class="container">
+            <h2 class="gala-heading">合作伙伴</h2>
+            <div class="row">
+                {% for sponsor in site.data.data.sponsors.partners %}
+                <div class="col-4 col-lg-3 mb-1">
+                    {% include sponsor.html %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
 </div>
