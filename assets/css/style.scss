@@ -32,6 +32,7 @@ $sub-footer-text-color: $white;
 @import 'bootstrap/bootstrap-reboot';
 @import 'bootstrap/bootstrap-grid';
 @import 'bootstrap/utilities';
+@import 'bootstrap/card';
 // @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
 
 
@@ -152,7 +153,7 @@ img {
 }
 
 
-#eventbrite-widget-container-216058214937 iframe{
+[id^="eventbrite-widget-container"] iframe{
   height:100%;
 }
 
@@ -161,9 +162,10 @@ img {
     background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,h_700/v1638174892/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/banner_ul21dr.png);
     background-repeat: no-repeat;
     background-position-x:-180px;
+    background-position-y:-150px;
     margin: 0 auto 0 auto;
-    min-height:600px;
-    padding-top:50px;
+    min-height:400px;
+    padding-top:45px;
     background-size: 120%;
   }
 
@@ -175,8 +177,8 @@ img {
 @media (max-width: 767px) {
   #ticket-banner .container {
     margin: 0 auto 0 auto;
-    min-height:600px;
-    padding-top:50px;
+    min-height:400px;
+    padding-top:35px;
     background-size: 120%;
   }
 
@@ -184,10 +186,6 @@ img {
   #ticket-poster {
     padding: 40px 1px;
   }
-}
-
-#eventbrite-option {
-    margin-bottom: 10px;
 }
 
 #ticket-banner p{
@@ -264,10 +262,10 @@ h2.gala-heading {
 }
 
 #eventbrite {
-  color: greenyellow;
+  color: $primary;
 }
 
 .title-font {
-  color: coral;
+  color: $primary;
 }
 

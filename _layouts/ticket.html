@@ -4,11 +4,11 @@ layout: default
 <div id="ticket-banner">
     <div class="container">
         <div class="row">
-            <div class="col-12 mb-6 col-md-6 col-lg-6 align-self-center">
+            <div class="col-12 mb-4 col-md-6 col-lg-6 align-self-center">
                 <h1>2022载歌在谷春晚观众售票！</h1>
                 <span class="rainbow-letters">2021年12月15日周三 8PM PST</span> 正式开始售票！<br>
-                <br><br>
-                <div>
+
+                <div><br>
                     <h3>春节晚会：</h3>
                     <p>
                         时间：2022年1月15日周六，7pm - 10pm PST<br>
@@ -28,7 +28,7 @@ layout: default
 
                 </div>
 
-               
+
             </div>
         </div>
     </div>
@@ -36,17 +36,26 @@ layout: default
 
 <div class="container">
     <div id="eventbrite-widget-container-216058214937" class='mt-1'>
-        <div id="eventbrite-option">
+        <div class="card"><div class="card-body">
+            请在下方直接购票或在
             <a id="eventbrite"
                 href="https://www.eventbrite.com/e/2022-zaigezaigu-chinese-new-year-gala-tickets-216058214937"
-                target="_blank">Eventbrite</a>
-        </div>
+                target="_blank">Eventbrite</a>网站购票。 
+            如果有优惠码，请务必在购买之前点击下方的Promo Code输入优惠码
+        </div></div>
     </div>
     <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
     <script type="text/javascript">
         var exampleCallback = function () {
             console.log('Order complete!');
         };
+        var iframeContainerHeight;
+        if (window.innerWidth > 992) {// EB in two column mode 
+            iframeContainerHeight = 600
+        } else {
+            // EB in one column mode.
+            iframeContainerHeight = 1000
+        }
 
         window.EBWidgets.createWidget({
             // Required
@@ -55,7 +64,7 @@ layout: default
             iframeContainerId: 'eventbrite-widget-container-216058214937',
 
             // Optional
-            iframeContainerHeight: 800,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+            iframeContainerHeight: iframeContainerHeight,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
             onOrderComplete: exampleCallback  // Method called when an order has successfully completed
         });
     </script>
