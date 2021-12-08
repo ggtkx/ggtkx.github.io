@@ -88,6 +88,16 @@ programmes:
     image: https://tva1.sinaimg.cn/large/008i3skNgy1gumieg96wqj60lw0lwmyt02.jpg
     description: 我们组织多种书籍电影类文化活动：线下分享会、客厅沙龙、好书共读、P2P图书馆、朗读会、电影马拉松……
 
+programmes_chunwan:
+  - name: 春节晚会
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638942437/zgzg-io-website/WechatIMG869_k2uxam.jpg
+    description: 承袭自2015年Google春晚，现面向整个湾区。由200余名主要来自湾区高科技公司的志愿者和演员耗时半年精心打造，是湾区规模最大，观众最多，最具硅谷特色的春节晚会。
+    contact: "[详情](/gala/)"
+  - name: 游园会
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638942438/zgzg-io-website/WechatIMG870_vnlf8i.jpg
+    description: 春联，剪纸，书法，糖画，汉服，诗词，小舞台，为湾区华人朋友们打造一个最具有中华传统的特色游园会。完全免费，尤其适合家庭，让孩子们体验中国文化。
+    contact: "[详情](/gala/)"
+
 past-programmes:
   - name: 想唱就唱
     image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hlqastyj30u00u0djk.jpg
