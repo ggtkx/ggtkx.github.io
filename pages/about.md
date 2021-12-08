@@ -8,10 +8,9 @@ permalink: /about/
 
 ![](https://blog.zgzg.io/wp-content/uploads/b2-1-scaled.jpg)
 
-另请参考我们的[发展历史](/history/)及[常见问题解答](/faq/)。
 
 # 组织架构
-除了丰富广大湾区华人的文化生活，“载歌在谷”社区也为来自五湖四海的贡献者的自我提升提供一个专业的实践的平台和机会。在理事会的监督下，“载歌在谷”社区分有多个团队。所有团队和小组均由志愿者组成。
+除了丰富广大湾区华人的文化生活，“载歌在谷”社区也为来自五湖四海的贡献者的自我提升提供一个专业的实践的平台和机会。在理事会的监督下，“载歌在谷”社区分有多个团队[^1]。所有团队和小组均由志愿者组成。
 
 ## 本季春晚、游园团队
 《载歌在谷》春晚、《载歌在谷》游园会等大型活动，分别有自己独立的策划执行团队。各团队又分为宣传组、节目组、技术组、体验组、赞助组等。这些活动通常每年一期，准备工作可达数月。
@@ -25,12 +24,6 @@ permalink: /about/
 
 ![组织架构图](https://tva1.sinaimg.cn/large/008i3skNgy1guy8blhllvj61gv0u078x02.jpg)
 
-<div class="container pt-0 pb-0 pb-md-10">
-    <h1>关于《载歌在谷》</h1>
-    <div class="row justify-content-start" >
-      <p class="col-12 col-md-7 order-2 order-md-2 position-relative">
-        《载歌在谷》社区以硅谷高科技从业者为主要贡献者，是一个非盈利组织。社区以文艺活动为载体，旨在丰富硅谷华人的日常生活，弘扬中华文化，并最终为贡献者的自我提升提供实践的平台。<a href="faq/">常见问题</a>
-      </p>
-    </div>
-    <img class="fit-width" src="https://res.cloudinary.com/xinbenlv/image/upload/v1630469810/zgzg/front-page_about-photo.png">
-  </div>
+![](https://res.cloudinary.com/xinbenlv/image/upload/v1630469810/zgzg/front-page_about-photo.png)
+
+[^1]: 另请参考我们的[发展历史](/history/)及[常见问题解答](/faq/)。

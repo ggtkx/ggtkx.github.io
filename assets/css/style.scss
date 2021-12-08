@@ -31,6 +31,8 @@ $sub-footer-text-color: $white;
 @import 'bootstrap-variables';
 @import 'bootstrap/bootstrap-reboot';
 @import 'bootstrap/bootstrap-grid';
+@import 'bootstrap/utilities';
+@import 'bootstrap/card';
 // @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
 
 
@@ -81,7 +83,7 @@ body {
   background-color:$white
 }
 
-.light-background {
+#gala-sponsors>div:nth-child(odd) {
   background-color:$light
 }
 
@@ -145,37 +147,56 @@ img {
 }
 
 #ticket-banner {
-  background-image: url("https://res.cloudinary.com/zaigezaigu/image/upload/v1637130854/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/bg_j5qgs8.png");
-  background-repeat: repeat;
-  padding: 50px 20px 0 20px;
+  background-color: rgba(193,32,40,255) !important;
+  color:white;
+  background-position:left 0px center;
+}
+
+
+[id^="eventbrite-widget-container"] iframe{
+  height:100%;
+}
+
+@media screen and (min-width: 767px) {
+  #ticket-banner .container {
+    background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,h_700/v1638174892/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/banner_ul21dr.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    margin: 0 auto 0 auto;
+    min-height:400px;
+    padding-top:45px;
+    background-size: 120%;
+  }
+
+  #ticket-poster {
+     padding: 80px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  #ticket-banner .container {
+    margin: 0 auto 0 auto;
+    min-height:400px;
+    padding-top:35px;
+    background-size: 120%;
+  }
+
+
+  #ticket-poster {
+    padding: 40px 1px;
+  }
 }
 
 #ticket-banner p{
-  color:azure;
-  font-size: 18px;
-} 
-
-#ticket-button {
-  background: forestgreen;     
-  color: white;
+  color:white;
 }
 
-#ticket-banner h1{
-  color:azure;
-  font-size: 30px; 
-  margin: 10px 0 30px 0
+#ticket-banner img{
+  width: 70px;
 }
 
-#ticket-content {
-  padding: 0 20px;
-}
-
-#ticket-img {
-  width: 120px
-} 
-
-#yj-img {   
-  width: 130px 
+#yj-img {
+  width: 130px
 }
 
 iframe.monthly-src {
@@ -184,7 +205,7 @@ iframe.monthly-src {
     margin: auto;
     display: block;
 }
-
+// 春晚页面
 h2.gala-heading {
   margin: 30px 0 20px 0;
 }
@@ -193,11 +214,12 @@ h2.gala-heading {
   background-color: rgba(193,32,40,255) !important;
   color:white;
   background-position:left 0px center;
-} 
+}
 
 #gala-banner .container {
   background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/v1637381379/zgzg-io-website/front-page-1280x712_ueloj5.png);
   background-position-x:-150px;
+  background-repeat:no-repeat;
   margin: 0 auto 0 auto;
   min-height:600px;
   padding-top:50px;
@@ -205,8 +227,33 @@ h2.gala-heading {
 
 
 #gala-banner p{
-  color:white;} 
+  color:white;
+}
 
 .sponsor img {
   width:100%;
 }
+.rainbow-letters {
+  font-weight: bold;
+  font-size: medium;
+  background: red;
+  background: -webkit-linear-gradient(left, orange , yellow, green);
+  background: -o-linear-gradient(right, orange, yellow, green);
+  background: -moz-linear-gradient(right, orange, yellow, green);
+  background: linear-gradient(to right, orange , yellow, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#ticket-sell {
+  font-size: medium;
+}
+
+#eventbrite {
+  color: $primary;
+}
+
+.title-font {
+  color: $primary;
+}
+

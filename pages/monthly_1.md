@@ -2,7 +2,4 @@
 title: 春晚及游园系列活动简报1
 permalink: /month1/
 ---
-
-<div class="monthly-div">
-<iframe style="width: 1000px;height: 100%;margin: auto;display: block;" src="https://docs.google.com/document/d/e/2PACX-1vTSDC-8C9iIYN12l5SNDomw4nofbVjJIMMyEMWEW4mbkQGKn3J3rJthzdkEv61bo7XW15KYJ66HI0Fk/pub?embedded=true"></iframe>
-</div>
+<iframe style="width: 1200px; height: 100%; margin: auto; padding: 0; display: block; border: none;" src="https://docs.google.com/document/d/e/2PACX-1vTSDC-8C9iIYN12l5SNDomw4nofbVjJIMMyEMWEW4mbkQGKn3J3rJthzdkEv61bo7XW15KYJ66HI0Fk/pub?embedded=true"></iframe>
