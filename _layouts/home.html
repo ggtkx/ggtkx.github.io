@@ -18,20 +18,6 @@ bodyClass: page-home
   </div>
 </div>
 
-{% if site.data.data.special_events %}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10" id="se">
-    <h1>特别企划</h1>
-    <p>载歌在谷社区举办的大型活动。</p>
-    <div class="row justify-content-center">
-      {% for special_event in site.data.data.special_events %}
-        {% include special_event.html special_event=special_event %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
-{% endif %}
-
 <div class="strip">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10" id="chunwan">
     <h1>载歌在谷春晚及游园系列活动</h1>
