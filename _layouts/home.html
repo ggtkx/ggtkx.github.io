@@ -7,30 +7,49 @@ bodyClass: page-home
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-5 col-lg-6 order-2 order-md-1 position-relative">
-	      <iframe src="https://www.youtube.com/embed/YhlDT3Eqqzs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="teaser"></iframe>
-        <iframe src="https://calendar.google.com/calendar/embed?height=200&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=Y2ItdC5vcmdfa3ZhNmNlYW9zMTJyaXFkM3JraWhhcGc0bjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23D81B60&showCalendars=0&showTabs=0&mode=AGENDA&showPrint=0&showDate=0&showNav=0&showTitle=0&showTz=1&hl=zh_CN" frameborder="0" scrolling="no" id="calendar"></iframe>
+      <div class="col-12 col-md-5 col-lg-6 order-2 order-md-1 position-relative pt-4">
+        <iframe src="https://www.youtube.com/embed/YhlDT3Eqqzs?controls=0" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen id="teaser"></iframe>
+        <iframe style="display:none"
+          src="https://calendar.google.com/calendar/embed?height=200&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=Y2ItdC5vcmdfa3ZhNmNlYW9zMTJyaXFkM3JraWhhcGc0bjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23D81B60&showCalendars=0&showTabs=0&mode=AGENDA&showPrint=0&showDate=0&showNav=0&showTitle=0&showTz=1&hl=zh_CN"
+          frameborder="0" scrolling="no" id="calendar"></iframe>
       </div>
       <div class="col-12 col-md-7 col-lg-6 order-1 order-md-2 d-flex align-items-end flex-column">
-        {{ content }}
+        <h1 style="text-align: right;">载歌在谷春节晚会<br>及系列活动</h1>
+        <div>
+          <h3>春节晚会：</h3>
+          <p>
+            时间：2022年1月15日周六，7pm PST <br>
+            地点：SJCPA，255 S Almaden Blvd, San Jose, CA
+          </p>
+          <h3>游园会:</h3>
+          <p>
+            时间：2022年1月15日周六，1pm – 4pm PST<br>
+            地点：春晚剧场SJCPA门前广场</p>
+        </div>
+        <div><a class="card-body"
+            style="font-size:1.2em; color:white; text-decoration:underline;" href="/gala">点击查看晚会详细信息</a>
+        </div>
+          <div class="mt-1" style="display:none;padding:0.5em; border-radius:3.5em; background-color:white">
+            <a class="button mt-0 home-button" href="/ticket">春晚观众购票</a>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-{% if site.data.data.special_events %}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10" id="se">
-    <h1>特别企划</h1>
-    <p>载歌在谷社区举办的大型活动。</p>
-    <div class="row justify-content-center">
-      {% for special_event in site.data.data.special_events %}
-        {% include special_event.html special_event=special_event %}
+<div class="strip">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10" id="chunwan">
+    <h1>载歌在谷春晚及游园系列活动</h1>
+    <div class="row justify-content-start">
+    {% if site.data.data.programmes_chunwan %}
+      {% for programme in site.data.data.programmes_chunwan %}
+        {% include programme.html %}
       {% endfor %}
-    </div>
+    {% endif %}
   </div>
 </div>
-{% endif %}
 
 <div class="strip">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10" id="yj">
@@ -52,17 +71,17 @@ bodyClass: page-home
         <div class="sponsor sponsor-summary">
           <div class="sponsor-content">
             {% if sponsor.image %}
-              <div class="sponsor-image">
-                <a href="{{ sponsor.website }}">
-                  <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
-                </a>
-              </div>
+            <div class="sponsor-image">
+              <a href="{{ sponsor.website }}">
+                <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
+              </a>
+            </div>
             {% endif %}
             <div class="sponsor-content">
               {% if sponsor.contact.size > 0 %}
-                {% for contact in sponsor.contact %}
-                  {{ contact | markdownify }}
-                {% endfor %}
+              {% for contact in sponsor.contact %}
+              {{ contact | markdownify }}
+              {% endfor %}
               {% endif %}
             </div>
           </div>
@@ -79,18 +98,18 @@ bodyClass: page-home
         <div class="sponsor sponsor-summary">
           <div class="sponsor-content">
             {% if sponsor.image %}
-              <div class="sponsor-image">
-                <a href="{{ sponsor.website }}">
-                  <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
-                </a>
-              </div>
+            <div class="sponsor-image">
+              <a href="{{ sponsor.website }}">
+                <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
+              </a>
+            </div>
             {% endif %}
             <div class="sponsor-content">
               <p class="sponsor-description">{{ sponsor.description }}</p>
               {% if sponsor.contact.size > 0 %}
-                {% for contact in sponsor.contact %}
-                  {{ contact | markdownify }}
-                {% endfor %}
+              {% for contact in sponsor.contact %}
+              {{ contact | markdownify }}
+              {% endfor %}
               {% endif %}
             </div>
           </div>
@@ -106,23 +125,25 @@ bodyClass: page-home
     </div>
     <div class="row justify-content-start">
       {% for friend in site.data.data.friends %}
-      <div class="col-12 col-md-3 mb-1">
+      <div class="col-12 col-md-2 mb-1 pl-3 pr-3">
         <div class="friend friend-summary">
           <div class="friend-content">
             {% if friend.image %}
-              <div class="friend-image">
-                <a href="{{ friend.website }}">
-                  <img alt="{{ friend.name }}" src="{{ friend.image }}" />
-                </a>
-              </div>
+            <div class="friend-image">
+              <a href="{{ friend.website }}">
+                <img alt="{{ friend.name }}" src="{{ friend.image }}" />
+              </a>
+            </div>
             {% endif %}
-            <a href="{{ friend.website }}"><h3>{{ friend.name }}</h3></a>
+            <a href="{{ friend.website }}">
+              <h3>{{ friend.name }}</h3>
+            </a>
             <div class="friend-content">
               <p class="friend-description">{{ friend.description }}</p>
               {% if friend.contact.size > 0 %}
-                {% for contact in friend.contact %}
-                  {{ contact | markdownify }}
-                {% endfor %}
+              {% for contact in friend.contact %}
+              {{ contact | markdownify }}
+              {% endfor %}
               {% endif %}
             </div>
           </div>
@@ -133,24 +154,32 @@ bodyClass: page-home
   </div>
   <div class="container pt-0 pb-0 pb-md-10">
     <div class="row justify-content-start">
-          <!-- Begin Mailchimp Signup Form -->
-        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-        <style type="text/css">
-            #mc_embed_signup{clear:left; width:100%;}
-            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+      <!-- Begin Mailchimp Signup Form -->
+      <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+      <style type="text/css">
+        #mc_embed_signup {
+          clear: left;
+          width: 100%;
+        }
+
+        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-        </style>
-        <div id="mc_embed_signup">
-        <form action="https://zgzg.us8.list-manage.com/subscribe/post?u=950d5d29a24ced3fd75514828&amp;id=e7addb4cae" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
+      </style>
+      <div id="mc_embed_signup">
+        <form action="https://zgzg.us8.list-manage.com/subscribe/post?u=950d5d29a24ced3fd75514828&amp;id=e7addb4cae"
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+          target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
             <label for="mce-EMAIL">订阅我们的邮件列表</label>
             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_950d5d29a24ced3fd75514828_e7addb4cae" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                name="b_950d5d29a24ced3fd75514828_e7addb4cae" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                class="button"></div>
+          </div>
         </form>
-        </div>
+      </div>
     </div>
   </div>
 </div>

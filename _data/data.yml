@@ -88,6 +88,16 @@ programmes:
     image: https://tva1.sinaimg.cn/large/008i3skNgy1gumieg96wqj60lw0lwmyt02.jpg
     description: 我们组织多种书籍电影类文化活动：线下分享会、客厅沙龙、好书共读、P2P图书馆、朗读会、电影马拉松……
 
+programmes_chunwan:
+  - name: 春节晚会
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638942437/zgzg-io-website/WechatIMG869_k2uxam.jpg
+    description: 承袭自2015年Google春晚，现面向整个湾区。由200余名主要来自湾区高科技公司的志愿者和演员耗时半年精心打造，是湾区规模最大，观众最多，最具硅谷特色的春节晚会。
+    contact: "[详情](/gala/)"
+  - name: 游园会
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638942438/zgzg-io-website/WechatIMG870_vnlf8i.jpg
+    description: 春联，剪纸，书法，糖画，汉服，诗词，小舞台，为湾区华人朋友们打造一个最具有中华传统的特色游园会。完全免费，尤其适合家庭，让孩子们体验中国文化。
+    contact: "[详情](/gala/)"
+
 past-programmes:
   - name: 想唱就唱
     image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hlqastyj30u00u0djk.jpg
@@ -120,27 +130,34 @@ sponsors:
     - name: Coco Tan
       image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1636693112/zgzg-io-website/coco_lx8uvq.jpg
       website: https://www.realtorcocotan.com/
-      text: Coco Tan从业地产18年有余, 一直排名前1%。在全美140万名地产经纪人中, Coco名列由《华尔街日报》评选的前74名。2021年还未结束, 她已卖出了140多套房屋, 几乎每套都成功地打破了湾区的价格记录。她曾连续两年当选华美地产协会 (CAREA) 主席。Coco主持的现场直播“周二会谭室”(T.A.N.)为大家带来丰富的地产及相关领域的知识。<br>(408) 829-6053 <br>CocoTanRE@gmail.com <br>微信 CocoTanRealEstate
+      description: Coco Tan从业地产18年有余, 一直排名前1%。在全美140万名地产经纪人中, Coco名列由《华尔街日报》评选的前74名。2021年还未结束, 她已卖出了140多套房屋, 几乎每套都成功地打破了湾区的价格记录。她曾连续两年当选华美地产协会 (CAREA) 主席。Coco主持的现场直播“周二会谭室”(T.A.N.)为大家带来丰富的地产及相关领域的知识。
+      phone: (408) 829-6053 
+      email: CocoTanRE@gmail.com
+      other: 微信 CocoTanRealEstate
     - name: Captain Dental
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1637208837/zgzg-io-website/logo_CD_pam603.svg
       website: https://www.captaindental.com/
-    - name: 星岛
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638425060/zgzg-io-website/oie_WUWL2mWPkKKa_gvxt0y.png
-      text: 星島日報於 1938 年在香港創報,是服務全球華人的中文媒體領導者。1975 年,星島在美國三藩市設立第一間國際分社,隨後陸續在美國紐約、洛杉磯,加拿大溫哥華、多倫多開設分社。星島成為全球發行的中文報章。
+      phone: 408-826-4676
+      email: frontdesk@captaindental.com
+      other: Locations in Santa Clara and San Jose
 
   platinum:
     - name: Steve Chen
-      image: https://blog.zgzg.io/wp-content/uploads/steven-1.jpg
-      text: Steve 作为资深房屋贷款顾问及销售经理，服务在湾区享有极好口碑。他的专长包括 Relocation Loan，涉及 RSU 收入及海外资产的贷款。最近十年 Steve 连续荣获富国银行房贷最高荣誉 President’s Club Member 头衔。408-805-188 Steve.T.Chen@wellsfargo.com <a href="www.wfhm.com/loans/steve-chen">www.wfhm.com/loans/steve-chen</a>
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638483572/zgzg-io-website/Steve_Chen_%E7%9B%B4%E6%92%AD%E5%8F%8A%E5%BE%AE%E4%BF%A1%E7%BE%A4logo_kbn5in.jpg
+      description: Steve 作为资深房屋贷款顾问及销售经理，服务在湾区享有极好口碑。他的专长包括 Relocation Loan，涉及 RSU 收入及海外资产的贷款。最近十年 Steve 连续荣获富国银行房贷最高荣誉 President’s Club Member 头衔
+      phone: 408-805-188
+      email: Steve.T.Chen@wellsfargo.com
+      website: www.wfhm.com/loans/steve-chen
   gold:
     - name: 红叶故事
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
-      text: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
+      description: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
     - name: 港湾渔村
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638422908/zgzg-io-website/%E6%B8%AF%E6%B9%BE%E6%B8%94%E9%82%A8logo_d02wdd.jpg
-      text: 港灣漁邨, 原名西貢漁港Newark，致力於提供灣區的美食服務。東灣港灣漁邨2019經過新穎的裝飾，以美輪美奐再現風貌，成為東灣最具吸引力的海鮮食府。
+      description: 港灣漁邨, 原名西貢漁港Newark，致力於提供灣區的美食服務。東灣港灣漁邨2019經過新穎的裝飾，以美輪美奐再現風貌，成為東灣最具吸引力的海鮮食府。
   partners:
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1637378577/zgzg-io-website/Copy_of_%E5%90%83%E8%B4%A7%E5%B0%8F%E5%88%86%E9%98%9Flogo_qvkijb.jpg
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_500/v1637378520/zgzg-io-website/Copy_of_%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0logo_ealrrz.png
+    - name: 美国中文电台
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/c_pad,h_300,w_300/v1637378520/zgzg-io-website/Copy_of_%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0logo_ealrrz.png
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_500/v1637379558/zgzg-io-website/FE9377D7-6995-418A-BCF5-436E9C07F6E2_lor2az.png
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638423104/zgzg-io-website/OMG_LOGO_H_lfv3fa.png

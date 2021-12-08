@@ -31,6 +31,8 @@ $sub-footer-text-color: $white;
 @import 'bootstrap-variables';
 @import 'bootstrap/bootstrap-reboot';
 @import 'bootstrap/bootstrap-grid';
+@import 'bootstrap/utilities';
+@import 'bootstrap/card';
 // @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
 
 
@@ -150,25 +152,20 @@ img {
   background-position:left 0px center;
 }
 
+
+[id^="eventbrite-widget-container"] iframe{
+  height:100%;
+}
+
 @media screen and (min-width: 767px) {
   #ticket-banner .container {
     background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,h_700/v1638174892/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/banner_ul21dr.png);
     background-repeat: no-repeat;
-    background-position-x:-180px;
+    background-position:right bottom;
     margin: 0 auto 0 auto;
-    min-height:600px;
-    padding-top:50px;
+    min-height:400px;
+    padding-top:45px;
     background-size: 120%;
-  }
-
-  .gala-info {
-    padding-left: 40px
-  }
-
-  #eventbrite-widget-container-216058214937 {
-    height: 90%;
-    width: 90%;
-    margin-top: 10px;
   }
 
   #ticket-poster {
@@ -179,28 +176,15 @@ img {
 @media (max-width: 767px) {
   #ticket-banner .container {
     margin: 0 auto 0 auto;
-    min-height:600px;
-    padding-top:50px;
+    min-height:400px;
+    padding-top:35px;
     background-size: 120%;
   }
 
-  #eventbrite-widget-container-216058214937 {
-    height: 100%;
-    width: 100%;
-    margin-top: 10px;
-  }
 
   #ticket-poster {
     padding: 100px 1px 40px;
   }
-
-  .gala-info {
-    padding-left: 20px
-  }
-}
-
-#eventbrite-option {
-    margin-bottom: 10px;
 }
 
 #ticket-banner p{
@@ -210,17 +194,6 @@ img {
 #ticket-banner img{
   width: 70px;
 }
-
-#ticket-button {
-  background: forestgreen;
-  color: white;
-}
-
-
-#ticket-content {
-  padding: 0 20px;
-}
-
 
 #yj-img {
   width: 130px
@@ -232,7 +205,7 @@ iframe.monthly-src {
     margin: auto;
     display: block;
 }
-
+// 春晚页面
 h2.gala-heading {
   margin: 30px 0 20px 0;
 }
@@ -277,20 +250,10 @@ h2.gala-heading {
 }
 
 #eventbrite {
-  color: greenyellow;
-}
-
-#audience {
-  margin: 0px 20px 0 40px 
-}
-
-#audience img {
-  float: left;
-  margin:0 10px 0 0;
-  width: 80px
+  color: $primary;
 }
 
 .title-font {
-  color: coral;
+  color: $primary;
 }
 
