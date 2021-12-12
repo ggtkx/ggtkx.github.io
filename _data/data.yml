@@ -5,15 +5,18 @@ main:
   - name: "2022 春晚"
     url: "/gala/"
     weight: 2
+  - name: "2022 游园"
+    url: "/tour/"
+    weight: 3
   - name: "云集栏目"
     url: "/yj/"
-    weight: 3
+    weight: 4
   - name: "往届回顾"
     url: "/past-events/"
-    weight: 4
+    weight: 5
   - name: "关于我们"
     url: "/about/"
-    weight: 5
+    weight: 6
 
 footer:
   - name: "关于我们"
@@ -176,3 +179,13 @@ shows:
   - name: 春天的芭蕾
     type: 歌曲
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639291994/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E6%98%A5%E5%A4%A9%E7%9A%84%E8%8A%AD%E8%95%BE.png
+tours:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344398/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0590_g0j2qk.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344397/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0669_dhqx3x.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344398/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0582_cbytfm.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344397/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0704_nheyig.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344397/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0666_qhnhms.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0550_oaouoy.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0562_wywuqq.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0557_txudnd.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0573_vqemti.jpg
