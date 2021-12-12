@@ -1,0 +1,82 @@
+---
+layout: default
+---
+<div id="tour-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-4 col-md-6 col-lg-6 align-self-center">
+                <h1>2022 载歌在谷春晚观众售票！</h1>
+                <span class="rainbow-letters">2021年12月15日周三 8PM PST</span> 正式开始售票！<br>
+
+                <div><br>
+                    <h3>春节晚会：</h3>
+                    <p>
+                        时间：2022年1月15日周六，7pm - 10pm PST<br>
+                        地点：SJCPA，255 S Almaden Blvd, San Jose, CA<br>
+                    </p>
+                    <div><a style="color:white; text-decoration:underline" href="/gala">点击查看晚会详细信息</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="gala-sponsors">
+    {% if site.data.data.sponsors.diamond %}
+    <div class="row">
+        <div class="container">
+            <h2 class="gala-heading">钻石赞助</h2>
+            <div class="row">
+                {% for sponsor in site.data.data.sponsors.diamond %}
+                <div class="col-6 col-lg-3 mb-1">
+                    {% include sponsor.html %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.data.data.sponsors.platinum %}
+    <div class="row">
+        <div class="container">
+            <h2 class="gala-heading">白金赞助</h2>
+            <div class="row">
+                {% for sponsor in site.data.data.sponsors.platinum %}
+                <div class="col-4 col-lg-3 mb-1">
+                    {% include sponsor.html %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.data.data.sponsors.gold %}
+    <div class="row">
+        <div class="container">
+            <h2 class="gala-heading">金牌赞助</h2>
+            <div class="row">
+                {% for sponsor in site.data.data.sponsors.gold %}
+                <div class="col-4 col-lg-3 mb-1">
+                    {% include sponsor.html %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.data.data.sponsors.partners %}
+    <div class="row">
+        <div class="container">
+            <h2 class="gala-heading">合作伙伴</h2>
+            <div class="row">
+                {% for sponsor in site.data.data.sponsors.partners %}
+                <div class="col-4 col-lg-3 mb-1">
+                    {% include sponsor.html %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
