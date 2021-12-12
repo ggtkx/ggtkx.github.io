@@ -135,7 +135,7 @@ sponsors:
       email: CocoTanRE@gmail.com
       other: 微信 CocoTanRealEstate
     - name: Captain Dental
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1637208837/zgzg-io-website/logo_CD_pam603.svg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639181479/zgzg-io-website/Captain-Dental_Vertical_For-Web_hvty8a.jpg
       website: https://www.captaindental.com/
       phone: 408-826-4676
       email: frontdesk@captaindental.com
@@ -161,3 +161,20 @@ sponsors:
       image: https://res.cloudinary.com/zaigezaigu/image/upload/c_pad,h_300,w_300/v1637378520/zgzg-io-website/Copy_of_%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0logo_ealrrz.png
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_500/v1637379558/zgzg-io-website/FE9377D7-6995-418A-BCF5-436E9C07F6E2_lor2az.png
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638423104/zgzg-io-website/OMG_LOGO_H_lfv3fa.png
+
+shows:
+  - name: 我爱你中国
+    type: 歌曲
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639291044/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E6%88%91%E7%88%B1%E4%BD%A0%E4%B8%AD%E5%9B%BD.png
+  - name: 一生守候
+    type: 舞蹈
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639291259/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E4%B8%80%E7%94%9F%E5%AE%88%E5%80%99.jpg
+  - name: 琵琶行
+    type: 器乐
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639292168/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E7%90%B5%E7%90%B6%E8%A1%8C_ym0neb.jpg
+  - name: 阿里郎随想
+    type: 舞蹈
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639292181/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E9%98%BF%E9%87%8C%E9%83%8E_zrymkw.png
+  - name: 春天的芭蕾
+    type: 歌曲
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639291994/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E6%98%A5%E5%A4%A9%E7%9A%84%E8%8A%AD%E8%95%BE.png
