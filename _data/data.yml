@@ -215,7 +215,7 @@ tours:
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345932/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03793_toxqzh.jpg
   - name: 
     type:
-    iamge: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345937/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03858_kfcvji.jpg
+    iamge: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345933/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03822_phncbe.jpg
   - name: 
     type:
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345933/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03660_ybehx2.jpg
@@ -249,3 +249,6 @@ tours:
   - name: 
     type:
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345936/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/mmexport1549228081349_ezmv0b.jpg
+  - name: 
+    type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345937/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03858_kfcvji.jpg
