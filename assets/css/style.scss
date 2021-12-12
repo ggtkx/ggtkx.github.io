@@ -146,7 +146,7 @@ img {
   margin-bottom:10px;
 }
 
-#ticket-banner {
+#ticket-banner, #tour-banner {
   background-color: rgba(193,32,40,255) !important;
   color:white;
   background-position:left 0px center;
@@ -184,7 +184,14 @@ img {
 }
 
 @media (max-width: 767px) {
-  #ticket-banner,#tour-banner .container {
+  #ticket-banner.container {
+    margin: 0 auto 0 auto;
+    min-height:400px;
+    padding-top:35px;
+    background-size: 120%;
+  }
+
+  #tour-banner.container {
     margin: 0 auto 0 auto;
     min-height:400px;
     padding-top:35px;
@@ -197,7 +204,15 @@ img {
   }
 }
 
-#ticket-banner, #tour-banner p{
+#ticket-banner p{
+  color:white;
+}
+
+#tour-banner p{
+  color:white;
+}
+
+#tour-banner p{
   color:white;
 }
 
@@ -206,8 +221,12 @@ img {
 }
 
 #ticket-banner #red-packet {
-  width: 60px;
+  width: 55px;
   height: 80px;
+}
+
+.float-left.mr-1 {
+  margin-top: 15px;
 }
 
 #yj-img {
