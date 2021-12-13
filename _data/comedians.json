@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": 51,
+        "weight": 52,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -37,16 +37,6 @@
         "contact": [
             "微信：`gillgong109`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nQYyTkiyPCD4Ajx6iH9lyH)"
-        ]
-    },
-    {
-        "title": "邵天宇",
-        "weight": 22,
-        "image": "https://i.imgur.com/scQgJSc.png",
-        "description": "曾经是一名脱口秀表演者",
-        "contact": [
-            "ClubHouse ID: `ericshao`",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kU4T0eL_Y5MzjOkEYdOFvb)"
         ]
     },
     {
@@ -94,7 +84,7 @@
     },
     {
         "title": "寇寇",
-        "weight": 16,
+        "weight": 17,
         "image": "https://i.imgur.com/LnobTPF.png"
     },
     {
