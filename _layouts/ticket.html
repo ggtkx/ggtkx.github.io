@@ -14,7 +14,7 @@ layout: default
                         时间：2022年1月15日周六，7pm - 10pm PST<br>
                         地点：SJCPA，255 S Almaden Blvd, San Jose, CA<br>
                     </p>
-                    <p><b><span id="warning">所有观众必须出示疫苗证. 详情请见FAQ.<span></b></p>
+                    <p><b><span id="warning" onclick="$('#faq').show()"><a href="#faq1" style="color:white">所有观众必须出示疫苗证. 详情请见FAQ.</a></span></b></p>
                     <div><a style="color:white; text-decoration:underline" href="/gala">点击查看晚会详细信息</a></div>
                 </div>
                 <div class="mt-1">
@@ -40,7 +40,7 @@ layout: default
                     href="https://www.eventbrite.com/e/2022-zaigezaigu-chinese-new-year-gala-tickets-216058214937"
                     target="_blank">Eventbrite</a>网站购票。
                 欢迎使用8折早鸟优惠码 (在下方Enter Promo Code处输入): <b>zgzg-early-bird</b>，12月31日截止。
-            <h4 onclick="toggle_faq()" style="color:#c12028"> 常见问题FAQ (点击展开)</h4> 
+            <h4 id="faq1" onclick="toggle_faq()" style="color:#c12028"> 常见问题FAQ (点击展开)</h4> 
                 <div id="faq" style="display:none;">
                     <p>问：入场需要出示疫苗卡吗？</p>
 <p>答：根据剧场要求，12岁及以上观众必须出示完整两针疫苗证明才能入场，入场时检查ID以及疫苗证(原件，复印件，照片均可)。2岁-11岁儿童，需要出示疫苗证明或者72小时内核算阴性证明。2岁以下婴儿不用出示任何证明。</p>
