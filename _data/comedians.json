@@ -183,6 +183,15 @@
         ]
     },
     {
+        "title": "孙刘",
+        "weight": 7,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
+        "description": "过来闹点笑话",
+        "contact": [
+            "联系方式：可以直接现场问我要"
+        ]
+    },
+    {
         "title": "王大拿",
         "weight": 6,
         "image": "https://i.imgur.com/tyc7toZ.png",
@@ -203,6 +212,16 @@
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
         "contact": [
             "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
+        ]
+    },
+    {
+        "title": "尾羽",
+        "weight": 6,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
+        "description": "做一只特立独行的猪",
+        "contact": [
+            "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
         ]
     },
     {
@@ -276,6 +295,15 @@
         "weight": 3,
         "image": "https://i.imgur.com/mznM741.png",
         "description": "我哦，开开心心最重要！"
+    },
+    {
+        "title": "Abby",
+        "weight": 3,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2p3fvjxj30oi0oijtg.jpg",
+        "description": "不揽瓷器活，何来金刚钻。",
+        "contact": [
+            "Instagram: [abbyyy_3](https://www.instagram.com/abbyyy_3)"
+        ]
     },
     {
         "title": "小马哥",
