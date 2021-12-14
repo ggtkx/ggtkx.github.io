@@ -40,6 +40,16 @@
         ]
     },
     {
+        "title": "邵天宇",
+        "weight": 23,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8e6hgmej30b20b23z0.jpg",
+        "description": "曾经是一名脱口秀表演者",
+        "contact": [
+            "ClubHouse ID: `ericshao`",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kU4T0eL_Y5MzjOkEYdOFvb)"
+        ]
+    },
+    {
         "title": "Monkey",
         "weight": 21,
         "image": "https://i.imgur.com/rIg21xp.png",
@@ -256,15 +266,25 @@
         ]
     },
     {
+        "title": "仓老师",
+        "weight": 3,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8os23tcj30a20a2mxr.jpg",
+        "description": "我要一瓶冰冻的可口可乐"
+    },
+    {
         "title": "赵老师",
         "weight": 3,
         "image": "https://i.imgur.com/mznM741.png",
         "description": "我哦，开开心心最重要！"
     },
     {
-        "title": "Chloe",
+        "title": "小马哥",
         "weight": 2,
-        "image": "https://i.imgur.com/B60VWOE.png"
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk2udrwevj60an0anjrv02.jpg",
+        "description": "我的生活很甜，需要喝黑咖啡来找点苦。",
+        "contact": [
+            "小红书：`1069782970`"
+        ]
     },
     {
         "title": "大花儿",
@@ -282,19 +302,43 @@
         ]
     },
     {
-        "title": "小马哥",
-        "weight": 2,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk2udrwevj60an0anjrv02.jpg",
-        "description": "我的生活很甜，需要喝黑咖啡来找点苦。",
-        "contact": [
-            "小红书：`1069782970`"
-        ]
-    },
-    {
         "title": "平俊哲",
         "weight": 2,
         "image": "https://i.imgur.com/ss9oyjU.png",
         "description": "新加坡英语新加坡汉语都很6"
+    },
+    {
+        "title": "珏",
+        "weight": 2,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8gurfsfj30kk0kkq4j.jpg",
+        "description": "我觉得什么都好玩，但脱口秀是最好玩的！",
+        "contact": [
+            "微信：`yangjue1031`"
+        ]
+    },
+    {
+        "title": "Chloe",
+        "weight": 2,
+        "image": "https://i.imgur.com/B60VWOE.png"
+    },
+    {
+        "title": "施展",
+        "weight": 1,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8n7j3kqj30go0gojsi.jpg",
+        "description": "退堂鼓表演艺术家",
+        "contact": [
+            "Instagram: `lilyoungjs88`"
+        ]
+    },
+    {
+        "title": "Sean",
+        "weight": 1,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
+        "description": "表演经验30多年的老演员",
+        "contact": [
+            "[牛油果烤面包播客](https://avocadotoast.live/)",
+            "微信：`454308623`"
+        ]
     },
     {
         "title": "jinn",
