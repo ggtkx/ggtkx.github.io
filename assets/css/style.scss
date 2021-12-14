@@ -298,3 +298,7 @@ h2.gala-heading {
   color: $primary;
 }
 
+#faq p:nth-child(odd){
+  font-weight: bold;
+}
+
