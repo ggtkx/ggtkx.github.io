@@ -313,7 +313,7 @@ h2.gala-heading {
   bottom: 0;
   padding: 2vh 2vw;
   background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  z-index: 50; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
 }
 
@@ -329,7 +329,7 @@ h2.gala-heading {
 }
 
 #close-overlay {
-  z-index: 3;
+  z-index: 100;
   position: absolute;
   left: 1vw;
   top: 1vw;
