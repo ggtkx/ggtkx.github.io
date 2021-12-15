@@ -30,7 +30,9 @@
             {% endif %}
         </p>
         <p class='mb-0'>
-            {% if sponsor.website %}
+            {% if sponsor.website-name %}
+            <a href={{sponsor.website}}>{{sponsor.website-name}}</a>
+            {% elsif sponsor.website %}
             <a href={{sponsor.website}}>{{sponsor.website}}</a>
             {% endif %}
         </p>
