@@ -302,3 +302,42 @@ h2.gala-heading {
   font-weight: bold;
 }
 
+#eb-overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 2vh 2vw;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+#buy-button {
+  margin:10px auto;
+  display:block;
+  width:200px;
+  font-size:2em;
+  height:auto;
+  text-align:center;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+#close-overlay {
+  z-index: 3;
+  position: absolute;
+  right: 1vw;
+  top: 1vw;
+  width:3vw;
+  height:3vw;
+  background-color: white;
+  border-radius:50%;
+  border: 1px solid gray;
+
+}
+

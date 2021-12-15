@@ -39,7 +39,7 @@ layout: default
             <a id="eventbrite"
                 href="https://www.eventbrite.com/e/2022-zaigezaigu-chinese-new-year-gala-tickets-216058214937"
                 target="_blank">Eventbrite</a>网站购票。
-            欢迎使用8折早鸟优惠码 (在下方Enter Promo Code处输入): <b>zgzg-early-bird</b>，12月31日截止。
+            欢迎使用8折早鸟优惠码 (在Enter Promo Code处输入): <b>zgzg-early-bird</b>，12月31日截止。
             <h4 id="faq1" onclick="toggle_faq()" style="color:#c12028"> 常见问题FAQ (点击展开)</h4>
             <div id="faq" style="display:none;">
                 <p>问：入场需要出示疫苗卡吗？</p>
@@ -63,31 +63,43 @@ layout: default
             </div>
         </div>
     </div>
-    <div id="eventbrite-widget-container-216058214937" class='mt-1'>
+    <div id="buy-button" class="button" onclick="overlay_on()"> 点击购票
     </div>
+    <div id="eb-overlay" class=''>
+        <svg id="close-overlay" onclick="overlay_off()" x="0" y="0" viewBox="0 0 24 24" xml:space="preserve">
+            <path id="cross-chunky_svg__eds-icon--cross-chunky_base"
+                d="M13.4 12l3.5-3.5-1.4-1.4-3.5 3.5-3.5-3.5-1.4 1.4 3.5 3.5-3.5 3.5 1.4 1.4 3.5-3.5 3.5 3.5 1.4-1.4z">
+            </path>
+        </svg>
+        <div id="eventbrite-widget-container" class=''>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript">
+    <script>
         function toggle_faq() {
             $("#faq").toggle();
+        }
+
+        function overlay_on() {
+            document.getElementById("eb-overlay").style.display = "block";
+        }
+
+        function overlay_off() {
+            document.getElementById("eb-overlay").style.display = "none";
         }
 
         var exampleCallback = function () {
             console.log('Order complete!');
         };
         var iframeContainerHeight;
-        if (window.innerWidth > 992) {// EB in two column mode 
-            iframeContainerHeight = 600
-        } else {
-            // EB in one column mode.
-            iframeContainerHeight = 1000
-        }
+        iframeContainerHeight = window.innerHeight * 0.95;
 
         window.EBWidgets.createWidget({
             // Required
             widgetType: 'checkout',
             eventId: '216058214937',
-            iframeContainerId: 'eventbrite-widget-container-216058214937',
+            iframeContainerId: 'eventbrite-widget-container',
 
             // Optional
             iframeContainerHeight: iframeContainerHeight,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
