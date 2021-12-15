@@ -331,12 +331,12 @@ h2.gala-heading {
 #close-overlay {
   z-index: 100;
   position: absolute;
-  left: 1vw;
+  right: 1vw;
   top: 1vw;
   width:3vw;
-  min-width:30px;
+  min-width:40px;
   height:3vw;
-  min-height:30px;
+  min-height:40px;
   background-color: white;
   border-radius:50%;
   border: 1px solid gray;
