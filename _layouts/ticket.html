@@ -120,14 +120,17 @@ layout: default
     <div class="row">
         <div class="container">
             <h1 class="mt-3 mb-5"> 赞助商 </h1>
+                <h2>钻石赞助</h2>
             <div class="row">
-                <div class="col-12 col-lg-4 align-self-center mb-2 mt-2">
-                    <h2>钻石赞助</h2>
-                </div>
+
                 {% for sponsor in site.data.data.sponsors.diamond %}
-                <div class="col-12 col-lg-4 mb-3">
+                <div class="col-12 col-lg-4 mb-1" style="">
                     {% include sponsor.html %}
                 </div>
+                    {% if sponsor.name == "Coco" %}
+                    <div class="col-0 col-lg-1" style="border-left:1px solid;border-right:1px solid"></div>
+                    {% endif %}
+                
                 {% endfor %}
             </div>
         </div>
