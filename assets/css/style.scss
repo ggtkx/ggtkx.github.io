@@ -174,7 +174,7 @@ img {
   }
 
   #tour-banner .container {
-    background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/v1639343630/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/fairshow_nclzwq.png);
+    background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/v1639618313/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/fairshow_rw4bsj.png);
     background-repeat: no-repeat;
     background-position:right bottom;
     margin: 0 auto 0 auto;
@@ -183,7 +183,7 @@ img {
   }
 
   #ticket-poster {
-     padding: 120px 20px 60px;
+     padding: 40px 20px 60px;
   }
 }
 
@@ -230,6 +230,10 @@ img {
 #ticket-banner #red-packet {
   width: 55px;
   height: 80px;
+}
+
+img#red-packet {
+    border: 2px solid #fff;
 }
 
 .float-left.mr-1 {
