@@ -58,11 +58,11 @@ layout: default
             <div class="row">
 
                 {% for sponsor in site.data.data.sponsors.diamond %}
-                <div class="col-12 col-lg-4 mb-1" style="">
+                <div class="col-12 col-lg-4 mb-1">
                     {% include sponsor.html %}
                 </div>
                     {% if sponsor.name == "Coco" %}
-                    <div class="col-0 col-lg-1" style="border-left:1px solid;border-right:1px solid"></div>
+                    <div class="col-0 col-lg-1"></div>
                     {% endif %}
                 
                 {% endfor %}
