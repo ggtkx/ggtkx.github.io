@@ -73,6 +73,13 @@ body {
   }
 }
 
+#detailed-info {
+  font-size:1.2em; 
+  color:white; 
+  text-decoration:underline;
+  padding: 1.25rem 2rem 1.25rem 0
+}
+
 .primary-background {
   background-color:$primary;
   color:$white;
