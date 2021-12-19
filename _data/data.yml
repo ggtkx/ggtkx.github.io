@@ -169,9 +169,6 @@ sponsors:
     - name: OMG
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639885232/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/OMG_LOGO_H_sdjc09.png
       description: O.M.G Entertainment专注于提供针对美国市场的一站式整合营销方案，旗下有自营及签约YouTube频道、小红书、微信公众号、Facebook Page以及微信兴趣社群.
-    - name: hometown
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639886279/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_5461_vfw08s.jpg
-      description: Hometown Education Foundation.
   partners:
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1637378577/zgzg-io-website/Copy_of_%E5%90%83%E8%B4%A7%E5%B0%8F%E5%88%86%E9%98%9Flogo_qvkijb.jpg
     - name: 美国中文电台
@@ -179,6 +176,7 @@ sponsors:
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_500/v1637379558/zgzg-io-website/FE9377D7-6995-418A-BCF5-436E9C07F6E2_lor2az.png
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638423104/zgzg-io-website/OMG_LOGO_H_lfv3fa.png
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638422908/zgzg-io-website/%E6%B8%AF%E6%B9%BE%E6%B8%94%E9%82%A8logo_d02wdd.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639886279/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_5461_vfw08s.jpg
 shows:
   - name: 我爱你中国
     type: 歌曲
