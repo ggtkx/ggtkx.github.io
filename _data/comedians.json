@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": 52,
+        "weight": 53,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -50,18 +50,8 @@
         ]
     },
     {
-        "title": "Monkey",
-        "weight": 21,
-        "image": "https://i.imgur.com/rIg21xp.png",
-        "description": "想成为带来欢笑和温暖的人。猫狗双全，差一人组成狗男女。大大方方说：我要找男朋友 （感谢社长让在这谋私利）",
-        "contact": [
-            "Instagram: [bigmonkeyma](https://www.instagram.com/bigmonkeyma/)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kTGnvPs-sI21crusfMQLKO)"
-        ]
-    },
-    {
         "title": "小企鹅 Lisa",
-        "weight": 20,
+        "weight": 21,
         "image": "https://i.imgur.com/IOg9VMj.png",
         "description": "我是小企鹅 Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~",
         "contact": [
@@ -70,7 +60,7 @@
     },
     {
         "title": "黎明洋",
-        "weight": 20,
+        "weight": 21,
         "image": "https://i.imgur.com/8kHVjfD.png",
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
         "contact": [
@@ -80,6 +70,16 @@
         "highlights": [
             "[用“拖泥带水”造句：“托尼，带水了吗？”](https://youtu.be/UV0gTHfLdrU)",
             "[酒肉穿肠过，化作相思泪。](https://youtu.be/9X5QyQHBpPE)"
+        ]
+    },
+    {
+        "title": "Monkey",
+        "weight": 21,
+        "image": "https://i.imgur.com/rIg21xp.png",
+        "description": "想成为带来欢笑和温暖的人。猫狗双全，差一人组成狗男女。大大方方说：我要找男朋友 （感谢社长让在这谋私利）",
+        "contact": [
+            "Instagram: [bigmonkeyma](https://www.instagram.com/bigmonkeyma/)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kTGnvPs-sI21crusfMQLKO)"
         ]
     },
     {
@@ -94,7 +94,7 @@
     },
     {
         "title": "寇寇",
-        "weight": 17,
+        "weight": 18,
         "image": "https://i.imgur.com/LnobTPF.png"
     },
     {
@@ -136,6 +136,15 @@
         ]
     },
     {
+        "title": "Larry",
+        "weight": 9,
+        "image": "https://i.imgur.com/KJJz7Ek.png",
+        "description": "毁人不倦的中文老湿",
+        "contact": [
+            "[俺的学校](https://www.sanjoselearningcenter.com)"
+        ]
+    },
+    {
         "title": "詹姆斯",
         "weight": 8,
         "image": "https://i.imgur.com/gTRZYM0.png",
@@ -145,12 +154,12 @@
         ]
     },
     {
-        "title": "Larry",
+        "title": "孙刘",
         "weight": 8,
-        "image": "https://i.imgur.com/KJJz7Ek.png",
-        "description": "毁人不倦的中文老湿",
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
+        "description": "过来闹点笑话",
         "contact": [
-            "[俺的学校](https://www.sanjoselearningcenter.com)"
+            "联系方式：可以直接现场问我要"
         ]
     },
     {
@@ -183,12 +192,11 @@
         ]
     },
     {
-        "title": "孙刘",
+        "title": "Mandy",
         "weight": 7,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
-        "description": "过来闹点笑话",
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
         "contact": [
-            "联系方式：可以直接现场问我要"
+            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
         ]
     },
     {
@@ -204,14 +212,6 @@
         "description": "脱口秀疯疯贵妇",
         "contact": [
             "Instagram: [hengzairenee](https://www.instagram.com/hengzairenee)"
-        ]
-    },
-    {
-        "title": "Mandy",
-        "weight": 6,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
-        "contact": [
-            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
         ]
     },
     {
