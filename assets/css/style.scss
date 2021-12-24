@@ -192,8 +192,11 @@ img {
   #ticket-poster, #tour-map {
      padding: 40px 20px 60px;
   }
-    #ticket-poster, #tour-map {
-     max-width: 1040px;
+  #tour-map {
+     max-width: 1140px;
+  }
+  #tour-div {
+     margin:auto
   }
 }
 
