@@ -170,12 +170,17 @@ sponsors:
     - name: foundation
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639886279/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_5461_vfw08s.jpg
       description: Hometown Education Foundation 于2004年由杨同海教授在美国成立，是资助中国贫困学生的独立慈善机构。 我们机构获得美国IRS认证，可以通过公司 matching donation program 向我们捐款，或直接捐款。我们所获捐款100%用于贫困学生，您的滴水善意，也许可以支持家乡孩子一个月的伙食，一年的学费，成为他们改变命运的钥匙。
+  food:
+    -name: harbor
+     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638422908/zgzg-io-website/%E6%B8%AF%E6%B9%BE%E6%B8%94%E9%82%A8logo_d02wdd.jpg
+     description: 灣區美食打卡地標! 【港灣漁邨】，原Newark 西貢漁港，以美輪美奐风貌成為東灣最具吸引力的美食海鮮食府。訂座電話：510-793-1388.地址：35219 Newark Blvd.，Newark
+    -name: chowbus
+     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639894827/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Chowbus_Vertical_gwe7xp.png
+     description: Chowbus是一家以亚洲美食为主的专业送餐平台，主营在线外卖，到店自取，超市配送等，致力于把真正的中国美食带给每一个用户.
   partners:
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1637378577/zgzg-io-website/Copy_of_%E5%90%83%E8%B4%A7%E5%B0%8F%E5%88%86%E9%98%9Flogo_qvkijb.jpg
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_pad,h_300,w_300/v1637378520/zgzg-io-website/Copy_of_%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0logo_ealrrz.png
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638423104/zgzg-io-website/OMG_LOGO_H_lfv3fa.png
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638422908/zgzg-io-website/%E6%B8%AF%E6%B9%BE%E6%B8%94%E9%82%A8logo_d02wdd.jpg
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639894827/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Chowbus_Vertical_gwe7xp.png
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639894828/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Logo_vuotis.jpg
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639894827/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/M.STUDIO_o7isva.jpg
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_500/v1637379558/zgzg-io-website/FE9377D7-6995-418A-BCF5-436E9C07F6E2_lor2az.png

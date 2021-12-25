@@ -41,7 +41,7 @@ layout: default
             <h4 id="faq1" onclick="toggle_faq()" style="color:#c12028"> 常见问题FAQ (点击展开)</h4>
             <div id="faq" style="display:none;">
                 <p>问：入场需要出示疫苗卡吗？</p>
-                <p>答：根据剧场要求，12岁及以上观众必须出示完整两针疫苗证明才能入场，入场时检查ID以及疫苗证(原件，复印件，照片均可)。3岁-11岁儿童，需要出示疫苗证明或者72小时内核酸阴性证明，载歌在谷会在晚会现场提供免费核算检测，无需专门准备。2岁以下婴儿不用出示任何证明。</p>
+                <p>答：根据剧场要求，12岁及以上观众必须出示完整两针疫苗证明才能入场，入场时检查ID以及疫苗证(原件，复印件，照片均可)。3岁-11岁儿童，需要出示疫苗证明或者48小时内核酸阴性证明，<b style="color:limegreen;">载歌在谷会在晚会现场提供免费核算检测</b>，无需专门准备。2岁以下婴儿不用出示任何证明。</p>
                 <p>问：观众需要戴口罩吗？</p>
                 <p>答：所有观众必须全程佩戴口罩。</p>
                 <p>问：场地座位会隔开售卖吗，还是全部售卖？</p>
@@ -155,6 +155,20 @@ layout: default
             <div class="row">
                 {% for sponsor in site.data.data.sponsors.gold %}
                 <div class="col-4 col-lg-3 mb-1">
+                    {% include sponsor.html %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.data.data.sponsors.food %}
+    <div class="row">
+        <div class="container">
+            <h2 class="gala-heading">餐饮赞助</h2>
+            <div class="row">
+                {% for sponsor in site.data.data.sponsors.food %}
+                <div id="last-row-partners" class="col-4 col-lg-3 mb-1">
                     {% include sponsor.html %}
                 </div>
                 {% endfor %}
