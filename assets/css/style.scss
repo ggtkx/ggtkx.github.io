@@ -198,6 +198,9 @@ img {
   #tour-div {
      text-align: center;
   }
+  #last-row-partners {
+  padding: 30px; 
+  }
 }
 
 @media (max-width: 767px) {
@@ -221,6 +224,10 @@ img {
 
   #ticket-poster {
     padding: 100px 1px 40px;
+  }
+
+  #last-row-partners {
+    padding: 20px; 
   }
 }
 
@@ -290,10 +297,6 @@ h2.gala-heading {
 
 .sponsor img {
   width:90%;
-}
-
-#last-row-partners {
-  padding: 30px; 
 }
 
 .rainbow-letters {
