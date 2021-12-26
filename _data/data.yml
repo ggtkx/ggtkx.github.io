@@ -158,20 +158,12 @@ sponsors:
       description: LingoAce成立于2017年，是一家科技型教育公司，专注于为3-15岁海外青少儿提供沉浸式、趣味化且卓有成效的中文学习体验。课程服务现已覆盖全球100多个国家和地区，平台聚集4000+优质中文教师，赢得全世界家长的信赖和认可！<br> 2021年，LingoAce完成B轮和C轮融资，总计1.6亿美元，领跑全球在线语言教育赛道！目前正在积极扩充全球团队，希望在美国、欧洲、澳洲、东南亚地区吸纳更多优秀人才。美国硅谷热招岗位：产品经理、市场营销、用户增长等，欢迎自荐或他荐！
       website-name: 在线中文试听礼包
       website: https://ad.chinesecourseforkids.com/#/teen/home?type=2&channel=MA-BDG-BC-OT-ZGZG
-    - name: 北美新浪
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639787253/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/unnamed_xkujck.jpg
-      description: 新浪微博是中国最大的社交媒体之一，用户平均每天发布超过1亿条微博内容。由于信息传播高效性和广泛性，很多新鲜事物或热点事件通过微博得到广泛认知和关注。
-      website-name: 北美新浪
-      website: https://www.weibo.com/sinaus
 
   gold:
     - name: 红叶故事
       image: https://res.cloudinary.com/zaigezaigu/image/upload/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
       description: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
-    - name: foundation
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639886279/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_5461_vfw08s.jpg
-      description: Hometown Education Foundation 于2004年由杨同海教授在美国成立，是资助中国贫困学生的独立慈善机构。 我们机构获得美国IRS认证，可以通过公司 matching donation program 向我们捐款，或直接捐款。我们所获捐款100%用于贫困学生，您的滴水善意，也许可以支持家乡孩子一个月的伙食，一年的学费，成为他们改变命运的钥匙。
- 
+
   food:
     - name: harbor
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638422908/zgzg-io-website/%E6%B8%AF%E6%B9%BE%E6%B8%94%E9%82%A8logo_d02wdd.jpg
@@ -186,9 +178,17 @@ sponsors:
   partners:
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1637378577/zgzg-io-website/Copy_of_%E5%90%83%E8%B4%A7%E5%B0%8F%E5%88%86%E9%98%9Flogo_qvkijb.jpg
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_pad,h_300,w_300/v1637378520/zgzg-io-website/Copy_of_%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0logo_ealrrz.png
+    - name: 北美新浪
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639787253/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/unnamed_xkujck.jpg
+      description: 新浪微博是中国最大的社交媒体之一，用户平均每天发布超过1亿条微博内容。由于信息传播高效性和广泛性，很多新鲜事物或热点事件通过微博得到广泛认知和关注。
+      website-name: 北美新浪
+      website: https://www.weibo.com/sinaus
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638423104/zgzg-io-website/OMG_LOGO_H_lfv3fa.png
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_500/v1637379558/zgzg-io-website/FE9377D7-6995-418A-BCF5-436E9C07F6E2_lor2az.png
-
+    - name: foundation
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639886279/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_5461_vfw08s.jpg
+      description: Hometown Education Foundation 于2004年由杨同海教授在美国成立，是资助中国贫困学生的独立慈善机构。 我们机构获得美国IRS认证，可以通过公司 matching donation program 向我们捐款，或直接捐款。我们所获捐款100%用于贫困学生，您的滴水善意，也许可以支持家乡孩子一个月的伙食，一年的学费，成为他们改变命运的钥匙。
+ 
   teambond:
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639894827/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/M.STUDIO_o7isva.jpg
 
