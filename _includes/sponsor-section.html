@@ -19,7 +19,7 @@
             <h2 class="gala-heading">白金赞助</h2>
             <div class="row">
                 {% for sponsor in site.data.data.sponsors.platinum %}
-                <div class="col-4 col-lg-3 mb-1">
+                <div class="col-6 col-lg-3 mb-1">
                     {% include sponsor.html %}
                 </div>
                 {% endfor %}
@@ -33,7 +33,7 @@
             <h2 class="gala-heading">金牌赞助</h2>
             <div class="row">
                 {% for sponsor in site.data.data.sponsors.gold %}
-                <div class="col-4 col-lg-3 mb-1">
+                <div class="col-6 col-lg-3 mb-1 gold-sponsor">
                     {% include sponsor.html %}
                 </div>
                 {% endfor %}
@@ -47,7 +47,7 @@
             <h2 class="gala-heading">餐饮赞助</h2>
             <div class="row">
                 {% for sponsor in site.data.data.sponsors.food %}
-                <div id="last-row-partners" class="col-4 col-lg-3 mb-1">
+                <div id="last-row-partners" class="col-6 col-lg-3 mb-1 food-sponsor">
                     {% include sponsor.html %}
                 </div>
                 {% endfor %}
@@ -60,7 +60,7 @@
         <div class="container">
             <h2 class="gala-heading">媒体合作</h2>
             <div class="row">
-                <div class="col-8 mb-1">
+                <div class="col-12 col-lg-9 mb-1">
                     <img
                         src="https://res.cloudinary.com/zaigezaigu/image/upload/v1639120586/zgzg-io-website/%E6%A8%AA%E7%89%88_gptbss.png" />
                     <div class="mb-1 sponsor-description">
@@ -85,7 +85,7 @@
             <h2 class="gala-heading">团建赞助</h2>
             <div class="row">
                 {% for sponsor in site.data.data.sponsors.teambond %}
-                <div id="last-row-partners" class="col-4 col-lg-3 mb-1">
+                <div id="last-row-partners" class="col-4 col-lg-3 mb-1 partner-sponsor">
                     {% include sponsor.html %}
                 </div>
                 {% endfor %}
