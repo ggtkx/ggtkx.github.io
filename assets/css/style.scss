@@ -182,10 +182,11 @@ img {
   #tour-banner .container {
     background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/v1639618313/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/fairshow_rw4bsj.png);
     background-repeat: no-repeat;
-    background-position:right bottom;
+    background-position:right;
     margin: 0 auto 0 auto;
     min-height:400px;
     padding-top:45px;
+    max-width:1000px
   }
 
   #ticket-poster, #tour-map {
