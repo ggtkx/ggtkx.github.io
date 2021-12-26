@@ -176,7 +176,8 @@ img {
     margin: 0 auto 0 auto;
     min-height:400px;
     padding-top:45px;
-    background-size: 80%;
+    background-position:right;
+    max-width:1000px
   }
 
   #tour-banner .container {
@@ -186,7 +187,7 @@ img {
     margin: 0 auto 0 auto;
     min-height:400px;
     padding-top:45px;
-    max-width:1000px
+    max-width:1000px;
   }
 
   #ticket-poster, #tour-map {
