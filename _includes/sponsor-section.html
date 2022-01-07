@@ -55,7 +55,7 @@
         </div>
     </div>
     {% endif %}
-    {% if site.data.data.sponsors.partners %}
+    {% if site.data.data.sponsors.media %}
     <div class="row">
         <div class="container">
             <h2 class="gala-heading">媒体合作</h2>
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="row">
-                {% for sponsor in site.data.data.sponsors.partners %}
+                {% for sponsor in site.data.data.sponsors.media %}
                 <div id="last-row-partners" class="col-4 col-lg-3 mb-1">
                     {% include sponsor.html %}
                 </div>
@@ -79,12 +79,12 @@
         </div>
     </div>
     {% endif %}
-    {% if site.data.data.sponsors.teambond %}
+    {% if site.data.data.sponsors.others %}
     <div class="row">
         <div class="container">
-            <h2 class="gala-heading">团建赞助</h2>
+            <h2 class="gala-heading">合作伙伴</h2>
             <div class="row">
-                {% for sponsor in site.data.data.sponsors.teambond %}
+                {% for sponsor in site.data.data.sponsors.others %}
                 <div id="last-row-partners" class="col-4 col-lg-3 mb-1 partner-sponsor">
                     {% include sponsor.html %}
                 </div>
