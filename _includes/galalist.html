@@ -1,16 +1,20 @@
 <div class="container">
-    <img class="card-img-top" style="aspect-ratio: 1; object-fit: cover" src="{{ site.data.data.gala-beginning.image }}">
+    {% for pic in site.data.data.gala-beginning.image %}
+    <img class="card-img-top" style="aspect-ratio: 1; object-fit: cover" src="{{ pic.image }}">
+    {% endfor %}
     <div class="row">
         {% for pic in site.data.data.galalist %}
         <div class="col-6 col-lg-12 col-md-4">
             <div class="card">
                 <div><img class="galalist-pic"  src="{{ pic.image }}">
-                    <h1> {{ pic.title }} </h1>
+                    <h3> {{ pic.title }} </h3>
                     {{ pic.description }}
                 </div>
             </div>
         </div>
         {% endfor %}
     </div>
-    <img class="card-img-top" style="aspect-ratio: 1; object-fit: cover" src="{{ site.data.data.gala-end.image }}">
+    {% for pic in site.data.data.gala-end.image %}
+    <img class="card-img-top" style="aspect-ratio: 1; object-fit: cover" src="{{ pic.image }}">
+    {% endfor %}
 </div>
