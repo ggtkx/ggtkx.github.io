@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": 53,
+        "weight": 54,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -51,7 +51,7 @@
     },
     {
         "title": "小企鹅 Lisa",
-        "weight": 21,
+        "weight": 22,
         "image": "https://i.imgur.com/IOg9VMj.png",
         "description": "我是小企鹅 Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~",
         "contact": [
@@ -60,7 +60,7 @@
     },
     {
         "title": "黎明洋",
-        "weight": 21,
+        "weight": 22,
         "image": "https://i.imgur.com/8kHVjfD.png",
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
         "contact": [
@@ -200,19 +200,19 @@
         ]
     },
     {
-        "title": "王大拿",
-        "weight": 6,
-        "image": "https://i.imgur.com/tyc7toZ.png",
-        "description": "集美貌与智慧于一身"
-    },
-    {
         "title": "Yuheng",
-        "weight": 6,
+        "weight": 7,
         "image": "https://i.imgur.com/fvnSese.jpg",
         "description": "脱口秀疯疯贵妇",
         "contact": [
             "Instagram: [hengzairenee](https://www.instagram.com/hengzairenee)"
         ]
+    },
+    {
+        "title": "王大拿",
+        "weight": 6,
+        "image": "https://i.imgur.com/tyc7toZ.png",
+        "description": "集美貌与智慧于一身"
     },
     {
         "title": "尾羽",
@@ -232,6 +232,12 @@
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kg_t2ZChitJHYOJDokYSqB)"
         ]
+    },
+    {
+        "title": "福禄",
+        "weight": 5,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
+        "description": "幽默儿神童"
     },
     {
         "title": "Jack",
@@ -260,10 +266,13 @@
         ]
     },
     {
-        "title": "福禄",
+        "title": "Abby",
         "weight": 4,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
-        "description": "幽默儿神童"
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2p3fvjxj30oi0oijtg.jpg",
+        "description": "不揽瓷器活，何来金刚钻。",
+        "contact": [
+            "Instagram: [abbyyy_3](https://www.instagram.com/abbyyy_3)"
+        ]
     },
     {
         "title": "何能能",
@@ -291,13 +300,10 @@
         "description": "我哦，开开心心最重要！"
     },
     {
-        "title": "Abby",
+        "title": "大花儿",
         "weight": 3,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2p3fvjxj30oi0oijtg.jpg",
-        "description": "不揽瓷器活，何来金刚钻。",
-        "contact": [
-            "Instagram: [abbyyy_3](https://www.instagram.com/abbyyy_3)"
-        ]
+        "image": "https://i.imgur.com/Wzr0KQF.png",
+        "description": "吐槽生活好好玩哦～"
     },
     {
         "title": "小马哥",
@@ -307,12 +313,6 @@
         "contact": [
             "小红书：`1069782970`"
         ]
-    },
-    {
-        "title": "大花儿",
-        "weight": 2,
-        "image": "https://i.imgur.com/Wzr0KQF.png",
-        "description": "吐槽生活好好玩哦～"
     },
     {
         "title": "Frankie",
