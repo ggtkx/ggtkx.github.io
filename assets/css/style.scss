@@ -231,7 +231,7 @@ img {
 }
 
 @media (max-width: 767px) {
-  galalist-section {
+  .galalist-section {
     margin: 5px 2px; 
   }
 
@@ -248,7 +248,7 @@ img {
 
   #ticket-banner.container {
     margin: 0 auto 0 auto;
-    min-height:400px;
+    min-height:380px;
     padding-top:35px;
     background-size: 120%;
   }
