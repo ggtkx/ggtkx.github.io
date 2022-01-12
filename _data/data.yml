@@ -217,6 +217,7 @@ shows:
   - name: 春天的芭蕾
     type: 歌曲
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639291994/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E6%98%A5%E5%A4%A9%E7%9A%84%E8%8A%AD%E8%95%BE.png
+    
 tours:
   - name:
     type:
