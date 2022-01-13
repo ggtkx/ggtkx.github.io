@@ -2,9 +2,9 @@
 title: 成为喜剧人
 layout: page
 permalink: /become/
-intro_image: "images/illustrations/speak.svg"
-intro_image_absolute: true
+intro_image: "/images/illustrations/speak.svg"
 intro_image_hide_on_mobile: false
+description: 如何通过《硅谷脱口秀》来成为一名风趣幽默、谈吐自然的人？
 ---
 
 想**变得风趣幽默**、为大家带来欢乐？最低成本的途径莫过于成为喜剧人了。
