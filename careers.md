@@ -1,12 +1,11 @@
 ---
 title: 招贤纳士
+description: 《硅谷脱口秀》诚招各种志愿者！请联系我们的邮箱或公众号（见主页）来报名。
 layout: page
 permalink: /careers/
 intro_image: "/images/illustrations/interview.svg"
 intro_image_hide_on_mobile: false
 ---
-
-《硅谷脱口秀》**诚招各种志愿者**！请联系我们的邮箱或公众号（见主页）来报名。
 
 另外，欢迎访问我们的 [LinkedIn](https://www.linkedin.com/company/ggtkx) 来与往届、当前志愿者们建立联系。
 
