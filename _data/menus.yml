@@ -12,12 +12,16 @@ main:
     weight: 3
 
   - name: "开放麦"
-    url: "/donation"
+    url: "/donation/"
     weight: 4
+
+  - name: "加入团队"
+    url: "/careers/"
+    weight: 5
 
   - name: "English"
     url: "/en/"
-    weight: 5
+    weight: 6
 
 footer:
   - name: "合作"
@@ -25,9 +29,13 @@ footer:
     weight: 1
 
   - name: "捐款"
-    url: "/donation"
+    url: "/donation/"
     weight: 2
+
+  - name: "加入"
+    url: "/careers/"
+    weight: 3
 
   - name: "English"
     url: "/en/"
-    weight: 3
+    weight: 4
