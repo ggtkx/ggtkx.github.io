@@ -3,15 +3,15 @@ layout: default
 ---
 <div class="container pt-6 pt-md-10">
 <div class="row justify-content-start">
-  <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+  <div class="col-12 col-md-7 col-lg-7 order-2 order-md-1">
     <h1 class="title">{{page.title}}</h1>
     {% if page.description %}
       <p>{{page.description}}</p>
     {% endif %}
   </div>
   {% if page.intro_image %}
-  <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-    <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+  <div class="col-12 col-md-5 col-lg-5 order-1 order-md-2">
+    <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %} limit-height" src="{{ page.intro_image | relURL }}" />
   </div>
   {% endif %}
 </div>
