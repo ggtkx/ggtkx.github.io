@@ -1,5 +1,5 @@
 ---
-title: 硅谷脱口秀 - 成为喜剧人
+title: 成为喜剧人
 layout: page
 permalink: /become/
 ---

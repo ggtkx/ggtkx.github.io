@@ -1,9 +1,8 @@
 ---
-title: 硅谷脱口秀 - 招贤纳士
+title: 招贤纳士
 layout: page
 permalink: /careers/
-intro_image: "images/illustrations/standout.svg"
-intro_image_absolute: true
+intro_image: "/images/illustrations/interview.svg"
 intro_image_hide_on_mobile: false
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 硅谷脱口秀 - 演员风采
+title: 演员风采
 layout: comedians
 permalink: /comedians/
 intro_image: "images/illustrations/standout.svg"
