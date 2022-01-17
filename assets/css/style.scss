@@ -242,6 +242,15 @@ img {
 }
 
 @media (max-width: 767px) {
+  #cloth-div {
+     height: 300px; 
+  }
+
+  iframe#cloth {
+     width: 100%;
+     height: 300px;
+  }
+
   .galalist-section {
     margin: 5px 2px; 
   }
