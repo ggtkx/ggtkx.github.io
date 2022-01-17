@@ -217,15 +217,16 @@ img {
   #tour-map {
      max-width: 1140px;
   }
-  #tour-div{
-     text-align: center;
-  }
 
   #cloth-div {
-     text-align: center;
-     margin: 40px 0 20px; 
-     width: 900px;
-     height: 650px;
+     margin: 40px auto; 
+     width: 800px;
+     height: 500px;
+  }
+
+  iframe#cloth {
+    height: 500px;
+    width: 800px;
   }
 
   #last-row-partners {
