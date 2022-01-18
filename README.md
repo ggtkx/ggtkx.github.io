@@ -32,12 +32,22 @@ npm install
 Data organization:
 - `_data/comedians.json` stores information about each comedian in this club. It is updated automatically to sync up with a Google Sheet.
 - `_data/friends.yml` stores links to our friends.
-- `_team/` contains Markdown documents for each member of the core team.
+- `pages/` contains Markdown documents for each page.
 
 Other technical details:
 - `pull-sheet/` hosts the mechanism that updates `_data/comedians.json` from the roster.
 - `sidenotes.js` is a pure-JavaScript plugin that puts `.footnotes` into `#sidebar`, aligning each piece of note at their corresponding superscript.
-- This website uses the [Serif](https://github.com/zerostaticthemes/jekyll-serif-theme) theme by [Robert Austin](https://github.com/zerostaticthemes).
+- This website uses the [Serif](https://github.com/zerostaticthemes/jekyll-serif-theme) theme by [Robert Austin](https://github.com/zerostaticthemes). Most illustrations come from an artwork collection, [unDraw](https://undraw.co/illustrations), by [Katerina Limpitsouni](https://twitter.com/ninaLimpi).
+
+# References
+
+[Ming](https://github.com/tslmy) has written several articles detailing the engineering aspects of this club:
+
+- [How Engineers Build A Comedy Club - Part I: The Website](https://lmy.medium.com/how-engineers-build-a-comedy-club-part-i-the-website-321b76cc7d4)
+- [How Engineers Build A Comedy Club - Part II: Comedian Data](https://lmy.medium.com/how-engineers-build-a-comedy-club-part-ii-comedian-data-9da0ceb8d088)
+- [How Engineers Build A Comedy Club - Part III: Videos and Subtitles](https://lmy.medium.com/how-engineers-build-a-comedy-club-part-iii-videos-and-subtitles-3794a273b822)
+
+The first 2 articles are most relevant to this repo.
 
 ## LICENSE
 The MIT License (MIT).
