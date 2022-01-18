@@ -6,6 +6,7 @@ intro_image: "/images/illustrations/micdrop.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_people: true
+permalink: /
 ---
 
 <img width="50%" alt="硅谷脱口秀" src="images/logo.svg" />
