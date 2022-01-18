@@ -50,23 +50,6 @@ bodyClass: page-home
 
   <div class="strip strip-grey">
     <div class="container pt-6 pb-6 pb-md-10">
-      <h1>主创团队</h1>
-      <div class="row justify-content-start">
-        {% for member in site.team %}
-        <div class="col-12 col-md-3 mb-1">
-          <div class="service service-summary">
-            <div class="service-content">
-              <h2 class="service-title">
-                {{ member.title }}
-              </h2>
-              <p>{{ member.content | markdownify }}</p>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-    <div class="container pt-0 pb-0 pb-md-10">
       <div class="row justify-content-start">
         <div class="col-6">
           <h1>友情链接</h1>
@@ -84,7 +67,5 @@ bodyClass: page-home
         </div>
       </div>
     </div>
-
-
   </div>
 {% endif %}
