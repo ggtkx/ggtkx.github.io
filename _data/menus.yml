@@ -3,27 +3,27 @@ main:
     url: "/"
     weight: 1
 
-  - name: "演员风采"
+  - name: "风采"
     url: "/comedians/"
     weight: 2
 
-  - name: "成为喜剧人"
+  - name: "参演"
     url: "/become/"
     weight: 3
 
-  - name: "开放麦"
+  - name: "参观"
     url: "/donation/"
     weight: 4
 
-  - name: "加入团队"
+  - name: "加入"
     url: "/careers/"
     weight: 5
 
-  - name: "团队介绍"
+  - name: "团队"
     url: "/team/"
     weight: 6
 
-  - name: "English"
+  - name: "En"
     url: "/en/"
     weight: 7
 
