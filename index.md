@@ -18,10 +18,14 @@ show_people: true
 
 每周五 8 PM（PT），我们会举办**开放麦**（[写入日历][rl]），在 [10268 Bandley Dr #107, Cupertino, CA 95014][dz]。
 
+## 观看方式
+
+活动当天，观众群里会提前公布直播链接，供您免费观赏；若有兴趣莅临现场，请移步[票务页面](/donation/)。
+
 [dz]: https://goo.gl/maps/jX5B63r57Z4FgiDE7
 [rl]: https://calendar.google.com/calendar/ical/c_ic3mlci1unu514ht9lun3dpjvs%40group.calendar.google.com/public/basic.ics
 
-**录像**请见 [YouTube 频道](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A/featured) 和 [哔哩哔哩](https://space.bilibili.com/482647119) 页面。
+我们每周选出 2 项优秀节目，公布在 [YouTube 频道](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A/featured)和[哔哩哔哩](https://space.bilibili.com/482647119)上。欢迎订阅、分享！
 
 ## 报名方式
 
