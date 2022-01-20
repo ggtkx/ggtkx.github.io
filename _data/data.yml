@@ -131,14 +131,14 @@ sponsors_yj:
 sponsors:
   diamond:
     - name: Coco
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1636693112/zgzg-io-website/coco_lx8uvq.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,q_10,w_100/v1636693112/zgzg-io-website/coco_lx8uvq.jpg
       website: https://www.realtorcocotan.com/
       description: Coco Tan从业地产18年有余, 一直排名前1%。在全美140万名地产经纪人中, Coco名列由《华尔街日报》评选的前74名。2021年还未结束, 她已卖出了140多套房屋, 几乎每套都成功地打破了湾区的价格记录。她曾连续两年当选华美地产协会 (CAREA) 主席。Coco主持的现场直播“周二会谭室”(T.A.N.)为大家带来丰富的地产及相关领域的知识。
       phone: (408) 829-6053
       email: CocoTanRE@gmail.com
       other: 微信 CocoTanRealEstate
     - name: Captain Dental
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639181479/zgzg-io-website/Captain-Dental_Vertical_For-Web_hvty8a.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,q_10,w_70/v1639181479/zgzg-io-website/Captain-Dental_Vertical_For-Web_hvty8a.jpg
       website: https://www.captaindental.com/
       description: Captain Dental由Doris Yao, D.D.S 于2017年创立，我们创立的初衷就是要解决看牙贵，看牙痛，看牙水太深的问题。因此Captain Dental不仅注重高质量的治疗结果，也将顾客的满意与舒适度放在第一位。收费合理，透明也是我们一直以来贯彻的理念。成立至今我们在Google，Yelp上都是5星评分。
       phone: 408-826-4676
@@ -147,7 +147,7 @@ sponsors:
 
   platinum:
     - name: Steve Chen
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638483572/zgzg-io-website/Steve_Chen_%E7%9B%B4%E6%92%AD%E5%8F%8A%E5%BE%AE%E4%BF%A1%E7%BE%A4logo_kbn5in.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,q_20,w_100/v1638483572/zgzg-io-website/Steve_Chen_%E7%9B%B4%E6%92%AD%E5%8F%8A%E5%BE%AE%E4%BF%A1%E7%BE%A4logo_kbn5in.jpg
       description: Steve 作为资深房屋贷款顾问及销售经理，服务在湾区享有极好口碑。他的专长包括 Relocation Loan，涉及 RSU 收入及海外资产的贷款。最近十年 Steve 连续荣获富国银行房贷最高荣誉 President’s Club Member 头衔
       phone: 408-805-1888
       email: Steve.T.Chen @wellsfargo.com
