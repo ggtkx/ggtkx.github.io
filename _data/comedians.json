@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": 54,
+        "weight": 55,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -94,7 +94,7 @@
     },
     {
         "title": "寇寇",
-        "weight": 18,
+        "weight": 19,
         "image": "https://i.imgur.com/LnobTPF.png"
     },
     {
@@ -145,6 +145,15 @@
         ]
     },
     {
+        "title": "孙刘",
+        "weight": 9,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
+        "description": "过来闹点笑话",
+        "contact": [
+            "联系方式：可以直接现场问我要"
+        ]
+    },
+    {
         "title": "詹姆斯",
         "weight": 8,
         "image": "https://i.imgur.com/gTRZYM0.png",
@@ -154,12 +163,11 @@
         ]
     },
     {
-        "title": "孙刘",
+        "title": "Mandy",
         "weight": 8,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
-        "description": "过来闹点笑话",
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
         "contact": [
-            "联系方式：可以直接现场问我要"
+            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
         ]
     },
     {
@@ -192,14 +200,6 @@
         ]
     },
     {
-        "title": "Mandy",
-        "weight": 7,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
-        "contact": [
-            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
-        ]
-    },
-    {
         "title": "Yuheng",
         "weight": 7,
         "image": "https://i.imgur.com/fvnSese.jpg",
@@ -209,20 +209,20 @@
         ]
     },
     {
-        "title": "王大拿",
-        "weight": 6,
-        "image": "https://i.imgur.com/tyc7toZ.png",
-        "description": "集美貌与智慧于一身"
-    },
-    {
         "title": "尾羽",
-        "weight": 6,
+        "weight": 7,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
         "description": "做一只特立独行的猪",
         "contact": [
             "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
         ]
+    },
+    {
+        "title": "王大拿",
+        "weight": 6,
+        "image": "https://i.imgur.com/tyc7toZ.png",
+        "description": "集美貌与智慧于一身"
     },
     {
         "title": "Timur",
