@@ -20,7 +20,7 @@ description: 有兴趣加入我们吗？请点击“加入团队”以查看空�
 - 创意监督
 
 ## 蒋书鹤
-总编 Digital Marketing Lead
+总编 Digital Marketing Manager
 - 媒体关系
 - 发布管理
 - 文案创意
@@ -54,3 +54,13 @@ description: 有兴趣加入我们吗？请点击“加入团队”以查看空�
 - 演员培训
 - 内容创作
 - 教学研究
+
+## 孙刘
+
+## Serena
+
+## 王帆
+
+## 曹俪桐
+
+## 张文博
