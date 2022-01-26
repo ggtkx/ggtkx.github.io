@@ -14,7 +14,7 @@ description: 致所有演员及全体志愿者：您的公司可能支持配捐�
 
 在贵司的配捐平台（如 Benevity、 YourCause）上，
 1. **指定受益组织。** 搜索我们的中文名“硅谷脱口秀”或英文名“Silicon Valley Stand Up Comedy”[^1]。若无此项目，请选择“P & Y Foundation”;
-2. 在联系方式或备注栏里，**留下您的艺名**。若在上一步里，您无法指明捐给《硅脱》、而是直接指定了“P & Y Foundation”，则请在此写出“From [您的艺名] to GGTKX”;
+2. 在联系方式或备注栏里，写出“From [您的艺名] to GGTKX”;
 3. **填入为《硅脱》所耗时间**。贵司的平台可能请您填写一张表格，需要您将每项活动的日期、时长、内容分别填成一行。
 
 [^1]: 例如，在 Benevity 上，我们叫“Silicon Valley Stand Up Comedy 硅谷脱口秀 via P & Y Foundation”。
