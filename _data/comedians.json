@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": 55,
+        "weight": 56,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -21,7 +21,7 @@
     },
     {
         "title": "Tracy",
-        "weight": 31,
+        "weight": 32,
         "image": "https://i.imgur.com/EjEYK7y.png",
         "description": "生活=经历 经历=段子 生活=段子",
         "contact": [
@@ -41,7 +41,7 @@
     },
     {
         "title": "邵天宇",
-        "weight": 23,
+        "weight": 24,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8e6hgmej30b20b23z0.jpg",
         "description": "曾经是一名脱口秀表演者",
         "contact": [
@@ -94,7 +94,7 @@
     },
     {
         "title": "寇寇",
-        "weight": 19,
+        "weight": 20,
         "image": "https://i.imgur.com/LnobTPF.png"
     },
     {
@@ -154,6 +154,14 @@
         ]
     },
     {
+        "title": "Mandy",
+        "weight": 9,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
+        "contact": [
+            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
+        ]
+    },
+    {
         "title": "詹姆斯",
         "weight": 8,
         "image": "https://i.imgur.com/gTRZYM0.png",
@@ -163,11 +171,13 @@
         ]
     },
     {
-        "title": "Mandy",
+        "title": "尾羽",
         "weight": 8,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
+        "description": "做一只特立独行的猪",
         "contact": [
-            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
+            "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
         ]
     },
     {
@@ -209,20 +219,16 @@
         ]
     },
     {
-        "title": "尾羽",
-        "weight": 7,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
-        "description": "做一只特立独行的猪",
-        "contact": [
-            "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
-        ]
-    },
-    {
         "title": "王大拿",
         "weight": 6,
         "image": "https://i.imgur.com/tyc7toZ.png",
         "description": "集美貌与智慧于一身"
+    },
+    {
+        "title": "福禄",
+        "weight": 6,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
+        "description": "幽默儿神童"
     },
     {
         "title": "Timur",
@@ -232,12 +238,6 @@
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kg_t2ZChitJHYOJDokYSqB)"
         ]
-    },
-    {
-        "title": "福禄",
-        "weight": 5,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
-        "description": "幽默儿神童"
     },
     {
         "title": "韩哥",
