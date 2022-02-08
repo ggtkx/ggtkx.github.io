@@ -37,7 +37,6 @@ Data organization:
 Other technical details:
 - `pull-sheet/` hosts the mechanism that updates `_data/comedians.json` from the roster.
 - `sidenotes.js` is a pure-JavaScript plugin that puts `.footnotes` into `#sidebar`, aligning each piece of note at their corresponding superscript.
-- This website uses the [Serif](https://github.com/zerostaticthemes/jekyll-serif-theme) theme by [Robert Austin](https://github.com/zerostaticthemes). Most illustrations come from an artwork collection, [unDraw](https://undraw.co/illustrations), by [Katerina Limpitsouni](https://twitter.com/ninaLimpi).
 
 # References
 
@@ -49,5 +48,11 @@ Other technical details:
 
 The first 2 articles are most relevant to this repo.
 
-## LICENSE
+# Acknowledgements
+- This website uses the Bilibili icon by [Anu Rocks](https://freeicons.io/profile/730) on [freeicons.io](https://freeicons.io/).
+- This website uses the YouTube icon by [Raj Dev](https://freeicons.io/profile/714) on [freeicons.io](https://freeicons.io/).
+- the LinkedIn icon by [Muhammad Haq](https://freeicons.io/profile/823) on [freeicons.io](https://freeicons.io/).
+- This website uses the [Serif](https://github.com/zerostaticthemes/jekyll-serif-theme) theme by [Robert Austin](https://github.com/zerostaticthemes). Most illustrations come from an artwork collection, [unDraw](https://undraw.co/illustrations), by [Katerina Limpitsouni](https://twitter.com/ninaLimpi).
+
+# License
 The MIT License (MIT).
