@@ -1,19 +1,12 @@
 <div class="call">
   <div class="call-box-top">
-    {% if site.data.contact.phone %}
-        <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
-    {% endif %}
-    {% if site.data.contact.email %}
-    <div class="call-email"><strong>Email: </strong>
-      <a href="mailto:{{ .site.data.contact.email }}">
-        {{ site.data.contact.email }}
-      </a>
+    <div class="call-phone"><strong>演出：</strong><a href="https://calendar.google.com/calendar/ical/c_ic3mlci1unu514ht9lun3dpjvs%40group.calendar.google.com/public/basic.ics">每周五 8-9 PM（PT）（公共假期前除外）</a></div>
+    <div class="call-email"><strong>地点：</strong><a href="https://goo.gl/maps/jX5B63r57Z4FgiDE7">10268 Bandley Dr #107, Cupertino, CA 95014</a>
     </div>
-    {% endif %}
   </div>
     {% if include.show_button %}
       <div class="call-box-bottom">
-        <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
+        <a href="/donation/" class="button">购票</a>
       </div>
     {% endif %}
 </div>
