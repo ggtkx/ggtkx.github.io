@@ -11,7 +11,7 @@ main:
     url: "/become/"
     weight: 3
 
-  - name: "参观"
+  - name: "购票"
     url: "/donation/"
     weight: 4
 
