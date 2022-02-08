@@ -9,8 +9,6 @@ show_people: true
 permalink: /
 ---
 
-<img width="50%" alt="硅谷脱口秀" src="images/logo.svg" />
-
 图个开心！
 
 我们是硅谷地区的一群**汉语喜剧**爱好者，以脱口秀为主。我们欢迎各路朋友来观赏、参演！
