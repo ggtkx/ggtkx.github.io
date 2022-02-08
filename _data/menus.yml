@@ -12,7 +12,7 @@ main:
     weight: 3
 
   - name: "购票"
-    url: "/donation/"
+    url: "/tickets/"
     weight: 4
 
   - name: "加入"
