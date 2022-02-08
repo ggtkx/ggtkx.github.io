@@ -49,10 +49,15 @@ Other technical details:
 The first 2 articles are most relevant to this repo.
 
 # Acknowledgements
-- This website uses the Bilibili icon by [Anu Rocks](https://freeicons.io/profile/730) on [freeicons.io](https://freeicons.io/).
-- This website uses the YouTube icon by [Raj Dev](https://freeicons.io/profile/714) on [freeicons.io](https://freeicons.io/).
-- the LinkedIn icon by [Muhammad Haq](https://freeicons.io/profile/823) on [freeicons.io](https://freeicons.io/).
-- This website uses the [Serif](https://github.com/zerostaticthemes/jekyll-serif-theme) theme by [Robert Austin](https://github.com/zerostaticthemes). Most illustrations come from an artwork collection, [unDraw](https://undraw.co/illustrations), by [Katerina Limpitsouni](https://twitter.com/ninaLimpi).
+This website uses:
+
+- these icons from [freeicons.io](https://freeicons.io/):
+  - YouTube icon by [Raj Dev](https://freeicons.io/profile/714) on [freeicons.io](https://freeicons.io/).
+  - Bilibili icon by [Anu Rocks](https://freeicons.io/profile/730)
+  - LinkedIn icon by [Muhammad Haq](https://freeicons.io/profile/823)
+
+- the [Serif](https://github.com/zerostaticthemes/jekyll-serif-theme) theme by [Robert Austin](https://github.com/zerostaticthemes).
+- illustrations from the artwork collection, [unDraw](https://undraw.co/illustrations), by [Katerina Limpitsouni](https://twitter.com/ninaLimpi).
 
 # License
 The MIT License (MIT).
