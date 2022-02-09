@@ -7,6 +7,8 @@ intro_image_hide_on_mobile: true
 description: 硅谷脱口秀每周五晚8点在举行开放麦（open mic）。这里既是脱口秀新人首秀的舞台，也是脱口秀老司机试炼新段子、打磨老段子的地方。
 ---
 
+<script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe src="https://donorbox.org/embed/ggtkx-donations?default_interval=o" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 310px; max-height:none!important"></iframe>
+
 ## 形式介绍
 
 开放麦和正式的**演出形式**、内容上都略有差异。通常每次开放麦持续一小时左右，由一名主持人串场，10名以下演员报名，每位演员说5分钟左右，开放给50名以下的观众的段子。表演结束后，会有给想初次尝试的观众上台表演的机会。观众离场后，演员们通常也会坐下来互相讨论点评。
@@ -16,8 +18,6 @@ description: 硅谷脱口秀每周五晚8点在举行开放麦（open mic）。�
 ## 线下参观
 
 《硅谷脱口秀》开放麦不仅提供免费直播，也欢迎您来现场[^1]参观。为了承担成本，还请您慷慨解囊。请**使用以下表单**领取捐赠入场劵。（如果选项为空，说明该周入场劵已发完。）入场则视为您已同意现场规则（见下）。
-
-<iframe class="full" src="https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1" frameborder="0"></iframe>
 
 票务所得不以营利为目的[^2]。
 
