@@ -1,30 +1,17 @@
 <div class="call">
   <div class="call-box-top">
-    <div class="call-phone"><strong>演出：</strong><a href="https://calendar.google.com/calendar/ical/c_ic3mlci1unu514ht9lun3dpjvs%40group.calendar.google.com/public/basic.ics">每周五 8-9 PM（PT）（公共假期前除外）</a></div>
+    <div class="call-phone"><strong>演出：</strong><a href="https://calendar.google.com/calendar/ical/c_ic3mlci1unu514ht9lun3dpjvs%40group.calendar.google.com/public/basic.ics">每周五 8-9 PM（PT）</a>，公共假期前除外</div>
     <div class="call-email"><strong>地点：</strong><a href="https://goo.gl/maps/jX5B63r57Z4FgiDE7">10268 Bandley Dr #107, Cupertino, CA 95014</a>
     </div>
   </div>
     {% if include.show_button %}
       <div class="call-box-bottom">
-        <a href="/donation/" class="button">购票</a>
+        <a href="/donation/" class="primary button">购票</a>
       </div>
-      <script type="text/javascript" defer src="https://donorbox.org/install-popup-button.js"></script>
-      <style>
-        .dbox-donation-button {
-          background: #d53b2e;
-          color: #fff;
-          text-decoration: none;
-          font-family: Verdana,sans-serif;
-          display: inline-block;
-          font-size: 16px;
-          padding: 13px 17px;
-          -webkit-border-radius: 2px;
-          -moz-border-radius: 2px;
-          border-radius: 2px;
-          box-shadow: 0 1px 0 0 #1f5a89;
-          text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-        }
-      </style>
-      <a class="dbox-donation-button" href="https://donorbox.org/ggtkx-donations?default_interval=o">捐赠</a>
+      <div class="call-box-bottom">
+        您也可以：
+        <script type="text/javascript" defer src="https://donorbox.org/install-popup-button.js"></script>
+        <a class="dbox-donation-button secondary button" href="https://donorbox.org/ggtkx-donations?default_interval=o">捐赠</a>
+      </div>
     {% endif %}
 </div>
