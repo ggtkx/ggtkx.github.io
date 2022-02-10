@@ -17,7 +17,7 @@ We are a group of comedy lovers in the Silicon Valley area, mainly focusing on p
 
 For the past three years and counting, we gather together almost weekly. So far, _Chinese Comedy at Silicon Valley_ has held nearly two hundreds meet-ups. More than 100 guests have performed on the stage or virtually. Videos of our previous performances have achieved 50k+ views across [YouTube][yt] and [Bilibili][bl].
 
-Every Friday at 8 PM PT ([Add to calendar][rl]), we hold an [open mic][om] at [10268 Bandley Dr #107, Cupertino, CA 95014][dz].
+{% include call.html show_button=true labels=site.data.l10n.en %}
 
 [yt]: https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A/featured
 [bl]: https://space.bilibili.com/482647119

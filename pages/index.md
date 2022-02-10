@@ -15,7 +15,7 @@ permalink: /
 
 过去三年来，我们举办了 ~200 次活动，>100 位演员陆续参演，视频也有近5万次播放。
 
-{% include call.html show_button=true %}
+{% include call.html show_button=true labels=site.data.l10n.cn %}
 
 无法莅临现场？您也可以观看免费直播：在活动当天，观众群里会公布链接。
 

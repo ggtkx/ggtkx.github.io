@@ -1,17 +1,17 @@
 <div class="call">
   <div class="call-box-top">
-    <div class="call-phone"><strong>演出：</strong><a href="https://calendar.google.com/calendar/ical/c_ic3mlci1unu514ht9lun3dpjvs%40group.calendar.google.com/public/basic.ics">每周五 8-9 PM（PT）</a>，公共假期前除外</div>
-    <div class="call-email"><strong>地点：</strong><a href="https://goo.gl/maps/jX5B63r57Z4FgiDE7">10268 Bandley Dr #107, Cupertino, CA 95014</a>
+    <div class="call-phone"><strong>{{ include.labels.performance }}</strong><a href="https://calendar.google.com/calendar/ical/c_ic3mlci1unu514ht9lun3dpjvs%40group.calendar.google.com/public/basic.ics">{{ include.labels.time }}</a>{{ include.labels.except-holidays }}</div>
+    <div class="call-email"><strong>{{ include.labels.location }}</strong><a href="https://goo.gl/maps/jX5B63r57Z4FgiDE7">10268 Bandley Dr #107, Cupertino, CA 95014</a>
     </div>
   </div>
     {% if include.show_button %}
       <div class="call-box-bottom">
-        <a href="/donation/" class="primary button">购票</a>
+        <a href="/donation/" class="primary button">{{ include.labels.buy-tickets }}</a>
       </div>
       <div class="call-box-bottom">
-        您也可以：
+        {{ include.labels.you-can-also }}
         <script type="text/javascript" defer src="https://donorbox.org/install-popup-button.js"></script>
-        <a class="dbox-donation-button secondary button" href="https://donorbox.org/ggtkx-donations?default_interval=o">捐赠</a>
+        <a class="dbox-donation-button secondary button" href="https://donorbox.org/ggtkx-donations?default_interval=o">{{ include.labels.donate }}</a>
       </div>
     {% endif %}
 </div>
