@@ -21,7 +21,7 @@
     },
     {
         "title": "Tracy",
-        "weight": 32,
+        "weight": 33,
         "image": "https://i.imgur.com/EjEYK7y.png",
         "description": "生活=经历 经历=段子 生活=段子",
         "contact": [
@@ -73,6 +73,11 @@
         ]
     },
     {
+        "title": "寇寇",
+        "weight": 22,
+        "image": "https://i.imgur.com/LnobTPF.png"
+    },
+    {
         "title": "Monkey",
         "weight": 21,
         "image": "https://i.imgur.com/rIg21xp.png",
@@ -81,11 +86,6 @@
             "Instagram: [bigmonkeyma](https://www.instagram.com/bigmonkeyma/)",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kTGnvPs-sI21crusfMQLKO)"
         ]
-    },
-    {
-        "title": "寇寇",
-        "weight": 21,
-        "image": "https://i.imgur.com/LnobTPF.png"
     },
     {
         "title": "方圆",
@@ -136,6 +136,24 @@
         ]
     },
     {
+        "title": "大头丁",
+        "weight": 10,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
+        "contact": [
+            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
+        ]
+    },
+    {
+        "title": "尾羽",
+        "weight": 10,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
+        "description": "做一只特立独行的猪",
+        "contact": [
+            "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
+        ]
+    },
+    {
         "title": "大国",
         "weight": 9,
         "image": "https://i.imgur.com/LzaNx8t.png",
@@ -151,24 +169,6 @@
         "description": "毁人不倦的中文老湿",
         "contact": [
             "[俺的学校](https://www.sanjoselearningcenter.com)"
-        ]
-    },
-    {
-        "title": "Mandy",
-        "weight": 9,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
-        "contact": [
-            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
-        ]
-    },
-    {
-        "title": "尾羽",
-        "weight": 9,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
-        "description": "做一只特立独行的猪",
-        "contact": [
-            "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
         ]
     },
     {
