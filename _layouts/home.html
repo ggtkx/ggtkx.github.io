@@ -38,9 +38,22 @@ bodyClass: page-home
       <h1>热门演员</h1>
       <div class="row justify-content-center">
         {% assign comedians = site.data.comedians | sort: "weight" | reverse %}
-        {% for comedian in site.data.comedians limit:6 %}
+        {% for comedian in site.data.comedians limit:5 %}
           {% include comedian.html comedian=comedian %}
         {% endfor %}
+        <a href="/become/" id="join">
+          <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <div class="comedian">
+                <div class="comedian-image">
+                  +
+                </div>
+              <h2 class="comedian-title">参与演出</h2>
+              <div class="comedian-content">
+                <p class="comedian-description">在我们的开放麦上表演您的段子！</p>
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
       <div class="row justify-content-center">
         <div class="col-auto">
