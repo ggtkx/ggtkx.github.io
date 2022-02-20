@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": 57,
+        "weight": 58,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -74,7 +74,7 @@
     },
     {
         "title": "寇寇",
-        "weight": 22,
+        "weight": 23,
         "image": "https://i.imgur.com/LnobTPF.png"
     },
     {
@@ -128,11 +128,24 @@
     },
     {
         "title": "孙刘",
-        "weight": 10,
+        "weight": 11,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
         "description": "过来闹点笑话",
         "contact": [
             "联系方式：可以直接现场问我要"
+        ]
+    },
+    {
+        "title": "尾羽",
+        "weight": 11,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
+        "description": "做一只特立独行的猪",
+        "contact": [
+            "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
+        ],
+        "highlights": [
+            "2022年《北美校友脱口秀大赛》亚军"
         ]
     },
     {
@@ -141,16 +154,6 @@
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
         "contact": [
             "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
-        ]
-    },
-    {
-        "title": "尾羽",
-        "weight": 10,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
-        "description": "做一只特立独行的猪",
-        "contact": [
-            "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
         ]
     },
     {
@@ -231,6 +234,12 @@
         "description": "幽默儿神童"
     },
     {
+        "title": "韩哥",
+        "weight": 6,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gybwozgawpj30u00u0dib.jpg",
+        "description": "硬件工程师"
+    },
+    {
         "title": "Timur",
         "weight": 5,
         "image": "https://i.imgur.com/o0y7QF2.jpg",
@@ -238,12 +247,6 @@
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kg_t2ZChitJHYOJDokYSqB)"
         ]
-    },
-    {
-        "title": "韩哥",
-        "weight": 5,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gybwozgawpj30u00u0dib.jpg",
-        "description": "硬件工程师"
     },
     {
         "title": "Jack",
@@ -375,6 +378,14 @@
         "description": "就这么着吧（这句就不用了）",
         "contact": [
             "Linkedin: [Jin Liu](https://www.linkedin.com/in/jin-liu-a5b697140)"
+        ]
+    },
+    {
+        "title": "陈安怡",
+        "weight": 1,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1gzjtz1kyn5j20ui0sg77r.jpg",
+        "highlights": [
+            "2022年《北美校友脱口秀大赛》季军"
         ]
     },
     {
