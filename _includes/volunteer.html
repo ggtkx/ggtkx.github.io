@@ -1,0 +1,12 @@
+<div class="col-12 col-md-6 col-lg-4 mb-5">
+  <div class="person">
+    {% if volunteer.image %}
+      <div class="person-image"><img alt="{{ volunteer.nickname }}" src="{{ volunteer.image }}" /></div>
+    {% endif %}
+    <h2 class="person-title">{{ volunteer.nickname }}</h2>
+    <h3 class="person-subtitle">{{ volunteer.title }}</h3>
+    <div class="person-content">
+      <p class="person-description">{{ volunteer.description }}</p>
+    </div>
+  </div>
+</div>

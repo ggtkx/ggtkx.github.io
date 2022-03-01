@@ -1,20 +1,20 @@
 <div class="col-12 col-md-6 col-lg-4 mb-5">
-  <div class="comedian">
+  <div class="person">
     {% if comedian.image %}
-      <div class="comedian-image"><img alt="{{ comedian.title }}" src="{{ comedian.image }}" /></div>
+      <div class="person-image"><img alt="{{ comedian.title }}" src="{{ comedian.image }}" /></div>
     {% endif %}
-    <h2 class="comedian-title">{{ comedian.title }}</h2>
-    <div class="comedian-content">
-      <p class="comedian-description">{{ comedian.description }}</p>
+    <h2 class="person-title">{{ comedian.title }}</h2>
+    <div class="person-content">
+      <p class="person-description">{{ comedian.description }}</p>
       {% if comedian.contact.size > 0 %}
-        <ul class="comedian-contact">
+        <ul class="person-contact">
         {% for contact in comedian.contact %}
           <li>{{ contact | markdownify | remove: '<p>' | remove: '</p>' }}</li>
         {% endfor %}
         </ul>
       {% endif %}
       {% if comedian.highlights.size > 0 %}
-        <ul class="comedian-highlights">
+        <ul class="person-highlights">
         {% for highlight in comedian.highlights %}
           <li>{{ highlight | markdownify | remove: '<p>' | remove: '</p>' }}</li>
         {% endfor %}
