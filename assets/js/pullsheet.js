@@ -3,10 +3,16 @@
 
 // URL: https://ggtkx.org/pull-sheet/?key=your_key&worksheet=worksheet_name&token=your_personal_access_token&org=your_org&repo=your_repo&branch=your_branch
 
-const multilinedProperties = ['contact', 'highlights'];
-const requiredProperties = ['title', 'image', 'weight'];
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
+let multilinedProperties = urlParams.getAll('multilined_properties');
+if (multilinedProperties.length == 0) {
+  multilinedProperties = ['contact', 'highlights'];
+}
+let requiredProperties = urlParams.getAll('required_properties');
+if (requiredProperties.length == 0) {
+  requiredProperties = ['title', 'image', 'weight'];
+}
 const key = urlParams.get('key');
 const resource = urlParams.get('worksheet');
 const org = urlParams.get('org');
@@ -21,8 +27,10 @@ if (oAuthToken != '') {
 // Grab the token from cookie
 oAuthToken = Cookies.get('token');
 
+const sheetUrl = `https://docs.google.com/spreadsheets/d/${key}/gviz/tq?tqx=out:json`;
+console.log('Pulling', sheetUrl);
 document.addEventListener('DOMContentLoaded', () =>
-  fetch(`https://docs.google.com/spreadsheets/d/${key}/gviz/tq?tqx=out:json`)
+  fetch(sheetUrl)
       .then((res) => res.text())
       .then(processData));
 
