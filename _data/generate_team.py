@@ -43,4 +43,5 @@ if __name__ == '__main__':
         "group", axis=1).to_dict(orient="records")).to_dict()
 
     with open(arguments["<output_path>"], "w") as f:
-        json.dump(data, f)
+        json.dump(data, f, indent=4, sort_keys=True)
+        f.write("\n")
