@@ -27,4 +27,4 @@ permalink: /
 
 请通过我们的微信公众号 `svcomedy`：
 
-<img alt="微信公众号二维码" src="https://imgur.com/UAjnF2l.png" height=200 />
+<img alt="微信公众号二维码" src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0ftfapgqxj209k09kjra.jpg" height=200 />

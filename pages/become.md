@@ -78,7 +78,7 @@ description: 如何在《硅谷脱口秀》的开放麦上表演？如何通过�
 - 课程《[单立人学院](http://www.danlirencomedy.com/dlrxy)》。
 
 [^1]: 微信公众号二维码：
-    <img alt="微信公众号二维码" src="https://imgur.com/UAjnF2l.png" height=200 />
+    <img alt="微信公众号二维码" src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0ftfapgqxj209k09kjra.jpg" height=200 />
 
 [^2]: 一些[写作提示（writing prompts）](https://blog.reedsy.com/short-story-ideas/comedy/)：
     - “猜猜我是谁？”你从后面捂住了 ta 的眼睛，以为 ta 是你的朋友。结果，ta 其实是个陌生人！这时，ta 转过身来，说……
