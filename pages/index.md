@@ -15,8 +15,6 @@ permalink: /
 
 过去三年来，我们举办了 ~200 次活动，>100 位演员陆续参演，视频也有近5万次播放。
 
-3月19日欢乐喜剧人演员艾杰西将与硅谷脱口秀演员携手献上专场演出。[售票](https://www.eventbrite.com/e/273632110007)有限，先到先得！
-
 {% include call.html show_button=true labels=site.data.l10n.cn %}
 
 无法莅临现场？您也可以观看免费直播：在活动当天，观众群里会公布链接。
