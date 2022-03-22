@@ -1,0 +1,105 @@
+[
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1\uff1a`ggtkx_wx`",
+            "\u5fae\u4fe1\u516c\u4f17\u53f7\uff1a`svcomedy`"
+        ],
+        "contacts_business": [
+            "E-Mail: <contact@ggtkx.org>"
+        ],
+        "date_founded": "2019\u5e749\u6708",
+        "logo": "/images/logo.svg",
+        "name_chinese": "\u7845\u8c37\u8131\u53e3\u79c0",
+        "physical_address": "10268 Bandley Dr #107, Cupertino, CA 95014",
+        "physical_location": "\u7f8e\u56fd\u00b7\u7845\u8c37",
+        "website": "https://ggtkx.org/"
+    },
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1\u516c\u4f17\u53f7\uff1a`\u9876\u597d\u559c\u5267`\u2014\u2014\u70b9\u51fb\u5c0f\u52a9\u624b\uff0c\u4f1a\u62c9\u4f60\u8fdb\u7fa4\u54e6"
+        ],
+        "date_founded": "2021\u5e749\u6708",
+        "name_chinese": "\u9876\u597d\u559c\u5267",
+        "name_english": "DingHo Comedy",
+        "physical_address": "3 N Beacon St, Allston, MA, 02134",
+        "physical_location": "\u7f8e\u56fd\u00b7\u6ce2\u58eb\u987f",
+        "website": "https://www.karlxiecomedy.com/"
+    },
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1\uff1a`lafengxiju`"
+        ],
+        "contacts_business": [
+            "\u5fae\u4fe1\uff1a`lafengxiju`",
+            "E-Mail: <lafengxiju@gmail.com>"
+        ],
+        "date_founded": "2022\u5e742\u6708",
+        "logo": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0j6x228jbj20im0gsq3t.jpg",
+        "name_chinese": "\u62c9\u75af\u559c\u5267",
+        "name_english": "Crazy Laugh",
+        "physical_location": "\u7f8e\u56fd\u00b7\u7ebd\u7ea6"
+    },
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1\uff1a`chinchinWQ`",
+            "\u5fae\u4fe1\u516c\u4f17\u53f7\uff1a`\u54d7\u4eba\u559c\u5267`",
+            "E-Mail: <hurracomedy.uk@gmail.com>"
+        ],
+        "date_founded": "2021\u5e749\u6708",
+        "logo": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0j66w3sxpj20u00u0ac0.jpg",
+        "name_chinese": "\u54d7\u4eba\u559c\u5267",
+        "name_english": "Hurrah Comedy",
+        "physical_location": "\u82f1\u56fd\u00b7\u4f26\u6566",
+        "specialities": "\u5373\u5174\u559c\u5267\n\u82f1\u6587\u5355\u53e3\u559c\u5267\n\u97f3\u4e50\u8131\u53e3\u79c0"
+    },
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1\uff1a`prop0809`",
+            "E-Mail: <standup.paris.cn@gmail.com>"
+        ],
+        "contacts_comedians": [
+            "\u5fae\u4fe1\uff1a`yuxuan730`",
+            "E-Mail: <standup.paris.cn@gmail.com>"
+        ],
+        "date_founded": "2019\u5e7410\u6708",
+        "logo": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0j660xofej20u00u0dgw.jpg",
+        "name_chinese": "\u5df4\u9ece\u8131\u53e3\u79c0\u4ff1\u4e50\u90e8",
+        "name_english": "Chinese Comedy Club de Paris",
+        "physical_address": "40 Pass. des Panoramas, 75002 Paris",
+        "physical_location": "\u6cd5\u56fd\u00b7\u5df4\u9ece",
+        "specialities": "\u5355\u53e3\u559c\u5267\uff08\u6c49\u8bed+\u6cd5\u8bed\uff09\u5355\u4eba\u77ed\u5267",
+        "website": "https://www.youtube.com/channel/UCJJzTOmiim1Ku1ltgOd7dPQ"
+    },
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1\uff1a`cancanOfficialCS`",
+            "E-Mail: <can@cancanclub.org>"
+        ],
+        "contacts_comedians": [
+            "\u5fae\u4fe1\u516c\u4f17\u53f7\uff1a`cancanclub`\uff0c\u9009\u62e9\u201c\u5f53\u6f14\u5458\u201d\uff0c\u586b\u8868\uff0c\u7b49\u5f85",
+            "\u5fae\u4fe1\uff1a`cancanOfficialCS`"
+        ],
+        "date_founded": "2020\u5e7410\u6708",
+        "logo": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0j65v862yj20dq0dpq38.jpg",
+        "name_chinese": "\u4f83\u4f83\u4ff1\u4e50\u90e8",
+        "name_english": "Can Can Club",
+        "physical_location": "\u65b0\u52a0\u5761",
+        "website": "https://cancanclub.peatix.com/"
+    },
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1\uff1a`deoxys14`",
+            "E-Mail: <deoxys14@gmail.com>"
+        ],
+        "name_chinese": "\u58a8\u5c14\u672c\u8131\u53e3\u79c0",
+        "physical_location": "\u6fb3\u5927\u5229\u4e9a\u00b7\u58a8\u5c14\u672c"
+    },
+    {
+        "contacts_audiences": [
+            "E-Mail: <xiatutkx@gmail.com>"
+        ],
+        "date_founded": "2022\u5e743\u6708",
+        "name_chinese": "\u867e\u56fe\u8131\u53e3\u79c0",
+        "physical_location": "\u7f8e\u56fd\u00b7\u897f\u96c5\u56fe"
+    }
+]

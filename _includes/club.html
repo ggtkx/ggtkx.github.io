@@ -1,0 +1,48 @@
+<div class="col-12 col-md-6 col-lg-4 mb-5">
+  <div class="club">
+    {% if club.website %}
+      <a href="{{ club.website }}">
+    {% endif %}
+      {% if club.logo %}
+        <div class="club-image"><img alt="{{ club.name_chinese }}" src="{{ club.logo }}" /></div>
+        {% else %}
+        <div class="club-image">
+          <h2 class="club-title">{{ club.name_chinese }}</h2>
+          <h3 class="club-subtitle">{{ club.name_english }}</h3>
+        </div>
+      {% endif %}
+    {% if club.website %}
+      </a>
+    {% endif %}
+    <div class="club-header">
+    <h4 class="club-subtitle">{{ club.physical_location }}{% if club.date_founded %} · 始于{{ club.date_founded }} {% endif %}</h4>
+    </div>
+    <div class="club-content">
+      <p class="club-description">{{ club.specialities }}</p>
+      {% if club.contacts_audiences.size > 0 %}
+        观众联系方式
+        <ul class="club-contact">
+        {% for contact in club.contacts_audiences %}
+          <li>{{ contact | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+      {% if club.contacts_comedians.size > 0 %}
+        演员报名方式
+        <ul class="club-contact">
+        {% for contact in club.contacts_comedians %}
+          <li>{{ contact | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+      {% if club.contacts_business.size > 0 %}
+        商务合作联系方式
+        <ul class="club-contact">
+        {% for contact in club.contacts_business %}
+          <li>{{ contact | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </div>
+</div>

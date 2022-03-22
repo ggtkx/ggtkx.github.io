@@ -23,9 +23,13 @@ main:
     url: "/team/"
     weight: 6
 
+  - name: "全球"
+    url: "/clubs/"
+    weight: 7
+
   - name: "En"
     url: "/en/"
-    weight: 7
+    weight: 8
 
 footer:
   - name: "合作"
@@ -44,6 +48,10 @@ footer:
     url: "/team/"
     weight: 4
 
+  - name: "全球"
+    url: "/clubs/"
+    weight: 5
+
   - name: "English"
     url: "/en/"
-    weight: 5
+    weight: 6
