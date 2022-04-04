@@ -1,12 +1,22 @@
 [
     {
         "title": "Aaron",
-        "weight": 58,
+        "weight": 60,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
             "B站：[船长夫人与程序员](https://m.bilibili.com/space/81350330?from=video&unique_k=IG0kk2)",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mXYPU3Bs9CASsNbHE4d1d1)"
+        ]
+    },
+    {
+        "title": "Tracy",
+        "weight": 34,
+        "image": "https://i.imgur.com/EjEYK7y.png",
+        "description": "生活=经历 经历=段子 生活=段子",
+        "contact": [
+            "微信：`51423369`",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
         ]
     },
     {
@@ -17,16 +27,6 @@
         "contact": [
             "Clubhouse ID: `zaolian`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kfwyDcL__VQKNpVFw3SLSy)"
-        ]
-    },
-    {
-        "title": "Tracy",
-        "weight": 33,
-        "image": "https://i.imgur.com/EjEYK7y.png",
-        "description": "生活=经历 经历=段子 生活=段子",
-        "contact": [
-            "微信：`51423369`",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
         ]
     },
     {
@@ -41,7 +41,7 @@
     },
     {
         "title": "邵天宇",
-        "weight": 24,
+        "weight": 25,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8e6hgmej30b20b23z0.jpg",
         "description": "曾经是一名脱口秀表演者",
         "contact": [
@@ -53,8 +53,13 @@
         ]
     },
     {
+        "title": "寇寇",
+        "weight": 25,
+        "image": "https://i.imgur.com/LnobTPF.png"
+    },
+    {
         "title": "小企鹅 Lisa",
-        "weight": 23,
+        "weight": 24,
         "image": "https://i.imgur.com/IOg9VMj.png",
         "description": "我是小企鹅 Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~",
         "contact": [
@@ -63,7 +68,7 @@
     },
     {
         "title": "黎明洋",
-        "weight": 23,
+        "weight": 24,
         "image": "https://i.imgur.com/8kHVjfD.png",
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
         "contact": [
@@ -76,13 +81,8 @@
         ]
     },
     {
-        "title": "寇寇",
-        "weight": 23,
-        "image": "https://i.imgur.com/LnobTPF.png"
-    },
-    {
         "title": "Monkey",
-        "weight": 21,
+        "weight": 22,
         "image": "https://i.imgur.com/rIg21xp.png",
         "description": "想成为带来欢笑和温暖的人。猫狗双全，差一人组成狗男女。大大方方说：我要找男朋友 （感谢社长让在这谋私利）",
         "contact": [
@@ -121,7 +121,7 @@
     },
     {
         "title": "邵远",
-        "weight": 11,
+        "weight": 15,
         "image": "https://i.imgur.com/50YpVbT.png",
         "description": "攀岩界最会说相声的数学家。",
         "contact": [
@@ -130,17 +130,8 @@
         ]
     },
     {
-        "title": "孙刘",
-        "weight": 11,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
-        "description": "过来闹点笑话",
-        "contact": [
-            "联系方式：可以直接现场问我要"
-        ]
-    },
-    {
         "title": "尾羽",
-        "weight": 11,
+        "weight": 15,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
         "description": "做一只特立独行的猪",
         "contact": [
@@ -152,11 +143,29 @@
         ]
     },
     {
+        "title": "孙刘",
+        "weight": 14,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
+        "description": "过来闹点笑话",
+        "contact": [
+            "联系方式：可以直接现场问我要"
+        ]
+    },
+    {
         "title": "大头丁",
-        "weight": 10,
+        "weight": 13,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
         "contact": [
             "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
+        ]
+    },
+    {
+        "title": "Larry",
+        "weight": 10,
+        "image": "https://i.imgur.com/KJJz7Ek.png",
+        "description": "毁人不倦的中文老湿",
+        "contact": [
+            "[俺的学校](https://www.sanjoselearningcenter.com)"
         ]
     },
     {
@@ -169,13 +178,10 @@
         ]
     },
     {
-        "title": "Larry",
+        "title": "韩哥",
         "weight": 9,
-        "image": "https://i.imgur.com/KJJz7Ek.png",
-        "description": "毁人不倦的中文老湿",
-        "contact": [
-            "[俺的学校](https://www.sanjoselearningcenter.com)"
-        ]
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gybwozgawpj30u00u0dib.jpg",
+        "description": "硬件工程师"
     },
     {
         "title": "詹姆斯",
@@ -235,12 +241,6 @@
         "weight": 6,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
         "description": "幽默儿神童"
-    },
-    {
-        "title": "韩哥",
-        "weight": 6,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gybwozgawpj30u00u0dib.jpg",
-        "description": "硬件工程师"
     },
     {
         "title": "Timur",
@@ -318,6 +318,16 @@
         "description": "吐槽生活好好玩哦～"
     },
     {
+        "title": "Sean",
+        "weight": 3,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
+        "description": "表演经验30多年的老演员",
+        "contact": [
+            "[牛油果烤面包播客](https://avocadotoast.live/)",
+            "微信：`454308623`"
+        ]
+    },
+    {
         "title": "小马哥",
         "weight": 2,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk2udrwevj60an0anjrv02.jpg",
@@ -356,6 +366,14 @@
         "image": "https://i.imgur.com/B60VWOE.png"
     },
     {
+        "title": "陈安怡",
+        "weight": 2,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1gzjtz1kyn5j20ui0sg77r.jpg",
+        "highlights": [
+            "2022年《北美校友脱口秀大赛》季军"
+        ]
+    },
+    {
         "title": "贾施汀",
         "weight": 1,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8n7j3kqj30go0gojsi.jpg",
@@ -365,30 +383,12 @@
         ]
     },
     {
-        "title": "Sean",
-        "weight": 1,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
-        "description": "表演经验30多年的老演员",
-        "contact": [
-            "[牛油果烤面包播客](https://avocadotoast.live/)",
-            "微信：`454308623`"
-        ]
-    },
-    {
         "title": "jinn",
         "weight": 1,
         "image": "https://i.imgur.com/0p0xsKo.jpg",
         "description": "就这么着吧（这句就不用了）",
         "contact": [
             "Linkedin: [Jin Liu](https://www.linkedin.com/in/jin-liu-a5b697140)"
-        ]
-    },
-    {
-        "title": "陈安怡",
-        "weight": 1,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1gzjtz1kyn5j20ui0sg77r.jpg",
-        "highlights": [
-            "2022年《北美校友脱口秀大赛》季军"
         ]
     },
     {
