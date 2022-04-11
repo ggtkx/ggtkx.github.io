@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": 60,
+        "weight": 61,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -101,22 +101,22 @@
         ]
     },
     {
+        "title": "兔子特特",
+        "weight": 16,
+        "image": "https://imgur.com/J3uXn3Gl.png",
+        "description": "中年少女一枚。在家对娃脱口训在外对你脱口秀！你快乐所以我快乐～～",
+        "contact": [
+            "Clubhouse ID: `rabbit1`",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kapbhDaBG-qFjV5cI8hNor)"
+        ]
+    },
+    {
         "title": "小朱",
         "weight": 15,
         "image": "https://i.imgur.com/gSysgyB.png",
         "description": "大家好我叫小朱，my English name is Sandeep.",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nH-sdYokB_P0iBIf0MV6xG)"
-        ]
-    },
-    {
-        "title": "兔子特特",
-        "weight": 15,
-        "image": "https://imgur.com/J3uXn3Gl.png",
-        "description": "中年少女一枚。在家对娃脱口训在外对你脱口秀！你快乐所以我快乐～～",
-        "contact": [
-            "Clubhouse ID: `rabbit1`",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kapbhDaBG-qFjV5cI8hNor)"
         ]
     },
     {
@@ -161,7 +161,7 @@
     },
     {
         "title": "Larry",
-        "weight": 10,
+        "weight": 11,
         "image": "https://i.imgur.com/KJJz7Ek.png",
         "description": "毁人不倦的中文老湿",
         "contact": [
@@ -231,16 +231,16 @@
         ]
     },
     {
+        "title": "福禄",
+        "weight": 7,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
+        "description": "幽默儿神童"
+    },
+    {
         "title": "王大拿",
         "weight": 6,
         "image": "https://i.imgur.com/tyc7toZ.png",
         "description": "集美貌与智慧于一身"
-    },
-    {
-        "title": "福禄",
-        "weight": 6,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
-        "description": "幽默儿神童"
     },
     {
         "title": "Timur",
@@ -287,6 +287,16 @@
         ]
     },
     {
+        "title": "Sean",
+        "weight": 4,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
+        "description": "表演经验30多年的老演员",
+        "contact": [
+            "[牛油果烤面包播客](https://avocadotoast.live/)",
+            "微信：`454308623`"
+        ]
+    },
+    {
         "title": "何能能",
         "weight": 3,
         "image": "https://i.imgur.com/JjRvHRC.png",
@@ -316,16 +326,6 @@
         "weight": 3,
         "image": "https://i.imgur.com/Wzr0KQF.png",
         "description": "吐槽生活好好玩哦～"
-    },
-    {
-        "title": "Sean",
-        "weight": 3,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
-        "description": "表演经验30多年的老演员",
-        "contact": [
-            "[牛油果烤面包播客](https://avocadotoast.live/)",
-            "微信：`454308623`"
-        ]
     },
     {
         "title": "小马哥",
