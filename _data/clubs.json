@@ -16,44 +16,6 @@
     },
     {
         "contacts_audiences": [
-            "\u5fae\u4fe1\u516c\u4f17\u53f7\uff1a`\u9876\u597d\u559c\u5267`\u2014\u2014\u70b9\u51fb\u5c0f\u52a9\u624b\uff0c\u4f1a\u62c9\u4f60\u8fdb\u7fa4\u54e6"
-        ],
-        "date_founded": "2021\u5e749\u6708",
-        "name_chinese": "\u9876\u597d\u559c\u5267",
-        "name_english": "DingHo Comedy",
-        "physical_address": "3 N Beacon St, Allston, MA, 02134",
-        "physical_location": "\u7f8e\u56fd\u00b7\u6ce2\u58eb\u987f",
-        "website": "https://www.karlxiecomedy.com/"
-    },
-    {
-        "contacts_audiences": [
-            "\u5fae\u4fe1\uff1a`lafengxiju`"
-        ],
-        "contacts_business": [
-            "\u5fae\u4fe1\uff1a`lafengxiju`",
-            "E-Mail: <lafengxiju@gmail.com>"
-        ],
-        "date_founded": "2022\u5e742\u6708",
-        "logo": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0j6x228jbj20im0gsq3t.jpg",
-        "name_chinese": "\u62c9\u75af\u559c\u5267",
-        "name_english": "Crazy Laugh",
-        "physical_location": "\u7f8e\u56fd\u00b7\u7ebd\u7ea6"
-    },
-    {
-        "contacts_audiences": [
-            "\u5fae\u4fe1\uff1a`chinchinWQ`",
-            "\u5fae\u4fe1\u516c\u4f17\u53f7\uff1a`\u54d7\u4eba\u559c\u5267`",
-            "E-Mail: <hurracomedy.uk@gmail.com>"
-        ],
-        "date_founded": "2021\u5e749\u6708",
-        "logo": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0j66w3sxpj20u00u0ac0.jpg",
-        "name_chinese": "\u54d7\u4eba\u559c\u5267",
-        "name_english": "Hurrah Comedy",
-        "physical_location": "\u82f1\u56fd\u00b7\u4f26\u6566",
-        "specialities": "\u5373\u5174\u559c\u5267\n\u82f1\u6587\u5355\u53e3\u559c\u5267\n\u97f3\u4e50\u8131\u53e3\u79c0"
-    },
-    {
-        "contacts_audiences": [
             "\u5fae\u4fe1\uff1a`prop0809`",
             "E-Mail: <standup.paris.cn@gmail.com>"
         ],
@@ -88,11 +50,75 @@
     },
     {
         "contacts_audiences": [
-            "\u5fae\u4fe1\uff1a`deoxys14`",
-            "E-Mail: <deoxys14@gmail.com>"
+            "\u5fae\u4fe1\uff1aSC105878151",
+            "E-Mail\uff1aPeanutcomedy2021@gmail.com"
         ],
-        "name_chinese": "\u58a8\u5c14\u672c\u8131\u53e3\u79c0",
-        "physical_location": "\u6fb3\u5927\u5229\u4e9a\u00b7\u58a8\u5c14\u672c"
+        "contacts_business": [
+            "Email\uff1aPeanutcomedy2021@gmail.com"
+        ],
+        "contacts_comedians": [
+            "\u5fae\u4fe1email\u540c\u5de6"
+        ],
+        "date_founded": "2021\u5e7410\u6708",
+        "logo": "https://drive.google.com/file/d/19FKPBhqU4VAfUzhflNPfaQL0GWOQSG1V/view?usp=sharing",
+        "name_chinese": "\u82b1\u751f\u559c\u5267",
+        "name_english": "Peanut Comedy",
+        "physical_location": "\u52a0\u62ff\u5927\u00b7\u591a\u4f26\u591a",
+        "specialities": "\u4e2d\u6587\u8131\u53e3\u79c0"
+    },
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1\uff1akakukaki615"
+        ],
+        "contacts_business": [
+            "\u5fae\u4fe1\uff1akakukaki615"
+        ],
+        "contacts_comedians": [
+            "\u5fae\u4fe1\uff1akakukaki615"
+        ],
+        "date_founded": "2021\u5e747\u6708",
+        "name_chinese": "\u70ed\u7231\u8131\u53e3\u79c0\u4ff1\u4e50\u90e8",
+        "name_english": "Amare Comedy",
+        "physical_location": "\u65e5\u672c\u00b7\u4e1c\u4eac",
+        "specialities": "\u4e2d\u6587\u8131\u53e3\u79c0"
+    },
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1\u516c\u4f17\u53f7\uff1a`\u9876\u597d\u559c\u5267`\u2014\u2014\u70b9\u51fb\u5c0f\u52a9\u624b\uff0c\u4f1a\u62c9\u4f60\u8fdb\u7fa4\u54e6"
+        ],
+        "date_founded": "2021\u5e749\u6708",
+        "name_chinese": "\u9876\u597d\u559c\u5267",
+        "name_english": "DingHo Comedy",
+        "physical_address": "3 N Beacon St, Allston, MA, 02134",
+        "physical_location": "\u7f8e\u56fd\u00b7\u6ce2\u58eb\u987f",
+        "website": "https://www.karlxiecomedy.com/"
+    },
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1\uff1a`chinchinWQ`",
+            "\u5fae\u4fe1\u516c\u4f17\u53f7\uff1a`\u54d7\u4eba\u559c\u5267`",
+            "E-Mail: <hurracomedy.uk@gmail.com>"
+        ],
+        "date_founded": "2021\u5e749\u6708",
+        "logo": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0j66w3sxpj20u00u0ac0.jpg",
+        "name_chinese": "\u54d7\u4eba\u559c\u5267",
+        "name_english": "Hurrah Comedy",
+        "physical_location": "\u82f1\u56fd\u00b7\u4f26\u6566",
+        "specialities": "\u5373\u5174\u559c\u5267\n\u82f1\u6587\u5355\u53e3\u559c\u5267\n\u97f3\u4e50\u8131\u53e3\u79c0"
+    },
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1\uff1a`lafengxiju`"
+        ],
+        "contacts_business": [
+            "\u5fae\u4fe1\uff1a`lafengxiju`",
+            "E-Mail: <lafengxiju@gmail.com>"
+        ],
+        "date_founded": "2022\u5e742\u6708",
+        "logo": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0j6x228jbj20im0gsq3t.jpg",
+        "name_chinese": "\u62c9\u75af\u559c\u5267",
+        "name_english": "Crazy Laugh",
+        "physical_location": "\u7f8e\u56fd\u00b7\u7ebd\u7ea6"
     },
     {
         "contacts_audiences": [
@@ -101,5 +127,13 @@
         "date_founded": "2022\u5e743\u6708",
         "name_chinese": "\u867e\u56fe\u8131\u53e3\u79c0",
         "physical_location": "\u7f8e\u56fd\u00b7\u897f\u96c5\u56fe"
+    },
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1\uff1a`deoxys14`",
+            "E-Mail: <deoxys14@gmail.com>"
+        ],
+        "name_chinese": "\u58a8\u5c14\u672c\u8131\u53e3\u79c0",
+        "physical_location": "\u6fb3\u5927\u5229\u4e9a\u00b7\u58a8\u5c14\u672c"
     }
 ]
