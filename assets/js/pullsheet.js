@@ -3,6 +3,8 @@
 
 // URL: https://ggtkx.org/pull-sheet/?key=your_key&worksheet=worksheet_name&token=your_personal_access_token&org=your_org&repo=your_repo&branch=your_branch
 
+
+
 const queryString = window.location.search
 const urlParams = new URLSearchParams(queryString)
 let multilinedProperties = urlParams.getAll('multilined_properties')
@@ -89,7 +91,13 @@ function processData (text) {
   people.sort((a, b) => b.weight - a.weight)
 
   const json = JSON.stringify(people, null, 4) + '\n'
-  document.getElementById('source').value = json
+
+  // create the editor
+  const container = document.getElementById("source")
+  const editor = new JSONEditor(container, {})
+  editor.set(people)
+  editor.expandAll()
+
   if (dryRun) {
     console.log('Dry run. Will not commit.')
     return
