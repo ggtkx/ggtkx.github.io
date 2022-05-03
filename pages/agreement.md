@@ -8,27 +8,23 @@ description: By submitting the registration form, you agree to and sign the foll
 ---
 Last updated: {{ page.last_modified_at | date: '%B %d, %Y' }}
 
-**The Club**: P & Y Foundation, of 260 King St, Unit 879, San Francisco, Califomia, 94107-6437.
+1. **Definitions**.
+   1. **The Club**: P & Y Foundation, of 260 King St, Unit 879, San Francisco, Califomia, 94107-6437.
+   2. **The Performer**: The individual that participates an Activity (defined below) hosted by the Club.
+   3. **Activities**. Activities include:
+             1. Performances, including but not limited to open-mic sessions and shows.
+             2. Workshops, including but not limited to script review sessions and rehearsals.
+   4. **Channels**. A Channel is any means of communication one has access to. This includes [YouTube channels](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A), [Bilibili Accounts](https://space.bilibili.com/482647119), WeChat moments, WeChat Public Accounts, blogs, Twitter, Weibo, Facebook, and alike.
 
-**The Performer**: The individual that participates an activity (defined below) hosted by the Club.
-
-1. **Restrictions as a charitable organization**. The Performer shall adhere to all regulations and restrictions described in Section 501(c)(3) of the Internal Revenue Code. Specifically,
+2. **Restrictions as a charitable organization**. The Performer shall adhere to all regulations and restrictions described in Section 501(c)(3) of the Internal Revenue Code. Specifically,
    1. Do not attempt to influence legislation while performing at the Club.
    2. Do not participate in any campaign activity for or against political candidates while performing at the Club.
    3. Do not perform at the Club for the benefit of [private interests](https://www.irs.gov/charities-non-profits/charitable-organizations/inurement-private-benefit-charitable-organizations).
-1. **Totality**. The parties agree that this is the totality of the agreement between them and that there are no oral or verbal agreements except as set forth in the contract.
-2. **No payment**. Neither party pays the other for any of the Activities. No reimbursements of any cost may be processed, including but not limited to transportations.
-4. **Definitions**.
-      1. **Activities**. Activities include:
-              1. Performances, including but not limited to open-mic sessions and shows.
-              2. Workshops, including but not limited to script review sessions and rehearsals.
-
-      2. **Channels**. A Channel is any means of communication one has access to. This includes [YouTube channels](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A), [Bilibili Accounts](https://space.bilibili.com/482647119), WeChat moments, WeChat Public Accounts, blogs, Twitter, Weibo, Facebook, and alike.
-
+3. **Totality**. The parties agree that this is the totality of the agreement between them and that there are no oral or verbal agreements except as set forth in the contract.
+4. **No payment**. Neither party pays the other for any of the Activities. No reimbursements of any cost may be processed, including but not limited to transportations.
 5. **Addenda**. The Performer must also acknowledge to and sign the following addenda as the releasors:
       1. Release of Liability Form, titled *General Release of Liability*.
       2. Video Release Form, titled *Video Consent And Release Agreement*.
-
 6. **Expressed Views Disclaimer**. Any views, thoughts, and opinions expressed by the Performer are solely that of the Performer and do not reflect the views, opinions, policies, or position of the the Club. The Club is not responsible or liable in any manner for any content that the Performer expresses or implies.
 7. **Disclaimer for publicity**. The Club does not guarantee that the performance will be made publicly available. The Club reserves the right to remove any published content from the Club's Channels. The Performer agrees to remove content recorded at the Club from the Performer's Channels upon the Club's request.
 
