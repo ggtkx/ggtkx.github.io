@@ -27,6 +27,11 @@ sass:
 plugins:
   - jekyll-environment-variables
   - jekyll-tsc
+  - jekyll-last-modified-at
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%d-%b-%y'
 
 exclude:
   - Gemfile

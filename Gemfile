@@ -10,3 +10,8 @@ gem "webrick", "~> 1.7"
 
 # https://github.com/mohkale/jekyll-tsc
 gem "jekyll-tsc"
+
+# https://github.com/gjtorikian/jekyll-last-modified-at
+group :jekyll_plugins do
+  gem "jekyll-last-modified-at"
+end
