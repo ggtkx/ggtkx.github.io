@@ -15,9 +15,11 @@ description: 硅谷脱口秀每周五晚8点在举行开放麦（open mic）。�
 
 ## 线下参观[^1]
 
-请**使用以下表单**购买门票[^2]。（如果选项为空，说明该周入场劵已发完。）入场则视为您已同意现场规则（见下）。
+请**使用以下表单**购买门票。（如果选项为空，说明该周入场劵已发完。）入场则视为您已同意现场规则（见下）。
 
 <iframe class="full" src="https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1" frameborder="0"></iframe>
+
+票务所得不以营利为目的，而是为了承担成本——《硅谷脱口秀》由[P&Y基金会][py]承办，而[P&Y基金会][py]是一个 [501(c)(3)][c3] 非营利组织。为了可持续发展，还请您慷慨解囊。
 
 ### 规则
 1. **消防要求**：观众必须凭票入场。如果当周入场券已领完，请选择未来场次，并通过[免费直播](http://youtube.ggtkx.org)来收看当周活动。请添加我们的公众号、进入观众群，以在各次直播开始前获得网址。
@@ -29,8 +31,6 @@ description: 硅谷脱口秀每周五晚8点在举行开放麦（open mic）。�
 
 
 [^1]: 现场地图： ![现场地图](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F178277809%2F162192358328%2F1%2Foriginal.20211102-062751?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=0fb060d947437676634a9788247c8106)
-
-[^2]: 票务所得不以营利为目的，而是为了承担成本——《硅谷脱口秀》由[P&Y基金会][py]承办，而[P&Y基金会][py]是一个 [501(c)(3)][c3] 非营利组织。为了可持续发展，还请您慷慨解囊。
 
 [py]: https://www.pandyfoundation.org/causes/
 [c3]: https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations
