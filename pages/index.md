@@ -17,9 +17,7 @@ permalink: /
 
 {% include call.html show_button=true labels=site.data.l10n.cn %}
 
-无法莅临现场？您也可以观看免费直播：在活动当天，观众群里会公布链接。
-
-此外，我们每周选出 2 项优秀节目，公布在 [YouTube 频道](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A/featured)和[哔哩哔哩](https://space.bilibili.com/482647119)上。欢迎订阅、分享！
+无法莅临现场？欢迎订阅、分享我们的 [YouTube 频道](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A/featured)和[哔哩哔哩](https://space.bilibili.com/482647119)！
 
 ## 报名方式
 
