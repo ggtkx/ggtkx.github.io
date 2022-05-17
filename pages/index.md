@@ -21,6 +21,6 @@ permalink: /
 
 ## 报名方式
 
-请通过我们的微信公众号 `svcomedy`：
+请加我们总教习的微信 `sty19900316`：
 
-<img alt="微信公众号二维码" src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0ftfapgqxj209k09kjra.jpg" height=200 />
+<img alt="微信二维码" src="https://tva1.sinaimg.cn/large/e6c9d24egy1h2bzi0y412j20i10i13zq.jpg" height=200 />
