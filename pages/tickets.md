@@ -17,7 +17,7 @@ description: 硅谷脱口秀每周五晚8点在举行开放麦（open mic）。�
 
 请**使用以下表单**购买门票。（如果选项为空，说明该周入场劵已发完。）入场则视为您已同意现场规则（见下）。
 
-<iframe class="full" src="https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1" frameborder="0"></iframe>
+<div id="miniextensions-iframe-embed-EIlQstT4R43zFOnPULWT"></div><script src="https://api.miniextensions.com/v1/iframe-embed/EIlQstT4R43zFOnPULWT.js?absoluteShareUrl=https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1"></script>
 
 票务所得不以营利为目的，而是为了承担成本——《硅谷脱口秀》由[P&Y基金会][py]承办，而[P&Y基金会][py]是一个 [501(c)(3)][c3] 非营利组织。为了可持续发展，还请您慷慨解囊。
 
