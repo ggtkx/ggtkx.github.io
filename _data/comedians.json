@@ -166,16 +166,6 @@
         ]
     },
     {
-        "title": "大头丁",
-        "weightBeforeShowsSheet": 13,
-        "countFromShowsSheet": 0,
-        "weight": 13,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
-        "contact": [
-            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
-        ]
-    },
-    {
         "title": "Larry",
         "weightBeforeShowsSheet": 11,
         "countFromShowsSheet": 2,
@@ -187,12 +177,34 @@
         ]
     },
     {
+        "title": "大头丁",
+        "weightBeforeShowsSheet": 13,
+        "countFromShowsSheet": 0,
+        "weight": 13,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0k5dokuj60u00u0n2a02.jpg",
+        "contact": [
+            "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
+        ]
+    },
+    {
         "title": "韩哥",
         "weightBeforeShowsSheet": 9,
         "countFromShowsSheet": 3,
         "weight": 12,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gybwozgawpj30u00u0dib.jpg",
         "description": "硬件工程师"
+    },
+    {
+        "title": "Sean",
+        "weightBeforeShowsSheet": 4,
+        "countFromShowsSheet": 3,
+        "weight": 7,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
+        "description": "表演经验30多年的老演员",
+        "contact": [
+            "[牛油果烤面包播客](https://avocadotoast.live/)",
+            "微信：`454308623`"
+        ]
     },
     {
         "title": "萌萌",
@@ -237,18 +249,6 @@
         "description": "幽默儿神童"
     },
     {
-        "title": "Sean",
-        "weightBeforeShowsSheet": 4,
-        "countFromShowsSheet": 3,
-        "weight": 7,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
-        "description": "表演经验30多年的老演员",
-        "contact": [
-            "[牛油果烤面包播客](https://avocadotoast.live/)",
-            "微信：`454308623`"
-        ]
-    },
-    {
         "title": "Timur",
         "weightBeforeShowsSheet": 5,
         "countFromShowsSheet": 0,
@@ -277,6 +277,28 @@
         "weight": 3,
         "image": "https://i.imgur.com/Wzr0KQF.png",
         "description": "吐槽生活好好玩哦～"
+    },
+    {
+        "title": "宋博",
+        "weightBeforeShowsSheet": 3,
+        "countFromShowsSheet": 0,
+        "weight": 3,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2gl8mz0yjj20hi0hiwff.jpg",
+        "description": "业余段子手，三年憋出五分钟精华。",
+        "contact": [
+            "[bo-song.com](www.bo-song.com)"
+        ]
+    },
+    {
+        "title": "世雄",
+        "countFromShowsSheet": 3,
+        "weight": 3,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2gkdx3unoj20gs0gsjs8.jpg",
+        "description": "像rapper，但喜欢脱口秀\n其实还想搞设计。",
+        "contact": [
+            "Instagram: [northzsx](https://www.instagram.com/northzsx/)",
+            "website：[shixiong.design](https://www.shixiong.design/)"
+        ]
     },
     {
         "title": "小马哥",
@@ -325,9 +347,24 @@
         "countFromShowsSheet": 0,
         "weight": 2,
         "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1gzjtz1kyn5j20ui0sg77r.jpg",
+        "description": "诚实可爱阳光善良成熟稳重媚眼如丝古灵精怪青春无敌美少女",
         "highlights": [
             "2022年《北美校友脱口秀大赛》季军"
         ]
+    },
+    {
+        "title": "Wan",
+        "weightBeforeShowsSheet": 2,
+        "countFromShowsSheet": 0,
+        "weight": 2,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkwjq4n7j20b10b1dgd.jpg"
+    },
+    {
+        "title": "隋薰 Emma",
+        "countFromShowsSheet": 2,
+        "weight": 2,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2gkgg50urj20jw0jmta5.jpg",
+        "description": "何时能上脱口秀大会？"
     },
     {
         "title": "贾施汀",
