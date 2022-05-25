@@ -15,6 +15,10 @@ description: 硅谷脱口秀每周五晚8点在举行开放麦（open mic）。�
 
 ## 线下参观[^1]
 
+地址：
+* 南湾/主会场：[10268 Bandley Dr #107, Cupertino, CA 95014](https://goo.gl/maps/jX5B63r57Z4FgiDE7)
+* 东湾/pop-up：[8407 Central Ave, 2nd Floor, Newark, CA 94560](https://goo.gl/maps/S559ZAsRftXXo4kD9)
+
 请**使用以下表单**购买门票。（如果选项为空，说明该周入场劵已发完。）入场则视为您已同意现场规则（见下）。
 
 <div id="miniextensions-iframe-embed-EIlQstT4R43zFOnPULWT"></div><script src="https://api.miniextensions.com/v1/iframe-embed/EIlQstT4R43zFOnPULWT.js?absoluteShareUrl=https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1"></script>
