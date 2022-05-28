@@ -13,10 +13,10 @@ description: 硅谷脱口秀每周五晚8点在举行开放麦（open mic）。�
 
 在开放麦里，除了笑声，最常见的是垮掉：演员忘词垮掉、舌头打结垮掉、浑身发抖垮掉；新人会垮、老人会垮、主持人被观众调戏也会垮。硅谷脱口秀开放麦对演员的数量与质量不做保证。您作为开放麦的观众，获得欢乐的同时，也会见证每位演员与每个笑话的成长。**请您多加包涵、鼓励**！
 
-## 线下参观[^1]
+## 线下参观
 
 地址：
-* 南湾/主剧场：[10268 Bandley Dr #107, Cupertino, CA 95014](https://goo.gl/maps/jX5B63r57Z4FgiDE7)
+* 南湾/主剧场：[10268 Bandley Dr #107, Cupertino, CA 95014](https://goo.gl/maps/jX5B63r57Z4FgiDE7)[^1]
 * 东湾/pop-up：[8407 Central Ave, 2nd Floor, Newark, CA 94560](https://goo.gl/maps/S559ZAsRftXXo4kD9)
 
 请**使用以下表单**购买门票。（如果选项为空，说明该周入场劵已发完。）入场则视为您已同意现场规则（见下）。
