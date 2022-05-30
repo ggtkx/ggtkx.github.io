@@ -5,18 +5,18 @@ exclude: true
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- pages -->
     {% for page in site.pages %}
-        {% if page.exclude != true %}
+        {% unless page.exclude == true or page.url contains "/assets/" %}
             <url>
                 <loc>{{ site.seo.meta_og_url }}{{ site.baseurl }}{{ page.url }}</loc>
             </url>
-        {% endif %}
+        {% endunless %}
     {% endfor %}
     <!-- posts -->
     {% for item in site.posts %}
-        {% if page.exclude != true %}
-        <url>
-            <loc>{{ site.seo.meta_og_url }}{{ site.baseurl }}{{ item.url }}</loc>
-        </url>
-        {% endif %}
+        {% unless page.exclude == true or page.url contains "/assets/" %}
+            <url>
+                <loc>{{ site.seo.meta_og_url }}{{ site.baseurl }}{{ page.url }}</loc>
+            </url>
+        {% endunless %}
     {% endfor %}
 </urlset>
