@@ -7,7 +7,7 @@ exclude: true
     {% for page in site.pages %}
         {% if page.exclude != true %}
             <url>
-                <loc>{{ site.canonical_domain }}{{ site.baseurl }}{{ page.url }}</loc>
+                <loc>{{ site.seo.meta_og_url }}{{ site.baseurl }}{{ page.url }}</loc>
             </url>
         {% endif %}
     {% endfor %}
@@ -15,7 +15,7 @@ exclude: true
     {% for item in site.posts %}
         {% if page.exclude != true %}
         <url>
-            <loc>{{ site.canonical_domain }}{{ site.baseurl }}{{ item.url }}</loc>
+            <loc>{{ site.seo.meta_og_url }}{{ site.baseurl }}{{ item.url }}</loc>
         </url>
         {% endif %}
     {% endfor %}
