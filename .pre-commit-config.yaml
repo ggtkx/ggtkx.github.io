@@ -23,7 +23,7 @@ repos:
     -   id: trailing-whitespace
     -   id: mixed-line-ending
 -   repo: https://github.com/pre-commit/mirrors-eslint
-    rev: 'v8.15.0'  # Use the sha / tag you want to point at
+    rev: 'v8.16.0'  # Use the sha / tag you want to point at
     hooks:
     -   id: eslint
         args: ['--fix']
