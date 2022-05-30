@@ -4,6 +4,7 @@ layout: page
 permalink: /become/
 intro_image: "/images/illustrations/speak.svg"
 intro_image_hide_on_mobile: false
+enable_annotating: true
 description: 如何在《硅谷脱口秀》的开放麦上表演？如何通过《硅谷脱口秀》来成为一名风趣幽默、谈吐自然的人？
 ---
 

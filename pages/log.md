@@ -5,6 +5,7 @@ permalink: /log/
 intro_image: "/images/illustrations/wallet.svg"
 intro_image_hide_on_mobile: false
 description: 致所有演员及全体志愿者：您的公司可能支持配捐。这意味着，您的公司认可您用在《硅脱》上的时间，并可按比例给《硅脱》捐钱（通常高达 $15/hr）。
+enable_annotating: true
 ---
 
 当然，不是所有活动都合适。单纯的吃喝玩乐，肯定容易被贵司质疑。

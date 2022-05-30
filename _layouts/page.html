@@ -29,3 +29,6 @@ layout: default
     </div>
 </div>
 <script type="text/javascript" src="{{ "/assets/js/sidenotes.js" | relative_url }}"></script>
+{% if page.enable_annotating %}
+<script src="https://hypothes.is/embed.js" async></script>
+{% endif %}

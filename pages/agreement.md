@@ -4,6 +4,7 @@ layout: page
 permalink: /agreement/
 intro_image: "/images/illustrations/contract.svg"
 intro_image_hide_on_mobile: false
+enable_annotating: true
 description: By submitting the registration form, you agree to and sign the following Agreement and its addenda.
 ---
 Last updated: {{ page.last_modified_at | date: '%B %d, %Y' }}
