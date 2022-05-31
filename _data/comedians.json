@@ -6,6 +6,7 @@
         "weight": 64,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
+        "isCurrentCrew": true,
         "contact": [
             "B站：[船长夫人与程序员](https://m.bilibili.com/space/81350330?from=video&unique_k=IG0kk2)",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mXYPU3Bs9CASsNbHE4d1d1)"
@@ -18,6 +19,7 @@
         "weight": 34,
         "image": "https://i.imgur.com/EjEYK7y.png",
         "description": "生活=经历 经历=段子 生活=段子",
+        "isCurrentCrew": true,
         "contact": [
             "微信：`51423369`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
@@ -57,7 +59,8 @@
         "weightBeforeShowsSheet": 25,
         "countFromShowsSheet": 1,
         "weight": 26,
-        "image": "https://i.imgur.com/LnobTPF.png"
+        "image": "https://i.imgur.com/LnobTPF.png",
+        "isCurrentCrew": true
     },
     {
         "title": "黎明洋",
@@ -116,6 +119,7 @@
         "weight": 18,
         "image": "https://i.imgur.com/50YpVbT.png",
         "description": "攀岩界最会说相声的数学家。",
+        "isCurrentCrew": true,
         "contact": [
             "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz/)",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mOqnLKXBeAHISpq2FMpu9z)"
@@ -128,6 +132,7 @@
         "weight": 18,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
         "description": "做一只特立独行的猪",
+        "isCurrentCrew": true,
         "contact": [
             "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
@@ -143,6 +148,7 @@
         "weight": 17,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
         "description": "过来闹点笑话",
+        "isCurrentCrew": true,
         "contact": [
             "联系方式：可以直接现场问我要"
         ]
@@ -198,7 +204,8 @@
         "weight": 12,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gybwozgawpj30u00u0dib.jpg",
         "description": "硬件工程师",
-        "crewSeasonIds": 2
+        "crewSeasonIds": 2,
+        "isCurrentCrew": true
     },
     {
         "title": "Sean",
@@ -208,6 +215,7 @@
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
         "description": "表演经验30多年的老演员",
         "crewSeasonIds": 2,
+        "isCurrentCrew": true,
         "contact": [
             "[牛油果烤面包播客](https://avocadotoast.live/)",
             "微信：`454308623`"
@@ -254,7 +262,8 @@
         "weight": 7,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
         "description": "幽默儿神童",
-        "crewSeasonIds": 2
+        "crewSeasonIds": 2,
+        "isCurrentCrew": true
     },
     {
         "title": "Timur",
