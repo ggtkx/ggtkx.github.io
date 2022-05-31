@@ -177,6 +177,15 @@
         ]
     },
     {
+        "title": "Yudy",
+        "weightBeforeShowsSheet": 8,
+        "countFromShowsSheet": 5,
+        "weight": 13,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkyivb1oj20uw0u0whi.jpg",
+        "crewSeasonIds": 2,
+        "isCurrentCrew": true
+    },
+    {
         "title": "Larry",
         "weightBeforeShowsSheet": 11,
         "countFromShowsSheet": 2,
