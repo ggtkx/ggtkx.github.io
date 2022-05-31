@@ -30,6 +30,7 @@
         "weight": 33,
         "image": "https://i.imgur.com/mSfLTWx.png",
         "description": "临渊羡鱼，不如退而结网。",
+        "crewSeasonIds": 1,
         "contact": [
             "Clubhouse ID: `zaolian`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kfwyDcL__VQKNpVFw3SLSy)"
@@ -42,6 +43,7 @@
         "weight": 28,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8e6hgmej30b20b23z0.jpg",
         "description": "曾经是一名脱口秀表演者",
+        "crewSeasonIds": 1,
         "contact": [
             "ClubHouse ID: `ericshao`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kU4T0eL_Y5MzjOkEYdOFvb)"
@@ -64,6 +66,7 @@
         "weight": 25,
         "image": "https://i.imgur.com/8kHVjfD.png",
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
+        "crewSeasonIds": 1,
         "contact": [
             "[个人主页](https://myli.page)",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nI_Q__rFRKJ6BqWHEgPKy7)"
@@ -76,6 +79,7 @@
         "weight": 24,
         "image": "https://i.imgur.com/IOg9VMj.png",
         "description": "我是小企鹅 Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~",
+        "crewSeasonIds": 1,
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nhrZ5Y6uELqJiH7MMPoS4N)"
         ]
@@ -99,6 +103,7 @@
         "weight": 20,
         "image": "https://i.imgur.com/VcpirXv.png",
         "description": "躁起来呗",
+        "crewSeasonIds": 1,
         "contact": [
             "Clubhouse ID: `fangyuanj`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mKV0MUe1tWygBYSLNHATjK)"
@@ -192,7 +197,8 @@
         "countFromShowsSheet": 3,
         "weight": 12,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gybwozgawpj30u00u0dib.jpg",
-        "description": "硬件工程师"
+        "description": "硬件工程师",
+        "crewSeasonIds": 2
     },
     {
         "title": "Sean",
@@ -201,6 +207,7 @@
         "weight": 7,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
         "description": "表演经验30多年的老演员",
+        "crewSeasonIds": 2,
         "contact": [
             "[牛油果烤面包播客](https://avocadotoast.live/)",
             "微信：`454308623`"
@@ -246,7 +253,8 @@
         "countFromShowsSheet": 0,
         "weight": 7,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
-        "description": "幽默儿神童"
+        "description": "幽默儿神童",
+        "crewSeasonIds": 2
     },
     {
         "title": "Timur",
