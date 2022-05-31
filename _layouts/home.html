@@ -36,10 +36,10 @@ bodyClass: page-home
   <div class="strip">
     <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
       <h1>热门演员</h1>
-      {% assign comedians = site.data.comedians | where: "isCurrentCrew", true | sort: "weight" | reverse %}
-      <p>本届演员团的成员为以下 {{ comedians.size }} 人：</p>
+      {% assign crew = site.data.comedians | where: "isCurrentCrew", true | sort: "weight" | reverse %}
+      <p>本届演员团的成员为以下 {{ crew.size }} 人：</p>
       <div class="row justify-content-center">
-        {% for comedian in comedians %}
+        {% for comedian in crew %}
           {% include comedian.html comedian=comedian %}
         {% endfor %}
         <a href="/become/" id="join">
@@ -58,7 +58,7 @@ bodyClass: page-home
       </div>
       <div class="row justify-content-center">
         <div class="col-auto">
-          <a class="button button-primary" href="/comedians/">所有 {{ comedians.size }} 位演员</a>
+          <a class="button button-primary" href="/comedians/">所有 {{ site.data.comedians.size }} 位演员</a>
         </div>
       </div>
     </div>
