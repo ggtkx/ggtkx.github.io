@@ -63,6 +63,7 @@ description: 如何在《硅谷脱口秀》的开放麦上表演？如何通过�
 
 如您所见，为了降低玩喜剧的门槛、让更多的人可以参与到喜剧的创作、表演中来，我们松弛了许多规矩、去除了大部分要求。为了提升身为喜剧人的能力，您可能想要深入探索一些高级技巧。这里是一些入门资源：
 
+- 《[单口喜剧表演手册 v1.1](https://yes1am.github.io/stand-up-comedy/)》（作者：[石老板](https://weibo.com/shilaoban)）。
 - 书籍《[手把手教你玩脱口秀](https://www.goodreads.com/book/show/37943569)》。可在[豆瓣](https://book.douban.com/subject/27617213/)、[Amazon](https://www.amazon.com/Step-Stand-Up-Comedy-Revised/dp/0989735176) 上找到。
 - 书籍《[The Comedy Bible](https://www.goodreads.com/book/show/228732)》。可在 [Amazon](https://www.amazon.com/Comedy-Bible-Stand-up-Sitcom-Ultimate/dp/0743201256) 上找到。
 - 课程《[单立人学院](http://www.danlirencomedy.com/dlrxy)》。
