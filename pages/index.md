@@ -18,9 +18,3 @@ permalink: /
 {% include call.html show_button=true labels=site.data.l10n.cn %}
 
 无法莅临现场？欢迎订阅、分享我们的 [YouTube 频道](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A/featured)和[哔哩哔哩](https://space.bilibili.com/482647119)！
-
-## 报名方式
-
-请加我们总教习的微信 `sty19900316`：
-
-<img alt="微信二维码" src="https://tva1.sinaimg.cn/large/e6c9d24egy1h2bzi0y412j20i10i13zq.jpg" height=200 />
