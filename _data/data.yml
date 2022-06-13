@@ -88,7 +88,7 @@ programmes:
 programmes_chunwan:
   - name: 歌手赛
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1655097027/singer_osizeh.png
-    description: 2022 "载歌在谷" 歌手赛，我们在去年成功的经验上进一步扩大规模。为您打造一年一度的，高水准的华人歌手赛。
+    description: 2022 "载歌在谷" 歌手赛，我们在成功的经验上进一步扩大规模，全新规划，为您打造一年一度的，高水准的华人歌手赛。
     contact: "[详情](/singer/)"
   - name: 春节晚会
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638942437/zgzg-io-website/WechatIMG869_k2uxam.jpg
