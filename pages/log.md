@@ -14,11 +14,11 @@ enable_annotating: true
 ## 操作方法
 
 在贵司的配捐平台（如 Benevity、 YourCause）上，
-1. **指定受益组织。** 搜索我们的中文名“硅谷脱口秀”或英文名“Silicon Valley Stand Up Comedy”[^1]。若无此项目，请选择“P & Y Foundation”;
+1. **指定受益组织。** 搜索我们的活动名称“Silicon Valley Stand Up Comedy硅谷脱口秀”、中文名“硅谷脱口秀”或英文名“Silicon Valley Stand Up Comedy”[^1]。若无此项目，请选择“P & Y Foundation”;
 2. 在联系方式或备注栏里，写出“From [您的艺名] to GGTKX”;
 3. **填入为《硅脱》所耗时间**。贵司的平台可能请您填写一张表格，需要您将每项活动的日期、时长、内容分别填成一行。
 
-[^1]: 例如，在 Benevity 上，我们叫“Silicon Valley Stand Up Comedy 硅谷脱口秀 via P & Y Foundation”。
+[^1]: 例如，在 Benevity 上，我们叫“Silicon Valley Stand Up Comedy硅谷脱口秀”。
 
 不久后，贵司会为《硅脱》捐赠与之匹配的一笔款项。[^2]
 
