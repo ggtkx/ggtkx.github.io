@@ -356,6 +356,25 @@ h2.gala-heading {
   color:white;
 }
 
+#singer-banner {
+  background-color: rgba(193,32,40,255) !important;
+  color:white;
+  background-position:left 0px center;
+}
+
+#singer-banner .container {
+  background-image:url(https://res.cloudinary.com/zaigezaigu/image/upload/v1655094802/signer-backgroud_qd6cze.png);
+  background-position:-150px;
+  background-repeat:no-repeat;
+  margin: 0 auto 0 auto;
+  min-height:550px;
+  padding-top:50px;
+}
+
+#singer-banner p{
+  color:white;
+}
+
 .sponsor img {
   width:90%;
   max-height: 400px;
