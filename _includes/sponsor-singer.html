@@ -13,4 +13,18 @@
         </div>
     </div>
     {% endif %}
+        {% if site.data.data.sponsors.media %}
+    <div class="row">
+        <div class="container">
+            <h2 class="gala-heading">媒体合作</h2>
+            <div class="row">
+                {% for sponsor in site.data.data.sponsors-singer.media %}
+                <div id="last-row-partners" class="col-4 col-lg-3 mb-1">
+                    {% include sponsor.html %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
 </div>
