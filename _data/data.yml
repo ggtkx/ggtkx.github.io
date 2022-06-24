@@ -7,7 +7,7 @@ main:
   - name: "2022 春晚"
     url: "/gala/"
     weight: 2
-  - name: "2022 游园"
+  - name: "2022 中秋游园"
     url: "/tour/"
     weight: 3
   - name: "云集栏目"
