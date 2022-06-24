@@ -4,11 +4,11 @@ main:
   - name: "2022 歌手赛"
     url: "/singer/"
     weight: 1
-  - name: "2022 春晚"
-    url: "/gala/"
-    weight: 2
   - name: "2022 中秋游园"
     url: "/tour/"
+    weight: 2
+  - name: "2022 春晚"
+    url: "/gala/"
     weight: 3
   - name: "云集栏目"
     url: "/yj/"
