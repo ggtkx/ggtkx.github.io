@@ -42,8 +42,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; N 3rd St, San Jose, CA 95113 <br>
            
            备注：Hammer Theatre Center <br>
-           <div class="button"> <a href="http://zgzg.link/2022s-singer-signup-website" target="_blank"><b style="color:red;font-size:large">注册报名</b></a>
-           </div><br><br>
           </p>
         </div>
       </div>
@@ -74,33 +72,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pb-md-10" id="sponsors">
-    <div class="row">
-      <h2>2022 春晚游园赞助商</h2>
-    </div>
-    <div class="row justify-content-start align-items-center">
-      {% for sponsor in site.data.data.sponsors.diamond %}
-      <div class="col-12 col-md-4 mb-1 pl-3 pr-3">
-        <div class="sponsor sponsor-summary">
-          <div class="sponsor-content">
-            {% if sponsor.image %}
-            <div class="sponsor-image">
-              <a href="{{ sponsor.website }}">
-                <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
-              </a>
-            </div>
-            {% endif %}
-            <div class="sponsor-content">
-              {% if sponsor.contact.size > 0 %}
-              {% for contact in sponsor.contact %}
-              {{ contact | markdownify }}
-              {% endfor %}
-              {% endif %}
-            </div>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
     <div class="row">
       <h2>2021 秋冬季云集赞助商</h2>
     </div>
