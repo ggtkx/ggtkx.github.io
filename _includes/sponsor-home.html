@@ -4,88 +4,9 @@
             <h2 class="gala-heading"><br>2022 歌手赛赞助商<br><br></h2>
         </div>
     </div>
-    {% if site.data.data.sponsors-singer.platinum %}
     <div class="row">
         <div class="container">
-            <h2 class="gala-heading"><br>白金赞助</h2>
-            <div class="row">
-                {% for sponsor in site.data.data.sponsors-singer.platinum %}
-                <div class="col-6 col-lg-3 mb-1">
-                    {% include sponsor.html %}
-                </div>
-                {% endfor %}
-            </div>
-        </div><br><br>
-    </div>
-    {% endif %}
-    {% if site.data.data.sponsors-singer.gold %}
-    <div class="row">
-        <div class="container">
-            <h2 class="gala-heading"><br>金牌赞助</h2>
-            <div class="row">
-                {% for sponsor in site.data.data.sponsors-singer.gold %}
-                <div class="col-6 col-lg-3 mb-1 gold-sponsor">
-                    {% include sponsor.html %}
-                </div>
-                {% endfor %}
-            </div>
-        </div><br><br>
-    </div>
-    {% endif %}
-    {% if site.data.data.sponsors-singer.venue %}
-    <div class="row">
-        <div class="container">
-            <h2 class="gala-heading"><br>场地赞助</h2>
-            <div class="row">
-                {% for sponsor in site.data.data.sponsors-singer.venue %}
-                <div id="last-row-partners" class="col-6 col-lg-3 mb-1 food-sponsor">
-                    {% include sponsor.html %}
-                </div>
-                {% endfor %}
-            </div>
+            <h2 class="gala-heading"><br>钻石赞助<br><br></h2>
         </div>
     </div>
-    {% endif %}
-    {% if site.data.data.sponsors-singer.food %}
-    <div class="row">
-        <div class="container">
-            <h2 class="gala-heading"><br>餐饮赞助</h2>
-            <div class="row">
-                {% for sponsor in site.data.data.sponsors-singer.food %}
-                <div id="last-row-partners" class="col-6 col-lg-3 mb-1 food-sponsor">
-                    {% include sponsor.html %}
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-    {% endif %}
-        {% if site.data.data.sponsors-singer.media %}
-    <div class="row">
-        <div class="container">
-            <h2 class="gala-heading"><br>媒体合作</h2>
-            <div class="row">
-                {% for sponsor in site.data.data.sponsors-singer.media %}
-                <div id="last-row-partners" class="col-6 col-lg-3 mb-1 food-sponsor">
-                    {% include sponsor.html %}
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-    {% endif %}
-    {% if site.data.data.sponsors-singer.special %}
-    <div class="row">
-        <div class="container">
-            <h2 class="gala-heading"><br>特别合作</h2>
-            <div class="row">
-                {% for sponsor in site.data.data.sponsors-singer.special %}
-                <div id="last-row-partners" class="col-6 col-lg-3 mb-1 food-sponsor">
-                    {% include sponsor.html %}
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-    {% endif %}
 </div>
