@@ -1,13 +1,14 @@
 <div id="gala-sponsors">
+    <br>
     <div class="row">
         <div class="container">
-            <h2 class="gala-heading"><br><br>2022 歌手赛赞助商<br><br></h2>
+            <h2 class="gala-heading">2022 歌手赛赞助商<br><br></h2>
         </div>
     </div>
     {% if site.data.data.sponsors-singer.platinum %}
     <div class="row">
         <div class="container">
-            <h2 class="gala-heading">白金赞助</h2>
+            <h2 class="gala-heading"><br>白金赞助</h2>
             <div class="row">
                 {% for sponsor in site.data.data.sponsors-singer.platinum %}
                 <div class="col-6 col-lg-3 mb-1">
@@ -15,11 +16,11 @@
                 </div>
                 {% endfor %}
             </div>
-        </div>
+        </div><br>
     </div>
     {% endif %}
     {% if site.data.data.sponsors-singer.gold %}
-    <div class="row">
+    <div class="row"><br>
         <div class="container">
             <h2 class="gala-heading">金牌赞助</h2>
             <div class="row">
@@ -29,11 +30,11 @@
                 </div>
                 {% endfor %}
             </div>
-        </div>
+        </div><br>
     </div>
     {% endif %}
     {% if site.data.data.sponsors-singer.venue %}
-    <div class="row">
+    <div class="row"><br>
         <div class="container">
             <h2 class="gala-heading">场地赞助</h2>
             <div class="row">
@@ -47,7 +48,7 @@
     </div>
     {% endif %}
     {% if site.data.data.sponsors-singer.food %}
-    <div class="row">
+    <div class="row"><br>
         <div class="container">
             <h2 class="gala-heading">餐饮赞助</h2>
             <div class="row">
@@ -61,7 +62,7 @@
     </div>
     {% endif %}
         {% if site.data.data.sponsors-singer.media %}
-    <div class="row">
+    <div class="row"><br>
         <div class="container">
             <h2 class="gala-heading">媒体合作</h2>
             <div class="row">
@@ -75,7 +76,7 @@
     </div>
     {% endif %}
     {% if site.data.data.sponsors-singer.special %}
-    <div class="row">
+    <div class="row"><br>
         <div class="container">
             <h2 class="gala-heading">特别合作</h2>
             <div class="row">
