@@ -1,10 +1,10 @@
 <div id="gala-sponsors">
-    {% if site.data.data.sponsors_singer.platinum %}
+    {% if site.data.data.sponsors-singer.platinum %}
     <div class="row">
         <div class="container">
             <h2 class="gala-heading">白金赞助</h2>
             <div class="row">
-                {% for sponsor in site.data.data.sponsors.flyhomes %}
+                {% for sponsor in site.data.data.sponsors.platinum %}
                 <div class="col-6 col-lg-3 mb-1">
                     {% include sponsor.html %}
                 </div>
@@ -13,7 +13,7 @@
         </div>
     </div>
     {% endif %}
-    {% if site.data.data.sponsors_singer.gold %}
+    {% if site.data.data.sponsors-singer.gold %}
     <div class="row">
         <div class="container">
             <h2 class="gala-heading">金牌赞助</h2>
@@ -27,7 +27,21 @@
         </div>
     </div>
     {% endif %}
-    {% if site.data.data.sponsors_singer.venue %}
+    {% if site.data.data.sponsors-singer.venue %}
+    <div class="row">
+        <div class="container">
+            <h2 class="gala-heading">餐饮赞助</h2>
+            <div class="row">
+                {% for sponsor in site.data.data.sponsors.venue %}
+                <div id="last-row-partners" class="col-6 col-lg-3 mb-1 food-sponsor">
+                    {% include sponsor.html %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.data.data.sponsors-singer.food %}
     <div class="row">
         <div class="container">
             <h2 class="gala-heading">餐饮赞助</h2>
@@ -41,12 +55,12 @@
         </div>
     </div>
     {% endif %}
-    {% if site.data.data.sponsors_singer.food %}
+    {% if site.data.data.sponsors-singer.special %}
     <div class="row">
         <div class="container">
-            <h2 class="gala-heading">餐饮赞助</h2>
+            <h2 class="gala-heading">特别合作</h2>
             <div class="row">
-                {% for sponsor in site.data.data.sponsors.food %}
+                {% for sponsor in site.data.data.sponsors.special %}
                 <div id="last-row-partners" class="col-6 col-lg-3 mb-1 food-sponsor">
                     {% include sponsor.html %}
                 </div>
