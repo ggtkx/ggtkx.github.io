@@ -127,9 +127,26 @@ sponsors_yj:
     website: https://www.moomoo.com/
 
 sponsors-singer:
+  platinum:
+    - name: flyhomes
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656783718/Flyhomes_Registered_-_Primary_yrl87f.png
+
+  gold:
+    - name: 红叶故事
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
+
+  venue:
+    - name: mtv
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656783910/WechatIMG530_rxjxda.png
+
+  food:
+    - name: weboba
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656785128/weboba_logoColor_psnybi.png
+
   media:
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656039904/%E5%8D%8E%E4%BA%BA%E8%B5%84%E8%AE%AFlogo_tz81bu.jpg
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656041965/Untitled_rkfmfn.png
+
 
 sponsors:
   diamond:
