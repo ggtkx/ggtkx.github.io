@@ -126,20 +126,32 @@ sponsors_yj:
     description:  职场人超爱的高效交易APP。
     website: https://www.moomoo.com/
 
+sponsors-yj-2022:
+  sponsor:
+    - name: ARK7
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656816376/zgzg-io-website/IMG_6273_pqgjs9.gif
+    - name: gmcc
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656816375/zgzg-io-website/IMG_6274_ob7yba.jpg
+
 sponsors-singer:
   platinum:
     - name: flyhomes
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656783718/Flyhomes_Registered_-_Primary_yrl87f.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656817642/zgzg-io-website/fly_gxxc4o.png
+      website: www.flyhomes.com
+
 
   gold:
     - name: 红叶故事
       image: https://res.cloudinary.com/zaigezaigu/image/upload/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
+      description: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
 
     - name: george-xie
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656789735/xie_dbxfoz.png
+      description: George Xie谢晓光 - 加州地产经纪人，Keller Williams TOP 1% Agent，CIPS。凭借着独特的私人银行和贷款金融背景，为客户提供全方面的房产置业资产配置咨询。超高的谈判沟通能力帮助客户拿到最好的价格。
 
     - name: LingoAce
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656783718/lingo_yviz8v.png
+      description: LingoAce成立于2017年，是一家科技型教育公司，专注于为3-15岁海外青少儿提供沉浸式、趣味化且卓有成效的中文学习体验。
 
   venue:
     - name: mtv
