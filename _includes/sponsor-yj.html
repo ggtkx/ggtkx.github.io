@@ -1,0 +1,20 @@
+<div id="gala-sponsors">
+    <div class="row">
+        <div class="container">
+            <h2 class="gala-heading"><br>2022 云集赞助商<br><br></h2>
+        </div>
+    </div>
+    {% if site.data.data.sponsors-yj-2022.sponsor %}
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                {% for sponsor in site.data.data.sponsors-yj-2022.sponsor %}
+                <div class="col-6 col-lg-3 mb-1">
+                    {% include sponsor.html %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>

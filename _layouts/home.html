@@ -71,37 +71,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 {% include sponsor-home.html %}
+{% include sponsor-yj.html %}
 
 <div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pb-md-10" id="sponsors">
-    <div class="row">
-      <h2>2021 秋冬季云集赞助商</h2>
-    </div>
-    <div class="row justify-content-start align-items-center">
-      {% for sponsor in site.data.data.sponsors_yj %}
-      <div class="col-12 col-md-3 mb-1 pl-3 pr-3">
-        <div class="sponsor sponsor-summary">
-          <div class="sponsor-content">
-            {% if sponsor.image %}
-            <div class="sponsor-image">
-              <a href="{{ sponsor.website }}">
-                <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
-              </a>
-            </div>
-            {% endif %}
-            <div class="sponsor-content">
-              <p class="sponsor-description">{{ sponsor.description }}</p>
-              {% if sponsor.contact.size > 0 %}
-              {% for contact in sponsor.contact %}
-              {{ contact | markdownify }}
-              {% endfor %}
-              {% endif %}
-            </div>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
     <div class="row">
       <h2>伙伴社区</h2>
     </div>
