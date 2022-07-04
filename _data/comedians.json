@@ -2,8 +2,8 @@
     {
         "title": "Aaron",
         "weightBeforeShowsSheet": 61,
-        "countFromShowsSheet": 3,
-        "weight": 64,
+        "countFromShowsSheet": 7,
+        "weight": 68,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "isCurrentCrew": true,
@@ -39,6 +39,14 @@
         ]
     },
     {
+        "title": "寇寇",
+        "weightBeforeShowsSheet": 25,
+        "countFromShowsSheet": 4,
+        "weight": 29,
+        "image": "https://i.imgur.com/LnobTPF.png",
+        "isCurrentCrew": true
+    },
+    {
         "title": "邵天宇",
         "weightBeforeShowsSheet": 25,
         "countFromShowsSheet": 3,
@@ -55,18 +63,10 @@
         ]
     },
     {
-        "title": "寇寇",
-        "weightBeforeShowsSheet": 25,
-        "countFromShowsSheet": 1,
-        "weight": 26,
-        "image": "https://i.imgur.com/LnobTPF.png",
-        "isCurrentCrew": true
-    },
-    {
         "title": "黎明洋",
         "weightBeforeShowsSheet": 24,
-        "countFromShowsSheet": 1,
-        "weight": 25,
+        "countFromShowsSheet": 2,
+        "weight": 26,
         "image": "https://i.imgur.com/8kHVjfD.png",
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
         "crewSeasonIds": 1,
@@ -100,6 +100,19 @@
         ]
     },
     {
+        "title": "邵远",
+        "weightBeforeShowsSheet": 15,
+        "countFromShowsSheet": 7,
+        "weight": 22,
+        "image": "https://i.imgur.com/50YpVbT.png",
+        "description": "攀岩界最会说相声的数学家。",
+        "isCurrentCrew": true,
+        "contact": [
+            "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz/)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mOqnLKXBeAHISpq2FMpu9z)"
+        ]
+    },
+    {
         "title": "方圆",
         "weightBeforeShowsSheet": 20,
         "countFromShowsSheet": 0,
@@ -113,23 +126,10 @@
         ]
     },
     {
-        "title": "邵远",
-        "weightBeforeShowsSheet": 15,
-        "countFromShowsSheet": 3,
-        "weight": 18,
-        "image": "https://i.imgur.com/50YpVbT.png",
-        "description": "攀岩界最会说相声的数学家。",
-        "isCurrentCrew": true,
-        "contact": [
-            "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz/)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mOqnLKXBeAHISpq2FMpu9z)"
-        ]
-    },
-    {
         "title": "尾羽",
         "weightBeforeShowsSheet": 15,
-        "countFromShowsSheet": 3,
-        "weight": 18,
+        "countFromShowsSheet": 5,
+        "weight": 20,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
         "description": "做一只特立独行的猪",
         "isCurrentCrew": true,
@@ -144,8 +144,8 @@
     {
         "title": "孙刘",
         "weightBeforeShowsSheet": 14,
-        "countFromShowsSheet": 3,
-        "weight": 17,
+        "countFromShowsSheet": 6,
+        "weight": 20,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
         "description": "过来闹点笑话",
         "isCurrentCrew": true,
@@ -154,10 +154,20 @@
         ]
     },
     {
+        "title": "Yudy",
+        "weightBeforeShowsSheet": 8,
+        "countFromShowsSheet": 10,
+        "weight": 18,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkyivb1oj20uw0u0whi.jpg",
+        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。",
+        "crewSeasonIds": 2,
+        "isCurrentCrew": true
+    },
+    {
         "title": "兔子特特",
         "weightBeforeShowsSheet": 16,
-        "countFromShowsSheet": 0,
-        "weight": 16,
+        "countFromShowsSheet": 1,
+        "weight": 17,
         "image": "https://imgur.com/J3uXn3Gl.png",
         "description": "中年少女一枚。在家对娃脱口训在外对你脱口秀！你快乐所以我快乐～～",
         "contact": [
@@ -177,11 +187,12 @@
         ]
     },
     {
-        "title": "Yudy",
-        "weightBeforeShowsSheet": 8,
-        "countFromShowsSheet": 5,
-        "weight": 13,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkyivb1oj20uw0u0whi.jpg",
+        "title": "韩哥",
+        "weightBeforeShowsSheet": 9,
+        "countFromShowsSheet": 6,
+        "weight": 15,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gybwozgawpj30u00u0dib.jpg",
+        "description": "硬件工程师",
         "crewSeasonIds": 2,
         "isCurrentCrew": true
     },
@@ -207,14 +218,15 @@
         ]
     },
     {
-        "title": "韩哥",
-        "weightBeforeShowsSheet": 9,
-        "countFromShowsSheet": 3,
-        "weight": 12,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gybwozgawpj30u00u0dib.jpg",
-        "description": "硬件工程师",
-        "crewSeasonIds": 2,
-        "isCurrentCrew": true
+        "title": "丝丝",
+        "weightBeforeShowsSheet": 7,
+        "countFromShowsSheet": 1,
+        "weight": 8,
+        "image": "https://i.imgur.com/eCMvhmf.png",
+        "description": "不讲脱口秀的时候我都在帮客户抢房子",
+        "contact": [
+            "小红书：丝丝去哪儿"
+        ]
     },
     {
         "title": "Sean",
@@ -243,17 +255,6 @@
         ]
     },
     {
-        "title": "丝丝",
-        "weightBeforeShowsSheet": 7,
-        "countFromShowsSheet": 0,
-        "weight": 7,
-        "image": "https://i.imgur.com/eCMvhmf.png",
-        "description": "不讲脱口秀的时候我都在帮客户抢房子",
-        "contact": [
-            "小红书：丝丝去哪儿"
-        ]
-    },
-    {
         "title": "Yuheng",
         "weightBeforeShowsSheet": 7,
         "countFromShowsSheet": 0,
@@ -273,6 +274,17 @@
         "description": "幽默儿神童",
         "crewSeasonIds": 2,
         "isCurrentCrew": true
+    },
+    {
+        "title": "世雄",
+        "countFromShowsSheet": 6,
+        "weight": 6,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2glgo1puwj20fm0fiq3w.jpg",
+        "description": "像rapper，但喜欢脱口秀\n其实还想搞设计。",
+        "contact": [
+            "Instagram: [northzsx](https://www.instagram.com/northzsx/)",
+            "website：[shixiong.design](https://www.shixiong.design/)"
+        ]
     },
     {
         "title": "Timur",
@@ -297,6 +309,17 @@
         ]
     },
     {
+        "title": "陈安怡",
+        "weightBeforeShowsSheet": 2,
+        "countFromShowsSheet": 2,
+        "weight": 4,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2gmb21ynmj20nk0nktd6.jpg",
+        "description": "诚实可爱阳光善良成熟稳重媚眼如丝古灵精怪青春无敌美少女",
+        "highlights": [
+            "2022年《北美校友脱口秀大赛》季军"
+        ]
+    },
+    {
         "title": "大花儿",
         "weightBeforeShowsSheet": 3,
         "countFromShowsSheet": 0,
@@ -316,14 +339,23 @@
         ]
     },
     {
-        "title": "世雄",
+        "title": "啫喱",
         "countFromShowsSheet": 3,
         "weight": 3,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2glgo1puwj20fm0fiq3w.jpg",
-        "description": "像rapper，但喜欢脱口秀\n其实还想搞设计。",
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2gqnl6tx8j20g40g4t9w.jpg",
+        "description": "想走红若干年最后红的只有发色",
         "contact": [
-            "Instagram: [northzsx](https://www.instagram.com/northzsx/)",
-            "website：[shixiong.design](https://www.shixiong.design/)"
+            "Instagram: [`jer_xaccentgrave`](https://www.instagram.com/jer_xaccentgrave)"
+        ]
+    },
+    {
+        "title": "隋薰 Emma",
+        "countFromShowsSheet": 3,
+        "weight": 3,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2gkgg50urj20jw0jmta5.jpg",
+        "description": "何时能上脱口秀大会？",
+        "contact": [
+            "微博：[`爱看展的Emma隋薰`](https://weibo.com/n/%E7%88%B1%E7%9C%8B%E5%B1%95%E7%9A%84Emma%E9%9A%8B%E8%96%B0)"
         ]
     },
     {
@@ -368,17 +400,6 @@
         ]
     },
     {
-        "title": "陈安怡",
-        "weightBeforeShowsSheet": 2,
-        "countFromShowsSheet": 0,
-        "weight": 2,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2gmb21ynmj20nk0nktd6.jpg",
-        "description": "诚实可爱阳光善良成熟稳重媚眼如丝古灵精怪青春无敌美少女",
-        "highlights": [
-            "2022年《北美校友脱口秀大赛》季军"
-        ]
-    },
-    {
         "title": "Wan",
         "weightBeforeShowsSheet": 2,
         "countFromShowsSheet": 0,
@@ -386,30 +407,10 @@
         "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkwjq4n7j20b10b1dgd.jpg"
     },
     {
-        "title": "啫喱",
-        "countFromShowsSheet": 2,
-        "weight": 2,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2gqnl6tx8j20g40g4t9w.jpg",
-        "description": "想走红若干年最后红的只有发色",
-        "contact": [
-            "Instagram: [`jer_xaccentgrave`](https://www.instagram.com/jer_xaccentgrave)"
-        ]
-    },
-    {
-        "title": "隋薰 Emma",
-        "countFromShowsSheet": 2,
-        "weight": 2,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2gkgg50urj20jw0jmta5.jpg",
-        "description": "何时能上脱口秀大会？",
-        "contact": [
-            "微博：[`爱看展的Emma隋薰`](https://weibo.com/n/%E7%88%B1%E7%9C%8B%E5%B1%95%E7%9A%84Emma%E9%9A%8B%E8%96%B0)"
-        ]
-    },
-    {
         "title": "贾施汀",
         "weightBeforeShowsSheet": 1,
-        "countFromShowsSheet": 0,
-        "weight": 1,
+        "countFromShowsSheet": 1,
+        "weight": 2,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8n7j3kqj30go0gojsi.jpg",
         "description": "退堂鼓表演艺术家",
         "contact": [
