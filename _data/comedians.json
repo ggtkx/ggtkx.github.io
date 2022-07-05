@@ -437,6 +437,18 @@
         ]
     },
     {
+        "title": "Richard Yan",
+        "weightBeforeShowsSheet": 0,
+        "countFromShowsSheet": 1,
+        "weight": 1,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h3w1228tyhj20b40b4wf6.jpg",
+        "description": "专讲 Web 3.0 和非 Web 3.0 的笑话",
+        "contact": [
+            "Twitter: [`@laughdao`](https://twitter.com/laughdao)",
+            "[YouTube](https://www.youtube.com/channel/UCm0E3ZTzjVoXsoIyDeud8Mw)"
+        ]
+    },
+    {
         "title": "龚老板",
         "weightBeforeShowsSheet": 0,
         "countFromShowsSheet": 0,
