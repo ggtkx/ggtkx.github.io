@@ -400,7 +400,7 @@
         ]
     },
     {
-        "title": "Wan",
+        "title": "林晚",
         "weightBeforeShowsSheet": 2,
         "countFromShowsSheet": 0,
         "weight": 2,
@@ -416,6 +416,14 @@
         "contact": [
             "Instagram: [`lilyoungjs88`](https://www.instagram.com/lilyoungjs88)"
         ]
+    },
+    {
+        "title": "李婉婷",
+        "weightBeforeShowsSheet": 0,
+        "countFromShowsSheet": 2,
+        "weight": 2,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h3vzyry3yzj20o70o77a4.jpg",
+        "description": "不为了什么，就为了一时快乐"
     },
     {
         "title": "jinn",
