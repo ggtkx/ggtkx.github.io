@@ -138,6 +138,7 @@ sponsors-singer:
     - name: flyhomes
       description: Flyhomes是一家专注在房地产领域的科技公司。完成 C 轮融资 1.5亿美金。不同于传统中介，Flyhomes采取团队作战方式。这和传统上“一个中介从头到尾负责一个客户” 非常不同。Flyhomes将整个买房过程拆解成不同的环节，每个顾客全程都会由一个经验丰富的客户顾问负责，提高了效率的同时也保证了质量。
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656817642/zgzg-io-website/fly_gxxc4o.png
+      website-name: www.flyhomes.com
       website: https://www.flyhomes.com/mandarin?utm_source=EVENT&utm_medium=sponsorship&utm_content=090322NorCal-EVNT
 
   gold:
@@ -147,7 +148,7 @@ sponsors-singer:
 
     - name: george-xie
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656789735/xie_dbxfoz.png
-      description: George Xie谢晓光 - 加州地产经纪人，Keller Williams TOP 1% Agent，CIPS。凭借着独特的私人银行和贷款金融背景，为客户提供全方面的房产置业资产配置咨询。超高的谈判沟通能力帮助客户拿到最好的价格。
+      description: George Xie 谢晓光 - 加州地产经纪人，Keller Williams TOP 1% Agent，CIPS。凭借着独特的私人银行和贷款金融背景，为客户提供全方面的房产置业资产配置咨询。超高的谈判沟通能力帮助客户拿到最好的价格。
 
     - name: LingoAce
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656783718/lingo_yviz8v.png
@@ -159,7 +160,7 @@ sponsors-singer:
 
   food:
     - name: weboba
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656801291/zgzg-io-website/IMG-6272_xthfvu.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1657254451/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Combined-logo_am3ikv.png
 
   media:
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656039904/%E5%8D%8E%E4%BA%BA%E8%B5%84%E8%AE%AFlogo_tz81bu.jpg
