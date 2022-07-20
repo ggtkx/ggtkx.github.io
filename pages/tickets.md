@@ -4,7 +4,7 @@ layout: page
 permalink: /tickets/
 intro_image: "/images/illustrations/door.svg"
 intro_image_hide_on_mobile: true
-description: 硅谷脱口秀每周五晚8点在举行开放麦（open mic）。这里既是脱口秀新人首秀的舞台，也是脱口秀老司机试炼新段子、打磨老段子的地方。
+description: 硅谷脱口秀每周五晚举行开放麦（open mic）。这里既是脱口秀新人首秀的舞台，也是脱口秀老司机试炼新段子、打磨老段子的地方。
 ---
 
 ## 形式介绍
