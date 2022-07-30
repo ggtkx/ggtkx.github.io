@@ -1,7 +1,7 @@
 main:
   - name: "社区主页"
     url: "/"
-  - name: "2022 歌手赛售票"
+  - name: "票务信息"
     url: "/ticket/"
   - name: "2022 歌手赛"
     url: "/singer/"
