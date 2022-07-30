@@ -9,14 +9,98 @@ layout: default
                 <div><br>
                     <h3>歌手赛决赛：</h3>
                     <p>
-                        时间：2022年9月3日 周六，7pm - 10pm PST<br>
-                        地点：SJCPA，255 S Almaden Blvd, San Jose, CA<br>
+                        时间：2022年9月3日 周六，7:00pm - 10:00pm PST<br>
+                        地点：101 Paseo De San Antonio, San Jose, CA 95113<br>
+                        备注：SJSU Hammer Theatre Center
                     </p>
                     <p><b><span id="warning" onclick="$('#faq').show()"><a href="#faq1" style="color:white">12岁及以上观众必须出示疫苗证. 详情请见FAQ.</a></span></b></p>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            请在下方直接购票或在
+            <a id="eventbrite"
+                href="http://zgzg.link/2022s-ticket-website"
+                target="_blank">Eventbrite</a> 网站购票。
+            <h4 id="faq1" onclick="toggle_faq()" style="color:#c12028"> 常见问题FAQ (点击展开)</h4>
+            <div id="faq" style="display:none;">
+                <p>问：歌手赛对观众的年龄有限制吗？</p>
+                <p>答：歌手赛对观众的年龄没有限制，因为采用一座一票，票号和座位号对应的制度，所有儿童(含三岁以下)必须凭票入场。观众可凭需求通过Eventbrite购买残疾人专座。</p>
+                <p>问：停车场在哪里？</p>
+                <p>答：附近有若干个停车场，最近的停车场在the 2nd and San Carlos Garage，有超过500个车位。参考网址：http://parksj.org/parking-map/</p>
+                <p>问：我可以带食物、饮料、酒水、宠物进场吗？</p>
+                <p>答：不好意思，根据剧场相关规定，食物、饮料、酒水、宠物都不能带进剧场。</p>
+                <p>问：退票政策是什么？</p>
+                <p>答：您可以在2022年8月27日之前退票。在此之后将不能退票。</p>
+                <p>问：我需要打印门票吗？</p>
+                <p>答：不需要，电子版门票即可。出于环保原因，我们建议您将门票二维码存在手机中，方便入场检票。</p>
+                <p>问：我的门票可以转让予他人吗？</p>
+                <p>答：您可以通过Eventbrite账号转让门票。但是请注意本次活动主办方不对观众自发的转让活动负责。</p>
+                <p>问：如何使用Promo code？</p>
+                <p>答：点击 "Enter promotional code" 链接。然后在文本框输入Promo code 然后点击 "Apply Code" 如果Promo code使用成功，你会看到打了折扣的票价。如果你原先注册了，但是忘了使用Promo code，请发email到contact-us@zgzg.io，我们会尽全力给您满意答复！</p>
+                <p>问：还可以报名参赛吗？</p>
+                <p>答：不好意思，今年的报名已经结束，敬请关注2023年歌手赛。</p>
+                <p>问：如果我有轮椅怎么办？</p>
+                <p>答：请发邮件到contact-us@zgzg.io，我们会协助您购票。</p>
+                <p>问：我是现场志愿者，我有免费座位吗？</p>
+                <p>答：不好意思，我们并不为现场志愿者提供免费座位。如果您需要观看比赛，请记得买票哦。</p>
+                <p>问：我有更多问题，需要联系谁？</p>
+                <p>答：请发邮件至：contact-us@zgzg.io</p>
+                <a onclick="toggle_faq()">收起</a>
+            </div>
+        </div>
+    </div>
+    <div id="buy-button" class="button"> <a id="eventbrite"
+        href="http://zgzg.link/2022s-ticket-website"
+        style="color:white;" target="_blank">点击购票</a>
+    </div>
+    <div id="eb-overlay" class=''>
+        <svg id="close-overlay" onclick="overlay_off()" x="0" y="0" viewBox="0 0 24 24" xml:space="preserve">
+            <path id="cross-chunky_svg__eds-icon--cross-chunky_base"
+                d="M13.4 12l3.5-3.5-1.4-1.4-3.5 3.5-3.5-3.5-1.4 1.4 3.5 3.5-3.5 3.5 1.4 1.4 3.5-3.5 3.5 3.5 1.4-1.4z">
+            </path>
+        </svg>
+        <div id="eventbrite-widget-container" style="width:100%">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+    <script>
+        function toggle_faq() {
+            $("#faq").toggle();
+        }
+
+        function overlay_on() {
+            window.scrollTo(0, 0);
+            document.getElementById("eb-overlay").style.display = "block";
+        }
+
+        function overlay_off() {
+            document.getElementById("eb-overlay").style.display = "none";
+        }
+
+        var exampleCallback = function () {
+            console.log('Order complete!');
+        };
+        var iframeContainerHeight;
+        iframeContainerHeight = window.innerHeight * 0.98;
+
+        window.EBWidgets.createWidget({
+            // Required
+            widgetType: 'checkout',
+            eventId: '355595625087',
+            iframeContainerId: 'eventbrite-widget-container',
+
+            // Optional
+            iframeContainerHeight: iframeContainerHeight,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+            onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+        });
+    </script>
 </div>
 
 {% include sponsor-singer-all.html %}
