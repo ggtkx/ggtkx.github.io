@@ -73,6 +73,18 @@ body {
   }
 }
 
+@media (min-width: 992px)
+.intro h1 {
+    font-size: 40px;
+}
+@media (min-width: 768px)
+.intro h1 {
+    font-size: 40px;
+}
+.intro h1 {
+    font-size: 40px;
+}
+
 #detailed-info {
   font-size:1.2em;
   color:white;
