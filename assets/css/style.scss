@@ -136,20 +136,6 @@ img {
    padding: 0.5em;
 }
 
-.intro p {
-    font-size: 1.0rem; 
-}
-
-@media (min-width: 992px)
-.intro h1 {
-    font-size: 42px;
-}
-
-@media (min-width: 768px)
-.intro h1 {
-    font-size: 42px; 
-}
-
 .event {
    background-image: url(https://blog.zgzg.io/wp-content/uploads/circel.png), url(http://blog.zgzg.io/wp-content/uploads/line2.png);
    background-repeat: no-repeat, no-repeat;
