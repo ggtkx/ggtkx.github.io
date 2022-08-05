@@ -48,6 +48,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </div>
+  
+<div id="buy-button" class="button"> <a id="eventbrite"
+        href="http://zgzg.link/2022s-ticket-website"
+        style="color:white;" target="_blank">点击购票</a>
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+    <script>
+        function toggle_faq() {
+            $("#faq").toggle();
+        }
+
+        function overlay_on() {
+            window.scrollTo(0, 0);
+            document.getElementById("eb-overlay").style.display = "block";
+        }
+
+        function overlay_off() {
+            document.getElementById("eb-overlay").style.display = "none";
+        }
+
+        var exampleCallback = function () {
+            console.log('Order complete!');
+        };
+        var iframeContainerHeight;
+        iframeContainerHeight = window.innerHeight * 0.98;
+
+        window.EBWidgets.createWidget({
+            // Required
+            widgetType: 'checkout',
+            eventId: '355595625087',
+            iframeContainerId: 'eventbrite-widget-container',
+
+            // Optional
+            iframeContainerHeight: iframeContainerHeight,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+            onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+        });
+    </script>
+</div>
 
 <div class="strip">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10" id="chunwan">
