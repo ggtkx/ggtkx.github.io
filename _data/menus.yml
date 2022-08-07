@@ -33,7 +33,7 @@ main:
 
 footer:
   - name: "合作"
-    url: "mailto:contact@ggtkx.org"
+    url: "/contact/"
     weight: 1
 
   - name: "捐款"
