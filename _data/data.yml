@@ -139,7 +139,7 @@ sponsors-singer:
   platinum:
     - name: flyhomes
       description: Flyhomes是一家专注在房地产领域的科技公司。完成 C 轮融资 1.5亿美金。不同于传统中介，Flyhomes采取团队作战方式。这和传统上“一个中介从头到尾负责一个客户” 非常不同。Flyhomes将整个买房过程拆解成不同的环节，每个顾客全程都会由一个经验丰富的客户顾问负责，提高了效率的同时也保证了质量。
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656817642/zgzg-io-website/fly_gxxc4o.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659911969/zgzg-io-website/1_fqqqod.png
       website-name: www.flyhomes.com
       website: https://www.flyhomes.com/mandarin?utm_source=EVENT&utm_medium=sponsorship&utm_content=090322NorCal-EVNT
 
@@ -156,6 +156,19 @@ sponsors-singer:
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656783718/lingo_yviz8v.png
       description: 暑期宅家也要好好学习呀！LingoAce海外中文线上免费领取1对1试听中文课！听完的小朋友可以领取价值$20的amazon礼卡哟！加微信BayAreaKidFun了解领取福利详情！每周还会解锁湾区最新亲子活动噢!
 
+    - name: Coco Tan
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659915084/zgzg-io-website/IMG_6401_ynrwxk.jpg
+      description: Coco Tan从业地产18年有余, 一直排名前1%。在全美140万名地产经纪人中, Coco名列由《华尔街日报》评选的前74名。2021年还未结束, 她已卖出了140多套房屋, 几乎每套都成功地打破了湾区的价格记录。她曾连续两年当选华美地产协会 (CAREA) 主席。
+
+    - name: Steve Chen
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659915084/zgzg-io-website/IMG_6399_ka0riz.jpg
+      description: Steve Chen 富国银行房屋贷款经理. Steve 作为资深房屋贷款顾问及销售经理，服务在湾区享有极好口碑。他的专长包括 Relocation Loan，涉及 RSU 收入及海外资产的贷款。
+
+    - name: Daniel Xi
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659915086/zgzg-io-website/20YH1F-DC_SF_DP_-_Custom_Logo_-_Daniel_Xi_-_SOE-blk-FINAL_qr1v6j.jpg
+      description: Top 1% Realtor，经验丰富，谈判技巧高，服务质量一流，无论买房卖房，都很擅长。2021年个人业绩全美排名第157名，交易量1.7亿美元。
+
+
   venue:
     - name: mtv
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656783910/WechatIMG530_rxjxda.png
@@ -168,13 +181,17 @@ sponsors-singer:
       image: https://res.cloudinary.com/zaigezaigu/image/upload/v1657254451/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Combined-logo_am3ikv.png
       description: 鲜奶和茶的相遇，就像WeBoba和你传承千年的中华茶道，无需奶精掩饰，无需甜腻伪装你第一口就能尝到 Say No to 奶精，Say No to 茶粉茶渣茶你值得，最正统的茶味。
 
+    - name: panda
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659915084/zgzg-io-website/IMG_6400_xazrtq.jpg
+      description: 现在扫码下载熊猫外卖，即刻领取新人$38红包，开启你的中餐美食之旅吧！熊猫外卖，满足你的中国胃！
+
   media:
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656039904/%E5%8D%8E%E4%BA%BA%E8%B5%84%E8%AE%AFlogo_tz81bu.jpg
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656041965/Untitled_rkfmfn.png
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656786130/WechatIMG5_uzlb00.jpg
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656800887/zgzg-io-website/tuo_peb4dw.png
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656798462/fish_gpbznk.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916546/zgzg-io-website/2_pes3u4.jpg
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916785/zgzg-io-website/1_bdeoh3.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916546/zgzg-io-website/sina_ah9fid.jpg
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916389/zgzg-io-website/tuo_qeysuf.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916374/zgzg-io-website/%E9%9D%9E%E9%B1%BC%E5%89%A7%E7%A4%BElogo_ls78l0.jpg
 
   special: 
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656786270/%E6%A1%8C%E6%B8%B81_eios7w.png
