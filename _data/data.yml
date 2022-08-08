@@ -363,6 +363,15 @@ tours:
 ybyfs:
   - name:
     type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659928949/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04040_gzml6b.jpg
+  - name:
+    type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659928949/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04065_ei9ziy.jpg
+  - name:
+    type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659928949/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04075_zbrygq.jpg
+  - name:
+    type:
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659927337/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6397_k7yabg.jpg
   - name:
     type:
@@ -378,8 +387,9 @@ ybyfs:
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659927337/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6392_d5kznc.jpg
   - name:
     type:
-    image: past:https://res.cloudinary.com/zaigezaigu/image/upload/v1659927336/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6391_ojwriw.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659927336/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6391_ojwriw.jpg
 
+past:
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439472/%E6%A2%A6%E8%88%9E%E6%95%A6%E7%85%8C_-_Blake_Zhu-18_rbgygk.jpg
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439477/ZGZG-ScottYang-200125-4174_zszlo8.jpg
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439459/534A3159_resized_pj8eqb.jpg
