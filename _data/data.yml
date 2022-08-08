@@ -363,6 +363,15 @@ tours:
 ybyfs:
   - name:
     type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659930227/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/3_v6hosy.jpg
+  - name:
+    type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659930182/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/1_z9zhol.jpg
+  - name:
+    type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659929796/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04035_egc1te.jpg
+  - name:
+    type:
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659928949/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04040_gzml6b.jpg
   - name:
     type:
