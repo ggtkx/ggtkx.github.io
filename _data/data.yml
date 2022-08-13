@@ -470,3 +470,36 @@ galalist:
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641779900/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/20_gnp07n.png
     title: 诚 Pilgrimage ｜ 舞蹈 Dance
     description: 诚怀着无穷无尽力量的信仰，持着真诚朝拜路上的人儿。 双手高举合十，道声“扎西德勒”。
+
+
+singerlist:
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660354054/zgzg-io-website/2022%20singers/Wanli_%E9%BB%84%E4%B8%87%E5%88%A9_ww6wgb.jpg
+    title: 参赛歌曲 起风了 | 歌手 Wanli
+    description: 我的中文名是黄万利，英文名Leo。91年出生，今年31岁。来自烤鱼之乡，雾都重庆。爱好是音乐、运动，最不喜欢做的事情是看书。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_350/v1641972670/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/2_xwhlkl.png
+    title: 参赛歌曲 诗句 | 歌手 一男一女
+    description: 一男一女是一个男生（Ricky）和一个女生（采薇）临时搭伙的组合，组合如其名随性又可爱，代表了我们对音乐的态度。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757236/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/3_h9qgbh.png
+    title: 参赛歌曲 末日飞船 | 歌手 Jiaqi
+    description: 我是湾区的软件工程师（呀，一点惊喜都没有呢）。一个喜欢喝奶茶的吃货，一个喜欢解谜但是解不出又很想放弃的人，也是一个不用喝酒唱歌就能嗨的噪音制造机。人生就活一次，尽管不完美，“我的世界我来浮夸” - 自华晨宇。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/4_jhhscx.png
+    title: 参赛歌曲 Crazy | 歌手 Anon
+    description: 我们一只擅长整活儿和活跃气氛的Blues/Funk/R&B即兴乐队。主唱负责说相声和卡祖笛，吉他手分别负责弹簧腿和面无表情，鼓手负责演出时敲断鼓棒，贝斯负责劝人喝奶茶。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757238/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/5_yrtt8j.png
+    title: 参赛歌曲 For No Reason | 歌手 程天畅
+    description: 生活体验派。在成为湾区平平无奇的软件工程师之前，在瑞典和英国游学过两年，也曾亲身经历武汉疫情并在国内远程两年。希望自己的生活丰富且有活力，喜欢运动，喜欢带着相机记录有趣的事件，也喜欢在特别的场景录下应景的歌。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/6_nj1uat.png
+    title: 参赛歌曲 无人知晓 | 歌手 牛童
+    description: 大家好，我是牛大童。我的工作是平时做做research，工作完了有时会唱唱歌；也有的时候一边工作一边唱歌。我参赛最主要的目的是想在自己喜欢做的事上变得越来越强。由于不好好准备上台实在丢不起这人，所以平时练声就格外有动力。希望能让大家在决赛那天感到不虚此行，因为好像不满意也不给退票的。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757237/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/7_w7ox1f.png
+    title: 参赛歌曲 锦上添花 | 歌手 Allen
+    description: 第一次参加载歌在谷，和大家切磋切磋。云养狗爱好者，喜欢好看的🚗🚗，喜欢听hiphop，耳机里喜欢放旋律，现场喜欢听炸的。希望和大家度过一个有趣的夏天。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/8_dcghfo.png
+    title: 参赛歌曲 异乡人 | 歌手 Barry
+    description: 忙碌的工作之余，感谢音乐，它像是一位多年的老友，陪我走过这些年的喜怒哀乐。我已经准备好，带着这位老友，期待遇见你，我们现场见！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757234/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/9_mptq1d.png
+    title: 参赛歌曲 我 | 歌手 宋洁
+    description: 我叫Ailsa，是一位刚研究生毕业、刚开始工作的打工人。我喜欢动物、甜食；喜欢形式新颖的有意思的音乐。希望能通过比赛认识更多能一起玩儿音乐的小伙伴。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757234/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/10_plvfh4.png
+    title: 参赛歌曲 要死就死在你手里 | 歌手 Elise
+    description: 我叫 Elise，是一名平平无奇的产品经理。平日里喜欢听听摇滚玩玩乐队。当然，也喜欢哼个小曲儿唱的小调儿。期望在短暂的一两首歌之中，可以暂时借走大家的双耳和双手。
