@@ -10,7 +10,7 @@ description: 如何在《硅谷脱口秀》的开放麦上表演？如何通过�
 
 # 如何在《硅谷脱口秀》的开放麦上表演？
 
-1. 加我们志愿者的微信 `NINETEENOSEVEN`[^1]。
+1. 加我们总教习的微信 `sty19900316`[^1]。
 2. **确实准备好**报名当周的开放麦后，联系总教习拉您加入“演员报名群”。
 3. 每周末，群里会开启一个**接龙**，用来报名来周的开放麦。您需要：
    1. 参与接龙，使用您想公之于众的艺名。
@@ -69,7 +69,7 @@ description: 如何在《硅谷脱口秀》的开放麦上表演？如何通过�
 - 课程《[单立人学院](http://www.danlirencomedy.com/dlrxy)》。
 
 [^1]: 二维码：
-    <img alt="微信二维码" src="https://user-images.githubusercontent.com/594058/172998936-8e024553-8821-4b66-90c1-e7f0e7cdec7c.png" height=200 />
+    <img alt="微信二维码" src="https://tva1.sinaimg.cn/large/e6c9d24egy1h2bzi0y412j20i10i13zq.jpg" height=200 />
 
 [^2]: 一些[写作提示（writing prompts）](https://blog.reedsy.com/short-story-ideas/comedy/)：
     - “猜猜我是谁？”你从后面捂住了 ta 的眼睛，以为 ta 是你的朋友。结果，ta 其实是个陌生人！这时，ta 转过身来，说……
