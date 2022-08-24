@@ -457,14 +457,19 @@ h2.gala-heading {
 }
 
 #singer-button {
-  margin:50px auto;
-  display:block;
-  width:200px;
-  font-size:2em;
-  height:auto;
-  text-align:center;
-  padding: 0.5em;
-  cursor: pointer;
+    margin: 50px auto;
+    display: block;
+    width: 200px;
+    font-size: 2em;
+    height: auto;
+    text-align: center;
+    padding: 0.5em;
+    cursor: pointer;
+    border-width: thick;
+    color: black;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 22px;
 }
 
 #close-overlay {
