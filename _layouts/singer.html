@@ -5,67 +5,32 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-12 mb-6 col-md-6 col-lg-6 align-self-center">
-        <div style="margin: 10px 50px">
-          <h2>2022歌手赛：</h2>
-          <p>
-           海选 时间：2022年06月19日 报名截止 <br>
-           初赛 时间：2022年07月09日 <br>
-           决赛 时间：2022年09月03日 <br>
-           地点：101 Paseo De San Antonio, San Jose, CA 95113 <br>
-           备注：SJSU Hammer Theatre Center <br>
-          </p>
-        </div>
+               <div style="margin: 10px 50px">
+               <h2>2022歌手赛：</h2>
+               <p>
+               海选 时间：2022年06月19日 报名截止 <br>
+               初赛 时间：2022年07月09日 <br>
+               决赛 时间：2022年09月03日 <br>
+               地点：101 Paseo De San Antonio, San Jose, CA 95113 <br>
+               备注：SJSU Hammer Theatre Center <br>
+               </p>
+               </div>
+
+                <div id="singer-button" class="button"> <a id="eventbrite"
+                href="http://zgzg.link/2022s-ticket-website"
+                style="color:green;" target="_blank">点击购票</a>
+                </div>
+                <div id="eb-overlay" class=''>
+                    <svg id="close-overlay" onclick="overlay_off()" x="0" y="0" viewBox="0 0 24 24" xml:space="preserve">
+                    <path id="cross-chunky_svg__eds-icon--cross-chunky_base" d="M13.4 12l3.5-3.5-1.4-1.4-3.5 3.5-3.5-3.5-1.4 1.4 3.5 3.5-3.5 3.5 1.4 1.4 3.5-3.5 3.5 3.5 1.4-1.4z">
+                    </path>
+                   </svg>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div id="buy-button" class="button"> <a id="eventbrite"
-        href="http://zgzg.link/2022s-ticket-website"
-        style="color:white;" target="_blank">点击购票</a>
-    </div>
-    <div id="eb-overlay" class=''>
-        <svg id="close-overlay" onclick="overlay_off()" x="0" y="0" viewBox="0 0 24 24" xml:space="preserve">
-            <path id="cross-chunky_svg__eds-icon--cross-chunky_base"
-                d="M13.4 12l3.5-3.5-1.4-1.4-3.5 3.5-3.5-3.5-1.4 1.4 3.5 3.5-3.5 3.5 1.4 1.4 3.5-3.5 3.5 3.5 1.4-1.4z">
-            </path>
-        </svg>
-        <div id="eventbrite-widget-container" style="width:100%">
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-    <script>
-        function toggle_faq() {
-            $("#faq").toggle();
-        }
-
-        function overlay_on() {
-            window.scrollTo(0, 0);
-            document.getElementById("eb-overlay").style.display = "block";
-        }
-
-        function overlay_off() {
-            document.getElementById("eb-overlay").style.display = "none";
-        }
-
-        var exampleCallback = function () {
-            console.log('Order complete!');
-        };
-        var iframeContainerHeight;
-        iframeContainerHeight = window.innerHeight * 0.98;
-
-        window.EBWidgets.createWidget({
-            // Required
-            widgetType: 'checkout',
-            eventId: '355595625087',
-            iframeContainerId: 'eventbrite-widget-container',
-
-            // Optional
-            iframeContainerHeight: iframeContainerHeight,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-            onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-        });
-    </script>
 
 {% include singerlist.html %}
 {% include sponsor-singer-all.html %}
