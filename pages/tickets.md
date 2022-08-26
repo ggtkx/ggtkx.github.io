@@ -17,7 +17,6 @@ description: 硅谷脱口秀每周五晚举行开放麦（open mic）。这里�
 
 地址：
 * 南湾/主剧场：[10268 Bandley Dr #107, Cupertino, CA 95014](https://goo.gl/maps/jX5B63r57Z4FgiDE7)[^1]
-* 东湾/pop-up：[8407 Central Ave, 2nd Floor, Newark, CA 94560](https://goo.gl/maps/S559ZAsRftXXo4kD9)
 
 请**使用以下表单**购买门票。（如果选项为空，说明该周入场劵已发完。）入场则视为您已同意现场规则（见下）。
 
@@ -28,7 +27,7 @@ description: 硅谷脱口秀每周五晚举行开放麦（open mic）。这里�
 ### 规则
 1. **消防要求**：观众必须凭票入场。
 2. **时间**：开放麦于开始时间前15分钟开放入场，开始时间5分钟后关门停止入场。
-3. **防疫要求**：**若入场前五天内您有新冠症状**，据 [CDC 规定](https://www.cdc.gov/media/releases/2021/s1227-isolation-quarantine-guidance.html)，还请您**回府隔离**，并联系我们取得退款。
+3. **防疫要求**：**若入场前五天内您有新冠症状**，据 [CDC 规定](https://www.cdc.gov/media/releases/2021/s1227-isolation-quarantine-guidance.html)，还请您**回府隔离**。
 4. **礼仪**：请勿录影、使用闪光灯。
 5. **卫生要求**：入场前需穿鞋套（现场提供）或脱鞋。禁止带入食品、饮品。这是因为目前开放麦场地与舞蹈教室共享。
 6. 硅谷脱口秀保留拒绝为任何人服务的权利。

@@ -15,7 +15,7 @@ Just for fun!
 
 We are a group of comedy lovers in the Silicon Valley area, mainly focusing on performing stand-up comedy shows in Chinese.
 
-For the past three years and counting, we gather together almost weekly. So far, _Chinese Comedy at Silicon Valley_ has held nearly two hundreds meet-ups. More than 100 guests have performed on the stage or virtually. Videos of our previous performances have achieved 70k+ views across [YouTube][yt] and [Bilibili][bl].
+For the past three years and counting, we gather together almost weekly. So far, _Chinese Comedy at Silicon Valley_ has held nearly three hundreds open mics. More than 150 guests have performed on the stage or virtually. Videos of our previous performances have achieved 100k+ views across [YouTube][yt] and [Bilibili][bl].
 
 {% include call.html show_button=true labels=site.data.l10n.en %}
 

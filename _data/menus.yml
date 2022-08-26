@@ -37,7 +37,7 @@ footer:
     weight: 1
 
   - name: "捐款"
-    url: "/donation/"
+    url: "/log/"
     weight: 2
 
   - name: "加入"
