@@ -454,16 +454,13 @@ ybyfs:
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661569391/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC02808_e66unk.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661627837/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_k4rtmn.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661628242/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_3_b9ssnl.png
   - name:
     type:
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661627837/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_k4rtmn.png
   - name:
     type:
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661628241/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_2_jieokb.png
-  - name:
-    type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661628242/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_3_b9ssnl.png
     
 past:
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439472/%E6%A2%A6%E8%88%9E%E6%95%A6%E7%85%8C_-_Blake_Zhu-18_rbgygk.jpg
