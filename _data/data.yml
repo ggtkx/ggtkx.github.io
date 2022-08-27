@@ -448,8 +448,10 @@ ybyfs:
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661569391/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC02834_wl8g7q.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661485274/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC02800_jcfsjr.jpg
-
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661485268/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6467_u7b6af.jpg
+  - name:
+    type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661569391/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC02808_e66unk.jpg
 past:
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439472/%E6%A2%A6%E8%88%9E%E6%95%A6%E7%85%8C_-_Blake_Zhu-18_rbgygk.jpg
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439477/ZGZG-ScottYang-200125-4174_zszlo8.jpg
