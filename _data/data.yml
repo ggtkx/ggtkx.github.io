@@ -194,6 +194,7 @@ sponsors-singer:
       description: 现在扫码下载熊猫外卖，即刻领取新人$38红包，开启你的中餐美食之旅吧！熊猫外卖，满足你的中国胃！
 
   media:
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661719431/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/%E5%90%83%E8%B4%A7%E5%B0%8F%E5%88%86%E9%98%9Flogo_full_syh050.png
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916546/zgzg-io-website/2_pes3u4.jpg
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916785/zgzg-io-website/1_bdeoh3.png
     - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916546/zgzg-io-website/sina_ah9fid.jpg
