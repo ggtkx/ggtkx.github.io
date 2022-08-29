@@ -37,7 +37,7 @@ bodyClass: page-home
     <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
       <h1>演员团</h1>
       {% assign crew = site.data.comedians | where: "isCurrentCrew", true | sort: "weight" | reverse %}
-      <p>在所有演员中，我们每半年筛选出最活跃、最受欢迎的朋友们，组成我们的演员团。本届成员为以下 {{ crew.size }} 人：</p>
+      <p>在所有参演者中，我们邀请最活跃、最受欢迎演员加入硅谷脱口秀演员团。本届成员为以下 {{ crew.size }} 人：</p>
       <div class="row justify-content-center">
         {% for comedian in crew %}
           {% include comedian.html comedian=comedian %}
