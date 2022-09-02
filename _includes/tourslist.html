@@ -1,0 +1,13 @@
+<div id="galalist-space">
+    <div class="container">
+        <div class="row">
+            {% for pic in site.data.data.tourslist %}
+            <div class="col-12 col-lg-12 col-md-4 galalist-section">
+                <img class="galalist-pic" src="{{ pic.image }}">
+                <h3> {{ pic.title }} </h3>
+                {{ pic.description }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
