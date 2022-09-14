@@ -15,6 +15,9 @@ permalink: /
 
 过去三年来，我们举办了 ~300 场表演，>150 位演员陆续参演，视频也有近10万次播放。
 
+**精品秀**：在即将到来的 10 月 15 日，硅谷脱口秀的 6 名当红演员，将为您带来精彩的演出！[点此](https://www.eventbrite.com/e/410228222657)获取门票。
+
+**开放麦**：
 {% include call.html show_button=true labels=site.data.l10n.cn %}
 
 无法莅临现场？欢迎订阅、分享我们的 [YouTube 频道](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A/featured)和[哔哩哔哩](https://space.bilibili.com/482647119)！
