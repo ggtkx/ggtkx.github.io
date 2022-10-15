@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "tslmy",
+      "name": "Ming",
+      "avatar_url": "https://avatars.githubusercontent.com/u/594058?v=4",
+      "profile": "http://myli.page",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "yj.zgzg.io",
+  "projectOwner": "zgzgorg"
+}
