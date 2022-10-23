@@ -79,7 +79,7 @@ programmes:
     contact:
       - "[YouTube 频道](https://www.youtube.com/channel/UCG2VTUUT3OWEYcAEi3ELamA)"
   - name: 一饱演福
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659910251/zgzg-io-website/1_fivcxb.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659910251/zgzg-io-website/1_fivcxb.png
     description: 戏剧/表演爱好者相互交流，共同创作，共同成长的平台。我们会定期举行线上/线下话剧 or 表演相关的活动。
     contact:
       - "[往期精选](/ybyf/)"
@@ -89,15 +89,15 @@ programmes:
 
 programmes_chunwan:
   - name: 歌手赛
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1655097027/singer_osizeh.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1655097027/singer_osizeh.png
     description: 2022 "载歌在谷" 歌手赛，我们在成功的经验上进一步扩大规模，全新规划，为您打造一年一度的，高水准的华人歌手赛。
     contact: "[详情](/singer/)"
   - name: 春节晚会
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638942437/zgzg-io-website/WechatIMG869_k2uxam.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638942437/zgzg-io-website/WechatIMG869_k2uxam.jpg
     description: 承袭自2015年Google春晚，现面向整个湾区。由200余名主要来自湾区高科技公司的志愿者和演员耗时半年精心打造，是湾区规模最大，观众最多，最具硅谷特色的春节晚会。
     contact: "[详情](/gala/)"
   - name: 游园会
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638942438/zgzg-io-website/WechatIMG870_vnlf8i.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638942438/zgzg-io-website/WechatIMG870_vnlf8i.jpg
     description: 春联，剪纸，书法，糖画，汉服，诗词，小舞台，为湾区华人朋友们打造一个最具有中华传统的特色游园会。完全免费，尤其适合家庭，让孩子们体验中国文化。
     contact: "[详情](/tour/)"
 
@@ -120,108 +120,108 @@ past-programmes:
 
 sponsors_yj:
   - name: Ginny Lee
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_200/v1636007705/zgzg-io-website/zgzg-io-website_640_thurn5-c_scale_w_250_woml1t.webp
-    description:  真诚靠谱为客户着想的资深地产团队。
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_200/v1636007705/zgzg-io-website/zgzg-io-website_640_thurn5-c_scale_w_250_woml1t.webp
+    description: 真诚靠谱为客户着想的资深地产团队。
     website: https://www.bqrealtygroup.com/agents/23-ginny-lee
   - name: MOOMOO
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_200/v1636009327/zgzg-io-website/moo_slji2u.png
-    description:  职场人超爱的高效交易APP。
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_200/v1636009327/zgzg-io-website/moo_slji2u.png
+    description: 职场人超爱的高效交易APP。
     website: https://www.moomoo.com/
 
 sponsors-yj-2022:
   sponsor:
     - name: ARK7
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656816376/zgzg-io-website/IMG_6273_pqgjs9.gif
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1656816376/zgzg-io-website/IMG_6273_pqgjs9.gif
     - name: gmcc
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656816375/zgzg-io-website/IMG_6274_ob7yba.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1656816375/zgzg-io-website/IMG_6274_ob7yba.jpg
 
 sponsors-singer:
   platinum:
     - name: flyhomes
       description: Flyhomes是一家专注在房地产领域的科技公司。完成 C 轮融资 1.5亿美金。不同于传统中介，Flyhomes采取团队作战方式。这和传统上“一个中介从头到尾负责一个客户” 非常不同。Flyhomes将整个买房过程拆解成不同的环节，每个顾客全程都会由一个经验丰富的客户顾问负责，提高了效率的同时也保证了质量。
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659911969/zgzg-io-website/1_fqqqod.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659911969/zgzg-io-website/1_fqqqod.png
       website-name: www.flyhomes.com
       website: https://www.flyhomes.com/mandarin?utm_source=EVENT&utm_medium=sponsorship&utm_content=090322NorCal-EVNT
 
   gold:
     - name: 红叶故事
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
       description: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
 
     - name: george-xie
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656789735/xie_dbxfoz.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1656789735/xie_dbxfoz.png
       description: George Xie 谢晓光 - 加州地产经纪人，Keller Williams TOP 1% Agent，CIPS。凭借着独特的私人银行和贷款金融背景，为客户提供全方面的房产置业资产配置咨询。超高的谈判沟通能力帮助客户拿到最好的价格。
 
     - name: LingoAce
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656783718/lingo_yviz8v.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1656783718/lingo_yviz8v.png
       description: 暑期宅家也要好好学习呀！LingoAce海外中文线上免费领取1对1试听中文课！听完的小朋友可以领取价值$20的amazon礼卡哟！加微信BayAreaKidFun了解领取福利详情！每周还会解锁湾区最新亲子活动噢!
 
     - name: Coco Tan
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661481301/zgzg-io-website/logo4_yvmiyq.jpg  
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661481301/zgzg-io-website/logo4_yvmiyq.jpg
       description: Coco Tan从业地产18年有余, 一直排名前1%。在全美140万名地产经纪人中, Coco名列由《华尔街日报》评选的前74名。2021年还未结束, 她已卖出了140多套房屋, 几乎每套都成功地打破了湾区的价格记录。她曾连续两年当选华美地产协会 (CAREA) 主席。
 
     - name: Steve Chen
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659917448/zgzg-io-website/IMG_6399_ovz1dp.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659917448/zgzg-io-website/IMG_6399_ovz1dp.jpg
       description: Steve Chen 富国银行房屋贷款经理. Steve 作为资深房屋贷款顾问及销售经理，服务在湾区享有极好口碑。他的专长包括 Relocation Loan，涉及 RSU 收入及海外资产的贷款。
 
     - name: Daniel Xi
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659917449/zgzg-io-website/20YH1F-DC_SF_DP_-_Custom_Logo_-_Daniel_Xi_-_SOE-blk-FINAL_1_rbacdp.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659917449/zgzg-io-website/20YH1F-DC_SF_DP_-_Custom_Logo_-_Daniel_Xi_-_SOE-blk-FINAL_1_rbacdp.jpg
       description: Top 1% Realtor，经验丰富，谈判技巧高，服务质量一流，无论买房卖房，都很擅长。2021年个人业绩全美排名第157名，交易量1.7亿美元。
-      
+
     - name: Ariel Chen
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660113834/zgzg-io-website/20YH1F-DC_SF_DP_-_Custom_Logo_-_Ariel_Chen_-_SOE-blk-FINAL_qr1v6_envmot.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660113834/zgzg-io-website/20YH1F-DC_SF_DP_-_Custom_Logo_-_Ariel_Chen_-_SOE-blk-FINAL_qr1v6_envmot.jpg
       description: 深耕地产行业多年，始终奉行将客户的利益放在第一位。买卖房屋，尤其擅长换房，给每个家庭提供定制化换房策略。
- 
+
     - name: Wukong
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1662160921/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Logo2_g1vp7v.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662160921/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Logo2_g1vp7v.png
       description: 风靡全球的WuKong在线课堂来到硅谷啦！赶快添加微信公众号【悟空中文】【悟空国际数学】0元领取试听课和学习资料大礼包！3-18岁孩子们的专属福利🎁
 
   musical_instrument:
     - name: Enya智能乐器
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661795574/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_6517_zfwmhh.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661795574/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_6517_zfwmhh.jpg
       description: 恩雅音乐是一家集乐器、智能音频、音乐文化、为一体的创新型科技音乐公司。超过十年的沉淀让恩雅更好的服务着全球音乐爱好者们。
-  
+
   venue:
     - name: mtv
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1656783910/WechatIMG530_rxjxda.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1656783910/WechatIMG530_rxjxda.png
       description: 音乐隧道，Music Tunnel，南湾最广为人知，最专业的娱乐休闲KTV！国内专业团队倾力打造，中英日韩多语种曲库实时更新，老歌新歌一应俱全。顶级音响设备，国内同步的时尚主题式设计装潢，带给您沉浸式的欢唱体验！炎热的夏日，我们就要拿着话筒，吹着空调，奶茶配上盐酥鸡，自在逍遥！
       website-name: www.musictunnelktv.com
       website: https://www.musictunnelktv.com/
 
   food:
     - name: weboba
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1657254451/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Combined-logo_am3ikv.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1657254451/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Combined-logo_am3ikv.png
       description: 鲜奶和茶的相遇，就像WeBoba和你传承千年的中华茶道，无需奶精掩饰，无需甜腻伪装你第一口就能尝到 Say No to 奶精，Say No to 茶粉茶渣茶你值得，最正统的茶味。
 
     - name: panda
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660408149/zgzg-io-website/IMG_6400_lu5gra_ffabex.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660408149/zgzg-io-website/IMG_6400_lu5gra_ffabex.jpg
       description: 现在扫码下载熊猫外卖，即刻领取新人$38红包，开启你的中餐美食之旅吧！熊猫外卖，满足你的中国胃！
 
   media:
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661720085/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/chihuo_uhom0r.png  
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916546/zgzg-io-website/2_pes3u4.jpg
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916785/zgzg-io-website/1_bdeoh3.png
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916546/zgzg-io-website/sina_ah9fid.jpg
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916389/zgzg-io-website/tuo_qeysuf.png
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659917435/zgzg-io-website/hy_i9edst.png
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659916374/zgzg-io-website/%E9%9D%9E%E9%B1%BC%E5%89%A7%E7%A4%BElogo_ls78l0.jpg
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660498867/image_26_pwxrsf.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661720085/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/chihuo_uhom0r.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659916546/zgzg-io-website/2_pes3u4.jpg
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659916785/zgzg-io-website/1_bdeoh3.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659916546/zgzg-io-website/sina_ah9fid.jpg
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659916389/zgzg-io-website/tuo_qeysuf.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659917435/zgzg-io-website/hy_i9edst.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659916374/zgzg-io-website/%E9%9D%9E%E9%B1%BC%E5%89%A7%E7%A4%BElogo_ls78l0.jpg
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660498867/image_26_pwxrsf.png
 
-  special: 
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660499610/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/image_28_wrksq1.png
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660407760/hanfu_m1hieb.png
+  special:
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660499610/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/image_28_wrksq1.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660407760/hanfu_m1hieb.png
 
 sponsors:
   diamond:
     - name: Coco
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1636693112/zgzg-io-website/coco_lx8uvq.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1636693112/zgzg-io-website/coco_lx8uvq.jpg
       website: https://www.realtorcocotan.com/
       description: Coco Tan从业地产18年有余, 一直排名前1%。在全美140万名地产经纪人中, Coco名列由《华尔街日报》评选的前74名。2021年还未结束, 她已卖出了140多套房屋, 几乎每套都成功地打破了湾区的价格记录。她曾连续两年当选华美地产协会 (CAREA) 主席。Coco主持的现场直播“周二会谭室”(T.A.N.)为大家带来丰富的地产及相关领域的知识。
       phone: (408) 829-6053
       email: CocoTanRE@gmail.com
       other: 微信 CocoTanRealEstate
     - name: Captain Dental
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1649530763/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_5854_ymcjaf.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1649530763/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_5854_ymcjaf.jpg
       website: https://www.captaindental.com/
       description: Captain Dental由Doris Yao, D.D.S 于2017年创立，我们创立的初衷就是要解决看牙贵，看牙痛，看牙水太深的问题。因此Captain Dental不仅注重高质量的治疗结果，也将顾客的满意与舒适度放在第一位。收费合理，透明也是我们一直以来贯彻的理念。成立至今我们在Google，Yelp上都是5星评分。
       phone: 408-826-4676
@@ -230,370 +230,369 @@ sponsors:
 
   platinum:
     - name: Steve Chen
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,q_80,w_200/v1638483572/zgzg-io-website/Steve_Chen_%E7%9B%B4%E6%92%AD%E5%8F%8A%E5%BE%AE%E4%BF%A1%E7%BE%A4logo_kbn5in.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,q_80,w_200/v1638483572/zgzg-io-website/Steve_Chen_%E7%9B%B4%E6%92%AD%E5%8F%8A%E5%BE%AE%E4%BF%A1%E7%BE%A4logo_kbn5in.jpg
       description: Steve 作为资深房屋贷款顾问及销售经理，服务在湾区享有极好口碑。他的专长包括 Relocation Loan，涉及 RSU 收入及海外资产的贷款。最近十年 Steve 连续荣获富国银行房贷最高荣誉 President’s Club Member 头衔
       phone: 408-805-1888
       email: Steve.T.Chen @wellsfargo.com
       website-name: Steve Chen Website
       website: https://www.wfhm.com/loans/steve-chen
     - name: LingoAce
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639628465/zgzg-io-website/162466266_151532423508863_1416856759243389483_n_tc1a6b.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639628465/zgzg-io-website/162466266_151532423508863_1416856759243389483_n_tc1a6b.jpg
       description: LingoAce成立于2017年，是一家科技型教育公司，专注于为3-15岁海外青少儿提供沉浸式、趣味化且卓有成效的中文学习体验。课程服务现已覆盖全球100多个国家和地区，平台聚集4000+优质中文教师，赢得全世界家长的信赖和认可！<br> 2021年，LingoAce完成B轮和C轮融资，总计1.6亿美元，领跑全球在线语言教育赛道！目前正在积极扩充全球团队，希望在美国、欧洲、澳洲、东南亚地区吸纳更多优秀人才。美国硅谷热招岗位：产品经理、市场营销、用户增长等，欢迎自荐或他荐！
       website-name: 在线中文试听礼包
       website: https://ad.chinesecourseforkids.com/#/teen/home?type=2&channel=MA-BDG-BC-OT-ZGZG
 
   gold:
     - name: 红叶故事
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
       description: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
 
   food:
     - name: harbor
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638422908/zgzg-io-website/%E6%B8%AF%E6%B9%BE%E6%B8%94%E9%82%A8logo_d02wdd.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638422908/zgzg-io-website/%E6%B8%AF%E6%B9%BE%E6%B8%94%E9%82%A8logo_d02wdd.jpg
       description: 灣區美食打卡地標! 【港灣漁邨】，原Newark 西貢漁港，以美輪美奐风貌成為東灣最具吸引力的美食海鮮食府。 訂座電話：510-793-1388. 地址：35219 Newark Blvd.，Newark
     - name: chowbus
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639894827/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Chowbus_Vertical_gwe7xp.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639894827/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Chowbus_Vertical_gwe7xp.png
       description: Chowbus是一家以亚洲美食为主的专业送餐平台，主营在线外卖，到店自取，超市配送等，致力于把真正的中国美食带给每一个用户.
     - name: tongsui
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639894828/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Logo_vuotis.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639894828/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Logo_vuotis.jpg
       description: Tongsui糖水是由两位90后女生在湾区创立，首家主打有机天然、低糖低卡的新式甜品茶饮品牌。品牌秉承对食材品质和味道的极致追求，以米其林的标准坚持“好食材，用心做”的品牌宗旨。糖水招牌椰子冻及鲜果茶饮先后被Eater SF，Yelp，Doordash 及“湾区吃货小分队”等多家主流媒体推荐。目前已有Sunnyvale和San Mateo两家店。
     - name: JaneWang
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641971016/zgzg-io-website/jane_tt3sex.png
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1641971016/zgzg-io-website/jane_tt3sex.png
       description: Jane Wang持有全美各州人寿保险执照，持续荣获MDRT全球寿险百万圆桌会员资格。精通人寿保险和年金，擅长规划免税退休金，教育基金,重大疾病保障和慢性病护理计划. Jane 从硅谷科技大厂资深项目经理转行金融保险行业，熟悉高科技企业员工的背景和需求。为您提供私人定制化的服务.
 
   media:
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1637378577/zgzg-io-website/Copy_of_%E5%90%83%E8%B4%A7%E5%B0%8F%E5%88%86%E9%98%9Flogo_qvkijb.jpg
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_pad,h_300,w_300/v1637378520/zgzg-io-website/Copy_of_%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0logo_ealrrz.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1637378577/zgzg-io-website/Copy_of_%E5%90%83%E8%B4%A7%E5%B0%8F%E5%88%86%E9%98%9Flogo_qvkijb.jpg
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_pad,h_300,w_300/v1637378520/zgzg-io-website/Copy_of_%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0logo_ealrrz.png
     - name: 北美新浪
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639787253/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/unnamed_xkujck.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639787253/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/unnamed_xkujck.jpg
       description: 新浪微博是中国最大的社交媒体之一，用户平均每天发布超过1亿条微博内容。由于信息传播高效性和广泛性，很多新鲜事物或热点事件通过微博得到广泛认知和关注。
       website-name: 北美新浪
       website: https://www.weibo.com/sinaus
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1638423104/zgzg-io-website/OMG_LOGO_H_lfv3fa.png
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_500/v1637379558/zgzg-io-website/FE9377D7-6995-418A-BCF5-436E9C07F6E2_lor2az.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638423104/zgzg-io-website/OMG_LOGO_H_lfv3fa.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_500/v1637379558/zgzg-io-website/FE9377D7-6995-418A-BCF5-436E9C07F6E2_lor2az.png
     - image: /images/cthm.svg
 
   others:
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639894827/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/M.STUDIO_o7isva.jpg
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639894827/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/M.STUDIO_o7isva.jpg
       description: M.STUDIO - 一站式高端婚纱&广告摄影工作室 - 于2016年创立在旧金山湾区。娴熟驾驭婚纱摄影，旅拍，儿童亲子家庭照，活动跟拍，大大小小商业广告。服务各种外景棚拍上门拍摄，并可量身定制，按需拍摄。就算只是一张照片，M.STUDIO也承诺做到最好！
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641536341/zgzg-io-website/Screen_Shot_2022-01-06_at_10.18.20_PM_qwymhi.png
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1641536341/zgzg-io-website/Screen_Shot_2022-01-06_at_10.18.20_PM_qwymhi.png
       description: UpHonest Capital威诚资本成立于2015年，由硅谷知名投资人郭威创立，以全球化视角，专注投资硅谷和中国的早期优质初创企业。成立至今，机构累计投资超过350家初创企业，20个独角兽项目。
-    - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641535479/zgzg-io-website/mmexport1640794147914_nyz2oy.jpg
+    - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1641535479/zgzg-io-website/mmexport1640794147914_nyz2oy.jpg
       description: HeCares综合医疗中心由旅美中医何东来1996年创办于硅谷。HeCares团队由多位仁心仁术的专业医生和细心热情的客服人员组成。患者人群来自谷歌，苹果，领英，雅虎等大型高科技企业白领和高管以及家属。团队拥有MCT和SENS等专利针灸技术，不仅擅长诊疗运动损伤，而且精研内外妇儿心理各科疾病。团队提供的七天二十四小时全天候急诊Hurgent Care和新冠诊疗服务更是深得硅谷消费者的欢迎和信任。
     - name: foundation
-      image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639886279/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_5461_vfw08s.jpg
+      image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639886279/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_5461_vfw08s.jpg
       description: Hometown Education Foundation 于2004年在美国成立，是资助中国贫困学生的独立慈善机构，获得美国IRS认证。可通过公司 matching donation program 捐款，或直接捐款。所获捐款100%用于贫困学生。滴水善意，也许可以支持家乡孩子一个月的伙食，一年的学费，成为他们改变命运的钥匙。
 
 shows:
   - name: 我爱你中国
     type: 歌曲
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639291044/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E6%88%91%E7%88%B1%E4%BD%A0%E4%B8%AD%E5%9B%BD.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639291044/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E6%88%91%E7%88%B1%E4%BD%A0%E4%B8%AD%E5%9B%BD.png
   - name: 一生守候
     type: 舞蹈
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639291259/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E4%B8%80%E7%94%9F%E5%AE%88%E5%80%99.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639291259/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E4%B8%80%E7%94%9F%E5%AE%88%E5%80%99.jpg
   - name: 琵琶行
     type: 器乐
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639292168/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E7%90%B5%E7%90%B6%E8%A1%8C_ym0neb.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639292168/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E7%90%B5%E7%90%B6%E8%A1%8C_ym0neb.jpg
   - name: 阿里郎随想
     type: 舞蹈
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639292181/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E9%98%BF%E9%87%8C%E9%83%8E_zrymkw.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639292181/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E9%98%BF%E9%87%8C%E9%83%8E_zrymkw.png
   - name: 春天的芭蕾
     type: 歌曲
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639291994/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E6%98%A5%E5%A4%A9%E7%9A%84%E8%8A%AD%E8%95%BE.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639291994/zgzg-io-website/2022%E8%8A%82%E7%9B%AE/%E6%98%A5%E5%A4%A9%E7%9A%84%E8%8A%AD%E8%95%BE.png
 
 tourslist:
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1662089337/zgzg-io-website/2022-游园/书法_zg2rig.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089337/zgzg-io-website/2022-游园/书法_zg2rig.jpg
     title: 书法
-    description: 人和书美意，家和福临门。中秋佳节，一起来写灯笼，书团扇，月圆人团圆。 
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1662089316/zgzg-io-website/2022-游园/灯谜2_xrobct.jpg
+    description: 人和书美意，家和福临门。中秋佳节，一起来写灯笼，书团扇，月圆人团圆。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089316/zgzg-io-website/2022-游园/灯谜2_xrobct.jpg
     title: 灯谜
     description: 挖掘传统底蕴，喜迎中秋佳节。看五彩灯笼挂满枝头，猜小小灯谜祝福连连。海上升明月，天涯共此时。（打一地名）。你猜谜底是什么？
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1662089306/zgzg-io-website/2022-游园/制簪_ads42h.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089306/zgzg-io-website/2022-游园/制簪_ads42h.jpg
     title: 制簪
     description: 慧心巧思，能夺天工。体验传统手工艺与现代设计互相交融的魅力，跟“簪娘”一起，亲手制作一份中国传统簪子。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1662089310/zgzg-io-website/2022-游园/灯笼_x4amg8.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089310/zgzg-io-website/2022-游园/灯笼_x4amg8.jpg
     title: 灯笼
     description: 做一份花草纸的兔子灯笼，或是用羽毛和玉兔装饰一个提灯？月圆之夜，我们一起点亮它。灯笼与明月，交相辉映。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1662089305/zgzg-io-website/2022-游园/芝麻开门2_euzewx.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089305/zgzg-io-website/2022-游园/芝麻开门2_euzewx.png
     title: 芝麻开门
     description: 诗眼韵脚长短句，炼字饶舌解谜题。通过阅读芝麻开门。亲近传统诗文，看谁能赢得宝藏！
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1662095165/zgzg-io-website/2022-游园/照相馆_sc5qj5.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662095165/zgzg-io-website/2022-游园/照相馆_sc5qj5.png
     title: 照相馆
     description: 国色天香四大美人，广寒仙子月下嫦娥。盔甲武士霸气出场，还不快来跟我合照一张！由北加州汉服社倾情献上的四大美人，月宫三人组还有盔甲武士booth！超强NPC阵容，绝对不容错过！
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1662089303/zgzg-io-website/2022-游园/童趣乐园1_fieihl.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089303/zgzg-io-website/2022-游园/童趣乐园1_fieihl.jpg
     title: 自助游戏区
     description: 大三通，小三通。孔明锁，鲁班锁。迷宫，叠叠乐，飞行棋，七巧板。益智烧脑，全家齐上阵。看谁脑筋最灵活，双手最灵巧。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1662089303/zgzg-io-website/2022-游园/姻缘墙_cxeeac.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089303/zgzg-io-website/2022-游园/姻缘墙_cxeeac.jpg
     title: 姻缘墙
     description: 云里寻TA千百度，蓦然回首，那人却在，姻缘庭墙处。未来已来，用AI让你邂逅意中人，从此告别单身！
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1662089318/zgzg-io-website/2022-游园/小舞台_dytitr.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089318/zgzg-io-website/2022-游园/小舞台_dytitr.jpg
     title: 小舞台
-    description: 看这边，汉服仙女，裙摆翩翩，惊鸿一瞥。看那边，窈窕谷妹，飒爽英姿，巾帼红颜！歌声悦耳悠扬，绕场三日而未消仍有余音；姻缘千里注定，线牵千里AI帮忙你牵线忙。届时的小舞台，将汇聚各路才艺达人，还有更多好玩的互动游戏，丰富大奖等你来拿！    
+    description: 看这边，汉服仙女，裙摆翩翩，惊鸿一瞥。看那边，窈窕谷妹，飒爽英姿，巾帼红颜！歌声悦耳悠扬，绕场三日而未消仍有余音；姻缘千里注定，线牵千里AI帮忙你牵线忙。届时的小舞台，将汇聚各路才艺达人，还有更多好玩的互动游戏，丰富大奖等你来拿！
 
 tours:
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344398/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0590_g0j2qk.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639344398/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0590_g0j2qk.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344397/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0669_dhqx3x.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639344397/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0669_dhqx3x.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344398/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0582_cbytfm.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639344398/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0582_cbytfm.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344397/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0704_nheyig.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639344397/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0704_nheyig.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344397/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0666_qhnhms.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639344397/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0666_qhnhms.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0550_oaouoy.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0550_oaouoy.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0562_wywuqq.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0562_wywuqq.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0557_txudnd.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0557_txudnd.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0573_vqemti.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0573_vqemti.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345932/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A1087_esrhjx.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345932/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A1087_esrhjx.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345932/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03793_toxqzh.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345932/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03793_toxqzh.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345933/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03822_phncbe.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345933/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03822_phncbe.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345933/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03660_ybehx2.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345933/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03660_ybehx2.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345933/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03840_atcrjs.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345933/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03840_atcrjs.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345934/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03849_pg610y.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345934/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03849_pg610y.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345933/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A1114_n7h6fa.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345933/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A1114_n7h6fa.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345934/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03712_o0d5sr.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345934/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03712_o0d5sr.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345934/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03865_irkazr.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345934/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03865_irkazr.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345935/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/mmexport1549299447181_njxm5x.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345935/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/mmexport1549299447181_njxm5x.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345935/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_4953_jx6mg0.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345935/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_4953_jx6mg0.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345935/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03952_ek8tak.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345935/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03952_ek8tak.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345936/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A1093_l1j7mb.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345936/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A1093_l1j7mb.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345936/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/mmexport1549228081349_ezmv0b.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345936/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/mmexport1549228081349_ezmv0b.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639345937/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03858_kfcvji.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639345937/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/DSC03858_kfcvji.jpg
 
 ybyfs:
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659930647/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_1_q5itgd.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659930647/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_1_q5itgd.png
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659930647/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_ilhio6.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659930647/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_ilhio6.png
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659929796/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04035_egc1te.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659929796/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04035_egc1te.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659928949/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04040_gzml6b.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659928949/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04040_gzml6b.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659928949/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04065_ei9ziy.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659928949/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04065_ei9ziy.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659928949/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04075_zbrygq.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659928949/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04075_zbrygq.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659927337/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6397_k7yabg.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659927337/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6397_k7yabg.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659927337/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6396_dke1bo.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659927337/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6396_dke1bo.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659927337/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6394_ttsk3w.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659927337/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6394_ttsk3w.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659927337/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6393_d8ocjf.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659927337/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6393_d8ocjf.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659927337/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6392_d5kznc.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659927337/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6392_d5kznc.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1659927336/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6391_ojwriw.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659927336/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6391_ojwriw.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661483597/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6490_ugfbfq.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661483597/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6490_ugfbfq.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661483593/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6467_obtvtr.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661483593/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6467_obtvtr.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661483593/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6478_lb0tva.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661483593/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6478_lb0tva.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661483590/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6296_qncbi4.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661483590/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6296_qncbi4.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661483591/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6295_lg9xkp.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661483591/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6295_lg9xkp.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661483591/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6299_fhoxib.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661483591/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6299_fhoxib.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661485274/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC02800_jcfsjr.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661485274/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC02800_jcfsjr.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661485276/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04773_huiipc.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661485276/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04773_huiipc.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661483590/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6291_f6cfsz.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661483590/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6291_f6cfsz.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661569401/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04786_sxr8i8.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661569401/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC04786_sxr8i8.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661627837/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_1_ljqehb.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661627837/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_1_ljqehb.png
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661483590/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6285_wj25zl.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661483590/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG-6285_wj25zl.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661569391/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC02834_wl8g7q.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661569391/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC02834_wl8g7q.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661569917/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC02810_ldd0zl.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661569917/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC02810_ldd0zl.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661569391/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC02808_e66unk.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661569391/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/DSC02808_e66unk.jpg
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661628242/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_3_b9ssnl.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661628242/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_3_b9ssnl.png
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661627837/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_k4rtmn.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661627837/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_k4rtmn.png
   - name:
     type:
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1661628241/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_2_jieokb.png
-    
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661628241/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_2_jieokb.png
+
 past:
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439472/%E6%A2%A6%E8%88%9E%E6%95%A6%E7%85%8C_-_Blake_Zhu-18_rbgygk.jpg
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439477/ZGZG-ScottYang-200125-4174_zszlo8.jpg
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439459/534A3159_resized_pj8eqb.jpg
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439471/534A2550_resized_idrghe.jpg
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439469/11%E4%B8%8D%E6%9F%93_00027_mmktyk.jpg
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439465/Beautiful_Mess_-_Blake_Zhu-7_c5tmep.jpg
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439462/2%E8%9D%B6%E6%81%8B%E8%8A%B1_00013_bsjqi5.jpg
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641439459/534A3347_resized_h0dz98.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1641439472/%E6%A2%A6%E8%88%9E%E6%95%A6%E7%85%8C_-_Blake_Zhu-18_rbgygk.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1641439477/ZGZG-ScottYang-200125-4174_zszlo8.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1641439459/534A3159_resized_pj8eqb.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1641439471/534A2550_resized_idrghe.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1641439469/11%E4%B8%8D%E6%9F%93_00027_mmktyk.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1641439465/Beautiful_Mess_-_Blake_Zhu-7_c5tmep.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1641439462/2%E8%9D%B6%E6%81%8B%E8%8A%B1_00013_bsjqi5.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1641439459/534A3347_resized_h0dz98.jpg
 
 galalist:
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_350/v1641757237/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/1_lzsw40.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_350/v1641757237/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/1_lzsw40.png
     title: 关东年 Chinese New Year | 开场 Opening
     description: 过年啦！！！ 穿新衣，逛庙会，玩手绢儿，舞红绸。 一群可爱的东北小妞们，开心快乐的庆祝着新的一年的到来。各自展示着自己的独特绝活，给庆祝新年带来，更多姿多彩的气氛！
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_350/v1641972670/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/2_xwhlkl.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_350/v1641972670/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/2_xwhlkl.png
     title: 涟漪 Wind Over the Ripples ｜ 舞蹈 Dance
     description: 春水浓如染，桃花破青山。春风吹皱江南，天色染透青衫。书生提笔绘纸鸢，假作彩鸾。愿涟漪点点落在姑娘心间。这支舞蹈表现了江南姑娘如水一般的灵动和柔情。水蓝色的裙子摇曳生姿如同湖面涟漪，落在观众心中。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757236/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/3_h9qgbh.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757236/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/3_h9qgbh.png
     title: 狮子王 Can You Feel the Love Tonight ｜ 阿卡贝拉 Acappella
     description: 拾乐团Find A Cappella 于2021 年10 月在南湾成立，是由一群在音乐中寻找快乐的青年组成的纯人声合唱团。他们将为大家带来一首萨瓦纳风格的情歌 —《狮子王》 插曲“Can You Feel the Love Tonight”.
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/4_jhhscx.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/4_jhhscx.png
     title: 学电台 Radio Talk ｜ 相声 Chinese Traditional Comedy
     description: 当今社会是一个信息爆炸的时代, 书籍、电视、网络, 各种宣传媒介充斥的我们的生活。在信息洪流中, 还存在着一种“古老而小众”的方式, 那就是电台。存在于收音机中的电台向来准时, 直接, 节目也是五花八门。这种只闻其声, 不见其人的传播方式伴随着我们成长。在《学电台》这段节目中, 两位演员凭借舞台上的模仿, 便带领大家温习曾经的时光, 领略电台的魅力。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757238/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/5_yrtt8j.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757238/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/5_yrtt8j.png
     title: 黎明前出发 Let’s Go Before Dawn ｜ 乐队 Band
     description: 太啤寺是一支年轻的4 人乐队，喜爱Indie Rock， Blues，Funk 和喝啤酒。生活周而复始，岁月简单罗列，张扬的日子也许只是黄粱一梦，可它琳琅满目，万紫千红。和爱自由的太啤寺一起，在《黎明前出发》，去完成那些精彩的梦。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/6_nj1uat.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/6_nj1uat.png
     title: 光亮 Light ｜ 歌曲 Singing
     description: 本节目为2021 载歌在谷想唱就唱歌手赛冠军直通春晚节目，由歌手赛冠军黄可一和乐队太啤寺合作完成。歌曲《光亮》温暖而又充满力量，唱出每一个平凡渺小的个体，在命运面前也依旧要坚强、努力，通过呐喊寻找“光亮”，寻找生命的一线生机，绝不放弃希望，做“最无畏的你”。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757237/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/7_w7ox1f.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757237/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/7_w7ox1f.png
     title: 奇迹嘉年华 Miracle Carnival ｜魔术Magic Show
     description: 你有亲身体验过奇迹吗？你有被人看穿过内心的想法吗？你有惊讶到合不拢嘴过吗？这个春节，Jack 带你遨游神奇的魔术海洋，届时会有空手变物、东西转换、读心术等等各种各样的惊喜，可能前一秒还是空空如也的黑布，下一刻就会出现一杯果汁；硬币在手中如同活过来一般忽隐忽现；随机选中的观众上台，也猜出心中藏最在最深处的秘密，想必票价也是超值了，快来坐上Jack 的奇幻之旅吧！
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/8_dcghfo.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/8_dcghfo.png
     title: 赤焰之缨 Red Spirit ｜ 舞蹈 Dance
     description: 此节目是由北京舞蹈学院毕业的施皓柔老师编排而成。她同样毕业于美国米尔斯学院编舞系。编导巧妙地将东西方不同的文化进行融合创新，使东方古典舞和西方的爵士舞摩擦出绚丽的火花。团队中的每个人都很喜欢跳舞。舞者中有工程师，医药科学家，设计师，注册会计师.
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757234/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/9_mptq1d.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757234/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/9_mptq1d.png
     title: 天蓝蓝 Blue is the Sky ｜ 歌曲 Singing
     description: 《天蓝蓝》是徐沛东作曲，乔羽作词的，为云南文山壮族苗族自治州创作的歌曲。歌曲将侗族大歌伴唱，广西山歌和广西小调等少数民族音乐元素融合，充分体现了壮族、苗族、侗族、彝族等西南少数民族的多样性。歌词唱出了对祖国山河画卷的赞美与对美好生活的殷切祝福。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641757234/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/10_plvfh4.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757234/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/10_plvfh4.png
     title: 阳光照耀着塔什库尔干 Sunshine over Tashkurgan ｜ 器乐二重奏 Piano Violin Ensemble
     description: 阳光照耀着塔什库尔干是一首极具中国特色民族风情的曲子，由编写梁祝的著名作曲人陈钢先生根据新疆民间音乐改编，描绘了祖国美丽的草原风光和牧民们载歌载舞的喜悦场景。“纵情高歌”展现了辽阔美丽的草原风光和牧民们骑在马上弹琴高歌的情景；“热烈欢舞”充分发挥了复杂多变敏捷灵活的技巧，表现了塔吉克人民欢腾的舞蹈的场面。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641763805/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/11_taicpg.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641763805/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/11_taicpg.png
     title: 街舞奇妙夜 Fantasy Night of Street Dance ｜ 舞蹈 Dance
     description: Enjoy Dance Studio (EDS) 是湾区最大的华人街舞工作室，向来以专业严谨的舞蹈教学和多元化的舞蹈风格著称，一直以来都活跃在湾区的各大舞台上， 为观众呈现了很多精彩的舞蹈作品。本次作品受《这！就是街舞》的启发，结合科幻的元素和题材，在展示街舞的魅力与多样性和EDS Family 全新面貌的同时，带领观众进行一次奇幻的体验。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641763804/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/12_vofv4z.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641763804/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/12_vofv4z.png
     title: 我爱你中国 I Love You China ｜ 乐队 Band
     description: 走起乐队是ZGZG 社区老朋友，从第一届参与至今。走起乐队（Start-Up Band）成立于2013 年，由一群致力于在湾区传播华人音乐的华人工程师，科学界以及音乐专业人士组成。表演风格多样，近年来成功举办过多次专场演唱会，并活跃在“载歌在谷”春晚、斯坦福春晚、硅谷高创汇等湾区知名华人活动平台。今年的“载歌在谷”春晚，走起将为大家带来《我爱你中国》。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641779943/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/13_iodvut.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779943/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/13_iodvut.png
     title: 爱的箴言 The Motto of Love ｜ 歌曲 Singing
     description: 一首经典的旋律，诉说和探讨着爱的真谛。由罗大佑作曲，邓丽君演唱的《爱的箴言》曾被无数次演绎过，而每个人心中的答案或许也都有些许不同。在这首歌中，爱是给予，是付出，是陪伴，也是默默守护。但也就像歌中所说，“爱是没有人能了解的的东西，爱是永恒的旋律”。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641779944/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/14_auocll.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779944/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/14_auocll.png
     title: 阿里郎随想 Arirang Caprice ｜ 舞蹈 Dance
     description: Q 舞团演绎的《阿里郎随想》是一支街舞与中国风的融合舞蹈。讲述了一位朝鲜族姑娘对爱情的憧憬和美好生活的向往，也表达了人们对未来太空世界的探索和追求。 Q 舞团由FLAG 等各大科技公司的工程师组成，作为专业篮球宝贝，她们被称为“最会编程的啦啦队”！她们不仅活跃在硅谷社区，更是走向世界。曾在Staples Center 南北加对抗赛，新浪3Ball USA 世界邀请赛，阿泰斯特丁彦雨航中美明星对抗赛等重量级活动中上演精彩演出。她们把优美的舞姿和对美好事物的向往分享给大家。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641779944/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/15_ruoyas.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779944/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/15_ruoyas.png
     title: 一生守候 To Be with You ｜ 舞蹈 Dance
     description: 舞蹈借由电影《大上海》里的插曲“一生守候”获得的创作灵感。故事讲述的是在民国时期，一对才子佳人的情缘缠绵，难分难舍的感情纠缠。才子终究还是走了，带着爱恨情愁，带着别离愁绪。浮生若梦，无情何欢？雨夜里感受他曾经逗留的背影，体会他指尖留下的余温，她在心底的一声叹息，也渐渐地被淹没在滚滚红尘中。一段难分难舍的感情，一段如诉如泣的纠缠。离与别，男与女，易相爱，难相守。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641779900/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/17_bjdplg.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779900/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/17_bjdplg.png
     title: 欢乐小才艺 Delightful Tricks ｜ 魔术 Magic Show
     description: 演员泽皮是现在就职于湾区科技公司的工程师。也是来自伊利诺伊州的青年魔术师. 本次表演中，魔术师将会在为大家展示如何用生活中常见的物品给大家创造惊喜。届时也会有幸运观众有机会上台和魔术师互动，和魔术师一起完成给剧院的观众的表演。本次是“载歌在谷”春晚开办以来，第一次为大家呈现近景魔术。“载歌在谷” 的节目组、技术组、摄制组的同学，克服种种技术难题，一同为大家在剧院现场呈现一个欢乐的魔术表演。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641779901/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/18_xqgbbh.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779901/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/18_xqgbbh.png
     title: 春天的芭蕾 The Spring Ballet ｜ 歌曲 Singing
     description: 春节是春天的节日，是鲜花点缀, 是欢乐相随。声乐老师王甜甜，四川音乐学院毕业，Frame 乐队主唱，让我们一起聆听由她带来的这首春天的芭蕾，一起来感受春天的气息，迎接春天的来临。谷歌芭蕾舞团也会和着音乐翩翩起舞，带来具有古典主义风格的芭蕾伴舞，美丽而优雅。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641779900/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/19_ewl2gp.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779900/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/19_ewl2gp.png
     title: 琵琶行Song of the Lute Player ｜ 器乐 Instrument
     description: 《琵琶行》，是唐代诗人白居易创作的叙事诗。全篇叙述了作者由长安被贬黜到九江期间邂逅了一位技艺高超的琵琶女，用演奏委婉生动地讲述了自己凄惨的身世，引得诸人皆感怀自身境遇而落寞掩泣的故事。此作品由琵琶和舞蹈共同演绎，重现了元和十年浔阳江头的邂逅和千古名句 “同是天涯沦落人，相逢何必曾相识” 中所表达的豁达胸怀。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/c_scale,w_300/v1641779900/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/20_gnp07n.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779900/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/20_gnp07n.png
     title: 诚 Pilgrimage ｜ 舞蹈 Dance
     description: 诚怀着无穷无尽力量的信仰，持着真诚朝拜路上的人儿。 双手高举合十，道声“扎西德勒”。
 
-
 singerlist:
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660354054/zgzg-io-website/2022%20singers/Wanli_%E9%BB%84%E4%B8%87%E5%88%A9_ww6wgb.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354054/zgzg-io-website/2022%20singers/Wanli_%E9%BB%84%E4%B8%87%E5%88%A9_ww6wgb.jpg
     title: 参赛歌曲 起风了 | 歌手 Wanli Huang
     description: 我的中文名是黄万利，英文名Leo。91年出生，今年31岁。来自烤鱼之乡，雾都重庆。爱好是音乐、运动，最不喜欢做的事情是看书。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660354065/zgzg-io-website/2022%20singers/2_uvwcen.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354065/zgzg-io-website/2022%20singers/2_uvwcen.jpg
     title: 参赛歌曲 诗句 | 歌手组合 一男一女
     description: 一男一女是一个男生（Ricky）和一个女生（采薇）临时搭伙的组合，组合如其名随性又可爱，代表了我们对音乐的态度。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660354074/zgzg-io-website/2022%20singers/image_19_bqcrag.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354074/zgzg-io-website/2022%20singers/image_19_bqcrag.png
     title: 参赛歌曲 末日飞船 | 歌手 Jiaqi Guo
     description: 我是湾区的软件工程师（呀，一点惊喜都没有呢）。一个喜欢喝奶茶的吃货，一个喜欢解谜但是解不出又很想放弃的人，也是一个不用喝酒唱歌就能嗨的噪音制造机。人生就活一次，尽管不完美，“我的世界我来浮夸” - 自华晨宇。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660354063/zgzg-io-website/2022%20singers/4_ultsxo.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354063/zgzg-io-website/2022%20singers/4_ultsxo.jpg
     title: 参赛歌曲 Crazy | 乐队 匿名布鲁斯
     description: 我们一支擅长整活儿和活跃气氛的Blues/Funk/R&B即兴乐队。主唱负责说相声和卡祖笛，吉他手分别负责弹簧腿和面无表情，鼓手负责演出时敲断鼓棒，贝斯负责劝人喝奶茶。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660354074/zgzg-io-website/2022%20singers/image_20_hl3m95.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354074/zgzg-io-website/2022%20singers/image_20_hl3m95.png
     title: 参赛歌曲 For No Reason | 歌手 程天畅
     description: 生活体验派。在成为湾区平平无奇的软件工程师之前，在瑞典和英国游学过两年，也曾亲身经历武汉疫情并在国内远程两年。希望自己的生活丰富且有活力，喜欢运动，喜欢带着相机记录有趣的事件，也喜欢在特别的场景录下应景的歌。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660354054/zgzg-io-website/2022%20singers/6_pq2gzz.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354054/zgzg-io-website/2022%20singers/6_pq2gzz.jpg
     title: 参赛歌曲 无人知晓 | 歌手 牛童
     description: 大家好，我是牛大童。我的工作是平时做做research，工作完了有时会唱唱歌；也有的时候一边工作一边唱歌。我参赛最主要的目的是想在自己喜欢做的事上变得越来越强。由于不好好准备上台实在丢不起这人，所以平时练声就格外有动力。希望能让大家在决赛那天感到不虚此行，因为好像不满意也不给退票的。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660354222/zgzg-io-website/2022%20singers/7_apq6on.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354222/zgzg-io-website/2022%20singers/7_apq6on.png
     title: 参赛歌曲 锦上添花 | 歌手 Allen Liu
     description: 第一次参加载歌在谷，和大家切磋切磋。云养狗爱好者，喜欢好看的🚗🚗，喜欢听hiphop，耳机里喜欢放旋律，现场喜欢听炸的。希望和大家度过一个有趣的夏天。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660354062/zgzg-io-website/2022%20singers/8_wzrlxu.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354062/zgzg-io-website/2022%20singers/8_wzrlxu.jpg
     title: 参赛歌曲 异乡人 | 歌手 Barry Wu
     description: 忙碌的工作之余，感谢音乐，它像是一位多年的老友，陪我走过这些年的喜怒哀乐。我已经准备好，带着这位老友，期待遇见你，我们现场见！
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660354074/zgzg-io-website/2022%20singers/image_21_nzxsl2.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354074/zgzg-io-website/2022%20singers/image_21_nzxsl2.png
     title: 参赛歌曲 我 | 歌手 Ailsa Song
     description: 我叫Ailsa，是一位刚研究生毕业、刚开始工作的打工人。我喜欢动物、甜食；喜欢形式新颖的有意思的音乐。希望能通过比赛认识更多能一起玩儿音乐的小伙伴。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1660354075/zgzg-io-website/2022%20singers/image_22_csrs0y.png
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354075/zgzg-io-website/2022%20singers/image_22_csrs0y.png
     title: 参赛歌曲 要死就死在你手里 | 歌手 Elise Jiang
     description: 我叫 Elise，是一名平平无奇的产品经理。平日里喜欢听听摇滚玩玩乐队。当然，也喜欢哼个小曲儿唱的小调儿。期望在短暂的一两首歌之中，可以暂时借走大家的双耳和双手。
