@@ -30,4 +30,5 @@ layout: default
 </div>
 
 {% include galalist.html %}
-{% include sponsor-section.html %}
+{% assign sponsor_type = site.data.data-sponsor.sponsors %}
+{% include sponsor-template.html %}
