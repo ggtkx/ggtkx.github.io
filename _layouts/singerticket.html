@@ -34,11 +34,11 @@ layout: default
                 href="http://zgzg.link/2022s-ticket-website"
                 target="_blank">Eventbrite</a> 网站购票。
             <h4 id="faq1" style="color:#c12028"> 常见问题FAQ</h4>
-            {% capture p1 %}{% include singer-ticket-faq.md %}{% endcapture %}
-            {{ p1 | markdownify }}
-<!--            <div id="faq" style="display:none;">-->
+            <div id="faq">
+                {% capture p1 %}{% include singer-ticket-faq.md %}{% endcapture %}
+                {{ p1 | markdownify }}
 <!--                <a onclick="toggle_faq()">收起</a>-->
-<!--            </div>-->
+            </div>
         </div>
     </div>
     <div id="buy-button" class="button"> <a id="eventbrite-2"
