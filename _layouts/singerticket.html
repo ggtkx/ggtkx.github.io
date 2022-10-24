@@ -19,7 +19,7 @@ layout: default
                     <h3>好消息:</h3>
                     <p>
                        本次晚会实行阶梯票价，共提供 $50, $30,  $15三种票价.</p>     
-                    <p><b><span id="warning" onclick="$('#faq').show()"><a href="#faq1" style="color:white">详情请见FAQ.</a></span></b></p>
+                    <p><b><span id="warning" onclick="$('#faq').show()"><a href="#faq" style="color:white">详情请见FAQ.</a></span></b></p>
                 </div>
             </div>
         </div>
@@ -33,9 +33,11 @@ layout: default
             <a id="eventbrite"
                 href="http://zgzg.link/2022s-ticket-website"
                 target="_blank">Eventbrite</a> 网站购票。
-            <h4 id="faq1" style="color:#c12028"> 常见问题FAQ</h4>
-            {% capture p1 %}{% include singer-ticket-faq.md %}{% endcapture %}
-            {{ p1 | markdownify }}
+<!--            <h4 id="faq1" style="color:#c12028"> 常见问题FAQ</h4>-->
+            <div id="faq">
+                {% capture p1 %}{% include singer-ticket-faq.md %}{% endcapture %}
+                {{ p1 | markdownify }}
+            </div>
 <!--            <div id="faq" style="display:none;">-->
 <!--                <a onclick="toggle_faq()">收起</a>-->
 <!--            </div>-->
