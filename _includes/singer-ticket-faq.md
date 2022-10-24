@@ -7,7 +7,7 @@ Eventbrite购买残疾人专座。
 
 问：停车场在哪里？
 
-答：附近有若干个停车场，最近的停车场在the 2nd and San Carlos Garage，有超过500个车位。参考网址：http://parksj.org/parking-map/
+答：附近有若干个停车场，最近的停车场在the 2nd and San Carlos Garage，有超过500个车位。参考网址：<http://parksj.org/parking-map/>
 
 问：我可以带食物、饮料、酒水、宠物进场吗？
 
