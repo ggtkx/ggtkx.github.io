@@ -16,33 +16,20 @@ layout: default
                          <a target="_blank" style="color:white; text-decoration: underline;"
                         href='https://www.google.com/maps/place/Hammer+Theatre+Center/@37.3336792,-121.8886109,17z/data=!3m2!4b1!5s0x808fccbbb9bebab1:0xaf6abb9c1fc8d3a8!4m5!3m4!1s0x808fccbbb0a2f5c5:0x26272d38a4f0d72c!8m2!3d37.333675!4d-121.8864222'>点击查看地图</a><br>
                         </p>
-                    <h3>好消息:</h3>
-                    <p>
-                       本次晚会实行阶梯票价，共提供 $50, $30,  $15三种票价.</p>     
-                    <p><b><span id="warning" onclick="$('#faq').show()"><a href="#faq" style="color:white">详情请见FAQ.</a></span></b></p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<div class="container">
-    <div class="card">
-        <div class="card-body">
-            请在下方直接购票或在
-            <a id="eventbrite"
-                href="http://zgzg.link/2022s-ticket-website"
-                target="_blank">Eventbrite</a> 网站购票。
-<!--            <h4 id="faq1" style="color:#c12028"> 常见问题FAQ</h4>-->
-            <div id="faq">
-                {% capture p1 %}{% include singer-ticket-faq.md %}{% endcapture %}
-                {{ p1 | markdownify }}
-            </div>
-<!--            <div id="faq" style="display:none;">-->
-<!--                <a onclick="toggle_faq()">收起</a>-->
-<!--            </div>-->
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="service service-single" id="content">
+            <div class="content">{{content}}</div>
         </div>
     </div>
+</div>
+
+<div class="container">
     <div id="buy-button" class="button"> <a id="eventbrite-2"
         href="http://zgzg.link/2022s-ticket-website"
         style="color:white;" target="_blank">点击购票</a>
