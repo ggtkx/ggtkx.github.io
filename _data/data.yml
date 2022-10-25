@@ -303,31 +303,31 @@ shows:
 
 tourslist:
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089337/zgzg-io-website/2022-游园/书法_zg2rig.jpg
-    title: 书法
+    name: 书法
     description: 人和书美意，家和福临门。中秋佳节，一起来写灯笼，书团扇，月圆人团圆。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089316/zgzg-io-website/2022-游园/灯谜2_xrobct.jpg
-    title: 灯谜
+    name: 灯谜
     description: 挖掘传统底蕴，喜迎中秋佳节。看五彩灯笼挂满枝头，猜小小灯谜祝福连连。海上升明月，天涯共此时。（打一地名）。你猜谜底是什么？
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089306/zgzg-io-website/2022-游园/制簪_ads42h.jpg
-    title: 制簪
+    name: 制簪
     description: 慧心巧思，能夺天工。体验传统手工艺与现代设计互相交融的魅力，跟“簪娘”一起，亲手制作一份中国传统簪子。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089310/zgzg-io-website/2022-游园/灯笼_x4amg8.jpg
-    title: 灯笼
+    name: 灯笼
     description: 做一份花草纸的兔子灯笼，或是用羽毛和玉兔装饰一个提灯？月圆之夜，我们一起点亮它。灯笼与明月，交相辉映。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089305/zgzg-io-website/2022-游园/芝麻开门2_euzewx.png
-    title: 芝麻开门
+    name: 芝麻开门
     description: 诗眼韵脚长短句，炼字饶舌解谜题。通过阅读芝麻开门。亲近传统诗文，看谁能赢得宝藏！
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662095165/zgzg-io-website/2022-游园/照相馆_sc5qj5.png
-    title: 照相馆
+    name: 照相馆
     description: 国色天香四大美人，广寒仙子月下嫦娥。盔甲武士霸气出场，还不快来跟我合照一张！由北加州汉服社倾情献上的四大美人，月宫三人组还有盔甲武士booth！超强NPC阵容，绝对不容错过！
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089303/zgzg-io-website/2022-游园/童趣乐园1_fieihl.jpg
-    title: 自助游戏区
+    name: 自助游戏区
     description: 大三通，小三通。孔明锁，鲁班锁。迷宫，叠叠乐，飞行棋，七巧板。益智烧脑，全家齐上阵。看谁脑筋最灵活，双手最灵巧。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089303/zgzg-io-website/2022-游园/姻缘墙_cxeeac.jpg
-    title: 姻缘墙
+    name: 姻缘墙
     description: 云里寻TA千百度，蓦然回首，那人却在，姻缘庭墙处。未来已来，用AI让你邂逅意中人，从此告别单身！
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089318/zgzg-io-website/2022-游园/小舞台_dytitr.jpg
-    title: 小舞台
+    name: 小舞台
     description: 看这边，汉服仙女，裙摆翩翩，惊鸿一瞥。看那边，窈窕谷妹，飒爽英姿，巾帼红颜！歌声悦耳悠扬，绕场三日而未消仍有余音；姻缘千里注定，线牵千里AI帮忙你牵线忙。届时的小舞台，将汇聚各路才艺达人，还有更多好玩的互动游戏，丰富大奖等你来拿！
 
 tours:
