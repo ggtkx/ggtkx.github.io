@@ -1,6 +1,6 @@
 # 《载歌在谷》志愿者社区官方网站
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c7624c6e88564a0988cb2a0dd82ebd85)](https://www.codacy.com/gh/zgzgorg/yj.zgzg.io/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zgzgorg/yj.zgzg.io&amp;utm_campaign=Badge_Grade)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/zgzgorg/yj.zgzg.io/main.svg)](https://results.pre-commit.ci/latest/github/zgzgorg/yj.zgzg.io/main)
@@ -114,6 +114,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center"><a href="http://myli.page"><img src="https://avatars.githubusercontent.com/u/594058?v=4?s=100" width="100px;" alt="Ming"/><br /><sub><b>Ming</b></sub></a><br /><a href="#infra-tslmy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/zgzgorg/yj.zgzg.io/commits?author=tslmy" title="Tests">⚠️</a> <a href="https://github.com/zgzgorg/yj.zgzg.io/commits?author=tslmy" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/xubowenhaoren"><img src="https://avatars.githubusercontent.com/u/20229080?v=4?s=100" width="100px;" alt="Bowen Xu"/><br /><sub><b>Bowen Xu</b></sub></a><br /><a href="https://github.com/zgzgorg/yj.zgzg.io/commits?author=xubowenhaoren" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
