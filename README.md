@@ -40,7 +40,7 @@ One of the hooks use the [ESLint](https://eslint.org/) tool to check JavaScript 
   - `past-events.yml`：定义了[《往届活动》](https://www.zgzg.io/past-events/)页面的内容。
   - `trailer-images.yml`：罗列了一些春晚宣传片的拍摄花絮照片。
 
-⚠️ **注意**：本代码库虽然包含一个 `images` 文件夹，但它已经被弃用了。若需要存放照片，请使用我们自己的 Cloudinary 服务。
+⚠️ **注意**：本代码库虽然包含一个 `images` 文件夹，但它仅应该被用来存放 svg 等源代码格式的图片。若需要存放 jpg、png 等二进制格式的图片，请使用我们自己的 Cloudinary 服务。
 
 ### 如果你想要开发网站功能
 - `_layouts`：当朴素的 `layout: page` 难以满足您的表达需求时，您可以创建新的 layout，存放于这里。请参见下文“如何自由排版”一节。
