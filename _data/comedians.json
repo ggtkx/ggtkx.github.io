@@ -2,8 +2,8 @@
     {
         "title": "Aaron",
         "weightBeforeShowsSheet": 61,
-        "countFromShowsSheet": 16,
-        "weight": 77,
+        "countFromShowsSheet": 26,
+        "weight": 87,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "isCurrentCrew": true,
@@ -15,16 +15,29 @@
     {
         "title": "寇寇",
         "weightBeforeShowsSheet": 25,
-        "countFromShowsSheet": 13,
-        "weight": 38,
+        "countFromShowsSheet": 23,
+        "weight": 48,
         "image": "https://i.imgur.com/LnobTPF.png",
         "isCurrentCrew": true
     },
     {
+        "title": "昭阳",
+        "weightBeforeShowsSheet": 15,
+        "countFromShowsSheet": 29,
+        "weight": 44,
+        "image": "https://tva1.sinaimg.cn/large/008vxvgGgy1h7ihsclnxuj30oi0oigom.jpg",
+        "description": "以口为刀，切开白日下的荒谬",
+        "isCurrentCrew": true,
+        "contact": [
+            "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz/)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mOqnLKXBeAHISpq2FMpu9z)"
+        ]
+    },
+    {
         "title": "Tracy",
         "weightBeforeShowsSheet": 34,
-        "countFromShowsSheet": 1,
-        "weight": 35,
+        "countFromShowsSheet": 2,
+        "weight": 36,
         "image": "https://i.imgur.com/EjEYK7y.png",
         "description": "生活=经历 经历=段子 生活=段子",
         "isCurrentCrew": true,
@@ -32,6 +45,28 @@
             "微信：`51423369`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
         ]
+    },
+    {
+        "title": "孙刘",
+        "weightBeforeShowsSheet": 14,
+        "countFromShowsSheet": 20,
+        "weight": 34,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
+        "description": "过来闹点笑话",
+        "isCurrentCrew": true,
+        "contact": [
+            "联系方式：可以直接现场问我要"
+        ]
+    },
+    {
+        "title": "Yudy",
+        "weightBeforeShowsSheet": 8,
+        "countFromShowsSheet": 26,
+        "weight": 34,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkyivb1oj20uw0u0whi.jpg",
+        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。",
+        "crewSeasonIds": 2,
+        "isCurrentCrew": true
     },
     {
         "title": "早恋",
@@ -47,23 +82,26 @@
         ]
     },
     {
-        "title": "邵远",
+        "title": "尾羽",
         "weightBeforeShowsSheet": 15,
         "countFromShowsSheet": 18,
         "weight": 33,
-        "image": "https://i.imgur.com/50YpVbT.png",
-        "description": "攀岩界最会说相声的数学家。",
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
+        "description": "做一只特立独行的猪",
         "isCurrentCrew": true,
         "contact": [
-            "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz/)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mOqnLKXBeAHISpq2FMpu9z)"
+            "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
+        ],
+        "highlights": [
+            "2022年《北美校友脱口秀大赛》亚军"
         ]
     },
     {
         "title": "邵天宇",
         "weightBeforeShowsSheet": 25,
-        "countFromShowsSheet": 4,
-        "weight": 29,
+        "countFromShowsSheet": 5,
+        "weight": 30,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8e6hgmej30b20b23z0.jpg",
         "description": "曾经是一名脱口秀表演者",
         "crewSeasonIds": 1,
@@ -76,19 +114,16 @@
         ]
     },
     {
-        "title": "尾羽",
-        "weightBeforeShowsSheet": 15,
-        "countFromShowsSheet": 14,
+        "title": "黎明洋",
+        "weightBeforeShowsSheet": 24,
+        "countFromShowsSheet": 5,
         "weight": 29,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
-        "description": "做一只特立独行的猪",
-        "isCurrentCrew": true,
+        "image": "https://i.imgur.com/8kHVjfD.png",
+        "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
+        "crewSeasonIds": 1,
         "contact": [
-            "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
-        ],
-        "highlights": [
-            "2022年《北美校友脱口秀大赛》亚军"
+            "[个人主页](https://myli.page)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nI_Q__rFRKJ6BqWHEgPKy7)"
         ]
     },
     {
@@ -104,29 +139,6 @@
         ]
     },
     {
-        "title": "Yudy",
-        "weightBeforeShowsSheet": 8,
-        "countFromShowsSheet": 20,
-        "weight": 28,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkyivb1oj20uw0u0whi.jpg",
-        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。",
-        "crewSeasonIds": 2,
-        "isCurrentCrew": true
-    },
-    {
-        "title": "黎明洋",
-        "weightBeforeShowsSheet": 24,
-        "countFromShowsSheet": 3,
-        "weight": 27,
-        "image": "https://i.imgur.com/8kHVjfD.png",
-        "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
-        "crewSeasonIds": 1,
-        "contact": [
-            "[个人主页](https://myli.page)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nI_Q__rFRKJ6BqWHEgPKy7)"
-        ]
-    },
-    {
         "title": "小企鹅 Lisa",
         "weightBeforeShowsSheet": 24,
         "countFromShowsSheet": 1,
@@ -139,18 +151,6 @@
         ]
     },
     {
-        "title": "孙刘",
-        "weightBeforeShowsSheet": 14,
-        "countFromShowsSheet": 11,
-        "weight": 25,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
-        "description": "过来闹点笑话",
-        "isCurrentCrew": true,
-        "contact": [
-            "联系方式：可以直接现场问我要"
-        ]
-    },
-    {
         "title": "Monkey",
         "weightBeforeShowsSheet": 22,
         "countFromShowsSheet": 1,
@@ -160,6 +160,30 @@
         "contact": [
             "Instagram: [bigmonkeyma](https://www.instagram.com/bigmonkeyma/)",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kTGnvPs-sI21crusfMQLKO)"
+        ]
+    },
+    {
+        "title": "韩哥",
+        "weightBeforeShowsSheet": 9,
+        "countFromShowsSheet": 13,
+        "weight": 22,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gybwozgawpj30u00u0dib.jpg",
+        "description": "硬件工程师",
+        "crewSeasonIds": 2,
+        "isCurrentCrew": true
+    },
+    {
+        "title": "Sean",
+        "weightBeforeShowsSheet": 4,
+        "countFromShowsSheet": 17,
+        "weight": 21,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
+        "description": "表演经验30多年的老演员",
+        "crewSeasonIds": 2,
+        "isCurrentCrew": true,
+        "contact": [
+            "[牛油果烤面包播客](https://avocadotoast.live/)",
+            "微信：`454308623`"
         ]
     },
     {
@@ -176,16 +200,6 @@
         ]
     },
     {
-        "title": "韩哥",
-        "weightBeforeShowsSheet": 9,
-        "countFromShowsSheet": 10,
-        "weight": 19,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gybwozgawpj30u00u0dib.jpg",
-        "description": "硬件工程师",
-        "crewSeasonIds": 2,
-        "isCurrentCrew": true
-    },
-    {
         "title": "兔子特特",
         "weightBeforeShowsSheet": 16,
         "countFromShowsSheet": 1,
@@ -196,6 +210,14 @@
             "Clubhouse ID: `rabbit1`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kapbhDaBG-qFjV5cI8hNor)"
         ]
+    },
+    {
+        "title": "仓老师",
+        "weightBeforeShowsSheet": 7,
+        "countFromShowsSheet": 10,
+        "weight": 17,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8os23tcj30a20a2mxr.jpg",
+        "description": "我要一瓶冰冻的可口可乐"
     },
     {
         "title": "小朱",
@@ -209,24 +231,10 @@
         ]
     },
     {
-        "title": "Sean",
-        "weightBeforeShowsSheet": 4,
-        "countFromShowsSheet": 11,
-        "weight": 15,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
-        "description": "表演经验30多年的老演员",
-        "crewSeasonIds": 2,
-        "isCurrentCrew": true,
-        "contact": [
-            "[牛油果烤面包播客](https://avocadotoast.live/)",
-            "微信：`454308623`"
-        ]
-    },
-    {
         "title": "Larry",
         "weightBeforeShowsSheet": 11,
-        "countFromShowsSheet": 3,
-        "weight": 14,
+        "countFromShowsSheet": 4,
+        "weight": 15,
         "image": "https://i.imgur.com/KJJz7Ek.png",
         "description": "毁人不倦的中文老湿 从不鸡娃的轮滑教练",
         "contact": [
@@ -235,12 +243,14 @@
         ]
     },
     {
-        "title": "仓老师",
+        "title": "福禄",
         "weightBeforeShowsSheet": 7,
-        "countFromShowsSheet": 7,
-        "weight": 14,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8os23tcj30a20a2mxr.jpg",
-        "description": "我要一瓶冰冻的可口可乐"
+        "countFromShowsSheet": 8,
+        "weight": 15,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
+        "description": "幽默儿神童",
+        "crewSeasonIds": 2,
+        "isCurrentCrew": true
     },
     {
         "title": "大头丁",
@@ -253,14 +263,16 @@
         ]
     },
     {
-        "title": "福禄",
-        "weightBeforeShowsSheet": 7,
-        "countFromShowsSheet": 2,
+        "title": "世雄",
+        "weightBeforeShowsSheet": 0,
+        "countFromShowsSheet": 9,
         "weight": 9,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
-        "description": "幽默儿神童",
-        "crewSeasonIds": 2,
-        "isCurrentCrew": true
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2glgo1puwj20fm0fiq3w.jpg",
+        "description": "像rapper，但喜欢脱口秀\n其实还想搞设计。",
+        "contact": [
+            "Instagram: [northzsx](https://www.instagram.com/northzsx/)",
+            "website：[shixiong.design](https://www.shixiong.design/)"
+        ]
     },
     {
         "title": "大国",
@@ -285,15 +297,15 @@
         ]
     },
     {
-        "title": "世雄",
+        "title": "Richard Yan",
         "weightBeforeShowsSheet": 0,
         "countFromShowsSheet": 8,
         "weight": 8,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2glgo1puwj20fm0fiq3w.jpg",
-        "description": "像rapper，但喜欢脱口秀\n其实还想搞设计。",
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h3w1228tyhj20b40b4wf6.jpg",
+        "description": "专讲 Web 3.0 和非 Web 3.0 的笑话",
         "contact": [
-            "Instagram: [northzsx](https://www.instagram.com/northzsx/)",
-            "website：[shixiong.design](https://www.shixiong.design/)"
+            "Twitter: [`@laughdao`](https://twitter.com/laughdao)",
+            "[YouTube](https://www.youtube.com/channel/UCm0E3ZTzjVoXsoIyDeud8Mw)"
         ]
     },
     {
@@ -340,18 +352,6 @@
         "contact": [
             "[cseweb.ucsd.edu/~x1yu](https://cseweb.ucsd.edu/~x1yu/) —— Ph.D.社交当然是发邮件啦",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mCtxGtaR1qDan2Z0Fax3ko)"
-        ]
-    },
-    {
-        "title": "Richard Yan",
-        "weightBeforeShowsSheet": 0,
-        "countFromShowsSheet": 6,
-        "weight": 6,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h3w1228tyhj20b40b4wf6.jpg",
-        "description": "专讲 Web 3.0 和非 Web 3.0 的笑话",
-        "contact": [
-            "Twitter: [`@laughdao`](https://twitter.com/laughdao)",
-            "[YouTube](https://www.youtube.com/channel/UCm0E3ZTzjVoXsoIyDeud8Mw)"
         ]
     },
     {
