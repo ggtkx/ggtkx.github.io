@@ -1,9 +1,13 @@
 <div class="sponsor">
     {% if sponsor.image %}
     <div class="sponsor-image">
+        {% if sponsor.website %}
         <a href="{{ sponsor.website }}">
             <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
         </a>
+        {% else %}
+        <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
+        {% endif %}
     </div>
     {% endif %}
     <div class="sponsor-content">

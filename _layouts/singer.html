@@ -27,4 +27,5 @@ layout: default
 
 
 {% include singerlist.html %}
-{% include sponsor-singer-all.html %}
+{% assign sponsor_type = site.data.data-sponsor.sponsors-singer %}
+{% include sponsor-template.html %}
