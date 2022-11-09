@@ -2,8 +2,8 @@
     {
         "title": "Aaron",
         "weightBeforeShowsSheet": 61,
-        "countFromShowsSheet": 26,
-        "weight": 87,
+        "countFromShowsSheet": 27,
+        "weight": 88,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "isCurrentCrew": true,
@@ -15,16 +15,16 @@
     {
         "title": "寇寇",
         "weightBeforeShowsSheet": 25,
-        "countFromShowsSheet": 23,
-        "weight": 48,
+        "countFromShowsSheet": 24,
+        "weight": 49,
         "image": "https://i.imgur.com/LnobTPF.png",
         "isCurrentCrew": true
     },
     {
         "title": "昭阳",
         "weightBeforeShowsSheet": 15,
-        "countFromShowsSheet": 29,
-        "weight": 44,
+        "countFromShowsSheet": 31,
+        "weight": 46,
         "image": "https://tva1.sinaimg.cn/large/008vxvgGgy1h7ihsclnxuj30oi0oigom.jpg",
         "description": "以口为刀，切开白日下的荒谬",
         "isCurrentCrew": true,
@@ -36,8 +36,8 @@
     {
         "title": "Tracy",
         "weightBeforeShowsSheet": 34,
-        "countFromShowsSheet": 2,
-        "weight": 36,
+        "countFromShowsSheet": 3,
+        "weight": 37,
         "image": "https://i.imgur.com/EjEYK7y.png",
         "description": "生活=经历 经历=段子 生活=段子",
         "isCurrentCrew": true,
@@ -47,10 +47,20 @@
         ]
     },
     {
+        "title": "Yudy",
+        "weightBeforeShowsSheet": 8,
+        "countFromShowsSheet": 28,
+        "weight": 36,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkyivb1oj20uw0u0whi.jpg",
+        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。",
+        "crewSeasonIds": 2,
+        "isCurrentCrew": true
+    },
+    {
         "title": "孙刘",
         "weightBeforeShowsSheet": 14,
-        "countFromShowsSheet": 20,
-        "weight": 34,
+        "countFromShowsSheet": 21,
+        "weight": 35,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
         "description": "过来闹点笑话",
         "isCurrentCrew": true,
@@ -59,14 +69,20 @@
         ]
     },
     {
-        "title": "Yudy",
-        "weightBeforeShowsSheet": 8,
-        "countFromShowsSheet": 26,
+        "title": "尾羽",
+        "weightBeforeShowsSheet": 15,
+        "countFromShowsSheet": 19,
         "weight": 34,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkyivb1oj20uw0u0whi.jpg",
-        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。",
-        "crewSeasonIds": 2,
-        "isCurrentCrew": true
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
+        "description": "做一只特立独行的猪",
+        "isCurrentCrew": true,
+        "contact": [
+            "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
+        ],
+        "highlights": [
+            "2022年《北美校友脱口秀大赛》亚军"
+        ]
     },
     {
         "title": "早恋",
@@ -79,22 +95,6 @@
         "contact": [
             "Clubhouse ID: `zaolian`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kfwyDcL__VQKNpVFw3SLSy)"
-        ]
-    },
-    {
-        "title": "尾羽",
-        "weightBeforeShowsSheet": 15,
-        "countFromShowsSheet": 18,
-        "weight": 33,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
-        "description": "做一只特立独行的猪",
-        "isCurrentCrew": true,
-        "contact": [
-            "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
-        ],
-        "highlights": [
-            "2022年《北美校友脱口秀大赛》亚军"
         ]
     },
     {
@@ -116,8 +116,8 @@
     {
         "title": "黎明洋",
         "weightBeforeShowsSheet": 24,
-        "countFromShowsSheet": 5,
-        "weight": 29,
+        "countFromShowsSheet": 6,
+        "weight": 30,
         "image": "https://i.imgur.com/8kHVjfD.png",
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
         "crewSeasonIds": 1,
@@ -178,12 +178,12 @@
         "countFromShowsSheet": 17,
         "weight": 21,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
-        "description": "表演经验30多年的老演员",
+        "description": "梗不是生活的麻药，而是解药。\n我平时的问题是爱装逼，这句的梗我，还未找到。",
         "crewSeasonIds": 2,
         "isCurrentCrew": true,
         "contact": [
-            "[牛油果烤面包播客](https://avocadotoast.live/)",
-            "微信：`454308623`"
+            "[播客](https://www.xiaoyuzhoufm.com/podcast/620b1cd24baddcbc4cbc13ce)",
+            "即刻：[`Sean羊王`](https://okjk.co/NdOs3t)"
         ]
     },
     {
@@ -200,6 +200,14 @@
         ]
     },
     {
+        "title": "仓老师",
+        "weightBeforeShowsSheet": 7,
+        "countFromShowsSheet": 11,
+        "weight": 18,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8os23tcj30a20a2mxr.jpg",
+        "description": "我要一瓶冰冻的可口可乐"
+    },
+    {
         "title": "兔子特特",
         "weightBeforeShowsSheet": 16,
         "countFromShowsSheet": 1,
@@ -210,14 +218,6 @@
             "Clubhouse ID: `rabbit1`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kapbhDaBG-qFjV5cI8hNor)"
         ]
-    },
-    {
-        "title": "仓老师",
-        "weightBeforeShowsSheet": 7,
-        "countFromShowsSheet": 10,
-        "weight": 17,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8os23tcj30a20a2mxr.jpg",
-        "description": "我要一瓶冰冻的可口可乐"
     },
     {
         "title": "小朱",
@@ -355,6 +355,17 @@
         ]
     },
     {
+        "title": "隋薰 Emma",
+        "weightBeforeShowsSheet": 0,
+        "countFromShowsSheet": 6,
+        "weight": 6,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2gkgg50urj20jw0jmta5.jpg",
+        "description": "何时能上脱口秀大会？",
+        "contact": [
+            "微博：[`爱看展的Emma隋薰`](https://weibo.com/n/%E7%88%B1%E7%9C%8B%E5%B1%95%E7%9A%84Emma%E9%9A%8B%E8%96%B0)"
+        ]
+    },
+    {
         "title": "王大拿",
         "weightBeforeShowsSheet": 6,
         "countFromShowsSheet": 0,
@@ -371,17 +382,6 @@
         "description": "筚路蓝缕，以启山林；吃喝玩乐，醉生梦死。",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kg_t2ZChitJHYOJDokYSqB)"
-        ]
-    },
-    {
-        "title": "隋薰 Emma",
-        "weightBeforeShowsSheet": 0,
-        "countFromShowsSheet": 5,
-        "weight": 5,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h2gkgg50urj20jw0jmta5.jpg",
-        "description": "何时能上脱口秀大会？",
-        "contact": [
-            "微博：[`爱看展的Emma隋薰`](https://weibo.com/n/%E7%88%B1%E7%9C%8B%E5%B1%95%E7%9A%84Emma%E9%9A%8B%E8%96%B0)"
         ]
     },
     {
