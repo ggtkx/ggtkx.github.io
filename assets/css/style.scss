@@ -51,6 +51,7 @@ $sub-footer-text-color: $white;
 @import 'components/main-menu-mobile';
 @import 'components/hamburger';
 @import 'components/buttons';
+@import 'components/button-custom';
 @import 'components/call';
 @import 'components/title';
 @import 'components/content';
@@ -65,7 +66,6 @@ $sub-footer-text-color: $white;
 
 // Pages
 @import 'pages/home';
-@import 'pages/button-custom';
 
 body {
   font-size: 16px;
