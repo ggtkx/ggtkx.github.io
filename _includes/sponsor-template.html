@@ -1,49 +1,68 @@
-<div id="gala-sponsors" class="strip container">
+<div id="gala-sponsors">
+
+
     <!-- sponsor heading, such as 2022 歌手赛赞助商 -->
     {% if sponsor_type.sponsor-heading %}
         <div class="row">
-            <div class="col">
-                <h1 class="gala-heading">{{sponsor_type.sponsor-heading}}</h1>
+            <div class="container">
+                <h2 class="gala-heading"><br>{{sponsor_type.sponsor-heading}}<br><br></h2>
             </div>
         </div>
     {% endif %}
     <!-- end sponsor heading -->
+
+
     <!-- sponsors by level, such as 白金赞助 -->
+    
     {% for sponsor_level in sponsor_type.sponsor-levels %}
     <div class="row">
-        <div class="col">
+        <div class="container">
+
             <!-- sponsor level heading, such as the text 白金赞助 or 虚位以待 -->
             <h2 class="gala-heading">{{sponsor_level.level-heading}}</h2>
-        </div>
-    </div>
-    {% if sponsor_level.sponsor-elements %}
-        <!-- specialization for 星岛日报 as a general media sponsor -->
-        {% if sponsor_type == site.data.data-sponsor.sponsors and sponsor_level.level-name == "media" %}
-            <div class="row">
-                <div class="col-12 col-lg-9 mb-1">
-                    <img
-                        src="https://res.cloudinary.com/zaigezaigu/image/upload/v1639120586/zgzg-io-website/%E6%A8%AA%E7%89%88_gptbss.png" />
-                    <div class="mb-1 sponsor-description">
-                        星島日報於 1938 年在香港創報,是服務全球華人的中文媒體領導者。1975
-                        年,星島在美國三藩市設立第一間國際分社,隨後陸續在美國紐約、洛杉磯,加拿大溫哥華、多倫多開設分社。星島成為全球發行的中文報章。
+
+
+            {% if sponsor_level.sponsor-elements %}
+
+                <!-- specialization for 星岛日报 as a general media sponsor -->
+                {% if sponsor_type == site.data.data-sponsor.sponsors and sponsor_level.level-name == "media" %}
+                <div class="row">
+                    <div class="col-12 col-lg-9 mb-1">
+                        <img
+                            src="https://res.cloudinary.com/zaigezaigu/image/upload/v1639120586/zgzg-io-website/%E6%A8%AA%E7%89%88_gptbss.png" />
+                        <div class="mb-1 sponsor-description">
+                            星島日報於 1938 年在香港創報,是服務全球華人的中文媒體領導者。1975
+                            年,星島在美國三藩市設立第一間國際分社,隨後陸續在美國紐約、洛杉磯,加拿大溫哥華、多倫多開設分社。星島成為全球發行的中文報章。
+                        </div>
                     </div>
                 </div>
-            </div>
-        {% endif %}
-        <div class="row">
-            {% for sponsor_e in sponsor_level.sponsor-elements %}
-                <!-- assigns sponsor_e to sponsor to make the naming in sponsor.html less verbose -->
-                {% assign sponsor = sponsor_e %}
-                <div id="{{sponsor_level.elements-div-style-id}}" class="{{sponsor_level.elements-div-style-class}}">
-                    {% if sponsor_level.level-name == "media" %}
-                        {% include sponsor-image-without-link-low-padding.html %}<br>
-                    {% else %}
-                        {% include sponsor.html %}<br>
-                    {% endif %}
+                {% endif %}
+
+
+                <div class="row">
+                    {% for sponsor_e in sponsor_level.sponsor-elements %}
+                        <!-- assigns sponsor_e to sponsor to make the naming in sponsor.html less verbose -->
+                        {% assign sponsor = sponsor_e %}
+
+                        <div id="{{sponsor_level.elements-div-style-id}}" class="{{sponsor_level.elements-div-style-class}}">
+                            {% if sponsor_level.level-name == "media" %}
+                                {% include sponsor-image-without-link-low-padding.html %}<br>
+                            {% else %}
+                                {% include sponsor.html %}<br>
+                            {% endif %}
+                        </div>
+
+                    {% endfor %}
                 </div>
-            {% endfor %}
+            {% endif %}
         </div>
-    {% endif %}
+    </div>
     {% endfor %}
     <!-- end sponsors by level -->
+
 </div>
+
+
+
+
+
