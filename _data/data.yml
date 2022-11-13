@@ -1,8 +1,6 @@
 main:
   - name: "社区主页"
     url: "/"
-  - name: "购票"
-    url: "/singerticket/"
   - name: "2022 歌手赛"
     url: "/singer/"
     weight: 1
@@ -21,6 +19,10 @@ main:
   - name: "关于我们"
     url: "/about/"
     weight: 6
+  - name: "购票"
+    url: "/singerticket/"
+    weight: 7
+    call-to-action: true
 
 footer:
   - name: "关于我们"
@@ -76,13 +78,13 @@ programmes:
   - name: 职挂云帆
     image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hqf0i8ij30i00i0wg2.jpg
     description: 规划职业生涯，提升职业技能，了解不同行业，收获创业灵感。
-    contact:
-      - "[YouTube 频道](https://www.youtube.com/channel/UCG2VTUUT3OWEYcAEi3ELamA)"
+    button-url: https://www.youtube.com/channel/UCG2VTUUT3OWEYcAEi3ELamA
+    button-text: YouTube 频道
   - name: 一饱演福
     image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659910251/zgzg-io-website/1_fivcxb.png
     description: 戏剧/表演爱好者相互交流，共同创作，共同成长的平台。我们会定期举行线上/线下话剧 or 表演相关的活动。
-    contact:
-      - "[往期精选](/ybyf/)"
+    button-url: /ybyf/
+    button-text: 往期精选
   - name: 书影婆娑
     image: https://tva1.sinaimg.cn/large/008i3skNgy1gumieg96wqj60lw0lwmyt02.jpg
     description: 我们组织多种书籍电影类文化活动：线下分享会、客厅沙龙、好书共读、P2P图书馆、朗读会、电影马拉松……
@@ -91,15 +93,18 @@ programmes_chunwan:
   - name: 歌手赛
     image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1655097027/singer_osizeh.png
     description: 2022 "载歌在谷" 歌手赛，我们在成功的经验上进一步扩大规模，全新规划，为您打造一年一度的，高水准的华人歌手赛。
-    contact: "[详情](/singer/)"
+    button-url: /singer/
+    button-text: 详情
   - name: 春节晚会
     image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638942437/zgzg-io-website/WechatIMG869_k2uxam.jpg
     description: 承袭自2015年Google春晚，现面向整个湾区。由200余名主要来自湾区高科技公司的志愿者和演员耗时半年精心打造，是湾区规模最大，观众最多，最具硅谷特色的春节晚会。
-    contact: "[详情](/gala/)"
+    button-url: /gala/
+    button-text: 详情
   - name: 游园会
     image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638942438/zgzg-io-website/WechatIMG870_vnlf8i.jpg
     description: 春联，剪纸，书法，糖画，汉服，诗词，小舞台，为湾区华人朋友们打造一个最具有中华传统的特色游园会。完全免费，尤其适合家庭，让孩子们体验中国文化。
-    contact: "[详情](/tour/)"
+    button-url: /tour/
+    button-text: 详情
 
 past-programmes:
   - name: 想唱就唱
@@ -342,91 +347,146 @@ past:
 
 galalist:
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_350/v1641757237/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/1_lzsw40.png
-    title: 关东年 Chinese New Year | 开场 Opening
+    title: 关东年
+    title-en: Chinese New Year
+    type: 开场
+    type-en: Opening
     description: 过年啦！！！ 穿新衣，逛庙会，玩手绢儿，舞红绸。 一群可爱的东北小妞们，开心快乐的庆祝着新的一年的到来。各自展示着自己的独特绝活，给庆祝新年带来，更多姿多彩的气氛！
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_350/v1641972670/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/2_xwhlkl.png
-    title: 涟漪 Wind Over the Ripples ｜ 舞蹈 Dance
+    title: 涟漪
+    title-en: Wind Over the Ripples
+    type: 舞蹈
+    type-en: Dance
     description: 春水浓如染，桃花破青山。春风吹皱江南，天色染透青衫。书生提笔绘纸鸢，假作彩鸾。愿涟漪点点落在姑娘心间。这支舞蹈表现了江南姑娘如水一般的灵动和柔情。水蓝色的裙子摇曳生姿如同湖面涟漪，落在观众心中。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757236/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/3_h9qgbh.png
-    title: 狮子王 Can You Feel the Love Tonight ｜ 阿卡贝拉 Acappella
+    title: 狮子王
+    title-en: Can You Feel the Love Tonight
+    type: 阿卡贝拉
+    type-en: Acappella
     description: 拾乐团Find A Cappella 于2021 年10 月在南湾成立，是由一群在音乐中寻找快乐的青年组成的纯人声合唱团。他们将为大家带来一首萨瓦纳风格的情歌 —《狮子王》 插曲“Can You Feel the Love Tonight”.
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/4_jhhscx.png
-    title: 学电台 Radio Talk ｜ 相声 Chinese Traditional Comedy
+    title: 学电台
+    title-en: Radio Talk
+    type: 相声
+    type-en: Chinese Traditional Comedy
     description: 当今社会是一个信息爆炸的时代, 书籍、电视、网络, 各种宣传媒介充斥的我们的生活。在信息洪流中, 还存在着一种“古老而小众”的方式, 那就是电台。存在于收音机中的电台向来准时, 直接, 节目也是五花八门。这种只闻其声, 不见其人的传播方式伴随着我们成长。在《学电台》这段节目中, 两位演员凭借舞台上的模仿, 便带领大家温习曾经的时光, 领略电台的魅力。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757238/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/5_yrtt8j.png
-    title: 黎明前出发 Let’s Go Before Dawn ｜ 乐队 Band
+    title: 黎明前出发
+    title-en: Let’s Go Before Dawn
+    type: 乐队
+    type-en: Band
     description: 太啤寺是一支年轻的4 人乐队，喜爱Indie Rock， Blues，Funk 和喝啤酒。生活周而复始，岁月简单罗列，张扬的日子也许只是黄粱一梦，可它琳琅满目，万紫千红。和爱自由的太啤寺一起，在《黎明前出发》，去完成那些精彩的梦。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/6_nj1uat.png
-    title: 光亮 Light ｜ 歌曲 Singing
+    title: 光亮
+    title-en: Light
+    type: 歌曲
+    type-en: Singing
     description: 本节目为2021 载歌在谷想唱就唱歌手赛冠军直通春晚节目，由歌手赛冠军黄可一和乐队太啤寺合作完成。歌曲《光亮》温暖而又充满力量，唱出每一个平凡渺小的个体，在命运面前也依旧要坚强、努力，通过呐喊寻找“光亮”，寻找生命的一线生机，绝不放弃希望，做“最无畏的你”。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757237/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/7_w7ox1f.png
-    title: 奇迹嘉年华 Miracle Carnival ｜魔术Magic Show
+    title: 奇迹嘉年华
+    title-en: Miracle Carnival ｜魔术Magic Show
     description: 你有亲身体验过奇迹吗？你有被人看穿过内心的想法吗？你有惊讶到合不拢嘴过吗？这个春节，Jack 带你遨游神奇的魔术海洋，届时会有空手变物、东西转换、读心术等等各种各样的惊喜，可能前一秒还是空空如也的黑布，下一刻就会出现一杯果汁；硬币在手中如同活过来一般忽隐忽现；随机选中的观众上台，也猜出心中藏最在最深处的秘密，想必票价也是超值了，快来坐上Jack 的奇幻之旅吧！
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/8_dcghfo.png
-    title: 赤焰之缨 Red Spirit ｜ 舞蹈 Dance
+    title: 赤焰之缨
+    title-en: Red Spirit
+    type: 舞蹈
+    type-en: Dance
     description: 此节目是由北京舞蹈学院毕业的施皓柔老师编排而成。她同样毕业于美国米尔斯学院编舞系。编导巧妙地将东西方不同的文化进行融合创新，使东方古典舞和西方的爵士舞摩擦出绚丽的火花。团队中的每个人都很喜欢跳舞。舞者中有工程师，医药科学家，设计师，注册会计师.
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757234/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/9_mptq1d.png
-    title: 天蓝蓝 Blue is the Sky ｜ 歌曲 Singing
+    title: 天蓝蓝
+    title-en: Blue is the Sky
+    type: 歌曲
+    type-en: Singing
     description: 《天蓝蓝》是徐沛东作曲，乔羽作词的，为云南文山壮族苗族自治州创作的歌曲。歌曲将侗族大歌伴唱，广西山歌和广西小调等少数民族音乐元素融合，充分体现了壮族、苗族、侗族、彝族等西南少数民族的多样性。歌词唱出了对祖国山河画卷的赞美与对美好生活的殷切祝福。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641757234/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/10_plvfh4.png
-    title: 阳光照耀着塔什库尔干 Sunshine over Tashkurgan ｜ 器乐二重奏 Piano Violin Ensemble
+    title: 阳光照耀着塔什库尔干
+    title-en: Sunshine over Tashkurgan
+    type: 器乐二重奏
+    type-en: Piano Violin Ensemble
     description: 阳光照耀着塔什库尔干是一首极具中国特色民族风情的曲子，由编写梁祝的著名作曲人陈钢先生根据新疆民间音乐改编，描绘了祖国美丽的草原风光和牧民们载歌载舞的喜悦场景。“纵情高歌”展现了辽阔美丽的草原风光和牧民们骑在马上弹琴高歌的情景；“热烈欢舞”充分发挥了复杂多变敏捷灵活的技巧，表现了塔吉克人民欢腾的舞蹈的场面。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641763805/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/11_taicpg.png
-    title: 街舞奇妙夜 Fantasy Night of Street Dance ｜ 舞蹈 Dance
+    title: 街舞奇妙夜
+    title-en: Fantasy Night of Street Dance
+    type: 舞蹈
+    type-en: Dance
     description: Enjoy Dance Studio (EDS) 是湾区最大的华人街舞工作室，向来以专业严谨的舞蹈教学和多元化的舞蹈风格著称，一直以来都活跃在湾区的各大舞台上， 为观众呈现了很多精彩的舞蹈作品。本次作品受《这！就是街舞》的启发，结合科幻的元素和题材，在展示街舞的魅力与多样性和EDS Family 全新面貌的同时，带领观众进行一次奇幻的体验。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641763804/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/12_vofv4z.png
-    title: 我爱你中国 I Love You China ｜ 乐队 Band
+    title: 我爱你中国
+    title-en: I Love You China
+    type: 乐队
+    type-en: Band
     description: 走起乐队是ZGZG 社区老朋友，从第一届参与至今。走起乐队（Start-Up Band）成立于2013 年，由一群致力于在湾区传播华人音乐的华人工程师，科学界以及音乐专业人士组成。表演风格多样，近年来成功举办过多次专场演唱会，并活跃在“载歌在谷”春晚、斯坦福春晚、硅谷高创汇等湾区知名华人活动平台。今年的“载歌在谷”春晚，走起将为大家带来《我爱你中国》。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779943/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/13_iodvut.png
-    title: 爱的箴言 The Motto of Love ｜ 歌曲 Singing
+    title: 爱的箴言
+    title-en: The Motto of Love
+    type: 歌曲
+    type-en: Singing
     description: 一首经典的旋律，诉说和探讨着爱的真谛。由罗大佑作曲，邓丽君演唱的《爱的箴言》曾被无数次演绎过，而每个人心中的答案或许也都有些许不同。在这首歌中，爱是给予，是付出，是陪伴，也是默默守护。但也就像歌中所说，“爱是没有人能了解的的东西，爱是永恒的旋律”。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779944/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/14_auocll.png
-    title: 阿里郎随想 Arirang Caprice ｜ 舞蹈 Dance
+    title: 阿里郎随想
+    title-en: Arirang Caprice
+    type: 舞蹈
+    type-en: Dance
     description: Q 舞团演绎的《阿里郎随想》是一支街舞与中国风的融合舞蹈。讲述了一位朝鲜族姑娘对爱情的憧憬和美好生活的向往，也表达了人们对未来太空世界的探索和追求。 Q 舞团由FLAG 等各大科技公司的工程师组成，作为专业篮球宝贝，她们被称为“最会编程的啦啦队”！她们不仅活跃在硅谷社区，更是走向世界。曾在Staples Center 南北加对抗赛，新浪3Ball USA 世界邀请赛，阿泰斯特丁彦雨航中美明星对抗赛等重量级活动中上演精彩演出。她们把优美的舞姿和对美好事物的向往分享给大家。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779944/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/15_ruoyas.png
-    title: 一生守候 To Be with You ｜ 舞蹈 Dance
+    title: 一生守候
+    title-en: To Be with You
+    type: 舞蹈
+    type-en: Dance
     description: 舞蹈借由电影《大上海》里的插曲“一生守候”获得的创作灵感。故事讲述的是在民国时期，一对才子佳人的情缘缠绵，难分难舍的感情纠缠。才子终究还是走了，带着爱恨情愁，带着别离愁绪。浮生若梦，无情何欢？雨夜里感受他曾经逗留的背影，体会他指尖留下的余温，她在心底的一声叹息，也渐渐地被淹没在滚滚红尘中。一段难分难舍的感情，一段如诉如泣的纠缠。离与别，男与女，易相爱，难相守。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779900/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/17_bjdplg.png
-    title: 欢乐小才艺 Delightful Tricks ｜ 魔术 Magic Show
+    title: 欢乐小才艺
+    title-en: Delightful Tricks
+    type: 魔术
+    type-en: Magic Show
     description: 演员泽皮是现在就职于湾区科技公司的工程师。也是来自伊利诺伊州的青年魔术师. 本次表演中，魔术师将会在为大家展示如何用生活中常见的物品给大家创造惊喜。届时也会有幸运观众有机会上台和魔术师互动，和魔术师一起完成给剧院的观众的表演。本次是“载歌在谷”春晚开办以来，第一次为大家呈现近景魔术。“载歌在谷” 的节目组、技术组、摄制组的同学，克服种种技术难题，一同为大家在剧院现场呈现一个欢乐的魔术表演。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779901/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/18_xqgbbh.png
-    title: 春天的芭蕾 The Spring Ballet ｜ 歌曲 Singing
+    title: 春天的芭蕾
+    title-en: The Spring Ballet
+    type: 歌曲
+    type-en: Singing
     description: 春节是春天的节日，是鲜花点缀, 是欢乐相随。声乐老师王甜甜，四川音乐学院毕业，Frame 乐队主唱，让我们一起聆听由她带来的这首春天的芭蕾，一起来感受春天的气息，迎接春天的来临。谷歌芭蕾舞团也会和着音乐翩翩起舞，带来具有古典主义风格的芭蕾伴舞，美丽而优雅。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779900/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/19_ewl2gp.png
-    title: 琵琶行Song of the Lute Player ｜ 器乐 Instrument
+    title: 琵琶行Song
+    title-en: of the Lute Player
+    type: 器乐
+    type-en: Instrument
     description: 《琵琶行》，是唐代诗人白居易创作的叙事诗。全篇叙述了作者由长安被贬黜到九江期间邂逅了一位技艺高超的琵琶女，用演奏委婉生动地讲述了自己凄惨的身世，引得诸人皆感怀自身境遇而落寞掩泣的故事。此作品由琵琶和舞蹈共同演绎，重现了元和十年浔阳江头的邂逅和千古名句 “同是天涯沦落人，相逢何必曾相识” 中所表达的豁达胸怀。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_300/v1641779900/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/20_gnp07n.png
-    title: 诚 Pilgrimage ｜ 舞蹈 Dance
+    title: 诚
+    title-en: Pilgrimage
+    type: 舞蹈
+    type-en: Dance
     description: 诚怀着无穷无尽力量的信仰，持着真诚朝拜路上的人儿。 双手高举合十，道声“扎西德勒”。
 
 singerlist:
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354054/zgzg-io-website/2022%20singers/Wanli_%E9%BB%84%E4%B8%87%E5%88%A9_ww6wgb.jpg
-    title: 参赛歌曲 起风了 | 歌手 Wanli Huang
+    name: 参赛歌曲 起风了 | 歌手 Wanli Huang
     description: 我的中文名是黄万利，英文名Leo。91年出生，今年31岁。来自烤鱼之乡，雾都重庆。爱好是音乐、运动，最不喜欢做的事情是看书。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354065/zgzg-io-website/2022%20singers/2_uvwcen.jpg
-    title: 参赛歌曲 诗句 | 歌手组合 一男一女
+    name: 参赛歌曲 诗句 | 歌手组合 一男一女
     description: 一男一女是一个男生（Ricky）和一个女生（采薇）临时搭伙的组合，组合如其名随性又可爱，代表了我们对音乐的态度。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354074/zgzg-io-website/2022%20singers/image_19_bqcrag.png
-    title: 参赛歌曲 末日飞船 | 歌手 Jiaqi Guo
+    name: 参赛歌曲 末日飞船 | 歌手 Jiaqi Guo
     description: 我是湾区的软件工程师（呀，一点惊喜都没有呢）。一个喜欢喝奶茶的吃货，一个喜欢解谜但是解不出又很想放弃的人，也是一个不用喝酒唱歌就能嗨的噪音制造机。人生就活一次，尽管不完美，“我的世界我来浮夸” - 自华晨宇。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354063/zgzg-io-website/2022%20singers/4_ultsxo.jpg
-    title: 参赛歌曲 Crazy | 乐队 匿名布鲁斯
+    name: 参赛歌曲 Crazy | 乐队 匿名布鲁斯
     description: 我们一支擅长整活儿和活跃气氛的Blues/Funk/R&B即兴乐队。主唱负责说相声和卡祖笛，吉他手分别负责弹簧腿和面无表情，鼓手负责演出时敲断鼓棒，贝斯负责劝人喝奶茶。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354074/zgzg-io-website/2022%20singers/image_20_hl3m95.png
-    title: 参赛歌曲 For No Reason | 歌手 程天畅
+    name: 参赛歌曲 For No Reason | 歌手 程天畅
     description: 生活体验派。在成为湾区平平无奇的软件工程师之前，在瑞典和英国游学过两年，也曾亲身经历武汉疫情并在国内远程两年。希望自己的生活丰富且有活力，喜欢运动，喜欢带着相机记录有趣的事件，也喜欢在特别的场景录下应景的歌。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354054/zgzg-io-website/2022%20singers/6_pq2gzz.jpg
-    title: 参赛歌曲 无人知晓 | 歌手 牛童
+    name: 参赛歌曲 无人知晓 | 歌手 牛童
     description: 大家好，我是牛大童。我的工作是平时做做research，工作完了有时会唱唱歌；也有的时候一边工作一边唱歌。我参赛最主要的目的是想在自己喜欢做的事上变得越来越强。由于不好好准备上台实在丢不起这人，所以平时练声就格外有动力。希望能让大家在决赛那天感到不虚此行，因为好像不满意也不给退票的。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354222/zgzg-io-website/2022%20singers/7_apq6on.png
-    title: 参赛歌曲 锦上添花 | 歌手 Allen Liu
+    name: 参赛歌曲 锦上添花 | 歌手 Allen Liu
     description: 第一次参加载歌在谷，和大家切磋切磋。云养狗爱好者，喜欢好看的🚗🚗，喜欢听hiphop，耳机里喜欢放旋律，现场喜欢听炸的。希望和大家度过一个有趣的夏天。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354062/zgzg-io-website/2022%20singers/8_wzrlxu.jpg
-    title: 参赛歌曲 异乡人 | 歌手 Barry Wu
+    name: 参赛歌曲 异乡人 | 歌手 Barry Wu
     description: 忙碌的工作之余，感谢音乐，它像是一位多年的老友，陪我走过这些年的喜怒哀乐。我已经准备好，带着这位老友，期待遇见你，我们现场见！
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354074/zgzg-io-website/2022%20singers/image_21_nzxsl2.png
-    title: 参赛歌曲 我 | 歌手 Ailsa Song
+    name: 参赛歌曲 我 | 歌手 Ailsa Song
     description: 我叫Ailsa，是一位刚研究生毕业、刚开始工作的打工人。我喜欢动物、甜食；喜欢形式新颖的有意思的音乐。希望能通过比赛认识更多能一起玩儿音乐的小伙伴。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354075/zgzg-io-website/2022%20singers/image_22_csrs0y.png
-    title: 参赛歌曲 要死就死在你手里 | 歌手 Elise Jiang
+    name: 参赛歌曲 要死就死在你手里 | 歌手 Elise Jiang
     description: 我叫 Elise，是一名平平无奇的产品经理。平日里喜欢听听摇滚玩玩乐队。当然，也喜欢哼个小曲儿唱的小调儿。期望在短暂的一两首歌之中，可以暂时借走大家的双耳和双手。

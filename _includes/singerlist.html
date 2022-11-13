@@ -1,15 +1,8 @@
 <div id="galalist-space">
     <div class="container">
         <div class="row">
-            <img src="https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660370423/zgzg-io-website/2022%20singers/image_24_pz5pfq.png" id="galalist-pic-beginning">
-        </div>
-        <div class="row">
-            {% for pic in site.data.data.singerlist %}
-            <div class="col-12 col-lg-12 col-md-4 galalist-section">
-                <img class="galalist-pic" src="{{ pic.image }}">
-                <h3> {{ pic.title }} </h3>
-                {{ pic.description }}
-            </div>
+            {% for programme in site.data.data.singerlist %}
+                {% include programme.html %}
             {% endfor %}
         </div>
     </div>

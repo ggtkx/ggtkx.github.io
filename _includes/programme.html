@@ -20,6 +20,11 @@
         {% endfor %}
         </ul>
       {% endif %}
+      {% if programme.button-text %}
+        <div class="d-flex justify-content-center">
+          <a class="button" href="{{ programme.button-url }}">{{ programme.button-text }}</a>
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>

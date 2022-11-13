@@ -10,20 +10,23 @@
     > li {
       list-style: none;
       font-size: 1rem;
-      > a {
-        padding: 10px 12px 10px 12px;
+      > a:not(.button) {
+        margin: 10px 12px 10px 12px;
         display: inline-block;
         font-weight: normal;
         text-decoration: none;
-        color: $primary;
+        line-height: 2em;
+        color: $black;
         &:hover {
           text-decoration: underline;
         }
       }
       &.active {
-        > a {
+        > a:not(.button) {
+          color: $primary;
           font-weight: bold;
           text-decoration: none;
+          border-bottom: 4px solid $primary;
           &:hover {
             text-decoration: none;
             transition: all 225ms ease-in 0s;

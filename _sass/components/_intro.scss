@@ -1,5 +1,5 @@
 .intro {
-  background:$primary;
+  background: url(https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638942437/zgzg-io-website/WechatIMG869_k2uxam.jpg);
   color: $white;
   display: flex;
   justify-content: flex-start;
@@ -7,6 +7,8 @@
   padding-top: 60px;
   padding-bottom: 60px;
   overflow: hidden;
+  background-size: cover;
+  background-position: center;
   @include media-breakpoint-up(md) {
     padding-top: 60px;
     padding-bottom: 40px;
@@ -42,6 +44,15 @@
   .button {
   background: #fff;
   color: #ec464f;
+  }
+
+  #content {
+    padding: 45px;
+    background: $primary;
+
+    img {
+      width: 150px;
+    }
   }
 }
 

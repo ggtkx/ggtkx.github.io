@@ -1,19 +1,17 @@
 .programme {
   height: 100%;
-  border-radius: 5px;
+  border-radius: 16px;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: $white-offset;
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: left;
   padding-bottom: 20px;
-  box-shadow: 0 30px 60px -10px rgba(black, .2), 0 18px 36px -18px rgba(black, .22);
   .programme-image {
     width: 100%;
     height: 250px;
     display: flex;
-    border-radius: 0 0 0 100%;
     margin-bottom: 20px;
     overflow: hidden;
     text-align: center;
@@ -24,10 +22,14 @@
     object-fit: cover;
   }
   .programme-title {
-    color: #555;
+    color: $black;
     margin-bottom: 20px;
+    text-align: center;
   }
-  .programme-description, .programme-contact, .programme-highlights {
+
+  .programme-description,
+  .programme-title,.programme-contact,
+  .programme-highlights {
     padding: 0 30px;
     width: 100%;
     display: inline-block;
