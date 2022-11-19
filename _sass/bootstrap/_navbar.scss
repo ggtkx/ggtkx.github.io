@@ -27,7 +27,9 @@
   --#{$prefix}navbar-toggler-transition: #{$navbar-toggler-transition};
   // scss-docs-end navbar-css-vars
 
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   flex-wrap: wrap; // allow us to do the line break for collapsing content
   align-items: center;
