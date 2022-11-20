@@ -1,3 +1,4 @@
+// .button is inherited from Serif, and will be deprecated in the new design
 .button {
   white-space: nowrap;
   display: inline-block;
@@ -28,5 +29,98 @@
     transform: translateY(-1px);
     //box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     text-decoration: none;
+  }
+}
+
+.btn:disabled {
+  border: none;
+}
+
+.btn-primary {
+  background: $primary;
+  border-radius: 4px;
+  color: $white;
+  &:hover {
+    background-color: $primary-shade-1;
+  }
+  :not(.btn-check) + &:active,  // overrides bootstrap defaults in bootstrap/_buttons.scss L82
+  &:active {
+    background-color: $primary-shade-2;
+  }
+  &:disabled {
+    background-color: $light-gray;
+    color: $dark-gray;
+  }
+}
+
+.btn-secondary {
+  background: $white;
+  border: 1px solid $primary;
+  color: $primary;
+  &:hover {
+    background-color: $light-gray-shade-1;
+    // color and border properties are hardcoded again to avoid default transformation on border state.
+    color: $primary;
+    border: 1px solid $primary;
+  }
+  :not(.btn-check) + &:active,
+  &:active {
+    background-color: $light-gray-shade-2;
+    color: $primary;
+    border: 1px solid $primary;
+  }
+  &:disabled {
+    background-color: $light-gray;
+    color: $dark-gray;
+  }
+}
+
+.btn-tertiary {
+  color: $primary;
+  text-decoration: underline;
+  border: none;
+  &:hover {
+    color: $primary-shade-1;
+    text-decoration: underline;
+    border: none;
+  }
+  :not(.btn-check) + &:active,
+  &:active {
+    color: $primary-shade-2;
+    text-decoration: underline;
+    border: none;
+  }
+  &:disabled {
+    color: $dark-gray;
+    text-decoration: underline;
+  }
+}
+
+.btn-lg {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.btn-light {
+  background: $white;
+  color: $primary;
+  border: none;
+  &:hover {
+    background-color: $light-gray-shade-1;
+    color: $primary;
+    border: none;
+  }
+  :not(.btn-check) + &:active,  // overrides bootstrap defaults in bootstrap/_buttons.scss L82
+  &:active {
+    background-color: $light-gray-shade-2;
+    color: $primary;
+    border: none;
+  }
+  &:disabled {
+    background-color: $light-gray;
+    color: $dark-gray;
+    border: none;
   }
 }
