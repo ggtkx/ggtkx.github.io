@@ -39,7 +39,7 @@ $sub-footer-text-color: $white;
 @import 'bootstrap/buttons';
 @import 'bootstrap/utilities';
 @import 'bootstrap/card';
-@import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
+// @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
 
 
 // Libraries
@@ -56,7 +56,6 @@ $sub-footer-text-color: $white;
 @import 'components/main-menu-mobile';
 @import 'components/hamburger';
 @import 'components/buttons';
-@import 'components/button-custom';
 @import 'components/call';
 @import 'components/title';
 @import 'components/content';
