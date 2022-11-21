@@ -46,6 +46,10 @@ footer:
     url: "https://zgzg.link/fb"
     weight: 1
 
+  - name: "常用链接"
+    url: "/go/"
+    weight: 1
+
 special_events:
   - name: 《载歌在谷》历年春晚回眸
     image: https://blog.zgzg.io/wp-content/uploads/11581655426.jpg
