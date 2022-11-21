@@ -1,0 +1,10 @@
+<div class="row list-item-large">
+    <div class="col-12 d-flex bg-light">
+        <div class="flex-shrink-0">
+            <div class="me-1 list-item-image" style="background-image: url({{ item.image }})"></div>
+        </div>
+        <div class="flex-grow-1 ms-1 list-item-content">
+            {{ item.content | markdownify }}
+        </div>
+    </div>
+</div>

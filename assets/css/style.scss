@@ -53,6 +53,11 @@ $sub-footer-text-color: $white;
 @import 'components/sub-footer';
 @import 'components/logo';
 @import 'components/main-menu';
+/*
+A list item is a block that usually contains an image, a title, and some textual content.
+This is designed for lists of sponsors and lists of open positions.
+*/
+@import 'components/list-item';
 @import 'components/main-menu-mobile';
 @import 'components/hamburger';
 @import 'components/buttons';

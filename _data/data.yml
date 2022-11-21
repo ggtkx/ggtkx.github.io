@@ -29,7 +29,7 @@ footer:
     url: "/about/"
     weight: 2
   - name: "加入我们"
-    url: "mailto:contact-us@zgzg.io?subject=加入"
+    url: "/join/"
     weight: 2
   - name: "合作咨询"
     url: "mailto:contact-us@zgzg.io?subject=合作"
