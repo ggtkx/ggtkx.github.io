@@ -5,8 +5,6 @@ main:
     items:
     - name: "2023 春晚"
       url: "/gala/"
-    - name: "2023 春晚游园"
-      url: "/galatour/"
     - name: "2023 歌手赛"
       url: "/singer/"
     - name: "2023 中秋游园"
