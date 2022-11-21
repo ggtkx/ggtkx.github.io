@@ -16,29 +16,42 @@ layout: default
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="row pt-10">
-        <div class="col">
-            <h1>{{page.title}}</h1>
+
+<!-- Tab links -->
+<div class="tab">
+    <button class="tab-links default-open" onclick="openTab(event)" data-tab-group="main" data-tab-id="tour-list">2023春节游园会活动介绍</button>
+    <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="sponsor">赞助商</button>
+</div>
+
+<!-- Tab content -->
+<div id="tour-list" class="tab-content">
+    <div class="container pt-6 pb-6 pt-md-8 pb-md-8">
+        <div class="row">
+            <h1>2023春节游园会活动介绍</h1>
         </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div>{{content}}</div>
+        <div class="row pb-6">
+            <div class="col">
+                <div>{{content}}</div>
+            </div>
         </div>
-    </div>
-    <div class="row pt-5">
-        <h1>2023春节游园会活动介绍</h1>
-    </div>
-    <!-- List of activities on the Tour, presented as cards. -->
-    <div class="row justify-content-center">
-      {% if site.data.data.tourslist %}
-        {% for programme in site.data.data.tourslist %}
-          {% include programme.html %}
-        {% endfor %}
-      {% endif %}
+        <!-- List of activities on the Tour, presented as cards. -->
+        <div class="row justify-content-center">
+            {% if site.data.data.tourslist %}
+                {% for programme in site.data.data.tourslist %}
+                    {% include programme.html %}
+                {% endfor %}
+            {% endif %}
+        </div>
     </div>
 </div>
 
-{% assign sponsor_type = site.data.data-sponsor.sponsors-singer %}
-{% include sponsor-template.html %}
+<div id="sponsor" class="tab-content">
+    <div class="container pt-6 pb-6 pt-md-8 pb-md-8">
+        <div class="row">
+            <div class="col">
+                {% assign sponsor_type = site.data.data-sponsor.sponsors-singer %}
+                {% include sponsor-template.html %}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+
+.tab {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  justify-content: center;
+  border-bottom: 2px solid $steel;
+  margin: 80px 15% 0 15%;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  border-bottom: 4px solid $white;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Change background color of buttons on hover */
+.tab button {
+  margin: 0 12px 0 12px;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 2em;
+  color: $black;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.tab button.active {
+  color: $primary;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 4px solid $primary;
+  &:hover {
+    text-decoration: none;
+    transition: all 225ms ease-in 0s;
+  }
+}

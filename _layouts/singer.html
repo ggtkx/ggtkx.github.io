@@ -25,7 +25,20 @@ layout: default
     </div>
 </div>
 
+<!-- Tab links -->
+<div class="tab">
+    <button class="tab-links default-open" onclick="openTab(event)" data-tab-group="main" data-tab-id="singer-list">大赛介绍</button>
+    <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="sponsor">赞助商</button>
+</div>
 
-{% include singerlist.html %}
-{% assign sponsor_type = site.data.data-sponsor.sponsors-singer %}
-{% include sponsor-template.html %}
+<!-- Tab content -->
+<div id="singer-list" class="tab-content">
+    {% include singerlist.html %}
+</div>
+
+<div id="sponsor" class="tab-content">
+    <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
+        {% assign sponsor_type = site.data.data-sponsor.sponsors-singer %}
+        {% include sponsor-template.html %}
+    </div>
+</div>
