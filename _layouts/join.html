@@ -1,8 +1,36 @@
 ---
 layout: page-no-sidebar
 ---
-{% for item in site.gala_positions %}
-    {% include list-item-large.html %}
-{% endfor %}
+
+
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tab-links default-open" onclick="openTab(event)" data-tab-group="main" data-tab-id="gala">春晚/歌手赛</button>
+  <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="tour">游园</button>
+  <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="yj">“云集”系列栏目</button>
+</div>
+
+<div class="container pt-6 pb-6 pt-md-6 pb-md-6">
+    <!-- Tab content -->
+    <div id="gala" class="tab-content">
+        {% for item in site.gala_positions %}
+            {% include list-item-large.html %}
+        {% endfor %}
+    </div>
+
+    <div id="tour" class="tab-content">
+        {% for item in site.tour_positions %}
+            {% include list-item-large.html %}
+        {% endfor %}
+    </div>
+
+    <div id="yj" class="tab-content">
+        {% for item in site.yj_positions %}
+            {% include list-item-large.html %}
+        {% endfor %}
+    </div>
+</div>
+
 
 {{ content }}

@@ -23,6 +23,8 @@ collections_dir: collections
 
 collections:
   - gala_positions
+  - tour_positions
+  - yj_positions
 
 sass:
   indentWidth: 4
