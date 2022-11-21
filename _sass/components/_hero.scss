@@ -1,0 +1,53 @@
+.hero {
+  background: url(https://res.cloudinary.com/zaigezaigu/image/upload/v1665641160/cld-sample-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-content {
+  margin-left: 160px;
+  margin-right: 720px;
+  color: $white;
+
+  h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+  }
+
+  h2 {
+    margin: 24px 0 0 0;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  button {
+    margin-top: 48px;
+  }
+
+  #hero-divider {
+    margin: 32px 0 0 0;
+    border-bottom: 4px solid $white;
+  }
+
+  h3 {
+    margin: 32px 0 0 0;
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+
+.hero-short {
+  height: 480px;
+}
+
+.hero-long {
+  height: 720px;
+}
+
