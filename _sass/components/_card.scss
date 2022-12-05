@@ -1,0 +1,112 @@
+.card-custom {
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: $white-offset;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  left: 16px;
+  top: 16px;
+  align-items: flex-start;
+  padding: 0px;
+  .card-image {
+    display: flex;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .card-title {
+    margin-bottom: 0px;
+    text-align: center;
+    height: 36px;
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .card-description {
+    padding: 0 30px;
+    height: 78px;
+    display: inline-block;
+  }
+  .card-content {
+    background-color: $white-offset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-position: inside;
+    box-sizing: border-box;
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    color: $black;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    align-items: center;
+  }
+}
+
+.large-card {
+  width: 360px;
+  height: 496px;
+  .large-card-image {
+    width: 360px;
+    height: 240px;
+  }
+  .large-card-title {
+    color: $black;
+  }
+  .large-card-content {
+    font-size: 16px;
+    line-height: 26px;
+    flex-grow: 0;
+  }
+  .large-card-link {
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 12px 24px;
+    height: 46px;
+    border: 1px solid $primary;
+    border-radius: 4px;
+    background-color: inherit;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $primary;
+  }
+}
+
+.small-card {
+  width: 320px;
+  height: 436px;
+  .small-card-image {
+    width: 320px;
+    height: 160px;
+  }
+  .small-card-title {
+    color: $primary;
+  }
+  .small-card-content {
+    font-size: 20px;
+    line-height: 32px;
+    flex-grow: 1;
+  }
+}
+

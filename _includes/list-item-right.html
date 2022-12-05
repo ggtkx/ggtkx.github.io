@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row py-6 list-item gx-6 list-item-large">
+    <div class="col col-7 list-item-image" style="background-image: url({{ item.image }})"></div>
+    <div class="col col-5 pr-5 list-item-content">
+      <h2 class="item-title">{{ item.name }}</h2>
+      <hr class="list-item-bar"></hr>
+      <p class="item-description py-2">{{ item.description }}</p>
+      {% if item.button-text %}
+      <a class="button list-item-button" href="{{ item.button-url }}">{{ item.button-text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>

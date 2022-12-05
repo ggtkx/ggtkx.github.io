@@ -52,7 +52,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="row justify-content-start">
         {% if site.data.data.programmes_chunwan %}
           {% for item in site.data.data.programmes_chunwan %}
-            {% include list-item.html %}
+            {% assign remainder = forloop.index0 | modulo: 2 %}
+            {% if remainder == 0 %}
+              {% include list-item-left.html %}
+            {% else %}
+              {% include list-item-right.html %}
+            {% endif %}
           {% endfor %}
         {% endif %}
       </div>
