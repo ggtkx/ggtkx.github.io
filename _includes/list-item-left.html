@@ -1,6 +1,6 @@
 <div class="container">
-  <div class="row py-6 list-item gx-6 list-item-large" style="background-color:#F5F5F5;">
-    <div class="col col-5 pr-5 list-item-content">
+  <div class="row list-item px-lg-8 py-lg-6 px-md-4 py-md-3 px-1 py-2 list-item-large list-item-left">
+    <div class="col col-lg-5 col-12 pe-lg-6 pe-0 list-item-content">
       <h2 class="item-title">{{ item.name }}</h2>
       <hr class="list-item-bar"></hr>
       <p class="item-description py-2">{{ item.description }}</p>
@@ -8,6 +8,6 @@
       <a class="button list-item-button" href="{{ item.button-url }}">{{ item.button-text }}</a>
       {% endif %}
     </div>
-    <div class="col col-7 list-item-image" style="background-image: url({{ item.image }})"></div>
+    <div class="col col-lg-7 col-12 list-item-image" style="background-image: url({{ item.image }})"></div>
   </div>
 </div>

@@ -1,20 +1,22 @@
 .list-item-image {
   background-size: cover;
   background-position: center;
+  display: block;
+}
+.list-item-rounded {
+  border-radius: 16px;
 }
 
+.list-item-image.square {
+  height: 360px;
+  width: 360px;
+}
+.list-item-left {
+  background-color:#F5F5F5;
+}
 .list-item-large {
-  border-radius: 16px;
-  padding: 0;
-  margin-bottom: 30px;
   overflow: hidden;
-  width: 1440px;
-  height: 605px;
-  .list-item-image {
-    display: block;
-    height: 365px;
-    width: 697px;
-  }
+  width: 100%;
   hr.list-item-bar {
     width: 80px;
     height: 4px;
@@ -26,10 +28,6 @@
     margin-top: 4px;
     margin-bottom: 20px;
   }
-  .list-item-content {
-    margin: 16px 48px;
-    width: 343px;
-  }
   .list-item-content * {
     color: #1F1415;
   }
@@ -38,7 +36,7 @@
     font-size: 36px;
     line-height: 54px;
   }
-  .list-item-content p, .list-item-content ul{
+  .list-item-content p, .list-item-content ul {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
