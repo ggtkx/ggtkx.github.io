@@ -1,23 +1,25 @@
-<div id="main-menu-mobile" class="main-menu-mobile">
-  {% assign mainmenu = site.data.data.main %}
-  <ul class="nav nav-pills">
-      {% for item in mainmenu %}
-        {% if item.url %}
-          <li class="{% if item.url == page.url %}active{% endif %}">
-            <a href="{{ item.url | relative_url }}" >{{ item.name }}</a>
-          </li>
-        {% else %}
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button">Dropdown</a>
-            <ul class="dropdown-menu">
-              {% for subitem in item.items %}
-                <li>
-                  <a class="dropdown-item" href="{{ subitem.url | relative_url }}">{{ subitem.name }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-</div>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div id="main-menu-mobile" class="main-menu-mobile">
+    {% assign mainmenu = site.data.data.main %}
+    <ul class="navbar-nav mb-2 mb-lg-0">
+        {% for item in mainmenu %}
+          {% if item.url %}
+            <li class="{% if item.url == page.url %}active{% endif %}">
+              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+            </li>
+          {% else %}
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle" data-bs-toggle="dropdown" role="button">{{ item.name }}</a>
+              <ul class="dropdown-menu">
+                {% for subitem in item.items %}
+                  <li>
+                    <a class="dropdown-item" href="{{ subitem.url | relative_url }}">{{ subitem.name }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+  </div>
+</nav>
