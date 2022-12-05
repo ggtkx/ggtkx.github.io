@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <h1>节目表</h1>
+  </div>
+  <div class="row row-cols-2">
+    {% for item in site.data.archive-data.archive-2022-galalist %}
+    <div class="col galalist-section g-3">
+      <div class="d-flex">
+        <div class="flex-shrink-0">
+          <div class="galalist-pic me-1" style="background-image: url({{ item.image }})"></div>
+        </div>
+        <div class="flex-grow-1 ms-1 overflow-auto">
+          <span class="badge rounded-pill text-bg-primary"> {{ item.type }} </span>
+          <h3> {{ item.title }} </h3>
+          <p class="galalist-description">{{ item.description }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

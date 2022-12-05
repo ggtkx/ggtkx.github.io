@@ -37,7 +37,7 @@ One of the hooks use the [ESLint](https://eslint.org/) tool to check JavaScript 
 - `pages`：这里存放了每个页面的内容。每个页面都是一个单独的 Markdown 文本文档。在每个文件开头，有个符合 YAML 语法的区块，叫“[front matter](https://jekyllrb.com/docs/front-matter/)“，是会被 Jekyll 特殊处理的“元数据”（metadata）。元数据包括（显示在浏览器标签页卡片上的）标题、布局（layout）名称等。对于布局，大部分的页面都可以使用 `layout: page`（例如[《关于我们》](https://github.com/zgzgorg/yj.zgzg.io/blob/68c1e9f1d7072eda10a20c168512daa451b29a22/pages/about.md?plain=1#L3)、[《常见问题》](https://github.com/zgzgorg/yj.zgzg.io/blob/68c1e9f1d7072eda10a20c168512daa451b29a22/pages/faq.md?plain=1#L3)）。
 - `_data`：这里存放了任何需要被 enumerate （“枚举”/“罗列”/“用循环读出”）出来的信息。每个文件都是一个 YAML 文件。例如：
   - `data.yml`：定义了网站顶栏、底栏应该有哪些链接；我们有哪些伙伴社区、赞助商；春晚板块有哪些节目；歌手赛有哪些节目；云集板块有哪些栏目…… **这是最主要的、最杂的数据文件。** 当某个列表太大时，您也可以选择把它单独拆出来、成为一个单独的文件，就像下面两项这样👇
-  - `past-events.yml`：定义了[《往届活动》](https://www.zgzg.io/past-events/)页面的内容。
+  - `past-events.yml`：定义了[《往届回顾》](https://www.zgzg.io/past-events/)页面的内容。
   - `trailer-images.yml`：罗列了一些春晚宣传片的拍摄花絮照片。
 
 ⚠️ **注意**：本代码库虽然包含一个 `images` 文件夹，但它仅应该被用来存放 svg 等源代码格式的图片。若需要存放 jpg、png 等二进制格式的图片，请使用我们自己的 Cloudinary 服务。

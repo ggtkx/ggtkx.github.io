@@ -1,3 +1,39 @@
+- title: 春晚+游园会
+  date: 2022.1.15
+  location: SJCPA，San Jose, CA
+  image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670219116/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/group_IMG_9866_xelck2.jpg
+  url: https://www.youtube.com/watch?v=oma2LHcsOaE&list=PLa7OKLszvN9f2pPms3lZe_3mjJWbBnkZp
+  links:
+    - title: 全程录像
+      url: https://www.youtube.com/watch?v=oma2LHcsOaE&list=PLa7OKLszvN9f2pPms3lZe_3mjJWbBnkZp
+    - title: 文案回顾
+      url: https://mp.weixin.qq.com/s/SEACgaJfRH5UUpFDAVjhPQ
+    - title: 精彩记忆
+      url: /archive/2022/gala/
+- title: 中秋游园
+  date: 2022.9.10
+  location: Discovery Meadow Park, San Jose, CA
+  image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670219952/zgzg-io-website/2022-%E6%B8%B8%E5%9B%AD/MBZ07586_y9crh8.jpg
+  url: https://www.youtube.com/watch?v=iOfUjmVkEZI
+  links:
+    - title: 全程录像
+      url: https://www.youtube.com/watch?v=iOfUjmVkEZI
+    - title: 文案回顾
+      url: https://mp.weixin.qq.com/s/te5zMDefIP1yMDS0qGGdZg
+    - title: 精彩记忆
+      url: /archive/2022/tour/
+- title: 歌手赛
+  date: 2022.9.3
+  location: SJSU Hammer Theatre Center, San Jose, CA
+  image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670220252/zgzg-io-website/2022%20singers/%E5%A4%A7%E5%90%88%E5%BD%B1_5260_yh94sv.jpg
+  url: https://www.youtube.com/watch?v=Bx7_9Txj-4s
+  links:
+    - title: 幕后录像
+      url: https://www.youtube.com/watch?v=Bx7_9Txj-4s
+    - title: 文案回顾
+      url: https://mp.weixin.qq.com/s/CDutiRCjypHjNbI44OOHsg
+    - title: 精彩记忆
+      url: /archive/2022/singer/
 - title: 春节晚会
   date: 2021.2.13
   image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1633051218/zgzg-io-website/%E5%BC%80%E5%9C%BA%E8%88%9E_qf9cs8.jpg

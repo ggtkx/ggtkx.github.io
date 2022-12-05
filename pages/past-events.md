@@ -1,5 +1,5 @@
 ---
-title: 往届活动
+title: 往届回顾
 permalink: /past-events/
 layout: past-events
 ---
