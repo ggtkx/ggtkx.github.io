@@ -5,6 +5,8 @@ main:
     items:
     - name: "2023 春晚"
       url: "/gala/"
+    - name: "2023 春晚游园"
+      url: "/galatour/"
     - name: "2023 歌手赛"
       url: "/singer/"
     - name: "2023 中秋游园"
@@ -493,3 +495,104 @@ singerlist:
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660354075/zgzg-io-website/2022%20singers/image_22_csrs0y.png
     name: 参赛歌曲 要死就死在你手里 | 歌手 Elise Jiang
     description: 我叫 Elise，是一名平平无奇的产品经理。平日里喜欢听听摇滚玩玩乐队。当然，也喜欢哼个小曲儿唱的小调儿。期望在短暂的一两首歌之中，可以暂时借走大家的双耳和双手。
+
+galatour_picture_tradition:
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089337/zgzg-io-website/2022-游园/书法_zg2rig.jpg
+    name: 书法
+    description: 人和书美意，家和福临门。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670297444/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96booth/%E5%89%AA%E7%BA%B8_gfpz4h.jpg
+    name: 剪纸
+    description: 窗有簇簇花，心有千千结。自己动手剪一张窗花，为家人朋友带来祝福！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089305/zgzg-io-website/2022-游园/芝麻开门2_euzewx.png
+    name: 芝麻开门
+    description: 诗眼韵脚长短句，炼字饶舌解谜题。根据屏幕提示念完或者背诵完一篇诗文，从而解锁奖励~
+
+galatour_picture_handmade:
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670296423/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/%E6%89%8B%E5%B7%A5booth/%E4%B8%AD%E5%9B%BD%E7%BB%93_wxafpf.png
+    name: 中国结
+    description: 中国结是一种手工编织工艺品，它身上所显示的情致与智慧正是汉族古老文明中的一个侧面。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670296438/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/%E6%89%8B%E5%B7%A5booth/%E7%99%BE%E5%8F%98%E6%B0%94%E7%90%83_hcnqzn.jpg
+    name: 百变气球
+    description: 生活因气球而多彩，童年因气球而美丽。你想要什么小动物？气球姐姐可以变给你噢~想要学习拧气球？也欢迎来一展身手！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670296445/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/%E6%89%8B%E5%B7%A5booth/%E7%B3%96%E7%94%BB_zqlm6o.jpg
+    name: 糖画
+    description: 亦糖亦画，可观可食，体验非遗，感受甜蜜。来自己动手做一个好看好吃的糖画吧！
+
+galatour_picture_game:
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670296431/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/%E6%B8%B8%E6%88%8Fbooth/%E5%91%BC%E6%8B%89%E5%9C%88_xjnr6t.jpg
+    name: 呼啦圈
+    description: 圆圆满满呼啦圈，转出幸福和团圆。智能呼啦圈，自动数圈数，快快来比拼~
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1670296421/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/%E6%B8%B8%E6%88%8Fbooth/%E5%A5%97%E5%9C%88_veusju.png
+    name: 套圈
+    description: 套出惊喜，套出风采。来试试你的准头儿如何！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670296440/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/%E6%B8%B8%E6%88%8Fbooth/%E4%B8%83%E5%B7%A7%E6%9D%BF_oqtwje.jpg
+    name: 七巧板
+    description: 七巧玲珑心，万律一家亲。看着黑白图片，你能猜到它们是怎么用七巧板拼出来的吗？
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670296435/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/%E6%B8%B8%E6%88%8Fbooth/%E8%B8%A2%E6%AF%BD%E5%AD%90%E6%AF%94%E8%B5%9B_fdgsth.jpg
+    name: 踢键子比赛
+    description: 让羽毛在脚尖上跳舞，看看谁踢得更高更多更强~
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670296429/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/%E6%B8%B8%E6%88%8Fbooth/%E7%94%B2%E9%AA%A8%E6%96%87_j0fphl.jpg
+    name: 甲骨文
+    description: 走进古老文字，领略象形之美。你能猜到卡片上的图形是现代的哪个汉字吗？
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089303/zgzg-io-website/2022-%E6%B8%B8%E5%9B%AD/%E7%AB%A5%E8%B6%A3%E4%B9%90%E5%9B%AD1_fieihl.jpg
+    name: 自助游戏区
+    description: 大三通，小三通。孔明锁，鲁班锁。迷宫，叠叠乐，飞行棋，七巧板。益智烧脑，全家齐上阵。看谁脑筋最灵活，双手最灵巧。
+
+galatour_picture_interactive:
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089303/zgzg-io-website/2022-%E6%B8%B8%E5%9B%AD/%E5%A7%BB%E7%BC%98%E5%A2%99_cxeeac.jpg
+    name: 姻缘墙
+    description: 云里寻TA千百度，蓦然回首，那人却在，姻缘庭墙处。未来已来，用AI让你邂逅意中人，从此告别单身！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662095165/zgzg-io-website/2022-%E6%B8%B8%E5%9B%AD/%E7%85%A7%E7%9B%B8%E9%A6%86_sc5qj5.png
+    name: 照相馆
+    description: 儒风翩翩公子，长裙纤纤闺秀。使用提供的道具，美美地拍摄一张爱意满满的全家福吧~
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089318/zgzg-io-website/2022-%E6%B8%B8%E5%9B%AD/%E5%B0%8F%E8%88%9E%E5%8F%B0_dytitr.jpg
+    name: 小舞台
+    description: 小舞台将汇聚各路才艺达人，还有更多好玩的互动游戏，丰富大奖等你来拿！
+
+galatour_picture_child:
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670296449/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/%E7%AB%A5%E8%B6%A3%E4%B9%90%E5%9B%AD/%E7%BB%98%E8%84%B8_prvzbe.jpg
+    name: 画脸
+    description: 新春处处显神彩，画脸喜迎新春乐！画脸是小朋友的最爱，口罩遮住了我们笑容，遮不住我们对美好的追求！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344396/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0550_oaouoy.jpg
+    name: 大嘴迎新年
+    description: 大嘴装满福禄寿，画笔传神显生辉。在准备好的模版里 进行艺术创作 张开嘴巴里面到底有什么？全凭小朋友的想象力。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670296447/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/%E7%AB%A5%E8%B6%A3%E4%B9%90%E5%9B%AD/%E7%94%BB%E9%BE%99%E7%82%B9%E7%9D%9B_ekbnpt.jpg
+    name: 画龙点睛
+    description: 龙兴阳动乾坤晓，龙之神“彩”由你填！一条长长的巨龙，等你为它穿上七彩的衣裳！
+
+galatour_picture_volunteer:
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1636003206/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/%E4%B8%BB%E6%8C%81%E4%BA%BA_3_huvgsq.png
+    name: 主持人
+    description: 1-2 人, 场面由你掌控
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1670294554/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E5%85%B3%E4%BA%8E%E6%98%A5%E8%8A%82%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%BF%97%E6%84%BF%E8%80%85%E5%9B%A2%E9%98%9F/%E7%AD%96%E5%88%92%E7%BB%84_qtysjg.jpg
+    name: 策划组
+    description: 2-3人, 舞台整体策划
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670294568/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E5%85%B3%E4%BA%8E%E6%98%A5%E8%8A%82%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%BF%97%E6%84%BF%E8%80%85%E5%9B%A2%E9%98%9F/%E8%8A%82%E7%9B%AE%E7%BB%84_eacumw.jpg
+    name: 节目组
+    description: 对接单个节目面试与排练
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670294558/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E5%85%B3%E4%BA%8E%E6%98%A5%E8%8A%82%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%BF%97%E6%84%BF%E8%80%85%E5%9B%A2%E9%98%9F/%E5%9C%BA%E5%8A%A1%E7%BB%84_qr3zbd.png
+    name: 场务组
+    description: 设备组织管理
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1639344397/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/534A0666_qhnhms.jpg
+    name: 游戏组
+    description: 现场游戏设计组织
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670294564/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E5%85%B3%E4%BA%8E%E6%98%A5%E8%8A%82%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%BF%97%E6%84%BF%E8%80%85%E5%9B%A2%E9%98%9F/%E9%9F%B3%E5%93%8D%E7%BB%84_svtc1k.jpg
+    name: 音响组
+    description: 音响技术支持
+
+galatour_picture_type:
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641757238/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/5_yrtt8j.png
+    name: 歌唱节目
+    description: ·流行 ·民谣 ·美声 ·Rap·及你所喜欢的任何音乐类型
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/8_dcghfo.png
+    name: 传统文化节目
+    description: ·戏曲 ·杂技 ·武术 ·武术·舞龙舞狮 ·汉服表演 ·少数民族表演 ·民乐表演 ·太极拳太极剑·踩高跷 ·划旱船 ·任何和传统文化相关的节目
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641779944/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/15_ruoyas.png
+    name: 舞蹈节目
+    description: ·古典舞 ·现代舞 ·民族舞 ·街舞 ·及你想展现的任何舞蹈类型
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641757237/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/7_w7ox1f.png
+    name: 魔术节目
+    description: 纸牌魔术？隔空取物？还是心灵透视术？小编蹲一个湾区魔术周杰伦！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1641757235/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/6_nj1uat.png
+    name: 属于你的X-Part
+    description: 或许你还有其他隐藏技能？武术表演、乐器演奏、艺术涂鸦？戳戳手指报名，万一安排上了呢！
