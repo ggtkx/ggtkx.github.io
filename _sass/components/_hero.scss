@@ -15,6 +15,13 @@
   margin-right: 720px;
   color: $white;
 
+  p {
+    color: $white;
+    a {
+      color: $white;
+    }
+  }
+
   @media (max-width: 1199.98px) {
     margin: auto 32px auto 32px;
 
