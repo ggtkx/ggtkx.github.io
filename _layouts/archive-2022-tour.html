@@ -12,11 +12,11 @@ layout: default
       </div>
     </div>
     <!-- List of activities on the Tour, presented as cards. -->
-    <div class="row justify-content-center">
+    <div class="row justify-content-center g-1 g-md-2 p-1 p-md-3">
       {% if site.data.archive-data.archive-2022-tourslist %}
-      {% for programme in site.data.archive-data.archive-2022-tourslist %}
-      {% include programme.html %}
-      {% endfor %}
+        {% for programme in site.data.archive-data.archive-2022-tourslist %}
+          {% include programme.html %}
+        {% endfor %}
       {% endif %}
     </div>
   </div>
