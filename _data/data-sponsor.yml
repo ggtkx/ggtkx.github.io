@@ -57,7 +57,7 @@ sponsors-singer:
     - level-name: gold
       level-heading: 金牌赞助
       elements-div-style-class: col-6 col-lg-3 mb-1 gold-sponsor
-      sponsor-elements:  
+      sponsor-elements:
       - name: 红叶故事
         image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
         description: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
@@ -93,7 +93,7 @@ sponsors-singer:
     - level-name: musical_instrument
       level-heading: 乐器赞助
       elements-div-style-class: col-6 col-lg-3 mb-1 gold-sponsor
-      sponsor-elements:  
+      sponsor-elements:
       - name: Enya智能乐器
         image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661795574/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_6517_zfwmhh.jpg
         description: 恩雅音乐是一家集乐器、智能音频、音乐文化、为一体的创新型科技音乐公司。超过十年的沉淀让恩雅更好的服务着全球音乐爱好者们。
@@ -102,7 +102,7 @@ sponsors-singer:
       level-heading: 场地赞助
       elements-div-style-id: last-row-partners
       elements-div-style-class: col-6 col-lg-3 mb-1 food-sponsor
-      sponsor-elements:  
+      sponsor-elements:
       - name: mtv
         image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1656783910/WechatIMG530_rxjxda.png
         description: 音乐隧道，Music Tunnel，南湾最广为人知，最专业的娱乐休闲KTV！国内专业团队倾力打造，中英日韩多语种曲库实时更新，老歌新歌一应俱全。顶级音响设备，国内同步的时尚主题式设计装潢，带给您沉浸式的欢唱体验！炎热的夏日，我们就要拿着话筒，吹着空调，奶茶配上盐酥鸡，自在逍遥！
@@ -113,7 +113,7 @@ sponsors-singer:
       level-heading: 餐饮赞助
       elements-div-style-id: last-row-partners
       elements-div-style-class: col-6 col-lg-3 mb-1 food-sponsor
-      sponsor-elements:  
+      sponsor-elements:
       - name: weboba
         image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1657254451/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Combined-logo_am3ikv.png
         description: 鲜奶和茶的相遇，就像WeBoba和你传承千年的中华茶道，无需奶精掩饰，无需甜腻伪装你第一口就能尝到 Say No to 奶精，Say No to 茶粉茶渣茶你值得，最正统的茶味。
@@ -126,7 +126,7 @@ sponsors-singer:
       level-heading: 媒体合作
       elements-div-style-id: last-row-partners
       elements-div-style-class: col-6 col-lg-3 mb-1 food-sponsor
-      sponsor-elements:  
+      sponsor-elements:
       - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661720085/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/chihuo_uhom0r.png
       - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659916546/zgzg-io-website/2_pes3u4.jpg
       - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659916785/zgzg-io-website/1_bdeoh3.png
@@ -140,7 +140,7 @@ sponsors-singer:
       level-heading: 特别合作
       elements-div-style-id: last-row-partners
       elements-div-style-class: col-6 col-lg-3 mb-1 food-sponsor
-      sponsor-elements:  
+      sponsor-elements:
       - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660499610/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/image_28_wrksq1.png
       - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660407760/hanfu_m1hieb.png
 
@@ -186,7 +186,7 @@ sponsors:
     - level-name: gold
       level-heading: 金牌赞助
       elements-div-style-class: col-6 col-lg-3 mb-1 gold-sponsor
-      sponsor-elements:  
+      sponsor-elements:
         - name: 红叶故事
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
           description: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
@@ -195,7 +195,7 @@ sponsors:
       level-heading: 餐饮赞助
       elements-div-style-id: last-row-partners
       elements-div-style-class: col-6 col-lg-3 mb-1 food-sponsor
-      sponsor-elements:  
+      sponsor-elements:
         - name: harbor
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638422908/zgzg-io-website/%E6%B8%AF%E6%B9%BE%E6%B8%94%E9%82%A8logo_d02wdd.jpg
           description: 灣區美食打卡地標! 【港灣漁邨】，原Newark 西貢漁港，以美輪美奐风貌成為東灣最具吸引力的美食海鮮食府。 訂座電話：510-793-1388. 地址：35219 Newark Blvd.，Newark
@@ -219,7 +219,7 @@ sponsors:
       level-heading: 媒体合作
       elements-div-style-id: last-row-partners
       elements-div-style-class: col-4 col-lg-3 mb-1
-      sponsor-elements:  
+      sponsor-elements:
         - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1637378577/zgzg-io-website/Copy_of_%E5%90%83%E8%B4%A7%E5%B0%8F%E5%88%86%E9%98%9Flogo_qvkijb.jpg
         - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_pad,h_300,w_300/v1637378520/zgzg-io-website/Copy_of_%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0logo_ealrrz.png
         - name: 北美新浪
@@ -235,7 +235,7 @@ sponsors:
       level-heading: 合作伙伴
       elements-div-style-id: last-row-partners
       elements-div-style-class: col-4 col-lg-3 mb-1 partner-sponsor
-      sponsor-elements:  
+      sponsor-elements:
         - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639894827/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/M.STUDIO_o7isva.jpg
           description: M.STUDIO - 一站式高端婚纱&广告摄影工作室 - 于2016年创立在旧金山湾区。娴熟驾驭婚纱摄影，旅拍，儿童亲子家庭照，活动跟拍，大大小小商业广告。服务各种外景棚拍上门拍摄，并可量身定制，按需拍摄。就算只是一张照片，M.STUDIO也承诺做到最好！
           website: ''

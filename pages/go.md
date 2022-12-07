@@ -17,4 +17,3 @@ permalink: /go/
 
 * 视频教程：[如何创建 zgzg.link 短链接](https://youtu.be/8HrtHwGEOoE)
 * [网站源代码](https://github.com/zgzgorg/yj.zgzg.io)
-
