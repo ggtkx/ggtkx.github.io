@@ -1,7 +1,9 @@
-<div class="col-12 col-md-6 col-lg-4 mb-5">
+<div class="col-12 col-md-6">
   <div class="programme">
     {% if programme.image %}
-      <div class="programme-image"><img alt="{{ programme.name }}" src="{{ programme.image }}" /></div>
+      <div class="programme-image">
+        <img alt="{{ programme.name }}" src="{{ programme.image }}" />
+      </div>
     {% endif %}
     <h2 class="programme-title">{{ programme.name }}</h2>
     <div class="programme-content">
@@ -22,7 +24,7 @@
       {% endif %}
       {% if programme.button-text %}
         <div class="d-flex justify-content-center">
-          <a class="button" href="{{ programme.button-url }}">{{ programme.button-text }}</a>
+          <a class="btn btn-secondary btn-md" href="{{ programme.button-url }}">{{ programme.button-text }}</a>
         </div>
       {% endif %}
     </div>

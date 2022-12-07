@@ -56,43 +56,7 @@
   }
 }
 
-.large-card {
-  width: 360px;
-  height: 496px;
-  .large-card-image {
-    width: 360px;
-    height: 240px;
-  }
-  .large-card-title {
-    color: $black;
-  }
-  .large-card-content {
-    font-size: 16px;
-    line-height: 26px;
-    flex-grow: 0;
-  }
-  .large-card-link {
-    box-sizing: border-box;
-    flex-direction: row;
-    padding: 12px 24px;
-    height: 46px;
-    border: 1px solid $primary;
-    border-radius: 4px;
-    background-color: inherit;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    font-family: 'Noto Sans SC';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: $primary;
-  }
-}
+// For `.large-card`, see `.programme`.
 
 .small-card {
   width: 320px;
