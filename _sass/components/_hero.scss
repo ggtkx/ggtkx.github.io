@@ -15,6 +15,14 @@
   margin-right: 720px;
   color: $white;
 
+  @media (max-width: 1199.98px) {
+    margin: auto 32px auto 32px;
+
+    h1 {
+      font-size: 36px;
+    }
+  }
+
   h1 {
     margin: 0;
     font-weight: 700;
@@ -45,9 +53,17 @@
 
 .hero-short {
   height: 480px;
+
+  @media (max-width: 1199.98px) {
+    height: 320px;
+  }
 }
 
 .hero-long {
   height: 720px;
+
+  @media (max-width: 1199.98px) {
+    height: 480px;
+  }
 }
 
