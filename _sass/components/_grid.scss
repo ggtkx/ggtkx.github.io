@@ -1,0 +1,78 @@
+.row.gala-text-grid {
+  @media (min-width: 768px) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  @media (max-width: 1199.98px) {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+
+.col.gala-text-grid {
+  color: $primary;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+.col.gala-text-grid-content {
+  color: $black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.row.gala-photo-grid {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.col.gala-photo-grid {
+  width: 30%;
+  height: 20%;
+  margin-right: 20px;
+}
+
+.show-signup {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row.icon-grid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.col.icon-grid-header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60px;
+  margin-bottom: 16px;
+}
+
+.col.icon-grid-text-header {
+  color: $primary;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.col.icon-grid-text-bold {
+  color: $black;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.col.icon-grid {
+  color: $black;
+  font-size: 20px;
+  text-align: center;
+}

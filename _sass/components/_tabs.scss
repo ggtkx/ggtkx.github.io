@@ -6,8 +6,13 @@
   list-style: none;
   position: relative;
   justify-content: center;
-  border-bottom: 2px solid $steel;
-  margin: 80px 15% 0 15%;
+  border-bottom: 1px solid $steel;
+  @media (min-width: 768px) {
+    margin: 80px 25% 0 25%;
+  }
+  @media (max-width: 1199.98px) {
+    margin: 80px 5px 0 5px;
+  }
 }
 
 /* Style the buttons that are used to open the tab content */
