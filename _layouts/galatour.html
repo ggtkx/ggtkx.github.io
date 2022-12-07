@@ -4,10 +4,10 @@ layout: default
 <div class="hero hero-short hero-galatour">
     <div class="hero-content">
         <h1>
-            2023春节游园会
+            2023  春节游园会
         </h1>
         <h2>
-            时间：2023年1月21日（周六） 13:00-16:00 PT <br>
+            时间：2023 年 1 月 21 日（周六） 13:00 - 16:00 PT <br>
             地点：<a style="color:white; text-decoration: underline;" href="https://goo.gl/maps/3UJLFuwnhkT2QcMW7">San Jose Center for the Performing Arts</a> <br>
         </h2>
         <button class="btn btn-primary btn-lg">加入我们</button>
@@ -16,27 +16,37 @@ layout: default
 
 <!-- Tab links -->
 <div class="tab">
-    <button class="tab-links default-open" onclick="openTab(event)" data-tab-group="main" data-tab-id="aboutGalatour">关于春节游园会</button>
-    <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="stageGalatour">游园舞台节目招募</button>
-    <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="mapGalatour">游园地图</button>
+    <button class="tab-links default-open" onclick="openTab(event)" data-tab-group="main" data-tab-id="about-galatour">关于春节游园会</button>
+    <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="stage-galatour">游园舞台节目招募</button>
+    <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="map-galatour">上届游园地图及摊位</button>
 </div>
 
 <!-- Tab content -->
-<div id="aboutGalatour" class="tab-content">
+<div id="about-galatour" class="tab-content">
     <div class="container pt-6 pb-6 pt-md-8 pb-md-8">
         <div class="row">
-            <h1 style="text-align:center">什么是春节游园会</h1>
-            <p> 
-                叮咣叮咣，新年来到！远在异国他乡的你，是否也怀念过年各处张灯结彩的喜庆呢？找不到组织的你，是否也想沾沾年味热闹一番呢？<br>
-                民俗活动，传统游戏，精彩互动，就在“载歌在谷”欢乐游园！湾区规模最大，最热闹，最具中国特色的春节晚会。适合全家参与，赶快带小朋友来体验我中华民族的春节气息吧！活动不仅免费，还有各种礼品和奖品送！<br>
-            </p>
+            <div class="col col-12 text-center">
+                <h1 class="underline">什么是春节游园会</h1>
+            </div>
         </div>
         <div class="row">
-            <h1 style="text-align:center">游园剪影</h2>
+            <div class="col col-12">
+                <p>
+                    叮咣叮咣，新年来到！远在异国他乡的你，是否也怀念过年各处张灯结彩的喜庆呢？找不到组织的你，是否也想沾沾年味热闹一番呢？
+                </p>
+                <p>
+                    民俗活动，传统游戏，精彩互动，就在“载歌在谷”欢乐游园！湾区规模最大，最热闹，最具中国特色的春节晚会。适合全家参与，赶快带小朋友来体验我中华民族的春节气息吧！活动不仅免费，还有各种礼品和奖品送！
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-12 text-center">
+                <h1 class="underline">往届游园剪影</h1>
+            </div>
         </div>
         <div class="row pb-6">
             <div class="col">
-                <img src=https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670350137/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E5%85%B3%E4%BA%8E%E6%98%A5%E8%8A%82%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%89%AA%E5%BD%B1/Group_%E6%B8%B8%E5%9B%AD%E5%89%AA%E5%BD%B1_b9jml7.png class="rounded mx-auto d-block">
+                <img src="https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1670350137/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E5%85%B3%E4%BA%8E%E6%98%A5%E8%8A%82%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%89%AA%E5%BD%B1/Group_%E6%B8%B8%E5%9B%AD%E5%89%AA%E5%BD%B1_b9jml7.png" class="mx-auto d-block" />
             </div>
         </div>
         <div class="row">
@@ -47,10 +57,16 @@ layout: default
             {% endif %}
         </div>
         <div class="row">
-            <h1 style="text-align:center">游园志愿者团队</h1>
-            <p> 
-                春节游园舞台志愿者可以在这些领域发挥才能：<br>
-            </p>
+            <div class="col col-12 text-center">
+                <h1 class="underline">游园志愿者团队</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-12">
+                <p>
+                    春节游园舞台志愿者可以在这些领域发挥才能：
+                </p>
+            </div>
         </div>
         <div class="row">
             {% if site.data.data.galatour_picture_volunteer %}
@@ -60,43 +76,63 @@ layout: default
             {% endif %}
         </div>
         <div class="row">
-            <h1 style="text-align:center">春节游园舞台志愿者报名</h1>
-            <p> 
-                春节游园舞台志愿者、节目报名如有任何问题可联系舞台负责人Jay。 Email: <a href="mailto:jayz@zgzg.io">jayz@zgzg.io</a><br>
-                【报名时间】即日起至 2022 年 11 月 1 日 23:59 PT<br>
-                【报名表单】<a href="https://forms.gle/rAHULVxettW6FMVZ7">链接</a><br>
-            </p>
-        </div>
-    </div>
-</div>
-
-<div id="stageGalatour" class="tab-content">
-    <div class="container pt-6 pb-6 pt-md-8 pb-md-8">
-        <div class="row">
-            <h1 style="text-align:center">春节游园舞台节目招募</h1>
-            <p> 
-                春节游园舞台志愿者、节目报名如有任何问题可联系舞台负责人Jay。 Email: <a href="mailto:jayz@zgzg.io">jayz@zgzg.io</a><br>
-                【报名时间】即日起至 2022 年 11 月 1 日 23:59 PT<br>
-                【报名表单】<a href="https://forms.gle/rAHULVxettW6FMVZ7">链接</a><br>
-            </p>
-            <div class="row">
-                <h2 style="text-align:center">舞台节目类型</h2>
+            <div class="col col-12 text-center">
+                <h1 class="underline">春节游园舞台志愿者报名</h1>
             </div>
-            <div class="row">
-                {% if site.data.data.galatour_picture_type %}
-                    {% for programme in site.data.data.galatour_picture_type %}
-                        {% include programme.html %}
-                    {% endfor %}
-                {% endif %}
+        </div>
+        <div class="row">
+            <div class="col col-12">
+                <p>
+                    春节游园舞台志愿者、节目报名如有任何问题可联系舞台负责人 Jay。 Email: <a href="mailto:jayz@zgzg.io">jayz@zgzg.io</a>
+                </p>
+                <ul>
+                    <li>【报名时间】即日起至 2022 年 11 月 1 日 23:59 PT</li>
+                    <li>【报名表单】<a href="https://forms.gle/rAHULVxettW6FMVZ7">链接</a></li>
+                </ul>
             </div>
         </div>
     </div>
 </div>
 
-<div id="mapGalatour" class="tab-content">
+<div id="stage-galatour" class="tab-content">
     <div class="container pt-6 pb-6 pt-md-8 pb-md-8">
         <div class="row">
-            <h1 style="text-align:center">2023春节游园地图</h1>
+            <div class="col col-12 text-center">
+                <h1 class="underline">春节游园舞台节目招募</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-12">
+                <p>
+                    春节游园舞台志愿者、节目报名如有任何问题可联系舞台负责人 Jay。 Email: <a href="mailto:jayz@zgzg.io">jayz@zgzg.io</a>
+                </p>
+                <ul>
+                    <li>【报名时间】即日起至 2022 年 11 月 1 日 23:59 PT</li>
+                    <li>【报名表单】<a href="https://forms.gle/rAHULVxettW6FMVZ7">链接</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-12 text-center">
+                <h1 class="underline">舞台节目类型</h1>
+            </div>
+        </div>
+        <div class="row">
+            {% if site.data.data.galatour_picture_type %}
+                {% for programme in site.data.data.galatour_picture_type %}
+                    {% include programme.html %}
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div id="map-galatour" class="tab-content">
+    <div class="container pt-6 pb-6 pt-md-8 pb-md-8">
+        <div class="row">
+            <div class="col col-12 text-center">
+                <h1 class="underline">2022 春节游园地图</h1>
+            </div>
         </div>
         <div class="row pb-6">
             <div class="col">
@@ -104,10 +140,14 @@ layout: default
             </div>
         </div>
         <div class="row">
-            <h1 style="text-align:center">2023春节游园会活动介绍</h1>
+            <div class="col col-12 text-center">
+                <h1 class="underline">2022 春节游园会活动介绍</h1>
+            </div>
         </div>
         <div class="row">
-            <h2>传统文化booth</h2>
+            <div class="col col-12 text-center">
+                <h2>传统文化摊位</h2>
+            </div>
         </div>
         <div class="row">
             {% if site.data.data.galatour_picture_tradition %}
@@ -117,7 +157,9 @@ layout: default
             {% endif %}
         </div>
         <div class="row">
-            <h2>手工booth</h2>
+            <div class="col col-12 text-center">
+                <h2>手工活动摊位</h2>
+            </div>
         </div>
         <div class="row">
             {% if site.data.data.galatour_picture_handmade %}
@@ -127,7 +169,9 @@ layout: default
             {% endif %}
         </div>
         <div class="row">
-            <h2>游戏booth</h2>
+            <div class="col col-12 text-center">
+                <h2>游戏活动摊位</h2>
+            </div>
         </div>
         <div class="row">
             {% if site.data.data.galatour_picture_game %}
@@ -137,7 +181,9 @@ layout: default
             {% endif %}
         </div>
         <div class="row">
-            <h2>互动booth</h2>
+            <div class="col col-12 text-center">
+                <h2>互动摊位</h2>
+            </div>
         </div>
         <div class="row">
             {% if site.data.data.galatour_picture_interactive %}
@@ -147,7 +193,9 @@ layout: default
             {% endif %}
         </div>
         <div class="row">
-            <h2>童趣booth</h2>
+            <div class="col col-12 text-center">
+                <h2>童趣活动摊位</h2>
+            </div>
         </div>
         <div class="row">
             {% if site.data.data.galatour_picture_child %}
