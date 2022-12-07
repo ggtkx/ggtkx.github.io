@@ -13,7 +13,7 @@
               <ul class="dropdown-menu">
                 {% for subitem in item.items %}
                   <li>
-                    <a class="dropdown-item" href="{{ subitem.url | relative_url }}">{{ subitem.name }}</a>
+                    <a class="dropdown-item" style="{% if subitem.url == page.url %}color:#AF1D25; text-decoration: underline;{% endif %}" href="{{ subitem.url | relative_url }}">{{ subitem.name }}</a>
                   </li>
                 {% endfor %}
               </ul>

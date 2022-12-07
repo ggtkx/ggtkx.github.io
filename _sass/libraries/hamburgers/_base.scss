@@ -36,12 +36,6 @@
         opacity: $hamburger-active-hover-opacity;
       }
     }
-
-    .hamburger-inner,
-    .hamburger-inner::before,
-    .hamburger-inner::after {
-      background-color: $hamburger-active-layer-color;
-    }
   }
 }
 
