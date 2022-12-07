@@ -77,3 +77,7 @@ nav a {
 nav li.active a {
     color: #ffffff;
 }
+
+.strip:nth-child(even) {
+  background-color: #F5F5F5;
+}
