@@ -4,29 +4,42 @@
       {% include large-card.html %}
     {% endfor %}
   {% endif %}
-  <a href="mailto:contact-us@zgzg.io" id="join">
-    <div class="col-12 col-md-6 col-lg-4 mb-5">
-      <div class="programme">
-          <div class="programme-image">
-            +
+
+  {% if show_join_us == true %}
+    <a href="mailto:contact-us@zgzg.io" id="join">
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="programme">
+            <div class="programme-image">
+              +
+            </div>
+          <h2 class="programme-title">加入我们</h2>
+          <div class="programme-content">
+            <p class="programme-description">加入我们社区，孵化你的兴趣小组；或者，帮助已有栏目办得更好！</p>
           </div>
-        <h2 class="programme-title">加入我们</h2>
-        <div class="programme-content">
-          <p class="programme-description">加入我们社区，孵化你的兴趣小组；或者，帮助已有栏目办得更好！</p>
         </div>
       </div>
-    </div>
-  </a>
+    </a>
+  {% endif %}
 </div>
-<p>新志愿者？请参阅<a href="https://zgzg.link/onboard">《新人大礼包》</a>。</p>
-<h2>已完结栏目</h2>
-{% if show_concluded_programmes == true %}
-  <p>完成了历史使命，也值得拥有姓名！</p>
-  <div class="row" id="concluded-programmes">
-    {% for programme in site.data.data.past-programmes %}
-      {% include programme.html %}
-    {% endfor %}
-  </div>
+
+{% if show_join_us == true %}
+  <p>新志愿者？请参阅<a href="https://zgzg.link/onboard">《新人大礼包》</a>。</p>
+  <h2>已完结栏目</h2>
+  {% if show_concluded_programmes == true %}
+    <p>完成了历史使命，也值得拥有姓名！</p>
+    <div class="row" id="concluded-programmes">
+      {% for programme in site.data.data.past-programmes %}
+        {% include programme.html %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>请参见<a href="/yj/">云集专页</a>。</p>
+  {% endif %}
+
 {% else %}
-  <p>请参见<a href="/yj/">云集专页</a>。</p>
+
+  <a href="/yj/">
+    <button type="button" class="btn btn-primary btn-lg" id="more-programmes">更多 “云集”</button>
+  </a>
+
 {% endif %}

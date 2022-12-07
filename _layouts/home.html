@@ -23,78 +23,87 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-5 col-md-3 order-2 order-md-2" id="content">
-        <h1>2023兔年<br>“载歌在谷”春晚<br>赞助商招募火热进行中</h1>
+        <h2>2023兔年<br>“载歌在谷”春晚<br>赞助商招募火热进行中</h2>
         <p>
-            兔年春晚及游园时间：2023年1月21日 <br>
-            地点：San Jose Center for Performing Arts <br>
-            联系赞助组 Email: sponsor-gala@zgzg.io <br>
-            WeChat: “载歌在谷” <br>
-            招商类别与赞助商权益详情，请扫描二维码
+            <b>兔年春晚及游园时间：</b>2023年1月21日 <br>
+            <b>地点：</b>San Jose Center for Performing Arts <br>
+            <b>联系赞助组 Email: </b><u>sponsor-gala@zgzg.io</u> <br>
+            <b>WeChat公众号:</b> “载歌在谷” <br>
+            招商类别与赞助商权益详情，请访问以下链接
         </p>
-        <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7qq9nha31j306y06z74o.jpg" alt="报名二维码" />
+        <a href="https://mp.weixin.qq.com/s/BzpzveTu9Uyzw9j3c1Nmpg">
+          <button type="button" class="btn btn-light btn-primary btn-lg">查看详情</button>
+        </a>
       </div>
     </div>
   </div>
 </div>
 
-<!-- Tab links -->
-<div class="tab">
-  <button class="tab-links default-open" onclick="openTab(event)" data-tab-group="main" data-tab-id="programmes_chunwan">载歌在谷精彩活动</button>
-  <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="programmes">“云集”系列栏目</button>
-  <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="sponsor">赞助商</button>
+<div class="strip">
+  <div class="container">
+
+      <div class="home-section-header pb-large">
+        <h2>关于 “载歌在谷”</h2>
+        <div class="divider">
+          <hr></hr>
+        </div>
+        <div class="home-section-content">
+          <p class="py-2">“载歌在谷”社区是一个以硅谷高科技华人从业者为主要贡献者的非盈利组织。“载歌在谷”社区旨在丰富硅谷华人的文化生活、弘扬中华文化。社区以文艺活动为主要载体，如“载歌在谷”春节晚会。</p>
+        </div>
+      </div>
+
+      {% if site.data.data.programmes_chunwan %}
+        {% for item in site.data.data.programmes_chunwan %}
+          {% assign remainder = forloop.index0 | modulo: 2 %}
+          {% if remainder == 0 %}
+            {% include list-item-left.html %}
+          {% else %}
+            {% include list-item-right.html %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+  </div>
 </div>
 
-<!-- Tab content -->
-<div id="programmes_chunwan" class="tab-content">
-  <div class="strip">
-    <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
-      <h1>载歌在谷精彩活动</h1>
-      <div class="row justify-content-start">
-        {% if site.data.data.programmes_chunwan %}
-          {% for item in site.data.data.programmes_chunwan %}
-            {% assign remainder = forloop.index0 | modulo: 2 %}
-            {% if remainder == 0 %}
-              {% include list-item-left.html %}
-            {% else %}
-              {% include list-item-right.html %}
-            {% endif %}
-          {% endfor %}
-        {% endif %}
+<div class="strip">
+  <div class="container pb-6 pb-md-6" id="yj">
+
+    <div class="home-section-header pb-small">
+      <h2>“云集”系列栏目</h2>
+      <div class="divider">
+        <hr></hr>
+      </div>
+      <div class="home-section-content">
+        <p class="py-2">载歌在谷社区孵化了许多群体，常年举办各种活动。快来参加吧！</p>
       </div>
     </div>
-  </div>
-</div>
 
-<div id="programmes" class="tab-content">
-  <div class="strip">
-    <div class="container pt-6 pb-6 pt-md-6 pb-md-6" id="yj">
-      <h1>“云集”系列栏目</h1>
-      <p>载歌在谷社区孵化了许多群体，常年举办各种活动。快来参加吧！</p>
-      {% assign show_concluded_programmes = false %}
-      {% include programmes.html %}
-    </div>
-  </div>
-</div>
-
-<div id="sponsor" class="tab-content">
-  <div class="strip">
-    <div class="container pt-6 pb-6 pt-md-6 pb-md-6" id="sponsors">
-      {% assign sponsor_type = site.data.data-sponsor.sponsor-home %}
-      {% include sponsor-template.html %}
-      {% assign sponsor_type = site.data.data-sponsor.sponsors-yj-2022 %}
-      {% include sponsor-template.html %}
-    </div>
+    {% assign show_concluded_programmes = false %}
+    {% assign show_join_us = false %}
+    {% include programmes.html %}
   </div>
 </div>
 
 <div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pb-md-10" id="friends">
-    <div class="row">
+  <div class="container" id="sponsors">
+    {% assign sponsor_type = site.data.data-sponsor.sponsor-home %}
+    {% include sponsor-template.html %}
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container" id="friends">
+    
+    <div class="home-section-header pb-small">
       <h2>伙伴社区</h2>
+      <div class="divider">
+        <hr></hr>
+      </div>
+      <div class="home-section-content">
+        <p class="py-2">湾区其他以华人为主的非盈利组织。</p>
+      </div>
     </div>
-    <div class="row">
-      <p>湾区其他以华人为主的非盈利组织。</p>
-    </div>
+
     <div class="row justify-content-start">
       {% for friend in site.data.data.friends %}
       <div class="col-12 col-md-2 mb-1 pl-3 pr-3">

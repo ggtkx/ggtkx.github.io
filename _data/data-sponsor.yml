@@ -11,10 +11,20 @@
 # These fields are referenced in sponsor-template.html.
 
 sponsor-home:
-  sponsor-heading: 2022 歌手赛赞助商
   sponsor-levels:
-    - level-name: platinum
-      level-heading: <br>钻石赞助 虚位以待<br><br>
+    - level-name: sponsor
+      level-heading: 主要赞助商
+      elements-div-style-class: col-6 col-lg-4 mb-1
+      sponsor-elements:
+      - name: Ivy Zhang & Anna Duan Realty Team
+        description: Ivy Zhang & Anna Duan 团队是Coldwell Banker全职资深Top地产经纪团队，是Top Agent Network的成员，交易过上百套房屋买卖，得到客户们Zillow 和Google 全五星好评，团队资源丰富，能在房屋买卖，贷款，投资，装修，出租，设计等方面提供给客户们全方位的服务和咨询。永远将客户的利益放在首位，根据客户的具体情况，需求和预算，帮助客人制定专属地产投资规划。
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1670308954/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Ivy_Zhang_and_Anna_Duan_Realty_Team_s3t45u.png
+      - name: Lusso Inc - Tile, Hardwook, Kitchen & Bath
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1670309781/zgzg-io-website/%E8%B5%9E%E5%8A%A9/lusso_logo_daqkws.jpg
+        description: What makes design so alluring? We believes the answer is designers. That’s why we have made our entire focus on you – the designer. Your style, your ideas, your creativity. Go on – Try, share and design now!
+      - name: Enjoy Dance Studio
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1670310255/zgzg-io-website/%E8%B5%9E%E5%8A%A9/EDS_Logo_black_mnrrkn.png
+        description: EDS 是湾区最大的华人舞蹈工作室。We have 街舞 HIPHOP | 韩舞 K-POP | 爵士 JAZZ | 机械舞 POPPING | 现代舞 CONTEMPORARY ｜ 编舞 CHOREO。9 locations across the bay area!
 
 sponsors-yj-2022:
   sponsor-heading: 2022 云集赞助商

@@ -1,4 +1,4 @@
-<div id="gala-sponsors" class="strip container">
+<div id="gala-sponsors" class="container">
     <!-- sponsor heading, such as 2022 歌手赛赞助商 -->
     {% if sponsor_type.sponsor-heading %}
         <div class="row">
@@ -11,9 +11,15 @@
     <!-- sponsors by level, such as 白金赞助 -->
     {% for sponsor_level in sponsor_type.sponsor-levels %}
     <div class="row">
-        <div class="col">
+        <div class="col home-section-header pb-small">
             <!-- sponsor level heading, such as the text 白金赞助 or 虚位以待 -->
             <h2 class="gala-heading">{{sponsor_level.level-heading}}</h2>
+            <div class="divider">
+                <hr></hr>
+            </div>
+            <div class="home-section-content">
+                <p class="py-2"><br></p>
+            </div>
         </div>
     </div>
     {% if sponsor_level.sponsor-elements %}
