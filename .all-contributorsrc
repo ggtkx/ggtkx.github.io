@@ -44,6 +44,15 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "ckt624",
+      "name": "Kongtao Chen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13848196?v=4",
+      "profile": "https://github.com/ckt624",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
