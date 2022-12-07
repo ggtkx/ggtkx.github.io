@@ -2,8 +2,8 @@
     {
         "title": "Aaron",
         "weightBeforeShowsSheet": 61,
-        "countFromShowsSheet": 27,
-        "weight": 88,
+        "countFromShowsSheet": 29,
+        "weight": 90,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "isCurrentCrew": true,
@@ -15,16 +15,16 @@
     {
         "title": "寇寇",
         "weightBeforeShowsSheet": 25,
-        "countFromShowsSheet": 24,
-        "weight": 49,
+        "countFromShowsSheet": 26,
+        "weight": 51,
         "image": "https://i.imgur.com/LnobTPF.png",
         "isCurrentCrew": true
     },
     {
         "title": "昭阳",
         "weightBeforeShowsSheet": 15,
-        "countFromShowsSheet": 31,
-        "weight": 46,
+        "countFromShowsSheet": 34,
+        "weight": 49,
         "image": "https://tva1.sinaimg.cn/large/008vxvgGgy1h7ihsclnxuj30oi0oigom.jpg",
         "description": "以口为刀，切开白日下的荒谬",
         "isCurrentCrew": true,
@@ -34,10 +34,20 @@
         ]
     },
     {
+        "title": "Yudy",
+        "weightBeforeShowsSheet": 8,
+        "countFromShowsSheet": 31,
+        "weight": 39,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkyivb1oj20uw0u0whi.jpg",
+        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。",
+        "crewSeasonIds": 2,
+        "isCurrentCrew": true
+    },
+    {
         "title": "Tracy",
         "weightBeforeShowsSheet": 34,
-        "countFromShowsSheet": 3,
-        "weight": 37,
+        "countFromShowsSheet": 4,
+        "weight": 38,
         "image": "https://i.imgur.com/EjEYK7y.png",
         "description": "生活=经历 经历=段子 生活=段子",
         "isCurrentCrew": true,
@@ -47,20 +57,10 @@
         ]
     },
     {
-        "title": "Yudy",
-        "weightBeforeShowsSheet": 8,
-        "countFromShowsSheet": 28,
-        "weight": 36,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkyivb1oj20uw0u0whi.jpg",
-        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。",
-        "crewSeasonIds": 2,
-        "isCurrentCrew": true
-    },
-    {
         "title": "孙刘",
         "weightBeforeShowsSheet": 14,
-        "countFromShowsSheet": 21,
-        "weight": 35,
+        "countFromShowsSheet": 24,
+        "weight": 38,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
         "description": "过来闹点笑话",
         "isCurrentCrew": true,
@@ -71,8 +71,8 @@
     {
         "title": "尾羽",
         "weightBeforeShowsSheet": 15,
-        "countFromShowsSheet": 19,
-        "weight": 34,
+        "countFromShowsSheet": 21,
+        "weight": 36,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2lwtfmej30og0ogaei.jpg",
         "description": "做一只特立独行的猪",
         "isCurrentCrew": true,
@@ -100,8 +100,8 @@
     {
         "title": "邵天宇",
         "weightBeforeShowsSheet": 25,
-        "countFromShowsSheet": 5,
-        "weight": 30,
+        "countFromShowsSheet": 6,
+        "weight": 31,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8e6hgmej30b20b23z0.jpg",
         "description": "曾经是一名脱口秀表演者",
         "crewSeasonIds": 1,
@@ -116,8 +116,8 @@
     {
         "title": "黎明洋",
         "weightBeforeShowsSheet": 24,
-        "countFromShowsSheet": 6,
-        "weight": 30,
+        "countFromShowsSheet": 7,
+        "weight": 31,
         "image": "https://i.imgur.com/8kHVjfD.png",
         "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
         "crewSeasonIds": 1,
@@ -175,10 +175,10 @@
     {
         "title": "Sean",
         "weightBeforeShowsSheet": 4,
-        "countFromShowsSheet": 17,
-        "weight": 21,
+        "countFromShowsSheet": 18,
+        "weight": 22,
         "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8ktx5j4j30u00u00vw.jpg",
-        "description": "梗不是生活的麻药，而是解药。\n我平时的问题是爱装逼，这句的梗我，还未找到。",
+        "description": "传播淫秽色情",
         "crewSeasonIds": 2,
         "isCurrentCrew": true,
         "contact": [
@@ -220,6 +220,16 @@
         ]
     },
     {
+        "title": "福禄",
+        "weightBeforeShowsSheet": 7,
+        "countFromShowsSheet": 9,
+        "weight": 16,
+        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
+        "description": "幽默儿神童",
+        "crewSeasonIds": 2,
+        "isCurrentCrew": true
+    },
+    {
         "title": "小朱",
         "weightBeforeShowsSheet": 15,
         "countFromShowsSheet": 0,
@@ -241,16 +251,6 @@
             "[俺的学校](https://www.sanjoselearningcenter.com)",
             "小红书：Valley Skating Club"
         ]
-    },
-    {
-        "title": "福禄",
-        "weightBeforeShowsSheet": 7,
-        "countFromShowsSheet": 8,
-        "weight": 15,
-        "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gvk0zzh4s8j608c08cglp02.jpg",
-        "description": "幽默儿神童",
-        "crewSeasonIds": 2,
-        "isCurrentCrew": true
     },
     {
         "title": "大头丁",
@@ -407,6 +407,14 @@
         ]
     },
     {
+        "title": "李婉婷",
+        "weightBeforeShowsSheet": 0,
+        "countFromShowsSheet": 4,
+        "weight": 4,
+        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h3vzyry3yzj20o70o77a4.jpg",
+        "description": "不为了什么，就为了一时快乐"
+    },
+    {
         "title": "Jack",
         "weightBeforeShowsSheet": 4,
         "countFromShowsSheet": 0,
@@ -478,14 +486,6 @@
         "contact": [
             "Instagram: [`donggua_xigua`](https://www.instagram.com/donggua_xigua)"
         ]
-    },
-    {
-        "title": "李婉婷",
-        "weightBeforeShowsSheet": 0,
-        "countFromShowsSheet": 3,
-        "weight": 3,
-        "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h3vzyry3yzj20o70o77a4.jpg",
-        "description": "不为了什么，就为了一时快乐"
     },
     {
         "title": "何能能",
