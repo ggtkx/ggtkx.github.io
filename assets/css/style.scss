@@ -118,7 +118,7 @@ body {
 }
 
 #sidebar>.footnotes>ol>li {
-    background: #ffffff;
+    background: $white;
 }
 
 #join {
@@ -182,7 +182,7 @@ img {
 #ybyf-banner {
     background-color: rgba(193, 32, 40, 255) !important;
     background-position: left 0 center;
-    color: #ffffff;
+    color: $white;
 }
 
 #prize {
@@ -325,15 +325,15 @@ img {
 }
 
 #ticket-banner p {
-    color: #ffffff;
+    color: $white;
 }
 
 #tour-banner p {
-    color: #ffffff;
+    color: $white;
 }
 
 #tour-banner p {
-    color: #ffffff;
+    color: $white;
 }
 
 #ticket-banner img {
@@ -372,7 +372,7 @@ h2.gala-heading {
 #gala-banner {
     background-color: rgba(193, 32, 40, 255) !important;
     background-position: left 0 center;
-    color: #ffffff;
+    color: $white;
 }
 
 #gala-banner .container {
@@ -385,13 +385,13 @@ h2.gala-heading {
 }
 
 #gala-banner p {
-    color: #ffffff;
+    color: $white;
 }
 
 #singer-banner {
     background-color: rgba(193, 32, 40, 255) !important;
     background-position: left 0 center;
-    color: #ffffff;
+    color: $white;
 }
 
 #singer-banner .container {
@@ -404,7 +404,7 @@ h2.gala-heading {
 }
 
 #singer-banner p {
-    color: #ffffff;
+    color: $white;
 }
 
 .sponsor img {
@@ -469,7 +469,7 @@ h2.gala-heading {
 }
 
 .singer-button {
-    background-color: #ffffff;
+    background-color: $white;
     padding: 10px;
     width: 95px;
 }
@@ -487,10 +487,10 @@ h2.gala-heading {
 
 #singer-button {
     background: #c12028;
-    border: 2px solid #ffffff;
+    border: 2px solid $white;
     border-radius: 4px;
     border-width: thick;
-    color: #ffffff;
+    color: $white;
     cursor: pointer;
     display: block;
     font-size: 22px;
@@ -502,7 +502,7 @@ h2.gala-heading {
 }
 
 #close-overlay {
-    background-color: #ffffff;
+    background-color: $white;
     border: 1px solid #808080;
     border-radius: 50%;
     height: 3vw;
