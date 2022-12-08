@@ -3,17 +3,139 @@
     <div class="row">
       <div class="col-12">
         <div class="footer-inner">
-          <h3 class="footer-title">{{site.title}}</h3>
-          <ul>
-            {% assign footermenu = site.data.data.footer | sort: 'weight'  %}
-            {% for item in footermenu %}
-            <li class="{% if item.url == page.url %}active{% endif %}">
-              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-            </li>
-            {% endfor %}
-          </ul>
+          <div class="container pt-0 pb-0 pb-md-10">
+            <a href="/"><img alt="载歌在谷" src="https://i.imgur.com/MjhmkRS.png"></a>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          
+            <div class="Parent" style=" display: flex; flex-direction: row; " >
+              <div class="row justify-content-start">
+                <!-- Begin Mailchimp Signup Form -->            
+                <style type="text/css">
+                  #mc_embed_signup {
+                    clear: left;
+                    width: 100%;
+                  }        
+                  /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+              
+                <!-- envolpe icon -->
+                    <div>
+                      <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="20" height="16" fill="#F5F5F5"/>
+                        <g clip-path="url(#clip0_1_2)">
+                        <rect width="1440" height="7264" transform="translate(-162 -6895)" fill="white"/>
+                        <rect width="1440" height="550" transform="translate(-162 -181)" fill="#1F1415"/>
+                        <g clip-path="url(#clip1_1_2)">
+                        <path d="M18 0H2C0.9 0 0.00999999 0.9 0.00999999 2L0 14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM18 4L10 9L2 4V2L10 7L18 2V4Z" fill="white"/>
+                        </g>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1_2">
+                        <rect width="1440" height="7264" fill="white" transform="translate(-162 -6895)"/>
+                        </clipPath>
+                        <clipPath id="clip1_1_2">
+                        <rect width="24" height="24" fill="white" transform="translate(-2 -4)"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                    <!-- email subscriber -->
+                      <label for="mce-EMAIL"> 订阅邮件，获取最新活动资讯！</label>
+                    </div>
+
+                    <div id="mc_embed_signup">
+                      <form action="https://zgzg.us8.list-manage.com/subscribe/post?u=950d5d29a24ced3fd75514828&amp;id=e7addb4cae"
+                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                        target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="e.g.，email@example.com" required>
+                          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                              name="b_950d5d29a24ced3fd75514828_e7addb4cae" tabindex="-1" value=""></div>
+                          <!-- <div id="SCButton" class="button">
+                            <input type="submit" value="订阅" name="subscribe" id="mc-embedded-subscribe"></div>
+                          </div> -->
+
+                          <div id="sub-button" class="button"> <a id="eventbrite" href="https://zgzg.us8.list-manage.com/subscribe/post?u=950d5d29a24ced3fd75514828&id=e7addb4cae" style="color:white;" target="_blank">订阅</a>
+                          </div>       
+                      </form>
+                    </div>
+              </div>
+                <!-- copyright -->
+                    <div class="sub-footer">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="sub-footer-inner">
+                              <div class="copyright">
+                                © 2021 《载歌在谷》版权所有。
+                                《载歌在谷》由 <a href="https://www.cb-t.org/">Community Builder Toolbox, Inc.</a> （一个注册在美国加利福尼亚州的<a href="https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations">501(c)(3) 非营利组织</a>）承办。
+                                <br/>ZaiGeZaiGu Community is supported and fiscally sponsored by <a href="https://cb-t.org/">Community Builder Toolbox, Inc.</a>, a California registered nonprofit recognized by United States IRS as <a href="https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations"> 501(c)(3) public charity</a>.
+                                Find our <a href="https://www.cb-t.org/files/501c3-letter-2019.pdf">501c3 status letter</a>, or <a href="https://www.cb-t.org/files/2019-W9.pdf"> W-9 form</a> at <a href="https://cb-t.org/">cb-t.org</a>.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+
+            <div class="Right">
+               <div class="footer_icon icon_container">
+                      <!-- wechat icon -->
+                
+                 <a href="https://mp.weixin.qq.com/s/MQrUzT-XkxsRdRQQRpb4Fw">
+                      <img width="40px" height="40px" src="/images/social/wechat.svg" />
+                </a>
+                    
+                 <a href="https://www.xiaohongshu.com/user/profile/6056e0a4000000000100180a?xhsshare=CopyLink&appuid=5dd45355000000000100bfb8&apptime=1670394983">
+                    <img width="40px" height="40px" src="/images/social/xhs.svg" />
+                  </a>
+                <a href="https://www.weibo.com/zgzggala">
+                      <img width="40px" height="40px" src="/images/social/weibo.svg" />
+                  </a>
+                  <a href="https://www.facebook.com/zaigezaigu/">
+                      <img width="40px" height="40px" src="/images/social/facebook.svg" />
+                  </a>
+                   <a href="https://www.youtube.com/channel/UCY7-f7HBl8kvmoGtQX4TGUg"> 
+                      <img width="40px" height="40px" src="/images/social/youtube.svg" />
+                    </a>
+                   <a href="https://www.instagram.com/zaigezaigu/">
+                    <img width="40px" height="40px" src="/images/social/instagram.svg" />
+                  </a> 
+               </div>
+               <div class="footer_link">
+                  <li class="">
+                    <a href="https://www.zgzg.io/gala/">春节晚会</a>
+                  </li>
+
+                  <li class="">
+                    <a href="https://www.zgzg.io/singer/">歌手赛</a>
+                  </li>
+                  <li class="">
+                    <a href="https://www.zgzg.io/tour/">游园会</a>
+                  </li>
+
+                  <li class="">
+                    <a href="https://www.zgzg.io/yj/">云集栏目</a>
+                  </li>
+
+                  <li class="">
+                    <a href="https://mp.weixin.qq.com/s/BzpzveTu9Uyzw9j3c1Nmpg">赞助招商</a>
+                  </li>
+
+                  <li class="">
+                    <a href="https://www.zgzg.io/past-events/">往届回顾</a>
+                  </li>
+
+                  <li class="active">
+                    <a href="/about/">关于我们</a>
+                  </li>
+               </div>
+           </div>
         </div>
-      </div>
     </div>
+    </div>
+
   </div>
 </div>

@@ -497,3 +497,211 @@ h2.gala-heading {
   border-radius:50%;
   border: 1px solid gray;
 }
+.footer img {
+    height: 36px;
+    width: 36px;
+}
+
+.sub-footer{
+width: 568px;
+height: 156px;
+left: 160px;
+top: 298px;
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+background:black;
+/* or 162% */
+/* Light Gray */
+
+color: #F5F5F5;
+}
+.footer label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: white;
+  text-align: left;
+}
+
+.footer_link{
+  columns:3;
+  position: relative;
+  height: 160px;
+  margin-top: 32px;
+}
+
+.footer_link a{
+  color:white;
+
+}
+.footer_link li{
+  list-style: none;
+}
+#mc_embed_signup form {
+  text-align: left;
+  padding: 10px 0 10px 0;
+}
+
+#mc_embed_signup form {
+  // text-align: center !important;
+  padding: 10px 0 10px 0;
+  text-align:left; 
+}
+
+#mc_embed_signup{
+left: 11.11%;
+right: 57.78%;
+top: 39.64%;
+bottom: 50.18%;
+}
+
+#SCButton{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 32px;
+  
+  position: absolute;
+  width: 104px;
+  height: 56px;
+  left: 624px;
+  top: 218px;
+  
+  /* Primary Red */
+  
+  background: #AF1D25;
+  border-radius: 4px;
+
+}
+
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+#mc_embed_signup .button {
+  font-size: 20px;
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  letter-spacing: .03em;
+  color: #fff;
+  background: #AF1D25;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 56px;
+  line-height: 32px;
+  padding: 12px 32px;
+  display: inline-block;
+  margin: 0;
+  transition: all 0.23s ease-in-out 0s;
+  width: 104px;
+}
+
+
+.footer label {
+width: 224px;
+height: 26px;
+left: 192px;
+top: 176px;
+font-family: 'Noto Sans SC', Arial, sans-serif, -apple-system;;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+
+
+@media (min-width: 576px){
+.footer ul {
+    height: inherit;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+}
+
+.footer_link a {
+  width: 64px;
+  height: 23px;
+  font-family: 'Noto Sans SC', Arial, sans-serif, -apple-system;;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.icon_container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  width: 339.17px;
+  align-items: stretch;
+}
+
+
+#eventbrite{
+  width: 40px;
+  height: 32px;
+  font-family: 'Noto Sans SC', Arial, sans-serif, -apple-system;;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center; 
+  color: #FFFFFF;
+  
+}
+
+#mc_embed_signup input.email{
+left: 11.11%;
+right: 57.78%;
+top: 39.64%;
+bottom: 50.18%;
+width:448px;
+height:56px;
+background: #FFFFFF;
+border-radius: 4px;
+font-family: 'Noto Sans SC', Arial, sans-serif, -apple-system;;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+
+#mc_embed_signup_scroll{
+  width: 568px;
+  height: 56px;
+}
+
+.footer {
+  background: black;
+  padding-top: 15px;
+}
+
+.footer_link li {
+  list-style: none;
+  margin-top:8px;
+  margin-bottom:8px;
+}
+
+.footer_icon a {
+width: 31.25px;
+height: 11.25px;
+align-content: space-evenly;
+text-decoration:none;
+}
