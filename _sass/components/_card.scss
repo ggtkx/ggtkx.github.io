@@ -1,76 +1,81 @@
 .card-custom {
-  border-radius: 16px;
-  overflow: hidden;
+  align-items: flex-start;
   background-color: $white-offset;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
-  text-align: left;
   left: 16px;
-  top: 16px;
-  align-items: flex-start;
-  padding: 0px;
   margin: auto;
+  overflow: hidden;
+  padding: 0;
+  text-align: left;
+  top: 16px;
   .card-image {
+    align-self: stretch;
     display: flex;
+    flex: none;
+    flex-grow: 0;
     margin-bottom: 20px;
+    order: 0;
     overflow: hidden;
     text-align: center;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
+
   .card-title {
-    margin-bottom: 0px;
-    text-align: center;
-    height: 36px;
+    align-self: stretch;
+    flex: none;
+    flex-grow: 0;
     font-family: 'Noto Sans SC';
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    height: 36px;
     line-height: 36px;
-    flex: none;
+    margin-bottom: 0;
     order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+    text-align: center;
   }
+
   .card-description {
-    padding: 0 30px;
-    height: 78px;
     display: inline-block;
+    height: 78px;
+    padding: 0 30px;
   }
+
   .card-content {
+    align-items: center;
+    align-self: stretch;
     background-color: $white-offset;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    list-style-position: inside;
     box-sizing: border-box;
+    color: $black;
+    flex: none;
     font-family: 'Noto Sans SC';
     font-style: normal;
     font-weight: 400;
-    color: $black;
-    flex: none;
+    list-style-position: inside;
     order: 1;
-    align-self: stretch;
-    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 }
 
 // For `.large-card`, see `.programme`.
 
 .small-card {
-  width: 320px;
   height: 436px;
+  width: 320px;
   .small-card-image {
-    width: 320px;
     height: 160px;
+    width: 320px;
   }
+
   .small-card-title {
     color: $primary;
   }
+
   .small-card-content {
+    flex-grow: 1;
     font-size: 20px;
     line-height: 32px;
-    flex-grow: 1;
   }
 }

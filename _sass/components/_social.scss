@@ -1,12 +1,13 @@
 .social {
   display: block;
   img {
-    width: 20px;
     height: 20px;
+    width: 20px;
   }
+
   a {
-    padding: 10px;
     display: inline-block;
+    padding: 10px;
     &:hover {
       opacity: 0.8;
     }

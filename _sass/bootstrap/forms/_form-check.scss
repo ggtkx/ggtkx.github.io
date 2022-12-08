@@ -4,9 +4,9 @@
 
 .form-check {
   display: block;
+  margin-bottom: $form-check-margin-bottom;
   min-height: $form-check-min-height;
   padding-left: $form-check-padding-start;
-  margin-bottom: $form-check-margin-bottom;
 
   .form-check-input {
     float: left;
@@ -15,29 +15,29 @@
 }
 
 .form-check-reverse {
-  padding-right: $form-check-padding-start;
   padding-left: 0;
+  padding-right: $form-check-padding-start;
   text-align: right;
 
   .form-check-input {
     float: right;
-    margin-right: $form-check-padding-start * -1;
     margin-left: 0;
+    margin-right: $form-check-padding-start * -1;
   }
 }
 
 .form-check-input {
-  width: $form-check-input-width;
-  height: $form-check-input-width;
-  margin-top: ($line-height-base - $form-check-input-width) * .5; // line-height minus check height
-  vertical-align: top;
+  appearance: none;
   background-color: $form-check-input-bg;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: contain;
   border: $form-check-input-border;
-  appearance: none;
+  height: $form-check-input-width;
+  margin-top: ($line-height-base - $form-check-input-width) * .5; // line-height minus check height
   print-color-adjust: exact; // Keep themed appearance for print
+  vertical-align: top;
+  width: $form-check-input-width;
   @include transition($form-check-transition);
 
   &[type="checkbox"] {
@@ -55,8 +55,8 @@
 
   &:focus {
     border-color: $form-check-input-focus-border;
-    outline: 0;
     box-shadow: $form-check-input-focus-box-shadow;
+    outline: 0;
   }
 
   &:checked {
@@ -92,9 +92,9 @@
   }
 
   &:disabled {
-    pointer-events: none;
     filter: none;
     opacity: $form-check-input-disabled-opacity;
+    pointer-events: none;
   }
 
   // Use disabled attribute in addition of :disabled pseudo-class
@@ -121,10 +121,10 @@
   padding-left: $form-switch-padding-start;
 
   .form-check-input {
-    width: $form-switch-width;
-    margin-left: $form-switch-padding-start * -1;
     background-image: escape-svg($form-switch-bg-image);
     background-position: left center;
+    margin-left: $form-switch-padding-start * -1;
+    width: $form-switch-width;
     @include border-radius($form-switch-border-radius);
     @include transition($form-switch-transition);
 
@@ -144,12 +144,12 @@
   }
 
   &.form-check-reverse {
-    padding-right: $form-switch-padding-start;
     padding-left: 0;
+    padding-right: $form-switch-padding-start;
 
     .form-check-input {
-      margin-right: $form-switch-padding-start * -1;
       margin-left: 0;
+      margin-right: $form-switch-padding-start * -1;
     }
   }
 }
@@ -160,16 +160,16 @@
 }
 
 .btn-check {
-  position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
+  position: absolute;
 
   &[disabled],
   &:disabled {
     + .btn {
-      pointer-events: none;
       filter: none;
       opacity: $form-check-btn-check-disabled-opacity;
+      pointer-events: none;
     }
   }
 }

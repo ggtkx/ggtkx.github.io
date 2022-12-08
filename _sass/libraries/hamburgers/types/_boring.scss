@@ -16,8 +16,8 @@
         transform: rotate(45deg);
 
         &::before {
-          top: 0;
           opacity: 0;
+          top: 0;
         }
 
         &::after {

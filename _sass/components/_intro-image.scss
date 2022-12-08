@@ -1,32 +1,37 @@
 .intro-image {
-  width: 100%;
   height: auto;
   margin-top: -40px;
+  width: 100%;
 }
-.intro-image-absolute {
-  max-width: none;
 
-  padding: 0;
+.intro-image-absolute {
   margin-bottom: 30px;
+
+  max-width: none;
+  padding: 0;
   @include media-breakpoint-up(sm) {
   }
+
   @include media-breakpoint-up(md) {
-    position: absolute;
     bottom: -50px;
     left: -50px;
+    position: absolute;
     width: 700px;
   }
+
   @include media-breakpoint-up(lg) {
     bottom: -60px;
     left: -60px;
     width: 800px;
   }
+
   @include media-breakpoint-up(xl) {
     bottom: -100px;
     left: -70px;
     width: 850px;
   }
 }
+
 .intro-image-hide-mobile {
   display: none;
   @include media-breakpoint-up(md) {

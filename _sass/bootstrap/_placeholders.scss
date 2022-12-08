@@ -1,14 +1,14 @@
 .placeholder {
+  background-color: currentcolor;
+  cursor: wait;
   display: inline-block;
   min-height: 1em;
-  vertical-align: middle;
-  cursor: wait;
-  background-color: currentcolor;
   opacity: $placeholder-opacity-max;
+  vertical-align: middle;
 
   &.btn::before {
-    display: inline-block;
     content: "";
+    display: inline-block;
   }
 }
 
@@ -39,9 +39,9 @@
 }
 
 .placeholder-wave {
+  animation: placeholder-wave 2s linear infinite;
   mask-image: linear-gradient(130deg, $black 55%, rgba(0, 0, 0, (1 - $placeholder-opacity-min)) 75%, $black 95%);
   mask-size: 200% 100%;
-  animation: placeholder-wave 2s linear infinite;
 }
 
 @keyframes placeholder-wave {

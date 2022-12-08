@@ -9,19 +9,19 @@
   }
 
   > label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    border: $input-border-width solid transparent; // Required for aligning label's text with the input as it affects inner box model
     height: 100%; // allow textareas
-    padding: $form-floating-padding-y $form-floating-padding-x;
+    left: 0;
     overflow: hidden;
+    padding: $form-floating-padding-y $form-floating-padding-x;
+    pointer-events: none;
+    position: absolute;
     text-align: start;
     text-overflow: ellipsis;
-    white-space: nowrap;
-    pointer-events: none;
-    border: $input-border-width solid transparent; // Required for aligning label's text with the input as it affects inner box model
+    top: 0;
     transform-origin: 0 0;
+    white-space: nowrap;
+    width: 100%;
     @include transition($form-floating-transition);
   }
 
@@ -35,19 +35,19 @@
 
     &:focus,
     &:not(:placeholder-shown) {
-      padding-top: $form-floating-input-padding-t;
       padding-bottom: $form-floating-input-padding-b;
+      padding-top: $form-floating-input-padding-t;
     }
     // Duplicated because `:-webkit-autofill` invalidates other selectors when grouped
     &:-webkit-autofill {
-      padding-top: $form-floating-input-padding-t;
       padding-bottom: $form-floating-input-padding-b;
+      padding-top: $form-floating-input-padding-t;
     }
   }
 
   > .form-select {
-    padding-top: $form-floating-input-padding-t;
     padding-bottom: $form-floating-input-padding-b;
+    padding-top: $form-floating-input-padding-t;
   }
 
   > .form-control:focus,

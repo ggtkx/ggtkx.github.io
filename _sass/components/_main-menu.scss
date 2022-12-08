@@ -3,31 +3,33 @@
   @include media-breakpoint-up(md) {
     display: block;
   }
+
   > ul {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: flex-start;
     > li {
-      list-style: none;
       font-size: 1rem;
+      list-style: none;
       > a:not(.button) {
-        margin: 10px 12px 10px 12px;
+        color: $black;
         display: inline-block;
         font-weight: normal;
-        text-decoration: none;
         line-height: 2em;
-        color: $black;
+        margin: 10px 12px 10px 12px;
+        text-decoration: none;
         &:hover {
           text-decoration: underline;
         }
       }
+
       &.active {
         > a:not(.button) {
+          border-bottom: 4px solid $primary;
           color: $primary;
           font-weight: bold;
-          text-decoration: none;
-          border-bottom: 4px solid $primary;
           margin-bottom: 6px;
+          text-decoration: none;
           &:hover {
             text-decoration: none;
             transition: all 225ms ease-in 0s;

@@ -9,8 +9,8 @@
 
       &::before,
       &::after {
-        transition-duration: 0s;
         transition-delay: 0.1s;
+        transition-duration: 0s;
         transition-timing-function: linear;
       }
 
@@ -34,8 +34,8 @@
         }
 
         &::before {
-          top: 0;
           opacity: 0;
+          top: 0;
         }
 
         &::after {

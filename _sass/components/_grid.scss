@@ -12,8 +12,8 @@
 
 .col.gala-text-grid {
   color: $primary;
-  font-weight: bold;
   font-size: 36px;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -24,23 +24,23 @@
 }
 
 .row.gala-photo-grid {
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
   width: 100%;
 }
 
 .col.gala-photo-grid {
-  width: 30%;
   height: 20%;
   margin-right: 20px;
+  width: 30%;
 }
 
 .show-signup {
-  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 80%;
 }
 
 .row.icon-grid {
@@ -50,25 +50,25 @@
 }
 
 .col.icon-grid-header {
+  margin-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
   max-width: 60px;
-  margin-bottom: 16px;
 }
 
 .col.icon-grid-text-header {
   color: $primary;
-  font-weight: bold;
   font-size: 24px;
-  text-align: center;
+  font-weight: bold;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .col.icon-grid-text-bold {
   color: $black;
   font-weight: bold;
-  text-align: center;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .col.icon-grid {

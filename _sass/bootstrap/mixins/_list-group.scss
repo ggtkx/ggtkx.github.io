@@ -3,20 +3,20 @@
 // scss-docs-start list-group-mixin
 @mixin list-group-item-variant($state, $background, $color) {
   .list-group-item-#{$state} {
-    color: $color;
     background-color: $background;
+    color: $color;
 
     &.list-group-item-action {
       &:hover,
       &:focus {
-        color: $color;
         background-color: shade-color($background, 10%);
+        color: $color;
       }
 
       &.active {
-        color: $white;
         background-color: $color;
         border-color: $color;
+        color: $white;
       }
     }
   }

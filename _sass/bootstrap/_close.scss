@@ -4,34 +4,34 @@
 // See https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
 
 .btn-close {
-  box-sizing: content-box;
-  width: $btn-close-width;
-  height: $btn-close-height;
-  padding: $btn-close-padding-y $btn-close-padding-x;
-  color: $btn-close-color;
   background: transparent escape-svg($btn-close-bg) center / $btn-close-width auto no-repeat; // include transparent for button elements
   border: 0; // for button elements
-  @include border-radius();
+  box-sizing: content-box;
+  color: $btn-close-color;
+  height: $btn-close-height;
   opacity: $btn-close-opacity;
+  padding: $btn-close-padding-y $btn-close-padding-x;
+  @include border-radius();
+  width: $btn-close-width;
 
   // Override <a>'s hover style
   &:hover {
     color: $btn-close-color;
-    text-decoration: none;
     opacity: $btn-close-hover-opacity;
+    text-decoration: none;
   }
 
   &:focus {
-    outline: 0;
     box-shadow: $btn-close-focus-shadow;
     opacity: $btn-close-focus-opacity;
+    outline: 0;
   }
 
   &:disabled,
   &.disabled {
+    opacity: $btn-close-disabled-opacity;
     pointer-events: none;
     user-select: none;
-    opacity: $btn-close-disabled-opacity;
   }
 }
 

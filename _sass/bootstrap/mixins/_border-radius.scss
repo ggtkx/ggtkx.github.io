@@ -33,22 +33,22 @@
 
 @mixin border-end-radius($radius: $border-radius) {
   @if $enable-rounded {
-    border-top-right-radius: valid-radius($radius);
     border-bottom-right-radius: valid-radius($radius);
+    border-top-right-radius: valid-radius($radius);
   }
 }
 
 @mixin border-bottom-radius($radius: $border-radius) {
   @if $enable-rounded {
-    border-bottom-right-radius: valid-radius($radius);
     border-bottom-left-radius: valid-radius($radius);
+    border-bottom-right-radius: valid-radius($radius);
   }
 }
 
 @mixin border-start-radius($radius: $border-radius) {
   @if $enable-rounded {
-    border-top-left-radius: valid-radius($radius);
     border-bottom-left-radius: valid-radius($radius);
+    border-top-left-radius: valid-radius($radius);
   }
 }
 

@@ -1,32 +1,32 @@
 // .button is inherited from Serif, and will be deprecated in the new design
 .button {
-  white-space: nowrap;
-  display: inline-block;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 14px;
-  //box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  -webkit-transition: all 0.15s ease;
   background: $primary;
   border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  //box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   font-size: 14px;
   font-weight: normal;
-  text-transform: uppercase;
+  height: 40px;
   letter-spacing: 0.025em;
-  color: #ffffff;
+  line-height: 40px;
+  padding: 0 14px;
   text-decoration: none;
-  -webkit-transition: all 0.15s ease;
+  text-transform: uppercase;
   transition: all 0.15s ease;
+  white-space: nowrap;
   &:hover {
-    color: #ffffff;
     background-color: lighten($primary, 10%);
-    transform: translateY(-1px);
-    //box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+    color: #fff;
     text-decoration: none;
+    //box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
   }
 }
 
 .btn:disabled {
-  border: none;
+  border: 0;
 }
 
 .btn-primary {
@@ -40,6 +40,7 @@
   &:active {
     background-color: $primary-shade-2;
   }
+
   &:disabled {
     background-color: $light-gray;
     color: $dark-gray;
@@ -53,15 +54,17 @@
   &:hover {
     background-color: $light-gray-shade-1;
     // color and border properties are hardcoded again to avoid default transformation on border state.
-    color: $primary;
     border: 1px solid $primary;
+    color: $primary;
   }
+
   :not(.btn-check) + &:active,
   &:active {
     background-color: $light-gray-shade-2;
-    color: $primary;
     border: 1px solid $primary;
+    color: $primary;
   }
+
   &:disabled {
     background-color: $light-gray;
     color: $dark-gray;
@@ -69,20 +72,22 @@
 }
 
 .btn-tertiary {
+  border: 0;
   color: $primary;
   text-decoration: underline;
-  border: none;
   &:hover {
+    border: 0;
     color: $primary-shade-1;
     text-decoration: underline;
-    border: none;
   }
+
   :not(.btn-check) + &:active,
   &:active {
+    border: 0;
     color: $primary-shade-2;
     text-decoration: underline;
-    border: none;
   }
+
   &:disabled {
     color: $dark-gray;
     text-decoration: underline;
@@ -98,22 +103,23 @@
 
 .btn-light {
   background: $white;
+  border: 0;
   color: $primary;
-  border: none;
   &:hover {
     background-color: $light-gray-shade-1;
+    border: 0;
     color: $primary;
-    border: none;
   }
   :not(.btn-check) + &:active,  // overrides bootstrap defaults in bootstrap/_buttons.scss L82
   &:active {
     background-color: $light-gray-shade-2;
+    border: 0;
     color: $primary;
-    border: none;
   }
+
   &:disabled {
     background-color: $light-gray;
+    border: 0;
     color: $dark-gray;
-    border: none;
   }
 }

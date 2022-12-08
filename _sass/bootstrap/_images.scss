@@ -12,9 +12,9 @@
 
 // Image thumbnails
 .img-thumbnail {
-  padding: $thumbnail-padding;
   background-color: $thumbnail-bg;
   border: $thumbnail-border-width solid $thumbnail-border-color;
+  padding: $thumbnail-padding;
   @include border-radius($thumbnail-border-radius);
   @include box-shadow($thumbnail-box-shadow);
 
@@ -32,8 +32,8 @@
 }
 
 .figure-img {
-  margin-bottom: $spacer * .5;
   line-height: 1;
+  margin-bottom: $spacer * .5;
 }
 
 .figure-caption {

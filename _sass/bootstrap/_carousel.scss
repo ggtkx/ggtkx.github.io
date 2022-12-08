@@ -20,19 +20,19 @@
 }
 
 .carousel-inner {
+  overflow: hidden;
   position: relative;
   width: 100%;
-  overflow: hidden;
   @include clearfix();
 }
 
 .carousel-item {
-  position: relative;
+  backface-visibility: hidden;
   display: none;
   float: left;
-  width: 100%;
   margin-right: -100%;
-  backface-visibility: hidden;
+  position: relative;
+  width: 100%;
   @include transition($carousel-transition);
 }
 
@@ -63,21 +63,21 @@
 .carousel-fade {
   .carousel-item {
     opacity: 0;
-    transition-property: opacity;
     transform: none;
+    transition-property: opacity;
   }
 
   .carousel-item.active,
   .carousel-item-next.carousel-item-start,
   .carousel-item-prev.carousel-item-end {
-    z-index: 1;
     opacity: 1;
+    z-index: 1;
   }
 
   .active.carousel-item-start,
   .active.carousel-item-end {
-    z-index: 0;
     opacity: 0;
+    z-index: 0;
     @include transition(opacity 0s $carousel-transition-duration);
   }
 }
@@ -89,50 +89,52 @@
 
 .carousel-control-prev,
 .carousel-control-next {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-  // Use flex for alignment (1-3)
-  display: flex; // 1. allow flex styles
   align-items: center; // 2. vertically center contents
-  justify-content: center; // 3. horizontally center contents
-  width: $carousel-control-width;
-  padding: 0;
-  color: $carousel-control-color;
-  text-align: center;
   background: none;
   border: 0;
+  bottom: 0;
+  // Use flex for alignment (1-3)
+  color: $carousel-control-color;
+  display: flex; // 1. allow flex styles
+  justify-content: center; // 3. horizontally center contents
   opacity: $carousel-control-opacity;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: $carousel-control-width;
+  z-index: 1;
   @include transition($carousel-control-transition);
 
   // Hover/focus state
   &:hover,
   &:focus {
     color: $carousel-control-color;
-    text-decoration: none;
-    outline: 0;
     opacity: $carousel-control-hover-opacity;
+    outline: 0;
+    text-decoration: none;
   }
 }
+
 .carousel-control-prev {
-  left: 0;
   background-image: if($enable-gradients, linear-gradient(90deg, rgba($black, .25), rgba($black, .001)), null);
+  left: 0;
 }
+
 .carousel-control-next {
-  right: 0;
   background-image: if($enable-gradients, linear-gradient(270deg, rgba($black, .25), rgba($black, .001)), null);
+  right: 0;
 }
 
 // Icons for within
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  display: inline-block;
-  width: $carousel-control-icon-width;
-  height: $carousel-control-icon-width;
-  background-repeat: no-repeat;
   background-position: 50%;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
+  display: inline-block;
+  height: $carousel-control-icon-width;
+  width: $carousel-control-icon-width;
 }
 
 /* rtl:options: {
@@ -143,9 +145,11 @@
     "replace" : "next"
   } ]
 } */
+
 .carousel-control-prev-icon {
   background-image: escape-svg($carousel-control-prev-icon-bg);
 }
+
 .carousel-control-next-icon {
   background-image: escape-svg($carousel-control-next-icon-bg);
 }
@@ -156,37 +160,37 @@
 // like a button) with data-bs-target for each slide your carousel holds.
 
 .carousel-indicators {
-  position: absolute;
-  right: 0;
   bottom: 0;
-  left: 0;
-  z-index: 2;
   display: flex;
   justify-content: center;
-  padding: 0;
-  // Use the .carousel-control's width as margin so we don't overlay those
-  margin-right: $carousel-control-width;
+  left: 0;
+  list-style: none;
   margin-bottom: 1rem;
   margin-left: $carousel-control-width;
-  list-style: none;
+  margin-right: $carousel-control-width;
+  // Use the .carousel-control's width as margin so we don't overlay those
+  padding: 0;
+  position: absolute;
+  right: 0;
+  z-index: 2;
 
   [data-bs-target] {
-    box-sizing: content-box;
-    flex: 0 1 auto;
-    width: $carousel-indicator-width;
-    height: $carousel-indicator-height;
-    padding: 0;
-    margin-right: $carousel-indicator-spacer;
-    margin-left: $carousel-indicator-spacer;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: $carousel-indicator-active-bg;
     background-clip: padding-box;
+    background-color: $carousel-indicator-active-bg;
     border: 0;
-    // Use transparent borders to increase the hit area by 10px on top and bottom.
-    border-top: $carousel-indicator-hit-area-height solid transparent;
     border-bottom: $carousel-indicator-hit-area-height solid transparent;
+    border-top: $carousel-indicator-hit-area-height solid transparent;
+    box-sizing: content-box;
+    cursor: pointer;
+    flex: 0 1 auto;
+    height: $carousel-indicator-height;
+    margin-left: $carousel-indicator-spacer;
+    margin-right: $carousel-indicator-spacer;
     opacity: $carousel-indicator-opacity;
+    // Use transparent borders to increase the hit area by 10px on top and bottom.
+    padding: 0;
+    text-indent: -999px;
+    width: $carousel-indicator-width;
     @include transition($carousel-indicator-transition);
   }
 
@@ -201,13 +205,13 @@
 //
 
 .carousel-caption {
+  bottom: $carousel-caption-spacer;
+  color: $carousel-caption-color;
+  left: (100% - $carousel-caption-width) * .5;
+  padding-bottom: $carousel-caption-padding-y;
+  padding-top: $carousel-caption-padding-y;
   position: absolute;
   right: (100% - $carousel-caption-width) * .5;
-  bottom: $carousel-caption-spacer;
-  left: (100% - $carousel-caption-width) * .5;
-  padding-top: $carousel-caption-padding-y;
-  padding-bottom: $carousel-caption-padding-y;
-  color: $carousel-caption-color;
   text-align: center;
 }
 

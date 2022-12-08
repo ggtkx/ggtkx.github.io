@@ -65,6 +65,7 @@
 .list-inline {
   @include list-unstyled();
 }
+
 .list-inline-item {
   display: inline-block;
 
@@ -95,10 +96,10 @@
 }
 
 .blockquote-footer {
-  margin-top: -$blockquote-margin-y;
+  color: $blockquote-footer-color;
   margin-bottom: $blockquote-margin-y;
   @include font-size($blockquote-footer-font-size);
-  color: $blockquote-footer-color;
+  margin-top: -$blockquote-margin-y;
 
   &::before {
     content: "\2014\00A0"; // em dash, nbsp

@@ -8,9 +8,9 @@
 
       &::before {
         top: $hamburger-layer-height + $hamburger-layer-spacing;
+        transition-duration: 0.15s;
         transition-property: transform, opacity;
         transition-timing-function: ease;
-        transition-duration: 0.15s;
       }
 
       &::after {
@@ -25,8 +25,8 @@
         transform: translate3d(0, $y-offset, 0) rotate(45deg);
 
         &::before {
-          transform: rotate(-45deg) translate3d($hamburger-layer-width / -7, $hamburger-layer-spacing * -1, 0);
           opacity: 0;
+          transform: rotate(-45deg) translate3d($hamburger-layer-width / -7, $hamburger-layer-spacing * -1, 0);
         }
 
         &::after {

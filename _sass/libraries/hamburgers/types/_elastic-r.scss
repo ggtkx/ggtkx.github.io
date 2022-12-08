@@ -27,8 +27,8 @@
         transition-delay: 0.075s;
 
         &::before {
-          transition-delay: 0s;
           opacity: 0;
+          transition-delay: 0s;
         }
 
         &::after {

@@ -1,27 +1,27 @@
 .intro {
-  background: url(https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638942437/zgzg-io-website/WechatIMG869_k2uxam.jpg);
+  align-items: center;
+  background: url('https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638942437/zgzg-io-website/WechatIMG869_k2uxam.jpg');
+  background-position: center;
+  background-size: cover;
   color: $white;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   overflow: hidden;
-  background-size: cover;
-  background-position: center;
 
   h2 {
     font-family: $font-family-base;
-    font-weight: 700;
     font-size: 36px;
+    font-weight: 700;
     line-height: 54px;
     margin-bottom: 12px;
   }
 
   p {
+    color: $white;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
-    color: $white;
     letter-spacing: 0.01em;
+    line-height: 26px;
   }
 
   #content {
@@ -30,26 +30,26 @@
 }
 
 .home-section-header {
-  text-align: center;
-  font-style: normal;
   font-size: 20px;
+  font-style: normal;
+  text-align: center;
 
   h2 {
-    font-weight: 700;
     font-size: 36px;
+    font-weight: 700;
   }
 
   .divider {
-    width: 80px;
     margin: auto;
+    width: 80px;
   }
 
   hr {
-    width: 80px;
+    background-color: $primary;
     height: 4px;
     margin: auto;
-    background-color: $primary;
     opacity: 1;
+    width: 80px;
   }
 
   p {
@@ -63,8 +63,8 @@
 }
 
 .pb-large {
-  margin-top: 120px;
   margin-bottom: 120px;
+  margin-top: 120px;
 }
 
 .pb-small {

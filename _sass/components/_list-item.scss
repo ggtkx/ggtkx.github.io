@@ -1,8 +1,9 @@
 .list-item-image {
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   display: block;
 }
+
 .list-item-rounded {
   border-radius: 16px;
 }
@@ -11,47 +12,53 @@
   height: 360px;
   width: 360px;
 }
+
 .list-item-large {
   overflow: hidden;
   width: 100%;
   hr.list-item-bar {
-    width: 80px;
-    height: 4px;
-    margin: 0px;
     background-color: $primary;
+    height: 4px;
+    margin: 0;
     opacity: 1;
+    width: 80px;
   }
+
   hr + p {
-    margin-top: 4px;
     margin-bottom: 20px;
+    margin-top: 4px;
   }
+
   .list-item-content * {
-    color: #1F1415;
+    color: #1f1415;
   }
+
   .list-item-content h3, .list-item-content h2 {
-    font-weight: 700;
     font-size: 36px;
+    font-weight: 700;
     line-height: 54px;
   }
+
   .list-item-content p, .list-item-content ul {
-    font-weight: 400;
     font-size: 20px;
+    font-weight: 400;
     line-height: 32px;
   }
-  .list-item-button {
-    width: 144px;
-    height: 56px;
-    color: $white;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 32px;
 
-    display: flex;
+  .list-item-button {
     align-items: center;
-    text-align: center;
-    justify-content:center;
+    color: $white;
+    display: flex;
     flex: none;
-    order: 0;
     flex-grow: 0;
+    font-size: 20px;
+
+    font-weight: 500;
+    height: 56px;
+    justify-content: center;
+    line-height: 32px;
+    order: 0;
+    text-align: center;
+    width: 144px;
   }
 }

@@ -25,8 +25,8 @@
         transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 
         &::before {
-          top: 0;
           opacity: 0;
+          top: 0;
           transition: top 0.075s ease,
                       opacity 0.075s 0.12s ease;
         }

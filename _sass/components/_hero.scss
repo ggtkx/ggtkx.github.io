@@ -1,19 +1,19 @@
 .hero {
-  background-image: url(https://res.cloudinary.com/zaigezaigu/image/upload/v1665641160/cld-sample-2.jpg);
-  background-size: cover;
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
   background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1665641160/cld-sample-2.jpg');
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   overflow: hidden;
 }
 
 .hero-content {
+  color: $white;
   margin-left: 160px;
   margin-right: 720px;
-  color: $white;
 
   p {
     color: $white;
@@ -31,18 +31,18 @@
   }
 
   h1 {
-    margin: 0;
-    font-weight: 700;
     font-size: 48px;
+    font-weight: 700;
+    margin: 0;
     a {
       color: $white;
     }
   }
 
   h2 {
-    margin: 24px 0 0 0;
-    font-weight: 700;
     font-size: 20px;
+    font-weight: 700;
+    margin: 24px 0 0 0;
     a {
       color: $white;
     }
@@ -53,17 +53,17 @@
   }
 
   #hero-divider {
-    margin: 32px 0 0 0;
     border-bottom: 4px solid $white;
+    margin: 32px 0 0 0;
   }
 
   h3 {
-    margin: 32px 0 0 0;
-    font-weight: 700;
     font-size: 20px;
+    font-weight: 700;
+    margin: 32px 0 0 0;
   }
 }
 
 .hero-galatour {
-  background-image: url(https://res.cloudinary.com/zaigezaigu/image/upload/v1670294545/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E9%A6%96%E9%A1%B5%E8%83%8C%E6%99%AF/%E9%A6%96%E9%A1%B5%E8%83%8C%E6%99%AF_fjuk1m.png);
+  background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1670294545/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E9%A6%96%E9%A1%B5%E8%83%8C%E6%99%AF/%E9%A6%96%E9%A1%B5%E8%83%8C%E6%99%AF_fjuk1m.png');
 }

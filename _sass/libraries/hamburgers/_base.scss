@@ -1,22 +1,22 @@
 // Hamburger
 // ==================================================
 .hamburger {
-  padding: $hamburger-padding-y $hamburger-padding-x;
-  display: inline-block;
-  cursor: pointer;
-
-  transition-property: opacity, filter;
-  transition-duration: 0.15s;
-  transition-timing-function: linear;
-
-  // Normalize (<button>)
-  font: inherit;
-  color: inherit;
-  text-transform: none;
   background-color: transparent;
   border: 0;
+  color: inherit;
+
+  cursor: pointer;
+  display: inline-block;
+  font: inherit;
+
+  // Normalize (<button>)
   margin: 0;
   overflow: visible;
+  padding: $hamburger-padding-y $hamburger-padding-x;
+  text-transform: none;
+  transition-duration: 0.15s;
+  transition-property: opacity, filter;
+  transition-timing-function: linear;
 
   &:hover {
     @if $hamburger-hover-use-filter == true {
@@ -40,28 +40,28 @@
 }
 
 .hamburger-box {
-  width: $hamburger-layer-width;
-  height: $hamburger-layer-height * 3 + $hamburger-layer-spacing * 2;
   display: inline-block;
+  height: $hamburger-layer-height * 3 + $hamburger-layer-spacing * 2;
   position: relative;
+  width: $hamburger-layer-width;
 }
 
 .hamburger-inner {
   display: block;
-  top: 50%;
   margin-top: $hamburger-layer-height / -2;
+  top: 50%;
 
   &,
   &::before,
   &::after {
-    width: $hamburger-layer-width;
-    height: $hamburger-layer-height;
     background-color: $hamburger-layer-color;
     border-radius: $hamburger-layer-border-radius;
+    height: $hamburger-layer-height;
     position: absolute;
-    transition-property: transform;
     transition-duration: 0.15s;
+    transition-property: transform;
     transition-timing-function: ease;
+    width: $hamburger-layer-width;
   }
 
   &::before,

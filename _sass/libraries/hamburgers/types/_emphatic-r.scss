@@ -16,8 +16,8 @@
       }
 
       &::after {
-        top: ($hamburger-layer-height) + ($hamburger-layer-spacing);
         right: 0;
+        top: ($hamburger-layer-height) + ($hamburger-layer-spacing);
         transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335),
                     top 0.05s 0.125s linear,
                     right 0.125s 0.175s ease-in;
@@ -26,9 +26,9 @@
 
     &.is-active {
       .hamburger-inner {
+        background-color: transparent !important;
         transition-delay: 0s;
         transition-timing-function: ease-out;
-        background-color: transparent !important;
 
         &::before {
           left: $hamburger-layer-width * -2;

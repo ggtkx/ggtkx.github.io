@@ -3,19 +3,19 @@
 //
 
 .input-group {
-  position: relative;
+  align-items: stretch;
   display: flex;
   flex-wrap: wrap; // For form validation feedback
-  align-items: stretch;
+  position: relative;
   width: 100%;
 
   > .form-control,
   > .form-select,
   > .form-floating {
-    position: relative; // For focus state's z-index
     flex: 1 1 auto;
-    width: 1%;
     min-width: 0; // https://stackoverflow.com/questions/36247140/why-dont-flex-items-shrink-past-content-size
+    position: relative; // For focus state's z-index
+    width: 1%;
   }
 
   // Bring the "active" form control to the top of surrounding elements
@@ -45,17 +45,17 @@
 // to prepend or append to an input.
 
 .input-group-text {
-  display: flex;
   align-items: center;
-  padding: $input-group-addon-padding-y $input-group-addon-padding-x;
-  @include font-size($input-font-size); // Match inputs
-  font-weight: $input-group-addon-font-weight;
-  line-height: $input-line-height;
-  color: $input-group-addon-color;
-  text-align: center;
-  white-space: nowrap;
   background-color: $input-group-addon-bg;
   border: $input-border-width solid $input-group-addon-border-color;
+  @include font-size($input-font-size); // Match inputs
+  color: $input-group-addon-color;
+  display: flex;
+  font-weight: $input-group-addon-font-weight;
+  line-height: $input-line-height;
+  padding: $input-group-addon-padding-y $input-group-addon-padding-x;
+  text-align: center;
+  white-space: nowrap;
   @include border-radius($input-border-radius);
 }
 

@@ -8,21 +8,21 @@
 }
 
 .underline {
-  width: fit-content;
-  padding: 0;
-  font-weight: bold;
-  text-decoration: none;
   display: inline-block;
+  font-weight: bold;
+  padding: 0;
   position: relative;
+  text-decoration: none;
+  width: fit-content;
 }
 
 .underline:after {
-  content: '';
-  position: absolute;
-  top: -10px;
-  left: 25%;
-  right: 0;
-  bottom: -15px;
-  width: 50%;
   border-bottom: 4px solid $primary;
+  bottom: -15px;
+  content: '';
+  left: 25%;
+  position: absolute;
+  right: 0;
+  top: -10px;
+  width: 50%;
 }
