@@ -463,17 +463,6 @@ h2.gala-heading {
     /* Add a pointer on hover */
 }
 
-#tour-button {
-    display: block;
-    text-align: center;
-}
-
-.singer-button {
-    background-color: $white;
-    padding: 10px;
-    width: 95px;
-}
-
 #buy-button {
     cursor: pointer;
     display: block;
@@ -483,22 +472,6 @@ h2.gala-heading {
     padding: 0.5em;
     text-align: center;
     width: 200px;
-}
-
-#singer-button {
-    background: #c12028;
-    border: 2px solid $white;
-    border-radius: 4px;
-    border-width: thick;
-    color: $white;
-    cursor: pointer;
-    display: block;
-    font-size: 22px;
-    height: auto;
-    margin: 10px auto;
-    padding: 0.4em;
-    text-align: center;
-    width: 180px;
 }
 
 #close-overlay {
