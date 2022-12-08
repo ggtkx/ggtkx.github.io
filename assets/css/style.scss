@@ -1,18 +1,19 @@
 ---
 # this ensures Jekyll reads the file to be transformed into CSS later
 ---
+
 // Colors
-$primary: #AF1D25;
-$primary-shade-1: #84151C;
-$primary-shade-2: #580E12;
-$secondary: #84151C;
-$black: #1F1415;
-$white: #ffffff;
-$white-offset: #F5F5F5;
+$primary: #af1d25;
+$primary-shade-1: #84151c;
+$primary-shade-2: #580e12;
+$secondary: #84151c;
+$black: #1f1415;
+$white: #fff;
+$white-offset: #f5f5f5;
 $steel: #949494;
-$light-gray: #F5F5F5;
-$light-gray-shade-1: #E9E9E9;
-$light-gray-shade-2: #D1D1D1;
+$light-gray: #f5f5f5;
+$light-gray-shade-1: #e9e9e9;
+$light-gray-shade-2: #d1d1d1;
 $dark-gray: #949494;
 
 // Links
@@ -30,7 +31,7 @@ sans-serif,
 -apple-system;
 
 // Footer
-$footer-background-color: $primary;
+$footer-background-color: $black;
 $footer-text-color: $white;
 
 // Bootstrap
@@ -82,9 +83,9 @@ This is designed for lists of sponsors and lists of open positions.
 @import 'pages/home';
 
 body {
+    font-family: $font-family-base;
     font-size: 16px;
     line-height: 1.2;
-    font-family: $font-family-base;
 
     @include media-breakpoint-up(md) {
         font-size: 16px;
@@ -93,10 +94,10 @@ body {
 }
 
 #detailed-info {
+    color: $white;
     font-size: 1.2em;
-    color: white;
+    padding: 1.25rem 2rem 1.25rem 0;
     text-decoration: underline;
-    padding: 1.25rem 2rem 1.25rem 0
 }
 
 .primary-background {
@@ -105,33 +106,33 @@ body {
 }
 
 .primary-text {
+    background-color: $white;
     color: $primary;
-    background-color: $white
 }
 
 .section {
-    max-width: 960px;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    max-width: 960px;
 }
 
 #sidebar>.footnotes>ol>li {
-    background: white;
+    background: #ffffff;
 }
 
 #join {
     display: contents;
 
     .programme {
-        box-shadow: none;
         border: #ccc dashed 5px;
+        box-shadow: none;
 
         .programme-image {
-            line-height: 250px;
-            font-size: 10em;
             border-radius: 0;
             color: #aaa;
+            font-size: 10em;
+            line-height: 250px;
             width: auto;
         }
     }
@@ -155,38 +156,38 @@ img {
 }
 
 .event {
-    background-image: url(https://blog.zgzg.io/wp-content/uploads/circel.png), url(http://blog.zgzg.io/wp-content/uploads/line2.png);
-    background-repeat: no-repeat, no-repeat;
+    background-image: url('https://blog.zgzg.io/wp-content/uploads/circel.png'), url('http://blog.zgzg.io/wp-content/uploads/line2.png');
     background-position-x: 0, 12px;
     background-position-y: 0, 30px;
-    padding-left: 25px;
+    background-repeat: no-repeat, no-repeat;
     margin-bottom: 15px;
+    padding-left: 25px;
 }
 
 .event-metadata h2 {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .event img {
-    margin: 0px;
+    margin: 0;
 }
 
 .event li {
-    margin-top: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #ticket-banner,
 #tour-banner,
 #ybyf-banner {
     background-color: rgba(193, 32, 40, 255) !important;
-    color: white;
-    background-position: left 0px center;
+    background-position: left 0 center;
+    color: #ffffff;
 }
 
 #prize {
-    width: 200px !important;
     margin: 20px 0 0 20px;
+    width: 200px !important;
 }
 
 [id^="eventbrite-widget-container"] iframe {
@@ -203,49 +204,49 @@ img {
 
 @media screen and (min-width: 767px) {
     .galalist-pic {
-        width: 170px;
-        height: 170px;
-        display: inline-block;
-        background-size: cover;
         background-position: center;
+        background-size: cover;
+        display: inline-block;
+        height: 170px;
+        width: 170px;
     }
 
     #ticket-banner .container {
-        background-image: url(https://res.cloudinary.com/zaigezaigu/image/upload/v1640497467/girls_sue1pz.png);
+        background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1640497467/girls_sue1pz.png');
+        background-position: right;
         background-repeat: no-repeat;
         margin: 0 auto 0 auto;
+        max-width: 1100px;
         min-height: 420px;
-        padding-top: 40px;
         padding-bottom: 5px;
-        background-position: right;
-        max-width: 1100px
+        padding-top: 40px;
     }
 
     #tour-banner .container {
-        background-image: url(https://res.cloudinary.com/zaigezaigu/image/upload/v1639618313/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/fairshow_rw4bsj.png);
-        background-repeat: no-repeat;
+        background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1639618313/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/fairshow_rw4bsj.png');
         background-position: right;
+        background-repeat: no-repeat;
+        background-size: 100%;
         margin: 0 auto 0 auto;
+        max-width: 1100px;
         min-height: 450px;
         padding-top: 45px;
-        max-width: 1100px;
-        background-size: 100%;
     }
 
     #ybyf-banner .container {
-        background-image: url(https://res.cloudinary.com/zaigezaigu/image/upload/v1659927588/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/ybyf_f6kqk8.png);
-        background-repeat: no-repeat;
+        background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1659927588/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/ybyf_f6kqk8.png');
         background-position: right;
+        background-repeat: no-repeat;
+        background-size: 100%;
         margin: 0 auto 0 auto;
+        max-width: 1100px;
         min-height: 450px;
         padding-top: 45px;
-        max-width: 1100px;
-        background-size: 100%;
     }
 
     #ticket-poster,
     #tour-map {
-        padding: 0px 20px 30px;
+        padding: 0 20px 30px;
     }
 
     #tour-map {
@@ -261,8 +262,8 @@ img {
     }
 
     iframe#cloth {
-        width: 800px;
         height: 460px;
+        width: 800px;
     }
 
     #last-row-partners {
@@ -271,8 +272,8 @@ img {
 }
 
 #ticket-button-gala {
-    width: 50%;
     margin: 40px auto 0;
+    width: 50%;
 }
 
 @media (max-width: 767px) {
@@ -281,15 +282,15 @@ img {
     }
 
     iframe#cloth {
-        width: 100%;
         height: 260px;
+        width: 100%;
     }
 
     .galalist-pic {
-        width: 40%;
+        border-radius: 5px;
         float: left;
         margin: 10px;
-        border-radius: 5px;
+        width: 40%;
     }
 
     h1 {
@@ -297,17 +298,17 @@ img {
     }
 
     #ticket-banner.container {
+        background-size: 120%;
         margin: 0 auto 0 auto;
         min-height: 380px;
         padding-top: 35px;
-        background-size: 120%;
     }
 
     #tour-banner.container {
+        background-size: 120%;
         margin: 0 auto 0 auto;
         min-height: 400px;
         padding-top: 35px;
-        background-size: 120%;
     }
 
     #ticket-poster {
@@ -315,7 +316,7 @@ img {
     }
 
     #tour-map {
-        padding: 0px 5px 20px;
+        padding: 0 5px 20px;
     }
 
     #last-row-partners {
@@ -324,15 +325,15 @@ img {
 }
 
 #ticket-banner p {
-    color: white;
+    color: #ffffff;
 }
 
 #tour-banner p {
-    color: white;
+    color: #ffffff;
 }
 
 #tour-banner p {
-    color: white;
+    color: #ffffff;
 }
 
 #ticket-banner img {
@@ -340,8 +341,8 @@ img {
 }
 
 #ticket-banner #red-packet {
-    width: 55px;
     height: 80px;
+    width: 55px;
 }
 
 img#red-packet {
@@ -357,10 +358,10 @@ img#red-packet {
 }
 
 iframe.monthly-src {
-    width: 1000px;
+    display: block;
     height: 100%;
     margin: auto;
-    display: block;
+    width: 1000px;
 }
 
 // 春晚页面
@@ -370,12 +371,12 @@ h2.gala-heading {
 
 #gala-banner {
     background-color: rgba(193, 32, 40, 255) !important;
-    color: white;
-    background-position: left 0px center;
+    background-position: left 0 center;
+    color: #ffffff;
 }
 
 #gala-banner .container {
-    background-image: url(https://res.cloudinary.com/zaigezaigu/image/upload/v1637381379/zgzg-io-website/front-page-1280x712_ueloj5.png);
+    background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1637381379/zgzg-io-website/front-page-1280x712_ueloj5.png');
     background-position: -150px;
     background-repeat: no-repeat;
     margin: 0 auto 0 auto;
@@ -384,17 +385,17 @@ h2.gala-heading {
 }
 
 #gala-banner p {
-    color: white;
+    color: #ffffff;
 }
 
 #singer-banner {
     background-color: rgba(193, 32, 40, 255) !important;
-    color: white;
-    background-position: left 0px center;
+    background-position: left 0 center;
+    color: #ffffff;
 }
 
 #singer-banner .container {
-    background-image: url(https://res.cloudinary.com/zaigezaigu/image/upload/v1655094802/signer-backgroud_qd6cze.png);
+    background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1655094802/signer-backgroud_qd6cze.png');
     background-position: -150px;
     background-repeat: no-repeat;
     margin: 0 auto 0 auto;
@@ -403,25 +404,25 @@ h2.gala-heading {
 }
 
 #singer-banner p {
-    color: white;
+    color: #ffffff;
 }
 
 .sponsor img {
-    width: 90%;
     max-height: 400px;
     object-fit: contain;
+    width: 90%;
 }
 
 .rainbow-letters {
-    font-weight: bold;
-    font-size: medium;
-    background: red;
-    background: -webkit-linear-gradient(left, orange, yellow, green);
-    background: -o-linear-gradient(right, orange, yellow, green);
-    background: -moz-linear-gradient(right, orange, yellow, green);
-    background: linear-gradient(to right, orange, yellow, green);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background: #ff0000;
+    background: -webkit-linear-gradient(left, #ffa500, #ffff00, #008000);
+    background: -o-linear-gradient(right, #ffa500, #ffff00, #008000);
+    background: -moz-linear-gradient(right, #ffa500, #ffff00, #008000);
+    background: linear-gradient(to right, #ffa500, #ffff00, #008000);
+    font-size: medium;
+    font-weight: bold;
 }
 
 #ticket-sell {
@@ -441,193 +442,75 @@ h2.gala-heading {
 }
 
 #eb-overlay {
-    position: fixed;
-    /* Sit on top of the page content */
-    display: none;
-    /* Hidden by default */
-    width: 100%;
-    /* Full width (cover the whole page) */
-    height: 100%;
-    /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 1vh 1vw 1vh 1vw;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Black background with opacity */
-    z-index: 50;
-    /* Specify a stack order in case you're using a different order for other elements */
+    /* Sit on top of the page content */
+    bottom: 0;
+    /* Hidden by default */
     cursor: pointer;
+    /* Full width (cover the whole page) */
+    display: none;
+    /* Full height (cover the whole page) */
+    height: 100%;
+    left: 0;
+    padding: 1vh 1vw 1vh 1vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+    /* Black background with opacity */
+    width: 100%;
+    /* Specify a stack order in case you're using a different order for other elements */
+    z-index: 50;
     /* Add a pointer on hover */
 }
 
 #tour-button {
+    display: block;
     text-align: center;
-    display: block
 }
 
 .singer-button {
-    background-color: white;
+    background-color: #ffffff;
     padding: 10px;
     width: 95px;
 }
 
 #buy-button {
-    margin: 50px auto;
+    cursor: pointer;
     display: block;
-    width: 200px;
     font-size: 2em;
     height: auto;
-    text-align: center;
+    margin: 50px auto;
     padding: 0.5em;
-    cursor: pointer;
+    text-align: center;
+    width: 200px;
 }
 
 #singer-button {
-    margin: 10px auto;
-    display: block;
-    width: 180px;
-    height: auto;
-    text-align: center;
-    padding: 0.4em;
-    cursor: pointer;
-    border-width: thick;
-    color: white;
-    border: 2px solid white;
-    border-radius: 4px;
-    font-size: 22px;
     background: #c12028;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    border-width: thick;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 22px;
+    height: auto;
+    margin: 10px auto;
+    padding: 0.4em;
+    text-align: center;
+    width: 180px;
 }
 
 #close-overlay {
-    z-index: 100;
+    background-color: #ffffff;
+    border: 1px solid #808080;
+    border-radius: 50%;
+    height: 3vw;
+    min-height: 40px;
+    min-width: 40px;
     position: absolute;
     right: 1vw;
     top: 1vw;
     width: 3vw;
-    min-width: 40px;
-    height: 3vw;
-    min-height: 40px;
-    background-color: white;
-    border-radius: 50%;
-    border: 1px solid gray;
-}
-
-.footer img {
-    height: 36px;
-    width: 36px;
-}
-
-#envelope {
-    height: 1em;
-    width: auto;
-    margin-top: 0.3em;
-}
-
-.footer-link {
-    columns: 3;
-    position: relative;
-    margin-top: 32px;
-    text-align: center;
-}
-
-.footer-link a {
-    color: white;
-}
-
-.footer-link li {
-    list-style: none;
-}
-
-#mc-embed-signup form {
-    padding: 10px 0 10px 0;
-}
-
-.footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: auto;
-}
-
-#mc-embed-signup .button {
-    height: 100%;
-    padding: 12px 32px;
-}
-
-
-.footer label {
-    display: inline-block;
-    color: $white;
-    text-align: left;
-    font-family: 'Noto Sans SC', Arial, sans-serif, -apple-system;
-    ;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    width: fit-content;
-}
-
-@media (min-width: 576px) {
-    .footer ul {
-        height: inherit;
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        justify-content: space-around;
-    }
-}
-
-#eventbrite {
-    width: 40px;
-    height: 32px;
-    font-family: 'Noto Sans SC', Arial, sans-serif, -apple-system;
-    ;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-
-}
-
-#mc-embed-signup input.email {
-    background: $white;
-    border-radius: 4px;
-    font-family: 'Noto Sans SC', Arial, sans-serif, -apple-system;
-    ;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    height: 100%;
-}
-
-#mc-embed-signup-scroll {
-    width: 568px;
-    height: 56px;
-}
-
-.footer {
-    background: $black;
-}
-
-.footer-icon {
-    display: flex;
-    justify-content: space-evenly;
-
-    a {
-        align-content: space-evenly;
-        text-decoration: none;
-
-        img {
-            width: 40px;
-            height: 40px;
-        }
-    }
+    z-index: 100;
 }
