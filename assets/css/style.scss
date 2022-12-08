@@ -502,6 +502,7 @@ h2.gala-heading {
 #envelope {
   height: 1em;
   width: auto;
+  margin-top: 0.3em;
 }
 
 .footer-link {
@@ -537,7 +538,6 @@ h2.gala-heading {
 
 .footer label {
   display: inline-block;
-  margin-bottom: 0.5rem;
   color: $white;
   text-align: left;
   font-family: 'Noto Sans SC', Arial, sans-serif, -apple-system;;
@@ -547,8 +547,6 @@ h2.gala-heading {
   line-height: 26px;
   width: fit-content;
 }
-
-
 
 @media (min-width: 576px){
   .footer ul {
