@@ -21,37 +21,6 @@ main:
     url: "/singerticket/"
     call-to-action: true
 
-footer:
-  - name: "关于我们"
-    url: "/about/"
-    weight: 2
-  - name: "加入我们"
-    url: "/join/"
-    weight: 2
-  - name: "合作咨询"
-    url: "mailto:contact-us@zgzg.io?subject=合作"
-    weight: 2
-
-  - name: "YouTube"
-    url: "https://zgzg.link/youtube"
-    weight: 1
-
-  - name: "Instagram"
-    url: "https://zgzg.link/ins"
-    weight: 1
-
-  - name: "Weibo"
-    url: "https://zgzg.link/weibo"
-    weight: 1
-
-  - name: "Facebook"
-    url: "https://zgzg.link/fb"
-    weight: 1
-
-  - name: "常用链接"
-    url: "/go/"
-    weight: 1
-
 special_events:
   - name: 《载歌在谷》历年春晚回眸
     image: https://blog.zgzg.io/wp-content/uploads/11581655426.jpg
