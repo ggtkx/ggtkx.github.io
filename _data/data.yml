@@ -5,11 +5,11 @@ main:
     items:
     - name: "2023 春晚"
       url: "/gala/"
-    - name: "2023 春晚游园"
+    - name: "2023 春节游园"
       url: "/galatour/"
-    - name: "2023 歌手赛"
+    - name: "2022 歌手赛"
       url: "/singer/"
-    - name: "2023 中秋游园"
+    - name: "2022 中秋游园"
       url: "/tour/"
   - name: "云集栏目"
     url: "/yj/"
@@ -18,7 +18,7 @@ main:
   - name: "关于我们"
     url: "/about/"
   - name: "活动购票"
-    url: "/singerticket/"
+    url: "https://zgzg.link/2023-ticket-website/"
     call-to-action: true
 
 special_events:

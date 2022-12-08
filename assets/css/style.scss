@@ -439,6 +439,7 @@ h2.gala-heading {
 
 #faq p:nth-child(odd) {
     font-weight: bold;
+    color: black;
 }
 
 #eb-overlay {
@@ -486,4 +487,15 @@ h2.gala-heading {
     top: 1vw;
     width: 3vw;
     z-index: 100;
+}
+
+.sponsor-gala-combined img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+}
+
+p.black-p {
+    color: black;
 }
