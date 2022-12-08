@@ -502,6 +502,11 @@ h2.gala-heading {
     width: 36px;
 }
 
+#envelope {
+  height: 1em;
+  width: auto;
+}
+
 .sub-footer{
 width: 568px;
 height: 156px;
@@ -517,12 +522,6 @@ background:black;
 /* Light Gray */
 
 color: #F5F5F5;
-}
-.footer label {
-  display: inline-block;
-  margin-bottom: 0.5rem;
-  color: white;
-  text-align: left;
 }
 
 .footer-link{
@@ -606,16 +605,16 @@ bottom: 50.18%;
 
 
 .footer label {
-width: 224px;
-height: 26px;
-left: 192px;
-top: 176px;
-font-family: 'Noto Sans SC', Arial, sans-serif, -apple-system;;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #FFFFFF;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: $white;
+  text-align: left;
+  font-family: 'Noto Sans SC', Arial, sans-serif, -apple-system;;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: fit-content;
 }
 
 
