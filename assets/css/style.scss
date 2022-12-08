@@ -512,11 +512,10 @@ h2.gala-heading {
   margin-top: 32px;
 }
 
-.footer-link a{
+.footer-link a {
   color:white;
-
 }
-.footer-link li{
+.footer-link li {
   list-style: none;
 }
 #mc-embed-signup form {
@@ -559,24 +558,12 @@ h2.gala-heading {
   }
 }
 
-.footer-link a {
-  width: 64px;
-  height: 23px;
-  font-family: 'Noto Sans SC', Arial, sans-serif, -apple-system;;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 23px;
-  text-decoration-line: underline;
-  color: #FFFFFF;
-}
-
-.icon-container{
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 40px;
-  width: 339.17px;
-  align-items: stretch;
+.icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    width: 339.17px;
+    align-items: stretch;
 }
 
 
@@ -613,12 +600,6 @@ height: 100%;
 .footer {
   background: black;
   padding-top: 15px;
-}
-
-.footer-link li {
-  list-style: none;
-  margin-top:8px;
-  margin-bottom:8px;
 }
 
 .footer-icon a {
