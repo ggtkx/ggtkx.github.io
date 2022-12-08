@@ -508,8 +508,8 @@ h2.gala-heading {
 .footer-link {
   columns: 3;
   position: relative;
-  height: 160px;
   margin-top: 32px;
+  text-align: center;
 }
 
 .footer-link a {
@@ -558,15 +558,6 @@ h2.gala-heading {
   }
 }
 
-.icon-container {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 40px;
-    width: 339.17px;
-    align-items: stretch;
-}
-
-
 #eventbrite{
   width: 40px;
   height: 32px;
@@ -598,15 +589,18 @@ height: 100%;
 }
 
 .footer {
-  background: black;
-  padding-top: 15px;
+  background: $black;
 }
 
-.footer-icon a {
-  align-content: space-evenly;
-  text-decoration:none;
-  img {
-    width: 40px;
-    height: 40px;
+.footer-icon {
+  display: flex;
+  justify-content: space-evenly;
+  a {
+    align-content: space-evenly;
+    text-decoration:none;
+    img {
+      width: 40px;
+      height: 40px;
+    }
   }
 }
