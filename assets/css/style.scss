@@ -29,8 +29,6 @@ $font-family-heading: 'Noto Sans SC', sans-serif, -apple-system;
 // Footer
 $footer-background-color: $primary;
 $footer-text-color: $white;
-$sub-footer-background-color: darken($primary, 10%);
-$sub-footer-text-color: $white;
 
 // Bootstrap
 @import 'bootstrap-variables';
@@ -50,7 +48,6 @@ $sub-footer-text-color: $white;
 @import 'components/page';
 @import 'components/header';
 @import 'components/footer';
-@import 'components/sub-footer';
 @import 'components/logo';
 @import 'components/main-menu';
 /*
@@ -505,23 +502,6 @@ h2.gala-heading {
 #envelope {
   height: 1em;
   width: auto;
-}
-
-.sub-footer {
-width: 568px;
-height: 156px;
-left: 160px;
-top: 298px;
-font-family: 'Noto Sans SC';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-background:black;
-/* or 162% */
-/* Light Gray */
-
-color: #F5F5F5;
 }
 
 .footer-link {
