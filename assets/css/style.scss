@@ -622,8 +622,10 @@ height: 100%;
 }
 
 .footer-icon a {
-width: 31.25px;
-height: 11.25px;
-align-content: space-evenly;
-text-decoration:none;
+  align-content: space-evenly;
+  text-decoration:none;
+  img {
+    width: 40px;
+    height: 40px;
+  }
 }
