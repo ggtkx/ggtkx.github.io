@@ -4,7 +4,7 @@
 #   pre-commit autoupdate
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.2.0
+    rev: v4.4.0
     hooks:
     -   id: check-added-large-files
     -   id: check-case-conflict
@@ -23,8 +23,15 @@ repos:
     -   id: trailing-whitespace
     -   id: mixed-line-ending
 -   repo: https://github.com/pre-commit/mirrors-eslint
-    rev: 'v8.16.0'  # Use the sha / tag you want to point at
+    rev: 'v8.29.0'  # Use the sha / tag you want to point at
     hooks:
     -   id: eslint
         args: ['--fix']
         exclude: assets/js/github.js
+        additional_dependencies:
+          - eslint@8.6.0
+          - eslint-config-google@0.7.1
+          - babel-eslint@10.1.0
+          - "@typescript-eslint/eslint-plugin"
+          - "@typescript-eslint/parser"
+          - eslint-loader@1.6.1
