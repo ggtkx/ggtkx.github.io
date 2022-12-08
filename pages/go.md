@@ -5,8 +5,8 @@ permalink: /go/
 ---
 
 # 网站
-* [社区主页](https://www.zgzg.io/)
-* [购票](https://www.zgzg.io/singerticket/)
+* [社区主页](/)
+* [购票](/singerticket/)
 
 # 志愿者相关
 
