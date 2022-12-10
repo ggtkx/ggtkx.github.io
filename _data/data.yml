@@ -43,7 +43,7 @@ friends:
 
 programmes:
   - name: 职挂云帆
-    image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hqf0i8ij30i00i0wg2.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670660306/zgzg-io-website/%E8%81%8C%E6%8C%82%E4%BA%91%E5%B8%86_sjdst6.jpg
     description: 职场访谈类节目。活动内容涵盖，科技，创业，生物医疗，职场软技能等多个方向。
     button-url: https://www.youtube.com/channel/UCG2VTUUT3OWEYcAEi3ELamA
     button-text: YouTube 频道
@@ -53,29 +53,29 @@ programmes:
     button-url: /ybyf/
     button-text: 往期精选
   - name: 书影婆娑
-    image: https://tva1.sinaimg.cn/large/008i3skNgy1gumieg96wqj60lw0lwmyt02.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670658918/zgzg-io-website/shuying_o2xeyt.jpg
     description: 我们组织多种书籍电影类文化活动：线下分享会、客厅沙龙、好书共读、P2P图书馆、朗读会、电影马拉松……
     button-url: https://mp.weixin.qq.com/s/Llop7DVDmyHwg_Jycv5w3A
     button-text: 了解更多
   - name: 体娱风云
-    image: https://tva1.sinaimg.cn/large/008i3skNgy1gty85ki0y8j60sc0scdj902.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670659563/zgzg-io-website/Screen_Shot_2022-12-10_at_00.05.57_yinbrf.png
     description: 我们组织羽毛球、桌游、趣味运动会、聚餐等线上及线下社交娱乐项目。为大家体验到社交的快乐而努力。
     button-url: https://mp.weixin.qq.com/s/udxxeHXpuQP3Nfaq0_JYdg
     button-text: 近期活动
 
 programmes_chunwan:
   - name: 春节晚会
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638942437/zgzg-io-website/WechatIMG869_k2uxam.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670660722/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/%E8%AF%9A-%E6%96%B9%E4%B9%89%E9%92%A2-3_8508_blehcz.jpg
     description: 承袭自2015年Google春晚，现面向整个湾区。由200余名主要来自湾区高科技公司的志愿者和演员耗时半年精心打造，是湾区规模最大，观众最多，最具硅谷特色的春节晚会。
     button-url: /gala/
     button-text: 详情
   - name: 歌手赛
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1655097027/singer_osizeh.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670565567/zgzg-io-website/2022%20singers/DSC02710-2_bwjybv.jpg
     description: 2022 "载歌在谷" 歌手赛，我们在成功的经验上进一步扩大规模，全新规划，为您打造一年一度的，高水准的华人歌手赛。
     button-url: /singer/
     button-text: 详情
   - name: 游园会
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638942438/zgzg-io-website/WechatIMG870_vnlf8i.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670563167/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E5%85%B3%E4%BA%8E%E6%98%A5%E8%8A%82%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%89%AA%E5%BD%B1/IMG_0779_idi6tx.jpg
     description: 春联，剪纸，书法，糖画，汉服，诗词，小舞台，为湾区华人朋友们打造一个最具有中华传统的特色游园会。完全免费，尤其适合家庭，让孩子们体验中国文化。
     button-url: /tour/
     button-text: 详情
