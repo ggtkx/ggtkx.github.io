@@ -475,6 +475,17 @@ h2.gala-heading {
     width: 200px;
 }
 
+#buy-button-english {
+    cursor: pointer;
+    display: block;
+    font-size: 2em;
+    height: auto;
+    margin: 50px auto;
+    padding: 0.5em;
+    text-align: center;
+    width: 350px;
+}
+
 #close-overlay {
     background-color: $white;
     border: 1px solid #808080;
@@ -494,6 +505,13 @@ h2.gala-heading {
     margin-right: auto;
     display: block;
     width: 80%;
+}
+
+.poster img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
 }
 
 p.black-p {
