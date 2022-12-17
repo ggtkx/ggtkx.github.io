@@ -1,0 +1,23 @@
+<div class="list-item-large list-item-rounded gx-0 my-1 my-lg-3">
+    <div class="row d-flex bg-light px-2 py-2 px-lg-0 py-lg-0">
+        <div class="col col-12 col-lg-4 flex-shrink-0">
+            <div class="list-item-image">
+                {% if sponsor.website %}
+                <a href="{{ sponsor.website }}">
+                    <img class="square-center mx-4 mx-lg-0" alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
+                </a>
+                {% else %}
+                    <img class="square-center mx-4 mx-4 mx-lg-0" alt="{{ sponsor.name }}" src="{{ sponsor.image }}" />
+                {% endif %}
+            </div>
+        </div>
+        <div class="col col-12 col-lg-7 flex-grow-1 mx-0 ms-lg-4 me-lg-3 list-item-content my-lg-5 my-3">
+            {% if sponsor.name %}
+                <h2 class="sponsor-title">{{sponsor.name}}</h2>
+            {% endif %}
+            {% if sponsor.description %}
+                <p class="sponsor-content">{{sponsor.description}}</p>
+            {% endif %}
+        </div>
+    </div>
+</div>

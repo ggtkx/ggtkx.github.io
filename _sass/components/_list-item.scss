@@ -62,3 +62,21 @@
     width: 144px;
   }
 }
+
+.sponsor-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.sponsor-content {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.square-center {
+  height: 360px;
+  width: 360px;
+  object-fit: contain;
+}

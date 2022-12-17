@@ -10,39 +10,44 @@
     <!-- end sponsor heading -->
     <!-- sponsors by level, such as 白金赞助 -->
     {% for sponsor_level in sponsor_type.sponsor-levels %}
-    <div class="row">
-        <div class="col home-section-header">
-            <!-- sponsor level heading, such as the text 白金赞助 or 虚位以待 -->
-            <h2 class="gala-heading underline">{{sponsor_level.level-heading}}</h2>
-        </div>
-    </div>
-    {% if sponsor_level.sponsor-elements %}
-        <!-- specialization for 星岛日报 as a general media sponsor -->
-        {% if sponsor_type == site.data.data-sponsor.sponsors and sponsor_level.level-name == "media" %}
-            <div class="row">
-                <div class="col-12 col-lg-9 mb-1">
-                    <img
-                        src="https://res.cloudinary.com/zaigezaigu/image/upload/v1639120586/zgzg-io-website/%E6%A8%AA%E7%89%88_gptbss.png" />
-                    <div class="mb-1 sponsor-description">
-                        星島日報於 1938 年在香港創報,是服務全球華人的中文媒體領導者。1975
-                        年,星島在美國三藩市設立第一間國際分社,隨後陸續在美國紐約、洛杉磯,加拿大溫哥華、多倫多開設分社。星島成為全球發行的中文報章。
+        {% if sponsor_level.sponsor-elements %}
+        <div class="row">
+            <div class="col home-section-header pt-9" >
+                <!-- sponsor level heading, such as the text 白金赞助 or 虚位以待 -->
+                <div class="row">
+                    <div class="col pb-3 text-center">
+                        <h1 class="underline">{{sponsor_level.level-heading}}</h1>
                     </div>
                 </div>
             </div>
-        {% endif %}
-        <div class="row">
-            {% for sponsor_e in sponsor_level.sponsor-elements %}
-                <!-- assigns sponsor_e to sponsor to make the naming in sponsor.html less verbose -->
-                {% assign sponsor = sponsor_e %}
-                <div id="{{sponsor_level.elements-div-style-id}}" class="{{sponsor_level.elements-div-style-class}}">
-                    {% if sponsor_level.level-name == "media" %}
-                        {% include sponsor-image-without-link-low-padding.html %}<br>
-                    {% else %}
-                        {% include sponsor.html %}<br>
-                    {% endif %}
-                </div>
-            {% endfor %}
         </div>
+        {% if sponsor_level.level-name == "food" or sponsor_level.level-name == "others" %}
+            <div class="row">
+                {% for sponsor_e in sponsor_level.sponsor-elements %}
+                    <div class="col-12 col-md-6 col-lg-3 mb-5">
+                        {% assign sponsor = sponsor_e %}
+                        {% include sponsor.html %}
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="row">
+                {% for sponsor_e in sponsor_level.sponsor-elements %}
+                    <!-- assigns sponsor_e to sponsor to make the naming in sponsor.html less verbose -->
+                    {% assign sponsor = sponsor_e %}
+                        {% if sponsor_level.level-name == "media" %}
+                            <div id="last-row-partners" class="col-4 col-lg-3 mb-1">
+                            {% include sponsor-image-without-link-low-padding.html %}<br>
+                            </div>
+                        {% else %}
+                            <div>
+                            {% include sponsor-long.html %}
+                            </div>
+                        {% endif %}
+
+                {% endfor %}
+            </div>
+        {% endif %}
     {% endif %}
     {% endfor %}
     <!-- end sponsors by level -->

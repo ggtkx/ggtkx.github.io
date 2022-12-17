@@ -79,3 +79,35 @@
     line-height: 32px;
   }
 }
+
+.sponsor-card {
+  width: 268px;
+
+  .sponsor-card-image {
+    width: 268px;
+    height: 268px;
+    object-fit: contain;
+  }
+
+  .sponsor-card-title {
+    color: $primary;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .sponsor-card-content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .sponsor-card-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    color: $black;
+  }
+}

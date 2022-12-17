@@ -12,11 +12,12 @@
 
 .hero-content {
   color: $white;
-  margin-left: 160px;
-  margin-right: 720px;
 
   p {
     color: $white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
     a {
       color: $white;
     }
@@ -61,6 +62,14 @@
     font-size: 20px;
     font-weight: 700;
     margin: 32px 0 0 0;
+  }
+
+  h1 + p {
+    margin-top: 24px;
+  }
+
+  #hero-divider + p {
+    margin-top: 32px;
   }
 }
 
