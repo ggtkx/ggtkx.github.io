@@ -160,6 +160,20 @@ sponsors:
       # HTML div styles (see top of the file for explanations).
       elements-div-style-class: col-6 col-lg-4 mb-1
       sponsor-elements:
+        - name: Coco
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1636693112/zgzg-io-website/coco_lx8uvq.jpg
+          website: https://www.realtorcocotan.com/
+          description: Coco Tan从业地产18年有余, 一直排名前1%。在全美140万名地产经纪人中, Coco名列由《华尔街日报》评选的前74名。2021年还未结束, 她已卖出了140多套房屋, 几乎每套都成功地打破了湾区的价格记录。她曾连续两年当选华美地产协会 (CAREA) 主席。Coco主持的现场直播“周二会谭室”(T.A.N.)为大家带来丰富的地产及相关领域的知识。
+          phone: (408) 829-6053
+          email: CocoTanRE@gmail.com
+          other: 微信 CocoTanRealEstate
+        - name: Captain Dental
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1649530763/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_5854_ymcjaf.jpg
+          website: https://www.captaindental.com/
+          description: Captain Dental由Doris Yao, D.D.S 于2017年创立，我们创立的初衷就是要解决看牙贵，看牙痛，看牙水太深的问题。因此Captain Dental不仅注重高质量的治疗结果，也将顾客的满意与舒适度放在第一位。收费合理，透明也是我们一直以来贯彻的理念。成立至今我们在Google，Yelp上都是5星评分。
+          phone: 408-826-4676
+          email: frontdesk@captaindental.com
+          other: Locations in Santa Clara and San Jose
 
     - level-name: platinum
       level-heading: 白金赞助
@@ -190,10 +204,7 @@ sponsors:
           description: Steve 作为资深房屋贷款顾问及销售经理，服务在湾区享有极好口碑。他的专长包括 Relocation Loan，涉及 RSU 收入及海外资产的贷款。最近十年 Steve 连续荣获富国银行房贷最高荣誉 President’s Club Member 头衔。
         - name: 红叶故事
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
-          description: 红叶故事是北美最大的交友平台，全球超过 100 万用户。用红叶手机 app，你可以直接和对方视频和语音聊天，也可以发送图片和语音。独家的“真心话”测试，可以精准地计算你们之间的性格匹配度。红叶也有自己的朋友圈。可以晒生活、晒品味，也可以查看周围小伙伴的日常。朋友圈评论或点赞等互动功能让你分分钟就能和陌生人打开话题。比较害羞、不想让熟人看到？红叶贴心地提供了隐身功能，让你的照片资料只展示给指定用户。
-        - name: Robinland
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670480775/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Robinland_logo2_ikkfxd.png
-          description: Robinland 是去中心化金融与传统金融之间的桥梁，旨在降低房地产投资⻔槛，让普罗大众能享受到机构投资者才能获得的收益。
+          description: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
 
     - level-name: food
       level-heading: 餐饮赞助
