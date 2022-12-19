@@ -12,19 +12,29 @@
 
 sponsor-home:
   sponsor-levels:
-    - level-name: sponsor
+    - level-name: others
       level-heading: 主要赞助商
-      elements-div-style-class: col-6 col-lg-4 mb-1
+      elements-div-style-class: col-12 col-md-6 col-lg-4 mb-5
       sponsor-elements:
-      - name: Ivy Zhang & Anna Duan Realty Team
-        description: Ivy Zhang & Anna Duan 团队是Coldwell Banker全职资深Top地产经纪团队，是Top Agent Network的成员，交易过上百套房屋买卖，得到客户们Zillow 和Google 全五星好评，团队资源丰富，能在房屋买卖，贷款，投资，装修，出租，设计等方面提供给客户们全方位的服务和咨询。永远将客户的利益放在首位，根据客户的具体情况，需求和预算，帮助客人制定专属地产投资规划。
-        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1670308954/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Ivy_Zhang_and_Anna_Duan_Realty_Team_s3t45u.png
-      - name: Lusso Inc - Tile, Hardwook, Kitchen & Bath
-        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1670309781/zgzg-io-website/%E8%B5%9E%E5%8A%A9/lusso_logo_daqkws.jpg
-        description: What makes design so alluring? We believes the answer is designers. That’s why we have made our entire focus on you – the designer. Your style, your ideas, your creativity. Go on – Try, share and design now!
-      - name: Enjoy Dance Studio
-        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1670310255/zgzg-io-website/%E8%B5%9E%E5%8A%A9/EDS_Logo_black_mnrrkn.png
-        description: EDS 是湾区最大的华人舞蹈工作室。We have 街舞 HIPHOP | 韩舞 K-POP | 爵士 JAZZ | 机械舞 POPPING | 现代舞 CONTEMPORARY ｜ 编舞 CHOREO。9 locations across the bay area!
+        - name: Anna
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671080169/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Ivy_Zhang_and_Anna_Duan_Realty_Team_1_1_qfcp4j.png
+          description: Ivy Zhang & Anna Duan 团队是 Coldwell Banker 全职资深 Top 地产经纪团队，是 Top Agent Network 的成员，交易过上百套房屋买卖，得到客户们 Zillow 和 Google 全五星好评。团队资源丰富，能在房屋买卖、贷款、投资、装修、出租、设计等方面提供给客户们全方位的服务和咨询。永远将客户的利益放在首位，根据客户的具体情况、需求和预算，帮助客人制定专属地产投资规划。
+          website:
+        - name: EDS
+          image: /images/eds.svg
+          description: Enjoy Dance Studio 成立于 2016 年，是湾区最大的华人街舞工作室。我们的地点遍布南湾、半岛、东湾等地区。EDS 为学生们提供高水平的 k-pop、hip-hop、爵士、现代舞、机械舞、house、locking、高跟鞋爵士等各类课程。特别于今年，我们开始扩展 hip-hop 宝宝班课程的投入和设计，受到家长们的广泛好评。
+        - name: Lusso
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671073621/zgzg-io-website/%E8%B5%9E%E5%8A%A9/lusso_logo_gtmb1f.png
+          description: Lusso 成立于 2017 年，由一批有情怀、具有创新精神的建筑、设计行业专业人士创建。Lusso 坐落于矽谷的中心，拥有 12,000 平方尺的展厅。 Lusso 品牌专注于高端全定制橱柜设计、高端欧橡地板和现代欧式瓷砖。
+        - name: Yami
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671079564/zgzg-io-website/%E8%B5%9E%E5%8A%A9/d665113a07ce78d72928b0b67a254482_0x0_cekjdb.png
+          description: 亚米是北美最大亚洲商品购物平台，网站于 2013 年 3 月上线，主营最具特色的亚洲商品，涵盖食品、美妆、养生、电器、图书等类别。经过近几年的飞速发展，亚米在北美华人圈建立了良好的品牌形象，成为北美华人线上购物的首选。
+        - name: 新东方比邻
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671156291/zgzg-io-website/%E8%B5%9E%E5%8A%A9/xdf%E6%AF%94%E9%82%BB_zamwyt.png
+          description: “新东方比邻”是新东方教育科技集团旗下独资子公司，专为中国学生提高国际综合能力与文化素养，通过独立研发和引进科创、阅读、演讲、戏剧等综合性国际化素养课程，让中国孩子通过互联网提升国际对接力，讲好中国故事。
+        - name: Moomoo 富途证券
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1671323321/zgzg-io-website/%E8%B5%9E%E5%8A%A9/moomoo%E7%AB%96%E7%89%88%E4%B8%8A%E5%B8%82%E7%BB%84%E5%90%88%E6%A0%87%E5%BF%97_%E7%94%BB%E6%9D%BF_1_s3ffsi.png
+          description: Moomoo Inc., a subsidiary of Futu, is a U.S.-based financial services company headquartered in Palo Alto, California that allows customers to trade US stocks, Chinese stocks, Hong Kong stocks, ETFs, and options. Moomoo, Inc was founded in March 2018. The platform was created specifically for U.S. customers.
 
 sponsors-yj-2022:
   sponsor-heading: 2022 云集赞助商
@@ -55,7 +65,7 @@ sponsors-singer:
 
     - level-name: gold
       level-heading: 金牌赞助
-      elements-div-style-class: col-6 col-lg-3 mb-1 gold-sponsor
+      elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
       - name: 红叶故事
         image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
@@ -91,7 +101,7 @@ sponsors-singer:
 
     - level-name: musical_instrument
       level-heading: 乐器赞助
-      elements-div-style-class: col-6 col-lg-3 mb-1 gold-sponsor
+      elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
       - name: Enya智能乐器
         image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661795574/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_6517_zfwmhh.jpg
@@ -100,7 +110,7 @@ sponsors-singer:
     - level-name: venue
       level-heading: 场地赞助
       elements-div-style-id: last-row-partners
-      elements-div-style-class: col-6 col-lg-3 mb-1 food-sponsor
+      elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
       - name: mtv
         image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1656783910/WechatIMG530_rxjxda.png
@@ -111,7 +121,7 @@ sponsors-singer:
     - level-name: food
       level-heading: 餐饮赞助
       elements-div-style-id: last-row-partners
-      elements-div-style-class: col-6 col-lg-3 mb-1 food-sponsor
+      elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
       - name: weboba
         image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1657254451/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Combined-logo_am3ikv.png
@@ -124,7 +134,7 @@ sponsors-singer:
     - level-name: media
       level-heading: 媒体合作
       elements-div-style-id: last-row-partners
-      elements-div-style-class: col-6 col-lg-3 mb-1 food-sponsor
+      elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
       - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661720085/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/chihuo_uhom0r.png
       - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659916546/zgzg-io-website/2_pes3u4.jpg
@@ -138,7 +148,7 @@ sponsors-singer:
     - level-name: special
       level-heading: 特别合作
       elements-div-style-id: last-row-partners
-      elements-div-style-class: col-6 col-lg-3 mb-1 food-sponsor
+      elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
       - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660499610/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/image_28_wrksq1.png
       - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660407760/hanfu_m1hieb.png
@@ -173,7 +183,7 @@ sponsors:
           description: “新东方比邻”是新东方教育科技集团旗下独资子公司，专为中国学生提高国际综合能力与文化素养，通过独立研发和引进科创、阅读、演讲、戏剧等综合性国际化素养课程，让中国孩子通过互联网提升国际对接力，讲好中国故事。
     - level-name: gold
       level-heading: 金牌赞助
-      elements-div-style-class: col-6 col-lg-3 mb-1 gold-sponsor
+      elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
         - name: Steve Chen
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670217971/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Steven_Chen_sq_vmjs70.png
@@ -187,8 +197,7 @@ sponsors:
 
     - level-name: food
       level-heading: 餐饮赞助
-      elements-div-style-id: last-row-partners
-      elements-div-style-class: col-6 col-lg-3 mb-1 food-sponsor
+      elements-div-style-class: col-12 col-md-6 col-lg-3 mb-5
       sponsor-elements:
         - name: helion 一番膳意
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670480731/zgzg-io-website/%E8%B5%9E%E5%8A%A9/helion%E4%B8%80%E7%95%AA%E8%86%B3%E6%84%8F_vfky2d.png
@@ -215,8 +224,7 @@ sponsors:
 
     - level-name: others
       level-heading: 合作伙伴
-      elements-div-style-id: last-row-partners
-      elements-div-style-class: col-4 col-lg-3 mb-1 partner-sponsor
+      elements-div-style-class: col-12 col-md-6 col-lg-3 mb-5
       sponsor-elements:
         - name: 528 剧本杀
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671073620/zgzg-io-website/%E8%B5%9E%E5%8A%A9/528_app_icon1_eboba2.png
