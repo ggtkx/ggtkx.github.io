@@ -16,22 +16,22 @@ sponsor-home:
       level-heading: 主要赞助商
       elements-div-style-class: col-12 col-md-6 col-lg-4 mb-5
       sponsor-elements:
-        - name: Anna
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671080169/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Ivy_Zhang_and_Anna_Duan_Realty_Team_1_1_qfcp4j.png
+        - name: Ivy Zhang & Anna Duan Realty Team
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671774695/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Ivy_and_Anna_Realty_Team_r7nt04.jpg
           description: Ivy Zhang & Anna Duan 团队是 Coldwell Banker 全职资深 Top 地产经纪团队，是 Top Agent Network 的成员，交易过上百套房屋买卖，得到客户们 Zillow 和 Google 全五星好评。团队资源丰富，能在房屋买卖、贷款、投资、装修、出租、设计等方面提供给客户们全方位的服务和咨询。永远将客户的利益放在首位，根据客户的具体情况、需求和预算，帮助客人制定专属地产投资规划。
           website:
-        - name: EDS
-          image: /images/eds.svg
+        - name: EDS Dance Studio
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671774684/zgzg-io-website/%E8%B5%9E%E5%8A%A9/img_v2_99ac18c6-5172-4e93-b14c-23f91a4b448h_feplrg.jpg
           description: Enjoy Dance Studio 成立于 2016 年，是湾区最大的华人街舞工作室。我们的地点遍布南湾、半岛、东湾等地区。EDS 为学生们提供高水平的 k-pop、hip-hop、爵士、现代舞、机械舞、house、locking、高跟鞋爵士等各类课程。特别于今年，我们开始扩展 hip-hop 宝宝班课程的投入和设计，受到家长们的广泛好评。
         - name: Lusso
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671073621/zgzg-io-website/%E8%B5%9E%E5%8A%A9/lusso_logo_gtmb1f.png
           description: Lusso 成立于 2017 年，由一批有情怀、具有创新精神的建筑、设计行业专业人士创建。Lusso 坐落于矽谷的中心，拥有 12,000 平方尺的展厅。 Lusso 品牌专注于高端全定制橱柜设计、高端欧橡地板和现代欧式瓷砖。
-        - name: Yami
+        - name: Yami亚米
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671079564/zgzg-io-website/%E8%B5%9E%E5%8A%A9/d665113a07ce78d72928b0b67a254482_0x0_cekjdb.png
-          description: 亚米是北美最大亚洲商品购物平台，网站于 2013 年 3 月上线，主营最具特色的亚洲商品，涵盖食品、美妆、养生、电器、图书等类别。经过近几年的飞速发展，亚米在北美华人圈建立了良好的品牌形象，成为北美华人线上购物的首选。
-        - name: 新东方比邻
+          description: Yami亚米是北美最大亚洲商品购物平台，网站于 2013 年 3 月上线，主营最具特色的亚洲商品，涵盖食品、美妆、养生、电器、图书等类别。经过近几年的飞速发展，亚米在北美华人圈建立了良好的品牌形象，成为北美华人线上购物的首选。
+        - name: 新东方 | 比邻中文
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671156291/zgzg-io-website/%E8%B5%9E%E5%8A%A9/xdf%E6%AF%94%E9%82%BB_zamwyt.png
-          description: “新东方比邻”是新东方教育科技集团旗下独资子公司，专为中国学生提高国际综合能力与文化素养，通过独立研发和引进科创、阅读、演讲、戏剧等综合性国际化素养课程，让中国孩子通过互联网提升国际对接力，讲好中国故事。
+          description: 新东方教育科技集团，成立于1993年11月16日。是一家集教育培训、教育产品研发、教育服务于一体的大型综合性教育科技集团。公司于2006年在美国纽约证券所上市。比邻中文是新东方教育科技集团旗下专业中文品牌，专注于为3-15岁华裔青少儿提升中文语言素养。基于新东方近30年教研沉淀研发，拥有科学的课程等级划分和完善的课程体系建设，通过口语表达、阅读理解和写作等能力的培养，全面提高孩子的中文能力。
         - name: Moomoo 富途证券
           image: https://res.cloudinary.com/zaigezaigu/image/upload/v1671323321/zgzg-io-website/%E8%B5%9E%E5%8A%A9/moomoo%E7%AB%96%E7%89%88%E4%B8%8A%E5%B8%82%E7%BB%84%E5%90%88%E6%A0%87%E5%BF%97_%E7%94%BB%E6%9D%BF_1_s3ffsi.png
           description: Moomoo Inc., a subsidiary of Futu, is a U.S.-based financial services company headquartered in Palo Alto, California that allows customers to trade US stocks, Chinese stocks, Hong Kong stocks, ETFs, and options. Moomoo, Inc was founded in March 2018. The platform was created specifically for U.S. customers.
@@ -68,7 +68,7 @@ sponsors-singer:
       elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
       - name: 红叶故事
-        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670217975/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E7%BA%A2%E5%8F%B6%E6%95%85%E4%BA%8B_ykfnpr.png
         description: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
 
       - name: george-xie
@@ -155,55 +155,55 @@ sponsors-singer:
 
 sponsors:
   sponsor-levels:
-    - level-name: diamond
-      level-heading: 钻石赞助
-      # HTML div styles (see top of the file for explanations).
-      elements-div-style-class: col-6 col-lg-4 mb-1
-      sponsor-elements:
-        - name: Coco
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1636693112/zgzg-io-website/coco_lx8uvq.jpg
-          website: https://www.realtorcocotan.com/
-          description: Coco Tan从业地产18年有余, 一直排名前1%。在全美140万名地产经纪人中, Coco名列由《华尔街日报》评选的前74名。2021年还未结束, 她已卖出了140多套房屋, 几乎每套都成功地打破了湾区的价格记录。她曾连续两年当选华美地产协会 (CAREA) 主席。Coco主持的现场直播“周二会谭室”(T.A.N.)为大家带来丰富的地产及相关领域的知识。
-          phone: (408) 829-6053
-          email: CocoTanRE@gmail.com
-          other: 微信 CocoTanRealEstate
-        - name: Captain Dental
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1649530763/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_5854_ymcjaf.jpg
-          website: https://www.captaindental.com/
-          description: Captain Dental由Doris Yao, D.D.S 于2017年创立，我们创立的初衷就是要解决看牙贵，看牙痛，看牙水太深的问题。因此Captain Dental不仅注重高质量的治疗结果，也将顾客的满意与舒适度放在第一位。收费合理，透明也是我们一直以来贯彻的理念。成立至今我们在Google，Yelp上都是5星评分。
-          phone: 408-826-4676
-          email: frontdesk@captaindental.com
-          other: Locations in Santa Clara and San Jose
+#    - level-name: diamond
+#      level-heading: 钻石赞助
+#      # HTML div styles (see top of the file for explanations).
+#      elements-div-style-class: col-6 col-lg-4 mb-1
+#      sponsor-elements:
+#        - name: Coco
+#          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1636693112/zgzg-io-website/coco_lx8uvq.jpg
+#          website: https://www.realtorcocotan.com/
+#          description: Coco Tan从业地产18年有余, 一直排名前1%。在全美140万名地产经纪人中, Coco名列由《华尔街日报》评选的前74名。2021年还未结束, 她已卖出了140多套房屋, 几乎每套都成功地打破了湾区的价格记录。她曾连续两年当选华美地产协会 (CAREA) 主席。Coco主持的现场直播“周二会谭室”(T.A.N.)为大家带来丰富的地产及相关领域的知识。
+#          phone: (408) 829-6053
+#          email: CocoTanRE@gmail.com
+#          other: 微信 CocoTanRealEstate
+#        - name: Captain Dental
+#          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1649530763/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_5854_ymcjaf.jpg
+#          website: https://www.captaindental.com/
+#          description: Captain Dental由Doris Yao, D.D.S 于2017年创立，我们创立的初衷就是要解决看牙贵，看牙痛，看牙水太深的问题。因此Captain Dental不仅注重高质量的治疗结果，也将顾客的满意与舒适度放在第一位。收费合理，透明也是我们一直以来贯彻的理念。成立至今我们在Google，Yelp上都是5星评分。
+#          phone: 408-826-4676
+#          email: frontdesk@captaindental.com
+#          other: Locations in Santa Clara and San Jose
 
     - level-name: platinum
       level-heading: 白金赞助
       elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
-        - name: Anna
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671080169/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Ivy_Zhang_and_Anna_Duan_Realty_Team_1_1_qfcp4j.png
+        - name: Ivy Zhang & Anna Duan Realty Team
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671774695/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Ivy_and_Anna_Realty_Team_r7nt04.jpg
           description: Ivy Zhang & Anna Duan 团队是 Coldwell Banker 全职资深 Top 地产经纪团队，是 Top Agent Network 的成员，交易过上百套房屋买卖，得到客户们 Zillow 和 Google 全五星好评。团队资源丰富，能在房屋买卖、贷款、投资、装修、出租、设计等方面提供给客户们全方位的服务和咨询。永远将客户的利益放在首位，根据客户的具体情况、需求和预算，帮助客人制定专属地产投资规划。
           website:
-        - name: EDS
-          image: /images/eds.svg
+        - name: EDS Dance Studio
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671774684/zgzg-io-website/%E8%B5%9E%E5%8A%A9/img_v2_99ac18c6-5172-4e93-b14c-23f91a4b448h_feplrg.jpg
           description: Enjoy Dance Studio 成立于 2016 年，是湾区最大的华人街舞工作室。我们的地点遍布南湾、半岛、东湾等地区。EDS 为学生们提供高水平的 k-pop、hip-hop、爵士、现代舞、机械舞、house、locking、高跟鞋爵士等各类课程。特别于今年，我们开始扩展 hip-hop 宝宝班课程的投入和设计，受到家长们的广泛好评。
         - name: Lusso
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671073621/zgzg-io-website/%E8%B5%9E%E5%8A%A9/lusso_logo_gtmb1f.png
           description: Lusso 成立于 2017 年，由一批有情怀、具有创新精神的建筑、设计行业专业人士创建。Lusso 坐落于矽谷的中心，拥有 12,000 平方尺的展厅。 Lusso 品牌专注于高端全定制橱柜设计、高端欧橡地板和现代欧式瓷砖。
-        - name: Yami
+        - name: Yami亚米
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671079564/zgzg-io-website/%E8%B5%9E%E5%8A%A9/d665113a07ce78d72928b0b67a254482_0x0_cekjdb.png
-          description: 亚米是北美最大亚洲商品购物平台，网站于 2013 年 3 月上线，主营最具特色的亚洲商品，涵盖食品、美妆、养生、电器、图书等类别。经过近几年的飞速发展，亚米在北美华人圈建立了良好的品牌形象，成为北美华人线上购物的首选。
-        - name: 新东方比邻
+          description: Yami亚米是北美最大亚洲商品购物平台，网站于 2013 年 3 月上线，主营最具特色的亚洲商品，涵盖食品、美妆、养生、电器、图书等类别。经过近几年的飞速发展，亚米在北美华人圈建立了良好的品牌形象，成为北美华人线上购物的首选。
+        - name: 新东方 | 比邻中文
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671156291/zgzg-io-website/%E8%B5%9E%E5%8A%A9/xdf%E6%AF%94%E9%82%BB_zamwyt.png
-          description: “新东方比邻”是新东方教育科技集团旗下独资子公司，专为中国学生提高国际综合能力与文化素养，通过独立研发和引进科创、阅读、演讲、戏剧等综合性国际化素养课程，让中国孩子通过互联网提升国际对接力，讲好中国故事。
+          description:  新东方教育科技集团，成立于1993年11月16日。是一家集教育培训、教育产品研发、教育服务于一体的大型综合性教育科技集团。公司于2006年在美国纽约证券所上市。比邻中文是新东方教育科技集团旗下专业中文品牌，专注于为3-15岁华裔青少儿提升中文语言素养。基于新东方近30年教研沉淀研发，拥有科学的课程等级划分和完善的课程体系建设，通过口语表达、阅读理解和写作等能力的培养，全面提高孩子的中文能力。
     - level-name: gold
       level-heading: 金牌赞助
       elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
         - name: Steve Chen
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670217971/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Steven_Chen_sq_vmjs70.png
-          description: Steve 作为资深房屋贷款顾问及销售经理，服务在湾区享有极好口碑。他的专长包括 Relocation Loan，涉及 RSU 收入及海外资产的贷款。最近十年 Steve 连续荣获富国银行房贷最高荣誉 President’s Club Member 头衔。
+          description: Steve Chen 资深房屋贷款经理，富国银行2021年全国购房贷款排名第一。十多年实战经验，精通涉及Relocation，RSU收入及海外资产的贷款。团队专业高效，客户满分评价。欢迎随时致电咨询：Cell:408-805-1888 Email:Steve.T.Chen@wellsfargo.com
         - name: 红叶故事
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_pad,h_224,w_224/v1636691899/zgzg-io-website/b5dcJAY_dd9ixh.png
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670217975/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E7%BA%A2%E5%8F%B6%E6%95%85%E4%BA%8B_ykfnpr.png
           description: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
 
     - level-name: food
@@ -220,25 +220,22 @@ sponsors:
       elements-div-style-class: col-4 col-lg-3 mb-1
       sponsor-elements:
         - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671074829/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E7%A1%85%E6%98%9F%E4%BA%BA_logo_vkv2lk.png
-        - image: /images/cthm.svg
-        - name: 北美新浪
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670480687/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E5%8C%97%E7%BE%8E%E6%96%B0%E6%B5%AALOGO_je77xx.png
-          description: 新浪微博是中国最大的社交媒体之一，用户平均每天发布超过1亿条微博内容。由于信息传播高效性和广泛性，很多新鲜事物或热点事件通过微博得到广泛认知和关注。
-          website-name: 北美新浪
-          website: https://www.weibo.com/sinaus
+        - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671775305/zgzg-io-website/%E8%B5%9E%E5%8A%A9/USChitu_Logo_nbfecq.jpg
+        - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670480687/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E5%8C%97%E7%BE%8E%E6%96%B0%E6%B5%AALOGO_je77xx.png
         - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671074830/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E9%9D%9E%E9%B1%BC%E5%89%A7%E7%A4%BElogo_zityrq.png
         - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670480733/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0logo_hto07x.png
         - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670480625/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Cathy_logo_gu1zx2.png
         - image: /images/ggtkx.svg
         - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670217975/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E7%BA%A2%E5%8F%B6%E6%95%85%E4%BA%8B_ykfnpr.png
         - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671081216/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E5%90%83%E8%B4%A7%E5%B0%8F%E5%88%86%E9%98%9F_%E9%80%8F%E6%98%8E%E8%83%8C%E6%99%AF_uojg7o.png
+        - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671775312/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Sinovision_Logo_mc4wjs.png
 
     - level-name: others
       level-heading: 合作伙伴
       elements-div-style-class: col-12 col-md-6 col-lg-3 mb-5
       sponsor-elements:
         - name: 528 剧本杀
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671073620/zgzg-io-website/%E8%B5%9E%E5%8A%A9/528_app_icon1_eboba2.png
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671775322/zgzg-io-website/%E8%B5%9E%E5%8A%A9/528_pic_amqcbp.png
           description: 528 entertainment SJ是一家“好玩”的店，湾区娱乐的风向标。我们有剧本杀、桌游、泡泡玛特盲盒，手工 workshop（Tufting，流体熊/画，即将上线的奶油胶），可承接公司团建。
 
         - name: Uphonest
