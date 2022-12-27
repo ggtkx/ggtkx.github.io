@@ -17,16 +17,16 @@ sponsor-home:
       elements-div-style-class: col-12 col-md-6 col-lg-4 mb-5
       sponsor-elements:
         - name: Ivy Zhang & Anna Duan Realty Team
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671774695/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Ivy_and_Anna_Realty_Team_r7nt04.jpg
+          image: /images/ivy_anna.svg
           description: Ivy Zhang & Anna Duan 团队是 Coldwell Banker 全职资深 Top 地产经纪团队，是 Top Agent Network 的成员，交易过上百套房屋买卖，得到客户们 Zillow 和 Google 全五星好评。团队资源丰富，能在房屋买卖、贷款、投资、装修、出租、设计等方面提供给客户们全方位的服务和咨询。永远将客户的利益放在首位，根据客户的具体情况、需求和预算，帮助客人制定专属地产投资规划。
           website:
         - name: EDS Dance Studio
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671774684/zgzg-io-website/%E8%B5%9E%E5%8A%A9/img_v2_99ac18c6-5172-4e93-b14c-23f91a4b448h_feplrg.jpg
           description: Enjoy Dance Studio 成立于 2016 年，是湾区最大的华人街舞工作室。我们的地点遍布南湾、半岛、东湾等地区。EDS 为学生们提供高水平的 k-pop、hip-hop、爵士、现代舞、机械舞、house、locking、高跟鞋爵士等各类课程。特别于今年，我们开始扩展 hip-hop 宝宝班课程的投入和设计，受到家长们的广泛好评。
         - name: Lusso
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671073621/zgzg-io-website/%E8%B5%9E%E5%8A%A9/lusso_logo_gtmb1f.png
+          image: /images/lusso.svg
           description: Lusso 成立于 2017 年，由一批有情怀、具有创新精神的建筑、设计行业专业人士创建。Lusso 坐落于矽谷的中心，拥有 12,000 平方尺的展厅。 Lusso 品牌专注于高端全定制橱柜设计、高端欧橡地板和现代欧式瓷砖。
-        - name: Yami亚米
+        - name: Yami 亚米
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671079564/zgzg-io-website/%E8%B5%9E%E5%8A%A9/d665113a07ce78d72928b0b67a254482_0x0_cekjdb.png
           description: Yami亚米是北美最大亚洲商品购物平台，网站于 2013 年 3 月上线，主营最具特色的亚洲商品，涵盖食品、美妆、养生、电器、图书等类别。经过近几年的飞速发展，亚米在北美华人圈建立了良好的品牌形象，成为北美华人线上购物的首选。
         - name: 新东方 | 比邻中文
