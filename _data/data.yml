@@ -47,22 +47,22 @@ friends:
 
 programmes:
   - name: 职挂云帆
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670660306/zgzg-io-website/%E8%81%8C%E6%8C%82%E4%BA%91%E5%B8%86_sjdst6.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670660306/zgzg-io-website/%E4%BA%91%E9%9B%86/%E8%81%8C%E6%8C%82%E4%BA%91%E5%B8%86_sjdst6.jpg
     description: 职场访谈类节目。活动内容涵盖，科技，创业，生物医疗，职场软技能等多个方向。
     button-url: https://www.youtube.com/channel/UCG2VTUUT3OWEYcAEi3ELamA
     button-text: YouTube 频道
   - name: 一饱演福
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659910251/zgzg-io-website/1_fivcxb.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659910251/zgzg-io-website/%E4%BA%91%E9%9B%86/1_fivcxb.png
     description: 戏剧/表演爱好者相互交流，共同创作，共同成长的平台。我们会定期举行线上/线下话剧 or 表演相关的活动。
     button-url: /ybyf/
     button-text: 往期精选
   - name: 书影婆娑
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670658918/zgzg-io-website/shuying_o2xeyt.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670658918/zgzg-io-website/%E4%BA%91%E9%9B%86/shuying_o2xeyt.jpg
     description: 我们组织多种书籍电影类文化活动：线下分享会、客厅沙龙、好书共读、P2P图书馆、朗读会、电影马拉松……
     button-url: https://mp.weixin.qq.com/s/Llop7DVDmyHwg_Jycv5w3A
     button-text: 了解更多
   - name: 体娱风云
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670659563/zgzg-io-website/Screen_Shot_2022-12-10_at_00.05.57_yinbrf.png
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670659563/zgzg-io-website/%E4%BA%91%E9%9B%86/Screen_Shot_2022-12-10_at_00.05.57_yinbrf.png
     description: 我们组织羽毛球、桌游、趣味运动会、聚餐等线上及线下社交娱乐项目。为大家体验到社交的快乐而努力。
     button-url: https://mp.weixin.qq.com/s/udxxeHXpuQP3Nfaq0_JYdg
     button-text: 近期活动
@@ -86,17 +86,17 @@ programmes_chunwan:
 
 past-programmes:
   - name: 想唱就唱
-    image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hlqastyj30u00u0djk.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670300156/zgzg-io-website/%E4%BA%91%E9%9B%86/%E4%BA%91%E9%9B%86%EF%BC%9A%E6%97%A5%E5%B8%B8%E6%B4%BB%E5%8A%A8/008i3skNgy1gt4hlqastyj30u00u0djk_grdldr.jpg
     description: 周末线上K歌 + Live music 小聚会，大家在 Zoom 上一起听歌、唱歌、聊天、以歌会友，共度一个惬意的周日晚上。
     contact:
       - "[第二季演唱精彩合辑](https://www.youtube.com/watch?v=E4BjWM-kNXA&list=PLa7OKLszvN9fH1Vsi1ggwPx-h7Yo30bPf&index=9)"
   - name: 众说纷云
-    image: https://tva1.sinaimg.cn/large/008i3skNgy1gt4hpjeqnpj30u00u0q7g.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670300162/zgzg-io-website/%E4%BA%91%E9%9B%86/%E4%BA%91%E9%9B%86%EF%BC%9A%E6%97%A5%E5%B8%B8%E6%B4%BB%E5%8A%A8/008i3skNgy1gt4hpjeqnpj30u00u0q7g_m0tvnj.jpg
     description: 一个自由讨论、辩论的平台。我们欢迎：分享者在这里表达观点、经历，培养逻辑思辨能力；听众在这里收获多元想法，启发灵感。
     contact:
       - "[活动录像](https://www.youtube.com/watch?v=rkqZEjEaUrE&list=PLa7OKLszvN9cCMDy7O_RXHEGPfSKZ7b-6)"
   - name: 云生活
-    image: https://tva1.sinaimg.cn/large/008i3skNgy1gumiy3v19jj60mi0mitb802.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670300188/zgzg-io-website/%E4%BA%91%E9%9B%86/%E4%BA%91%E9%9B%86%EF%BC%9A%E6%97%A5%E5%B8%B8%E6%B4%BB%E5%8A%A8/008i3skNgy1gumiy3v19jj60mi0mitb802_pklz1d.jpg
     description: 交流你我的生活方式！我们聊宅家好物、买车养车、健康饮食、自学才艺……
     contact:
       - "[活动录像](https://www.youtube.com/watch?v=ox7mGP-Niwo&list=PLa7OKLszvN9cVA2sci9rp2PAmz8kR-Bp1)"
