@@ -32,9 +32,9 @@ sponsor-home:
         - name: 新东方 | 比邻中文
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671156291/zgzg-io-website/%E8%B5%9E%E5%8A%A9/xdf%E6%AF%94%E9%82%BB_zamwyt.png
           description: 新东方教育科技集团，成立于1993年11月16日。是一家集教育培训、教育产品研发、教育服务于一体的大型综合性教育科技集团。公司于2006年在美国纽约证券所上市。比邻中文是新东方教育科技集团旗下专业中文品牌，专注于为3-15岁华裔青少儿提升中文语言素养。基于新东方近30年教研沉淀研发，拥有科学的课程等级划分和完善的课程体系建设，通过口语表达、阅读理解和写作等能力的培养，全面提高孩子的中文能力。
-        - name: Moomoo 富途证券
+        - name: Moomoo 富途牛牛海外版
           image: https://res.cloudinary.com/zaigezaigu/image/upload/v1671323321/zgzg-io-website/%E8%B5%9E%E5%8A%A9/moomoo%E7%AB%96%E7%89%88%E4%B8%8A%E5%B8%82%E7%BB%84%E5%90%88%E6%A0%87%E5%BF%97_%E7%94%BB%E6%9D%BF_1_s3ffsi.png
-          description: Moomoo Inc., a subsidiary of Futu, is a U.S.-based financial services company headquartered in Palo Alto, California that allows customers to trade US stocks, Chinese stocks, Hong Kong stocks, ETFs, and options. Moomoo, Inc was founded in March 2018. The platform was created specifically for U.S. customers.
+          description: Moomoo 是富途牛牛为美国市场专门开发的一站式专业投资平台。不但提供0佣金交易全部美股/ETF/期权、配备低融资利率、创新投资分析技术、一个账户投资全球，还为美国华人开设7*24专业中文服务，提供更友好的中文交易体验。
 
 sponsors-yj-2022:
   sponsor-heading: 2022 云集赞助商
@@ -180,14 +180,14 @@ sponsors:
       elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
         - name: Ivy Zhang & Anna Duan Realty Team
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671774695/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Ivy_and_Anna_Realty_Team_r7nt04.jpg
+          image: /images/ivy_anna.svg
           description: Ivy Zhang & Anna Duan 团队是 Coldwell Banker 全职资深 Top 地产经纪团队，是 Top Agent Network 的成员，交易过上百套房屋买卖，得到客户们 Zillow 和 Google 全五星好评。团队资源丰富，能在房屋买卖、贷款、投资、装修、出租、设计等方面提供给客户们全方位的服务和咨询。永远将客户的利益放在首位，根据客户的具体情况、需求和预算，帮助客人制定专属地产投资规划。
           website:
         - name: EDS Dance Studio
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671774684/zgzg-io-website/%E8%B5%9E%E5%8A%A9/img_v2_99ac18c6-5172-4e93-b14c-23f91a4b448h_feplrg.jpg
+          image: https://imgur.com/Utz6SUg.png
           description: Enjoy Dance Studio 成立于 2016 年，是湾区最大的华人街舞工作室。我们的地点遍布南湾、半岛、东湾等地区。EDS 为学生们提供高水平的 k-pop、hip-hop、爵士、现代舞、机械舞、house、locking、高跟鞋爵士等各类课程。特别于今年，我们开始扩展 hip-hop 宝宝班课程的投入和设计，受到家长们的广泛好评。
         - name: Lusso
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671073621/zgzg-io-website/%E8%B5%9E%E5%8A%A9/lusso_logo_gtmb1f.png
+          image: /images/lusso.svg
           description: Lusso 成立于 2017 年，由一批有情怀、具有创新精神的建筑、设计行业专业人士创建。Lusso 坐落于矽谷的中心，拥有 12,000 平方尺的展厅。 Lusso 品牌专注于高端全定制橱柜设计、高端欧橡地板和现代欧式瓷砖。
         - name: Yami亚米
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671079564/zgzg-io-website/%E8%B5%9E%E5%8A%A9/d665113a07ce78d72928b0b67a254482_0x0_cekjdb.png
@@ -195,16 +195,29 @@ sponsors:
         - name: 新东方 | 比邻中文
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671156291/zgzg-io-website/%E8%B5%9E%E5%8A%A9/xdf%E6%AF%94%E9%82%BB_zamwyt.png
           description:  新东方教育科技集团，成立于1993年11月16日。是一家集教育培训、教育产品研发、教育服务于一体的大型综合性教育科技集团。公司于2006年在美国纽约证券所上市。比邻中文是新东方教育科技集团旗下专业中文品牌，专注于为3-15岁华裔青少儿提升中文语言素养。基于新东方近30年教研沉淀研发，拥有科学的课程等级划分和完善的课程体系建设，通过口语表达、阅读理解和写作等能力的培养，全面提高孩子的中文能力。
+        - name: Moomoo 富途牛牛
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671323321/zgzg-io-website/%E8%B5%9E%E5%8A%A9/moomoo%E7%AB%96%E7%89%88%E4%B8%8A%E5%B8%82%E7%BB%84%E5%90%88%E6%A0%87%E5%BF%97_%E7%94%BB%E6%9D%BF_1_s3ffsi.png
+          description: Moomoo 是富途牛牛为美国市场专门开发的一站式专业投资平台。不但提供0佣金交易全部美股/ETF/期权、配备低融资利率、创新投资分析技术、一个账户投资全球，还为美国华人开设7*24专业中文服务，提供更友好的中文交易体验。
+
     - level-name: gold
       level-heading: 金牌赞助
       elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
-        - name: Steve Chen
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670217971/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Steven_Chen_sq_vmjs70.png
-          description: Steve Chen 资深房屋贷款经理，富国银行2021年全国购房贷款排名第一。十多年实战经验，精通涉及Relocation，RSU收入及海外资产的贷款。团队专业高效，客户满分评价。欢迎随时致电咨询：Cell:408-805-1888 Email:Steve.T.Chen@wellsfargo.com
         - name: 红叶故事
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670217975/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E7%BA%A2%E5%8F%B6%E6%95%85%E4%BA%8B_ykfnpr.png
           description: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
+        - name: Robinland
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670480775/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Robinland_logo2_ikkfxd.png
+          description: Robinland 是去中心化金融与传统金融之间的桥梁,旨在降低房地产投资⻔槛,让普罗大众能享受到机构投资者才能获得的收益。
+        - name: Steve Chen
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670217971/zgzg-io-website/%E8%B5%9E%E5%8A%A9/Steven_Chen_sq_vmjs70.png
+          description: Steve Chen 资深房屋贷款经理，富国银行2021年全国购房贷款排名第一。十多年实战经验，精通涉及Relocation，RSU收入及海外资产的贷款。团队专业高效，客户满分评价。欢迎随时致电咨询：Cell:408-805-1888 Email:Steve.T.Chen@wellsfargo.com
+        - name: Keep
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1673154265/zgzg-io-website/%E8%B5%9E%E5%8A%A9/keep_zgzg_logo_folnui.jpg
+          description: Keep - 中国排名第一的互联网健身App。致力于打造室内健身教学，户外跑步、骑行等多种类热门健身方式，同时提供科学健康饮食指导、装备购买等一站式运动解决方案。2021年底，Keep旗下运动器械品牌正式入驻北美亚马逊电商平台，将Keep高性价比，更专业的运动器械、运动服饰等带给北美用户。
+        - name: 老板电器
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1673154553/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E8%80%81%E6%9D%BF%E7%94%B5%E5%99%A8zgzg_logo_ko4gbq.jpg
+          description: 老板电器-全球高端厨电领导者，专注于厨房电器行业45年。2015-2023年，老板电器油烟机、灶具连续八年全球销量第一，同时还接连荣获具有“设计界奥斯卡之称”的德国红点奖、IF奖，美国GoodDesign奖等60多项国际设计大奖，拥有超过2000多项的专利技术。老板电器已经进入全球25个国家和地区，畅销全球五大洲。
 
     - level-name: food
       level-heading: 餐饮赞助
@@ -212,7 +225,7 @@ sponsors:
       sponsor-elements:
         - name: helion 一番膳意
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670480731/zgzg-io-website/%E8%B5%9E%E5%8A%A9/helion%E4%B8%80%E7%95%AA%E8%86%B3%E6%84%8F_vfky2d.png
-          description: 一番膳意是解放双手的首选！经名厨精心炮制，用野生三文鱼或金枪鱼，零添加。可口、营养又方便，加热 90 秒即可食用！不管是工作午餐、加班，还是周末宅家，一番膳意带给你“食材讲究，一点也不将就”的一餐。
+          description: 星级厨师+新鲜食材+先进的“锁鲜技术”= 美味+方便的完美组合！食材讲究，一点也不将就。
 
     - level-name: media
       level-heading: 媒体合作
@@ -240,6 +253,5 @@ sponsors:
 
         - name: Uphonest
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670217981/zgzg-io-website/%E8%B5%9E%E5%8A%A9/UpHonest_Capital_pnhiyf.png
-          description: "UpHonest Capital 威诚资本成立于2015年，由硅谷知名投资人郭威创立，以全球化视角，专注投资硅谷和中国的早期优质初创企业。成立至今，机构累计投资超过 400 家初创企业，30 个独角兽项目。知名案例包括 Hims&Hers (NYSE:HIMS)、Vicarious Surgical (NYSE:RBOT)、Knightscope (NASDAQ: KSCP)、\
-                        SCOUT (ASX：SCT.AU)、Instacart、Grubmarket、Lime、Checkr、Rippling、Dialpad、Boom Supersonic、Ironclad、Rescale 等。UpHonest Capital 立足跨境创新，通过运营旗下拥有 10w+ 影响力的科技自媒体、国际化孵化加速平台、覆盖硅谷科技人才的智库与活跃的创业者社群等多元业态，深耕早期孵\
-                          化投资，构建了独特且完善的早期跨境投资生态，赋能未来创变者。"
+          description: UpHonest Capital威诚资本成立于2015年，由硅谷知名投资人郭威创立 ，以全球化视角 ，专注投资硅谷和中国的早期优质初创企业。成立至今，机构累计投资超过400家初创企业，30个独角兽项目。
+
