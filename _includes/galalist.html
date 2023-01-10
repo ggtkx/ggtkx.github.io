@@ -16,15 +16,8 @@
               <div class="flex-grow-1 ms-1 overflow-auto">
                     <span class="show-type"> {{ item.type }} </span>
                     <h3> {{ item.title }} </h3>
-<!--                    <p class="galalist-description">{{ item.description }}</p>-->
-                  <div class="gala-list-wrapper">
-                      <input id="{{imgIndex}}"  class="gala-list-exp"  type="checkbox">
-                      <div class="gala-list-text">
-                          <label class="gala-list-btn" for="{{imgIndex}}"></label>
-                          {{ item.description }}
-                      </div>
-                  </div>
-              </div>
+                    <p class="galalist-description">{{ item.description }}</p>
+                </div>
             </div>
         </div>
         {% endfor %}
