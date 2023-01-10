@@ -75,6 +75,7 @@ This is designed for lists of sponsors and lists of open positions.
 @import 'components/programme';
 @import 'components/special_event';
 @import 'components/social';
+@import 'components/gala_list_button';
 @import 'components/hero';
 //TODO(tslmy): PoC
 //@import 'components/list-item';
@@ -202,14 +203,25 @@ img {
     margin: 0 0 40px 0
 }
 
-@media screen and (min-width: 767px) {
-    .galalist-pic {
+.galalist-pic {
+    @media (min-width: 768px) {
         background-position: center;
         background-size: cover;
         display: inline-block;
         height: 170px;
         width: 170px;
     }
+
+    @media (max-width: 1199.98px) {
+        background-position: center;
+        background-size: cover;
+        display: inline-block;
+        height: 132px;
+        width: 132px;
+    }
+}
+
+@media screen and (min-width: 767px) {
 
     #ticket-banner .container {
         background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1640497467/girls_sue1pz.png');
@@ -284,13 +296,6 @@ img {
     iframe#cloth {
         height: 260px;
         width: 100%;
-    }
-
-    .galalist-pic {
-        border-radius: 5px;
-        float: left;
-        margin: 10px;
-        width: 40%;
     }
 
     h1 {

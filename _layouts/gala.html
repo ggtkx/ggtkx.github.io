@@ -12,9 +12,14 @@ layout: default
         <h2>
             地点：<a href="https://goo.gl/maps/3UJLFuwnhkT2QcMW7">San Jose Center for Performing Arts</a>, 255 S Almaden Blvd, San Jose, CA
         </h2>
-        <h2>
-            <a class="btn btn-primary btn-lg tab-links" href="https://zgzg.link/2023-ticket-website">点击购票</a>
-        </h2>
+        <div class="row button-grid pt-4">
+            <div class="col button-grid">
+                <a class="btn btn-primary btn-lg tab-links" href="https://zgzg.link/2023-ticket-website">点击购票</a>
+            </div>
+            <div class="col button-grid">
+                <a class="btn btn-secondary btn-lg tab-links" href="https://drive.google.com/file/d/1heoiaaPu0fb0qfgXBei6HIqyJsTdBRYU/view?usp=share_link">观众手册</a>
+            </div>
+        </div>
     </div>
 </div>
 <!-- Tab links -->
@@ -177,9 +182,10 @@ layout: default
     </div>
 </div>
 <div id="gala-day" class="tab-content">
-    <div class="container pt-6 pb-6 pt-md-6 pb-md-6 text-center">
-        <img style="display: block; margin-left: auto; margin-right: auto; width: 160px;" src="https://res.cloudinary.com/zaigezaigu/image/upload/v1670297802/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/e6cae4eea00ebcc78f46d37aef65e1c_hshqnm.png" />
-        <p class="pt-6" style="font-size: 24px; color: #949494;">2023年春晚正在精心筹备中，更多详情敬请期待！</p>
+    <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
+<!--        <img style="display: block; margin-left: auto; margin-right: auto; width: 160px;" src="https://res.cloudinary.com/zaigezaigu/image/upload/v1670297802/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/e6cae4eea00ebcc78f46d37aef65e1c_hshqnm.png" />-->
+<!--        <p class="pt-6" style="font-size: 24px; color: #949494;">2023年春晚正在精心筹备中，更多详情敬请期待！</p>-->
+        {% include galalist.html %}
     </div>
 </div>
 <div id="buy-ticket" class="tab-content">

@@ -1,18 +1,29 @@
 <div class="container">
     <div class="row">
-        <h1>节目表</h1>
+        <div class="col pb-3 text-center">
+            <h1 class="underline">节目介绍</h1>
+        </div>
     </div>
+
     <div class="row row-cols-1 row-cols-lg-2">
-        {% for item in site.data.data.galalist %}
+        {% for item in site.data.data.galalist_2023 %}
+        {% assign imgIndex = {{forloop.index}} %}
         <div class="col galalist-section g-3">
             <div class="d-flex">
               <div class="flex-shrink-0">
                 <div class="galalist-pic me-1" style="background-image: url({{ item.image }})"></div>
               </div>
               <div class="flex-grow-1 ms-1 overflow-auto">
-                    <span class="badge rounded-pill text-bg-primary"> {{ item.type }} </span>
+                    <span class="show-type"> {{ item.type }} </span>
                     <h3> {{ item.title }} </h3>
-                    <p class="galalist-description">{{ item.description }}</p>
+<!--                    <p class="galalist-description">{{ item.description }}</p>-->
+                  <div class="gala-list-wrapper">
+                      <input id="{{imgIndex}}"  class="gala-list-exp"  type="checkbox">
+                      <div class="gala-list-text">
+                          <label class="gala-list-btn" for="{{imgIndex}}"></label>
+                          {{ item.description }}
+                      </div>
+                  </div>
               </div>
             </div>
         </div>

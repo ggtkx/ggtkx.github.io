@@ -49,6 +49,22 @@
   width: 100%;
 }
 
+.row.button-grid {
+  margin-left: 0;
+  margin-right: 0;
+  @media (min-width: 768px) {
+    width: 45%;
+  }
+  @media (max-width: 1199.98px) {
+    width: 110%;
+  }
+}
+
+.col.button-grid {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .col.icon-grid-header {
   margin-bottom: 16px;
   margin-left: auto;
@@ -75,4 +91,8 @@
   color: $black;
   font-size: 20px;
   text-align: center;
+}
+
+.show-type {
+  color: $primary;
 }
