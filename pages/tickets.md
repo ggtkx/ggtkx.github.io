@@ -18,7 +18,8 @@ description: 硅谷脱口秀每周五晚举行开放麦（open mic）。这里�
 ## 线下参观
 
 地址：
-* 南湾/主剧场：[6148 Bollinger Rd, San Jose, CA 95129](https://maps.app.goo.gl/A4yt42ntVHopxHqy5)[^1]
+* 南湾/主剧场：[6148 Bollinger Rd, San Jose, CA 95129](https://maps.app.goo.gl/A4yt42ntVHopxHqy5)
+* 东湾/梵 Bistro：[1616 Washington Blvd #C, Fremont, CA 94539](https://maps.app.goo.gl/Rh8c5kfrDRcQXHxe6)
 
 请**使用以下表单**购买门票。（如果选项为空，说明该周入场劵已发完。）入场则视为您已同意现场规则（见下）。
 
