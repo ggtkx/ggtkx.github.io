@@ -18,7 +18,7 @@ description: 硅谷脱口秀每周五晚举行开放麦（open mic）。这里�
 ## 线下参观
 
 地址：
-* 南湾/主剧场：[10268 Bandley Dr #107, Cupertino, CA 95014](https://goo.gl/maps/jX5B63r57Z4FgiDE7)[^1]
+* 南湾/主剧场：[6148 Bollinger Rd, San Jose, CA 95129](https://maps.app.goo.gl/A4yt42ntVHopxHqy5)[^1]
 
 请**使用以下表单**购买门票。（如果选项为空，说明该周入场劵已发完。）入场则视为您已同意现场规则（见下）。
 
