@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Download the team roster spreadsheet as CSV, then run this script.
+Download the club index spreadsheet as CSV, then run this script.
 
 Usage:
-  generate_team.py <input_path> <output_path>
+  generate_clubs.py <input_path> <output_path>
 """
 
 import pandas as pd
@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
     data = df.to_dict(orient="records")
 
-    data = [{k:v for k, v in x.items() if v is not np.nan } for x in data]
+    data = [{k: v for k, v in x.items() if v is not np.nan} for x in data]
 
     with open(arguments["<output_path>"], "w") as f:
         json.dump(data, f, indent=4, sort_keys=True, allow_nan=False)

@@ -24,7 +24,7 @@
             "E-Mail: <standup.paris.cn@gmail.com>"
         ],
         "date_founded": "2019\u5e7410\u6708",
-        "logo": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0j660xofej20u00u0dgw.jpg",
+        "logo": "https://i.imgur.com/FPcjoVy.jpeg",
         "name_chinese": "\u5df4\u9ece\u8131\u53e3\u79c0\u4ff1\u4e50\u90e8",
         "name_english": "Chinese Comedy Club de Paris",
         "physical_address": "40 Pass. des Panoramas, 75002 Paris",
@@ -42,7 +42,7 @@
             "\u5fae\u4fe1\uff1a`cancanOfficialCS`"
         ],
         "date_founded": "2020\u5e7410\u6708",
-        "logo": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0j65v862yj20dq0dpq38.jpg",
+        "logo": "https://i.imgur.com/9bbsLVh.jpeg",
         "name_chinese": "\u4f83\u4f83\u4ff1\u4e50\u90e8",
         "name_english": "Can Can Club",
         "physical_location": "\u65b0\u52a0\u5761",
@@ -60,7 +60,7 @@
             "\u5fae\u4fe1email\u540c\u5de6"
         ],
         "date_founded": "2021\u5e7410\u6708",
-        "logo": "https://drive.google.com/file/d/19FKPBhqU4VAfUzhflNPfaQL0GWOQSG1V/view?usp=sharing",
+        "logo": "https://i.imgur.com/ED34ZYk.png",
         "name_chinese": "\u82b1\u751f\u559c\u5267",
         "name_english": "Peanut Comedy",
         "physical_location": "\u52a0\u62ff\u5927\u00b7\u591a\u4f26\u591a",
@@ -100,7 +100,7 @@
             "E-Mail: <hurracomedy.uk@gmail.com>"
         ],
         "date_founded": "2021\u5e749\u6708",
-        "logo": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0j66w3sxpj20u00u0ac0.jpg",
+        "logo": "https://i.imgur.com/8lHrPqr.jpeg",
         "name_chinese": "\u54d7\u4eba\u559c\u5267",
         "name_english": "Hurrah Comedy",
         "physical_location": "\u82f1\u56fd\u00b7\u4f26\u6566",
@@ -115,7 +115,7 @@
             "E-Mail: <lafengxiju@gmail.com>"
         ],
         "date_founded": "2022\u5e742\u6708",
-        "logo": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0j6x228jbj20im0gsq3t.jpg",
+        "logo": "https://i.imgur.com/s7Ko5TC.jpeg",
         "name_chinese": "\u62c9\u75af\u559c\u5267",
         "name_english": "Crazy Laugh",
         "physical_location": "\u7f8e\u56fd\u00b7\u7ebd\u7ea6"
@@ -135,5 +135,26 @@
         ],
         "name_chinese": "\u58a8\u5c14\u672c\u8131\u53e3\u79c0",
         "physical_location": "\u6fb3\u5927\u5229\u4e9a\u00b7\u58a8\u5c14\u672c"
+    },
+    {
+        "contacts_audiences": [
+            "\u5fae\u4fe1: 'ich_bin_freddy'",
+            "Email: liyi.freddy@gmail.com"
+        ],
+        "contacts_business": [
+            "\u5fae\u4fe1: 'ich_bin_freddy'\r",
+            "Email: liyi.freddy@gmail.com"
+        ],
+        "contacts_comedians": [
+            "\u5fae\u4fe1email\u540c\u5de6",
+            "\u516c\u4f17\u53f7\u6b63\u5728\u5efa\u8bbe\u4e2d"
+        ],
+        "date_founded": "2022\u5e7410\u6708",
+        "logo": "https://i.imgur.com/Wde6IBj.jpeg",
+        "name_chinese": "\u65e0\u9650\u559c\u5267",
+        "name_english": "Infinitas Comedy",
+        "physical_address": "Zentmarkweg 32 Frankfurt 60489",
+        "physical_location": "\u5fb7\u56fd\u00b7\u6cd5\u5170\u514b\u798f",
+        "specialities": "\u4e2d\u6587\u8131\u53e3\u79c0"
     }
 ]
