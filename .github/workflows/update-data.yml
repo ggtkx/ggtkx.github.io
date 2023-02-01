@@ -14,6 +14,6 @@ jobs:
       - name: Execute script
         run: |
           pip install pandas numpy docopt
-          python _data/generate_clubs.py ${{ secrets.CLUBS_SPREADSHEET_CSV_URL }} _data/clubs.json
+          python _data/generate_clubs.py "${{ secrets.CLUBS_SPREADSHEET_CSV_URL }}" _data/clubs.json
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4.2.3
