@@ -19,19 +19,3 @@ jobs:
           python _data/generate_clubs.py "${{ secrets.CLUBS_SPREADSHEET_CSV_URL }}" _data/clubs.json
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4.2.3
-  update-volunteers-list:
-    name: Update Volunteers List (/team/)
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3.3.0
-      - name: Setup Python
-        uses: actions/setup-python@v4.5.0
-        with:
-          python-version: 3.11
-      - name: Execute script
-        run: |
-          pip install pandas numpy docopt
-          python _data/generate_team.py "${{ secrets.TEAM_SPREADSHEET_CSV_URL }}" _data/team.json
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4.2.3
