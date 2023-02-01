@@ -3,150 +3,138 @@
         {
             "LinkedIn": "in/yudydeng",
             "description": "\u659c\u6760\u8fa3\u5988\uff0c\u8001\u5973\u53f8\u673a\uff0c\u627e\u94b1\u62c9\u4eba",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkyivb1oj20uw0u0whi.jpg",
+            "image": "https://i.imgur.com/pcyKJm7.jpg",
             "nickname": "Yudy",
-            "title": "Business Development Manager"
-        },
-        {
-            "LinkedIn": NaN,
-            "description": "",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0ql2vspt7j20u00u0tbk.jpg",
-            "nickname": "Serena",
-            "title": "Business Development Manager"
-        },
-        {
-            "LinkedIn": NaN,
-            "description": "\u7ed9\u7406\u6027\u7684\u6e7e\u533a\u751f\u6d3b\u6dfb\u70b9\u4e50\u5b50",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qmybjab0j20nw0nw42p.jpg",
-            "nickname": "Anita",
-            "title": "Business Development Manager"
+            "\u804c\u4f4d": "Senior Business Development Manager"
         }
     ],
     "\u5a92\u4f53\u7ec4": [
         {
             "LinkedIn": NaN,
             "description": "\u5e0c\u671b\u8ba9\u7845\u8c37\u8131\u53e3\u79c0\u540d\u58f0\u5927\u566a",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkxggnbtj20se0sgjuz.jpg",
+            "image": "https://i.imgur.com/dbKsO81.jpeg",
             "nickname": "\u848b\u4e66\u9e64",
-            "title": "Digital Marketing Manager"
-        },
-        {
-            "LinkedIn": NaN,
-            "description": "\u5199\u5b57\u7684\u4eba\u3002",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qmmnm55bj20ve0u0juj.jpg",
-            "nickname": "\u5218\u79cb\u7b1b",
-            "title": "Editor"
-        },
-        {
-            "LinkedIn": NaN,
-            "description": "",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0crphq7ybj20bc0bcq3j.jpg",
-            "nickname": "\u66f9\u4fea\u6850",
-            "title": "Digital Marketing Intern"
+            "\u804c\u4f4d": "Senior Digital Marketing Manager"
         },
         {
             "LinkedIn": NaN,
             "description": "\u4e3b\u8981\u8d1f\u8d23 YouTube channel\uff0c\u5076\u5c14 update Facebook \u548c LinkedIn\u3002",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkx0x8s3j20lm0k2dit.jpg",
+            "image": "https://i.imgur.com/gLfo1s8.jpeg",
             "nickname": "\u8042\u73ae",
-            "title": "Digital Marketing Intern"
+            "\u804c\u4f4d": "Digital Marketing Specialist"
+        },
+        {
+            "LinkedIn": NaN,
+            "description": "\u5199\u5b57\u7684\u4eba\u3002",
+            "image": "https://i.imgur.com/RR4J7R3.jpeg",
+            "nickname": "\u5218\u79cb\u7b1b",
+            "\u804c\u4f4d": "Editor, Assistant Producer"
         },
         {
             "LinkedIn": NaN,
             "description": "",
             "image": "https://via.placeholder.com/300?text=(%20^_^%20)",
-            "nickname": "\u5f20\u6587\u535a",
-            "title": "Digital Marketing Intern"
-        }
-    ],
-    "\u6f14\u5458\u534f\u8c03\u7ec4": [
-        {
-            "LinkedIn": NaN,
-            "description": "",
-            "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxd8e6hgmej30b20b23z0.jpg",
-            "nickname": "\u90b5\u5929\u5b87",
-            "title": "Chief Instructor"
+            "nickname": "Vivi",
+            "\u804c\u4f4d": "Digital Marketing Coordinator"
         },
         {
             "LinkedIn": NaN,
             "description": "",
-            "image": "https://tva1.sinaimg.cn/large/008i3skNgy1gxe2qj2jwjj30u00u00tz.jpg",
-            "nickname": "\u5b59\u5218",
-            "title": "Comedian Coordinator"
+            "image": "https://via.placeholder.com/300?text=(%20^_^%20)",
+            "nickname": "Joyce",
+            "\u804c\u4f4d": "Digital Marketing Coordinator"
         }
     ],
-    "\u73b0\u573a\u7ec4": [
+    "\u6280\u672f\u7ec4": [
         {
             "LinkedIn": NaN,
             "description": "\u52aa\u529b\u628a\u7845\u8c37\u8131\u53e3\u79c0\u6253\u9020\u6210\u8bb2\u6bb5\u5b50\u7684\u7406\u60f3\u6e2f\u6e7e\uff01",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0ql7ddyphj20u00u0tbx.jpg",
+            "image": "https://i.imgur.com/vJUWMfK.jpg",
             "nickname": "\u9ec4\u5927\u56fd",
-            "title": "Director"
+            "\u804c\u4f4d": "Director of Engineering"
         },
         {
             "LinkedIn": NaN,
-            "description": "\u73b0\u573a\uff0c\u540e\u53f0\uff0c\u6742\u52a1\u7b49\u7ba1\u7406\u4eba",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0ynqc7xgwj20kg0kggnl.jpg",
-            "nickname": "\u738b\u5e06",
-            "title": "Assistant Director"
-        },
-        {
-            "LinkedIn": NaN,
-            "description": "\u6709\u5fd9\u5c31\u5e2e",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h1o5vg2x6bj20d70d7q3t.jpg",
-            "nickname": "\u9648\u601d",
-            "title": "Assistant Director"
+            "description": "\u4e3b\u8981\u4e1a\u52a1\uff1a\u5f00\u53d1\u7f51\u7ad9\u3001\u7528\u673a\u5668\u5b66\u4e60\u6280\u672f\u63d0\u53d6\u7b11\u70b9\u3001\u64b0\u5199\u5404\u79cd\u6587\u6863\u3002\u8868\u6f14\u98ce\u683c\uff1a\u6f2b\u624d\u3001\u8c10\u97f3\u6897\u3001\u8111\u6d1e\u5927\u5f00\u3002",
+            "image": "https://i.imgur.com/lFOVU0s.jpg",
+            "nickname": "\u9ece\u660e\u6d0b",
+            "\u804c\u4f4d": "Staff Software Engineer"
         },
         {
             "LinkedIn": NaN,
             "description": "",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0etsihelaj20uz0u0tbt.jpg",
-            "nickname": "Yuki Wu",
-            "title": "Assistant Director"
+            "image": "https://via.placeholder.com/300?text=(%20^_^%20)",
+            "nickname": "Nelson",
+            "\u804c\u4f4d": "Production Engineer"
         },
         {
             "LinkedIn": NaN,
             "description": "",
             "image": "https://via.placeholder.com/300?text=(%20^_^%20)",
             "nickname": "\u6b66\u72b6\u5143",
-            "title": "Assistant Director"
+            "\u804c\u4f4d": "Production Engineer"
+        }
+    ],
+    "\u6f14\u5458\u534f\u8c03\u7ec4": [
+        {
+            "LinkedIn": NaN,
+            "description": "",
+            "image": "https://i.imgur.com/dCP3my3.jpg",
+            "nickname": "\u90b5\u5929\u5b87",
+            "\u804c\u4f4d": "Chief Instructor"
+        },
+        {
+            "LinkedIn": NaN,
+            "description": "",
+            "image": "https://i.imgur.com/LRP3t4D.jpg",
+            "nickname": "\u5b59\u5218",
+            "\u804c\u4f4d": "Comedian Coordinator"
+        },
+        {
+            "LinkedIn": NaN,
+            "description": "",
+            "image": "https://i.imgur.com/WlMNvyL.jpg",
+            "nickname": "\u5c3e\u7fbd",
+            "\u804c\u4f4d": "Comedian Coordinator, Assistant Producer"
+        }
+    ],
+    "\u73b0\u573a\u7ec4": [
+        {
+            "LinkedIn": NaN,
+            "description": "\u6765\uff0c\u4ea4\u4e2a\u670b\u53cb\uff5e",
+            "image": "https://i.imgur.com/7kl1Wl7.jpeg",
+            "nickname": "\u738b\u5b81",
+            "\u804c\u4f4d": "Community Manager, Assistant Producer"
+        },
+        {
+            "LinkedIn": NaN,
+            "description": "\u73b0\u573a\uff0c\u540e\u53f0\uff0c\u6742\u52a1\u7b49\u7ba1\u7406\u4eba",
+            "image": "https://i.imgur.com/eQEjjyT.jpeg",
+            "nickname": "\u738b\u5e06",
+            "\u804c\u4f4d": "Associate Director of South Bay"
+        },
+        {
+            "LinkedIn": NaN,
+            "description": "\u6709\u5fd9\u5c31\u5e2e",
+            "image": "https://i.imgur.com/KrGcqfC.jpeg",
+            "nickname": "\u9648\u601d",
+            "\u804c\u4f4d": "Assistant Director"
         }
     ],
     "\u8fd0\u8425\u7ec4": [
         {
             "LinkedIn": NaN,
             "description": "\u4e34\u6e0a\u7fa1\u9c7c\uff0c\u4e0d\u5982\u9000\u800c\u7ed3\u7f51\u3002",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkwqavk4j20qk0pqjun.jpg",
+            "image": "https://i.imgur.com/fYgpRI6.jpg",
             "nickname": "\u65e9\u604b",
-            "title": "Producer"
+            "\u804c\u4f4d": "Producer"
         },
         {
             "LinkedIn": NaN,
             "description": "\u6218\u7565/\u5ba3\u53d1/\u5185\u5bb9 etc - \u65e2\u8981\u4ef0\u671b\u661f\u7a7a\uff0c\u4e5f\u8981\u811a\u8e0f\u5b9e\u5730\uff0c\u628a\u7845\u8c37\u8131\u53e3\u79c0\u505a\u5927\u505a\u5f3a\uff01",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkwjq4n7j20b10b1dgd.jpg",
+            "image": "https://i.imgur.com/O1wpp35.jpg",
             "nickname": "\u6797\u665a",
-            "title": "Assistant Producer"
-        },
-        {
-            "LinkedIn": NaN,
-            "description": "\u6765\uff0c\u4ea4\u4e2a\u670b\u53cb\uff5e",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0crolpy0nj20mu0muwgl.jpg",
-            "nickname": "\u738b\u5b81",
-            "title": "Assistant Producer"
-        },
-        {
-            "LinkedIn": NaN,
-            "description": "\u6218\u7565\u6027\u6253\u6742",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkw2cr6vj20mp0mrq4h.jpg",
-            "nickname": "Lisa",
-            "title": "Strategist"
-        },
-        {
-            "LinkedIn": NaN,
-            "description": "\u4e3b\u8981\u4e1a\u52a1\uff1a\u5f00\u53d1\u7f51\u7ad9\u3001\u7528\u673a\u5668\u5b66\u4e60\u6280\u672f\u63d0\u53d6\u7b11\u70b9\u3001\u64b0\u5199\u5404\u79cd\u6587\u6863\u3002\u8868\u6f14\u98ce\u683c\uff1a\u6f2b\u624d\u3001\u8c10\u97f3\u6897\u3001\u8111\u6d1e\u5927\u5f00\u3002",
-            "image": "https://tva1.sinaimg.cn/large/e6c9d24egy1h0qkwbobcrj20ad0a8gm2.jpg",
-            "nickname": "\u9ece\u660e\u6d0b",
-            "title": "Staff Engineer"
+            "\u804c\u4f4d": "Assistant Producer"
         }
     ]
 }
