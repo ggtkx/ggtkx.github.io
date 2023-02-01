@@ -16,4 +16,4 @@ description: 赞助、合作等相关事宜。
 
 如果您希望与「硅谷脱口秀」建立合作，请您扫描下方二维码，添加我们的外联志愿者：
 
-![外联志愿者的微信二维码](https://tva1.sinaimg.cn/large/e6c9d24egy1h4yxht35tzj207e07gq3e.jpg)
+![外联志愿者的微信二维码](https://i.imgur.com/b7mcKbM.jpeg)

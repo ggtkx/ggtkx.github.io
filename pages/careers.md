@@ -13,7 +13,7 @@ intro_image_hide_on_mobile: false
 
 Stage Manager
 
-![](https://tva1.sinaimg.cn/large/008i3skNgy1gycls2amecj31970u0jv1.jpg)
+![](https://i.imgur.com/Kh4pq58.jpeg)
 
 **每周投入时间**：约3小时
 
@@ -27,7 +27,7 @@ Stage Manager
 
 Video Technician
 
-![](https://tva1.sinaimg.cn/large/008i3skNgy1gyclsgl3kyj31wm0tcjup.jpg)
+![](https://i.imgur.com/yhViZAt.jpeg)
 
 **每周投入时间**：约4小时
 
@@ -41,7 +41,7 @@ Video Technician
 
 Digital Marketing Editor
 
-![](https://tva1.sinaimg.cn/large/008i3skNgy1gyclysbc8pj31s00ridlo.jpg)
+![](https://i.imgur.com/ixvzxH1.jpeg)
 
 **每周投入时间**：约3小时
 
@@ -56,7 +56,7 @@ Digital Marketing Editor
 
 Digital Marketing Operations
 
-![](https://tva1.sinaimg.cn/large/008i3skNgy1gyclu7lwsjj31r90u0nco.jpg)
+![](https://i.imgur.com/2t50LTt.jpeg)
 
 **每周投入时间**：约3小时
 
@@ -69,7 +69,7 @@ Digital Marketing Operations
 
 Business Development / Fundraising Manager
 
-![](https://tva1.sinaimg.cn/large/008i3skNgy1gycm22dsrgj31s40pejzs.jpg)
+![](https://i.imgur.com/X5Tgjcm.jpeg)
 
 **每周投入时间**：约3小时
 
@@ -83,7 +83,7 @@ Business Development / Fundraising Manager
 
 Full Stack Engineer
 
-![](https://tva1.sinaimg.cn/large/008i3skNgy1gycm4qtav2j31ru0ngn0x.jpg)
+![](https://i.imgur.com/aHOqwAu.jpeg)
 
 **每周投入时间**：不定
 
