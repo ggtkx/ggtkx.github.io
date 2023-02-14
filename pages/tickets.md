@@ -33,7 +33,10 @@ description: 硅谷脱口秀每周五晚举行开放麦（open mic）。这里�
 3. **防疫要求**：**若入场前五天内您有新冠症状**，据 [CDC 规定](https://www.cdc.gov/media/releases/2021/s1227-isolation-quarantine-guidance.html)，还请您**回府隔离**。
 4. **礼仪**：请勿录影、使用闪光灯。
 5. **卫生要求**：禁止带入食品、饮品。这是因为目前开放麦场地与舞蹈教室共享。
-6. 硅谷脱口秀保留拒绝为任何人服务的权利。
+6. **年龄限制**：18岁以下观众禁止入内
+7. 硅谷脱口秀保留拒绝为任何人服务的权利。
+
+
 
 
 [^1]: 现场地图： ![现场地图](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F178277809%2F162192358328%2F1%2Foriginal.20211102-062751?h=2000&w=720&auto=format%2Ccompress&q=75&sharp=10&s=0fb060d947437676634a9788247c8106)
