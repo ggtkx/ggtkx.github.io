@@ -15,14 +15,16 @@ permalink: /
 
 过去三年来，我们举办了 ~300 场表演，>150 位演员陆续参演，视频也有近10万次播放。
 
-**专场**：
+## 专场
 
 2 月 25 日 4 PM，来自洛杉矶的脱口秀演员 Olivia Xing ([IMDb](https://www.imdb.com/name/nm13658414/), [Instagram](https://www.instagram.com/oliviacrossing_/)），携她的小伙伴们 [Asmaou Kourouma](https://www.imdb.com/name/nm11463840/)、[Amber Steigelfest](https://www.ambersteigelfest.com/)，将为大家带来一场英文脱口秀演出——《Party School》！
 
-* 地点：Tateuchi Hall, [230 San Antonio Cir, Mountain View](https://goo.gl/maps/mCVmbNS5Bzedvxmv5)
-* 购票：[$18.88 起](https://www.eventbrite.com/e/party-school-a-stand-up-comedy-special-tickets-530351755377)
+地点：Tateuchi Hall, [230 San Antonio Cir, Mountain View](https://goo.gl/maps/mCVmbNS5Bzedvxmv5)
 
-**开放麦**：
+购票：[$18.88 起](https://www.eventbrite.com/e/party-school-a-stand-up-comedy-special-tickets-530351755377)
+
+## 开放麦
+
 {% include call.html show_button=true labels=site.data.l10n.cn %}
 
 无法莅临现场？欢迎订阅、分享我们的 [YouTube 频道](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A/featured)和[哔哩哔哩](https://space.bilibili.com/482647119)！
