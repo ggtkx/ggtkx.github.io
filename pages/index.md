@@ -21,7 +21,7 @@ permalink: /
 
 地点：Tateuchi Hall, [230 San Antonio Cir, Mountain View](https://goo.gl/maps/mCVmbNS5Bzedvxmv5)
 
-购票：[$18.88 起](https://www.eventbrite.com/e/party-school-a-stand-up-comedy-special-tickets-530351755377)
+购票：[$18.88 起](https://www.eventbrite.com/e/party-school-a-stand-up-comedy-special-tickets-530351755377?aff=index)
 
 ## 开放麦
 
