@@ -17,6 +17,8 @@ permalink: /
 
 ## 2023 精品秀：「预期违背」
 
+![](https://i.imgur.com/L3Xm96a.png)
+
 3 月 11 日 20:30 - 22:30，本社团今年首场精品秀「预期违背」，与你一起笑个够！
 
 地点：Cubberley Theatre, [4120 Middlefield Road Palo Alto, CA 94306](https://goo.gl/maps/3TCKyUzBt2S6y3SRA)
