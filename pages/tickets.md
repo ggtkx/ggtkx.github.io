@@ -7,6 +7,16 @@ intro_image_hide_on_mobile: true
 description: 硅谷脱口秀每周五晚举行开放麦（open mic）。这里既是脱口秀新人首秀的舞台，也是脱口秀老司机试炼新段子、打磨老段子的地方。
 ---
 
+# 2023 精品秀：「预期违背」
+
+![](https://i.imgur.com/L3Xm96a.png)
+
+3 月 11 日 20:30 - 22:30，本社团今年首场精品秀「预期违背」，与你一起笑个够！
+
+地点：Cubberley Theatre, [4120 Middlefield Road Palo Alto, CA 94306](https://goo.gl/maps/3TCKyUzBt2S6y3SRA)
+
+购票：[$19.99](https://www.eventbrite.com/e/2023-expectancy-violation-ggtkx-line-up-showcase-tickets-558483026767?aff=website)
+
 # 开放麦
 
 ## 形式介绍
