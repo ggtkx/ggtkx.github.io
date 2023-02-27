@@ -13,15 +13,15 @@ permalink: /
 
 我们是硅谷地区的一群**汉语喜剧**爱好者，以脱口秀为主。我们欢迎各路朋友来观赏、参演！
 
-过去三年来，我们举办了 ~300 场表演，>150 位演员陆续参演，视频也有近10万次播放。
+2019 年以来，我们举办了 ~300 场表演，>150 位演员陆续参演，视频也有近十万次播放。
 
-## 专场
+## 2023 精品秀：「预期违背」
 
-2 月 25 日 4 PM，来自洛杉矶的脱口秀演员 Olivia Xing ([IMDb](https://www.imdb.com/name/nm13658414/), [Instagram](https://www.instagram.com/oliviacrossing_/)），携她的小伙伴们 [Asmaou Kourouma](https://www.imdb.com/name/nm11463840/)、[Amber Steigelfest](https://www.ambersteigelfest.com/)，将为大家带来一场英文脱口秀演出——《Party School》！
+3 月 11 日 20:30 - 22:30，本社团今年首场精品秀「预期违背」，与你一起笑个够！
 
-地点：Tateuchi Hall, [230 San Antonio Cir, Mountain View](https://goo.gl/maps/mCVmbNS5Bzedvxmv5)
+地点：Cubberley Theatre, [4120 Middlefield Road Palo Alto, CA 94306](https://goo.gl/maps/3TCKyUzBt2S6y3SRA)
 
-购票：[$18.88 起](https://www.eventbrite.com/e/party-school-a-stand-up-comedy-special-tickets-530351755377?aff=index)
+购票：[$19.99](https://www.eventbrite.com/e/2023-expectancy-violation-ggtkx-line-up-showcase-tickets-558483026767?aff=website)
 
 ## 开放麦
 
