@@ -15,13 +15,13 @@ permalink: /
 
 2019 年以来，我们举办了 ~300 场表演，>150 位演员陆续参演，视频也有近十万次播放。
 
-## 2023 精品秀：「预期违背」
+## 「美国东北人在中国」
 
-3 月 11 日 20:30 - 22:30，本社团今年首场精品秀「预期违背」，与你一起笑个够！
+著名笑星艾杰西在北美开中文脱口秀巡演啦！4 月 16 日 7:30 - 9:30 PM，与你相约硅谷站！
 
 地点：Cubberley Theatre, [4120 Middlefield Road Palo Alto, CA 94306](https://goo.gl/maps/3TCKyUzBt2S6y3SRA)
 
-购票：[$19.99](https://www.eventbrite.com/e/2023-expectancy-violation-ggtkx-line-up-showcase-tickets-558483026767?aff=website)
+购票：[$39 - $45](https://www.eventbrite.com/e/2023-palo-alto-tickets-579918039467?aff=website)
 
 ## 开放麦
 
