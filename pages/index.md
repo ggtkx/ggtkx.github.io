@@ -17,11 +17,17 @@ permalink: /
 
 ## 「美国东北人在中国」
 
-著名笑星艾杰西在北美开中文脱口秀巡演啦！4 月 16 日 7:30 - 9:30 PM，与你相约硅谷站！
+著名笑星艾杰西在北美开中文脱口秀巡演啦！
 
-地点：BATS Improv Theatre, [Landmark Building B, Fort Mason Center for Arts & Culture, San Francisco, CA 94123](https://goo.gl/maps/r5hAxsx6GrGGCTRJA)
+旧金山站：
+- 时间：4 月 15 日 3-5 PM
+- 地点：BATS Improv Theatre, [Landmark Building B, Fort Mason Center for Arts & Culture, San Francisco, CA 94123](https://goo.gl/maps/r5hAxsx6GrGGCTRJA)
+- 购票：[$39 - $45](https://www.eventbrite.com/e/2023-tickets-590850127637?aff=website)
 
-购票：[$39 - $45](https://www.eventbrite.com/e/2023-tickets-590850127637?aff=website)
+硅谷站：
+- 时间：4 月 16 日 7:30 - 9:30 PM
+- 地点：Cubberley Theatre, [4120 Middlefield Road Palo Alto, CA 94306](https://goo.gl/maps/3TCKyUzBt2S6y3SRA)
+- 购票：[$39 - $45](https://www.eventbrite.com/e/2023-palo-alto-tickets-579918039467?aff=website)
 
 ## 开放麦
 
