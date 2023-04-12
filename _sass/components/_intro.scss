@@ -20,12 +20,13 @@
     color: $white;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 0.01em;
+    letter-spacing: .01em;
     line-height: 26px;
   }
 
   #content {
     background: $primary;
+    opacity: .9
   }
 }
 
