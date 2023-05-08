@@ -151,23 +151,6 @@
         "isCurrentMember": true
     },
     {
-        "title": "黎明洋",
-        "weightBeforeShowsSheet": 24,
-        "countFromShowsSheet": 7,
-        "weight": 31,
-        "image": "https://i.imgur.com/8kHVjfD.png",
-        "description": "对表演及语言艺术充满兴趣。擅长吐槽、接茬和谐音梗。",
-        "crewSeasonIds": 1,
-        "contact": [
-            "[个人主页](https://myli.page)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nI_Q__rFRKJ6BqWHEgPKy7)"
-        ],
-        "firstPerformance": "Date(2022,3,22)",
-        "lastPerformance": "Date(2022,10,4)",
-        "numOfShowsMissedAfterLastPerformance": 4,
-        "isCurrentMember": true
-    },
-    {
         "title": "龚老板",
         "weightBeforeShowsSheet": 29,
         "countFromShowsSheet": 0,
