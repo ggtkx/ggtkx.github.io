@@ -15,9 +15,11 @@ permalink: /
 
 2019 年以来，我们举办了 ~300 场表演，>150 位演员陆续参演，视频也有近十万次播放。
 
-![Yushi Image](https://i.imgur.com/lRfDy2l.png)
-
-于是主打秀[购票链接](https://www.eventbrite.com/e/631349532447?aff=website)
+## 「于是主打秀」
+![Yushi Image](https://imgur.com/a/vYg82f5)
+- 时间：5 月 27 日 8:00 - 9:30 PM
+- 地点：Gary Soren Smith Center, [43600 Mission Boulevard Fremont, CA 94539](https://goo.gl/maps/4ScheB5UPgJ1JdxBA)
+- 购票：[$25](https://www.eventbrite.com/e/631349532447?aff=website)
 
 ## 开放麦
 
