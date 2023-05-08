@@ -15,6 +15,10 @@ permalink: /
 
 2019 年以来，我们举办了 ~300 场表演，>150 位演员陆续参演，视频也有近十万次播放。
 
+![Yushi Image](https://i.imgur.com/lRfDy2l.png)
+
+于是主打秀[购票链接](https://www.eventbrite.com/e/631349532447?aff=website)
+
 ## 开放麦
 
 {% include call.html show_button=true labels=site.data.l10n.cn %}
