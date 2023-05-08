@@ -21,7 +21,8 @@ permalink: /
 - 地点：Gary Soren Smith Center, [43600 Mission Boulevard Fremont, CA 94539](https://goo.gl/maps/4ScheB5UPgJ1JdxBA)
 - 购票：[$25](https://www.eventbrite.com/e/631349532447?aff=website)
 
-## 开放麦
+
+## 「开放麦」
 
 {% include call.html show_button=true labels=site.data.l10n.cn %}
 
