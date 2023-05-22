@@ -1,6 +1,7 @@
 ---
-image: https://picsum.photos/seed/nwl/360
+image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670296958/zgzg-io-website/%E6%88%90%E4%B8%BA%E5%BF%97%E6%84%BF%E8%80%85/cytonn-photography-n95VMLxqM2I-unsplash_ruhhoo.jpg
 ---
+
 ### 功能组 - 内外联组
 
 内外联组主要负责分流萌新志愿者，记录大家的参与度，组织团建活动以及制定各种志愿者奖励机制。
