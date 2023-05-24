@@ -12,7 +12,7 @@ description: 硅谷脱口秀每周五晚举行开放麦（open mic）。这里�
 - 时间：5 月 27 日 8:00 - 9:30 PM
 - 地点：Gary Soren Smith Center, [43600 Mission Boulevard Fremont, CA 94539](https://goo.gl/maps/4ScheB5UPgJ1JdxBA)
 - 购票链接：[请戳这里](https://www.eventbrite.com/e/631349532447?aff=website)
----
+--
 
 
 # 开放麦
