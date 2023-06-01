@@ -7,14 +7,6 @@ intro_image_hide_on_mobile: true
 description: 硅谷脱口秀每周五晚举行开放麦（open mic）。这里既是脱口秀新人首秀的舞台，也是脱口秀老司机试炼新段子、打磨老段子的地方。
 ---
 
-## 「于是主打秀」
-![Yushi Image](https://i.imgur.com/wrC1qPr.png)
-- 时间：5 月 27 日 8:00 - 9:30 PM
-- 地点：Gary Soren Smith Center, [43600 Mission Boulevard Fremont, CA 94539](https://goo.gl/maps/4ScheB5UPgJ1JdxBA)
-- 购票链接：[请戳这里](https://www.eventbrite.com/e/631349532447?aff=website)
---
-
-
 # 开放麦
 
 ## 形式介绍
