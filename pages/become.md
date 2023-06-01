@@ -10,12 +10,10 @@ description: 如何在《硅谷脱口秀》的开放麦上表演？如何通过�
 
 # 如何在《硅谷脱口秀》的开放麦上表演？
 
-1. 加我们总教习的微信 `sty19900316`[^1]。
-2. **确实准备好**报名当周的开放麦后，联系总教习拉您加入“演员报名群”。
-3. 每周末，群里会开启一个**接龙**，用来报名来周的开放麦。您需要：
-   1. 参与接龙，使用您想公之于众的艺名。
-   2. 给小助手提供一张**照片**，以供我们制作海报。
-   3. 参加周三晚上的**读稿会**（见首页底部日历），有助于您了解演出流程、打磨稿子。
+1. 填写报名表：http://baoming.ggtkx.org
+2. **确实准备好**报名当周的开放麦后，负责人拉您加入“演员报名群”。
+3. 确认演出场次后，将您的艺名+照片发送至shuhe@pandyfoundation.org,以供我们制作海报。
+4. 参加周三晚上的**读稿会**（见首页底部日历），有助于您了解演出流程、打磨稿子。
 4. 演出前，提前10～30分钟入场，向现场志愿者报到。
 
 # 如何成为脱口秀演员？
@@ -68,8 +66,6 @@ description: 如何在《硅谷脱口秀》的开放麦上表演？如何通过�
 - 书籍《[The Comedy Bible](https://www.goodreads.com/book/show/228732)》。可在 [Amazon](https://www.amazon.com/Comedy-Bible-Stand-up-Sitcom-Ultimate/dp/0743201256) 上找到。
 - 课程《[单立人学院](http://www.danlirencomedy.com/dlrxy)》。
 
-[^1]: 二维码：
-    <img alt="微信二维码" src="https://i.imgur.com/6nl1P9J.jpeg" height=200 />
 
 [^2]: 一些[写作提示（writing prompts）](https://blog.reedsy.com/short-story-ideas/comedy/)：
     - “猜猜我是谁？”你从后面捂住了 ta 的眼睛，以为 ta 是你的朋友。结果，ta 其实是个陌生人！这时，ta 转过身来，说……
