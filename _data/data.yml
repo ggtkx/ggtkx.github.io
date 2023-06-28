@@ -3,12 +3,12 @@ main:
     url: "/"
   - name: "近期活动"
     items:
+    - name: "2023 歌手赛"
+      url: "/singer/"
     - name: "2023 春晚"
       url: "/gala/"
     - name: "2023 春节游园"
       url: "/galatour/"
-    - name: "2023 歌手赛"
-      url: "/singer/"
     - name: "2022 中秋游园"
       url: "/tour/"
   - name: "云集栏目"
@@ -22,7 +22,7 @@ main:
   - name: "English"
     url: "/english/"
   - name: "活动购票"
-    url: "https://zgzg.link/2023-ticket-website/"
+    url: "https://www.eventbrite.com/e/2023-tickets-661472922317?aff=ebdssbdestsearch"
     call-to-action: true
 
 special_events:
@@ -75,7 +75,7 @@ programmes_chunwan:
     button-text: 详情
   - name: 歌手赛
     image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670565567/zgzg-io-website/2022%20singers/DSC02710-2_bwjybv.jpg
-    description: 2022 "载歌在谷" 歌手赛，我们在成功的经验上进一步扩大规模，全新规划，为您打造一年一度的，高水准的华人歌手赛。
+    description: “载歌在谷”歌手赛，我们在成功的经验上进一步扩大规模，全新规划，为您打造一年一度的，高水准的华人歌手赛。
     button-url: /singer/
     button-text: 详情
   - name: 游园会
