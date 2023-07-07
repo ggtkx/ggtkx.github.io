@@ -16,25 +16,15 @@ sponsor-home:
       level-heading: 主要赞助商
       elements-div-style-class: col-12 col-md-6 col-lg-4 mb-5
       sponsor-elements:
-        - name: Ivy Zhang & Anna Duan Realty Team
-          image: /images/ivy_anna.svg
-          description: Ivy Zhang & Anna Duan 团队是 Coldwell Banker 全职资深 Top 地产经纪团队，是 Top Agent Network 的成员，交易过上百套房屋买卖，得到客户们 Zillow 和 Google 全五星好评。团队资源丰富，能在房屋买卖、贷款、投资、装修、出租、设计等方面提供给客户们全方位的服务和咨询。永远将客户的利益放在首位，根据客户的具体情况、需求和预算，帮助客人制定专属地产投资规划。
-          website:
-        - name: EDS Dance Studio
-          image: https://imgur.com/Utz6SUg.png
-          description: Enjoy Dance Studio 成立于 2016 年，是湾区最大的华人街舞工作室。我们的地点遍布南湾、半岛、东湾等地区。EDS 为学生们提供高水平的 k-pop、hip-hop、爵士、现代舞、机械舞、house、locking、高跟鞋爵士等各类课程。特别于今年，我们开始扩展 hip-hop 宝宝班课程的投入和设计，受到家长们的广泛好评。
-        - name: Lusso
-          image: /images/lusso.svg
-          description: Lusso 成立于 2017 年，由一批有情怀、具有创新精神的建筑、设计行业专业人士创建。Lusso 坐落于矽谷的中心，拥有 12,000 平方尺的展厅。 Lusso 品牌专注于高端全定制橱柜设计、高端欧橡地板和现代欧式瓷砖。
-        - name: Yami 亚米
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671079564/zgzg-io-website/%E8%B5%9E%E5%8A%A9/d665113a07ce78d72928b0b67a254482_0x0_cekjdb.png
-          description: Yami亚米是北美最大亚洲商品购物平台，网站于 2013 年 3 月上线，主营最具特色的亚洲商品，涵盖食品、美妆、养生、电器、图书等类别。经过近几年的飞速发展，亚米在北美华人圈建立了良好的品牌形象，成为北美华人线上购物的首选。
-        - name: 新东方 | 比邻中文
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671156291/zgzg-io-website/%E8%B5%9E%E5%8A%A9/xdf%E6%AF%94%E9%82%BB_zamwyt.png
-          description: 新东方教育科技集团，成立于1993年11月16日。是一家集教育培训、教育产品研发、教育服务于一体的大型综合性教育科技集团。公司于2006年在美国纽约证券所上市。比邻中文是新东方教育科技集团旗下专业中文品牌，专注于为3-15岁华裔青少儿提升中文语言素养。基于新东方近30年教研沉淀研发，拥有科学的课程等级划分和完善的课程体系建设，通过口语表达、阅读理解和写作等能力的培养，全面提高孩子的中文能力。
-        - name: Moomoo 富途牛牛海外版
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1671323321/zgzg-io-website/%E8%B5%9E%E5%8A%A9/moomoo%E7%AB%96%E7%89%88%E4%B8%8A%E5%B8%82%E7%BB%84%E5%90%88%E6%A0%87%E5%BF%97_%E7%94%BB%E6%9D%BF_1_s3ffsi.png
-          description: Moomoo 是富途牛牛为美国市场专门开发的一站式专业投资平台。不但提供0佣金交易全部美股/ETF/期权、配备低融资利率、创新投资分析技术、一个账户投资全球，还为美国华人开设7*24专业中文服务，提供更友好的中文交易体验。
+        - name: AlphaX RE Capital
+          description: AlphaX RE Capital 是一家在硅谷深耕数年，专注于独栋房产投资的地产开发公司。我们的策略是，紧跟市场的动态和周期，灵活运用各种使房产主动增值的手段，最大化投资项目的回报率。在AlphaX以往做的300多个项目中，我们的平均年化回报率为30%。在变化莫测的市场环境下，我们仍坚持初心，专注于寸土寸金的硅谷独栋房产，并在当地网罗合作资源，打造硅谷房产生态链。AlphaX致力于提供全方位服务、将投资人的资产价值最大化。
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/alphax_ntwlrd.png
+        - name: 大华
+          description: 湾区华人买菜首选99 Ranch Market App大华线上超市年中大促销！满$68减$15 折扣码：ZGZG15（截至8/5/2023）不出门生鲜、零食、活海鲜当天送上门！价格亲民，品类丰富，当天极速送达，最佳售后无理由退款。下载99 Ranch Market App轻松选购。价格与门店价格一样，满$49免运，可选去大华门店无门槛自提。
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1688712997/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/dahua_bmsd4n.jpg
+        - name: Music Tunnel
+          description: 音乐隧道，Music Tunnel，南湾最广为人知，最专业的娱乐休闲KTV！国内专业团队倾力打造，中英日韩多语种曲库实时更新，老歌新歌一应俱全。顶级音响设备，国内同步的时尚主题式设计装潢，带给您沉浸式的欢唱体验！炎热的夏日，我们就要拿着话筒，吹着空调，奶茶配上盐酥鸡，自在逍遥！
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/music_catrem.png
 
 sponsors-yj-2022:
   sponsor-heading: 2022 云集赞助商
@@ -57,15 +47,21 @@ sponsors-singer:
       # HTML div styles (see top of the file for explanations).
       elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
-      - name: Music Tunnel
-        description: 音乐隧道，Music Tunnel，南湾最广为人知，最专业的娱乐休闲KTV！国内专业团队倾力打造，中英日韩多语种曲库实时更新，老歌新歌一应俱全。顶级音响设备，国内同步的时尚主题式设计装潢，带给您沉浸式的欢唱体验！炎热的夏日，我们就要拿着话筒，吹着空调，奶茶配上盐酥鸡，自在逍遥！
-        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/music_catrem.png
-        website-name:
-        website:
-
       - name: AlphaX RE Capital
         description: AlphaX RE Capital 是一家在硅谷深耕数年，专注于独栋房产投资的地产开发公司。我们的策略是，紧跟市场的动态和周期，灵活运用各种使房产主动增值的手段，最大化投资项目的回报率。在AlphaX以往做的300多个项目中，我们的平均年化回报率为30%。在变化莫测的市场环境下，我们仍坚持初心，专注于寸土寸金的硅谷独栋房产，并在当地网罗合作资源，打造硅谷房产生态链。AlphaX致力于提供全方位服务、将投资人的资产价值最大化。
         image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/alphax_ntwlrd.png
+        website-name:
+        website:
+
+      - name: 大华
+        description: 湾区华人买菜首选99 Ranch Market App大华线上超市年中大促销！满$68减$15 折扣码：ZGZG15（截至8/5/2023）不出门生鲜、零食、活海鲜当天送上门！价格亲民，品类丰富，当天极速送达，最佳售后无理由退款。下载99 Ranch Market App轻松选购。价格与门店价格一样，满$49免运，可选去大华门店无门槛自提。
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1688712997/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/dahua_bmsd4n.jpg
+        website-name:
+        website:
+
+      - name: Music Tunnel
+        description: 音乐隧道，Music Tunnel，南湾最广为人知，最专业的娱乐休闲KTV！国内专业团队倾力打造，中英日韩多语种曲库实时更新，老歌新歌一应俱全。顶级音响设备，国内同步的时尚主题式设计装潢，带给您沉浸式的欢唱体验！炎热的夏日，我们就要拿着话筒，吹着空调，奶茶配上盐酥鸡，自在逍遥！
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/music_catrem.png
         website-name:
         website:
 
@@ -76,10 +72,18 @@ sponsors-singer:
       - name: Dreamhome Realty
         image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/dreamhome_tauhdh.jpg
         description: 买房,卖房，家庭地产投资优化，agent入门和进阶咨询，湾区著名投资博主和全职地产经纪。
-
+      - name: Lusso
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1688715445/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/Lusso_cpvrma.png
+        description:
       - name: 快手短视频
         image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/Kuai_ijhm5n.png
-        description: "快手：领先的内容社区和社交平台，短视频行业开创者与引领者"
+        description: 快手：领先的内容社区和社交平台，短视频行业开创者与引领者
+      - name: 梵Fan Bistro
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1688715445/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/fan_u2dffv.jpg
+        description: 融合东西方饮食文化的中餐厅.主打创意川湘菜系.私人定制.公司团餐.包间生日.工作聚会的不二之选！
+      - name: 小宝海运
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1688715445/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/xiaobao_hzokbt.png
+        description: 小宝集运，是一个从事12年中国出口到美国的公司，价格超低，服务超一流，细节满满，对接便捷，服务用心，值得信赖的物流。凭折扣码ZGZG可兑换价格50元人民币海运抵扣
 
     - level-name: venue
       level-heading: 场地赞助
@@ -93,6 +97,109 @@ sponsors-singer:
         - name: Q Bay Center钱塘中心
           image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687244833/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/qbay_h2autr.png
           description:
+
+sponsors-tour:
+  sponsor-levels:
+    - level-name: platinum
+      level-heading: 白金赞助
+      # HTML div styles (see top of the file for explanations).
+      elements-div-style-class: col-6 col-lg-3 mb-1
+      sponsor-elements:
+      - name: flyhomes
+        description: Flyhomes是一家专注在房地产领域的科技公司。完成 C 轮融资 1.5亿美金。不同于传统中介，Flyhomes采取团队作战方式。这和传统上“一个中介从头到尾负责一个客户” 非常不同。Flyhomes将整个买房过程拆解成不同的环节，每个顾客全程都会由一个经验丰富的客户顾问负责，提高了效率的同时也保证了质量。
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659911969/zgzg-io-website/1_fqqqod.png
+        website-name: www.flyhomes.com
+        website: https://www.flyhomes.com/mandarin?utm_source=EVENT&utm_medium=sponsorship&utm_content=090322NorCal-EVNT
+
+    - level-name: gold
+      level-heading: 金牌赞助
+      elements-div-style-class: col-6 col-lg-3 mb-1
+      sponsor-elements:
+      - name: 红叶故事
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670217975/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E7%BA%A2%E5%8F%B6%E6%95%85%E4%BA%8B_ykfnpr.png
+        description: 红叶故事，可以视频聊天的北美婚恋交友App。来红叶朋友圈晒生活，浏览周围单身小伙伴的动态，发送照片，语音和表情。
+
+      - name: george-xie
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1656789735/xie_dbxfoz.png
+        description: George Xie 谢晓光 - 加州地产经纪人，Keller Williams TOP 1% Agent，CIPS。凭借着独特的私人银行和贷款金融背景，为客户提供全方面的房产置业资产配置咨询。超高的谈判沟通能力帮助客户拿到最好的价格。
+
+      - name: LingoAce
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1656783718/lingo_yviz8v.png
+        description: 暑期宅家也要好好学习呀！LingoAce海外中文线上免费领取1对1试听中文课！听完的小朋友可以领取价值$20的amazon礼卡哟！加微信BayAreaKidFun了解领取福利详情！每周还会解锁湾区最新亲子活动噢!
+
+      - name: Coco Tan
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661481301/zgzg-io-website/logo4_yvmiyq.jpg
+        description: Coco Tan从业地产18年有余, 一直排名前1%。在全美140万名地产经纪人中, Coco名列由《华尔街日报》评选的前74名。2021年还未结束, 她已卖出了140多套房屋, 几乎每套都成功地打破了湾区的价格记录。她曾连续两年当选华美地产协会 (CAREA) 主席。
+
+      - name: Steve Chen
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659917448/zgzg-io-website/IMG_6399_ovz1dp.jpg
+        description: Steve Chen 富国银行房屋贷款经理. Steve 作为资深房屋贷款顾问及销售经理，服务在湾区享有极好口碑。他的专长包括 Relocation Loan，涉及 RSU 收入及海外资产的贷款。
+
+      - name: Daniel Xi
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659917449/zgzg-io-website/20YH1F-DC_SF_DP_-_Custom_Logo_-_Daniel_Xi_-_SOE-blk-FINAL_1_rbacdp.jpg
+        description: Top 1% Realtor，经验丰富，谈判技巧高，服务质量一流，无论买房卖房，都很擅长。2021年个人业绩全美排名第157名，交易量1.7亿美元。
+
+      - name: Ariel Chen
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660113834/zgzg-io-website/20YH1F-DC_SF_DP_-_Custom_Logo_-_Ariel_Chen_-_SOE-blk-FINAL_qr1v6_envmot.jpg
+        description: 深耕地产行业多年，始终奉行将客户的利益放在第一位。买卖房屋，尤其擅长换房，给每个家庭提供定制化换房策略。
+
+      - name: Wukong
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662160921/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Logo2_g1vp7v.png
+        description: 风靡全球的WuKong在线课堂来到硅谷啦！赶快添加微信公众号【悟空中文】【悟空国际数学】0元领取试听课和学习资料大礼包！3-18岁孩子们的专属福利🎁
+
+    - level-name: musical_instrument
+      level-heading: 乐器赞助
+      elements-div-style-class: col-6 col-lg-3 mb-1
+      sponsor-elements:
+      - name: Enya智能乐器
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661795574/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/IMG_6517_zfwmhh.jpg
+        description: 恩雅音乐是一家集乐器、智能音频、音乐文化、为一体的创新型科技音乐公司。超过十年的沉淀让恩雅更好的服务着全球音乐爱好者们。
+
+    - level-name: venue
+      level-heading: 场地赞助
+      elements-div-style-id: last-row-partners
+      elements-div-style-class: col-6 col-lg-3 mb-1
+      sponsor-elements:
+      - name: mtv
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1656783910/WechatIMG530_rxjxda.png
+        description: 音乐隧道，Music Tunnel，南湾最广为人知，最专业的娱乐休闲KTV！国内专业团队倾力打造，中英日韩多语种曲库实时更新，老歌新歌一应俱全。顶级音响设备，国内同步的时尚主题式设计装潢，带给您沉浸式的欢唱体验！炎热的夏日，我们就要拿着话筒，吹着空调，奶茶配上盐酥鸡，自在逍遥！
+        website-name: www.musictunnelktv.com
+        website: https://www.musictunnelktv.com/
+
+    - level-name: food
+      level-heading: 餐饮赞助
+      elements-div-style-id: last-row-partners
+      elements-div-style-class: col-6 col-lg-3 mb-1
+      sponsor-elements:
+      - name: weboba
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1657254451/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/Combined-logo_am3ikv.png
+        description: 鲜奶和茶的相遇，就像WeBoba和你传承千年的中华茶道，无需奶精掩饰，无需甜腻伪装你第一口就能尝到 Say No to 奶精，Say No to 茶粉茶渣茶你值得，最正统的茶味。
+
+      - name: panda
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660408149/zgzg-io-website/IMG_6400_lu5gra_ffabex.jpg
+        description: 现在扫码下载熊猫外卖，即刻领取新人$38红包，开启你的中餐美食之旅吧！熊猫外卖，满足你的中国胃！
+
+    - level-name: media
+      level-heading: 媒体合作
+      elements-div-style-id: last-row-partners
+      elements-div-style-class: col-6 col-lg-3 mb-1
+      sponsor-elements:
+      - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1661720085/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/chihuo_uhom0r.png
+      - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659916546/zgzg-io-website/2_pes3u4.jpg
+      - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659916785/zgzg-io-website/1_bdeoh3.png
+      - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659916546/zgzg-io-website/sina_ah9fid.jpg
+      - image: /images/ggtkx.svg
+      - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659917435/zgzg-io-website/hy_i9edst.png
+      - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659916374/zgzg-io-website/%E9%9D%9E%E9%B1%BC%E5%89%A7%E7%A4%BElogo_ls78l0.jpg
+      - image: /images/cthm.svg
+
+    - level-name: special
+      level-heading: 特别合作
+      elements-div-style-id: last-row-partners
+      elements-div-style-class: col-6 col-lg-3 mb-1
+      sponsor-elements:
+      - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660499610/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/image_28_wrksq1.png
+      - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1660407760/hanfu_m1hieb.png
 
 sponsors:
   sponsor-levels:
