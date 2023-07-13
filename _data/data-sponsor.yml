@@ -65,7 +65,7 @@ sponsors-singer:
         website-name:
         website:
 
-    - level-name: gold
+    - level-name: food
       level-heading: 金牌赞助
       elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
@@ -74,7 +74,7 @@ sponsors-singer:
         description: 买房,卖房，家庭地产投资优化，agent入门和进阶咨询，湾区著名投资博主和全职地产经纪。
       - name: Lusso
         image: https://res.cloudinary.com/zaigezaigu/image/upload/v1688715445/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/Lusso_cpvrma.png
-        description:
+        description: Lusso成立于2017年，由一批有情怀，具有创新精神的建筑、设计行业专业人士所创建。20多年丰富的从业经验让他们有了共同的梦想：把装修这么一个在大多数人心目中繁复的过程，变成一个充满发现和创造，并能充分享受乐趣的快乐之旅。现在，您可以来Lusso体验这段奇妙的旅程。在12000平方英尺的展厅里，Lusso用最具现代设计魅力的产品，最具时尚格调的体验馆，最专业优秀的设计师，带您品味现代家装的美好。
       - name: 快手短视频
         image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/Kuai_ijhm5n.png
         description: 快手：领先的内容社区和社交平台，短视频行业开创者与引领者
@@ -85,7 +85,7 @@ sponsors-singer:
         image: https://res.cloudinary.com/zaigezaigu/image/upload/v1688715445/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/xiaobao_hzokbt.png
         description: 小宝集运，是一个从事12年中国出口到美国的公司，价格超低，服务超一流，细节满满，对接便捷，服务用心，值得信赖的物流。凭折扣码ZGZG可兑换价格50元人民币海运抵扣
 
-    - level-name: venue
+    - level-name: food
       level-heading: 场地赞助
       elements-div-style-id: last-row-partners
       elements-div-style-class: col-6 col-lg-3 mb-1
