@@ -32,39 +32,6 @@ bodyClass: page-home
 </div>
 
 {% if page.show_people %}
-  {% if site.data.comedians %}
-  <div class="strip">
-    <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-      <h1>演员团</h1>
-      {% assign crew = site.data.comedians | where: "isCurrentCrew", true | sort: "weight" | reverse %}
-      <p>在所有参演者中，我们邀请最活跃、最受欢迎演员加入硅谷脱口秀演员团。本届成员为以下 {{ crew.size }} 人：</p>
-      <div class="row justify-content-center">
-        {% for comedian in crew %}
-          {% include comedian.html comedian=comedian %}
-        {% endfor %}
-        <a href="/become/" id="join">
-          <div class="col-12 col-md-6 col-lg-4 mb-5">
-            <div class="person">
-                <div class="person-image">
-                  +
-                </div>
-              <h2 class="person-title">参与演出</h2>
-              <div class="person-content">
-                <p class="person-description">在我们的开放麦上表演您的段子！</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-auto">
-          <a class="button button-primary" href="/comedians/">所有 {{ site.data.comedians.size }} 位演员</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  {% endif %}
-
   <div class="strip strip-grey">
     <div class="container pt-3 pb-3">
       <div class="row pt-3 pb-3">
