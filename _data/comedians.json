@@ -1,783 +1,512 @@
 [
     {
         "title": "Aaron",
-        "weightBeforeShowsSheet": 61,
-        "countFromShowsSheet": 31,
         "weight": 92,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
-        "isCurrentCrew": true,
         "contact": [
             "B站：[船长夫人与程序员](https://m.bilibili.com/space/81350330?from=video&unique_k=IG0kk2)",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mXYPU3Bs9CASsNbHE4d1d1)"
-        ],
-        "firstPerformance": "Date(2022,3,15)",
-        "lastPerformance": "Date(2022,11,16)",
-        "numOfShowsMissedAfterLastPerformance": 0,
-        "isCurrentMember": true
+        ]
     },
     {
         "title": "kk",
-        "weightBeforeShowsSheet": 25,
-        "countFromShowsSheet": 26,
         "weight": 51,
         "image": "https://i.imgur.com/qGU9ZVD.png",
-        "description": "躺着做人，立着说话；耿梗于怀，请君笑纳",
-        "isCurrentCrew": true,
-        "firstPerformance": "Date(2022,3,29)",
-        "lastPerformance": "Date(2022,10,18)",
-        "numOfShowsMissedAfterLastPerformance": 3,
-        "isCurrentMember": true
+        "description": "躺着做人，立着说话；耿梗于怀，请君笑纳"
     },
     {
         "title": "昭阳",
-        "weightBeforeShowsSheet": 15,
-        "countFromShowsSheet": 36,
         "weight": 51,
         "image": "https://i.imgur.com/vDhtXX7.jpg",
         "description": "以口为刀，切开白日下的荒谬",
-        "isCurrentCrew": true,
         "contact": [
-            "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz/)"
+            "豆瓣：[灭鼠办梁同志](https://www.douban.com/people/msbltz)"
         ],
         "highlights": [
-            "2022年《多伦多喜剧节》全靠同行衬托奖"
-        ],
-        "firstPerformance": "Date(2022,3,15)",
-        "lastPerformance": "Date(2022,11,16)",
-        "numOfShowsMissedAfterLastPerformance": 0,
-        "isCurrentMember": true
+            "2022年多伦多喜剧节全靠同行衬托奖"
+        ]
     },
     {
         "title": "Yudy",
-        "weightBeforeShowsSheet": 8,
-        "countFromShowsSheet": 34,
         "weight": 42,
         "image": "https://i.imgur.com/BahXJeg.jpg",
-        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。",
-        "crewSeasonIds": 2,
-        "isCurrentCrew": true,
-        "firstPerformance": "Date(2022,3,15)",
-        "lastPerformance": "Date(2022,11,16)",
-        "numOfShowsMissedAfterLastPerformance": 0,
-        "isCurrentMember": true
+        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。"
     },
     {
         "title": "孙刘",
-        "weightBeforeShowsSheet": 14,
-        "countFromShowsSheet": 25,
         "weight": 39,
         "image": "https://i.imgur.com/fVHIDK4.jpg",
         "description": "过来闹点笑话",
-        "isCurrentCrew": true,
         "contact": [
             "联系方式：可以直接现场问我要"
-        ],
-        "firstPerformance": "Date(2022,3,29)",
-        "lastPerformance": "Date(2022,11,9)",
-        "numOfShowsMissedAfterLastPerformance": 1,
-        "isCurrentMember": true
+        ]
     },
     {
         "title": "Tracy",
-        "weightBeforeShowsSheet": 34,
-        "countFromShowsSheet": 4,
         "weight": 38,
         "image": "https://i.imgur.com/EjEYK7y.png",
         "description": "生活=经历 经历=段子 生活=段子",
-        "isCurrentCrew": true,
         "contact": [
             "微信：`51423369`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
-        ],
-        "firstPerformance": "Date(2022,7,26)",
-        "lastPerformance": "Date(2022,10,4)",
-        "numOfShowsMissedAfterLastPerformance": 4,
-        "isCurrentMember": true
+        ]
     },
     {
         "title": "尾羽",
-        "weightBeforeShowsSheet": 15,
-        "countFromShowsSheet": 21,
         "weight": 36,
         "image": "https://i.imgur.com/WlMNvyL.jpg",
         "description": "做一只特立独行的猪",
-        "isCurrentCrew": true,
         "contact": [
             "Instagram: [weiyu_du0.0](https://www.instagram.com/weiyu_du0.0)",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkH2CEpvQJ6ncu25-LDcEc)"
         ],
         "highlights": [
-            "2022年《北美校友脱口秀大赛》亚军"
-        ],
-        "firstPerformance": "Date(2022,3,15)",
-        "lastPerformance": "Date(2022,10,18)",
-        "numOfShowsMissedAfterLastPerformance": 3,
-        "isCurrentMember": true
+            "2022年北美校友脱口秀大赛亚军"
+        ]
     },
     {
         "title": "早恋",
-        "weightBeforeShowsSheet": 33,
-        "countFromShowsSheet": 0,
         "weight": 33,
         "image": "https://i.imgur.com/mSfLTWx.png",
         "description": "临渊羡鱼，不如退而结网。",
-        "crewSeasonIds": 1,
         "contact": [
             "Clubhouse ID: `zaolian`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kfwyDcL__VQKNpVFw3SLSy)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "邵天宇",
-        "weightBeforeShowsSheet": 25,
-        "countFromShowsSheet": 7,
         "weight": 32,
         "image": "https://i.imgur.com/69sSDGi.jpg",
         "description": "曾经是一名脱口秀表演者",
-        "crewSeasonIds": 1,
         "contact": [
             "ClubHouse ID: `ericshao`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kU4T0eL_Y5MzjOkEYdOFvb)"
         ],
         "highlights": [
-            "2020《Boss直聘脱口秀比赛》导师最爱奖"
-        ],
-        "firstPerformance": "Date(2022,3,15)",
-        "lastPerformance": "Date(2022,11,16)",
-        "numOfShowsMissedAfterLastPerformance": 0,
-        "isCurrentMember": true
+            "2020年Boss直聘脱口秀比赛导师最爱奖"
+        ]
     },
     {
         "title": "龚老板",
-        "weightBeforeShowsSheet": 29,
-        "countFromShowsSheet": 0,
         "weight": 29,
         "image": "https://i.imgur.com/19pCCdn.png",
-        "description": "一只迷茫的，在观众和自己快乐之间挣扎的，把脱口秀说的像相声，把相声说的像脱口秀的，窜上台的观众。",
+        "description": "一只迷茫的，在观众和自己快乐之间挣扎的，把脱口秀说得像相声，把相声说得像脱口秀的，蹿上台的观众。",
         "contact": [
             "微信：`gillgong109`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nQYyTkiyPCD4Ajx6iH9lyH)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "小企鹅 Lisa",
-        "weightBeforeShowsSheet": 24,
-        "countFromShowsSheet": 1,
         "weight": 25,
         "image": "https://i.imgur.com/IOg9VMj.png",
         "description": "我是小企鹅 Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~",
-        "crewSeasonIds": 1,
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nhrZ5Y6uELqJiH7MMPoS4N)"
-        ],
-        "firstPerformance": "Date(2022,7,19)",
-        "lastPerformance": "Date(2022,7,19)",
-        "numOfShowsMissedAfterLastPerformance": 14,
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "韩哥",
-        "weightBeforeShowsSheet": 9,
-        "countFromShowsSheet": 15,
         "weight": 24,
         "image": "https://i.imgur.com/6LVWS5L.jpg",
-        "description": "硬件工程师",
-        "crewSeasonIds": 2,
-        "isCurrentCrew": true,
-        "firstPerformance": "Date(2022,3,22)",
-        "lastPerformance": "Date(2022,11,16)",
-        "numOfShowsMissedAfterLastPerformance": 0,
-        "isCurrentMember": true
+        "description": "硬件工程师"
     },
     {
         "title": "Sean",
-        "weightBeforeShowsSheet": 4,
-        "countFromShowsSheet": 20,
         "weight": 24,
         "image": "https://i.imgur.com/7wHqGIY.jpg",
         "description": "传播淫秽色情",
-        "crewSeasonIds": 2,
-        "isCurrentCrew": true,
         "contact": [
             "[播客](https://www.xiaoyuzhoufm.com/podcast/620b1cd24baddcbc4cbc13ce)",
             "即刻：[`Sean羊王`](https://okjk.co/NdOs3t)"
-        ],
-        "firstPerformance": "Date(2022,3,22)",
-        "lastPerformance": "Date(2022,11,16)",
-        "numOfShowsMissedAfterLastPerformance": 0,
-        "isCurrentMember": true
+        ]
     },
     {
         "title": "Monkey",
-        "weightBeforeShowsSheet": 22,
-        "countFromShowsSheet": 1,
         "weight": 23,
         "image": "https://i.imgur.com/rIg21xp.png",
-        "description": "想成为带来欢笑和温暖的人。猫狗双全，差一人组成狗男女。大大方方说：我要找男朋友 （感谢社长让在这谋私利）",
+        "description": "想成为带来欢笑和温暖的人。猫狗双全，差一人组成狗男女。大大方方说：我要找男朋友（感谢社长让在这谋私利）",
         "contact": [
-            "Instagram: [bigmonkeyma](https://www.instagram.com/bigmonkeyma/)",
+            "Instagram: [bigmonkeyma](https://www.instagram.com/bigmonkeyma)",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kTGnvPs-sI21crusfMQLKO)"
-        ],
-        "firstPerformance": "Date(2022,7,19)",
-        "lastPerformance": "Date(2022,7,19)",
-        "numOfShowsMissedAfterLastPerformance": 14,
-        "isCurrentMember": false
+        ]
     },
     {
-        "title": "仓老师",
-        "weightBeforeShowsSheet": 7,
-        "countFromShowsSheet": 14,
+        "title": "枪枪",
         "weight": 21,
         "image": "https://i.imgur.com/tHbCLHG.jpg",
-        "description": "我要一瓶冰冻的可口可乐",
-        "firstPerformance": "Date(2022,4,13)",
-        "lastPerformance": "Date(2022,11,9)",
-        "numOfShowsMissedAfterLastPerformance": 1,
-        "isCurrentMember": true
+        "description": "我要一瓶冰冻的可口可乐"
     },
     {
         "title": "方圆",
-        "weightBeforeShowsSheet": 20,
-        "countFromShowsSheet": 0,
         "weight": 20,
         "image": "https://i.imgur.com/VcpirXv.png",
         "description": "躁起来呗",
-        "crewSeasonIds": 1,
         "contact": [
             "Clubhouse ID: `fangyuanj`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mKV0MUe1tWygBYSLNHATjK)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "兔子特特",
-        "weightBeforeShowsSheet": 16,
-        "countFromShowsSheet": 1,
         "weight": 17,
         "image": "https://imgur.com/J3uXn3Gl.png",
         "description": "中年少女一枚。在家对娃脱口训在外对你脱口秀！你快乐所以我快乐～～",
         "contact": [
             "Clubhouse ID: `rabbit1`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kapbhDaBG-qFjV5cI8hNor)"
-        ],
-        "firstPerformance": "Date(2022,5,5)",
-        "lastPerformance": "Date(2022,5,5)",
-        "numOfShowsMissedAfterLastPerformance": 23,
-        "isCurrentMember": false
+        ]
     },
     {
-        "title": "福禄",
-        "weightBeforeShowsSheet": 7,
-        "countFromShowsSheet": 9,
+        "title": "flu",
         "weight": 16,
         "image": "https://i.imgur.com/0begOOv.jpg",
-        "description": "幽默儿神童",
-        "crewSeasonIds": 2,
-        "isCurrentCrew": true,
-        "firstPerformance": "Date(2022,6,29)",
-        "lastPerformance": "Date(2022,10,18)",
-        "numOfShowsMissedAfterLastPerformance": 3,
-        "isCurrentMember": true
+        "description": "幽默儿神童"
     },
     {
         "title": "小朱",
-        "weightBeforeShowsSheet": 15,
-        "countFromShowsSheet": 0,
         "weight": 15,
         "image": "https://i.imgur.com/gSysgyB.png",
         "description": "大家好我叫小朱，my English name is Sandeep.",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nH-sdYokB_P0iBIf0MV6xG)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "Larry",
-        "weightBeforeShowsSheet": 11,
-        "countFromShowsSheet": 4,
         "weight": 15,
         "image": "https://i.imgur.com/KJJz7Ek.png",
         "description": "毁人不倦的中文老湿 从不鸡娃的轮滑教练",
         "contact": [
             "[俺的学校](https://www.sanjoselearningcenter.com)",
             "小红书：Valley Skating Club"
-        ],
-        "firstPerformance": "Date(2022,4,6)",
-        "lastPerformance": "Date(2022,8,23)",
-        "numOfShowsMissedAfterLastPerformance": 10,
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "大头丁",
-        "weightBeforeShowsSheet": 13,
-        "countFromShowsSheet": 0,
         "weight": 13,
         "image": "https://i.imgur.com/Xy2m0g3.jpg",
         "contact": [
             "微信公众号：艺术喵喵（ID：`yishumiaomiao`）"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
-        "title": "Richard Yan",
-        "weightBeforeShowsSheet": 0,
-        "countFromShowsSheet": 11,
+        "title": "Richard",
         "weight": 11,
         "image": "https://i.imgur.com/5sJqcSu.jpg",
         "description": "专讲 Web 3.0 和非 Web 3.0 的笑话",
         "contact": [
             "Twitter: [`@laughdao`](https://twitter.com/laughdao)",
             "[YouTube](https://www.youtube.com/channel/UCm0E3ZTzjVoXsoIyDeud8Mw)"
-        ],
-        "firstPerformance": "Date(2022,5,24)",
-        "lastPerformance": "Date(2022,11,16)",
-        "numOfShowsMissedAfterLastPerformance": 0,
-        "isCurrentMember": true
+        ]
     },
     {
         "title": "世雄",
-        "weightBeforeShowsSheet": 0,
-        "countFromShowsSheet": 9,
         "weight": 9,
         "image": "https://i.imgur.com/joQHC7x.jpg",
         "description": "像rapper，但喜欢脱口秀\n其实还想搞设计。",
         "contact": [
-            "Instagram: [northzsx](https://www.instagram.com/northzsx/)",
-            "website：[shixiong.design](https://www.shixiong.design/)"
-        ],
-        "firstPerformance": "Date(2022,3,29)",
-        "lastPerformance": "Date(2022,8,23)",
-        "numOfShowsMissedAfterLastPerformance": 10,
-        "isCurrentMember": false
+            "Instagram: [northzsx](https://www.instagram.com/northzsx)",
+            "website：[shixiong.design](https://www.shixiong.design)"
+        ]
     },
     {
         "title": "大国",
-        "weightBeforeShowsSheet": 9,
-        "countFromShowsSheet": 0,
         "weight": 9,
         "image": "https://i.imgur.com/LzaNx8t.png",
         "description": "硅谷脱口秀，你讲段子的理想港湾！",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nNANUxLPdSBeU--pKX56kE)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "丝丝",
-        "weightBeforeShowsSheet": 7,
-        "countFromShowsSheet": 1,
         "weight": 8,
         "image": "https://i.imgur.com/eCMvhmf.png",
         "description": "不讲脱口秀的时候我都在帮客户抢房子",
         "contact": [
             "小红书：丝丝去哪儿"
-        ],
-        "firstPerformance": "Date(2022,5,3)",
-        "lastPerformance": "Date(2022,5,3)",
-        "numOfShowsMissedAfterLastPerformance": 24,
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "詹姆斯",
-        "weightBeforeShowsSheet": 8,
-        "countFromShowsSheet": 0,
         "weight": 8,
         "image": "https://i.imgur.com/gTRZYM0.png",
         "description": "打了疫苗的小胖子~",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34krufKqN4tAfyr6N03wV2AG)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "萌萌",
-        "weightBeforeShowsSheet": 7,
-        "countFromShowsSheet": 0,
         "weight": 7,
         "image": "https://imgur.com/pFidyoJ.png",
         "description": "中年妇女。",
         "contact": [
             "抖音： `@gongsunmengmeng`",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34l9rKebmdwPUeB6oOMZWh9K)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "Yuheng",
-        "weightBeforeShowsSheet": 7,
-        "countFromShowsSheet": 0,
         "weight": 7,
         "image": "https://i.imgur.com/fvnSese.jpg",
         "description": "脱口秀疯疯贵妇",
         "contact": [
             "Instagram: [hengzairenee](https://www.instagram.com/hengzairenee)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "于晓凡",
-        "weightBeforeShowsSheet": 7,
-        "countFromShowsSheet": 0,
         "weight": 7,
         "image": "https://i.imgur.com/NPodfRG.jpg",
         "description": "CS Ph.D. 在读，特立独行，兴趣广泛，爱好吃和睡。",
         "contact": [
-            "[cseweb.ucsd.edu/~x1yu](https://cseweb.ucsd.edu/~x1yu/) —— Ph.D.社交当然是发邮件啦",
+            "[cseweb.ucsd.edu/~x1yu](https://cseweb.ucsd.edu/~x1yu) —— Ph.D.社交当然是发邮件啦",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mCtxGtaR1qDan2Z0Fax3ko)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
-        "title": "隋薰 Emma",
-        "weightBeforeShowsSheet": 0,
-        "countFromShowsSheet": 6,
+        "title": "Emma",
         "weight": 6,
         "image": "https://i.imgur.com/GjAYqdE.jpg",
         "description": "何时能上脱口秀大会？",
         "contact": [
             "微博：[`爱看展的Emma隋薰`](https://weibo.com/n/%E7%88%B1%E7%9C%8B%E5%B1%95%E7%9A%84Emma%E9%9A%8B%E8%96%B0)"
-        ],
-        "firstPerformance": "Date(2022,3,29)",
-        "lastPerformance": "Date(2022,9,28)",
-        "numOfShowsMissedAfterLastPerformance": 5,
-        "isCurrentMember": true
+        ]
     },
     {
         "title": "王大拿",
-        "weightBeforeShowsSheet": 6,
-        "countFromShowsSheet": 0,
         "weight": 6,
         "image": "https://i.imgur.com/tyc7toZ.png",
-        "description": "集美貌与智慧于一身",
-        "isCurrentMember": false
+        "description": "集美貌与智慧于一身"
     },
     {
         "title": "Timur",
-        "weightBeforeShowsSheet": 5,
-        "countFromShowsSheet": 0,
         "weight": 5,
         "image": "https://i.imgur.com/o0y7QF2.jpg",
         "description": "筚路蓝缕，以启山林；吃喝玩乐，醉生梦死。",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kg_t2ZChitJHYOJDokYSqB)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "拉面",
-        "weightBeforeShowsSheet": 4,
-        "countFromShowsSheet": 1,
         "weight": 5,
         "image": "https://imgur.com/F5p49Uql.png",
         "description": "辩论靠段子，脱口秀靠逻辑。",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mkiZeuz5FyMVX1HvRhOEhn)"
-        ],
-        "firstPerformance": "Date(2022,11,9)",
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "Abby",
-        "weightBeforeShowsSheet": 4,
-        "countFromShowsSheet": 0,
         "weight": 4,
         "image": "https://i.imgur.com/w2Js0nc.jpg",
         "description": "不揽瓷器活，何来金刚钻。",
         "contact": [
             "Instagram: [abbyyy_3](https://www.instagram.com/abbyyy_3)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "陈安怡",
-        "weightBeforeShowsSheet": 2,
-        "countFromShowsSheet": 2,
         "weight": 4,
         "image": "https://i.imgur.com/RLKrwyW.jpg",
         "description": "诚实可爱阳光善良成熟稳重媚眼如丝古灵精怪青春无敌美少女",
         "highlights": [
-            "2022年《北美校友脱口秀大赛》季军"
-        ],
-        "firstPerformance": "Date(2022,5,3)",
-        "lastPerformance": "Date(2022,5,5)",
-        "numOfShowsMissedAfterLastPerformance": 23,
-        "isCurrentMember": false
+            "2022年北美校友脱口秀大赛季军"
+        ]
     },
     {
         "title": "李婉婷",
-        "weightBeforeShowsSheet": 0,
-        "countFromShowsSheet": 4,
         "weight": 4,
         "image": "https://i.imgur.com/kJC0nSE.jpg",
-        "description": "不为了什么，就为了一时快乐",
-        "firstPerformance": "Date(2022,5,3)",
-        "lastPerformance": "Date(2022,10,4)",
-        "numOfShowsMissedAfterLastPerformance": 4,
-        "isCurrentMember": true
+        "description": "不为了什么，就为了一时快乐"
     },
     {
         "title": "Jack",
-        "weightBeforeShowsSheet": 4,
-        "countFromShowsSheet": 0,
         "weight": 4,
         "image": "https://i.imgur.com/bb66MWl.png",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34lsvzXfHS9NyGFr-i6m0jhm)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "睡不醒",
-        "weightBeforeShowsSheet": 4,
-        "countFromShowsSheet": 0,
         "weight": 4,
         "image": "https://i.imgur.com/ZO4EMEq.png",
         "description": "早恋你为什么总针对我喷垃圾话？",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34lOFq1S6g1zTcySvmTKmilC)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "大花儿",
-        "weightBeforeShowsSheet": 3,
-        "countFromShowsSheet": 0,
         "weight": 3,
         "image": "https://i.imgur.com/Wzr0KQF.png",
-        "description": "吐槽生活好好玩哦～",
-        "isCurrentMember": false
+        "description": "吐槽生活好好玩哦～"
     },
     {
         "title": "宋博",
-        "weightBeforeShowsSheet": 3,
-        "countFromShowsSheet": 0,
         "weight": 3,
         "image": "https://i.imgur.com/pQhzNKw.jpg",
         "description": "业余段子手，三年憋出五分钟精华。",
         "contact": [
             "[bo-song.com](www.bo-song.com)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "啫喱",
-        "weightBeforeShowsSheet": 0,
-        "countFromShowsSheet": 3,
         "weight": 3,
         "image": "https://i.imgur.com/UGOkTdy.jpg",
         "description": "想走红若干年最后红的只有发色",
         "contact": [
             "Instagram: [`jer_xaccentgrave`](https://www.instagram.com/jer_xaccentgrave)"
-        ],
-        "firstPerformance": "Date(2022,3,22)",
-        "lastPerformance": "Date(2022,4,20)",
-        "numOfShowsMissedAfterLastPerformance": 25,
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "查理",
-        "weightBeforeShowsSheet": 0,
-        "countFromShowsSheet": 3,
         "weight": 3,
         "image": "https://i.imgur.com/we6SIoV.jpg",
         "description": "每天被生活调戏。",
         "contact": [
             "Instagram: [`donggua_xigua`](https://www.instagram.com/donggua_xigua)"
-        ],
-        "firstPerformance": "Date(2022,4,20)",
-        "lastPerformance": "Date(2022,5,24)",
-        "numOfShowsMissedAfterLastPerformance": 21,
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "何能能",
-        "weightBeforeShowsSheet": 3,
-        "countFromShowsSheet": 0,
         "weight": 3,
         "image": "https://i.imgur.com/JjRvHRC.png",
         "description": "就是很能",
         "contact": [
             "社交媒体：直接报我身份证号吧",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nI6fSKtRGr3Fuu-3EgYq9C)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "尹航",
-        "weightBeforeShowsSheet": 3,
-        "countFromShowsSheet": 0,
         "weight": 3,
         "image": "https://i.imgur.com/AikgWGF.png",
         "description": "2012年赴美上山下乡；2014年分配到加州参加工作；2020年开始随硅谷脱口文工团进行慰问演出",
         "contact": [
             "知乎：[hang yin](http://www.zhihu.com/people/hang-yin-72-38)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "赵老师",
-        "weightBeforeShowsSheet": 3,
-        "countFromShowsSheet": 0,
         "weight": 3,
         "image": "https://i.imgur.com/mznM741.png",
-        "description": "我哦，开开心心最重要！",
-        "isCurrentMember": false
+        "description": "我哦，开开心心最重要！"
     },
     {
         "title": "小马哥",
-        "weightBeforeShowsSheet": 2,
-        "countFromShowsSheet": 0,
         "weight": 2,
         "image": "https://i.imgur.com/2padEEg.jpg",
         "description": "我的生活很甜，需要喝黑咖啡来找点苦。",
         "contact": [
             "小红书：`1069782970`"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "Frankie",
-        "weightBeforeShowsSheet": 2,
-        "countFromShowsSheet": 0,
         "weight": 2,
         "image": "https://i.imgur.com/yz1sxSo.jpg",
         "description": "不好笑？那就忍一忍。",
         "contact": [
             "小红书：`425269388`"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "平俊哲",
-        "weightBeforeShowsSheet": 2,
-        "countFromShowsSheet": 0,
         "weight": 2,
         "image": "https://i.imgur.com/ss9oyjU.png",
-        "description": "新加坡英语新加坡汉语都很6",
-        "isCurrentMember": false
+        "description": "新加坡英语新加坡汉语都很6"
     },
     {
         "title": "珏",
-        "weightBeforeShowsSheet": 2,
-        "countFromShowsSheet": 0,
         "weight": 2,
         "image": "https://i.imgur.com/swoMX2r.jpg",
         "description": "我觉得什么都好玩，但脱口秀是最好玩的！",
         "contact": [
             "微信：`yangjue1031`"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "贾施汀",
-        "weightBeforeShowsSheet": 1,
-        "countFromShowsSheet": 1,
         "weight": 2,
         "image": "https://i.imgur.com/17dm7EE.jpg",
         "description": "退堂鼓表演艺术家",
         "contact": [
             "Instagram: [`lilyoungjs88`](https://www.instagram.com/lilyoungjs88)"
-        ],
-        "firstPerformance": "Date(2022,5,24)",
-        "lastPerformance": "Date(2022,5,24)",
-        "numOfShowsMissedAfterLastPerformance": 21,
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "Chloe",
-        "weightBeforeShowsSheet": 2,
-        "countFromShowsSheet": 0,
         "weight": 2,
-        "image": "https://i.imgur.com/B60VWOE.png",
-        "isCurrentMember": false
+        "image": "https://i.imgur.com/B60VWOE.png"
     },
     {
         "title": "jinn",
-        "weightBeforeShowsSheet": 1,
-        "countFromShowsSheet": 0,
         "weight": 1,
         "image": "https://i.imgur.com/0p0xsKo.jpg",
         "description": "就这么着吧（这句就不用了）",
         "contact": [
             "Linkedin: [Jin Liu](https://www.linkedin.com/in/jin-liu-a5b697140)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "戴智开",
-        "weightBeforeShowsSheet": 1,
-        "countFromShowsSheet": 0,
         "weight": 1,
         "image": "https://i.imgur.com/M7wFRow.png",
         "description": "我在东部有时差，你们先多说说",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34lycgQpv2fHfXef0ZZ1FViH)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "keke",
-        "weightBeforeShowsSheet": 1,
-        "countFromShowsSheet": 0,
         "weight": 1,
         "image": "https://i.imgur.com/UQ0tOnk.png",
         "description": "可可爱爱就是我！",
         "contact": [
-            "Instagram: [ringwring](https://www.instagram.com/ringwring/)"
-        ],
-        "isCurrentMember": false
+            "Instagram: [ringwring](https://www.instagram.com/ringwring)"
+        ]
     },
     {
         "title": "Sky",
-        "weightBeforeShowsSheet": 1,
-        "countFromShowsSheet": 0,
         "weight": 1,
         "image": "https://i.imgur.com/gUvlV5a.png",
-        "description": "我家有好多事我真的是不吐不快",
-        "isCurrentMember": false
+        "description": "我家有好多事我真的是不吐不快"
     },
     {
         "title": "小V",
-        "weightBeforeShowsSheet": 1,
-        "countFromShowsSheet": 0,
         "weight": 1,
         "image": "https://i.imgur.com/M0HNbdR.png",
         "description": "喜爱街健请联系我",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nG7prBJPvuSEzf8neANYtP)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "小明",
-        "weightBeforeShowsSheet": 1,
-        "countFromShowsSheet": 0,
         "weight": 1,
         "image": "https://i.imgur.com/hyvlB26.png",
         "description": "跟我走吧，天亮就出发",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nGUew6HQb2e9WlfbaNWK9M)"
-        ],
-        "isCurrentMember": false
+        ]
     },
     {
         "title": "林晚",
-        "weightBeforeShowsSheet": 0,
-        "countFromShowsSheet": 0,
         "weight": 0,
-        "image": "https://i.imgur.com/fHfm0bu.jpg",
-        "isCurrentMember": false
+        "image": "https://i.imgur.com/fHfm0bu.jpg"
     },
     {
         "title": "费费",
-        "weightBeforeShowsSheet": 0,
-        "countFromShowsSheet": 0,
         "weight": 0,
         "image": "https://i.imgur.com/oGuVFF7.png",
-        "description": "还在憋段子的伪脱口秀演员",
-        "isCurrentMember": false
+        "description": "还在憋段子的伪脱口秀演员"
     }
 ]
