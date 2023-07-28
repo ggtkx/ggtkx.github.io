@@ -30,7 +30,7 @@ permalink: /
 
 无法莅临现场？欢迎在线上关注我们！
 
-- 小红书号：ggtkx_org
+- 小红书号：[ggtkx_org](https://www.xiaohongshu.com/user/profile/5c0c79410000000006003274)
 - 微信公众号：svcomedy
 - [YouTube](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A/featured)频道
 - [哔哩哔哩](https://space.bilibili.com/482647119)频道
