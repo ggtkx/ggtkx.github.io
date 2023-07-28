@@ -8,17 +8,27 @@ intro_image_hide_on_mobile: true
 show_people: true
 permalink: /
 ---
+&nbsp;
 
 图个开心！
 
-我们是硅谷地区的一群**汉语喜剧**爱好者，以脱口秀为主。我们欢迎各路朋友来观赏、参演！
+硅谷脱口秀是硅谷地区一群**中文喜剧**爱好者于2019年创立的喜剧俱乐部，表演形式以脱口秀（单口喜剧）为主。
 
-2019 年以来，我们举办了 ~300 场表演，>150 位演员陆续参演，视频也有近十万次播放。
+我们举办的演出包括：
 
+- 每周五晚上的开放麦，这是演员打磨段子的地方；
+- 每三个月左右一次的高质量精品秀演出；
+- 不定期邀请海内外知名脱口秀演员来到湾区举办主打秀或个人专场。
 
+欢迎大家来观看我们的演出！
 
-## 「开放麦」
+## 开放麦
 
 {% include call.html show_button=true labels=site.data.l10n.cn %}
 
-无法莅临现场？欢迎订阅、分享我们的 [YouTube 频道](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A/featured)和[哔哩哔哩](https://space.bilibili.com/482647119)！
+无法莅临现场？欢迎在线上关注我们！
+
+- 小红书号：ggtkx_org
+- 微信公众号：svcomedy
+- [YouTube](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A/featured)频道
+- [哔哩哔哩](https://space.bilibili.com/482647119)频道
