@@ -19,7 +19,7 @@ enable_annotating: true
 
 这里是一些入门资源：
 
-- [石老板](https://weibo.com/shilaoban)《[单口喜剧表演手册](https://yes1am.github.io/stand-up-comedy)》
+- 石老板《[单口喜剧表演手册](https://yes1am.github.io/stand-up-comedy)》
 - 徐风暴、同焱《[成为单口喜剧演员](https://drive.google.com/file/d/1vjKYPRplZUlpO_V6sW37bqjB-ajKoRpU/view?usp=sharing)》
 - 教主《[人人都能学会单口喜剧](https://drive.google.com/file/d/1Oyobvw4GlDJi6DZtn_tRgMkD-jlYavVc/view?usp=sharing)》
-- Judy Carter《[The Comedy Bible](https://www.goodreads.com/book/show/228732)》
+- 朱迪·卡特《[新喜剧圣经](https://drive.google.com/file/d/1U9imgnibgODijjv2cI65ydg--dQxF_Re/view?usp=sharing)》
