@@ -3,15 +3,14 @@
 Download the club index spreadsheet as CSV, then run this script.
 
 Usage:
-  generate_clubs.py <input_path> <output_path>
+    python generate_clubs.py <input_path> <output_path>
 """
 
-import pandas as pd
-import numpy as np
 import json
 
+import numpy as np
+import pandas as pd
 from docopt import docopt
-
 
 if __name__ == '__main__':
     arguments = docopt(__doc__)
@@ -43,5 +42,12 @@ if __name__ == '__main__':
     data = [{k: v for k, v in x.items() if v is not np.nan} for x in data]
 
     with open(arguments["<output_path>"], "w") as f:
-        json.dump(data, f, indent=4, sort_keys=True, allow_nan=False)
+        json.dump(
+            data,
+            f,
+            indent=4,
+            sort_keys=True,
+            allow_nan=False,
+            ensure_ascii=False,
+        )
         f.write("\n")

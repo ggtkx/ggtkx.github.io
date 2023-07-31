@@ -1,160 +1,160 @@
 [
     {
         "contacts_audiences": [
-            "\u5fae\u4fe1\uff1a`ggtkx_wx`",
-            "\u5fae\u4fe1\u516c\u4f17\u53f7\uff1a`svcomedy`"
+            "微信：`ggtkx_wx`",
+            "微信公众号：`svcomedy`"
         ],
         "contacts_business": [
             "E-Mail: <contact@ggtkx.org>"
         ],
-        "date_founded": "2019\u5e749\u6708",
+        "date_founded": "2019年9月",
         "logo": "/images/logo.svg",
-        "name_chinese": "\u7845\u8c37\u8131\u53e3\u79c0",
+        "name_chinese": "硅谷脱口秀",
         "physical_address": "10268 Bandley Dr #107, Cupertino, CA 95014",
-        "physical_location": "\u7f8e\u56fd\u00b7\u7845\u8c37",
+        "physical_location": "美国·硅谷",
         "website": "https://ggtkx.org/"
     },
     {
         "contacts_audiences": [
-            "\u5fae\u4fe1\uff1a`prop0809`",
+            "微信：`prop0809`",
             "E-Mail: <standup.paris.cn@gmail.com>"
         ],
         "contacts_comedians": [
-            "\u5fae\u4fe1\uff1a`yuxuan730`",
+            "微信：`yuxuan730`",
             "E-Mail: <standup.paris.cn@gmail.com>"
         ],
-        "date_founded": "2019\u5e7410\u6708",
+        "date_founded": "2019年10月",
         "logo": "https://i.imgur.com/FPcjoVy.jpeg",
-        "name_chinese": "\u5df4\u9ece\u8131\u53e3\u79c0\u4ff1\u4e50\u90e8",
+        "name_chinese": "巴黎脱口秀俱乐部",
         "name_english": "Chinese Comedy Club de Paris",
         "physical_address": "40 Pass. des Panoramas, 75002 Paris",
-        "physical_location": "\u6cd5\u56fd\u00b7\u5df4\u9ece",
-        "specialities": "\u5355\u53e3\u559c\u5267\uff08\u6c49\u8bed+\u6cd5\u8bed\uff09\u5355\u4eba\u77ed\u5267",
+        "physical_location": "法国·巴黎",
+        "specialities": "单口喜剧（汉语+法语）单人短剧",
         "website": "https://www.youtube.com/channel/UCJJzTOmiim1Ku1ltgOd7dPQ"
     },
     {
         "contacts_audiences": [
-            "\u5fae\u4fe1\uff1a`cancanOfficialCS`",
+            "微信：`cancanOfficialCS`",
             "E-Mail: <can@cancanclub.org>"
         ],
         "contacts_comedians": [
-            "\u5fae\u4fe1\u516c\u4f17\u53f7\uff1a`cancanclub`\uff0c\u9009\u62e9\u201c\u5f53\u6f14\u5458\u201d\uff0c\u586b\u8868\uff0c\u7b49\u5f85",
-            "\u5fae\u4fe1\uff1a`cancanOfficialCS`"
+            "微信公众号：`cancanclub`，选择“当演员”，填表，等待",
+            "微信：`cancanOfficialCS`"
         ],
-        "date_founded": "2020\u5e7410\u6708",
+        "date_founded": "2020年10月",
         "logo": "https://i.imgur.com/9bbsLVh.jpeg",
-        "name_chinese": "\u4f83\u4f83\u4ff1\u4e50\u90e8",
+        "name_chinese": "侃侃俱乐部",
         "name_english": "Can Can Club",
-        "physical_location": "\u65b0\u52a0\u5761",
+        "physical_location": "新加坡",
         "website": "https://cancanclub.peatix.com/"
     },
     {
         "contacts_audiences": [
-            "\u5fae\u4fe1\uff1aSC105878151",
-            "E-Mail\uff1aPeanutcomedy2021@gmail.com"
+            "微信：SC105878151",
+            "E-Mail：Peanutcomedy2021@gmail.com"
         ],
         "contacts_business": [
-            "Email\uff1aPeanutcomedy2021@gmail.com"
+            "Email：Peanutcomedy2021@gmail.com"
         ],
         "contacts_comedians": [
-            "\u5fae\u4fe1email\u540c\u5de6"
+            "微信email同左"
         ],
-        "date_founded": "2021\u5e7410\u6708",
+        "date_founded": "2021年10月",
         "logo": "https://i.imgur.com/ED34ZYk.png",
-        "name_chinese": "\u82b1\u751f\u559c\u5267",
+        "name_chinese": "花生喜剧",
         "name_english": "Peanut Comedy",
-        "physical_location": "\u52a0\u62ff\u5927\u00b7\u591a\u4f26\u591a",
-        "specialities": "\u4e2d\u6587\u8131\u53e3\u79c0"
+        "physical_location": "加拿大·多伦多",
+        "specialities": "中文脱口秀"
     },
     {
         "contacts_audiences": [
-            "\u5fae\u4fe1\uff1akakukaki615"
+            "微信：kakukaki615"
         ],
         "contacts_business": [
-            "\u5fae\u4fe1\uff1akakukaki615"
+            "微信：kakukaki615"
         ],
         "contacts_comedians": [
-            "\u5fae\u4fe1\uff1akakukaki615"
+            "微信：kakukaki615"
         ],
-        "date_founded": "2021\u5e747\u6708",
-        "name_chinese": "\u70ed\u7231\u8131\u53e3\u79c0\u4ff1\u4e50\u90e8",
+        "date_founded": "2021年7月",
+        "name_chinese": "热爱脱口秀俱乐部",
         "name_english": "Amare Comedy",
-        "physical_location": "\u65e5\u672c\u00b7\u4e1c\u4eac",
-        "specialities": "\u4e2d\u6587\u8131\u53e3\u79c0"
+        "physical_location": "日本·东京",
+        "specialities": "中文脱口秀"
     },
     {
         "contacts_audiences": [
-            "\u5fae\u4fe1\u516c\u4f17\u53f7\uff1a`\u9876\u597d\u559c\u5267`\u2014\u2014\u70b9\u51fb\u5c0f\u52a9\u624b\uff0c\u4f1a\u62c9\u4f60\u8fdb\u7fa4\u54e6"
+            "微信公众号：`顶好喜剧`——点击小助手，会拉你进群哦"
         ],
-        "date_founded": "2021\u5e749\u6708",
-        "name_chinese": "\u9876\u597d\u559c\u5267",
+        "date_founded": "2021年9月",
+        "name_chinese": "顶好喜剧",
         "name_english": "DingHo Comedy",
         "physical_address": "3 N Beacon St, Allston, MA, 02134",
-        "physical_location": "\u7f8e\u56fd\u00b7\u6ce2\u58eb\u987f",
+        "physical_location": "美国·波士顿",
         "website": "https://www.karlxiecomedy.com/"
     },
     {
         "contacts_audiences": [
-            "\u5fae\u4fe1\uff1a`chinchinWQ`",
-            "\u5fae\u4fe1\u516c\u4f17\u53f7\uff1a`\u54d7\u4eba\u559c\u5267`",
+            "微信：`chinchinWQ`",
+            "微信公众号：`哗人喜剧`",
             "E-Mail: <hurracomedy.uk@gmail.com>"
         ],
-        "date_founded": "2021\u5e749\u6708",
+        "date_founded": "2021年9月",
         "logo": "https://i.imgur.com/8lHrPqr.jpeg",
-        "name_chinese": "\u54d7\u4eba\u559c\u5267",
+        "name_chinese": "哗人喜剧",
         "name_english": "Hurrah Comedy",
-        "physical_location": "\u82f1\u56fd\u00b7\u4f26\u6566",
-        "specialities": "\u5373\u5174\u559c\u5267\n\u82f1\u6587\u5355\u53e3\u559c\u5267\n\u97f3\u4e50\u8131\u53e3\u79c0"
+        "physical_location": "英国·伦敦",
+        "specialities": "即兴喜剧\n英文单口喜剧\n音乐脱口秀"
     },
     {
         "contacts_audiences": [
-            "\u5fae\u4fe1\uff1a`lafengxiju`"
+            "微信：`lafengxiju`"
         ],
         "contacts_business": [
-            "\u5fae\u4fe1\uff1a`lafengxiju`",
+            "微信：`lafengxiju`",
             "E-Mail: <lafengxiju@gmail.com>"
         ],
-        "date_founded": "2022\u5e742\u6708",
+        "date_founded": "2022年2月",
         "logo": "https://i.imgur.com/s7Ko5TC.jpeg",
-        "name_chinese": "\u62c9\u75af\u559c\u5267",
+        "name_chinese": "拉疯喜剧",
         "name_english": "Crazy Laugh",
-        "physical_location": "\u7f8e\u56fd\u00b7\u7ebd\u7ea6"
+        "physical_location": "美国·纽约"
     },
     {
         "contacts_audiences": [
             "E-Mail: <xiatutkx@gmail.com>"
         ],
-        "date_founded": "2022\u5e743\u6708",
-        "name_chinese": "\u867e\u56fe\u8131\u53e3\u79c0",
-        "physical_location": "\u7f8e\u56fd\u00b7\u897f\u96c5\u56fe"
+        "date_founded": "2022年3月",
+        "name_chinese": "虾图脱口秀",
+        "physical_location": "美国·西雅图"
     },
     {
         "contacts_audiences": [
-            "\u5fae\u4fe1\uff1a`deoxys14`",
+            "微信：`deoxys14`",
             "E-Mail: <deoxys14@gmail.com>"
         ],
-        "name_chinese": "\u58a8\u5c14\u672c\u8131\u53e3\u79c0",
-        "physical_location": "\u6fb3\u5927\u5229\u4e9a\u00b7\u58a8\u5c14\u672c"
+        "name_chinese": "墨尔本脱口秀",
+        "physical_location": "澳大利亚·墨尔本"
     },
     {
         "contacts_audiences": [
-            "\u5fae\u4fe1: 'ich_bin_freddy'",
+            "微信: 'ich_bin_freddy'",
             "Email: liyi.freddy@gmail.com"
         ],
         "contacts_business": [
-            "\u5fae\u4fe1: 'ich_bin_freddy'\r",
+            "微信: 'ich_bin_freddy'\r",
             "Email: liyi.freddy@gmail.com"
         ],
         "contacts_comedians": [
-            "\u5fae\u4fe1email\u540c\u5de6",
-            "\u516c\u4f17\u53f7\u6b63\u5728\u5efa\u8bbe\u4e2d"
+            "微信email同左",
+            "公众号正在建设中"
         ],
-        "date_founded": "2022\u5e7410\u6708",
+        "date_founded": "2022年10月",
         "logo": "https://i.imgur.com/Wde6IBj.jpeg",
-        "name_chinese": "\u65e0\u9650\u559c\u5267",
+        "name_chinese": "无限喜剧",
         "name_english": "Infinitas Comedy",
         "physical_address": "Zentmarkweg 32 Frankfurt 60489",
-        "physical_location": "\u5fb7\u56fd\u00b7\u6cd5\u5170\u514b\u798f",
-        "specialities": "\u4e2d\u6587\u8131\u53e3\u79c0"
+        "physical_location": "德国·法兰克福",
+        "specialities": "中文脱口秀"
     }
 ]
