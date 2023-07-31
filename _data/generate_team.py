@@ -3,14 +3,13 @@
 Download the team roster spreadsheet as CSV, then run this script.
 
 Usage:
-  generate_team.py <input_path> <output_path>
+    python generate_team.py <input_path> <output_path>
 """
 
-import pandas as pd
 import json
 
+import pandas as pd
 from docopt import docopt
-
 
 if __name__ == '__main__':
     arguments = docopt(__doc__)
@@ -43,5 +42,5 @@ if __name__ == '__main__':
         "group", axis=1).to_dict(orient="records")).to_dict()
 
     with open(arguments["<output_path>"], "w") as f:
-        json.dump(data, f, indent=4, sort_keys=True)
+        json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
         f.write("\n")

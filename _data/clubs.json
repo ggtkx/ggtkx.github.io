@@ -1,27 +1,27 @@
 [
     {
         "contacts_audiences": [
-            "微信：`ggtkx_wx`",
-            "微信公众号：`svcomedy`"
+            "微信：ggtkx_wx",
+            "微信公众号：svcomedy"
         ],
         "contacts_business": [
-            "E-Mail: <contact@ggtkx.org>"
+            "Email：<contact@ggtkx.org>"
         ],
         "date_founded": "2019年9月",
         "logo": "/images/logo.svg",
         "name_chinese": "硅谷脱口秀",
-        "physical_address": "10268 Bandley Dr #107, Cupertino, CA 95014",
+        "physical_address": "6148 Bollinger Rd, San Jose, CA 95129",
         "physical_location": "美国·硅谷",
-        "website": "https://ggtkx.org/"
+        "website": "https://ggtkx.org"
     },
     {
         "contacts_audiences": [
-            "微信：`prop0809`",
-            "E-Mail: <standup.paris.cn@gmail.com>"
+            "微信：prop0809",
+            "Email：<standup.paris.cn@gmail.com>"
         ],
         "contacts_comedians": [
-            "微信：`yuxuan730`",
-            "E-Mail: <standup.paris.cn@gmail.com>"
+            "微信：yuxuan730",
+            "Email：<standup.paris.cn@gmail.com>"
         ],
         "date_founded": "2019年10月",
         "logo": "https://i.imgur.com/FPcjoVy.jpeg",
@@ -34,30 +34,30 @@
     },
     {
         "contacts_audiences": [
-            "微信：`cancanOfficialCS`",
-            "E-Mail: <can@cancanclub.org>"
+            "微信：cancanOfficialCS",
+            "Email：<can@cancanclub.org>"
         ],
         "contacts_comedians": [
-            "微信公众号：`cancanclub`，选择“当演员”，填表，等待",
-            "微信：`cancanOfficialCS`"
+            "微信公众号：cancanclub，选择“当演员”，填表，等待",
+            "微信：cancanOfficialCS"
         ],
         "date_founded": "2020年10月",
         "logo": "https://i.imgur.com/9bbsLVh.jpeg",
         "name_chinese": "侃侃俱乐部",
         "name_english": "Can Can Club",
         "physical_location": "新加坡",
-        "website": "https://cancanclub.peatix.com/"
+        "website": "https://cancanclub.peatix.com"
     },
     {
         "contacts_audiences": [
             "微信：SC105878151",
-            "E-Mail：Peanutcomedy2021@gmail.com"
+            "Email：Peanutcomedy2021@gmail.com"
         ],
         "contacts_business": [
             "Email：Peanutcomedy2021@gmail.com"
         ],
         "contacts_comedians": [
-            "微信email同左"
+            "微信Email同左"
         ],
         "date_founded": "2021年10月",
         "logo": "https://i.imgur.com/ED34ZYk.png",
@@ -84,20 +84,20 @@
     },
     {
         "contacts_audiences": [
-            "微信公众号：`顶好喜剧`——点击小助手，会拉你进群哦"
+            "微信公众号：顶好喜剧——点击小助手，会拉你进群哦"
         ],
         "date_founded": "2021年9月",
         "name_chinese": "顶好喜剧",
         "name_english": "DingHo Comedy",
         "physical_address": "3 N Beacon St, Allston, MA, 02134",
         "physical_location": "美国·波士顿",
-        "website": "https://www.karlxiecomedy.com/"
+        "website": "https://www.karlxiecomedy.com"
     },
     {
         "contacts_audiences": [
-            "微信：`chinchinWQ`",
-            "微信公众号：`哗人喜剧`",
-            "E-Mail: <hurracomedy.uk@gmail.com>"
+            "微信：chinchinWQ",
+            "微信公众号：哗人喜剧",
+            "Email：<hurracomedy.uk@gmail.com>"
         ],
         "date_founded": "2021年9月",
         "logo": "https://i.imgur.com/8lHrPqr.jpeg",
@@ -108,21 +108,22 @@
     },
     {
         "contacts_audiences": [
-            "微信：`lafengxiju`"
+            "微信：lafengxiju"
         ],
         "contacts_business": [
-            "微信：`lafengxiju`",
-            "E-Mail: <lafengxiju@gmail.com>"
+            "微信：lafengxiju",
+            "Email：<lafengxiju@gmail.com>"
         ],
         "date_founded": "2022年2月",
         "logo": "https://i.imgur.com/s7Ko5TC.jpeg",
         "name_chinese": "拉疯喜剧",
         "name_english": "Crazy Laugh",
-        "physical_location": "美国·纽约"
+        "physical_location": "美国·纽约",
+        "website": "https://crazylaughcomedy.com"
     },
     {
         "contacts_audiences": [
-            "E-Mail: <xiatutkx@gmail.com>"
+            "Email：<xiatutkx@gmail.com>"
         ],
         "date_founded": "2022年3月",
         "name_chinese": "虾图脱口秀",
@@ -130,23 +131,23 @@
     },
     {
         "contacts_audiences": [
-            "微信：`deoxys14`",
-            "E-Mail: <deoxys14@gmail.com>"
+            "微信：deoxys14",
+            "Email：<deoxys14@gmail.com>"
         ],
         "name_chinese": "墨尔本脱口秀",
         "physical_location": "澳大利亚·墨尔本"
     },
     {
         "contacts_audiences": [
-            "微信: 'ich_bin_freddy'",
-            "Email: liyi.freddy@gmail.com"
+            "微信: ich_bin_freddy",
+            "Email：liyi.freddy@gmail.com"
         ],
         "contacts_business": [
-            "微信: 'ich_bin_freddy'\r",
-            "Email: liyi.freddy@gmail.com"
+            "微信: ich_bin_freddy",
+            "Email：liyi.freddy@gmail.com"
         ],
         "contacts_comedians": [
-            "微信email同左",
+            "微信Email同左",
             "公众号正在建设中"
         ],
         "date_founded": "2022年10月",

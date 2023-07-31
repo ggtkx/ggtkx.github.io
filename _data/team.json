@@ -1,133 +1,133 @@
 {
-    "\u5916\u8054\u7ec4": [
+    "外联组": [
         {
             "LinkedIn": "in/yudydeng",
-            "description": "\u659c\u6760\u8fa3\u5988\uff0c\u8001\u5973\u53f8\u673a\uff0c\u627e\u94b1\u62c9\u4eba",
+            "description": "斜杠辣妈，老女司机，找钱拉人",
             "image": "https://i.imgur.com/pcyKJm7.jpg",
             "nickname": "Yudy",
-            "\u804c\u4f4d": "Senior Business Development Manager"
+            "职位": "Senior Business Development Manager"
         }
     ],
-    "\u5a92\u4f53\u7ec4": [
+    "媒体组": [
         {
             "LinkedIn": NaN,
-            "description": "\u5e0c\u671b\u8ba9\u7845\u8c37\u8131\u53e3\u79c0\u540d\u58f0\u5927\u566a",
+            "description": "希望让硅谷脱口秀名声大噪",
             "image": "https://i.imgur.com/dbKsO81.jpeg",
-            "nickname": "\u848b\u4e66\u9e64",
-            "\u804c\u4f4d": "Senior Digital Marketing Manager"
+            "nickname": "蒋书鹤",
+            "职位": "Senior Digital Marketing Manager"
         },
         {
             "LinkedIn": NaN,
-            "description": "\u4e3b\u8981\u8d1f\u8d23 YouTube channel\uff0c\u5076\u5c14 update Facebook \u548c LinkedIn\u3002",
+            "description": "主要负责 YouTube channel，偶尔 update Facebook 和 LinkedIn。",
             "image": "https://i.imgur.com/gLfo1s8.jpeg",
-            "nickname": "\u8042\u73ae",
-            "\u804c\u4f4d": "Digital Marketing Specialist"
+            "nickname": "聂玮",
+            "职位": "Digital Marketing Specialist"
         },
         {
             "LinkedIn": NaN,
-            "description": "\u5199\u5b57\u7684\u4eba\u3002",
+            "description": "写字的人。",
             "image": "https://i.imgur.com/RR4J7R3.jpeg",
-            "nickname": "\u5218\u79cb\u7b1b",
-            "\u804c\u4f4d": "Editor, Assistant Producer"
+            "nickname": "刘秋笛",
+            "职位": "Editor, Assistant Producer"
         },
         {
             "LinkedIn": NaN,
             "description": "",
             "image": "https://via.placeholder.com/300?text=(%20^_^%20)",
             "nickname": "Vivi",
-            "\u804c\u4f4d": "Digital Marketing Coordinator"
+            "职位": "Digital Marketing Coordinator"
         },
         {
             "LinkedIn": NaN,
             "description": "",
             "image": "https://via.placeholder.com/300?text=(%20^_^%20)",
             "nickname": "Joyce",
-            "\u804c\u4f4d": "Digital Marketing Coordinator"
+            "职位": "Digital Marketing Coordinator"
         }
     ],
-    "\u6280\u672f\u7ec4": [
+    "技术组": [
         {
             "LinkedIn": NaN,
-            "description": "\u52aa\u529b\u628a\u7845\u8c37\u8131\u53e3\u79c0\u6253\u9020\u6210\u8bb2\u6bb5\u5b50\u7684\u7406\u60f3\u6e2f\u6e7e\uff01",
+            "description": "努力把硅谷脱口秀打造成讲段子的理想港湾！",
             "image": "https://i.imgur.com/vJUWMfK.jpg",
-            "nickname": "\u9ec4\u5927\u56fd",
-            "\u804c\u4f4d": "Director of Engineering"
+            "nickname": "黄大国",
+            "职位": "Director of Engineering"
         },
         {
             "LinkedIn": NaN,
             "description": "",
             "image": "https://via.placeholder.com/300?text=(%20^_^%20)",
             "nickname": "Nelson",
-            "\u804c\u4f4d": "Production Engineer"
+            "职位": "Production Engineer"
         },
         {
             "LinkedIn": NaN,
             "description": "",
             "image": "https://via.placeholder.com/300?text=(%20^_^%20)",
-            "nickname": "\u6b66\u72b6\u5143",
-            "\u804c\u4f4d": "Production Engineer"
+            "nickname": "武状元",
+            "职位": "Production Engineer"
         }
     ],
-    "\u6f14\u5458\u534f\u8c03\u7ec4": [
+    "演员协调组": [
         {
             "LinkedIn": NaN,
             "description": "",
             "image": "https://i.imgur.com/dCP3my3.jpg",
-            "nickname": "\u90b5\u5929\u5b87",
-            "\u804c\u4f4d": "Chief Instructor"
+            "nickname": "邵天宇",
+            "职位": "Chief Instructor"
         },
         {
             "LinkedIn": NaN,
             "description": "",
             "image": "https://i.imgur.com/LRP3t4D.jpg",
-            "nickname": "\u5b59\u5218",
-            "\u804c\u4f4d": "Comedian Coordinator"
+            "nickname": "孙刘",
+            "职位": "Comedian Coordinator"
         },
         {
             "LinkedIn": NaN,
             "description": "",
             "image": "https://i.imgur.com/WlMNvyL.jpg",
-            "nickname": "\u5c3e\u7fbd",
-            "\u804c\u4f4d": "Comedian Coordinator, Assistant Producer"
+            "nickname": "尾羽",
+            "职位": "Comedian Coordinator, Assistant Producer"
         }
     ],
-    "\u73b0\u573a\u7ec4": [
+    "现场组": [
         {
             "LinkedIn": NaN,
-            "description": "\u6765\uff0c\u4ea4\u4e2a\u670b\u53cb\uff5e",
+            "description": "来，交个朋友～",
             "image": "https://i.imgur.com/7kl1Wl7.jpeg",
-            "nickname": "\u738b\u5b81",
-            "\u804c\u4f4d": "Community Manager, Assistant Producer"
+            "nickname": "王宁",
+            "职位": "Community Manager, Assistant Producer"
         },
         {
             "LinkedIn": NaN,
-            "description": "\u73b0\u573a\uff0c\u540e\u53f0\uff0c\u6742\u52a1\u7b49\u7ba1\u7406\u4eba",
+            "description": "现场，后台，杂务等管理人",
             "image": "https://i.imgur.com/eQEjjyT.jpeg",
-            "nickname": "\u738b\u5e06",
-            "\u804c\u4f4d": "Associate Director of South Bay"
+            "nickname": "王帆",
+            "职位": "Associate Director of South Bay"
         },
         {
             "LinkedIn": NaN,
-            "description": "\u6709\u5fd9\u5c31\u5e2e",
+            "description": "有忙就帮",
             "image": "https://i.imgur.com/KrGcqfC.jpeg",
-            "nickname": "\u9648\u601d",
-            "\u804c\u4f4d": "Assistant Director"
+            "nickname": "陈思",
+            "职位": "Assistant Director"
         }
     ],
-    "\u8fd0\u8425\u7ec4": [
+    "运营组": [
         {
             "LinkedIn": NaN,
-            "description": "\u4e34\u6e0a\u7fa1\u9c7c\uff0c\u4e0d\u5982\u9000\u800c\u7ed3\u7f51\u3002",
+            "description": "临渊羡鱼，不如退而结网。",
             "image": "https://i.imgur.com/fYgpRI6.jpg",
-            "nickname": "\u65e9\u604b",
-            "\u804c\u4f4d": "Producer"
+            "nickname": "早恋",
+            "职位": "Producer"
         },
         {
             "LinkedIn": NaN,
-            "description": "\u6218\u7565/\u5ba3\u53d1/\u5185\u5bb9 etc - \u65e2\u8981\u4ef0\u671b\u661f\u7a7a\uff0c\u4e5f\u8981\u811a\u8e0f\u5b9e\u5730\uff0c\u628a\u7845\u8c37\u8131\u53e3\u79c0\u505a\u5927\u505a\u5f3a\uff01",
+            "description": "战略/宣发/内容 etc - 既要仰望星空，也要脚踏实地，把硅谷脱口秀做大做强！",
             "image": "https://i.imgur.com/O1wpp35.jpg",
-            "nickname": "\u6797\u665a",
-            "\u804c\u4f4d": "Assistant Producer"
+            "nickname": "林晚",
+            "职位": "Assistant Producer"
         }
     ]
 }
