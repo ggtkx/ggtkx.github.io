@@ -1,7 +1,7 @@
 [
     {
         "title": "Aaron",
-        "weight": 92,
+        "weight": 23040113,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -11,13 +11,13 @@
     },
     {
         "title": "kk",
-        "weight": 51,
+        "weight": 25041073,
         "image": "https://i.imgur.com/qGU9ZVD.png",
         "description": "躺着做人，立着说话；耿梗于怀，请君笑纳"
     },
     {
         "title": "昭阳",
-        "weight": 51,
+        "weight": 24052078,
         "image": "https://i.imgur.com/vDhtXX7.jpg",
         "description": "以口为刀，切开白日下的荒谬",
         "contact": [
@@ -30,13 +30,13 @@
     },
     {
         "title": "Yudy",
-        "weight": 42,
+        "weight": 14034057,
         "image": "https://i.imgur.com/BahXJeg.jpg",
         "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。"
     },
     {
         "title": "孙刘",
-        "weight": 39,
+        "weight": 25037062,
         "image": "https://i.imgur.com/fVHIDK4.jpg",
         "description": "过来闹点笑话",
         "contact": [
@@ -45,7 +45,7 @@
     },
     {
         "title": "Tracy",
-        "weight": 38,
+        "weight": 3008042,
         "image": "https://i.imgur.com/EjEYK7y.png",
         "description": "生活=经历 经历=段子 生活=段子",
         "contact": [
@@ -55,7 +55,7 @@
     },
     {
         "title": "尾羽",
-        "weight": 36,
+        "weight": 7020043,
         "image": "https://i.imgur.com/WlMNvyL.jpg",
         "description": "做一只特立独行的猪",
         "contact": [
@@ -65,6 +65,60 @@
         "highlights": [
             "2022年北美校友脱口秀大赛亚军"
         ]
+    },
+    {
+        "title": "贾如",
+        "weight": 3004008,
+        "image": "https://imgur.com/8O9G09v.png",
+        "description": "这世界上没有贾如",
+        "contact": [
+            "小红书：253234734"
+        ]
+    },
+    {
+        "title": "金金子",
+        "weight": 5007008,
+        "image": "https://imgur.com/0V9ErWR.png",
+        "description": "北美脱口秀界最会开车的人没有之一。人送外号“半岛车神”（人=她本人）。"
+    },
+    {
+        "title": "拉图",
+        "weight": 7012012,
+        "image": "https://imgur.com/AipefAi.png",
+        "description": "本人比照片好看，演出比本人好看"
+    },
+    {
+        "title": "麦兜",
+        "weight": 20024024,
+        "image": "https://imgur.com/8K7QXh4.png",
+        "description": "招广告位。",
+        "contact": [
+            "（已租）小红书：[MiMi去哪儿](https://www.xiaohongshu.com/user/profile/5b11c414e8ac2b60bb7608cd)"
+        ]
+    },
+    {
+        "title": "小梅",
+        "weight": 5005005,
+        "image": "https://imgur.com/xFDTCjy.png",
+        "description": "三次元吐槽控，工作是拿射线打肿瘤；二次元追星女，最爱是EXO金珉锡",
+        "contact": [
+            "小红书：西柚柚子梅子"
+        ]
+    },
+    {
+        "title": "雪人",
+        "weight": 7012018,
+        "image": "https://imgur.com/4cGEoZZ.png",
+        "description": "一个理论上不怕冷场的演员，经常努力把场子加热到零度",
+        "contact": [
+            "联系方式：因为不是社交媒体大v，咱只能面对面加wx了"
+        ]
+    },
+    {
+        "title": "Zero",
+        "weight": 7007007,
+        "image": "https://imgur.com/sKJ6upa.png",
+        "description": "我想到了一个特别搞笑的简介，但是这里空白太小我写不下。"
     },
     {
         "title": "早恋",
@@ -78,7 +132,7 @@
     },
     {
         "title": "邵天宇",
-        "weight": 32,
+        "weight": 4008036,
         "image": "https://i.imgur.com/69sSDGi.jpg",
         "description": "曾经是一名脱口秀表演者",
         "contact": [
@@ -101,7 +155,7 @@
     },
     {
         "title": "小企鹅Lisa",
-        "weight": 25,
+        "weight": 2026,
         "image": "https://i.imgur.com/IOg9VMj.png",
         "description": "我是小企鹅Lisa，一个疫情在家，憋出了搞笑功力和厨房破坏术的硅谷螺丝钉。希望可以利用这个机会，把工作生活中好玩的，好笑的，我很糗但是讲出来大家能一起乐一乐的事情分享出来，传递笑声和幸运哦~",
         "contact": [
@@ -110,13 +164,13 @@
     },
     {
         "title": "韩哥",
-        "weight": 24,
+        "weight": 7016032,
         "image": "https://i.imgur.com/6LVWS5L.jpg",
         "description": "硬件工程师"
     },
     {
         "title": "Sean",
-        "weight": 24,
+        "weight": 10023033,
         "image": "https://i.imgur.com/7wHqGIY.jpg",
         "description": "传播淫秽色情",
         "contact": [
@@ -126,7 +180,7 @@
     },
     {
         "title": "Monkey",
-        "weight": 23,
+        "weight": 1023,
         "image": "https://i.imgur.com/rIg21xp.png",
         "description": "想成为带来欢笑和温暖的人。猫狗双全，差一人组成狗男女。大大方方说：我要找男朋友（感谢社长让在这谋私利）",
         "contact": [
@@ -136,7 +190,7 @@
     },
     {
         "title": "枪枪",
-        "weight": 21,
+        "weight": 17026038,
         "image": "https://i.imgur.com/tHbCLHG.jpg",
         "description": "我要一瓶冰冻的可口可乐"
     },
@@ -162,7 +216,7 @@
     },
     {
         "title": "flu",
-        "weight": 16,
+        "weight": 10016024,
         "image": "https://i.imgur.com/0begOOv.jpg",
         "description": "幽默儿神童"
     },
@@ -177,7 +231,7 @@
     },
     {
         "title": "Larry",
-        "weight": 15,
+        "weight": 1014,
         "image": "https://i.imgur.com/KJJz7Ek.png",
         "description": "毁人不倦的中文老湿 从不鸡娃的轮滑教练",
         "contact": [
@@ -195,7 +249,7 @@
     },
     {
         "title": "Richard",
-        "weight": 11,
+        "weight": 24033035,
         "image": "https://i.imgur.com/5sJqcSu.jpg",
         "description": "专讲 Web 3.0 和非 Web 3.0 的笑话",
         "contact": [
@@ -205,9 +259,9 @@
     },
     {
         "title": "世雄",
-        "weight": 9,
+        "weight": 1009,
         "image": "https://i.imgur.com/joQHC7x.jpg",
-        "description": "像rapper，但喜欢脱口秀\n其实还想搞设计。",
+        "description": "像rapper，但喜欢脱口秀。其实还想搞设计。",
         "contact": [
             "Instagram：[northzsx](https://www.instagram.com/northzsx)",
             "网站：[shixiong.design](https://www.shixiong.design)"
@@ -224,7 +278,7 @@
     },
     {
         "title": "丝丝",
-        "weight": 8,
+        "weight": 7,
         "image": "https://i.imgur.com/eCMvhmf.png",
         "description": "不讲脱口秀的时候我都在帮客户抢房子",
         "contact": [
@@ -252,7 +306,7 @@
     },
     {
         "title": "Yuheng",
-        "weight": 7,
+        "weight": 1001008,
         "image": "https://i.imgur.com/fvnSese.jpg",
         "description": "脱口秀疯疯贵妇",
         "contact": [
@@ -271,7 +325,7 @@
     },
     {
         "title": "Emma",
-        "weight": 6,
+        "weight": 7009013,
         "image": "https://i.imgur.com/GjAYqdE.jpg",
         "description": "何时能上脱口秀大会？",
         "contact": [
@@ -295,7 +349,7 @@
     },
     {
         "title": "拉面",
-        "weight": 5,
+        "weight": 4,
         "image": "https://imgur.com/F5p49Uql.png",
         "description": "辩论靠段子，脱口秀靠逻辑。",
         "contact": [
@@ -322,7 +376,7 @@
     },
     {
         "title": "李婉婷",
-        "weight": 4,
+        "weight": 2005,
         "image": "https://i.imgur.com/kJC0nSE.jpg",
         "description": "不为了什么，就为了一时快乐"
     },
@@ -436,7 +490,7 @@
     },
     {
         "title": "贾施汀",
-        "weight": 2,
+        "weight": 1,
         "image": "https://i.imgur.com/17dm7EE.jpg",
         "description": "退堂鼓表演艺术家",
         "contact": [
@@ -474,12 +528,6 @@
         "contact": [
             "Instagram：[ringwring](https://www.instagram.com/ringwring)"
         ]
-    },
-    {
-        "title": "Sky",
-        "weight": 1,
-        "image": "https://i.imgur.com/gUvlV5a.png",
-        "description": "我家有好多事我真的是不吐不快"
     },
     {
         "title": "小V",
