@@ -46,6 +46,7 @@ if __name__ == '__main__':
             + one_year_count.get(name, 0) * 1_000
             + total_count.get(name, 0)
         )
+    comedians.sort(key=lambda c: (-c["weight"], c["title"]))
     with open("comedians.json", "w") as file:
         file.write(json.dumps(comedians, indent=4, ensure_ascii=False) + "\n")
         file.close()

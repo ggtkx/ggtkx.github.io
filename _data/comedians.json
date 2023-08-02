@@ -1,19 +1,18 @@
 [
     {
-        "title": "Aaron",
-        "weight": 23040113,
-        "image": "https://i.imgur.com/puBEgwz.png",
-        "description": "白天演程序员 晚上演脱口秀",
-        "contact": [
-            "B站：[船长夫人与程序员](https://m.bilibili.com/space/81350330?from=video&unique_k=IG0kk2)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mXYPU3Bs9CASsNbHE4d1d1)"
-        ]
-    },
-    {
         "title": "kk",
         "weight": 25041073,
         "image": "https://i.imgur.com/qGU9ZVD.png",
         "description": "躺着做人，立着说话；耿梗于怀，请君笑纳"
+    },
+    {
+        "title": "孙刘",
+        "weight": 25037062,
+        "image": "https://i.imgur.com/fVHIDK4.jpg",
+        "description": "过来闹点笑话",
+        "contact": [
+            "联系方式：可以直接现场问我要"
+        ]
     },
     {
         "title": "昭阳",
@@ -29,29 +28,61 @@
         ]
     },
     {
+        "title": "Richard",
+        "weight": 24033035,
+        "image": "https://i.imgur.com/5sJqcSu.jpg",
+        "description": "专讲 Web 3.0 和非 Web 3.0 的笑话",
+        "contact": [
+            "Twitter：[@laughdao](https://twitter.com/laughdao)",
+            "[YouTube](https://www.youtube.com/channel/UCm0E3ZTzjVoXsoIyDeud8Mw)"
+        ]
+    },
+    {
+        "title": "Aaron",
+        "weight": 23040113,
+        "image": "https://i.imgur.com/puBEgwz.png",
+        "description": "白天演程序员 晚上演脱口秀",
+        "contact": [
+            "B站：[船长夫人与程序员](https://m.bilibili.com/space/81350330?from=video&unique_k=IG0kk2)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mXYPU3Bs9CASsNbHE4d1d1)"
+        ]
+    },
+    {
+        "title": "麦兜",
+        "weight": 20024024,
+        "image": "https://imgur.com/8K7QXh4.png",
+        "description": "招广告位。",
+        "contact": [
+            "（已租）小红书：[MiMi去哪儿](https://www.xiaohongshu.com/user/profile/5b11c414e8ac2b60bb7608cd)"
+        ]
+    },
+    {
+        "title": "枪枪",
+        "weight": 17026038,
+        "image": "https://i.imgur.com/tHbCLHG.jpg",
+        "description": "我要一瓶冰冻的可口可乐"
+    },
+    {
         "title": "Yudy",
         "weight": 14034057,
         "image": "https://i.imgur.com/BahXJeg.jpg",
         "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。"
     },
     {
-        "title": "孙刘",
-        "weight": 25037062,
-        "image": "https://i.imgur.com/fVHIDK4.jpg",
-        "description": "过来闹点笑话",
+        "title": "Sean",
+        "weight": 10023033,
+        "image": "https://i.imgur.com/7wHqGIY.jpg",
+        "description": "传播淫秽色情",
         "contact": [
-            "联系方式：可以直接现场问我要"
+            "[播客](https://www.xiaoyuzhoufm.com/podcast/620b1cd24baddcbc4cbc13ce)",
+            "即刻：[Sean羊王](https://okjk.co/NdOs3t)"
         ]
     },
     {
-        "title": "Tracy",
-        "weight": 3008042,
-        "image": "https://i.imgur.com/EjEYK7y.png",
-        "description": "生活=经历 经历=段子 生活=段子",
-        "contact": [
-            "微信：51423369",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
-        ]
+        "title": "flu",
+        "weight": 10016024,
+        "image": "https://i.imgur.com/0begOOv.jpg",
+        "description": "幽默儿神童"
     },
     {
         "title": "尾羽",
@@ -67,43 +98,10 @@
         ]
     },
     {
-        "title": "贾如",
-        "weight": 3004008,
-        "image": "https://imgur.com/8O9G09v.png",
-        "description": "这世界上没有贾如",
-        "contact": [
-            "小红书：253234734"
-        ]
-    },
-    {
-        "title": "金金子",
-        "weight": 5007008,
-        "image": "https://imgur.com/0V9ErWR.png",
-        "description": "北美脱口秀界最会开车的人没有之一。人送外号“半岛车神”（人=她本人）。"
-    },
-    {
-        "title": "拉图",
-        "weight": 7012012,
-        "image": "https://imgur.com/AipefAi.png",
-        "description": "本人比照片好看，演出比本人好看"
-    },
-    {
-        "title": "麦兜",
-        "weight": 20024024,
-        "image": "https://imgur.com/8K7QXh4.png",
-        "description": "招广告位。",
-        "contact": [
-            "（已租）小红书：[MiMi去哪儿](https://www.xiaohongshu.com/user/profile/5b11c414e8ac2b60bb7608cd)"
-        ]
-    },
-    {
-        "title": "小梅",
-        "weight": 5005005,
-        "image": "https://imgur.com/xFDTCjy.png",
-        "description": "三次元吐槽控，工作是拿射线打肿瘤；二次元追星女，最爱是EXO金珉锡",
-        "contact": [
-            "小红书：西柚柚子梅子"
-        ]
+        "title": "韩哥",
+        "weight": 7016032,
+        "image": "https://i.imgur.com/6LVWS5L.jpg",
+        "description": "硬件工程师"
     },
     {
         "title": "雪人",
@@ -115,19 +113,39 @@
         ]
     },
     {
+        "title": "拉图",
+        "weight": 7012012,
+        "image": "https://imgur.com/AipefAi.png",
+        "description": "本人比照片好看，演出比本人好看"
+    },
+    {
+        "title": "Emma",
+        "weight": 7009013,
+        "image": "https://i.imgur.com/GjAYqdE.jpg",
+        "description": "何时能上脱口秀大会？",
+        "contact": [
+            "微博：[爱看展的Emma隋薰](https://weibo.com/n/%E7%88%B1%E7%9C%8B%E5%B1%95%E7%9A%84Emma%E9%9A%8B%E8%96%B0)"
+        ]
+    },
+    {
         "title": "Zero",
         "weight": 7007007,
         "image": "https://imgur.com/sKJ6upa.png",
         "description": "我想到了一个特别搞笑的简介，但是这里空白太小我写不下。"
     },
     {
-        "title": "早恋",
-        "weight": 33,
-        "image": "https://i.imgur.com/mSfLTWx.png",
-        "description": "临渊羡鱼，不如退而结网。",
+        "title": "金金子",
+        "weight": 5007008,
+        "image": "https://imgur.com/0V9ErWR.png",
+        "description": "北美脱口秀界最会开车的人没有之一。人送外号“半岛车神”（人=她本人）。"
+    },
+    {
+        "title": "小梅",
+        "weight": 5005005,
+        "image": "https://imgur.com/xFDTCjy.png",
+        "description": "三次元吐槽控，工作是拿射线打肿瘤；二次元追星女，最爱是EXO金珉锡",
         "contact": [
-            "Clubhouse ID：zaolian",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kfwyDcL__VQKNpVFw3SLSy)"
+            "小红书：西柚柚子梅子"
         ]
     },
     {
@@ -144,13 +162,31 @@
         ]
     },
     {
-        "title": "龚老板",
-        "weight": 29,
-        "image": "https://i.imgur.com/19pCCdn.png",
-        "description": "一只迷茫的，在观众和自己快乐之间挣扎的，把脱口秀说得像相声，把相声说得像脱口秀的，蹿上台的观众。",
+        "title": "Tracy",
+        "weight": 3008042,
+        "image": "https://i.imgur.com/EjEYK7y.png",
+        "description": "生活=经历 经历=段子 生活=段子",
         "contact": [
-            "微信：gillgong109",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nQYyTkiyPCD4Ajx6iH9lyH)"
+            "微信：51423369",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
+        ]
+    },
+    {
+        "title": "贾如",
+        "weight": 3004008,
+        "image": "https://imgur.com/8O9G09v.png",
+        "description": "这世界上没有贾如",
+        "contact": [
+            "小红书：253234734"
+        ]
+    },
+    {
+        "title": "Yuheng",
+        "weight": 1001008,
+        "image": "https://i.imgur.com/fvnSese.jpg",
+        "description": "脱口秀疯疯贵妇",
+        "contact": [
+            "Instagram：[hengzairenee](https://www.instagram.com/hengzairenee)"
         ]
     },
     {
@@ -163,20 +199,10 @@
         ]
     },
     {
-        "title": "韩哥",
-        "weight": 7016032,
-        "image": "https://i.imgur.com/6LVWS5L.jpg",
-        "description": "硬件工程师"
-    },
-    {
-        "title": "Sean",
-        "weight": 10023033,
-        "image": "https://i.imgur.com/7wHqGIY.jpg",
-        "description": "传播淫秽色情",
-        "contact": [
-            "[播客](https://www.xiaoyuzhoufm.com/podcast/620b1cd24baddcbc4cbc13ce)",
-            "即刻：[Sean羊王](https://okjk.co/NdOs3t)"
-        ]
+        "title": "李婉婷",
+        "weight": 2005,
+        "image": "https://i.imgur.com/kJC0nSE.jpg",
+        "description": "不为了什么，就为了一时快乐"
     },
     {
         "title": "Monkey",
@@ -189,10 +215,44 @@
         ]
     },
     {
-        "title": "枪枪",
-        "weight": 17026038,
-        "image": "https://i.imgur.com/tHbCLHG.jpg",
-        "description": "我要一瓶冰冻的可口可乐"
+        "title": "Larry",
+        "weight": 1014,
+        "image": "https://i.imgur.com/KJJz7Ek.png",
+        "description": "毁人不倦的中文老湿 从不鸡娃的轮滑教练",
+        "contact": [
+            "[俺的学校](https://www.sanjoselearningcenter.com)",
+            "小红书：Valley Skating Club"
+        ]
+    },
+    {
+        "title": "世雄",
+        "weight": 1009,
+        "image": "https://i.imgur.com/joQHC7x.jpg",
+        "description": "像rapper，但喜欢脱口秀。其实还想搞设计。",
+        "contact": [
+            "Instagram：[northzsx](https://www.instagram.com/northzsx)",
+            "网站：[shixiong.design](https://www.shixiong.design)"
+        ]
+    },
+    {
+        "title": "早恋",
+        "weight": 33,
+        "image": "https://i.imgur.com/mSfLTWx.png",
+        "description": "临渊羡鱼，不如退而结网。",
+        "contact": [
+            "Clubhouse ID：zaolian",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kfwyDcL__VQKNpVFw3SLSy)"
+        ]
+    },
+    {
+        "title": "龚老板",
+        "weight": 29,
+        "image": "https://i.imgur.com/19pCCdn.png",
+        "description": "一只迷茫的，在观众和自己快乐之间挣扎的，把脱口秀说得像相声，把相声说得像脱口秀的，蹿上台的观众。",
+        "contact": [
+            "微信：gillgong109",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nQYyTkiyPCD4Ajx6iH9lyH)"
+        ]
     },
     {
         "title": "方圆",
@@ -215,12 +275,6 @@
         ]
     },
     {
-        "title": "flu",
-        "weight": 10016024,
-        "image": "https://i.imgur.com/0begOOv.jpg",
-        "description": "幽默儿神童"
-    },
-    {
         "title": "小朱",
         "weight": 15,
         "image": "https://i.imgur.com/gSysgyB.png",
@@ -230,41 +284,11 @@
         ]
     },
     {
-        "title": "Larry",
-        "weight": 1014,
-        "image": "https://i.imgur.com/KJJz7Ek.png",
-        "description": "毁人不倦的中文老湿 从不鸡娃的轮滑教练",
-        "contact": [
-            "[俺的学校](https://www.sanjoselearningcenter.com)",
-            "小红书：Valley Skating Club"
-        ]
-    },
-    {
         "title": "大头丁",
         "weight": 13,
         "image": "https://i.imgur.com/Xy2m0g3.jpg",
         "contact": [
             "微信公众号：艺术喵喵（ID：yishumiaomiao）"
-        ]
-    },
-    {
-        "title": "Richard",
-        "weight": 24033035,
-        "image": "https://i.imgur.com/5sJqcSu.jpg",
-        "description": "专讲 Web 3.0 和非 Web 3.0 的笑话",
-        "contact": [
-            "Twitter：[@laughdao](https://twitter.com/laughdao)",
-            "[YouTube](https://www.youtube.com/channel/UCm0E3ZTzjVoXsoIyDeud8Mw)"
-        ]
-    },
-    {
-        "title": "世雄",
-        "weight": 1009,
-        "image": "https://i.imgur.com/joQHC7x.jpg",
-        "description": "像rapper，但喜欢脱口秀。其实还想搞设计。",
-        "contact": [
-            "Instagram：[northzsx](https://www.instagram.com/northzsx)",
-            "网站：[shixiong.design](https://www.shixiong.design)"
         ]
     },
     {
@@ -277,15 +301,6 @@
         ]
     },
     {
-        "title": "丝丝",
-        "weight": 7,
-        "image": "https://i.imgur.com/eCMvhmf.png",
-        "description": "不讲脱口秀的时候我都在帮客户抢房子",
-        "contact": [
-            "小红书：丝丝去哪儿"
-        ]
-    },
-    {
         "title": "詹姆斯",
         "weight": 8,
         "image": "https://i.imgur.com/gTRZYM0.png",
@@ -295,22 +310,12 @@
         ]
     },
     {
-        "title": "萌萌",
+        "title": "丝丝",
         "weight": 7,
-        "image": "https://imgur.com/pFidyoJ.png",
-        "description": "中年妇女。",
+        "image": "https://i.imgur.com/eCMvhmf.png",
+        "description": "不讲脱口秀的时候我都在帮客户抢房子",
         "contact": [
-            "抖音：@gongsunmengmeng",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34l9rKebmdwPUeB6oOMZWh9K)"
-        ]
-    },
-    {
-        "title": "Yuheng",
-        "weight": 1001008,
-        "image": "https://i.imgur.com/fvnSese.jpg",
-        "description": "脱口秀疯疯贵妇",
-        "contact": [
-            "Instagram：[hengzairenee](https://www.instagram.com/hengzairenee)"
+            "小红书：丝丝去哪儿"
         ]
     },
     {
@@ -324,12 +329,13 @@
         ]
     },
     {
-        "title": "Emma",
-        "weight": 7009013,
-        "image": "https://i.imgur.com/GjAYqdE.jpg",
-        "description": "何时能上脱口秀大会？",
+        "title": "萌萌",
+        "weight": 7,
+        "image": "https://imgur.com/pFidyoJ.png",
+        "description": "中年妇女。",
         "contact": [
-            "微博：[爱看展的Emma隋薰](https://weibo.com/n/%E7%88%B1%E7%9C%8B%E5%B1%95%E7%9A%84Emma%E9%9A%8B%E8%96%B0)"
+            "抖音：@gongsunmengmeng",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34l9rKebmdwPUeB6oOMZWh9K)"
         ]
     },
     {
@@ -348,6 +354,23 @@
         ]
     },
     {
+        "title": "Abby",
+        "weight": 4,
+        "image": "https://i.imgur.com/w2Js0nc.jpg",
+        "description": "不揽瓷器活，何来金刚钻。",
+        "contact": [
+            "Instagram：[abbyyy_3](https://www.instagram.com/abbyyy_3)"
+        ]
+    },
+    {
+        "title": "Jack",
+        "weight": 4,
+        "image": "https://i.imgur.com/bb66MWl.png",
+        "contact": [
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34lsvzXfHS9NyGFr-i6m0jhm)"
+        ]
+    },
+    {
         "title": "拉面",
         "weight": 4,
         "image": "https://imgur.com/F5p49Uql.png",
@@ -357,12 +380,12 @@
         ]
     },
     {
-        "title": "Abby",
+        "title": "睡不醒",
         "weight": 4,
-        "image": "https://i.imgur.com/w2Js0nc.jpg",
-        "description": "不揽瓷器活，何来金刚钻。",
+        "image": "https://i.imgur.com/ZO4EMEq.png",
+        "description": "早恋你为什么总针对我喷垃圾话？",
         "contact": [
-            "Instagram：[abbyyy_3](https://www.instagram.com/abbyyy_3)"
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34lOFq1S6g1zTcySvmTKmilC)"
         ]
     },
     {
@@ -375,26 +398,22 @@
         ]
     },
     {
-        "title": "李婉婷",
-        "weight": 2005,
-        "image": "https://i.imgur.com/kJC0nSE.jpg",
-        "description": "不为了什么，就为了一时快乐"
-    },
-    {
-        "title": "Jack",
-        "weight": 4,
-        "image": "https://i.imgur.com/bb66MWl.png",
+        "title": "何能能",
+        "weight": 3,
+        "image": "https://i.imgur.com/JjRvHRC.png",
+        "description": "就是很能",
         "contact": [
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34lsvzXfHS9NyGFr-i6m0jhm)"
+            "社交媒体：直接报我身份证号吧",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nI6fSKtRGr3Fuu-3EgYq9C)"
         ]
     },
     {
-        "title": "睡不醒",
-        "weight": 4,
-        "image": "https://i.imgur.com/ZO4EMEq.png",
-        "description": "早恋你为什么总针对我喷垃圾话？",
+        "title": "啫喱",
+        "weight": 3,
+        "image": "https://i.imgur.com/UGOkTdy.jpg",
+        "description": "想走红若干年最后红的只有发色",
         "contact": [
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34lOFq1S6g1zTcySvmTKmilC)"
+            "Instagram：[jer_xaccentgrave](https://www.instagram.com/jer_xaccentgrave)"
         ]
     },
     {
@@ -413,12 +432,12 @@
         ]
     },
     {
-        "title": "啫喱",
+        "title": "尹航",
         "weight": 3,
-        "image": "https://i.imgur.com/UGOkTdy.jpg",
-        "description": "想走红若干年最后红的只有发色",
+        "image": "https://i.imgur.com/AikgWGF.png",
+        "description": "2012年赴美上山下乡；2014年分配到加州参加工作；2020年开始随硅谷脱口文工团进行慰问演出",
         "contact": [
-            "Instagram：[jer_xaccentgrave](https://www.instagram.com/jer_xaccentgrave)"
+            "知乎：[hang yin](http://www.zhihu.com/people/hang-yin-72-38)"
         ]
     },
     {
@@ -431,38 +450,15 @@
         ]
     },
     {
-        "title": "何能能",
-        "weight": 3,
-        "image": "https://i.imgur.com/JjRvHRC.png",
-        "description": "就是很能",
-        "contact": [
-            "社交媒体：直接报我身份证号吧",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nI6fSKtRGr3Fuu-3EgYq9C)"
-        ]
-    },
-    {
-        "title": "尹航",
-        "weight": 3,
-        "image": "https://i.imgur.com/AikgWGF.png",
-        "description": "2012年赴美上山下乡；2014年分配到加州参加工作；2020年开始随硅谷脱口文工团进行慰问演出",
-        "contact": [
-            "知乎：[hang yin](http://www.zhihu.com/people/hang-yin-72-38)"
-        ]
-    },
-    {
         "title": "赵老师",
         "weight": 3,
         "image": "https://i.imgur.com/mznM741.png",
         "description": "我哦，开开心心最重要！"
     },
     {
-        "title": "小马哥",
+        "title": "Chloe",
         "weight": 2,
-        "image": "https://i.imgur.com/2padEEg.jpg",
-        "description": "我的生活很甜，需要喝黑咖啡来找点苦。",
-        "contact": [
-            "小红书：1069782970"
-        ]
+        "image": "https://i.imgur.com/B60VWOE.png"
     },
     {
         "title": "Frankie",
@@ -471,6 +467,15 @@
         "description": "不好笑？那就忍一忍。",
         "contact": [
             "小红书：425269388"
+        ]
+    },
+    {
+        "title": "小马哥",
+        "weight": 2,
+        "image": "https://i.imgur.com/2padEEg.jpg",
+        "description": "我的生活很甜，需要喝黑咖啡来找点苦。",
+        "contact": [
+            "小红书：1069782970"
         ]
     },
     {
@@ -489,35 +494,12 @@
         ]
     },
     {
-        "title": "贾施汀",
-        "weight": 1,
-        "image": "https://i.imgur.com/17dm7EE.jpg",
-        "description": "退堂鼓表演艺术家",
-        "contact": [
-            "Instagram：[lilyoungjs88](https://www.instagram.com/lilyoungjs88)"
-        ]
-    },
-    {
-        "title": "Chloe",
-        "weight": 2,
-        "image": "https://i.imgur.com/B60VWOE.png"
-    },
-    {
         "title": "jinn",
         "weight": 1,
         "image": "https://i.imgur.com/0p0xsKo.jpg",
         "description": "就这么着吧（这句就不用了）",
         "contact": [
             "LinkedIn：[Jin Liu](https://www.linkedin.com/in/jin-liu-a5b697140)"
-        ]
-    },
-    {
-        "title": "戴智开",
-        "weight": 1,
-        "image": "https://i.imgur.com/M7wFRow.png",
-        "description": "我在东部有时差，你们先多说说",
-        "contact": [
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34lycgQpv2fHfXef0ZZ1FViH)"
         ]
     },
     {
@@ -545,6 +527,24 @@
         "description": "跟我走吧，天亮就出发",
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nGUew6HQb2e9WlfbaNWK9M)"
+        ]
+    },
+    {
+        "title": "戴智开",
+        "weight": 1,
+        "image": "https://i.imgur.com/M7wFRow.png",
+        "description": "我在东部有时差，你们先多说说",
+        "contact": [
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34lycgQpv2fHfXef0ZZ1FViH)"
+        ]
+    },
+    {
+        "title": "贾施汀",
+        "weight": 1,
+        "image": "https://i.imgur.com/17dm7EE.jpg",
+        "description": "退堂鼓表演艺术家",
+        "contact": [
+            "Instagram：[lilyoungjs88](https://www.instagram.com/lilyoungjs88)"
         ]
     },
     {
