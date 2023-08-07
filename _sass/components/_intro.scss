@@ -31,13 +31,12 @@
     font-family: $font-family-base;
   }
   p {
-    width: 100%;
     font-size: 1.2rem;
     font-weight: light;
     line-height: 1.5;
     color: $steel;
     @include media-breakpoint-up(md) {
-      width: 100%;
+      width: 80%;
     }
   }
 }
