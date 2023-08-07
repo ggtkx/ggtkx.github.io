@@ -24,6 +24,12 @@ permalink: /
 
 &nbsp;
 
+## 2023夏季精品秀
+
+{% include jpx.html %}
+
+&nbsp;
+
 ## 开放麦
 
 {% include call.html show_button=true labels=site.data.l10n.cn %}
