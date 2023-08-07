@@ -1,22 +1,13 @@
 [
     {
         "title": "kk",
-        "weight": 25041073,
+        "weight": 25040074,
         "image": "https://i.imgur.com/qGU9ZVD.png",
         "description": "躺着做人，立着说话；耿梗于怀，请君笑纳"
     },
     {
-        "title": "孙刘",
-        "weight": 25037062,
-        "image": "https://i.imgur.com/fVHIDK4.jpg",
-        "description": "过来闹点笑话",
-        "contact": [
-            "联系方式：可以直接现场问我要"
-        ]
-    },
-    {
         "title": "昭阳",
-        "weight": 24052078,
+        "weight": 24051079,
         "image": "https://i.imgur.com/vDhtXX7.jpg",
         "description": "以口为刀，切开白日下的荒谬",
         "contact": [
@@ -28,8 +19,17 @@
         ]
     },
     {
+        "title": "孙刘",
+        "weight": 24038063,
+        "image": "https://i.imgur.com/fVHIDK4.jpg",
+        "description": "过来闹点笑话",
+        "contact": [
+            "联系方式：可以直接现场问我要"
+        ]
+    },
+    {
         "title": "Richard",
-        "weight": 24033035,
+        "weight": 24033036,
         "image": "https://i.imgur.com/5sJqcSu.jpg",
         "description": "专讲 Web 3.0 和非 Web 3.0 的笑话",
         "contact": [
@@ -39,7 +39,7 @@
     },
     {
         "title": "Aaron",
-        "weight": 23040113,
+        "weight": 22040114,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -49,7 +49,7 @@
     },
     {
         "title": "麦兜",
-        "weight": 20024024,
+        "weight": 20025025,
         "image": "https://imgur.com/8K7QXh4.png",
         "description": "招广告位。",
         "contact": [
@@ -58,25 +58,15 @@
     },
     {
         "title": "枪枪",
-        "weight": 17026038,
+        "weight": 16024038,
         "image": "https://i.imgur.com/tHbCLHG.jpg",
         "description": "我要一瓶冰冻的可口可乐"
     },
     {
         "title": "Yudy",
-        "weight": 14034057,
+        "weight": 13032057,
         "image": "https://i.imgur.com/BahXJeg.jpg",
         "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。"
-    },
-    {
-        "title": "Sean",
-        "weight": 10023033,
-        "image": "https://i.imgur.com/7wHqGIY.jpg",
-        "description": "传播淫秽色情",
-        "contact": [
-            "[播客](https://www.xiaoyuzhoufm.com/podcast/620b1cd24baddcbc4cbc13ce)",
-            "即刻：[Sean羊王](https://okjk.co/NdOs3t)"
-        ]
     },
     {
         "title": "flu",
@@ -85,8 +75,18 @@
         "description": "幽默儿神童"
     },
     {
+        "title": "Sean",
+        "weight": 8022033,
+        "image": "https://i.imgur.com/7wHqGIY.jpg",
+        "description": "传播淫秽色情",
+        "contact": [
+            "[播客](https://www.xiaoyuzhoufm.com/podcast/620b1cd24baddcbc4cbc13ce)",
+            "即刻：[Sean羊王](https://okjk.co/NdOs3t)"
+        ]
+    },
+    {
         "title": "尾羽",
-        "weight": 7020043,
+        "weight": 8020044,
         "image": "https://i.imgur.com/WlMNvyL.jpg",
         "description": "做一只特立独行的猪",
         "contact": [
@@ -98,33 +98,18 @@
         ]
     },
     {
-        "title": "韩哥",
-        "weight": 7016032,
-        "image": "https://i.imgur.com/6LVWS5L.jpg",
-        "description": "硬件工程师"
-    },
-    {
-        "title": "雪人",
-        "weight": 7012018,
-        "image": "https://imgur.com/4cGEoZZ.png",
-        "description": "一个理论上不怕冷场的演员，经常努力把场子加热到零度",
-        "contact": [
-            "联系方式：因为不是社交媒体大v，咱只能面对面加wx了"
-        ]
-    },
-    {
         "title": "拉图",
-        "weight": 7012012,
+        "weight": 8013013,
         "image": "https://imgur.com/AipefAi.png",
         "description": "本人比照片好看，演出比本人好看"
     },
     {
-        "title": "Emma",
-        "weight": 7009013,
-        "image": "https://i.imgur.com/GjAYqdE.jpg",
-        "description": "积极向上的怨妇",
+        "title": "雪人",
+        "weight": 7012019,
+        "image": "https://imgur.com/4cGEoZZ.png",
+        "description": "一个理论上不怕冷场的演员，经常努力把场子加热到零度",
         "contact": [
-            "微博：[爱看展的Emma隋薰](https://weibo.com/n/%E7%88%B1%E7%9C%8B%E5%B1%95%E7%9A%84Emma%E9%9A%8B%E8%96%B0)"
+            "联系方式：因为不是社交媒体大v，咱只能面对面加wx了"
         ]
     },
     {
@@ -134,18 +119,18 @@
         "description": "我想到了一个特别搞笑的简介，但是这里空白太小我写不下。"
     },
     {
-        "title": "金金子",
-        "weight": 5007008,
-        "image": "https://imgur.com/0V9ErWR.png",
-        "description": "北美脱口秀界最会开车的人没有之一。人送外号“半岛车神”（人=她本人）。"
+        "title": "韩哥",
+        "weight": 6017033,
+        "image": "https://i.imgur.com/6LVWS5L.jpg",
+        "description": "硬件工程师"
     },
     {
-        "title": "小梅",
-        "weight": 5005005,
-        "image": "https://imgur.com/xFDTCjy.png",
-        "description": "三次元吐槽控，工作是拿射线打肿瘤；二次元追星女，最爱是EXO金珉锡",
+        "title": "Emma",
+        "weight": 6009013,
+        "image": "https://i.imgur.com/GjAYqdE.jpg",
+        "description": "积极向上的怨妇",
         "contact": [
-            "小红书：西柚柚子梅子"
+            "微博：[爱看展的Emma隋薰](https://weibo.com/n/%E7%88%B1%E7%9C%8B%E5%B1%95%E7%9A%84Emma%E9%9A%8B%E8%96%B0)"
         ]
     },
     {
@@ -162,22 +147,37 @@
         ]
     },
     {
+        "title": "金金子",
+        "weight": 4007008,
+        "image": "https://imgur.com/0V9ErWR.png",
+        "description": "北美脱口秀界最会开车的人没有之一。人送外号“半岛车神”（人=她本人）。"
+    },
+    {
+        "title": "小梅",
+        "weight": 4005005,
+        "image": "https://imgur.com/xFDTCjy.png",
+        "description": "三次元吐槽控，工作是拿射线打肿瘤；二次元追星女，最爱是EXO金珉锡",
+        "contact": [
+            "小红书：西柚柚子梅子"
+        ]
+    },
+    {
+        "title": "贾如",
+        "weight": 3003008,
+        "image": "https://imgur.com/8O9G09v.png",
+        "description": "这世界上没有贾如",
+        "contact": [
+            "小红书：253234734"
+        ]
+    },
+    {
         "title": "Tracy",
-        "weight": 3008042,
+        "weight": 2008042,
         "image": "https://i.imgur.com/EjEYK7y.png",
         "description": "生活=经历 经历=段子 生活=段子",
         "contact": [
             "微信：51423369",
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
-        ]
-    },
-    {
-        "title": "贾如",
-        "weight": 3004008,
-        "image": "https://imgur.com/8O9G09v.png",
-        "description": "这世界上没有贾如",
-        "contact": [
-            "小红书：253234734"
         ]
     },
     {
