@@ -6,22 +6,6 @@ intro_image: "/images/illustrations/door.svg"
 intro_image_hide_on_mobile: true
 ---
 
-# 2023夏季精品秀
-
-## 什么是精品秀
-
-从我们每周五的众多次开放麦中选出优秀的演员和段子，进行每人10-15分钟表演，在专业的剧场舞台上为您呈现。主持人与演员名单请关注硅谷脱口秀小红书和微信公众号。
-
-## 演出信息
-
-时间：2023年8月26日，19:30
-
-地点：Cubberley Theatre
-
-地址：4120 Middlefield Rd, Palo Alto, CA 94306
-
-购票链接：[请点这里](https://www.eventbrite.com/e/fun-2023-tickets-688906978317)
-
 # 开放麦
 
 ## 形式介绍
