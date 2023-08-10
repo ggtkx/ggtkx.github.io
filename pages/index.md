@@ -36,6 +36,8 @@ permalink: /
 - 每三个月左右一次的高质量精品秀演出；
 - 不定期邀请海内外知名脱口秀演员来到湾区举办主打秀或个人专场。
 
+&nbsp;
+
 欢迎在线上关注我们！
 
 - 小红书号：[ggtkx_org](https://www.xiaohongshu.com/user/profile/5c0c79410000000006003274)
