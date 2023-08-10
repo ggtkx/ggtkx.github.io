@@ -12,7 +12,7 @@ permalink: /
 
 ## 2023夏季精品秀
 
-![夏季精品秀](https://i.imgur.com/TGSdJbg.png)
+![夏季精品秀](https://i.imgur.com/Fze9LEw.png)
 
 {% include jpx.html %}
 
