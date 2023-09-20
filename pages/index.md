@@ -10,6 +10,14 @@ permalink: /
 ---
 &nbsp;
 
+## 喜剧嘉年华
+
+![喜剧嘉年华](https://i.imgur.com/G6NmdIr.png)
+
+{% include jpx.html %}
+
+&nbsp;
+
 ## 开放麦
 
 {% include call.html show_button=true labels=site.data.l10n.cn %}
