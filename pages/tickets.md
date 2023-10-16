@@ -37,37 +37,5 @@ intro_image_hide_on_mobile: true
 7. 演出最后会有演员和观众合影环节，照片可能会用于硅谷脱口秀的社交媒体宣传。
 8. 硅谷脱口秀保留拒绝为任何人服务的权利。
 
-# 2023秋季喜剧嘉年华
-
-本次嘉年华由三场大型演出组成，大家可以任意按需选择。注意：13日与15日演出地址不同哦！
-
-## 10月13日PreParty狂欢夜
-
-时间：20:00-22:00
-
-地点：Tabard Theatre, 29 N San Pedro St, San Jose, CA 95110
-
-如果你还在想喜剧嘉年华到底是什么，如果你对某些喜剧形式依旧陌生，如果你想跟演员们近距离接触，如果你想拥有一个快乐开心的周五晚上来开启周末，来PreParty就对了！所有专场演员将逐一登场用表演介绍自己，把快乐填满剧场。与演员零距离的美式脱口秀剧场，轻松的场地氛围，所有观众还将获得PreParty专属入场手环。（13日演出内容与15日演出内容完全不同哦！）
-
-## 10月15日泛喜剧专场
-
-时间：15:00-17:00
-
-地点：Cubberley Theatre，4120 Middlefield Rd, Palo Alto, CA 94306
-
-魔术、相声、短剧等多种喜剧形式，开心麻花签约演员，中戏毕业话剧女王，师承国内相声名家的相声王牌，世界魔术师协会注册专业魔术师，两个小时的快乐炸弹，与你一起笑个够！
-
-## 10月15日脱口秀专场
-
-时间：19:00-21:00
-
-地点：Cubberley Theatre，4120 Middlefield Rd, Palo Alto, CA 94306
-
-来自纽约、波士顿、温哥华、多伦多和硅谷的北美中文脱口秀天团，巅峰集结，爆笑出发，Cubberley老地方不见不散！
-
-## 我该怎么购票？
-
-购票链接：[请点这里](https://www.eventbrite.com/e/718346121587)
-
 [py]: https://www.pandyfoundation.org/causes
 [c3]: https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations
