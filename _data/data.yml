@@ -21,6 +21,8 @@ main:
     url: "/about/"
   - name: "English"
     url: "/english/"
+  - name: "中文"
+    url: "/"
   - name: "活动购票"
     url: "https://www.eventbrite.com/e/2023-tickets-661472922317?aff=ebdssbdestsearch"
     call-to-action: true
