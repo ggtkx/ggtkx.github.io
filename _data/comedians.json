@@ -1,16 +1,7 @@
 [
     {
-        "title": "孙刘",
-        "weight": 24040068,
-        "image": "https://i.imgur.com/fVHIDK4.jpg",
-        "description": "过来闹点笑话",
-        "contact": [
-            "联系方式：可以直接现场问我要"
-        ]
-    },
-    {
         "title": "昭阳",
-        "weight": 23049085,
+        "weight": 24045092,
         "image": "https://i.imgur.com/vDhtXX7.jpg",
         "description": "以口为刀，切开白日下的荒谬",
         "contact": [
@@ -23,7 +14,7 @@
     },
     {
         "title": "Richard",
-        "weight": 23032040,
+        "weight": 24039047,
         "image": "https://i.imgur.com/5sJqcSu.jpg",
         "description": "专讲 Web 3.0 和非 Web 3.0 的笑话",
         "contact": [
@@ -32,24 +23,17 @@
         ]
     },
     {
-        "title": "Aaron",
-        "weight": 22038119,
-        "image": "https://i.imgur.com/puBEgwz.png",
-        "description": "白天演程序员 晚上演脱口秀",
+        "title": "孙刘",
+        "weight": 18037073,
+        "image": "https://i.imgur.com/fVHIDK4.jpg",
+        "description": "过来闹点笑话",
         "contact": [
-            "B站：[船长夫人与程序员](https://m.bilibili.com/space/81350330?from=video&unique_k=IG0kk2)",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mXYPU3Bs9CASsNbHE4d1d1)"
+            "联系方式：可以直接现场问我要"
         ]
     },
     {
-        "title": "kk",
-        "weight": 20037077,
-        "image": "https://i.imgur.com/qGU9ZVD.png",
-        "description": "躺着做人，立着说话；耿梗于怀，请君笑纳"
-    },
-    {
         "title": "麦兜",
-        "weight": 17029029,
+        "weight": 17030033,
         "image": "https://imgur.com/8K7QXh4.png",
         "description": "招广告位。",
         "contact": [
@@ -58,7 +42,7 @@
     },
     {
         "title": "尾羽",
-        "weight": 13018049,
+        "weight": 16017053,
         "image": "https://i.imgur.com/WlMNvyL.jpg",
         "description": "做一只特立独行的猪",
         "contact": [
@@ -70,14 +54,24 @@
         ]
     },
     {
-        "title": "枪枪",
-        "weight": 11022039,
-        "image": "https://i.imgur.com/tHbCLHG.jpg",
-        "description": "我要一瓶冰冻的可口可乐"
+        "title": "Aaron",
+        "weight": 15032120,
+        "image": "https://i.imgur.com/puBEgwz.png",
+        "description": "白天演程序员 晚上演脱口秀",
+        "contact": [
+            "B站：[船长夫人与程序员](https://m.bilibili.com/space/81350330?from=video&unique_k=IG0kk2)",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34mXYPU3Bs9CASsNbHE4d1d1)"
+        ]
+    },
+    {
+        "title": "kk",
+        "weight": 12030078,
+        "image": "https://i.imgur.com/qGU9ZVD.png",
+        "description": "躺着做人，立着说话；耿梗于怀，请君笑纳"
     },
     {
         "title": "雪人",
-        "weight": 11017025,
+        "weight": 12019029,
         "image": "https://imgur.com/4cGEoZZ.png",
         "description": "一个理论上不怕冷场的演员，经常努力把场子加热到零度",
         "contact": [
@@ -85,41 +79,8 @@
         ]
     },
     {
-        "title": "Yudy",
-        "weight": 8024057,
-        "image": "https://i.imgur.com/BahXJeg.jpg",
-        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。"
-    },
-    {
-        "title": "Kaki",
-        "weight": 7014022,
-        "image": "https://i.imgur.com/jh7gs6M.png",
-        "description": "人生是旷野，野马是我。",
-        "contact": [
-            "小红书：Kaki今天玩什么"
-        ]
-    },
-    {
-        "title": "Zero",
-        "weight": 7009009,
-        "image": "https://imgur.com/sKJ6upa.png",
-        "description": "我想到了一个特别搞笑的简介，但是这里空白太小我写不下。"
-    },
-    {
-        "title": "拉图",
-        "weight": 6014015,
-        "image": "https://imgur.com/AipefAi.png",
-        "description": "本人比照片好看，演出比本人好看"
-    },
-    {
-        "title": "韩哥",
-        "weight": 5012033,
-        "image": "https://i.imgur.com/6LVWS5L.jpg",
-        "description": "硬件工程师"
-    },
-    {
         "title": "小梅",
-        "weight": 5008008,
+        "weight": 6009009,
         "image": "https://imgur.com/xFDTCjy.png",
         "description": "三次元吐槽控，工作是拿射线打肿瘤；二次元追星女，最爱是EXO金珉锡",
         "contact": [
@@ -127,14 +88,41 @@
         ]
     },
     {
-        "title": "flu",
-        "weight": 4013024,
-        "image": "https://i.imgur.com/0begOOv.jpg",
-        "description": "幽默儿神童"
+        "title": "Kaki",
+        "weight": 5012022,
+        "image": "https://i.imgur.com/jh7gs6M.png",
+        "description": "人生是旷野，野马是我。",
+        "contact": [
+            "小红书：Kaki今天玩什么"
+        ]
+    },
+    {
+        "title": "拉图",
+        "weight": 5012016,
+        "image": "https://imgur.com/AipefAi.png",
+        "description": "本人比照片好看，演出比本人好看"
+    },
+    {
+        "title": "Zero",
+        "weight": 5009009,
+        "image": "https://imgur.com/sKJ6upa.png",
+        "description": "我想到了一个特别搞笑的简介，但是这里空白太小我写不下。"
+    },
+    {
+        "title": "枪枪",
+        "weight": 3022041,
+        "image": "https://i.imgur.com/tHbCLHG.jpg",
+        "description": "我要一瓶冰冻的可口可乐"
+    },
+    {
+        "title": "Yudy",
+        "weight": 3017057,
+        "image": "https://i.imgur.com/BahXJeg.jpg",
+        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。"
     },
     {
         "title": "隋薰",
-        "weight": 4009014,
+        "weight": 3009015,
         "image": "https://i.imgur.com/GjAYqdE.jpg",
         "description": "积极向上的怨妇",
         "contact": [
@@ -143,7 +131,7 @@
     },
     {
         "title": "Sean",
-        "weight": 3017033,
+        "weight": 2014035,
         "image": "https://i.imgur.com/7wHqGIY.jpg",
         "description": "传播淫秽色情",
         "contact": [
@@ -152,8 +140,30 @@
         ]
     },
     {
+        "title": "韩哥",
+        "weight": 2011033,
+        "image": "https://i.imgur.com/6LVWS5L.jpg",
+        "description": "硬件工程师"
+    },
+    {
+        "title": "flu",
+        "weight": 2010024,
+        "image": "https://i.imgur.com/0begOOv.jpg",
+        "description": "幽默儿神童"
+    },
+    {
+        "title": "Tracy",
+        "weight": 2004042,
+        "image": "https://i.imgur.com/EjEYK7y.png",
+        "description": "生活=经历 经历=段子 生活=段子",
+        "contact": [
+            "微信：51423369",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
+        ]
+    },
+    {
         "title": "邵天宇",
-        "weight": 2007036,
+        "weight": 1005036,
         "image": "https://i.imgur.com/69sSDGi.jpg",
         "description": "曾经是一名脱口秀表演者",
         "contact": [
@@ -165,29 +175,10 @@
         ]
     },
     {
-        "title": "Tracy",
-        "weight": 2006042,
-        "image": "https://i.imgur.com/EjEYK7y.png",
-        "description": "生活=经历 经历=段子 生活=段子",
-        "contact": [
-            "微信：51423369",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
-        ]
-    },
-    {
         "title": "金金子",
-        "weight": 1007008,
+        "weight": 6008,
         "image": "https://imgur.com/0V9ErWR.png",
         "description": "北美脱口秀界最会开车的人没有之一。人送外号“半岛车神”（人=她本人）。"
-    },
-    {
-        "title": "Yuheng",
-        "weight": 1001008,
-        "image": "https://i.imgur.com/fvnSese.jpg",
-        "description": "脱口秀疯疯贵妇",
-        "contact": [
-            "Instagram：[hengzairenee](https://www.instagram.com/hengzairenee)"
-        ]
     },
     {
         "title": "贾如",
@@ -199,10 +190,13 @@
         ]
     },
     {
-        "title": "李婉婷",
-        "weight": 1005,
-        "image": "https://i.imgur.com/kJC0nSE.jpg",
-        "description": "不为了什么，就为了一时快乐"
+        "title": "Yuheng",
+        "weight": 1008,
+        "image": "https://i.imgur.com/fvnSese.jpg",
+        "description": "脱口秀疯疯贵妇",
+        "contact": [
+            "Instagram：[hengzairenee](https://www.instagram.com/hengzairenee)"
+        ]
     },
     {
         "title": "早恋",
@@ -361,6 +355,12 @@
         "contact": [
             "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34kg_t2ZChitJHYOJDokYSqB)"
         ]
+    },
+    {
+        "title": "李婉婷",
+        "weight": 5,
+        "image": "https://i.imgur.com/kJC0nSE.jpg",
+        "description": "不为了什么，就为了一时快乐"
     },
     {
         "title": "Abby",
