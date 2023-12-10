@@ -4,21 +4,27 @@
   {% assign mainmenu = site.data.data.main %}
   <ul class="nav nav-pills">
     {% for item in mainmenu %}
-      {% if item.url %}
+      {% if item.icon %}
         <li class="{% if item.url == page.url %}active{% endif %}">
-          <a href="{{ item.url | relative_url }}" class="{% if item.call-to-action %}button{% endif %}">{{ item.name }}</a>
+          <a href="{{ item.url | relative_url }}" class="material-icons">language</a>
         </li>
       {% else %}
-        <li class="nav-item dropdown">
-          <a class="dropdown-toggle" data-bs-toggle="dropdown" role="button">{{ item.name }}</a>
-          <ul class="dropdown-menu">
-            {% for subitem in item.items %}
-              <li>
-                <a class="dropdown-item {% if subitem.url == page.url %}active{% endif %}" href="{{ subitem.url | relative_url }}">{{ subitem.name }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </li>
+        {% if item.url %}
+          <li class="{% if item.url == page.url %}active{% endif %}">
+            <a href="{{ item.url | relative_url }}" class="{% if item.call-to-action %}button{% endif %}">{{ item.name }}</a>
+          </li>
+        {% else %}
+          <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" role="button">{{ item.name }}</a>
+            <ul class="dropdown-menu">
+              {% for subitem in item.items %}
+                <li>
+                  <a class="dropdown-item {% if subitem.url == page.url %}active{% endif %}" href="{{ subitem.url | relative_url }}">{{ subitem.name }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </ul>
