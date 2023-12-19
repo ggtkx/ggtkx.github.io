@@ -1,7 +1,17 @@
 [
     {
+        "title": "Richard",
+        "weight": 24039050,
+        "image": "https://i.imgur.com/5sJqcSu.jpg",
+        "description": "专讲 Web 3.0 和非 Web 3.0 的笑话",
+        "contact": [
+            "Twitter：[@laughdao](https://twitter.com/laughdao)",
+            "[YouTube](https://www.youtube.com/channel/UCm0E3ZTzjVoXsoIyDeud8Mw)"
+        ]
+    },
+    {
         "title": "昭阳",
-        "weight": 24045092,
+        "weight": 23046095,
         "image": "https://i.imgur.com/vDhtXX7.jpg",
         "description": "以口为刀，切开白日下的荒谬",
         "contact": [
@@ -13,31 +23,12 @@
         ]
     },
     {
-        "title": "Richard",
-        "weight": 24039047,
-        "image": "https://i.imgur.com/5sJqcSu.jpg",
-        "description": "专讲 Web 3.0 和非 Web 3.0 的笑话",
-        "contact": [
-            "Twitter：[@laughdao](https://twitter.com/laughdao)",
-            "[YouTube](https://www.youtube.com/channel/UCm0E3ZTzjVoXsoIyDeud8Mw)"
-        ]
-    },
-    {
         "title": "孙刘",
-        "weight": 18037073,
+        "weight": 17039076,
         "image": "https://i.imgur.com/fVHIDK4.jpg",
         "description": "过来闹点笑话",
         "contact": [
             "联系方式：可以直接现场问我要"
-        ]
-    },
-    {
-        "title": "麦兜",
-        "weight": 17030033,
-        "image": "https://imgur.com/8K7QXh4.png",
-        "description": "招广告位。",
-        "contact": [
-            "（已租）小红书：[MiMi去哪儿](https://www.xiaohongshu.com/user/profile/5b11c414e8ac2b60bb7608cd)"
         ]
     },
     {
@@ -55,7 +46,7 @@
     },
     {
         "title": "Aaron",
-        "weight": 15032120,
+        "weight": 15032122,
         "image": "https://i.imgur.com/puBEgwz.png",
         "description": "白天演程序员 晚上演脱口秀",
         "contact": [
@@ -64,19 +55,28 @@
         ]
     },
     {
-        "title": "kk",
-        "weight": 12030078,
-        "image": "https://i.imgur.com/qGU9ZVD.png",
-        "description": "躺着做人，立着说话；耿梗于怀，请君笑纳"
+        "title": "麦兜",
+        "weight": 15031035,
+        "image": "https://imgur.com/8K7QXh4.png",
+        "description": "招广告位。",
+        "contact": [
+            "（已租）小红书：[MiMi去哪儿](https://www.xiaohongshu.com/user/profile/5b11c414e8ac2b60bb7608cd)"
+        ]
     },
     {
         "title": "雪人",
-        "weight": 12019029,
+        "weight": 12018029,
         "image": "https://imgur.com/4cGEoZZ.png",
         "description": "一个理论上不怕冷场的演员，经常努力把场子加热到零度",
         "contact": [
             "联系方式：因为不是社交媒体大v，咱只能面对面加wx了"
         ]
+    },
+    {
+        "title": "kk",
+        "weight": 10030078,
+        "image": "https://i.imgur.com/qGU9ZVD.png",
+        "description": "躺着做人，立着说话；耿梗于怀，请君笑纳"
     },
     {
         "title": "小梅",
@@ -88,8 +88,18 @@
         ]
     },
     {
+        "title": "Sean",
+        "weight": 5015038,
+        "image": "https://i.imgur.com/7wHqGIY.jpg",
+        "description": "传播淫秽色情",
+        "contact": [
+            "[播客](https://www.xiaoyuzhoufm.com/podcast/620b1cd24baddcbc4cbc13ce)",
+            "即刻：[Sean羊王](https://okjk.co/NdOs3t)"
+        ]
+    },
+    {
         "title": "Kaki",
-        "weight": 5012022,
+        "weight": 5012024,
         "image": "https://i.imgur.com/jh7gs6M.png",
         "description": "人生是旷野，野马是我。",
         "contact": [
@@ -98,27 +108,21 @@
     },
     {
         "title": "拉图",
-        "weight": 5012016,
+        "weight": 5011016,
         "image": "https://imgur.com/AipefAi.png",
         "description": "本人比照片好看，演出比本人好看"
     },
     {
         "title": "Zero",
-        "weight": 5009009,
+        "weight": 4009009,
         "image": "https://imgur.com/sKJ6upa.png",
         "description": "我想到了一个特别搞笑的简介，但是这里空白太小我写不下。"
     },
     {
         "title": "枪枪",
-        "weight": 3022041,
+        "weight": 3020041,
         "image": "https://i.imgur.com/tHbCLHG.jpg",
         "description": "我要一瓶冰冻的可口可乐"
-    },
-    {
-        "title": "Yudy",
-        "weight": 3017057,
-        "image": "https://i.imgur.com/BahXJeg.jpg",
-        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。"
     },
     {
         "title": "隋薰",
@@ -130,40 +134,26 @@
         ]
     },
     {
-        "title": "Sean",
-        "weight": 2014035,
-        "image": "https://i.imgur.com/7wHqGIY.jpg",
-        "description": "传播淫秽色情",
-        "contact": [
-            "[播客](https://www.xiaoyuzhoufm.com/podcast/620b1cd24baddcbc4cbc13ce)",
-            "即刻：[Sean羊王](https://okjk.co/NdOs3t)"
-        ]
-    },
-    {
-        "title": "韩哥",
-        "weight": 2011033,
-        "image": "https://i.imgur.com/6LVWS5L.jpg",
-        "description": "硬件工程师"
-    },
-    {
         "title": "flu",
         "weight": 2010024,
         "image": "https://i.imgur.com/0begOOv.jpg",
         "description": "幽默儿神童"
     },
     {
-        "title": "Tracy",
-        "weight": 2004042,
-        "image": "https://i.imgur.com/EjEYK7y.png",
-        "description": "生活=经历 经历=段子 生活=段子",
-        "contact": [
-            "微信：51423369",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
-        ]
+        "title": "韩哥",
+        "weight": 2008033,
+        "image": "https://i.imgur.com/6LVWS5L.jpg",
+        "description": "硬件工程师"
+    },
+    {
+        "title": "Yudy",
+        "weight": 1014057,
+        "image": "https://i.imgur.com/BahXJeg.jpg",
+        "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。"
     },
     {
         "title": "邵天宇",
-        "weight": 1005036,
+        "weight": 1004036,
         "image": "https://i.imgur.com/69sSDGi.jpg",
         "description": "曾经是一名脱口秀表演者",
         "contact": [
@@ -175,8 +165,18 @@
         ]
     },
     {
+        "title": "Tracy",
+        "weight": 1003042,
+        "image": "https://i.imgur.com/EjEYK7y.png",
+        "description": "生活=经历 经历=段子 生活=段子",
+        "contact": [
+            "微信：51423369",
+            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
+        ]
+    },
+    {
         "title": "金金子",
-        "weight": 6008,
+        "weight": 5008,
         "image": "https://imgur.com/0V9ErWR.png",
         "description": "北美脱口秀界最会开车的人没有之一。人送外号“半岛车神”（人=她本人）。"
     },
