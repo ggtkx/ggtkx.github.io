@@ -1,6 +1,17 @@
 .intro {
-  align-items: center;
-  background: url('https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638942437/zgzg-io-website/WechatIMG869_k2uxam.jpg');
+  background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1702241275/zgzg-io-website/2024%E6%98%A5%E6%99%9A/%E4%B8%BB%E8%A7%86%E8%A7%89%E7%BB%88%E7%A8%BF1118_%E6%A8%AA%E7%89%88_%E8%8A%B1%E7%BA%B903_p65nad.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media screen and (max-width: 760px) {
+    background: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1702241275/zgzg-io-website/2024%E6%98%A5%E6%99%9A/%E4%B8%BB%E8%A7%86%E8%A7%89-%E7%BD%91%E9%A1%B5%E7%89%88_xudisv.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  height: 100vh;
+  width: 100vw;
+  //align-items: center;
+  
   background-position: center;
   background-size: cover;
   color: $white;
