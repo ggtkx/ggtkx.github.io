@@ -1,0 +1,20 @@
+ytVideos:
+  - title: 2023 兔年春晚
+    url: https://www.youtube.com/embed/MHJdObJ79To?si=OhVPgNBLj70c-Mnw
+    status: active
+
+  - title: 2022 虎年春晚
+    url: https://www.youtube.com/embed/SJfTForjDwI?si=Vnc4FWxO5zBkC4s3
+    status:
+
+  - title: 2021 牛年春晚
+    url: https://www.youtube.com/embed/Og79WYH9cLA?si=PEAsEnER9kwcYbMe
+    status:
+
+  - title: 2020 鼠年春晚
+    url: https://www.youtube.com/embed/LdGWNI6whfY?si=j77Vxdx6CQgtNX-S
+    status:
+
+  - title: 2018 狗年春晚
+    url: https://www.youtube.com/embed/6XtOXfPGvlM?si=_P8HBE2-q2gY0L11
+    status:

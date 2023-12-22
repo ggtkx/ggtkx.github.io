@@ -160,3 +160,36 @@ layout: default
         </div>
     </div>
 </div>
+<div id="ytVideos" class="tab-content" style="padding:30px 0;">
+    <div class="row">
+        <div class="col pb-3 text-center">
+            <h1 class="underline">往年视频</h1>
+        </div>
+    </div>
+    <div class="container text-center">
+
+        <div id="ytCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+                {% for ytVideo in site.data.past-ytVideos.ytVideos %}
+
+                    <div class="carousel-item carousel-card {{ ytVideo.status }}">
+                        <iframe src="{{ ytVideo.url }}"></iframe>
+                        <div>{{ ytVideo.title }}</div>
+                    </div>
+                {% endfor %}
+
+              <!-- Add more carousel items as needed -->
+            </div>
+            <a class="carousel-control-prev" href="#ytCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#ytCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+          </div>
+        
+    </div>
+</div>
+
+
