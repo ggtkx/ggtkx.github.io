@@ -49,7 +49,7 @@ programmes:
     button-text: YouTube 频道
   - name: 一饱演福
     image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659910251/zgzg-io-website/%E4%BA%91%E9%9B%86/1_fivcxb.png
-    description: 戏剧/表演爱好者相互交流，共同创作，共同成长的平台。我们会定期举行线上/线下话剧 or 表演相关的活动。
+    description: 戏剧、表演爱好者相互交流，共同创作、共同成长的平台。我们会定期举行线上线下话剧或表演相关的活动。
     button-url: /ybyf/
     button-text: 往期精选
   - name: 书影婆娑
@@ -65,7 +65,7 @@ programmes:
 
 programmes_chunwan:
   - name: 春节晚会
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670660722/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/%E8%AF%9A-%E6%96%B9%E4%B9%89%E9%92%A2-3_8508_blehcz.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1702274633/show_09_kwndgx.jpg
     description: 承袭自2015年Google春晚，现面向整个湾区。由200余名主要来自湾区高科技公司的志愿者和演员耗时半年精心打造，是湾区规模最大，观众最多，最具硅谷特色的春节晚会。
     button-url: /gala/
     button-text: 详情
@@ -75,7 +75,7 @@ programmes_chunwan:
     button-url: /singer/
     button-text: 详情
   - name: 游园会
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670563167/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E5%85%B3%E4%BA%8E%E6%98%A5%E8%8A%82%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%89%AA%E5%BD%B1/IMG_0779_idi6tx.jpg
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1702274981/Screenshot_2023-12-10_at_10.06.48_PM_yvytdi.jpg
     description: 春联，剪纸，书法，糖画，汉服，诗词，小舞台，为湾区华人朋友们打造一个最具有中华传统的特色游园会。完全免费，尤其适合家庭，让孩子们体验中国文化。
     button-url: /tour/
     button-text: 详情

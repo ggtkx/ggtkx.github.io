@@ -69,9 +69,43 @@
     line-height: 32px;
   }
 
+  .header-color-darkenred {
+    color: darken($primary, 10%);
+  }
+
+  .custom-text-style {
+    .b {
+      font-weight: 5000;
+    }
+    color: darken($primary, 10%);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
   .home-section-content {
     margin: auto;
     width: 60%;
+  }
+
+  .home-section-content_top {
+    margin: auto;
+    width: 80%;
+    font-size: 20px;
+    .row {
+      .col {
+        width: 50%
+      }
+      .col_2 {
+        width: 50%
+      }
+    }
+  }
+
+  @media (max-width: 720px) {
+    .home-section-content_top {
+      width: 80vw; /*this makes the container take 80% of the viewport's width*/
+    }
   }
 }
 
