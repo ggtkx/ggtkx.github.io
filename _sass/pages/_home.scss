@@ -3,11 +3,12 @@
 }
 
 .sponsor-image>img,
-.friend-image>a>img {
+.friend-image>img {
     width: 100%;
     aspect-ratio: 1;
-    padding: 1.5em;
-    vertical-align: text-bottom;
+    padding: 0.5em;
+    vertical-align: top;
+    margin-top: -1.2em;
 }
 
 .strip:nth-child(even) {

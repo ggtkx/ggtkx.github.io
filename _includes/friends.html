@@ -1,0 +1,20 @@
+<div class="wrapper_grid">
+    <div class="one">
+        <div class="friend friend-summary">
+            <div class="friend-content">
+                {% if friend.image %}
+                <div class="friend-image">
+                    <img alt="{{ friend.image }}" src="{{ friend.image }}"/>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="two">
+        <h3>{{ friend.name }}</h3>
+        <p class="friend-description">{{ friend.description }}</p>
+    </div>
+    <div class="three">
+        <a class="btn btn-secondary btn-md" href="{{ friend.website }}">{{ "更多详情" }}</a>
+    </div>
+</div>
