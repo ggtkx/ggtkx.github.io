@@ -1,23 +1,33 @@
 ---
 layout: default
 ---
-<div class="hero p-4 p-md-8 p-lg-10" style="background-image: url(https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1638942437/zgzg-io-website/WechatIMG869_k2uxam.jpg)">
-    <div class="hero-content">
-        <h1>
-            2023 载歌载谷春晚
-        </h1>
-        <h2>
-            时间：2023 年 1 月 21 日（周六） 7-10PM PST （6PM 开始入场）
-        </h2>
-        <h2>
-            地点：<a href="https://goo.gl/maps/3UJLFuwnhkT2QcMW7">San Jose Center for Performing Arts</a>, 255 S Almaden Blvd, San Jose, CA
-        </h2>
-        <div class="row button-grid pt-4">
-            <div class="col button-grid">
-                <a class="btn btn-primary btn-lg tab-links" href="{{.site.data.data.gala_ticket_link}}">点击购票</a>
-            </div>
-            <div class="col button-grid">
-                <a class="btn btn-secondary btn-lg tab-links" href="https://drive.google.com/file/d/1heoiaaPu0fb0qfgXBei6HIqyJsTdBRYU/view?usp=share_link">观众手册</a>
+<div class="hero"></div>
+    <div class="container pt-4">
+        <div class="container">
+            <div class="home-section-header">
+                <div class="home-section-content_top">
+                    <div class="row"><h2 class="header-color-darkenred pb-3 text-start">2024龙年 载歌在谷 春晚</h2></div>    
+                    <div class="row">
+                        <div class="col text-start">
+                            <p class="custom-text-style"> <b>时间:</b> 2024年1月20日 周六</p>
+                            <p class="custom-text-style"> <b>地点:</b> San Jose Center for Performing Arts</p>
+                        </div>
+                        <div class="col_2">
+                            <a class="btn btn-secondary btn-sm mb-1" href="/gala"> 
+                                <span class="material-symbols-outlined">
+                                    download
+                                </span>
+                                <span>观众手册</span>
+                            </a>
+                            <a class="btn btn-sm btn-bg-darkened mb-1" href="https://zgzg.li/2024-ticket">
+                                <span class="material-symbols-outlined">
+                                    confirmation_number
+                                </span>
+                                <span>活动购票</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -25,12 +35,13 @@ layout: default
 <!-- Tab links -->
 <div class="tab">
     <button class="tab-links default-open" onclick="openTab(event)" data-tab-group="main" data-tab-id="about-gala">关于春晚</button>
-    <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="show-and-host-signup">节目介绍</button>
+    <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="shows-info">节目介绍</button>
     <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="gala-day">春晚当天</button>
     <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="buy-ticket">活动购票</button>
+    <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="ytVideos">往年视频</button>
 </div>
 <div id="about-gala" class="tab-content">
-    <div class="container pt-6 pb-6">
+    <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
         <div class="row">
             <div class="col pb-3 text-center">
                 <h1 class="underline">关于 载歌在谷 春晚</h1>
@@ -39,72 +50,79 @@ layout: default
         <p class="black">
             载歌在谷春晚自2015年来已经连续举办了10届，受到社会各界尤其是北美华人圈的广泛关注，合作媒体包括吃货小分队，新浪微博，星岛电台星电视，美国中文电台，美国中文电视，喜马拉雅等。我们的春晚还接连登上了CCTV4，作为海外华人的代表给全球华人拜年，影响颇广。
         </p>
+
         <div class="container text-center pt-3">
             <div class="row gala-text-grid">
-                <div class="col gala-text-grid">100进16</div>
-                <div class="col gala-text-grid">50进6</div>
+                <div class="col gala-text-grid">70进20</div>
+                <div class="col gala-text-grid">20进6</div>
                 <div class="col gala-text-grid">150+</div>
                 <div class="col gala-text-grid">150+</div>
             </div>
             <div class="row gala-text-grid">
-                <div class="col gala-text-grid-content">节目甄选</div>
-                <div class="col gala-text-grid-content">主持人甄选</div>
+                <div class="col gala-text-grid-content">节目选拔</div>
+                <div class="col gala-text-grid-content">主持人选拔</div>
                 <div class="col gala-text-grid-content">志愿者</div>
                 <div class="col gala-text-grid-content">演职人员</div>
             </div>
         </div>
-        <div class="pb-6">
-        </div>
-        <div class="container text-center pb-6">
-            <div class="row gala-text-grid">
-                <div class="col gala-text-grid">10+</div>
-                <div class="col gala-text-grid">20+</div>
-                <div class="col gala-text-grid">7大</div>
-                <div class="col gala-text-grid">73万</div>
-            </div>
-            <div class="row gala-text-grid">
-                <div class="col gala-text-grid-content">媒体合作宣传</div>
-                <div class="col gala-text-grid-content">赞助商及合作伙伴</div>
-                <div class="col gala-text-grid-content">社交媒体运营</div>
-                <div class="col gala-text-grid-content">宣传浏览量</div>
-            </div>
-        </div>
-<div id="gala-day" class="tab-content">
+    </div>
+</div>
+<div id="shows-info" class="tab-content">
     <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
 <!--        <img style="display: block; margin-left: auto; margin-right: auto; width: 160px;" src="https://res.cloudinary.com/zaigezaigu/image/upload/v1670297802/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/e6cae4eea00ebcc78f46d37aef65e1c_hshqnm.png" />-->
 <!--        <p class="pt-6" style="font-size: 24px; color: #949494;">2023年春晚正在精心筹备中，更多详情敬请期待！</p>-->
         {% include galalist.html %}
     </div>
 </div>
-<div id="buy-ticket" class="tab-content">
+<div id="gala-day" class="tab-content">
     <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
         <div class="row">
             <div class="col pb-3 text-center">
-                <h1 class="underline">晚会介绍</h1>
+                <h1 class="underline">春晚当天</h1>
             </div>
         </div>
-        <p class="black">
-            2023 “载歌在谷”春晚及游园系列活动将于 1 月 21 日在能容纳 2600 人的 San Jose Center for the Performing Arts 举行。本次春晚由 100 余名志愿者耗时 5 个月为观众朋友们精心打造。本次春晚得到了湾区各界演出团体的大力支持，共接到数百个节目的报名，并从中精选出数个精彩绝伦的表演节目，呈现给大家。
-        </p>
-        <p class="black">
-            北美最大华人电商亚米携手载歌在谷给大家送福利！使用“ZGZG10”独家code即可获得首单满10减10的优惠！过年好物、美食家居，通通上亚米一站解决！湾区用户可享次日寄达！https://bit.ly/3gQGEPh        </p>
-        </p>
-        <div class="row" style="margin-top:80px">
+        <div class="container text-center pt-3">
+            <div class="row gala-text-grid">
+                <div class="col gala-text-grid"><span class="material-symbols-outlined" style="font-size:50px;">event</span></div>
+                <div class="col gala-text-grid"><span class="material-symbols-outlined" style="font-size:50px;">location_on</span></div>
+                <div class="col gala-text-grid"><span class="material-symbols-outlined" style="font-size:50px;">local_parking</span></div>
+
+            </div>
+            <div class="row gala-text-grid">
+                <div class="col gala-text-grid" style="font-size: 24px !important;">演出时间</div>
+                <div class="col gala-text-grid" style="font-size: 24px !important;">演出地点</div>
+                <div class="col gala-text-grid" style="font-size: 24px !important;">停车信息</div>
+            </div>
+            <div class="row gala-text-grid pt-2">
+                <div class="col black">
+                    2024年1月20日</br>
+                    6:00 pm 开门检票</br>
+                    7:00 - 9:30 pm 正式演出
+                </div>
+                <div class="col black">San Jose Center for the Performing Arts</div>
+                <div class="col black">请自行选择附近大型停车场或使用SpotHero预定位置</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="buy-ticket" class="tab-content">
+    <div class="container pt-3 pb-3 pt-md-6 pb-md-6">
+        <div class="row">
             <div class="col pb-3 text-center">
-                <h1 class="underline">购票常见问题</h1>
+                <h1 class="underline">活动购票&常见问题</h1>
             </div>
         </div>
         <div id="faq" class="faq-text">
             <p>问: 载歌在谷春晚对观众的年龄有限制吗？</p>
             <p>答：春晚对观众的年龄没有限制，因为采用一座一票，票号和座位号对应的制度，所有儿童(含三岁以下)必须凭票入场。观众可凭需求通过 Eventbrite 购买残疾人专座。</p>
             <p>问: 今年门票价位如何？</p>
-            <p>答: 本次晚会实行阶梯票价，共提供 $65、$45、$25，$15 四种票价，购票时可在座位图上选择适合您的座位。</p>
+            <p>答: 本次晚会实行阶梯票价，共提供 $28、$38、$48、$68 四种票价，购票时可在座位图上选择适合您的座位。</p>
             <p>问：门票有手续费吗？</p>
             <p>答：我们使用 Eventbrite 平台售票。Eventbrite 会收取大约 3% 的手续费，且退票时无法退还。</p>
             <p>问：今年有早鸟折扣吗？如何使用？</p>
-            <p>答：今年我们仍然会提供8折早鸟折扣码: <code>zgzg-early-bird</code>, 次数不限，在 1 月 8 日及之前均可使用。</p>
+            <p>答：请关注载歌在谷公众号的最新消息</p>
             <p>问：退票政策是什么？</p>
-            <p>答：您可以在 2023 年 1 月 14 日（含）之前，您可以无条件退票，在购票确认页点击“refund”即可。注意：Eventbrite 手续费无法退还。在此之后，您将不可以退票。</p>
+            <p>答：您可以在 2024 年 1 月 15 日（含）之前，您可以无条件退票，在购票确认页点击“refund”即可。注意：Eventbrite 手续费无法退还。在此之后，您将不可以退票。</p>
             <p>问：我需要打印门票吗？</p>
             <p>答：不需要，电子版门票即可。出于环保原因，我们建议您将门票二维码存在手机中，方便入场检票。</p>
             <p>问：我的门票可以转让予他人吗？</p>
@@ -131,43 +149,20 @@ layout: default
             <p>问：我有更多问题，需要联系谁？</p>
             <p>答：请发邮件至：contact-us@zgzg.io。</p>
         </div>
-        <div class="row">
-            <div class="col pb-3 text-center">
-                <h1 class="underline">购票链接</h1>
-            </div>
-        </div>
-        <div id="buy-button" class="button" style="margin-top:0px; margin-bottom: 100px;"> <a href="{{.site.data.data.gala_ticket_link}}" style="color:white;">点击购票</a></div>
-        <div class="row">
-            <div class="col pb-3 text-center">
-                <h1 class="underline">春晚赞助商</h1>
-            </div>
-        </div>
         <div id="sponsor">
             <div class="sponsor-gala-combined">
                 <img src=" https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671774523/zgzg-io-website/%E8%B5%9E%E5%8A%A9/zanzhu_eqycr5.png" />
             </div>
         </div>
-        <p class="py-5"></p>
+    </div>  
+</div>
+<div id="ytVideos" class="tab-content">
+    <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
         <div class="row">
             <div class="col pb-3 text-center">
-                <h1 class="underline">春晚海报</h1>
+                <h1 class="underline">往年视频</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="sponsor-gala-combined">
-                <img src="https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671771084/zgzg-io-website/2023%E6%98%A5%E6%99%9A/ZGZG-2023%E5%85%94%E5%B9%B4-%E6%B5%B7%E6%8A%A52_vu1hqp.jpg" />
-            </div>
-        </div>
-    </div>
-</div>
-<div id="ytVideos" class="tab-content" style="padding:30px 0;">
-    <div class="row">
-        <div class="col pb-3 text-center">
-            <h1 class="underline">往年视频</h1>
-        </div>
-    </div>
-    <div class="container text-center">
-
         <div id="ytCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
 
@@ -187,9 +182,31 @@ layout: default
             <a class="carousel-control-next" href="#ytCarousel" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </a>
-          </div>
-        
+        </div>
     </div>
 </div>
+
+<script>
+    /**
+     * Opens a specific tab and updates the tab content visibility.
+     *
+     * @param {Event} evt - The click event triggered by the tab button.
+     */
+    function openTab(evt) {
+    const tabContents = document.getElementsByClassName('tab-content');
+    for (const tabContent of tabContents) {
+        tabContent.style.display = 'none';
+    }
+    const tabLinks = document.getElementsByClassName('tab-links');
+    for (const tabLink of tabLinks) {
+        tabLink.classList.remove('active');
+    }
+    const tabName = evt.currentTarget.dataset.tabId;
+    document.getElementById(tabName).style.display = 'block';
+    evt.currentTarget.className += ' active';
+    }
+</script>
+
+
 
 

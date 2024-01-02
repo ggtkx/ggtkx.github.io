@@ -467,6 +467,10 @@ h2.gala-heading {
     color: black;
 }
 
+#faq p:nth-child(even) {
+    margin-top: -1rem !important;
+}
+
 #eb-overlay {
     background-color: rgba(0, 0, 0, 0.5);
     /* Sit on top of the page content */
@@ -489,27 +493,6 @@ h2.gala-heading {
     /* Add a pointer on hover */
 }
 
-#buy-button {
-    cursor: pointer;
-    display: block;
-    font-size: 2em;
-    height: auto;
-    margin: 50px auto;
-    padding: 0.5em;
-    text-align: center;
-    width: 200px;
-}
-
-#buy-button-english {
-    cursor: pointer;
-    display: block;
-    font-size: 2em;
-    height: auto;
-    margin: 50px auto;
-    padding: 0.5em;
-    text-align: center;
-    width: 350px;
-}
 
 #close-overlay {
     background-color: $white;
@@ -577,10 +560,18 @@ p.black-p {
     justify-content: center;
 }
 
-.banner-bg-gold{
+.banner-bg-gold {
     background-color: $light-gold;
 }
 
-.banner-text-red{
+.banner-text-red {
     color: $primary-shade-3;
+}
+
+.btn-bg-darkened {
+    @include button-variant($primary,$primary);
+}
+
+.btn > span {
+    vertical-align: middle;
 }

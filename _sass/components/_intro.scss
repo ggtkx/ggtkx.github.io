@@ -6,8 +6,9 @@
     background-size: cover;
     background-position: center;  
   }
-  
+
   min-height: 90vh;
+
   background-position: center;
   background-size: cover;
   color: $white;
@@ -90,10 +91,10 @@
     font-size: 20px;
     .row {
       .col {
-        width: 50%
+        width: 60%
       }
       .col_2 {
-        width: 50%
+        width: 40%
       }
     }
   }
