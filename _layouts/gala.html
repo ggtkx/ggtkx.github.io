@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="hero"></div>
+<div class="hero gala-bg"></div>
     <div class="container pt-4">
         <div class="container">
             <div class="home-section-header">
@@ -13,13 +13,13 @@ layout: default
                             <p class="custom-text-style"> <b>地点:</b> San Jose Center for Performing Arts</p>
                         </div>
                         <div class="col_2">
-                            <a class="btn btn-secondary btn-sm mb-1" href="/gala"> 
+                            <a class="btn btn-secondary btn-sm mb-1" style="min-width: 120px;" href="/gala"> 
                                 <span class="material-symbols-outlined">
                                     download
                                 </span>
                                 <span>观众手册</span>
                             </a>
-                            <a class="btn btn-sm btn-bg-darkened mb-1" href="https://zgzg.li/2024-ticket">
+                            <a class="btn btn-sm btn-bg-darkened mb-1" style="min-width: 120px;" href="{{.site.data.data.gala_ticket_link}}">
                                 <span class="material-symbols-outlined">
                                     confirmation_number
                                 </span>
@@ -185,28 +185,6 @@ layout: default
         </div>
     </div>
 </div>
-
-<script>
-    /**
-     * Opens a specific tab and updates the tab content visibility.
-     *
-     * @param {Event} evt - The click event triggered by the tab button.
-     */
-    function openTab(evt) {
-    const tabContents = document.getElementsByClassName('tab-content');
-    for (const tabContent of tabContents) {
-        tabContent.style.display = 'none';
-    }
-    const tabLinks = document.getElementsByClassName('tab-links');
-    for (const tabLink of tabLinks) {
-        tabLink.classList.remove('active');
-    }
-    const tabName = evt.currentTarget.dataset.tabId;
-    document.getElementById(tabName).style.display = 'block';
-    evt.currentTarget.className += ' active';
-    }
-</script>
-
 
 
 

@@ -49,3 +49,24 @@ if (currentUrl.includes('/english/')) {
   // hide chinese link
   chineseLink.style.display = 'none';
 }
+
+
+/**
+ * Opens a specific tab and updates the tab content visibility.
+ *
+ * @param {Event} evt - The click event triggered by the tab button.
+ */
+function openTab(evt) {
+  const tabContents = document.getElementsByClassName('tab-content');
+  for (const tabContent of tabContents) {
+      tabContent.style.display = 'none';
+  }
+  const tabLinks = document.getElementsByClassName('tab-links');
+  for (const tabLink of tabLinks) {
+      tabLink.classList.remove('active');
+  }
+  const tabName = evt.currentTarget.dataset.tabId;
+  document.getElementById(tabName).style.display = 'block';
+  evt.currentTarget.className += ' active';
+}
+
