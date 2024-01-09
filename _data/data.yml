@@ -18,10 +18,10 @@ main:
     url: "/"
     icon: true
   - name: "活动购票"
-    url: "https://zgzg.li/2024-ticket-website"
+    url: "https://kutt.it/2024-ticket-website"
     call-to-action: true
 
-gala_ticket_link: "https://zgzg.li/2024-ticket-website"
+gala_ticket_link: "https://kutt.it/2024-ticket-website"
 
 special_events:
   - name: 《载歌在谷》历年春晚回眸
