@@ -76,11 +76,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <div class="strip">
-  <div class="container" id="sponsors">
+  <!-- <div class="container pt-6" id="sponsors">
+    remove comment and endcomment to restore sponsors if needed
+    {% comment %}
     {% assign sponsor_type = site.data.data-sponsor.sponsor-home %}
     {% include sponsor-template.html %}
+    {% endcomment %}
+  </div>   -->
+  <div class="container pt-6 pb-5">
+    {% for level in site.data.data-sponsor.sponsor-home.sponsor-levels %}
+      <div class="row">
+        <div class="col pb-6 text-center">
+            <h1 class="gala-heading underline">{{level.level-heading}}</h1>
+        </div>
+      </div>
+      {% for sponsor in level.sponsor-elements %}
+      <div class="container d-flex align-items-start">
+        <div class="flex-shrink-0" style="width: 50%;">
+          <img class="img-fluid" style="width: 80%; height: auto;" src="{{sponsor.image}}" alt="{{sponsor.name}}">
+        </div>
+        <div class="flex-grow-1 text-break" style="width: 50%;">
+          <h2>{{sponsor.name}}</h2>
+          <p>{{sponsor.description}}</p>
+          {% if sponsor.cell %}
+            <div>Cell: {{sponsor.cell}}</div>
+          {% endif %}
+          {% if sponsor.email %}
+            <div>Email: <a href="mailto:{{sponsor.email}}">{{sponsor.email}}</a></div>
+          {% endif %}
+          {% if sponsor.website %}
+            <div><a href="{{sponsor.website}}">{{sponsor.website}}</a></div>
+          {% endif %}
+        </div>
+      </div>      
+      {% endfor %}
+    {% endfor %}
   </div>
 </div>
+
 
 <div class="strip">
   <div class="container pb-5 pt-6" id="friends">

@@ -13,18 +13,15 @@
 sponsor-home:
   sponsor-levels:
     - level-name: others
-      level-heading: 主要赞助商
+      level-heading: 特别鸣谢
       elements-div-style-class: col-12 col-md-6 col-lg-4 mb-5
       sponsor-elements:
-        - name: AlphaX RE Capital
-          description: AlphaX RE Capital 是一家在硅谷深耕数年，专注于独栋房产投资的地产开发公司。我们的策略是，紧跟市场的动态和周期，灵活运用各种使房产主动增值的手段，最大化投资项目的回报率。在AlphaX以往做的300多个项目中，我们的平均年化回报率为30%。在变化莫测的市场环境下，我们仍坚持初心，专注于寸土寸金的硅谷独栋房产，并在当地网罗合作资源，打造硅谷房产生态链。AlphaX致力于提供全方位服务、将投资人的资产价值最大化。
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/alphax_ntwlrd.png
-        - name: 大华
-          description: 湾区华人买菜首选99 Ranch Market App大华线上超市年中大促销！满$68减$15 折扣码：ZGZG15（截至8/5/2023）不出门生鲜、零食、活海鲜当天送上门！价格亲民，品类丰富，当天极速送达，最佳售后无理由退款。下载99 Ranch Market App轻松选购。价格与门店价格一样，满$49免运，可选去大华门店无门槛自提。
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1688712997/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/dahua_bmsd4n.jpg
-        - name: Music Tunnel
-          description: 音乐隧道，Music Tunnel，南湾最广为人知，最专业的娱乐休闲KTV！国内专业团队倾力打造，中英日韩多语种曲库实时更新，老歌新歌一应俱全。顶级音响设备，国内同步的时尚主题式设计装潢，带给您沉浸式的欢唱体验！炎热的夏日，我们就要拿着话筒，吹着空调，奶茶配上盐酥鸡，自在逍遥！
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/music_catrem.png
+        - name: Steve Chen
+          description: Steve Chen是富国银行资深房屋贷款顾问及销售经理，已帮助超过5000个家庭在湾区完成贷款购屋的梦想，连续14年连续荣获富国银行房贷最高荣誉——President's Club Member头衔。</br></br>Steve Chen拥有全美顶尖的房贷团队，他的专长包括Relocation Loan，涉及RSU收入及海外资产的贷款。团队一直坚持以客户利益和需求为出发点，具有扎实的专业知识储备和高效及时的沟通，服务在湾区享有极好口碑，得到众多新老客户的肯定和支持。</br></br>欢迎随时致电与我联络，我将竭诚为您解答各种房屋贷款问题！
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1704597451/Steve_Chen_Logo_u0bhak.jpg
+          website: https://homeloans.wellsfargo.com/mortgage/ca/sunnyvale/steve-t-chen
+          cell: (408) 805-1888
+          email: Steve.T.Chen@wellsfargo.com
 
 sponsors-yj-2022:
   sponsor-heading: 2022 云集赞助商
