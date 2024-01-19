@@ -43,11 +43,9 @@ intro_image_hide_on_mobile: true
 
 2024年伊始，昭阳带着过去几年精心打磨的段子，为观众们带来这场名为《你是马》的单口喜剧专场演出，希望他想说的话，被更多人听见。至于为什么这个专场叫这么个名字，且听他当天娓娓道来。
 
-届时，硅谷脱口秀人气演员孙刘将作为开场嘉宾助阵演出，魔术师张君琛（Jack Zhang）将担任专场主持！
-
 ## 我该怎么购票？
 
-购票链接：[请点这里](https://www.eventbrite.com/e/787880179827)
+购票链接：[请点这里](https://www.eventbrite.com/e/804109331657)
 
 [py]: https://www.pandyfoundation.org/causes
 [c3]: https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations
