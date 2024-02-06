@@ -45,7 +45,7 @@ intro_image_hide_on_mobile: true
 
 ## 我该怎么购票？
 
-购票链接：[请点这里](https://www.eventbrite.com/e/804109331657)
+购票链接：[请点这里](https://www.eventbrite.com/e/824290383727)
 
 [py]: https://www.pandyfoundation.org/causes
 [c3]: https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations
