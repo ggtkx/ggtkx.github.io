@@ -10,14 +10,6 @@ permalink: /
 ---
 &nbsp;
 
-## 昭阳单口喜剧专场
-
-![昭阳专场](https://i.imgur.com/APisVAY.png)
-
-{% include special.html %}
-
-&nbsp;
-
 ## 开放麦
 
 {% include call.html show_button=true labels=site.data.l10n.cn %}
