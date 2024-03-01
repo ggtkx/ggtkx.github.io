@@ -31,7 +31,7 @@ intro_image_hide_on_mobile: true
 
 地址：飞扬艺术中心，[6148 Bollinger Rd, San Jose, CA 95129](https://maps.app.goo.gl/A4yt42ntVHopxHqy5)
 
-请使用以下表单购买门票。请务必多次确认**正确的演出时间**。如果选项为空，说明该周入场劵已售罄。入场则视为您已同意现场规则（见上）。
+请使用以下表单购买门票。请务必多次确认**正确的演出时间**。如果选项为空，说明该周门票已售罄。入场则视为您已同意现场规则（见上）。
 
 <div id="miniextensions-iframe-embed-EIlQstT4R43zFOnPULWT"></div><script src="https://api.miniextensions.com/v1/iframe-embed/EIlQstT4R43zFOnPULWT.js?absoluteShareUrl=https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1"></script>
 
