@@ -33,7 +33,7 @@ intro_image_hide_on_mobile: true
 
 请使用以下表单购买门票。请务必多次确认**正确的演出时间**。如果选项为空，说明该周门票已售罄。入场则视为您已同意现场规则（见上）。
 
-<div id="miniextensions-iframe-embed-EIlQstT4R43zFOnPULWT"></div><script src="https://api.miniextensions.com/v1/iframe-embed/EIlQstT4R43zFOnPULWT.js?absoluteShareUrl=https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1"></script>
+<div id="miniextensions-iframe-embed-EIlQstT4R43zFOnPULWT"></div><script src="https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1"></script>
 
 票务所得不以营利为目的，仅为承担场地等成本。硅谷脱口秀由[P&Y基金会][py]承办，而[P&Y基金会][py]是一个[501(c)(3)][c3]非营利组织。为了可持续发展，还请您慷慨解囊。
 
