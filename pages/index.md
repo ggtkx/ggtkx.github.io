@@ -10,6 +10,14 @@ permalink: /
 ---
 &nbsp;
 
+## 2024春季精品秀
+
+![春季精品秀](https://i.imgur.com/W3IA4TC.png)
+
+{% include jpx.html %}
+
+&nbsp;
+
 ## 开放麦
 
 {% include call.html show_button=true labels=site.data.l10n.cn %}
