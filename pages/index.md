@@ -10,6 +10,14 @@ permalink: /
 ---
 &nbsp;
 
+## Aaron/赵仕勇单口喜剧双拼秀
+
+![双拼](https://i.imgur.com/h9clLBG.png)
+
+{% include special.html %}
+
+&nbsp;
+
 ## 开放麦
 
 {% include call.html show_button=true labels=site.data.l10n.cn %}
