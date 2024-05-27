@@ -33,38 +33,9 @@ intro_image_hide_on_mobile: true
 
 ![reminder](https://github.com/ggtkx/ggtkx.github.io/assets/34214774/1062b0e9-ee0c-4f38-956b-2adbe6c03a73)
 
-
 <div id="miniextensions-iframe-embed-EIlQstT4R43zFOnPULWT"></div><script src="https://api.miniextensions.com/v1/iframe-embed/EIlQstT4R43zFOnPULWT.js?absoluteShareUrl=https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1"></script>
 
 票务所得不以营利为目的，仅为承担场地等成本。硅谷脱口秀由[P&Y基金会][py]承办，而[P&Y基金会][py]是一个[501(c)(3)][c3]非营利组织。为了可持续发展，还请您慷慨解囊。
-
-# Aaron/赵仕勇单口喜剧双拼秀《病入膏肓》
-
-## 什么是双拼秀？
-
-单口喜剧双拼秀，是两个演员各自演出自己最好的40分钟的段子，他们的内容会有一个大的主题和一些连接，但一定都是经过多年打磨的最精华的段子，保证让你在90分钟内看到两位演员从不同角度用幽默去解构他们各自生活的荒诞。
-
-## Aaron是谁？
-
-Aaron，脱口秀大会观众，徐志胜老乡，李诞粉丝，为一年一度喜剧大赛买过会员，曾在中国20+俱乐部看过表演。
-
-作为硅谷脱口秀最资深的演员，Aaron只求能记住稿子，不要忘词。
-
-## 赵仕勇是谁？
-
-赵仕勇是多伦多花生喜剧的主理人以及制作人，从成都突出重围的直男，多伦多靠脱口秀脱单第一人。
-
-他是：
-- 《大山笑友汇》演出嘉宾
-- 花生喜剧《新年有新梗》新梗赛冠军
-- 《花生喜剧烂梗王》季军
-- 拥有个人主打秀《月入捌佰》
-
-本场演出，没有任何上价值的观点，只求一个肤浅的好笑。
-
-## 我该怎么购票？
-
-购票链接：[请点这里](https://www.eventbrite.com/e/aaron-tickets-887292294137)
 
 [py]: https://www.pandyfoundation.org/causes
 [c3]: https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations
