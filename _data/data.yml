@@ -17,8 +17,8 @@ main:
   - name: "中"
     url: "/"
     icon: true
-  - name: "活动购票"
-    url: "https://kutt.it/2024-ticket-website"
+  - name: "歌手赛购票Coming Soon"
+    url: "/"
     call-to-action: true
 
 gala_ticket_link: "https://kutt.it/2024-ticket-website"

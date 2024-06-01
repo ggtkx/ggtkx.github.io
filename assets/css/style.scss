@@ -599,3 +599,40 @@ p.black-p {
 .sponsorship-bg{
     background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1702772359/%E8%B5%9E%E5%8A%A9%E9%A2%98%E5%9B%BE_fb6mny.jpg');
 }
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    background-color: #F5F5F5 !important;
+    color: #949494 !important;
+    border: none !important;
+
+}
+
+#eventInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & > :nth-child(1) {
+        text-align: start;
+    }
+
+    & > :nth-child(2) {
+        padding-top: 100px;
+    }
+    @media screen and (max-width: 992px) {
+        flex-direction: column;
+        & > :nth-child(1){
+            width: 100%;
+            text-align: center;
+        }
+        & > :nth-child(2) {
+            padding-top: 0px !important;
+            & > h2 {
+                display: none;
+            }
+        }
+        
+    }
+}
