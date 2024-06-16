@@ -525,33 +525,33 @@ galalist:
     description: 诚怀着无穷无尽力量的信仰，持着真诚朝拜路上的人儿。 双手高举合十，道声“扎西德勒”。
 
 singerlist:
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243341/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/qiu_tsbtsf.jpg
-    name: Helen Qiu
-    description: 我是Helen邱，一米八的大型东北妹子。我喜欢美食，奶茶，跟朋友逛街，追剧。平时爱好唱歌，钢琴，吉他，健身，跳舞，但是都不太专业哈哈（练习的热忱常常被懒打败, 躺在床上刷手机是yyds）。希望能通过载歌在谷交到更多朋友一起约饭约歌！
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687276096/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/shi_noixjk.jpg
-    name: 石头
-    description: 我叫石头，喜欢唱跳rap篮球（和举铁etc.) 阳光开朗中二码农，弹唱创作与众不同。高音high C 再升八度，能飙能喊气势如虹。探索可能勇攀高峰，不论成败皆是英雄。期待用音乐给大家带来力量与感动，用音乐播撒永不停歇那动力的火种。”我就是那条龙”
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1687243344/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/wu_vmnpew.jpg
-    name: 武意超
-    description: 在读学生一枚，预备软件工程师，喜欢唱r&b风格的音乐，平时也喜欢玩Acappella，精通卡祖笛/三角铁/pitch pipe（划掉）。梦想全职从事音乐行业;) 不过看情况还是要先找个班上:( 希望在决赛能给大家留下一些跟着节奏摇头晃脑的难忘瞬间！
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243342/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/huang_cm7hky.jpg
-    name: 黄加奕
-    description: 主业精算师一名，目标是成为精算师里最会唱歌的，歌手里最会精算的斜杠青年。副业猫奴铲屎官，服务两只不到1岁的猫主子。这次参赛主打一个陪伴，希望能用短暂的时间让音乐陪伴着大家的耳朵，远离城市喧嚣，尽享繁花似锦。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687278256/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/hylas_cmpnvw.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561861/zgzg-io-website/2024singer/heyuan_ipzzfq.jpg
+    name: 河源
+    description: 我是何源，喜欢唱歌写歌。很开心跟大家分享我的音乐。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561861/zgzg-io-website/2024singer/dingmeng_duavrc.jpg
+    name: 丁梦
+    description: 大家好我是丁梦，一个处女座的ENTP。我喜欢各种类型的音乐，是Adam Lambert 12年的老粉。生活中可盐可甜，可攻可受，但本体永远是个失去表情管理的逗逼。我相信，听从内心的声音，脚下就是诗和远方。希望决赛大家都能唱的开心，听的尽兴！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561890/zgzg-io-website/2024singer/hylas_rfnqi9.jpg
     name: Hylas
-    description: 科技行业从业者，资深铲屎爱好者。从小就是个麦霸，后来从初中开始网络K歌，一直K到现在。曲风比较多变，相对更喜欢抒情和R&B。很高兴有机会来到这个舞台，和喜欢唱歌的朋友们分享好歌，愉快玩耍。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/q_auto:low/v1687243342/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/bin_cs9mvh.jpg
-    name: Binbin
-    description: 小时候，音乐是我的导师，我踉踉跄跄的跟着大合唱团吼出一首首稚嫩的童谣。考学时，音乐是我的偶像，被题海压垮的我，总能瞬间逃进CD里，当个五分钟的小歌迷。成人后，音乐是我的密友，夜间的一首简单恬静的乐曲，就能治愈我偶尔疲惫的身心。我是Binbin，一个乐于享受和分享音乐的人。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687279658/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/yang_tb0pp6.png
-    name: Mike杨皓翔
-    description: 说唱爱好者，Stanford Sing++ 阿卡贝拉团成员
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243336/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/patrick_rti2wb.jpg
-    name: Patrick
-    description: 大家好！我是Patrick，在美国出生长大的华裔。白天是一名热衷于科技的工作者，晚上则是一名热爱歌唱的梦想家。你常常可以发现我在和朋友们一起创作旋律，或者用Google Translate来掩盖我糟糕的中文水平。期待与大家一起玩得开心！
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243406/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/gong_olqzug.jpg
-    name: Nikki Gong
-    description: 大家好，我是Nikki。不喜欢冥想的女高音不是一个好数据科学家 静如处子，动如逗逼的一只脱兔 喜爱自然，阳光；喜欢简单，纯粹 希望通过歌声把欢乐和温暖带给更多的人
+    description: 大家好我是Hylas。认识我的朋友都知道我有一只非常可爱的小狗，是我最宝贝的女儿。带着她去各个国家旅行，跑沙滩，走土路，滚草坪，是我最幸福的事。为了她我也换成了远程工作。我从很多年前就开始在网络上唱歌，这个爱好也保持到了现在。通过唱歌App学了很多新歌，也让我接触到了更多的曲风。很开心今年第二次来到这里，希望可以在这个舞台认识更多好朋友，分享音乐
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561862/zgzg-io-website/2024singer/zhangjinyuan_zyb1ju.jpg
+    name: 张金源
+    description: 哈喽，我是金源，朋友们喜欢叫我小源哥，平平无奇的科技大厂打工人、即将（估计也没那么快）上线原创单曲的业余唱作人、每年都换新曲风的叛逆歌手，毕竟不唱情歌的摇滚主唱不是好rapper
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561862/zgzg-io-website/2024singer/lanlan_kyrgze.jpg
+    name: 兰兰
+    description: 大家好，我是兰兰，是乐队Blankhead的主唱。音乐对我来说，不仅仅是声音的组合，更是一种独特的情感表达方式。它能带给我源源不断的快乐，让我体验到各种丰富的情绪和感受。我特别喜爱那些充满节奏感的歌曲，尤其钟情于欧美风格的音乐。在这些动感的旋律中，我不仅能够与我们乐队的成员尽情地歌唱，还可以与我舞团的朋友们一起随音乐起舞。我希望通过我的歌声，能够传递出快乐和活力，带给大家能量。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561861/zgzg-io-website/2024singer/xupeipei_aaxzga.jpg
+    name: 徐珮珮
+    description: 大家好，我是Peipei，一个在浴室里开了无数次演唱会的资深“歌手”，今天终于从浴室走向了舞台。敬请期待🫡
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561862/zgzg-io-website/2024singer/arielbao_iwn5wk.jpg
+    name: Ariel Bao
+    description: 大家好，我是Ariel。我来自杭州，现在在湾区做软件工程师。大学时期辅修古典声乐，也非常喜欢音乐剧和流行歌曲。非常荣幸参与歌手赛和分享我喜欢的音乐。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561861/zgzg-io-website/2024singer/tianlinduan_nxkcj0.jpg
+    name: Tianlin Duan
+    description: 哈喽大家好，我是Tianlin。很开心能站上歌手赛决赛的舞台，期待探索更多曲风，享受舞台，开发“无限可能”！决赛见～
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561862/zgzg-io-website/2024singer/zhouyu_s57msh.jpg
+    name: 周遇
+    description: 一个说唱爱好者，网易云搜索“周遇”可以找到我的主页，欢迎来玩✌️如果你也是哈利波特粉/金庸粉/UIUC毕业生，或许我的主页会有你觉得有趣的东西。业余喜欢和朋友一起做old-school说唱，近几年也有在接触new school的东西。可以说是Eminem、NF、王以太、Jony J和红花会的头号脑残粉🤣。计划不定期扛着音响去街头演出，感兴趣一起的朋友欢迎私信滴滴我(微信：Mg_schizo)
 
 galatour_picture_tradition:
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1662089337/zgzg-io-website/2022-游园/书法_zg2rig.jpg

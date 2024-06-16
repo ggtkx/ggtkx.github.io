@@ -44,56 +44,48 @@ sponsors-singer:
       # HTML div styles (see top of the file for explanations).
       elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
-      - name: AlphaX RE Capital
-        description: AlphaX RE Capital 是一家在硅谷深耕数年，专注于独栋房产投资的地产开发公司。我们的策略是，紧跟市场的动态和周期，灵活运用各种使房产主动增值的手段，最大化投资项目的回报率。在AlphaX以往做的300多个项目中，我们的平均年化回报率为30%。在变化莫测的市场环境下，我们仍坚持初心，专注于寸土寸金的硅谷独栋房产，并在当地网罗合作资源，打造硅谷房产生态链。AlphaX致力于提供全方位服务、将投资人的资产价值最大化。
-        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/alphax_ntwlrd.png
+      - name: 熊猫外卖
+        description: 熊猫外卖于2017年创立于英国诺丁汉，立志成为全球市场领先的在线餐饮生活平台，赋能海外中餐产业，搭建中餐爱好者与中华美食的桥梁。通过不断优化线上服务和行业领先的配送系统，有效将餐厅与每一位顾客紧密相连。
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718565837/%E7%86%8A%E7%8C%AB%E5%A4%96%E5%8D%96_ffsxml.png
         website-name:
         website:
-
-      - name: 大华
-        description: 湾区华人买菜首选99 Ranch Market App大华线上超市年中大促销！满$68减$15 折扣码：ZGZG15（截至8/5/2023）不出门生鲜、零食、活海鲜当天送上门！价格亲民，品类丰富，当天极速送达，最佳售后无理由退款。下载99 Ranch Market App轻松选购。价格与门店价格一样，满$49免运，可选去大华门店无门槛自提。
-        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1688712997/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/dahua_bmsd4n.jpg
-        website-name:
-        website:
-
       - name: Music Tunnel
         description: 音乐隧道，Music Tunnel，南湾最广为人知，最专业的娱乐休闲KTV！国内专业团队倾力打造，中英日韩多语种曲库实时更新，老歌新歌一应俱全。顶级音响设备，国内同步的时尚主题式设计装潢，带给您沉浸式的欢唱体验！炎热的夏日，我们就要拿着话筒，吹着空调，奶茶配上盐酥鸡，自在逍遥！
         image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/music_catrem.png
         website-name:
         website:
 
-    - level-name: food
-      level-heading: 金牌赞助
+    - level-name: gold
+      level-heading: 黄金赞助
       elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
-      - name: Dreamhome Realty
-        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/dreamhome_tauhdh.jpg
-        description: 买房,卖房，家庭地产投资优化，agent入门和进阶咨询，湾区著名投资博主和全职地产经纪。
-      - name: Lusso
-        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1688715445/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/Lusso_cpvrma.png
-        description: Lusso成立于2017年，由一批有情怀，具有创新精神的建筑、设计行业专业人士所创建。20多年丰富的从业经验让他们有了共同的梦想：把装修这么一个在大多数人心目中繁复的过程，变成一个充满发现和创造，并能充分享受乐趣的快乐之旅。现在，您可以来Lusso体验这段奇妙的旅程。在12000平方英尺的展厅里，Lusso用最具现代设计魅力的产品，最具时尚格调的体验馆，最专业优秀的设计师，带您品味现代家装的美好。
-      - name: 快手短视频
-        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687243335/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/Kuai_ijhm5n.png
-        description: 快手：领先的内容社区和社交平台，短视频行业开创者与引领者
-      - name: 梵Fan Bistro
-        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1688715445/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/fan_u2dffv.jpg
-        description: 融合东西方饮食文化的中餐厅.主打创意川湘菜系.私人定制.公司团餐.包间生日.工作聚会的不二之选！
-      - name: 小宝海运
-        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1688715445/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/xiaobao_hzokbt.png
-        description: 小宝集运，是一个从事12年中国出口到美国的公司，价格超低，服务超一流，细节满满，对接便捷，服务用心，值得信赖的物流。凭折扣码ZGZG可兑换价格50元人民币海运抵扣
-
-    - level-name: food
-      level-heading: 场地赞助
+      - name: Steve Chen
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1705376327/WechatIMG324_isy3ap.jpg
+        description: 从业15年资深房屋贷款经纪，团队凭借踏实的作风，扎实的专业知识，丰富的沟通技巧，帮助超过5000个家庭在湾区完成购房的梦想，在富国银行全美贷款总量前三，连续14年成为富国银行总统俱乐部成员。
+      - name: Valore
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718563566/Screenshot_2024-06-16_at_11.45.01_AM_rqb1ds.png
+        description: We are San Jose’s luxury trade destination for residential remodeling. Valore represents a wide cross-section of styles and designs making it your ultimate source for tiles, kitchen, bath, and flooring products.
+      - name: Qbedding
+        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718563656/Web-Logo_Qbedding_Logo_R_oyxqay.avif
+        description: In 2008, Qbedding unveiled its flagship brick-and-mortar store in Queens, New York. Since then, the brand has flourished and expanded, establishing five physical locations throughout the United States and an online store that caters to customers beyond geographical borders. Beginning with its humble origins in the Chinese community, Qbedding has become a beloved brand, cherished by countless households in North America, and has thrived in the expansive North American market.
+    - level-name: media
+      level-heading: 媒体互宣
+      elements-div-style-class: col-6 col-lg-3 mb-1
+      sponsor-elements:
+        - name: 素人剧社
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718563887/%E7%B4%A0%E4%BA%BA%E5%89%A7%E7%A4%BE_seflbz.png
+          description: 素人剧社于2021年9月由中央戏剧学院的三位校友在旧金山湾区创立，是活跃于湾区最专业的中文话剧社。 我们相信戏剧既是生活的延伸，亦是自我的镜子，在日常之外，有一隅世界值得寄情与探索。 有一种感动，只在剧场发生！
+        - name: 红叶故事
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718563888/%E7%BA%A2%E5%8F%B6%E6%95%85%E4%BA%8B_ujyock.png
+          description: 红叶故事网由几位谷歌软件工程师创建，是北美华人交友的后起之秀。精确的地理位置的搜索，用户之间相互评分，系统自动匹配等是网站几个比较有特色的功能。
+    - level-name: others
+      level-heading: 其他赞助
       elements-div-style-id: last-row-partners
       elements-div-style-class: col-6 col-lg-3 mb-1
       sponsor-elements:
-        - name: 丁丁电视台
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687244833/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/ding_vkqhjk.png
-          description:
-
-        - name: Q Bay Center钱塘中心
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1687244833/zgzg-io-website/2023%E6%AD%8C%E6%89%8B%E8%B5%9B/qbay_h2autr.png
-          description:
+        - name: Ms Sister 婚纱
+          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718564071/ms_sister_logo1_zy7bce.webp
+          description: MS. SISTER features contemporary and traditional wedding gowns and bridesmaid dresses representing over 10 outstanding American bridal designers and famous Chinese bridal designers.
 
 sponsors-tour:
   sponsor-levels:

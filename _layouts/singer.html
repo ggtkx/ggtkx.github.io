@@ -17,8 +17,37 @@ layout: default
         </a>
     </div>
 </div>
-<div class="container pt-4">
-    <div class="blank_row">
-        <td colspan="3"></td>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <!-- Tab links -->
+            <div class="tab">
+                <button class="tab-links default-open" onclick="openTab(event)" data-tab-group="main" data-tab-id="singer-list">大赛介绍</button>
+                <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="sponsor">赞助商</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <!-- Tab content -->
+            <div id="singer-list" class="tab-content">
+                <div id="galalist-space">
+                    <div class="container">
+                        <div class="row g-1 g-md-2 p-1 p-md-3">
+                            {% for programme in site.data.data.singerlist %}
+                            {% include programme.html %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sponsor" class="tab-content">
+                <div class="container pt-6 pb-6 pt-md-6 pb-md-6">
+                    {% assign sponsor_type = site.data.data-sponsor.sponsors-singer %}
+                    {% include sponsor-template.html %}
+                </div>
+            </div>
+        </div>
     </div>
 </div>
