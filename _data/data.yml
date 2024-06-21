@@ -17,12 +17,13 @@ main:
   - name: "中"
     url: "/"
     icon: true
-  - name: "歌手赛购票Coming Soon"
-    url: "/"
+  - name: "TICKETS"
+    url: "https://zgzg.li/2024s-tickets"
     call-to-action: true
 
 gala_ticket_link: "https://kutt.it/2024-ticket-website"
 gala_auidence_guide_link: "https://res.cloudinary.com/zaigezaigu/image/upload/v1705177126/2024_ZGZG_%E6%98%A5%E6%99%9A_%E8%A7%82%E4%BC%97%E6%89%8B%E5%86%8C_compressed_vnsnpp.pdf"
+singer_ticket_link: "https://zgzg.li/2024s-tickets"
 
 special_events:
   - name: 《载歌在谷》历年春晚回眸
