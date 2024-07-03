@@ -98,15 +98,6 @@
         ]
     },
     {
-        "title": "小马哥",
-        "weight": 5005007,
-        "image": "https://i.imgur.com/2padEEg.jpg",
-        "description": "我的生活很甜，需要喝黑咖啡来找点苦。",
-        "contact": [
-            "小红书：1069782970"
-        ]
-    },
-    {
         "title": "拉图",
         "weight": 3007019,
         "image": "https://imgur.com/AipefAi.png",
@@ -123,16 +114,6 @@
         "weight": 2002059,
         "image": "https://i.imgur.com/BahXJeg.jpg",
         "description": "从西雅图逃到硅谷的程序员家属，每天接送两娃上下学的老女司机，上得厅堂下得健身房的斜杠中年少女。"
-    },
-    {
-        "title": "龚琪",
-        "weight": 2002002,
-        "image": "https://i.imgur.com/19pCCdn.png",
-        "description": "一只迷茫的，在观众和自己快乐之间挣扎的，把脱口秀说得像相声，把相声说得像脱口秀的，蹿上台的观众。",
-        "contact": [
-            "微信：gillgong109",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34nQYyTkiyPCD4Ajx6iH9lyH)"
-        ]
     },
     {
         "title": "龚琪",
@@ -181,16 +162,6 @@
         "description": "积极向上的怨妇",
         "contact": [
             "微博：[爱看展的Emma隋薰](https://weibo.com/n/%E7%88%B1%E7%9C%8B%E5%B1%95%E7%9A%84Emma%E9%9A%8B%E8%96%B0)"
-        ]
-    },
-    {
-        "title": "Tracy",
-        "weight": 1042,
-        "image": "https://i.imgur.com/EjEYK7y.png",
-        "description": "生活=经历 经历=段子 生活=段子",
-        "contact": [
-            "微信：51423369",
-            "[脱口秀视频](https://www.youtube.com/playlist?list=PL0hg_Q7g-34n9naXejSWgeF8F-zjwkW5V)"
         ]
     },
     {
