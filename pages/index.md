@@ -10,6 +10,14 @@ permalink: /
 ---
 &nbsp;
 
+## 孙刘单口喜剧专场
+
+![孙刘专场](https://i.imgur.com/ZhTpgNd.png)
+
+{% include special.html %}
+
+&nbsp;
+
 ## 开放麦
 
 {% include call.html show_button=true labels=site.data.l10n.cn %}
