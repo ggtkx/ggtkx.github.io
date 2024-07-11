@@ -5,6 +5,25 @@ permalink: /tickets/
 intro_image: "/images/illustrations/door.svg"
 intro_image_hide_on_mobile: true
 ---
+# 近期商演 | 孙刘单口喜剧专场《最好的时光》
+
+
+![海报](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F800806429%2F1209116489563%2F1%2Foriginal.20240703-060055?w=940&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3916%2C1958&s=04f96367af957c7f8a5e1644e4f0f573)
+
+## 我该怎么购票？
+
+购票链接：[请点这里](https://www.eventbrite.com/e/939239469537)
+
+
+孙刘
+
+硅谷脱口秀头最圆的演员
+
+硅谷脱口秀健身最搞笑的演员
+
+硅谷脱口秀最爱去动物园的演员
+
+自疫情后加入硅谷脱口秀以来，他就爱上了这个舞台，彻底迷上了这种把笑声带给大家的感觉。这一次，他带着《最好的时光》专场，跟大家聊聊这两年来的见闻和经历。从生活中的小烦恼到旅程的奇妙瞬间，一切都将在他的演出中呈现。
 
 # 开放麦
 
@@ -36,22 +55,6 @@ intro_image_hide_on_mobile: true
 <div id="miniextensions-iframe-embed-EIlQstT4R43zFOnPULWT"></div><script src="https://api.miniextensions.com/v1/iframe-embed/EIlQstT4R43zFOnPULWT.js?absoluteShareUrl=https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1"></script>
 
 票务所得不以营利为目的，仅为承担场地等成本。硅谷脱口秀由[P&Y基金会][py]承办，而[P&Y基金会][py]是一个[501(c)(3)][c3]非营利组织。为了可持续发展，还请您慷慨解囊。
-
-# 孙刘单口喜剧专场《最好的时光》
-
-孙刘
-
-硅谷脱口秀头最圆的演员
-
-硅谷脱口秀健身最搞笑的演员
-
-硅谷脱口秀最爱去动物园的演员
-
-自疫情后加入硅谷脱口秀以来，他就爱上了这个舞台，彻底迷上了这种把笑声带给大家的感觉。这一次，他带着《最好的时光》专场，跟大家聊聊这两年来的见闻和经历。从生活中的小烦恼到旅程的奇妙瞬间，一切都将在他的演出中呈现。
-
-## 我该怎么购票？
-
-购票链接：[请点这里](https://www.eventbrite.com/e/939239469537)
 
 [py]: https://www.pandyfoundation.org/causes
 [c3]: https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations
