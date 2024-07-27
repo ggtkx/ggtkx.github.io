@@ -48,7 +48,7 @@ intro_image_hide_on_mobile: true
 
 ## 线下观演
 
-地址：[1054 S De Anza Blvd, San Jose, CA 95129](https://maps.app.goo.gl/aF7FkKJfibtpFQ8aA)
+地址：（2024年8月起）[1054 S De Anza Blvd, San Jose, CA 95129](https://maps.app.goo.gl/aF7FkKJfibtpFQ8aA)
 
 ![reminder](https://github.com/ggtkx/ggtkx.github.io/assets/34214774/1062b0e9-ee0c-4f38-956b-2adbe6c03a73)
 
