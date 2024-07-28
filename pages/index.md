@@ -10,11 +10,11 @@ permalink: /
 ---
 &nbsp;
 
-## 孙刘单口喜剧专场
+## 女性专场《你我她》
 
-![孙刘专场](https://i.imgur.com/ZhTpgNd.png)
+![你我她](https://i.imgur.com/OZSlmAC.png)
 
-{% include special.html %}
+{% include jpx.html %}
 
 &nbsp;
 
