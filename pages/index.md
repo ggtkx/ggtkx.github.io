@@ -10,14 +10,6 @@ permalink: /
 ---
 &nbsp;
 
-## 女性专场《你我她》
-
-![你我她](https://i.imgur.com/OZSlmAC.png)
-
-{% include jpx.html %}
-
-&nbsp;
-
 ## 开放麦
 
 {% include call.html show_button=true labels=site.data.l10n.cn %}
