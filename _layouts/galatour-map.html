@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Map with Background Image</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+      }
+      #mapContainer {
+        width: 100vmin;
+        height: 100vmin;
+        overflow: hidden;
+        position: relative;
+      }
+      #map {
+        width: 100%;
+        height: 100%;
+        background-image: url("https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1673811477/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/Artboard_1_txqg5b.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        cursor: grab;
+        position: relative;
+      }
+      .zoom-buttons {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+      .zoom-buttons button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        margin-bottom: 5px;
+        cursor: pointer;
+      }
+      .zoom-buttons button:hover {
+        background-color: #555;
+      }
+      .shop {
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        position: absolute;
+        cursor: pointer;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mapContainer">
+      <div id="map">
+        <div class="shop" id="shop1"></div>
+        <div class="shop" id="shop2"></div>
+      </div>
+      <div class="zoom-buttons">
+        <button id="zoomIn">+</button>
+        <button id="zoomOut">-</button>
+      </div>
+    </div>
+
+    <script>
+      const map = document.getElementById("map");
+      let scale = 1;
+      const minScale = 1;
+      let offsetX = 0;
+      let offsetY = 0;
+
+      let isDragging = false;
+      let dragStartX, dragStartY;
+      let coordinates = {
+        shop1: { x: 100, y: 100 },
+        shop2: { x: 200, y: 200 },
+      };
+
+      function resizeMap() {
+        map.style.backgroundSize = `${scale * 100}%`;
+        map.style.backgroundPosition = `${offsetX}px ${offsetY}px`;
+        Object.keys(coordinates).forEach(function (key, index) {
+          $("#" + key).css({
+            left: coordinates[key].x * scale + offsetX,
+            top: coordinates[key].y * scale + offsetY,
+          });
+        });
+
+        coordinates;
+      }
+
+      function zoom(direction) {
+        const factor = direction === "in" ? 1.1 : 0.9;
+        const newScale = scale * factor;
+
+        if (newScale >= minScale) {
+          const centerX = mapContainer.clientWidth / 2;
+          const centerY = mapContainer.clientHeight / 2;
+          const lastOffsetX = offsetX;
+          const lastOffsetY = offsetY;
+          offsetX -= ((centerX - offsetX) * (newScale - scale)) / scale;
+          offsetY -= ((centerY - offsetY) * (newScale - scale)) / scale;
+          scale = newScale;
+
+          resizeMap();
+        }
+      }
+
+      function startDrag(event) {
+        isDragging = true;
+        dragStartX = event.offsetX - offsetX;
+        dragStartY = event.offsetY - offsetY;
+        map.style.cursor = "grabbing";
+      }
+
+      function drag(event) {
+        if (isDragging) {
+          offsetX = Math.min(0, event.offsetX - dragStartX);
+          offsetY = Math.min(0, event.offsetY - dragStartY);
+          resizeMap();
+        }
+      }
+
+      function stopDrag() {
+        isDragging = false;
+        map.style.cursor = "grab";
+      }
+
+      document.getElementById("zoomIn").addEventListener("click", () => zoom("in"));
+      document
+        .getElementById("zoomOut")
+        .addEventListener("click", () => zoom("out"));
+      map.addEventListener("mousedown", startDrag);
+      map.addEventListener("mousemove", drag);
+      map.addEventListener("mouseup", stopDrag);
+      window.addEventListener("resize", resizeMap);
+
+      $(document).ready(function () {
+        resizeMap();
+        Object.keys(coordinates).forEach(function (key, index) {
+          $("#" + key).click(function () {
+            alert(key);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
