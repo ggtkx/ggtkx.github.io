@@ -104,6 +104,16 @@
         coordinates;
       }
 
+
+      function getClientOffset(event) {
+        const rect = map.getBoundingClientRect();
+        console.log(event.type, event.clientX);
+        return {
+          x: event.clientX - rect.left,
+          y: event.clientY - rect.top,
+        };
+      }
+
       function zoom(direction) {
         const factor = direction === "in" ? 1.1 : 0.9;
         const newScale = scale * factor;
@@ -122,23 +132,41 @@
       }
 
       function startDrag(event) {
+        console.log(event.type);
         isDragging = true;
-        dragStartX = event.offsetX - offsetX;
-        dragStartY = event.offsetY - offsetY;
+        
+        dragStartX = getClientOffset(event).x - offsetX;
+        dragStartY = getClientOffset(event).y - offsetY;
         map.style.cursor = "grabbing";
       }
 
       function drag(event) {
+        console.log(event.type);
         if (isDragging) {
           const minOffSetX = map.clientWidth *(1 - scale);
           const minOffSetY = map.clientHeight *(1 - scale);
-          offsetX = Math.max(minOffSetX, Math.min(0, event.offsetX - dragStartX));
-          offsetY = Math.max(minOffSetY, Math.min(0, event.offsetY - dragStartY));
+          offsetX = Math.max(minOffSetX, Math.min(0, getClientOffset(event).x - dragStartX));
+          offsetY = Math.max(minOffSetY, Math.min(0, getClientOffset(event).y - dragStartY));
+          resizeMap();
+        }
+      }
+
+      function touchdrag(event) {
+        console.log(event.type);
+        let rect = event.target.getBoundingClientRect();
+        let x = event.targetTouches[0].pageX - rect.left;
+        let y = event.targetTouches[0].pageY - rect.top;
+                if (isDragging) {
+          const minOffSetX = map.clientWidth *(1 - scale);
+          const minOffSetY = map.clientHeight *(1 - scale);
+          offsetX = Math.max(minOffSetX, Math.min(0, x - dragStartX));
+          offsetY = Math.max(minOffSetY, Math.min(0, y - dragStartY));
           resizeMap();
         }
       }
 
       function stopDrag() {
+        event.preventDefault();
         isDragging = false;
         map.style.cursor = "grab";
       }
@@ -153,12 +181,10 @@
       document
         .getElementById("zoomOut")
         .addEventListener("click", () => zoom("out"));
-      map.addEventListener("mousedown", startDrag);
-      map.addEventListener("touchstart", startDrag);
+      map.addEventListener("pointerdown", startDrag);
       map.addEventListener("mousemove", drag);
-      map.addEventListener("touchmove", drag);
-      map.addEventListener("mouseup", stopDrag);
-      map.addEventListener("touchend", stopDrag);
+      map.addEventListener("touchmove", touchdrag);
+      map.addEventListener("pointerup", stopDrag);
       window.addEventListener("resize", windowReisze);
 
       $(document).ready(function () {
