@@ -7,15 +7,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
     <style>
-      body,
-      html {
+      body {
         margin: 0;
         padding: 0;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #f0f0f0;
+        background-color: #111;
       }
       #mapContainer {
         width: 100vmin;
@@ -39,20 +38,23 @@
         display: flex;
         flex-direction: column;
       }
-      .zoom-buttons button {
-        background-color: #333;
-        color: #fff;
-        border: none;
-        padding: 10px;
-        margin-bottom: 5px;
+      .zoom-buttons div {
+        background-color: #FFF;
+        font-size:3vw;
+        border:1px solid #888;
+        border-radius:10%;
+        color: #333;
+        padding: 5px;
+        margin-bottom: 10px;
         cursor: pointer;
+        text-align: center;
       }
       .zoom-buttons button:hover {
-        background-color: #555;
+        background-color: #AAA;
       }
       .shop {
-        width: 30px;
-        height: 30px;
+        width: 5%;
+        height: 5%;
         background-color: red;
         position: absolute;
         cursor: pointer;
@@ -67,8 +69,8 @@
         <div class="shop" id="shop2"></div>
       </div>
       <div class="zoom-buttons">
-        <button id="zoomIn">+</button>
-        <button id="zoomOut">-</button>
+        <div id="zoomIn">+</div>
+        <div id="zoomOut">-</div>
       </div>
     </div>
 
@@ -81,6 +83,9 @@
 
       let isDragging = false;
       let dragStartX, dragStartY;
+      const baseWidth = 1000;
+      const baseHeight = 1000;
+      let actualWidth, actualHeight;
       let coordinates = {
         shop1: { x: 100, y: 100 },
         shop2: { x: 200, y: 200 },
@@ -91,8 +96,8 @@
         map.style.backgroundPosition = `${offsetX}px ${offsetY}px`;
         Object.keys(coordinates).forEach(function (key, index) {
           $("#" + key).css({
-            left: coordinates[key].x * scale + offsetX,
-            top: coordinates[key].y * scale + offsetY,
+            left: coordinates[key].x / baseWidth * actualWidth * scale + offsetX,
+            top: coordinates[key].y / baseWidth * actualHeight * scale + offsetY,
           });
         });
 
@@ -125,8 +130,10 @@
 
       function drag(event) {
         if (isDragging) {
-          offsetX = Math.min(0, event.offsetX - dragStartX);
-          offsetY = Math.min(0, event.offsetY - dragStartY);
+          const minOffSetX = map.clientWidth *(1 - scale);
+          const minOffSetY = map.clientHeight *(1 - scale);
+          offsetX = Math.max(minOffSetX, Math.min(0, event.offsetX - dragStartX));
+          offsetY = Math.max(minOffSetY, Math.min(0, event.offsetY - dragStartY));
           resizeMap();
         }
       }
@@ -136,16 +143,27 @@
         map.style.cursor = "grab";
       }
 
+      function windowReisze() {
+        actualWidth = map.clientWidth;
+        actualHeight = map.clientHeight;
+        resizeMap();
+      }
+
       document.getElementById("zoomIn").addEventListener("click", () => zoom("in"));
       document
         .getElementById("zoomOut")
         .addEventListener("click", () => zoom("out"));
       map.addEventListener("mousedown", startDrag);
+      map.addEventListener("touchstart", startDrag);
       map.addEventListener("mousemove", drag);
+      map.addEventListener("touchmove", drag);
       map.addEventListener("mouseup", stopDrag);
-      window.addEventListener("resize", resizeMap);
+      map.addEventListener("touchend", stopDrag);
+      window.addEventListener("resize", windowReisze);
 
       $(document).ready(function () {
+        actualWidth = map.clientWidth;
+        actualHeight = map.clientHeight;
         resizeMap();
         Object.keys(coordinates).forEach(function (key, index) {
           $("#" + key).click(function () {
