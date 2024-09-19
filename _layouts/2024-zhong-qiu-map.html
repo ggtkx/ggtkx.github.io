@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Document</title>
+    <!-- CSS resetting -->
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+      }
+    </style>
+
+    <!-- Map Styles -->
+    <style>
+      #map-container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      #map {
+        width: 100%;
+      }
+    </style>
+
+    <!-- Drawer Styles -->
+    <style>
+      #drawer {
+        z-index: 100;
+        position: absolute;
+        bottom: 0;
+        background: white;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        border: 1px solid black;
+      }
+
+      #drawer-slider-container {
+        display: flex;
+        justify-content: center;
+      }
+
+      #drawer-slider {
+        width: 65px;
+        height: 7px;
+        border-radius: 16px;
+        margin-top: 5px;
+        border: none;
+      }
+
+      .drawer-tab-group {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+      }
+
+      .drawer-tab {
+        padding: 0.5rem 1rem;
+        background-color: #ffd400;
+        border-radius: 0.7rem;
+        min-width: 4rem;
+        display: flex;
+        justify-content: center;
+      }
+
+      .drawer-tab__inactive {
+        opacity: 24%;
+      }
+
+      .drawer-content__container {
+        margin: 1rem 1rem 0 1rem;
+        overflow-y: scroll;
+      }
+
+      #drawer-content {
+        animation-fill-mode: forwards;
+        height: 100px;
+      }
+
+      #drawer-content > * {
+        max-width: 100%;
+      }
+
+      .drawer-open {
+        animation-name: slideUp;
+
+        animation-duration: 0.2s;
+        animation-timing-function: ease-out;
+      }
+
+      .drawer-close {
+        animation-name: slideDown;
+
+        animation-duration: 0.2s;
+        animation-timing-function: ease-out;
+      }
+
+      @keyframes slideUp {
+        from {
+          height: 100px;
+        }
+
+        to {
+          height: 500px;
+        }
+      }
+
+      @keyframes slideDown {
+        from {
+          height: 500px;
+        }
+
+        to {
+          height: 100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="map-container">
+        <img
+          id="map"
+          src="https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1673811477/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/Artboard_1_txqg5b.png"
+          alt=""
+        />
+      </div>
+      <div id="drawer">
+        <div id="drawer-slider-container">
+          <button id="drawer-slider"></button>
+        </div>
+        <div class="drawer-tab-group">
+          <div class="drawer-tab" id="guide">游园指南</div>
+          <div class="drawer-tab drawer-tab__inactive" id="shows">节目单</div>
+          <div class="drawer-tab drawer-tab__inactive" id="sponsors">赞助&合作</div>
+        </div>
+        <div class="drawer-content__container">
+          <div id="drawer-content">
+            <img
+              src="https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1673811477/zgzg-io-website/2023-%E6%98%A5%E6%99%9A%E6%B8%B8%E5%9B%AD/%E6%B8%B8%E5%9B%AD%E5%9C%B0%E5%9B%BE/Artboard_1_txqg5b.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- pan zoom map script -->
+    <script>
+      class TouchDragEvent {
+        maxScale = 5;
+        minScale = 1;
+        initialWidth;
+        initialHeight;
+        initialLeft;
+        initialTop;
+
+        translateXLeftLimit;
+        translateYUpperLimit = 0;
+
+        translateXRightLimit = 0;
+        translateYLowerLimit = 0;
+
+        preTouchPosition = {};
+        translateX = 0;
+        translateY = 0;
+        scaleRatio = 1;
+        scaleOrigin = {
+          x: 0,
+          y: 0,
+        };
+        preTouchesClientx1y1x2y2;
+        originHaveSet = false;
+
+        img;
+        naturalWidth;
+        naturalHeight;
+
+        constructor(img) {
+          this.img = img;
+          this.naturalWidth = this.img.naturalWidth;
+          this.naturalHeight = this.img.naturalHeight;
+          this.calculateInitialSize();
+
+          // this.initialWidth = screen.width;
+          // this.initialHeight = screen.height;
+
+          img.onload = () => {
+            this.reset();
+          };
+
+          img.ontouchstart = this.onTouchstart.bind(this);
+          img.ontouchmove = this.onTouchmove.bind(this);
+          img.ontouchend = this.onTouchend.bind(this);
+          img.ontouchcancel = this.ontouchcancel.bind(this);
+
+          img.onclick = this.onClick.bind(this);
+        }
+
+        calculateInitialSize() {
+          if (this.naturalWidth < this.naturalHeight) {
+            this.setDisplaySize(
+              screen.width,
+              (screen.width / this.naturalWidth) * this.naturalHeight
+            );
+          } else if (this.naturalWidth > this.naturalHeight) {
+            this.setDisplaySize(
+              (screen.width / this.naturalHeight) * this.naturalWidth,
+              screen.width
+            );
+          } else {
+            this.setDisplaySize(screen.width, screen.width);
+          }
+        }
+
+        setDisplaySize(width, height) {
+          this.initialWidth = width;
+          this.initialHeight = height;
+
+          if (this.initialWidth >= 280) {
+            this.initialLeft = -(this.initialWidth - 280) / 2;
+          }
+
+          if (this.initialHeight >= 280) {
+            this.initialTop = -(this.initialHeight - 280) / 2;
+          }
+        }
+
+        reset() {
+          console.log('reset');
+          this.translateXLeftLimit = 0;
+          this.translateYUpperLimit = 0;
+
+          this.translateXRightLimit = 0;
+          this.translateYLowerLimit = 0;
+
+          this.preTouchPosition = {};
+          this.translateX = 0;
+          this.translateY = 0;
+          this.scaleRatio = 1;
+          this.scaleOrigin = {
+            x: 0,
+            y: 0,
+          };
+          this.preTouchesClientx1y1x2y2 = undefined;
+          this.originHaveSet = false;
+          this.setStyle('transform', 'none');
+          this.setStyle('transform-origin', '50% 50%');
+        }
+
+        onClick(e) {
+          console.log('click e', e);
+        }
+
+        // @HostListener('touchstart', ['$event'])
+        onTouchstart(e) {
+          let touches = e.touches;
+          if (touches.length > 1) {
+            let one = touches['0'];
+            let two = touches['1'];
+            this.preTouchesClientx1y1x2y2 = [one.clientX, one.clientY, two.clientX, two.clientY];
+            this.originHaveSet = false;
+          }
+          this.recordPreTouchPosition(touches['0']);
+        }
+
+        onTouchmove(e) {
+          let touches = e.touches;
+
+          if (touches.length === 1) {
+            let oneTouch = touches['0'];
+            let translated = this.getTranslate(oneTouch.target);
+            this.translateX = oneTouch.clientX - this.preTouchPosition.x + translated.left;
+            this.translateY = oneTouch.clientY - this.preTouchPosition.y + translated.top;
+
+            this.limitImageBorder();
+
+            if (this.scaleRatio !== 1) {
+              let matrix = `matrix(${this.scaleRatio}, 0, 0, ${this.scaleRatio}, ${this.translateX}, ${this.translateY})`;
+              this.setStyle('transform', matrix);
+            }
+
+            this.recordPreTouchPosition(oneTouch);
+          } else {
+            let one = touches['0'];
+            let two = touches['1'];
+            this.scaleRatio =
+              (this.distance(one.clientX, one.clientY, two.clientX, two.clientY) /
+                this.distance(...this.preTouchesClientx1y1x2y2)) *
+                this.scaleRatio || 1;
+            if (this.scaleRatio > this.maxScale) {
+              this.scaleRatio = this.maxScale;
+            }
+            if (this.scaleRatio < this.minScale) {
+              this.scaleRatio = this.minScale;
+            }
+
+            if (!this.originHaveSet) {
+              this.originHaveSet = true;
+              // 移动视线中心
+              let origin = this.relativeCoordinate(
+                (one.clientX + two.clientX) / 2,
+                (one.clientY + two.clientY) / 2,
+                this.img.getBoundingClientRect()
+              );
+              // 修正视野变化带来的平移量
+              this.translateX =
+                (this.scaleRatio - 1) * (origin.x - this.scaleOrigin.x) + this.translateX;
+              this.translateY =
+                (this.scaleRatio - 1) * (origin.y - this.scaleOrigin.y) + this.translateY;
+
+              this.setStyle('transform-origin', `${origin.x}px ${origin.y}px`);
+              this.scaleOrigin = origin;
+            }
+
+            this.limitImageBorder();
+            let matrix = `matrix(${this.scaleRatio}, 0, 0, ${this.scaleRatio}, ${this.translateX}, ${this.translateY})`;
+            this.setStyle('transform', matrix);
+            this.preTouchesClientx1y1x2y2 = [one.clientX, one.clientY, two.clientX, two.clientY];
+          }
+          e.preventDefault();
+        }
+
+        // 触摸点离开时更新最后位置
+        onTouchend(e) {
+          let touches = e.touches;
+          if (touches.length === 1) {
+            this.recordPreTouchPosition(touches['0']);
+          }
+          if (this.scaleRatio === 1) {
+            this.reset();
+          }
+        }
+
+        ontouchcancel(e) {
+          let touches = e.touches;
+          if (touches.length === 1) {
+            this.recordPreTouchPosition(touches['0']);
+          }
+          if (this.scaleRatio === 1) {
+            this.reset();
+          }
+        }
+
+        limitImageBorder() {
+          this.translateXLeftLimit = (this.scaleRatio - 1) * this.scaleOrigin.x - this.initialLeft;
+          this.translateXRightLimit =
+            -(this.scaleRatio - 1) * (this.initialWidth - this.scaleOrigin.x) + this.initialLeft;
+
+          this.translateYUpperLimit = (this.scaleRatio - 1) * this.scaleOrigin.y - this.initialTop;
+          this.translateYLowerLimit =
+            -(this.scaleRatio - 1) * (this.initialHeight - this.scaleOrigin.y) + this.initialTop;
+
+          if (this.translateY > this.translateYUpperLimit) {
+            this.translateY = this.translateYUpperLimit;
+          } else if (this.translateY < this.translateYLowerLimit) {
+            this.translateY = this.translateYLowerLimit;
+          }
+
+          if (this.translateX > this.translateXLeftLimit) {
+            this.translateX = this.translateXLeftLimit;
+          } else if (this.translateX < this.translateXRightLimit) {
+            this.translateX = this.translateXRightLimit;
+          }
+        }
+
+        getStyle(target, style) {
+          let styles = window.getComputedStyle(target, null);
+          return styles.getPropertyValue(style);
+        }
+
+        getTranslate(target) {
+          let matrix = this.getStyle(target, 'transform');
+          let nums = matrix.substring(7, matrix.length - 1).split(', ');
+          let left = parseInt(nums[4]) || 0;
+          let top = parseInt(nums[5]) || 0;
+          return {
+            left: left,
+            top: top,
+          };
+        }
+
+        recordPreTouchPosition(touch) {
+          this.preTouchPosition = {
+            x: touch.clientX,
+            y: touch.clientY,
+          };
+        }
+
+        relativeCoordinate(x, y, rect) {
+          let cx = (x - rect.left) / this.scaleRatio;
+          let cy = (y - rect.top) / this.scaleRatio;
+          return {
+            x: cx,
+            y: cy,
+          };
+        }
+
+        setStyle(key, value) {
+          this.img.style[key] = value;
+        }
+
+        distance(x1, y1, x2, y2) {
+          let a = x1 - x2;
+          let b = y1 - y2;
+          return Math.sqrt(a * a + b * b);
+        }
+      }
+
+      let imgElement = document.querySelector('img');
+      new TouchDragEvent(imgElement);
+    </script>
+
+    <!-- drawer script -->
+    <script>
+      const drawerSliderEle = document.getElementById('drawer-slider');
+      const drawerContentEle = document.getElementById('drawer-content');
+      let isDrawerOpen = false;
+      drawerSliderEle.onclick = () => {
+        isDrawerOpen = !isDrawerOpen;
+
+        if (isDrawerOpen) {
+          drawerContentEle.className = 'drawer-open';
+        } else {
+          drawerContentEle.className = 'drawer-close';
+        }
+      };
+    </script>
+  </body>
+</html>
