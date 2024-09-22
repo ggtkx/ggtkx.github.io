@@ -1,7 +1,7 @@
 ---
-title: Chinese Comedy at Silicon Valley
+title: Silicomedy
 layout: home
-description: Chinese Comedy at Silicon Valley
+description: Silicomedy - Chinese Comedy at Silicon Valley
 permalink: /en/
 intro_image: "/images/illustrations/micdrop.svg"
 intro_image_absolute: true
@@ -9,13 +9,13 @@ intro_image_hide_on_mobile: true
 show_people: false
 ---
 
-# About: Chinese Comedy at Silicon Valley
+# About: Silicomedy
 
 Just for fun!
 
-We are a group of comedy lovers in the Silicon Valley area, mainly focusing on performing stand-up comedy shows in Chinese.
+We are a community of comedy enthusiasts based in Silicon Valley, dedicated to delivering stand-up comedy performances primarily in Chinese.
 
-For the past three years and counting, we gather together almost weekly. So far, _Chinese Comedy at Silicon Valley_ has held nearly three hundreds open mics. More than 150 guests have performed on the stage or virtually. Videos of our previous performances have achieved 100k+ views across [YouTube][yt] and [Bilibili][bl].
+For the past five years and counting, we have gathered almost weekly. To date, _Silicomedy_ has hosted nearly 500 open mics, featuring over 300 performers, both on stage and virtually. Our performance videos have garnered over 200,000 views across platforms like [YouTube][yt] and [Bilibili][bl].
 
 {% include call.html show_button=true labels=site.data.l10n.en %}
 
@@ -27,6 +27,6 @@ For the past three years and counting, we gather together almost weekly. So far,
 
 ---
 
-© 2021 _Chinese Comedy at Silicon Valley_. All rights reserved.
+© 2024 _Silicomedy_. All rights reserved.
 
-_Chinese Comedy at Silicon Valley_ is run by the P&Y Foundation, a 501(c)(3) non-profit organization.
+_Silicomedy_ is run by the P&Y Foundation, a 501(c)(3) non-profit organization.
