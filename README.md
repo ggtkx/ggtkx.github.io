@@ -1,4 +1,4 @@
-# Website for the _Chinese Comedy at Silicon Valley_
+# Website for the _Silicomedy 硅谷脱口秀_
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/ggtkx/ggtkx.github.io/main.svg)](https://results.pre-commit.ci/latest/github/ggtkx/ggtkx.github.io/main)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
