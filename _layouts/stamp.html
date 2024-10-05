@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>Interactive Map with Background Image</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <style></style>
+  </head>
+  <body style="background-color: #ddd">
+    <div id="sign-in-status"></div>
+    <form id="stamp" style="display: none">
+      <input type="text" id="booth" placeholder="请输入摊位号" />
+      <input type="text" id="phone" placeholder="请输入手机号" />
+      <button id="stamp-button">签到</button>
+    </form>
+    <script>
+      function setCookie(name, value) {
+        console.log("Setting cookie:", name, value);
+        document.cookie =
+          name + "=" + value + "; expires=Tue, 19 Jan 2038 03:14:07 GMT; path=/";
+      }
+      function getCookie(name) {
+        const nameEQ = name + "=";
+        const ca = document.cookie.split(";");
+        for (let i = 0; i < ca.length; i++) {
+          let c = ca[i];
+          while (c.charAt(0) === " ") c = c.substring(1, c.length);
+          if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+        }
+        return;
+        null;
+      }
+    </script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
+      import {
+        getAuth,
+        signInWithEmailAndPassword,
+        signOut,
+      } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-auth.js";
+      import {
+        getFirestore,
+        doc,
+        setDoc,
+      } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyA32iYcPDmH7MJLFKpadSkUuR4K3avEYeA",
+        authDomain: "zgzg-9e6d0.firebaseapp.com",
+        projectId: "zgzg-9e6d0",
+        storageBucket: "zgzg-9e6d0.appspot.com",
+        messagingSenderId: "807744488876",
+        appId: "1:807744488876:web:bf6ddbfe0b5ab49f216609",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+
+      // Get a reference to the authentication service
+      const auth = getAuth(app);
+
+      function showSignInForm() {
+        document.getElementById("sign-in-status").innerHTML = `
+        <form id="signInForm">
+          <input type="email" id="email" placeholder="Email" required>
+          <input type="password" id="password" placeholder="Password" required>   
+
+          <button type="submit">Sign In</button>
+        </form>
+      `;
+        // Add event listener to the sign-in form
+        document.getElementById("signInForm").addEventListener("submit", (event) => {
+          event.preventDefault();
+          const email = document.getElementById("email").value;
+          const password = document.getElementById("password").value;
+
+          // Sign in with email and password
+          signInWithEmailAndPassword(auth, email, password)
+            .then(() => {
+              // Sign-in successful
+              console.log("Signed in successfully");
+              $("#stamp").show();
+            })
+            .catch((error) => {
+              // Handle sign-in errors
+              console.error("Sign-in error:", error);
+            });
+        });
+      }
+
+      // Function to check sign-in status and update the UI
+      function checkSignInStatus() {
+        auth.onAuthStateChanged((user) => {
+          if (user) {
+            document.getElementById("sign-in-status").innerHTML = `
+        <p>Signed in as ${user.email}</p>
+        <button id="signOutButton">Sign Out</button>
+      `;
+            $("#stamp").show();
+
+            document
+              .getElementById("signOutButton")
+              .addEventListener("click", () => {
+                signOut(auth)
+                  .then(() => {
+                    // Sign-out successful
+                    console.log("Signed out successfully");
+                    showSignInForm();
+                  })
+                  .catch((error) => {
+                    // Handle sign-out errors
+                    console.error("Sign-out error:", error);
+                  });
+              });
+          } else {
+            // User is not signed in
+            showSignInForm();
+          }
+        });
+      }
+
+      // Call the function to check sign-in status on page load
+      checkSignInStatus();
+
+      const db = getFirestore(app);
+      document.getElementById("stamp").addEventListener("submit", (event) => {
+        event.preventDefault();
+        const booth = document.getElementById("booth").value;
+        const phone = document.getElementById("phone").value;
+        setCookie("booth", booth);
+        const docRef = doc(db, "stamps", booth + "-" + phone);
+        setDoc(docRef, { booth, phone })
+          .then(() => {
+            console.log("Document added successfully!");
+          })
+          .catch((error) => {
+            console.error("Error adding document: ", error);
+          });
+      });
+
+      const currentUrl = window.location.href;
+      const regex = /phone=(\d+)/;
+      const match = currentUrl.match(regex);
+      if (match) {
+        const phone = parseInt(match[1]);
+        $("#phone").val(phone);
+        console.log("Phone number found:", phone);
+      } else {
+        console.log("Phone number not found.");
+      }
+      const boothCookie = getCookie("booth");
+      if (boothCookie) {
+        $("#booth").val(boothCookie);
+        console.log("Booth number found:", boothCookie);
+      }
+
+
+      
+    </script>
+  </body>
+</html>
