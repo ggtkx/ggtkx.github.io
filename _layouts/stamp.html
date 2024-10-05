@@ -142,11 +142,11 @@
         setDoc(docRef, { booth, phone })
           .then(() => {
             console.log("Document added successfully!");
-            $("#messge").html("签到成功");
+            $("#message").html("签到成功");
           })
           .catch((error) => {
             console.error("Error adding document: ", error);
-            $("#messge").html("签到失败");
+            $("#message").html("签到失败");
           });
       });
 
