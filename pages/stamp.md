@@ -1,5 +1,5 @@
 ---
-title: 测试design
+title: Stamps
 layout: stamp
 permalink: /stamp/
 ---

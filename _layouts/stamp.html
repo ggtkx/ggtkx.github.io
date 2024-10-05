@@ -17,7 +17,9 @@
       <input type="text" id="booth" placeholder="请输入摊位号" />
       <input type="text" id="phone" placeholder="请输入手机号" />
       <button id="stamp-button">签到</button>
+      
     </form>
+    <div id="message"></div>
     <script>
       function setCookie(name, value) {
         console.log("Setting cookie:", name, value);
@@ -90,6 +92,7 @@
             .catch((error) => {
               // Handle sign-in errors
               console.error("Sign-in error:", error);
+              $("#message").html("登录失败");
             });
         });
       }
@@ -111,6 +114,7 @@
                   .then(() => {
                     // Sign-out successful
                     console.log("Signed out successfully");
+                    $("#stamp").hide();
                     showSignInForm();
                   })
                   .catch((error) => {
@@ -138,9 +142,11 @@
         setDoc(docRef, { booth, phone })
           .then(() => {
             console.log("Document added successfully!");
+            $("#messge").html("签到成功");
           })
           .catch((error) => {
             console.error("Error adding document: ", error);
+            $("#messge").html("签到失败");
           });
       });
 
