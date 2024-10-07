@@ -141,7 +141,7 @@
         setDoc(docRef, { booth, phone })
           .then(() => {
             console.log("Document added successfully!");
-            $("#message").html("签到成功");
+            $("#message").html("签到" + phone + "成功");
           })
           .catch((error) => {
             console.error("Error adding document: ", error);
