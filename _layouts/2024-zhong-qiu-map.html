@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <script type="module" src="https://unpkg.com/qr-scanner@1.4.2/qr-scanner.min.js"></script>
+
+    <title>Document</title>
+    <!-- CSS resetting -->
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+      }
+    </style>
+
+    <!-- Map Styles -->
+    <style>
+      #map-container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      #map {
+        width: 100%;
+        /* height: 100%; */
+      }
+    </style>
+
+    <!-- Drawer Styles -->
+    <style>
+      #drawer {
+        z-index: 100;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: white;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        border: 1px solid black;
+      }
+
+      #drawer-slider-container {
+        display: flex;
+        justify-content: center;
+      }
+
+      #drawer-slider {
+        width: 65px;
+        height: 7px;
+        border-radius: 16px;
+        margin-top: 5px;
+        border: none;
+      }
+
+      .drawer-tab-group {
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem 1rem 0 1rem;
+      }
+
+      .drawer-tab {
+        padding: 0.5rem 1rem;
+        border-radius: 0.7rem;
+        min-width: 4rem;
+        display: flex;
+        justify-content: center;
+        background-color: #ffd400;
+      }
+
+      .drawer-tab__active {
+        opacity: 100%;
+      }
+
+      .drawer-tab__inactive {
+        opacity: 24%;
+      }
+
+      .drawer-content__container {
+        margin: 1rem 1rem 0 1rem;
+        overflow-y: scroll;
+      }
+
+      #drawer-content {
+        animation-fill-mode: forwards;
+        height: 100px;
+        /* width: 100vw; */
+      }
+
+      #drawer-content > * {
+        max-width: 100%;
+      }
+
+      .drawer-open {
+        animation-name: slideUp;
+
+        animation-duration: 0.2s;
+        animation-timing-function: ease-out;
+      }
+
+      .drawer-close {
+        animation-name: slideDown;
+
+        animation-duration: 0.2s;
+        animation-timing-function: ease-out;
+      }
+
+      @keyframes slideUp {
+        from {
+          height: 100px;
+        }
+
+        to {
+          height: 500px;
+        }
+      }
+
+      @keyframes slideDown {
+        from {
+          height: 500px;
+        }
+
+        to {
+          height: 100px;
+        }
+      }
+    </style>
+
+    <!-- 节目单 样式 -->
+    <style>
+      .show-info-card {
+        position: relative;
+      }
+      .show-time {
+        padding: 1rem 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      .show-info {
+        left: 0;
+        right: 0;
+        height: 150px;
+        backdrop-filter: grayscale(60%);
+        position: absolute;
+      }
+      .show-title {
+        font-size: 2rem;
+        margin: 0.5rem;
+      }
+      .show-intro {
+        margin: 0.5rem;
+      }
+      img.show-bg-img {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 0.5rem;
+      }
+    </style>
+
+    <!-- Sponsors Tab Styles -->
+    <style>
+      .sponsor-tab-group {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+      }
+
+      .sponsor-tab {
+        padding: 0.5rem 1rem;
+        border-radius: 0.7rem;
+        min-width: 4rem;
+        display: flex;
+        justify-content: center;
+        background-color: #ffd400;
+        width: 40%;
+      }
+
+      .sponsor-tab__active {
+        opacity: 100%;
+      }
+
+      .sponsor-tab__inactive {
+        opacity: 24%;
+      }
+
+      .sponsor-container {
+        /* margin: 1rem 1rem 0 1rem; */
+        overflow-y: scroll;
+      }
+      #sponsorLogoGroup {
+        /* width: 500px; */
+        height: 100px;
+        white-space: nowrap;
+        position: relative;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        margin-top: 1rem;
+      }
+      .sponsor-logo {
+        width: 100px;
+        /* background-color: #eee; */
+        /* float: none; */
+        height: 100px;
+        margin: 0 0.5rem;
+        display: inline-block;
+        /* zoom: 1; */
+        position: relative;
+      }
+
+      .sponsor-logo img.logo-img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      img.tire-icon {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 0;
+        bottom: 0;
+      }
+
+      .sponsor-details {
+      }
+
+      img.sponsor-qr {
+        width: 100%;
+        object-fit: contain;
+      }
+    </style>
+
+    <!-- 全局状态 -->
+    <script>
+      const siteStates = {
+        selectedLanguage: 'zh',
+        isDrawerOpen: false,
+        selectedTab: 'guide',
+      };
+    </script>
+
+    <!-- 中英文切换文本设定  -->
+    <script>
+      const i18nStrings = {
+        'payInfo.coin': {
+          zh: '代币支付',
+          en: 'Coin',
+        },
+        'payInfo.cash': {
+          zh: '现金支付',
+          en: 'Cash',
+        },
+        langSwitch: {
+          zh: 'English',
+          en: '中文',
+        },
+        'drawer.tab.guide': {
+          zh: '游园指南',
+          en: 'Guide',
+        },
+        'drawer.tab.shows': {
+          zh: '节目单',
+          en: 'Shows',
+        },
+        'drawer.tab.guide.sponsors': {
+          zh: '赞助&合作',
+          en: 'Sponsors',
+        },
+      };
+    </script>
+
+    <!-- 节目单信息 -->
+    <script>
+      const showsList = [
+        {
+          title: '演出标题',
+          intro:
+            '演出简介，没错，就是简介。一两句话，一两行的那种。演出简介，没错，就是简介。一两句话，一两行的那种。',
+          time: '12:00 PM',
+          image: '/images/2024-map/content.png',
+        },
+        {
+          title: '演出标题',
+          intro:
+            '演出简介，没错，就是简介。一两句话，一两行的那种。演出简介，没错，就是简介。一两句话，一两行的那种。',
+          time: '12:00 PM',
+          image: '/images/2024-map/content.png',
+        },
+        {
+          title: '演出标题',
+          intro:
+            '演出简介，没错，就是简介。一两句话，一两行的那种。演出简介，没错，就是简介。一两句话，一两行的那种。',
+          time: '12:00 PM',
+          image: '/images/2024-map/content.png',
+        },
+        {
+          title: '演出标题',
+          intro:
+            '演出简介，没错，就是简介。一两句话，一两行的那种。演出简介，没错，就是简介。一两句话，一两行的那种。',
+          time: '12:00 PM',
+          image: '/images/2024-map/content.png',
+        },
+      ];
+    </script>
+
+    <!-- tab 动态内容 html -->
+    <script>
+      const tourGuideHTMLContent = `
+      <img
+              src="/images/2024-map/tourGuide.png"
+              alt=""
+            /> 
+      `;
+      const showListHTMLContent = showsList
+        .map((show) => {
+          return `
+        <div class="show-list-container">
+              <div class="show-info-card">
+                <div class="show-time">
+                  <span>${show.time}</span>
+                </div>
+                <div class="show-info">
+                  <div class="show-title">${show.title}</div>
+                  <div class="show-intro">
+                    ${show.intro}
+                  </div>
+                </div>
+                <img class="show-bg-img" src="${show.image}" alt="" />
+              </div>
+            </div>
+        `;
+        })
+        .join('');
+
+      const sponsorsHTMLContent = `
+      <div class="sponsor-container">
+              <div class="sponsor-tab-group" id="sponsorTabGroup">
+                <div
+                  class="sponsor-tab sponsor-tab__active"
+                  id="sponsorTab0"
+                  data-i18n-label="sponsor.tab.guide"
+                >
+                  赞助商
+                </div>
+                <div
+                  class="sponsor-tab sponsor-tab__inactive"
+                  id="sponsorTab1"
+                  data-i18n-label="sponsor.tab.shows"
+                >
+                  友情合作
+                </div>
+              </div>
+              <div id="sponsorTabContainer">
+                <div id="sponsorLogoGroup">
+                </div>
+              </div>
+              <div id="sponsorDetailsContainer"></div>
+            </div>`;
+    </script>
+
+    <!-- 赞助商信息及生成对应html -->
+    <script>
+      const sponsorsAndCollaboratorsMap = {
+        HeCares: {
+          name: 'HeCares',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-HeCares/友情合作-HeCares-logo.jpeg',
+          qrCode: ['/images/2024-map/sponsors/友情合作-HeCares/HeCares-二维码.png'],
+        },
+        sjusv: {
+          name: '交大校友会',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-交大校友会/友情合作-交大校友会-logo.png',
+          qrCode: ['/images/2024-map/sponsors/友情合作-交大校友会/友情合作-交大校友会-二维码.png'],
+        },
+        chihuo: {
+          name: '吃货小分队',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货小分队logo.jpeg',
+          qrCode: ['/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货-二维码.jpg'],
+        },
+        taiyangshen: {
+          // 缺logo
+          name: '太阳神美院',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货小分队logo.png',
+          qrCode: ['/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货小分队-二维码.png'],
+        },
+        xigu: {
+          name: '戏谷剧团',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-戏谷剧团/友情合作-戏谷剧团-logo.jpeg',
+          qrCode: ['/images/2024-map/sponsors/友情合作-戏谷剧团/友情合作-戏谷剧团-二维码.png'],
+        },
+        tuokouxiu: {
+          name: '硅谷脱口秀',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-硅谷脱口秀/硅谷脱口秀Logo新.png',
+          qrCode: ['/images/2024-map/sponsors/友情合作-硅谷脱口秀/硅谷脱口秀二维码.png'],
+        },
+        aaya: {
+          name: 'AAYA',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作方-AAYA/AAYA-logo-中文.png',
+          qrCode: ['/images/2024-map/sponsors/友情合作方-AAYA/二维码.jpg'],
+        },
+        berryfun: {
+          name: 'BerryFun',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作方-BerryFun/BerryFun-Logo带字-透明底.png',
+          qrCode: ['/images/2024-map/sponsors/友情合作方-BerryFun/BerryFun小红书二维码.PNG'],
+        },
+        '99ranch': {
+          name: '99大华',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-99大华/白金-大华Logo.png',
+          qrCode: ['/images/2024-map/sponsors/白金-99大华/白金-大华-二维码.png'],
+          details: `下载大华APP，购齐生活所需！生鲜果蔬、生猛活海
+鲜、零食饮料、美妆护肤，应有尽有！最快当天送达，
+载歌在古专享：全场订单满$68减$10，优惠码:
+ZGZG10。10月万圣节大促：
+10.18 - 10.31
+10% OFF $60+
+15% OFF $80+
+20% OFF $100+，无需折扣码，自动满折。新人注册再送
+减$20优惠券，活动当天去大华摊位可免费领取零食礼包！
+`,
+        },
+        'balance-better': {
+          name: 'Balance & Better',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-Balance-Better/logo-Balance-Better.png',
+          qrCode: [
+            '/images/2024-map/sponsors/白金-Balance-Better/balanced-better-二维码及文字.png',
+          ],
+          details: `Are you a HENRY (High Earning Not Rich Yet)?
+Are you bothered by high tax burden and wondering about tax-free plans?
+Are you wondering about ways of passive income?
+Are you wondering how to plan for a “worry-free” retirement?
+Balanced & Better Financial Service Team is here to help. 
+
+We are a team of financial professionals backed by 100+ accredited financial institutions. We provide holistic financial strategy education for families, facilitate solutions from kids college tuition funding, LTC (Long Term Care) preparation to retirement planning, estate planning etc.
+We strive for professional excellence and Long-Term customer satisfaction.
+
+
+WeChat ID:  BalancedBetter
+Meet us: bit.ly/meet-BB
+`,
+        },
+        juso: {
+          name: 'JUSO Home',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-JUSO/Juso_Home_logo-01.png',
+          qrCode: [
+            '/images/2024-map/sponsors/白金-JUSO/白金-JUSO-Home-二维码1.png',
+            '/images/2024-map/sponsors/白金-JUSO/白金-JUSO-Home-二维码2',
+          ],
+          details: `Juso Home是一家总部坐落于旧金山湾区的家居用品的品牌。专注于打造现代、时尚且优质的家居体验。我们秉承让高端极简设计触手可及的理念，致力于提供亲民且可负担的高品质产品。欢迎您与我们一起，感受精致家居带来的温馨与品味。`,
+        },
+        lingoace: {
+          name: 'Lingoace',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-Lingoace/白金-Lingoace-logo.jpeg',
+          qrCode: ['/images/2024-map/sponsors/白金-Lingoace/白金-lingoace-二维码.png'],
+          details: `LingoAce 是一家专注于为全球学生提供中文学习的在线教育平台，特别适合3到15岁的儿童。通过结合互动性强的课程设计、丰富多样的教材和资深教师团队，LingoAce 为儿童创造了一种沉浸式的语言学习环境。平台提供个性化的学习体验，帮助孩子们通过趣味性强的方式掌握中文听、说、读、写的技能。
+
+LingoAce 的教学方式以寓教于乐为核心理念，结合游戏化的互动和多媒体资源，激发孩子们的学习兴趣。平台上的教师均为经过严格筛选和专业培训的母语教师，确保学生得到高质量的教学指导。此外，LingoAce 还提供详细的学习报告，帮助家长及时了解孩子的进步情况。
+
+平台的课程设置灵活，家长可以根据孩子的需求和水平自由选择课程，满足不同语言学习目标的需求。无论是初学者还是有一定基础的学生，LingoAce 都致力于为全球儿童提供高效、有趣的中文学习体验。
+`,
+        },
+        tradeup: {
+          name: 'TradeUP 老虎证券',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-TradeUP/白金-老虎证券logo.jpeg',
+          qrCode: ['/images/2024-map/sponsors/白金-TradeUP/老虎证券二维码.jpeg'],
+          details: `TradeUP Securities, Inc.是老虎证券（Nasdaq: TIGR)在美国挂牌营业、有清算资质的证券公司，专注于为全球客户提供迅捷、高质量的证券交易执行、证券清算和全方位金融投资服务。
+
+TradeUP成立于1986年，拥有逾30年的经验，秉承可靠、专业的全球化服务标准，已成为诸多国际零售及机构客户值得信赖的投资伙伴。我们受美国SEC监管，也是FINRA、NYSE、SIPC的会员。
+
+TradeUp is a Nasdaq-listed fintech company that can support your investments with a professional trading system, educational content, and analysis.
+`,
+        },
+        fangtai: {
+          name: '方太',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-方太/白金-FOTILE方太-logo-black.png',
+          qrCode: [
+            '/images/2024-map/sponsors/白金-方太/白金-方太-Cupertino二维码.jpg',
+            '/images/2024-map/sponsors/白金-方太/白金-方太-Milpitas二维码.jpg',
+            '/images/2024-map/sponsors/白金-方太/白金-方太-UnionCity二维码.jpg',
+          ],
+          details: `方太近30年来始终致力于通过技术创新，为用户打造更健康幸福的厨房生活。2017年，方太进军美国市场，专为美国更开放宽敞的厨房设计了一系列高端厨电产品，赢得了广大用户的信赖与好评。目前，美国核心城市中每三户华人家庭，就有一户选择方太。凭借强大的实力和卓越的品质，方太连续三年被福布斯评选为“十佳油烟机品牌”，成为唯一上榜的中国出海品牌。`,
+        },
+        fantuan: {
+          name: '饭团',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-饭团/白金-饭团-logo.png',
+          qrCode: ['/images/2024-map/sponsors/白金-饭团/白金-饭团-二维码.png'],
+          details: `饭团外卖结合了湾区好吃的好玩的，从【外卖配送】到【生鲜便利】到【到店团购】等多样化服务, 不断开拓业务边界, 帮助用户更好地探索湾区本地生活。为海外华人及所有海外消费者提供更加便捷, 高效, 智能的服务。
+现在新人用户还有$100大礼包优惠券。全场独家超值折扣美食、娱乐，让大家感受到家的味道家的温暖，真正做到“轻松生活, 一个饭团就够了”
+`,
+        },
+        ipg: {
+          name: 'IPG',
+          tier: 'gold',
+          logo: '/images/2024-map/sponsors/黄金-IPG/logo.jpg',
+          qrCode: ['/images/2024-map/sponsors/黄金-IPG/微信公众号二维码.png'],
+          details: `英特利普集团成立于硅谷，专注全球招雇一体化，集团总部位于硅谷，在纽约、伦敦、新加坡、上海、北京、深圳等全球15个核心城市设有分公司。AI人才库11亿，覆盖160+国家，为顶级科技公司提供招聘与雇佣服务，致力于AI驱动的人才匹配。`,
+        },
+        steve: {
+          name: 'Steve Chen',
+          tier: 'gold',
+          logo: '/images/2024-map/sponsors/黄金-Steve/金牌-Steve-Chen-logo.jpeg',
+          qrCode: ['/images/2024-map/sponsors/黄金-Steve/金牌-Steve-Chen-二维码.jpeg'],
+          details: `Steve Chen，从业15年的资深房屋贷款经纪。顶尖的团队，凭藉扎实专业知识、丰富沟通技巧、和多年的实战经验，帮助了超过5000个家庭在美国完成购屋的梦想！`,
+        },
+      };
+      const collaboratorsList = [
+        'HeCares',
+        'sjusv',
+        'chihuo',
+        'taiyangshen',
+        'xigu',
+        'tuokouxiu',
+        'aaya',
+        'berryfun',
+      ];
+      const sponsorsList = [
+        '99ranch',
+        'balance-better',
+        'juso',
+        'lingoace',
+        'tradeup',
+        'fangtai',
+        'fantuan',
+        'ipg',
+        'steve',
+      ];
+
+      const sponsorsListHTML = sponsorsList
+        .map((sponsor) => {
+          const info = sponsorsAndCollaboratorsMap[sponsor];
+          return `
+      <div class="sponsor-logo" data-sponsor="${sponsor}">
+        <img class="tire-icon" src="/images/2024-map/icon-${info.tier}.png" alt="" />
+        <img data-sponsor="${sponsor}"
+          class="logo-img"
+          src="${info.logo}"
+          alt="${info.name}"
+        />
+      </div>
+      `;
+        })
+        .join('');
+
+      const collaboratorsListHTML = collaboratorsList
+        .map((sponsor) => {
+          const info = sponsorsAndCollaboratorsMap[sponsor];
+          return `
+      <div class="sponsor-logo" data-sponsor="${sponsor}">
+        <img
+        data-sponsor="${sponsor}"
+          class="logo-img"
+          src="${info.logo}"
+          alt="${info.name}"
+        />
+      </div>
+      `;
+        })
+        .join('');
+    </script>
+  </head>
+  <body>
+    <div>
+      <!-- <div id="top-info">
+        <div id="pay-info">
+          <span data-i18n-label="payInfo.coin"> </span>
+          <span data-i18n-label="payInfo.cash"> </span>
+        </div>
+        <div id="change-lang">
+          <span data-i18n-label="langSwitch"> </span>
+        </div>
+      </div> -->
+      <div id="map-container">
+        <img id="map" src="/images/2024-map/map.png" alt="" />
+      </div>
+      <div id="drawer">
+        <div id="drawer-slider-container">
+          <button id="drawer-slider"></button>
+        </div>
+        <div class="drawer-tab-group" id="drawerTabGroup">
+          <div
+            class="drawer-tab drawer-tab__active"
+            id="drawerTab0"
+            data-i18n-label="drawer.tab.guide"
+          >
+            游园指南
+          </div>
+          <div
+            class="drawer-tab drawer-tab__inactive"
+            id="drawerTab1"
+            data-i18n-label="drawer.tab.shows"
+          >
+            节目单
+          </div>
+          <div
+            class="drawer-tab drawer-tab__inactive"
+            id="drawerTab2"
+            data-i18n-label="drawer.tab.guide.sponsors"
+          >
+            赞助&合作
+          </div>
+        </div>
+        <div class="drawer-content__container">
+          <div id="drawer-content">
+            <img src="/images/2024-map/tourGuide.png" alt="游园指南" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- 设置地图点击监听层 -->
+  <script>
+    const mapOverlay = document.querySelector('#mapOverLay');
+  </script>
+
+  <!-- 中英切换 -->
+  <!-- <script>
+    const allI18nEles = document.querySelectorAll('[data-i18n-label]');
+
+    allI18nEles.forEach((e) => {
+      const i18nLabel = e.getAttribute('data-i18n-label');
+      console.log(e, e.getAttribute('data-i18n-label'));
+
+      e.innerHTML = i18nStrings[i18nLabel][siteStates.selectedLanguage];
+    });
+  </script> -->
+
+  <!-- pan zoom map script -->
+  <script>
+    class TouchDragEvent {
+      maxScale = 5;
+      minScale = 1;
+      initialWidth;
+      initialHeight;
+      initialLeft;
+      initialTop;
+
+      translateXLeftLimit;
+      translateYUpperLimit = 0;
+
+      translateXRightLimit = 0;
+      translateYLowerLimit = 0;
+
+      preTouchPosition = {};
+      translateX = 0;
+      translateY = 0;
+      scaleRatio = 1;
+      scaleOrigin = {
+        x: 0,
+        y: 0,
+      };
+      preTouchesClientx1y1x2y2;
+      originHaveSet = false;
+
+      img;
+      naturalWidth;
+      naturalHeight;
+
+      constructor(img) {
+        this.img = img;
+        this.naturalWidth = this.img.naturalWidth;
+        this.naturalHeight = this.img.naturalHeight;
+        this.calculateInitialSize();
+
+        // this.initialWidth = screen.width;
+        // this.initialHeight = screen.height;
+
+        img.onload = () => {
+          this.reset();
+        };
+
+        img.ontouchstart = this.onTouchstart.bind(this);
+        img.ontouchmove = this.onTouchmove.bind(this);
+        img.ontouchend = this.onTouchend.bind(this);
+        img.ontouchcancel = this.ontouchcancel.bind(this);
+
+        img.onclick = this.onClick.bind(this);
+      }
+
+      calculateInitialSize() {
+        if (this.naturalWidth < this.naturalHeight) {
+          this.setDisplaySize(
+            screen.width,
+            (screen.width / this.naturalWidth) * this.naturalHeight
+          );
+        } else if (this.naturalWidth > this.naturalHeight) {
+          this.setDisplaySize(
+            (screen.width / this.naturalHeight) * this.naturalWidth,
+            screen.width
+          );
+        } else {
+          this.setDisplaySize(screen.width, screen.width);
+        }
+      }
+
+      setDisplaySize(width, height) {
+        this.initialWidth = width;
+        this.initialHeight = height;
+
+        if (this.initialWidth >= 280) {
+          this.initialLeft = -(this.initialWidth - 280) / 2;
+        }
+
+        if (this.initialHeight >= 280) {
+          this.initialTop = -(this.initialHeight - 280) / 2;
+        }
+      }
+
+      reset() {
+        console.log('reset');
+        this.translateXLeftLimit = 0;
+        this.translateYUpperLimit = 0;
+
+        this.translateXRightLimit = 0;
+        this.translateYLowerLimit = 0;
+
+        this.preTouchPosition = {};
+        this.translateX = 0;
+        this.translateY = 0;
+        this.scaleRatio = 1;
+        this.scaleOrigin = {
+          x: 0,
+          y: 0,
+        };
+        this.preTouchesClientx1y1x2y2 = undefined;
+        this.originHaveSet = false;
+        this.setStyle('transform', 'none');
+        this.setStyle('transform-origin', '50% 50%');
+      }
+
+      onClick(e) {
+        // TODO：offsetX 和 offsetY 不会随着缩放平移而变化，可以根据这俩来确定点了哪里
+      }
+
+      // @HostListener('touchstart', ['$event'])
+      onTouchstart(e) {
+        let touches = e.touches;
+        if (touches.length > 1) {
+          let one = touches['0'];
+          let two = touches['1'];
+          this.preTouchesClientx1y1x2y2 = [one.clientX, one.clientY, two.clientX, two.clientY];
+          this.originHaveSet = false;
+        }
+        this.recordPreTouchPosition(touches['0']);
+        if (siteStates.isDrawerOpen) {
+          drawerContentEle.className = 'drawer-close';
+          siteStates.isDrawerOpen = false;
+        }
+      }
+
+      // @HostListener('touchmove', ['$event'])
+      onTouchmove(e) {
+        let touches = e.touches;
+
+        if (touches.length === 1) {
+          let oneTouch = touches['0'];
+          let translated = this.getTranslate(oneTouch.target);
+          this.translateX = oneTouch.clientX - this.preTouchPosition.x + translated.left;
+          this.translateY = oneTouch.clientY - this.preTouchPosition.y + translated.top;
+
+          this.limitImageBorder();
+
+          if (this.scaleRatio !== 1) {
+            let matrix = `matrix(${this.scaleRatio}, 0, 0, ${this.scaleRatio}, ${this.translateX}, ${this.translateY})`;
+            this.setStyle('transform', matrix);
+          }
+
+          this.recordPreTouchPosition(oneTouch);
+        } else {
+          let one = touches['0'];
+          let two = touches['1'];
+          this.scaleRatio =
+            (this.distance(one.clientX, one.clientY, two.clientX, two.clientY) /
+              this.distance(...this.preTouchesClientx1y1x2y2)) *
+              this.scaleRatio || 1;
+          if (this.scaleRatio > this.maxScale) {
+            this.scaleRatio = this.maxScale;
+          }
+          if (this.scaleRatio < this.minScale) {
+            this.scaleRatio = this.minScale;
+          }
+
+          if (!this.originHaveSet) {
+            this.originHaveSet = true;
+            // 移动视线中心
+            let origin = this.relativeCoordinate(
+              (one.clientX + two.clientX) / 2,
+              (one.clientY + two.clientY) / 2,
+              this.img.getBoundingClientRect()
+            );
+            // 修正视野变化带来的平移量
+            this.translateX =
+              (this.scaleRatio - 1) * (origin.x - this.scaleOrigin.x) + this.translateX;
+            this.translateY =
+              (this.scaleRatio - 1) * (origin.y - this.scaleOrigin.y) + this.translateY;
+
+            this.setStyle('transform-origin', `${origin.x}px ${origin.y}px`);
+            this.scaleOrigin = origin;
+          }
+
+          this.limitImageBorder();
+          let matrix = `matrix(${this.scaleRatio}, 0, 0, ${this.scaleRatio}, ${this.translateX}, ${this.translateY})`;
+          this.setStyle('transform', matrix);
+          this.preTouchesClientx1y1x2y2 = [one.clientX, one.clientY, two.clientX, two.clientY];
+        }
+        e.preventDefault();
+      }
+
+      // 触摸点离开时更新最后位置
+      // @HostListener('touchend', ['$event'])
+      onTouchend(e) {
+        let touches = e.touches;
+        if (touches.length === 1) {
+          this.recordPreTouchPosition(touches['0']);
+        }
+        if (this.scaleRatio === 1) {
+          this.reset();
+        }
+      }
+
+      // @HostListener('touchcancel', ['$event'])
+      ontouchcancel(e) {
+        let touches = e.touches;
+        if (touches.length === 1) {
+          this.recordPreTouchPosition(touches['0']);
+        }
+        if (this.scaleRatio === 1) {
+          this.reset();
+        }
+      }
+
+      limitImageBorder() {
+        this.translateXLeftLimit = (this.scaleRatio - 1) * this.scaleOrigin.x - this.initialLeft; // 已正确
+        this.translateXRightLimit =
+          -(this.scaleRatio - 1) * (this.initialWidth - this.scaleOrigin.x) + this.initialLeft;
+
+        this.translateYUpperLimit = (this.scaleRatio - 1) * this.scaleOrigin.y - this.initialTop; // 已正确
+        this.translateYLowerLimit =
+          -(this.scaleRatio - 1) * (this.initialHeight - this.scaleOrigin.y) + this.initialTop; // 已正确
+
+        if (this.translateY > this.translateYUpperLimit) {
+          this.translateY = this.translateYUpperLimit;
+        } else if (this.translateY < this.translateYLowerLimit) {
+          this.translateY = this.translateYLowerLimit;
+        }
+
+        if (this.translateX > this.translateXLeftLimit) {
+          this.translateX = this.translateXLeftLimit;
+        } else if (this.translateX < this.translateXRightLimit) {
+          this.translateX = this.translateXRightLimit;
+        }
+      }
+
+      getStyle(target, style) {
+        let styles = window.getComputedStyle(target, null);
+        return styles.getPropertyValue(style);
+      }
+
+      getTranslate(target) {
+        let matrix = this.getStyle(target, 'transform');
+        let nums = matrix.substring(7, matrix.length - 1).split(', ');
+        let left = parseInt(nums[4]) || 0;
+        let top = parseInt(nums[5]) || 0;
+        return {
+          left: left,
+          top: top,
+        };
+      }
+
+      recordPreTouchPosition(touch) {
+        this.preTouchPosition = {
+          x: touch.clientX,
+          y: touch.clientY,
+        };
+      }
+
+      relativeCoordinate(x, y, rect) {
+        let cx = (x - rect.left) / this.scaleRatio;
+        let cy = (y - rect.top) / this.scaleRatio;
+        return {
+          x: cx,
+          y: cy,
+        };
+      }
+
+      setStyle(key, value) {
+        this.img.style[key] = value;
+      }
+
+      distance(x1, y1, x2, y2) {
+        let a = x1 - x2;
+        let b = y1 - y2;
+        return Math.sqrt(a * a + b * b);
+      }
+    }
+
+    // 使用方法
+    let imgElement = document.querySelector('img'); // 选择需要绑定事件的图片元素
+    new TouchDragEvent(imgElement);
+  </script>
+
+  <!-- drawer script -->
+  <script>
+    const drawerSliderEle = document.getElementById('drawer-slider');
+    const drawerContentEle = document.getElementById('drawer-content');
+    let isDrawerOpen = false;
+    drawerSliderEle.onclick = () => {
+      siteStates.isDrawerOpen = !siteStates.isDrawerOpen;
+
+      if (siteStates.isDrawerOpen) {
+        drawerContentEle.className = 'drawer-open';
+      } else {
+        drawerContentEle.className = 'drawer-close';
+      }
+    };
+  </script>
+
+  <!-- 顶层切换tab -->
+  <script>
+    const tourTab = document.querySelector('#drawerTabGroup > #drawerTab0');
+    const showListTab = document.querySelector('#drawerTabGroup > #drawerTab1');
+    const sponsorsTab = document.querySelector('#drawerTabGroup > #drawerTab2');
+    const tabContainer = document.querySelector('#drawer-content');
+
+    tourTab.onclick = () => {
+      tourTab.classList.remove('drawer-tab__inactive');
+      tourTab.classList.add('drawer-tab__active');
+
+      showListTab.classList.add('drawer-tab__inactive');
+      showListTab.classList.remove('drawer-tab__active');
+
+      sponsorsTab.classList.add('drawer-tab__inactive');
+      sponsorsTab.classList.remove('drawer-tab__active');
+      tabContainer.innerHTML = tourGuideHTMLContent;
+    };
+
+    showListTab.onclick = () => {
+      showListTab.classList.remove('drawer-tab__inactive');
+      showListTab.classList.add('drawer-tab__active');
+
+      tourTab.classList.add('drawer-tab__inactive');
+      tourTab.classList.remove('drawer-tab__active');
+
+      sponsorsTab.classList.add('drawer-tab__inactive');
+      sponsorsTab.classList.remove('drawer-tab__active');
+
+      tabContainer.innerHTML = showListHTMLContent;
+    };
+
+    sponsorsTab.onclick = () => {
+      sponsorsTab.classList.remove('drawer-tab__inactive');
+      sponsorsTab.classList.add('drawer-tab__active');
+
+      tourTab.classList.add('drawer-tab__inactive');
+      tourTab.classList.remove('drawer-tab__active');
+
+      showListTab.classList.add('drawer-tab__inactive');
+      showListTab.classList.remove('drawer-tab__active');
+
+      tabContainer.innerHTML = sponsorsHTMLContent;
+      bindSponsorTabEvents();
+    };
+  </script>
+
+  <!-- 赞助商子tab切换 -->
+  <script>
+    function showSponsorInfo(sponsorKey, sponsorDetailsContainer) {
+      const qrImages = sponsorsAndCollaboratorsMap[sponsorKey].qrCode.map((code) => {
+        return `<img class="sponsor-qr" src="${code}"/>`;
+      });
+      sponsorDetailsContainer.innerHTML = `
+        <div>
+          <p class="sponsor-details">${sponsorsAndCollaboratorsMap[sponsorKey].details}</p>
+          ${qrImages}
+        </div>
+        `;
+    }
+    function selectSponsor(e, sponsorDetailsContainer) {
+      console.log(e);
+      if (e.target.classList.contains('logo-img')) {
+        const sponsorKey = e.target.getAttribute('data-sponsor');
+        console.log('sponsor is');
+        console.log('sponsorDetailsContainer is', sponsorDetailsContainer);
+        showSponsorInfo(sponsorKey, sponsorDetailsContainer);
+      }
+    }
+    function bindSponsorTabEvents() {
+      const sponsorTab1 = document.querySelector('#sponsorTabGroup > #sponsorTab0');
+      const sponsorTab2 = document.querySelector('#sponsorTabGroup > #sponsorTab1');
+      const sponsorLogoGroup = document.querySelector('#sponsorLogoGroup');
+      const sponsorDetailsContainer = document.querySelector('#sponsorDetailsContainer');
+
+      function activateTab1() {
+        sponsorTab1.classList.remove('sponsor-tab__inactive');
+        sponsorTab1.classList.add('sponsor-tab__active');
+
+        sponsorTab2.classList.add('sponsor-tab__inactive');
+        sponsorTab2.classList.remove('sponsor-tab__active');
+
+        sponsorLogoGroup.innerHTML = sponsorsListHTML;
+
+        sponsorLogoGroup.onclick = (e) => {
+          selectSponsor(e, sponsorDetailsContainer);
+        };
+        showSponsorInfo(sponsorsList[0], sponsorDetailsContainer);
+      }
+
+      function activateTab2() {
+        sponsorTab2.classList.remove('sponsor-tab__inactive');
+        sponsorTab2.classList.add('sponsor-tab__active');
+
+        sponsorTab1.classList.add('sponsor-tab__inactive');
+        sponsorTab1.classList.remove('sponsor-tab__active');
+
+        sponsorLogoGroup.innerHTML = collaboratorsListHTML;
+
+        sponsorLogoGroup.onclick = (e) => {
+          selectSponsor(e, sponsorDetailsContainer);
+        };
+        showSponsorInfo(collaboratorsList[0], sponsorDetailsContainer);
+      }
+
+      activateTab1();
+
+      sponsorTab1.onclick = activateTab1;
+
+      sponsorTab2.onclick = activateTab2;
+    }
+  </script>
+
+  <!-- 摊位信息弹窗 -->
+  <script></script>
+</html>
