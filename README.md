@@ -6,6 +6,11 @@ The Website is deployed to [GitHub pages](https://ggtkx.github.io/) and is serve
 
 The Website is statically generated with [Jekyll](https://jekyllrb.com/). To serve it locally, run:
 
+Make sure you have Ruby 3.3.5, to install dependencies
+```shell
+bundle install
+```
+
 ```shell
 bundle exec jekyll serve
 ```
