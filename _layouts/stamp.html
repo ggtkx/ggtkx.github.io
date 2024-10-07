@@ -8,14 +8,17 @@
     />
     <title>Interactive Map with Background Image</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+  >
     <style></style>
   </head>
-  <body style="background-color: #ddd">
+  <body class="container">
     <div id="sign-in-status"></div>
     <form id="stamp" style="display: none">
-      <input type="text" id="phone" placeholder="请输入手机号" style="width: 80%" />
-      <button id="stamp-button" style="width: 80%">签到</button>
+      <input type="text" id="phone" placeholder="请输入手机号"/>
+      <button id="stamp-button">签到</button>
     </form>
     <div id="message"></div>
     <script>
@@ -103,7 +106,7 @@
             booth = user.email.split("@")[0];
             document.getElementById("sign-in-status").innerHTML = `
         <p>摊位${booth}签到</p>
-        <button id="signOutButton">Sign Out</button>
+        <button id="signOut" class="outline secondary">Sign Out</button>
       `;
 
             $("#stamp").show();
