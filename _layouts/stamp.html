@@ -14,10 +14,8 @@
   <body style="background-color: #ddd">
     <div id="sign-in-status"></div>
     <form id="stamp" style="display: none">
-      <input type="text" id="booth" placeholder="请输入摊位号" style="width:80%"/>
-      <input type="text" id="phone" placeholder="请输入手机号" style="width:80%"/>
-      <button id="stamp-button" style="width:80%" >签到</button>
-      
+      <input type="text" id="phone" placeholder="请输入手机号" style="width: 80%" />
+      <button id="stamp-button" style="width: 80%">签到</button>
     </form>
     <div id="message"></div>
     <script>
@@ -39,6 +37,7 @@
       }
     </script>
     <script type="module">
+      let booth = null;
       // Import the functions you need from the SDKs you need
       import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
       import {
@@ -101,10 +100,12 @@
       function checkSignInStatus() {
         auth.onAuthStateChanged((user) => {
           if (user) {
+            booth = user.email.split("@")[0];
             document.getElementById("sign-in-status").innerHTML = `
-        <p>Signed in as ${user.email}</p>
+        <p>摊位${booth}签到</p>
         <button id="signOutButton">Sign Out</button>
       `;
+
             $("#stamp").show();
 
             document
@@ -135,9 +136,7 @@
       const db = getFirestore(app);
       document.getElementById("stamp").addEventListener("submit", (event) => {
         event.preventDefault();
-        const booth = document.getElementById("booth").value;
         const phone = document.getElementById("phone").value;
-        setCookie("booth", booth);
         const docRef = doc(db, "stamps", booth + "-" + phone);
         setDoc(docRef, { booth, phone })
           .then(() => {
@@ -160,14 +159,6 @@
       } else {
         console.log("Phone number not found.");
       }
-      const boothCookie = getCookie("booth");
-      if (boothCookie) {
-        $("#booth").val(boothCookie);
-        console.log("Booth number found:", boothCookie);
-      }
-
-
-      
     </script>
   </body>
 </html>
