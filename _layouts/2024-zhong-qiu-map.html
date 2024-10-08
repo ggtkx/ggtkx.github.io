@@ -6,28 +6,452 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
+    <title>2024 金谷拾月游园会电子地图</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <!-- 全局状态 -->
+    <script>
+      const siteStates = {
+        selectedLanguage: 'zh',
+        isDrawerOpen: false,
+        selectedTab: 'guide',
+        qrCodeEle: undefined,
+        // phone: '',
+        // collectedStamps: [1, 5, 7],
+      };
 
-    <script type="module" src="https://unpkg.com/qr-scanner@1.4.2/qr-scanner.min.js"></script>
+      // Cookies.set('phone', '');
+      // Cookies.set('collectedStamps', []);
+      function showShopListPopupFunc(sectionName) {
+        console.log('2222');
+        console.log('cuisineListHTML', typeof cuisineListHTML);
+        console.log('shopListEle', shopListEle);
+        if (sectionName === 'cuisine') {
+          shopListEle.innerHTML = cuisineListHTML;
+        } else if (sectionName === 'kids') {
+        }
+        shopListPopupEle.classList.add('display-block');
+        shopListPopupEle.classList.remove('display-none');
+      }
+    </script>
 
-    <title>Document</title>
-    <!-- CSS resetting -->
+    <script type="text/javascript" src="https://blog.zgzg.io/custom/js/qrcode.js"></script>
+
+    <!-- 赞助商信息及生成对应html -->
+    <script>
+      const sponsorsAndCollaboratorsMap = {
+        HeCares: {
+          name: 'HeCares',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-HeCares/友情合作-HeCares-logo.jpeg',
+          qrCode: ['/images/2024-map/sponsors/友情合作-HeCares/HeCares-二维码.png'],
+        },
+        sjusv: {
+          name: '交大校友会',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-交大校友会/友情合作-交大校友会-logo.png',
+          qrCode: ['/images/2024-map/sponsors/友情合作-交大校友会/友情合作-交大校友会-二维码.png'],
+        },
+        chihuo: {
+          name: '吃货小分队',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货小分队logo.jpeg',
+          qrCode: ['/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货-二维码.jpg'],
+        },
+        taiyangshen: {
+          // 缺logo
+          name: '太阳神美院',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货小分队logo.png',
+          qrCode: ['/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货小分队-二维码.png'],
+        },
+        xigu: {
+          name: '戏谷剧团',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-戏谷剧团/友情合作-戏谷剧团-logo.jpeg',
+          qrCode: ['/images/2024-map/sponsors/友情合作-戏谷剧团/友情合作-戏谷剧团-二维码.png'],
+        },
+        tuokouxiu: {
+          name: '硅谷脱口秀',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-硅谷脱口秀/硅谷脱口秀Logo新.png',
+          qrCode: ['/images/2024-map/sponsors/友情合作-硅谷脱口秀/硅谷脱口秀二维码.png'],
+        },
+        aaya: {
+          name: 'AAYA',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作方-AAYA/AAYA-logo-中文.png',
+          qrCode: ['/images/2024-map/sponsors/友情合作方-AAYA/二维码.jpg'],
+        },
+        berryfun: {
+          name: 'BerryFun',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作方-BerryFun/BerryFun-Logo带字-透明底.png',
+          qrCode: ['/images/2024-map/sponsors/友情合作方-BerryFun/BerryFun小红书二维码.PNG'],
+        },
+        '99ranch': {
+          name: '99大华',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-99大华/白金-大华Logo.png',
+          qrCode: ['/images/2024-map/sponsors/白金-99大华/白金-大华-二维码.png'],
+          details: `下载大华APP，购齐生活所需！生鲜果蔬、生猛活海
+鲜、零食饮料、美妆护肤，应有尽有！最快当天送达，
+载歌在古专享：全场订单满$68减$10，优惠码:
+ZGZG10。10月万圣节大促：
+10.18 - 10.31
+10% OFF $60+
+15% OFF $80+
+20% OFF $100+，无需折扣码，自动满折。新人注册再送
+减$20优惠券，活动当天去大华摊位可免费领取零食礼包！
+`,
+        },
+        'balance-better': {
+          name: 'Balance & Better',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-Balance-Better/logo-Balance-Better.png',
+          qrCode: [
+            '/images/2024-map/sponsors/白金-Balance-Better/balanced-better-二维码及文字.png',
+          ],
+          details: `Are you a HENRY (High Earning Not Rich Yet)?
+Are you bothered by high tax burden and wondering about tax-free plans?
+Are you wondering about ways of passive income?
+Are you wondering how to plan for a “worry-free” retirement?
+Balanced & Better Financial Service Team is here to help. 
+
+We are a team of financial professionals backed by 100+ accredited financial institutions. We provide holistic financial strategy education for families, facilitate solutions from kids college tuition funding, LTC (Long Term Care) preparation to retirement planning, estate planning etc.
+We strive for professional excellence and Long-Term customer satisfaction.
+
+
+WeChat ID:  BalancedBetter
+Meet us: bit.ly/meet-BB
+`,
+        },
+        juso: {
+          name: 'JUSO Home',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-JUSO/Juso_Home_logo-01.png',
+          qrCode: [
+            '/images/2024-map/sponsors/白金-JUSO/白金-JUSO-Home-二维码1.png',
+            '/images/2024-map/sponsors/白金-JUSO/白金-JUSO-Home-二维码2',
+          ],
+          details: `Juso Home是一家总部坐落于旧金山湾区的家居用品的品牌。专注于打造现代、时尚且优质的家居体验。我们秉承让高端极简设计触手可及的理念，致力于提供亲民且可负担的高品质产品。欢迎您与我们一起，感受精致家居带来的温馨与品味。`,
+        },
+        lingoace: {
+          name: 'Lingoace',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-Lingoace/白金-Lingoace-logo.jpeg',
+          qrCode: ['/images/2024-map/sponsors/白金-Lingoace/白金-lingoace-二维码.png'],
+          details: `LingoAce 是一家专注于为全球学生提供中文学习的在线教育平台，特别适合3到15岁的儿童。通过结合互动性强的课程设计、丰富多样的教材和资深教师团队，LingoAce 为儿童创造了一种沉浸式的语言学习环境。平台提供个性化的学习体验，帮助孩子们通过趣味性强的方式掌握中文听、说、读、写的技能。
+
+LingoAce 的教学方式以寓教于乐为核心理念，结合游戏化的互动和多媒体资源，激发孩子们的学习兴趣。平台上的教师均为经过严格筛选和专业培训的母语教师，确保学生得到高质量的教学指导。此外，LingoAce 还提供详细的学习报告，帮助家长及时了解孩子的进步情况。
+
+平台的课程设置灵活，家长可以根据孩子的需求和水平自由选择课程，满足不同语言学习目标的需求。无论是初学者还是有一定基础的学生，LingoAce 都致力于为全球儿童提供高效、有趣的中文学习体验。
+`,
+        },
+        tradeup: {
+          name: 'TradeUP 老虎证券',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-TradeUP/白金-老虎证券logo.jpeg',
+          qrCode: ['/images/2024-map/sponsors/白金-TradeUP/老虎证券二维码.jpeg'],
+          details: `TradeUP Securities, Inc.是老虎证券（Nasdaq: TIGR)在美国挂牌营业、有清算资质的证券公司，专注于为全球客户提供迅捷、高质量的证券交易执行、证券清算和全方位金融投资服务。
+
+TradeUP成立于1986年，拥有逾30年的经验，秉承可靠、专业的全球化服务标准，已成为诸多国际零售及机构客户值得信赖的投资伙伴。我们受美国SEC监管，也是FINRA、NYSE、SIPC的会员。
+
+TradeUp is a Nasdaq-listed fintech company that can support your investments with a professional trading system, educational content, and analysis.
+`,
+        },
+        fangtai: {
+          name: '方太',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-方太/白金-FOTILE方太-logo-black.png',
+          qrCode: [
+            '/images/2024-map/sponsors/白金-方太/白金-方太-Cupertino二维码.jpg',
+            '/images/2024-map/sponsors/白金-方太/白金-方太-Milpitas二维码.jpg',
+            '/images/2024-map/sponsors/白金-方太/白金-方太-UnionCity二维码.jpg',
+          ],
+          details: `方太近30年来始终致力于通过技术创新，为用户打造更健康幸福的厨房生活。2017年，方太进军美国市场，专为美国更开放宽敞的厨房设计了一系列高端厨电产品，赢得了广大用户的信赖与好评。目前，美国核心城市中每三户华人家庭，就有一户选择方太。凭借强大的实力和卓越的品质，方太连续三年被福布斯评选为“十佳油烟机品牌”，成为唯一上榜的中国出海品牌。`,
+        },
+        fantuan: {
+          name: '饭团',
+          tier: 'platinum',
+          logo: '/images/2024-map/sponsors/白金-饭团/白金-饭团-logo.png',
+          qrCode: ['/images/2024-map/sponsors/白金-饭团/白金-饭团-二维码.png'],
+          details: `饭团外卖结合了湾区好吃的好玩的，从【外卖配送】到【生鲜便利】到【到店团购】等多样化服务, 不断开拓业务边界, 帮助用户更好地探索湾区本地生活。为海外华人及所有海外消费者提供更加便捷, 高效, 智能的服务。
+现在新人用户还有$100大礼包优惠券。全场独家超值折扣美食、娱乐，让大家感受到家的味道家的温暖，真正做到“轻松生活, 一个饭团就够了”
+`,
+        },
+        ipg: {
+          name: 'IPG',
+          tier: 'gold',
+          logo: '/images/2024-map/sponsors/黄金-IPG/logo.jpg',
+          qrCode: ['/images/2024-map/sponsors/黄金-IPG/微信公众号二维码.png'],
+          details: `英特利普集团成立于硅谷，专注全球招雇一体化，集团总部位于硅谷，在纽约、伦敦、新加坡、上海、北京、深圳等全球15个核心城市设有分公司。AI人才库11亿，覆盖160+国家，为顶级科技公司提供招聘与雇佣服务，致力于AI驱动的人才匹配。`,
+        },
+        steve: {
+          name: 'Steve Chen',
+          tier: 'gold',
+          logo: '/images/2024-map/sponsors/黄金-Steve/金牌-Steve-Chen-logo.jpeg',
+          qrCode: ['/images/2024-map/sponsors/黄金-Steve/金牌-Steve-Chen-二维码.jpeg'],
+          details: `Steve Chen，从业15年的资深房屋贷款经纪。顶尖的团队，凭藉扎实专业知识、丰富沟通技巧、和多年的实战经验，帮助了超过5000个家庭在美国完成购屋的梦想！`,
+        },
+      };
+      const collaboratorsList = [
+        'HeCares',
+        'sjusv',
+        'chihuo',
+        'taiyangshen',
+        'xigu',
+        'tuokouxiu',
+        'aaya',
+        'berryfun',
+      ];
+      const sponsorsList = [
+        '99ranch',
+        'balance-better',
+        'juso',
+        'lingoace',
+        'tradeup',
+        'fangtai',
+        'fantuan',
+        'ipg',
+        'steve',
+      ];
+
+      const sponsorsIndex = [
+        'HeCares',
+        'sjusv',
+        'chihuo',
+        'taiyangshen',
+        'xigu',
+        'tuokouxiu',
+        'aaya',
+        'berryfun',
+        '99ranch',
+        'balance-better',
+        'juso',
+        'lingoace',
+        'tradeup',
+        'fangtai',
+        'fantuan',
+        'ipg',
+        'steve',
+      ];
+
+      const sponsorsListHTML = sponsorsList
+        .map((sponsor) => {
+          const info = sponsorsAndCollaboratorsMap[sponsor];
+          return `
+  <div class="sponsor-logo" data-sponsor="${sponsor}">
+    <img class="tire-icon" src="/images/2024-map/icon-${info.tier}.png" alt="" />
+    <img data-sponsor="${sponsor}"
+      class="logo-img"
+      src="${info.logo}"
+      alt="${info.name}"
+    />
+  </div>
+  `;
+        })
+        .join('');
+
+      const collaboratorsListHTML = collaboratorsList
+        .map((sponsor) => {
+          const info = sponsorsAndCollaboratorsMap[sponsor];
+          return `
+  <div class="sponsor-logo" data-sponsor="${sponsor}">
+    <img
+    data-sponsor="${sponsor}"
+      class="logo-img"
+      src="${info.logo}"
+      alt="${info.name}"
+    />
+  </div>
+  `;
+        })
+        .join('');
+    </script>
+
+    <!-- 摊位信息及生成对应 html -->
+    <!-- todo： 添加摊位信息 -->
+    <script>
+      const cuisineList = [
+        {
+          sectionIndex: 1,
+          stampIndex: 1,
+          name: '烧烤',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          sectionIndex: 2,
+          stampIndex: 2,
+          name: '烧烤',
+          checkin: false,
+          details: '简介',
+        },
+        {
+          sectionIndex: 3,
+          stampIndex: 3,
+          name: '烧烤',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          sectionIndex: 4,
+          stampIndex: 4,
+          name: '烧烤',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          sectionIndex: 5,
+          stampIndex: 5,
+          name: '烧烤',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          sectionIndex: 6,
+          stampIndex: 6,
+          name: '烧烤',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          sectionIndex: 7,
+          stampIndex: 7,
+          name: '烧烤',
+          checkin: false,
+          details: '简介',
+        },
+        {
+          sectionIndex: 8,
+          stampIndex: 8,
+          name: '烧烤',
+          checkin: true,
+          details: '简介',
+        },
+      ];
+
+      const cuisineListHTML = cuisineList
+        .map((shop) => {
+          let stampStatus = '';
+
+          if (shop.checkin) {
+            const collectedStamps = Cookies.getJSON('collectedStamps');
+            console.log('collectedStamps', collectedStamps);
+            if (collectedStamps?.includes(shop.stampIndex)) {
+              stampStatus = `<div class="shop-stamp-status">✅</div>`;
+            } else {
+              stampStatus = `<div class="shop-stamp-status">⬜️</div>`;
+            }
+          }
+
+          return `<div class="shop-card">
+            <div class="shop-number shop-section-cuisine">${shop.sectionIndex}</div>
+            <div class="shop-name">${shop.name}</div>
+            ${stampStatus}
+            <div class="arrow"></div>
+          </div>`;
+        })
+        .join('');
+      // console.log('cuisineListHTML', cuisineListHTML);
+    </script>
+
+    <!-- 生成二维码 -->
+    <script>
+      function generateQR() {
+        const phone = Cookies.get('phone');
+        const url = `https://zgzg.io/stamp?phone=${phone}`;
+        if (siteStates.qrCodeEle) {
+          return;
+        } else {
+          const ele = document.createElement('DIV');
+          new QRCode(ele, {
+            text: url,
+            width: 200,
+            height: 200,
+            colorDark: 'red',
+            colorLight: '#ffffff',
+            correctLevel: QRCode.CorrectLevel.H,
+          });
+          siteStates.qrCodeEle = ele;
+        }
+      }
+    </script>
+
+    <!-- 打开打卡记录弹窗及获取打卡信息 -->
+    <script type="module">
+      import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js';
+      import {
+        collection,
+        query,
+        where,
+        getDocs,
+        getFirestore,
+      } from 'https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js';
+
+      const firebaseConfig = {
+        apiKey: 'AIzaSyA32iYcPDmH7MJLFKpadSkUuR4K3avEYeA',
+        authDomain: 'zgzg-9e6d0.firebaseapp.com',
+        projectId: 'zgzg-9e6d0',
+        storageBucket: 'zgzg-9e6d0.appspot.com',
+        messagingSenderId: '807744488876',
+        appId: '1:807744488876:web:bf6ddbfe0b5ab49f216609',
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+
+      const db = getFirestore(app);
+
+      window.firebaseQuery = query(collection(db, 'stamps'), where('phone', '==', '7895643212'));
+      window.getDocs = getDocs;
+    </script>
+
+    <!-- CSS resetting 和 全局 class -->
     <style>
       body {
         padding: 0;
         margin: 0;
         overflow: hidden;
+        padding-bottom: env(safe-area-inset-bottom);
+        height: 100vh;
+      }
+
+      .display-block {
+        display: block;
+      }
+
+      .display-none {
+        display: none;
+      }
+      .btn-close {
+        position: absolute;
+        right: 0.5rem;
+        top: 0.5rem;
+        height: 2rem;
+        width: 2rem;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        font-weight: bolder;
       }
     </style>
 
     <!-- Map Styles -->
     <style>
       #map-container {
+        max-width: 100vw;
+        max-height: 100vh;
         width: 100%;
         height: 100%;
         overflow: hidden;
       }
       #map {
         width: 100%;
+        object-fit: contain;
         /* height: 100%; */
       }
     </style>
@@ -44,6 +468,7 @@
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
         border: 1px solid black;
+        box-shadow: 0px -3px 27px 14px #0000007d;
       }
 
       #drawer-slider-container {
@@ -238,14 +663,220 @@
       }
     </style>
 
-    <!-- 全局状态 -->
-    <script>
-      const siteStates = {
-        selectedLanguage: 'zh',
-        isDrawerOpen: false,
-        selectedTab: 'guide',
-      };
-    </script>
+    <!-- 打卡入口样式 -->
+    <style>
+      .checkin-button-container {
+        position: absolute;
+        top: -62px;
+        left: 0;
+        right: 0;
+        display: flex;
+        height: 50px;
+        justify-content: space-evenly;
+      }
+
+      .checkin-button {
+        background: linear-gradient(45deg, rgba(240, 220, 220), rgb(254, 247, 216));
+        border-radius: 8px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+      }
+
+      .checkin-button-logo {
+        object-fit: contain;
+        height: 80%;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+
+      #showCheckinHistory,
+      #showQRCode {
+        background: linear-gradient(45deg, rgba(240, 220, 220), rgb(254, 247, 216));
+        border-radius: 8px;
+        width: 35%;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+
+    <!-- 打卡记录弹窗样式 -->
+    <style>
+      #checkinHistoryPopup {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(180deg, #ffe1b4, white);
+        height: 80%;
+        z-index: 200;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        box-shadow: 0px -68px 66px 27px #0000007d;
+      }
+
+      #checkinHistoryPopup h1 {
+        text-align: center;
+      }
+
+      #checkinHistoryPopup p {
+        text-align: center;
+      }
+
+      .stamp-cards-list {
+        display: grid;
+        padding: 0 1rem;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        overflow-y: scroll;
+        height: 70%;
+        grid-template-columns: 40% 40%;
+        gap: 10px;
+        align-items: center;
+        justify-items: center;
+      }
+
+      .stamp-card {
+        position: relative;
+        width: 100%;
+        height: 125px;
+        display: flex;
+        /* align-content: center; */
+        justify-content: center;
+        align-items: center;
+      }
+
+      .stamp-name {
+        font-size: 2.2rem;
+        font-weight: bolder;
+        text-align: center;
+        justify-items: center;
+      }
+
+      .stamp-card img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 5rem;
+      }
+    </style>
+
+    <!-- 输入手机号样式 -->
+    <style>
+      #registerPopup {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(180deg, #ffe1b4, white);
+        height: 50%;
+        z-index: 200;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        box-shadow: 0px -68px 66px 27px #0000007d;
+      }
+
+      #registerPopup h1 {
+        text-align: center;
+      }
+    </style>
+
+    <!-- 二维码弹窗样式 -->
+    <style>
+      #qrCodePopup {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(180deg, #ffe1b4, white);
+        height: 50%;
+        z-index: 200;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        box-shadow: 0px -68px 66px 27px #0000007d;
+      }
+
+      #qrCodePopup h1 {
+        text-align: center;
+        margin-bottom: 0.2rem;
+      }
+      #qrCodePopup p {
+        text-align: center;
+        margin-top: 0;
+      }
+
+      #qrCodeContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+
+    <!-- 摊位列表样式 -->
+    <style>
+      #shopListPopup {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(180deg, #ffe1b4, white);
+        height: 80%;
+        z-index: 200;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        box-shadow: 0px -68px 66px 27px #0000007d;
+      }
+
+      #shopListPopup h1 {
+        text-align: center;
+      }
+      #shopList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
+        height: 70%;
+        padding-top: 1rem;
+      }
+      .shop-card {
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        border: 1px black solid;
+        width: 90%;
+        display: flex;
+        align-items: center;
+      }
+      .shop-number {
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        border-radius: 8px;
+      }
+      .shop-name {
+        display: flex;
+        align-items: center;
+      }
+      .shop-stamp-status {
+        margin-left: auto;
+        margin-right: 1rem;
+      }
+
+      .shop-section-cuisine {
+        background-color: #ff9500;
+      }
+      .shop-section-kids {
+        background-color: #008c41;
+      }
+      .shop-section-tradition {
+        background-color: #007aff;
+      }
+      .shop-section-functions {
+        background-color: #ff2d55;
+      }
+    </style>
 
     <!-- 中英文切换文本设定  -->
     <script>
@@ -311,7 +942,7 @@
       ];
     </script>
 
-    <!-- tab 动态内容 html -->
+    <!-- 顶层 tab 动态内容 html -->
     <script>
       const tourGuideHTMLContent = `
       <img
@@ -365,219 +996,6 @@
               <div id="sponsorDetailsContainer"></div>
             </div>`;
     </script>
-
-    <!-- 赞助商信息及生成对应html -->
-    <script>
-      const sponsorsAndCollaboratorsMap = {
-        HeCares: {
-          name: 'HeCares',
-          tier: 'collaborator',
-          logo: '/images/2024-map/sponsors/友情合作-HeCares/友情合作-HeCares-logo.jpeg',
-          qrCode: ['/images/2024-map/sponsors/友情合作-HeCares/HeCares-二维码.png'],
-        },
-        sjusv: {
-          name: '交大校友会',
-          tier: 'collaborator',
-          logo: '/images/2024-map/sponsors/友情合作-交大校友会/友情合作-交大校友会-logo.png',
-          qrCode: ['/images/2024-map/sponsors/友情合作-交大校友会/友情合作-交大校友会-二维码.png'],
-        },
-        chihuo: {
-          name: '吃货小分队',
-          tier: 'collaborator',
-          logo: '/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货小分队logo.jpeg',
-          qrCode: ['/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货-二维码.jpg'],
-        },
-        taiyangshen: {
-          // 缺logo
-          name: '太阳神美院',
-          tier: 'collaborator',
-          logo: '/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货小分队logo.png',
-          qrCode: ['/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货小分队-二维码.png'],
-        },
-        xigu: {
-          name: '戏谷剧团',
-          tier: 'collaborator',
-          logo: '/images/2024-map/sponsors/友情合作-戏谷剧团/友情合作-戏谷剧团-logo.jpeg',
-          qrCode: ['/images/2024-map/sponsors/友情合作-戏谷剧团/友情合作-戏谷剧团-二维码.png'],
-        },
-        tuokouxiu: {
-          name: '硅谷脱口秀',
-          tier: 'collaborator',
-          logo: '/images/2024-map/sponsors/友情合作-硅谷脱口秀/硅谷脱口秀Logo新.png',
-          qrCode: ['/images/2024-map/sponsors/友情合作-硅谷脱口秀/硅谷脱口秀二维码.png'],
-        },
-        aaya: {
-          name: 'AAYA',
-          tier: 'collaborator',
-          logo: '/images/2024-map/sponsors/友情合作方-AAYA/AAYA-logo-中文.png',
-          qrCode: ['/images/2024-map/sponsors/友情合作方-AAYA/二维码.jpg'],
-        },
-        berryfun: {
-          name: 'BerryFun',
-          tier: 'collaborator',
-          logo: '/images/2024-map/sponsors/友情合作方-BerryFun/BerryFun-Logo带字-透明底.png',
-          qrCode: ['/images/2024-map/sponsors/友情合作方-BerryFun/BerryFun小红书二维码.PNG'],
-        },
-        '99ranch': {
-          name: '99大华',
-          tier: 'platinum',
-          logo: '/images/2024-map/sponsors/白金-99大华/白金-大华Logo.png',
-          qrCode: ['/images/2024-map/sponsors/白金-99大华/白金-大华-二维码.png'],
-          details: `下载大华APP，购齐生活所需！生鲜果蔬、生猛活海
-鲜、零食饮料、美妆护肤，应有尽有！最快当天送达，
-载歌在古专享：全场订单满$68减$10，优惠码:
-ZGZG10。10月万圣节大促：
-10.18 - 10.31
-10% OFF $60+
-15% OFF $80+
-20% OFF $100+，无需折扣码，自动满折。新人注册再送
-减$20优惠券，活动当天去大华摊位可免费领取零食礼包！
-`,
-        },
-        'balance-better': {
-          name: 'Balance & Better',
-          tier: 'platinum',
-          logo: '/images/2024-map/sponsors/白金-Balance-Better/logo-Balance-Better.png',
-          qrCode: [
-            '/images/2024-map/sponsors/白金-Balance-Better/balanced-better-二维码及文字.png',
-          ],
-          details: `Are you a HENRY (High Earning Not Rich Yet)?
-Are you bothered by high tax burden and wondering about tax-free plans?
-Are you wondering about ways of passive income?
-Are you wondering how to plan for a “worry-free” retirement?
-Balanced & Better Financial Service Team is here to help. 
-
-We are a team of financial professionals backed by 100+ accredited financial institutions. We provide holistic financial strategy education for families, facilitate solutions from kids college tuition funding, LTC (Long Term Care) preparation to retirement planning, estate planning etc.
-We strive for professional excellence and Long-Term customer satisfaction.
-
-
-WeChat ID:  BalancedBetter
-Meet us: bit.ly/meet-BB
-`,
-        },
-        juso: {
-          name: 'JUSO Home',
-          tier: 'platinum',
-          logo: '/images/2024-map/sponsors/白金-JUSO/Juso_Home_logo-01.png',
-          qrCode: [
-            '/images/2024-map/sponsors/白金-JUSO/白金-JUSO-Home-二维码1.png',
-            '/images/2024-map/sponsors/白金-JUSO/白金-JUSO-Home-二维码2',
-          ],
-          details: `Juso Home是一家总部坐落于旧金山湾区的家居用品的品牌。专注于打造现代、时尚且优质的家居体验。我们秉承让高端极简设计触手可及的理念，致力于提供亲民且可负担的高品质产品。欢迎您与我们一起，感受精致家居带来的温馨与品味。`,
-        },
-        lingoace: {
-          name: 'Lingoace',
-          tier: 'platinum',
-          logo: '/images/2024-map/sponsors/白金-Lingoace/白金-Lingoace-logo.jpeg',
-          qrCode: ['/images/2024-map/sponsors/白金-Lingoace/白金-lingoace-二维码.png'],
-          details: `LingoAce 是一家专注于为全球学生提供中文学习的在线教育平台，特别适合3到15岁的儿童。通过结合互动性强的课程设计、丰富多样的教材和资深教师团队，LingoAce 为儿童创造了一种沉浸式的语言学习环境。平台提供个性化的学习体验，帮助孩子们通过趣味性强的方式掌握中文听、说、读、写的技能。
-
-LingoAce 的教学方式以寓教于乐为核心理念，结合游戏化的互动和多媒体资源，激发孩子们的学习兴趣。平台上的教师均为经过严格筛选和专业培训的母语教师，确保学生得到高质量的教学指导。此外，LingoAce 还提供详细的学习报告，帮助家长及时了解孩子的进步情况。
-
-平台的课程设置灵活，家长可以根据孩子的需求和水平自由选择课程，满足不同语言学习目标的需求。无论是初学者还是有一定基础的学生，LingoAce 都致力于为全球儿童提供高效、有趣的中文学习体验。
-`,
-        },
-        tradeup: {
-          name: 'TradeUP 老虎证券',
-          tier: 'platinum',
-          logo: '/images/2024-map/sponsors/白金-TradeUP/白金-老虎证券logo.jpeg',
-          qrCode: ['/images/2024-map/sponsors/白金-TradeUP/老虎证券二维码.jpeg'],
-          details: `TradeUP Securities, Inc.是老虎证券（Nasdaq: TIGR)在美国挂牌营业、有清算资质的证券公司，专注于为全球客户提供迅捷、高质量的证券交易执行、证券清算和全方位金融投资服务。
-
-TradeUP成立于1986年，拥有逾30年的经验，秉承可靠、专业的全球化服务标准，已成为诸多国际零售及机构客户值得信赖的投资伙伴。我们受美国SEC监管，也是FINRA、NYSE、SIPC的会员。
-
-TradeUp is a Nasdaq-listed fintech company that can support your investments with a professional trading system, educational content, and analysis.
-`,
-        },
-        fangtai: {
-          name: '方太',
-          tier: 'platinum',
-          logo: '/images/2024-map/sponsors/白金-方太/白金-FOTILE方太-logo-black.png',
-          qrCode: [
-            '/images/2024-map/sponsors/白金-方太/白金-方太-Cupertino二维码.jpg',
-            '/images/2024-map/sponsors/白金-方太/白金-方太-Milpitas二维码.jpg',
-            '/images/2024-map/sponsors/白金-方太/白金-方太-UnionCity二维码.jpg',
-          ],
-          details: `方太近30年来始终致力于通过技术创新，为用户打造更健康幸福的厨房生活。2017年，方太进军美国市场，专为美国更开放宽敞的厨房设计了一系列高端厨电产品，赢得了广大用户的信赖与好评。目前，美国核心城市中每三户华人家庭，就有一户选择方太。凭借强大的实力和卓越的品质，方太连续三年被福布斯评选为“十佳油烟机品牌”，成为唯一上榜的中国出海品牌。`,
-        },
-        fantuan: {
-          name: '饭团',
-          tier: 'platinum',
-          logo: '/images/2024-map/sponsors/白金-饭团/白金-饭团-logo.png',
-          qrCode: ['/images/2024-map/sponsors/白金-饭团/白金-饭团-二维码.png'],
-          details: `饭团外卖结合了湾区好吃的好玩的，从【外卖配送】到【生鲜便利】到【到店团购】等多样化服务, 不断开拓业务边界, 帮助用户更好地探索湾区本地生活。为海外华人及所有海外消费者提供更加便捷, 高效, 智能的服务。
-现在新人用户还有$100大礼包优惠券。全场独家超值折扣美食、娱乐，让大家感受到家的味道家的温暖，真正做到“轻松生活, 一个饭团就够了”
-`,
-        },
-        ipg: {
-          name: 'IPG',
-          tier: 'gold',
-          logo: '/images/2024-map/sponsors/黄金-IPG/logo.jpg',
-          qrCode: ['/images/2024-map/sponsors/黄金-IPG/微信公众号二维码.png'],
-          details: `英特利普集团成立于硅谷，专注全球招雇一体化，集团总部位于硅谷，在纽约、伦敦、新加坡、上海、北京、深圳等全球15个核心城市设有分公司。AI人才库11亿，覆盖160+国家，为顶级科技公司提供招聘与雇佣服务，致力于AI驱动的人才匹配。`,
-        },
-        steve: {
-          name: 'Steve Chen',
-          tier: 'gold',
-          logo: '/images/2024-map/sponsors/黄金-Steve/金牌-Steve-Chen-logo.jpeg',
-          qrCode: ['/images/2024-map/sponsors/黄金-Steve/金牌-Steve-Chen-二维码.jpeg'],
-          details: `Steve Chen，从业15年的资深房屋贷款经纪。顶尖的团队，凭藉扎实专业知识、丰富沟通技巧、和多年的实战经验，帮助了超过5000个家庭在美国完成购屋的梦想！`,
-        },
-      };
-      const collaboratorsList = [
-        'HeCares',
-        'sjusv',
-        'chihuo',
-        'taiyangshen',
-        'xigu',
-        'tuokouxiu',
-        'aaya',
-        'berryfun',
-      ];
-      const sponsorsList = [
-        '99ranch',
-        'balance-better',
-        'juso',
-        'lingoace',
-        'tradeup',
-        'fangtai',
-        'fantuan',
-        'ipg',
-        'steve',
-      ];
-
-      const sponsorsListHTML = sponsorsList
-        .map((sponsor) => {
-          const info = sponsorsAndCollaboratorsMap[sponsor];
-          return `
-      <div class="sponsor-logo" data-sponsor="${sponsor}">
-        <img class="tire-icon" src="/images/2024-map/icon-${info.tier}.png" alt="" />
-        <img data-sponsor="${sponsor}"
-          class="logo-img"
-          src="${info.logo}"
-          alt="${info.name}"
-        />
-      </div>
-      `;
-        })
-        .join('');
-
-      const collaboratorsListHTML = collaboratorsList
-        .map((sponsor) => {
-          const info = sponsorsAndCollaboratorsMap[sponsor];
-          return `
-      <div class="sponsor-logo" data-sponsor="${sponsor}">
-        <img
-        data-sponsor="${sponsor}"
-          class="logo-img"
-          src="${info.logo}"
-          alt="${info.name}"
-        />
-      </div>
-      `;
-        })
-        .join('');
-    </script>
   </head>
   <body>
     <div>
@@ -591,9 +1009,71 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         </div>
       </div> -->
       <div id="map-container">
-        <img id="map" src="/images/2024-map/map.png" alt="" />
+        <img id="map" src="/images/2024-map/map.png?a=2" alt="" />
       </div>
+
+      <div id="registerPopup" class="display-none">
+        <div id="registerPopupCloseBtn" class="btn-close">×</div>
+        <h1>输入手机号</h1>
+        <p style="margin: 0 4rem 1rem 4rem">
+          输入手机号来获取您的专属二维码。可以用来在支持的摊位进行打卡。收集打卡记录可以换取礼品。
+        </p>
+        <div style="justify-content: center; display: flex">
+          <input
+            id="phoneNumber"
+            type="tel"
+            pattern="[0-9]{10}"
+            required
+            placeholder="格式：1234567890"
+            style="height: 2rem; width: 100%; margin: 0 4rem; border-radius: 8px"
+          />
+        </div>
+        <div style="display: flex; margin-top: 1rem; justify-content: center">
+          <button
+            id="confirmPhone"
+            disabled
+            style="
+              margin: 0 4rem;
+              background: #ffd400;
+              border: 1px #f5be00 solid;
+              width: 100%;
+              height: 2rem;
+              border-radius: 8px;
+            "
+          >
+            确认
+          </button>
+        </div>
+      </div>
+
+      <div id="checkinHistoryPopup" class="display-none">
+        <div id="checkinHistoryPopupCloseBtn" class="btn-close">×</div>
+        <h1>打卡记录</h1>
+
+        <div>
+          <p>你已经收集了 <span id="stampCount">0</span> 个</p>
+          <p>凭打卡记录在兑奖处领奖</p>
+        </div>
+
+        <div class="stamp-cards-list" id="stampCardsList"></div>
+      </div>
+
+      <div id="shopListPopup" class="display-none">
+        <div id="shopListPopupCloseBtn" class="btn-close">×</div>
+        <h1 id="sectionName">美食区</h1>
+        <div id="shopList"></div>
+      </div>
+
+      <div id="qrCodePopup" class="display-none">
+        <div id="qrCodePopupCloseBtn" class="btn-close">×</div>
+        <h1>我的二维码</h1>
+        <p>使用的手机号：<span id="registeredPhone"></span></p>
+        <div id="qrCodeContainer"></div>
+      </div>
+
       <div id="drawer">
+        <!-- 显示打卡页面 -->
+        <div class="checkin-button-container" id="checkinButtonContainer"></div>
         <div id="drawer-slider-container">
           <button id="drawer-slider"></button>
         </div>
@@ -603,7 +1083,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
             id="drawerTab0"
             data-i18n-label="drawer.tab.guide"
           >
-            游园指南
+            游园指南111
           </div>
           <div
             class="drawer-tab drawer-tab__inactive"
@@ -645,7 +1125,20 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       e.innerHTML = i18nStrings[i18nLabel][siteStates.selectedLanguage];
     });
   </script> -->
+  <!-- 摊位信息弹窗 -->
+  <script>
+    const shopListPopupEle = document.querySelector('#shopListPopup');
+    const shopListPopupCloseBtnEle = document.querySelector('#shopListPopupCloseBtn');
+    const sectionNameEle = document.querySelector('#sectionName');
+    const shopListEle = document.querySelector('#shopList');
 
+    function closeShopListPopup() {
+      shopListPopupEle.classList.add('display-none');
+      shopListPopupEle.classList.remove('display-block');
+    }
+
+    shopListPopupCloseBtnEle.onclick = closeShopListPopup;
+  </script>
   <!-- pan zoom map script -->
   <script>
     class TouchDragEvent {
@@ -718,6 +1211,9 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         this.initialWidth = width;
         this.initialHeight = height;
 
+        console.log('initialWidth', this.initialWidth);
+        console.log('initialHeight', this.initialHeight);
+
         if (this.initialWidth >= 280) {
           this.initialLeft = -(this.initialWidth - 280) / 2;
         }
@@ -750,7 +1246,24 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       }
 
       onClick(e) {
-        // TODO：offsetX 和 offsetY 不会随着缩放平移而变化，可以根据这俩来确定点了哪里
+        // TODO：offsetX 和 offsetY 不会随着缩放平移而变化，可以根据这俩来确定点了哪里。但是不能直接用，因为图片显示的尺寸不同屏幕不一样，得按照百分比算
+        console.log(e.offsetX, e.offsetY);
+        const x = e.offsetX;
+        const y = e.offsetY;
+
+        const xPercent = x / this.initialWidth;
+        const yPercent = y / this.initialHeight;
+
+        console.log('xPercent', xPercent);
+        console.log('yPercent', yPercent);
+        console.log('11111');
+        showShopListPopupFunc('cuisine');
+
+        // if (xPercent >= 0.229 && xPercent <= 0.472 && yPercent >= 0.124 && yPercent <= 0.29) {
+        //   showShopListPopup('cuisine');
+        // } else if (x >= 254 && x <= 445 && y >= 457 && y <= 506) {
+        //   showShopListPopup('kids');
+        // }
       }
 
       // @HostListener('touchstart', ['$event'])
@@ -1049,6 +1562,138 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
     }
   </script>
 
-  <!-- 摊位信息弹窗 -->
-  <script></script>
+  <!--打卡记录弹窗，注册生成二维码 -->
+  <script>
+    const registeredCheckinButtonsHTML = `<div class="checkin-button" id="showCheckinHistory">
+            <img class="checkin-button-logo" src="./images/2024-map/zgzglogo.png" alt="" />
+            查看打卡记录
+          </div>
+          <div class="checkin-button" id="showQRCode">
+            <img class="checkin-button-logo" src="./images/2024-map/zgzglogo.png" alt="" />
+            我的二维码
+          </div>`;
+    const unregisteredCheckinButtonsHTML = `<div class="checkin-button" id="checkinButton">
+            <img class="checkin-button-logo" src="./images/2024-map/zgzglogo.png" alt="" />
+            登记以获取打卡二维码
+          </div>`;
+
+    const checkinHistoryPopupEle = document.querySelector('#checkinHistoryPopup');
+    const stampCardsListEle = document.querySelector('#stampCardsList');
+    const stampCountEle = document.querySelector('#stampCount');
+
+    const registerPopupEle = document.querySelector('#registerPopup');
+    const confirmPhoneEle = document.querySelector('#confirmPhone');
+    const phoneEle = document.querySelector('#phoneNumber');
+
+    const qrCodePopupEle = document.querySelector('#qrCodePopup');
+
+    function showCheckinhistory() {
+      if (Cookies.get('phone')) {
+        openStampPopup();
+      } else {
+        openRegister();
+      }
+    }
+
+    if (Cookies.get('phone')) {
+      generateQR();
+      document.querySelector('#checkinButtonContainer').innerHTML = registeredCheckinButtonsHTML;
+
+      if (document.querySelector('#showQRCode')) {
+        document.querySelector('#showQRCode').onclick = showQRCodePopup;
+        document.querySelector('#showCheckinHistory').onclick = showCheckinhistory;
+
+        document.querySelector('#qrCodeContainer').appendChild(siteStates.qrCodeEle);
+        document.querySelector('#registeredPhone').innerHTML = Cookies.get('phone');
+      }
+    } else {
+      document.querySelector('#checkinButtonContainer').innerHTML = unregisteredCheckinButtonsHTML;
+      document.querySelector('#checkinButton').onclick = openRegister;
+    }
+
+    function closeQRCodePopup() {
+      qrCodePopupEle.classList.add('display-none');
+      qrCodePopupEle.classList.remove('display-block');
+    }
+
+    function showQRCodePopup() {
+      qrCodePopupEle.classList.add('display-block');
+      qrCodePopupEle.classList.remove('display-none');
+    }
+
+    function closeStampPopup() {
+      checkinHistoryPopupEle.classList.add('display-none');
+      checkinHistoryPopupEle.classList.remove('display-block');
+    }
+
+    async function openStampPopup() {
+      const querySnapshot = await window.getDocs(window.firebaseQuery);
+
+      const stampCards = [];
+      const collectedStamps = new Set(Cookies.getJSON('collectedStamps') ?? []);
+
+      querySnapshot.forEach((doc) => {
+        const boothIndex = doc.data().booth;
+        collectedStamps.add(boothIndex);
+        const sponsorName =
+          sponsorsAndCollaboratorsMap[sponsorsIndex[boothIndex]]?.name ?? '无此摊位';
+        stampCards.push(`<div class="stamp-card">
+          <div class="stamp-name">${sponsorName}</div>
+          <img src="./images/2024-map/zgzglogo.png" alt="" />
+        </div>`);
+      });
+
+      Cookies.set('collectedStamps', Array.from(collectedStamps));
+
+      stampCountEle.innerHTML = stampCards.length;
+
+      stampCardsListEle.innerHTML = stampCards.join('');
+
+      checkinHistoryPopupEle.classList.add('display-block');
+      checkinHistoryPopupEle.classList.remove('display-none');
+    }
+
+    function openRegister() {
+      registerPopupEle.classList.add('display-block');
+      registerPopupEle.classList.remove('display-none');
+    }
+
+    function closeRegister() {
+      registerPopupEle.classList.add('display-none');
+      registerPopupEle.classList.remove('display-block');
+    }
+
+    function register() {
+      if (phoneEle.checkValidity()) {
+        Cookies.set('phone', phoneEle.value);
+        generateQR();
+        document.querySelector('#checkinButtonContainer').innerHTML = registeredCheckinButtonsHTML;
+        document.querySelector('#showCheckinHistory').onclick = showCheckinhistory;
+        alert('注册成功，请点击主界面“我的二维码”按钮查看');
+
+        closeRegister();
+        document.querySelector('#showQRCode').onclick = showQRCodePopup;
+
+        document.querySelector('#qrCodeContainer').appendChild(siteStates.qrCodeEle);
+      } else {
+        alert('请输入手机号');
+      }
+    }
+
+    function validatePhone(e) {
+      phoneEle.checkValidity();
+
+      if (phoneEle.checkValidity()) {
+        confirmPhoneEle.disabled = false;
+      } else {
+        confirmPhoneEle.disabled = true;
+      }
+    }
+
+    document.querySelector('#checkinHistoryPopupCloseBtn').onclick = closeStampPopup;
+    document.querySelector('#registerPopupCloseBtn').onclick = closeRegister;
+    document.querySelector('#qrCodePopupCloseBtn').onclick = closeQRCodePopup;
+    confirmPhoneEle.onclick = register;
+    phoneEle.oninput = validatePhone;
+  </script>
 </html>
