@@ -9,16 +9,16 @@
     <title>Interactive Map with Background Image</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
-  >
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
     <style></style>
   </head>
-  <body class="container">
+  <body class="container" style="margin-top:50px">
     <div id="sign-in-status"></div>
     <form id="stamp" style="display: none">
-      <input type="text" id="phone" placeholder="请输入手机号"/>
-      <button id="stamp-button">签到</button>
+      <input type="text" id="phone" placeholder="请输入手机号" />
+      <button id="stamp-button" type="submit">签到</button>
     </form>
     <div id="message"></div>
     <script>
@@ -49,9 +49,13 @@
         signOut,
       } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-auth.js";
       import {
+        collection,
+        query,
+        where,
+        getDocs,
         getFirestore,
         doc,
-        setDoc,
+        setDoc
       } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js";
 
       const firebaseConfig = {
@@ -65,6 +69,7 @@
 
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
+      const db = getFirestore(app);
 
       // Get a reference to the authentication service
       const auth = getAuth(app);
@@ -105,27 +110,25 @@
           if (user) {
             booth = user.email.split("@")[0];
             document.getElementById("sign-in-status").innerHTML = `
-        <p>摊位${booth}签到</p>
-        <button id="signOut" class="outline secondary">Sign Out</button>
+        <p style="float:left">摊位${booth}签到</p>
+        <a id="signOut" style="float:right">Sign Out</button>
       `;
 
             $("#stamp").show();
 
-            document
-              .getElementById("signOut")
-              .addEventListener("click", () => {
-                signOut(auth)
-                  .then(() => {
-                    // Sign-out successful
-                    console.log("Signed out successfully");
-                    $("#stamp").hide();
-                    showSignInForm();
-                  })
-                  .catch((error) => {
-                    // Handle sign-out errors
-                    console.error("Sign-out error:", error);
-                  });
-              });
+            document.getElementById("signOut").addEventListener("click", () => {
+              signOut(auth)
+                .then(() => {
+                  // Sign-out successful
+                  console.log("Signed out successfully");
+                  $("#stamp").hide();
+                  showSignInForm();
+                })
+                .catch((error) => {
+                  // Handle sign-out errors
+                  console.error("Sign-out error:", error);
+                });
+            });
           } else {
             // User is not signed in
             showSignInForm();
@@ -133,35 +136,34 @@
         });
       }
 
-      // Call the function to check sign-in status on page load
-      checkSignInStatus();
+      window.onload = function () {
+        checkSignInStatus();
+        const currentUrl = window.location.href;
+        const regex = /phone=(\d+)/;
+        const match = currentUrl.match(regex);
+        if (match) {
+          const phone = parseInt(match[1]);
+          $("#phone").val(phone);
+          console.log("Phone number found:", phone);
+        } else {
+          console.log("Phone number not found.");
+        }
 
-      const db = getFirestore(app);
-      document.getElementById("stamp").addEventListener("submit", (event) => {
-        event.preventDefault();
-        const phone = document.getElementById("phone").value;
-        const docRef = doc(db, "stamps", booth + "-" + phone);
-        setDoc(docRef, { booth, phone })
-          .then(() => {
-            console.log("Document added successfully!");
-            $("#message").html("签到" + phone + "成功");
-          })
-          .catch((error) => {
-            console.error("Error adding document: ", error);
-            $("#message").html("签到失败");
-          });
-      });
-
-      const currentUrl = window.location.href;
-      const regex = /phone=(\d+)/;
-      const match = currentUrl.match(regex);
-      if (match) {
-        const phone = parseInt(match[1]);
-        $("#phone").val(phone);
-        console.log("Phone number found:", phone);
-      } else {
-        console.log("Phone number not found.");
-      }
+        document.getElementById("stamp").addEventListener("submit", (event) => {
+          event.preventDefault();
+          const phone = document.getElementById("phone").value;
+          const docRef = doc(db, "stamps", booth + "-" + phone);
+          setDoc(docRef, { booth, phone })
+            .then(() => {
+              console.log("Document added successfully!");
+              $("#message").html("签到" + phone + "成功");
+            })
+            .catch((error) => {
+              console.error("Error adding document: ", error);
+              $("#message").html("签到失败");
+            });
+        });
+      };
     </script>
   </body>
 </html>
