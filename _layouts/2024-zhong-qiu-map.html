@@ -10,27 +10,39 @@
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <!-- 全局状态 -->
     <script>
+      const mapURL = `/images/2024-map/map.png?cache=${Date().toString()}`;
       const siteStates = {
         selectedLanguage: 'zh',
         isDrawerOpen: false,
         selectedTab: 'guide',
         qrCodeEle: undefined,
+        hasPopupOpen: false,
         // phone: '',
         // collectedStamps: [1, 5, 7],
       };
 
       // Cookies.set('phone', '');
       // Cookies.set('collectedStamps', []);
-      function showShopListPopupFunc(sectionName) {
+      function showBoothListPopupFunc(sectionName) {
         console.log('2222');
-        console.log('cuisineListHTML', typeof cuisineListHTML);
-        console.log('shopListEle', shopListEle);
-        if (sectionName === 'cuisine') {
-          shopListEle.innerHTML = cuisineListHTML;
-        } else if (sectionName === 'kids') {
+        console.log('cuisinesListHTML', typeof cuisinesListHTML);
+        console.log('boothListEle', boothListEle);
+        if (sectionName === sectionNames.cuisine) {
+          boothListEle.innerHTML = cuisinesListHTML;
+          sectionNameEle.innerHTML = '美食区';
+        } else if (sectionName === sectionNames.kids) {
+          boothListEle.innerHTML = kidsListHTML;
+          sectionNameEle.innerHTML = '儿童游戏区';
+        } else if (sectionName === sectionNames.traditions) {
+          boothListEle.innerHTML = traditionsListHTML;
+          sectionNameEle.innerHTML = '传统区';
+        } else if (sectionName === sectionNames.functions) {
+          boothListEle.innerHTML = functionsListHTML;
+          sectionNameEle.innerHTML = '功能 & 赞助区';
         }
-        shopListPopupEle.classList.add('display-block');
-        shopListPopupEle.classList.remove('display-none');
+        boothListPopupEle.classList.add('display-block');
+        boothListPopupEle.classList.remove('display-none');
+        siteStates.hasPopupOpen = true;
       }
     </script>
 
@@ -95,7 +107,7 @@
           qrCode: ['/images/2024-map/sponsors/白金-99大华/白金-大华-二维码.png'],
           details: `下载大华APP，购齐生活所需！生鲜果蔬、生猛活海
 鲜、零食饮料、美妆护肤，应有尽有！最快当天送达，
-载歌在古专享：全场订单满$68减$10，优惠码:
+载歌在谷专享：全场订单满$68减$10，优惠码:
 ZGZG10。10月万圣节大促：
 10.18 - 10.31
 10% OFF $60+
@@ -272,88 +284,428 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
     <!-- 摊位信息及生成对应 html -->
     <!-- todo： 添加摊位信息 -->
     <script>
-      const cuisineList = [
+      const sectionNames = {
+        cuisine: 'cuisine',
+        kids: 'kids',
+        traditions: 'traditions',
+        functions: 'functions',
+      };
+      const cuisinesList = [
         {
-          sectionIndex: 1,
-          stampIndex: 1,
-          name: '烧烤',
-          checkin: true,
-          details: '简介',
-        },
-        {
-          sectionIndex: 2,
-          stampIndex: 2,
-          name: '烧烤',
+          stampIndex: 'cuisine-1',
+          sectionIndexes: [1],
+          name: '巴九门烧烤',
           checkin: false,
           details: '简介',
         },
         {
-          sectionIndex: 3,
-          stampIndex: 3,
-          name: '烧烤',
+          stampIndex: 'cuisine-2',
+          sectionIndexes: [2],
+          name: '甘了蔗杯',
           checkin: true,
           details: '简介',
         },
         {
-          sectionIndex: 4,
-          stampIndex: 4,
-          name: '烧烤',
+          stampIndex: 'cuisine-3',
+          sectionIndexes: [3],
+          name: '沙县小吃',
           checkin: true,
           details: '简介',
         },
         {
-          sectionIndex: 5,
-          stampIndex: 5,
-          name: '烧烤',
+          stampIndex: 'cuisine-4',
+          sectionIndexes: [4],
+          name: 'HE & C Tea + Pot',
           checkin: true,
           details: '简介',
         },
         {
-          sectionIndex: 6,
-          stampIndex: 6,
-          name: '烧烤',
-          checkin: true,
-          details: '简介',
-        },
-        {
-          sectionIndex: 7,
-          stampIndex: 7,
-          name: '烧烤',
+          stampIndex: 'cuisine-5',
+          sectionIndexes: [5],
+          name: '书亦烧仙草',
           checkin: false,
           details: '简介',
         },
         {
-          sectionIndex: 8,
-          stampIndex: 8,
-          name: '烧烤',
+          stampIndex: 'cuisine-6',
+          sectionIndexes: [6],
+          name: '貂炸天',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'cuisine-7',
+          sectionIndexes: [7],
+          name: '富贵柠手打柠檬茶',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'cuisine-8',
+          sectionIndexes: [8],
+          name: 'CAFÉ KAZKA',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'cuisine-9',
+          sectionIndexes: [9],
+          name: '士林台湾小吃',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'cuisine-10',
+          sectionIndexes: [10],
+          name: '99大華',
+          checkin: true,
+          details: '简介',
+        },
+      ];
+      const kidsList = [
+        {
+          stampIndex: 'kids-1',
+          sectionIndexes: [1],
+          name: '跃动天地',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'kids-2',
+          sectionIndexes: [2],
+          name: '叠叠乐',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'kids-3',
+          sectionIndexes: [3],
+          name: '钓鱼',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'kids-4',
+          sectionIndexes: [4],
+          name: 'Silicon Valley Youth',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'kids-5',
+          sectionIndexes: [5],
+          name: '百变气球',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'kids-6',
+          sectionIndexes: [6],
+          name: '自制徽章',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'kids-7',
+          sectionIndexes: [7],
+          name: '漆扇',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'kids-8',
+          sectionIndexes: [8],
+          name: '万花筒',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'kids-9',
+          sectionIndexes: [9],
+          name: '闪亮画艺坊',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'kids-10',
+          sectionIndexes: [10],
+          name: '活字印刷',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'kids-11',
+          sectionIndexes: [11],
+          name: '面部彩绘',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'kids-12',
+          sectionIndexes: [12],
+          name: 'LingoAce',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'kids-13',
+          sectionIndexes: [13],
+          name: '太阳神美院',
+          checkin: true,
+          details: '简介',
+        },
+      ];
+      const traditionsList = [
+        {
+          stampIndex: 'chinese-1',
+          sectionIndexes: [1],
+          name: '书法',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-2',
+          sectionIndexes: [2],
+          name: '灯谜',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-3',
+          sectionIndexes: [3],
+          name: '诗词大会',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-4',
+          sectionIndexes: [4],
+          name: '一游未尽桌游',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-5',
+          sectionIndexes: [5],
+          name: 'Cookie’s Treat宠物烘焙',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-6',
+          sectionIndexes: [6],
+          name: '24:01 Bloom & Craft',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-7',
+          sectionIndexes: [7],
+          name: '茉茉手作',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-8',
+          sectionIndexes: [8],
+          name: 'Squishyverse',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-9',
+          sectionIndexes: [9],
+          name: '织月亮',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-10',
+          sectionIndexes: [10],
+          name: '天工坊',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-11',
+          sectionIndexes: [11],
+          name: 'JUSO居所休息空间',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-12',
+          sectionIndexes: [12],
+          name: '许愿墙',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-13',
+          sectionIndexes: [13],
+          name: 'KissFingers Press-on Nails',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-14',
+          sectionIndexes: [14],
+          name: 'AI汉服照片书',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-15',
+          sectionIndexes: [15],
+          name: 'Luckydodo',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-16',
+          sectionIndexes: [16],
+          name: '汉服妆造',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-17',
+          sectionIndexes: [17],
+          name: '拍照墙&古琴',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-18',
+          sectionIndexes: [18],
+          name: 'Taro姻缘墙&戏谷剧团',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'chinese-19',
+          sectionIndexes: [19],
+          name: '糖画',
+          checkin: true,
+          details: '简介',
+        },
+      ];
+      const functionsList = [
+        {
+          stampIndex: 'function-1',
+          sectionIndexes: [1],
+          name: '志愿者休息区1',
+          checkin: false,
+          details: '简介',
+        },
+        {
+          stampIndex: 'function-2',
+          sectionIndexes: [2],
+          name: '失物招领处',
+          checkin: false,
+          details: '简介',
+        },
+        {
+          stampIndex: 'function-3',
+          sectionIndexes: [3],
+          name: '载歌在谷 - 云集',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'function-4',
+          sectionIndexes: [4],
+          name: '饭团',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'function-5',
+          sectionIndexes: [5],
+          name: 'Balance & Better Family Financial',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'function-6',
+          sectionIndexes: [6],
+          name: '老虎证券',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'function-78',
+          sectionIndexes: [7, 8],
+          name: '签到/兑奖处1',
+          checkin: false,
+          details: '简介',
+        },
+        {
+          stampIndex: 'function-9',
+          sectionIndexes: [9],
+          name: 'HeCares急救站',
+          checkin: true,
+          details: '简介',
+        },
+        {
+          stampIndex: 'function-10',
+          sectionIndexes: [10],
+          name: '志愿者休息区2',
+          checkin: false,
+          details: '简介',
+        },
+        {
+          stampIndex: 'function-1112',
+          sectionIndexes: [11, 12],
+          name: '签到/兑奖处2',
+          checkin: false,
+          details: '简介',
+        },
+        {
+          stampIndex: 'function-13',
+          sectionIndexes: [13],
+          name: '方太',
           checkin: true,
           details: '简介',
         },
       ];
 
-      const cuisineListHTML = cuisineList
-        .map((shop) => {
-          let stampStatus = '';
+      const allBooths = [...cuisinesList, ...kidsList, ...traditionsList, ...functionsList];
 
-          if (shop.checkin) {
-            const collectedStamps = Cookies.getJSON('collectedStamps');
-            console.log('collectedStamps', collectedStamps);
-            if (collectedStamps?.includes(shop.stampIndex)) {
-              stampStatus = `<div class="shop-stamp-status">✅</div>`;
-            } else {
-              stampStatus = `<div class="shop-stamp-status">⬜️</div>`;
+      function generateBoothListHTML(boothList, sectionName) {
+        return boothList
+          .map((booth) => {
+            let stampStatus = '';
+
+            if (booth.checkin) {
+              const collectedStamps = Cookies.getJSON('collectedStamps');
+              if (collectedStamps?.includes(booth.stampIndex)) {
+                stampStatus = `<div class="booth-stamp-status">✅</div>`;
+              } else {
+                stampStatus = `<div class="booth-stamp-status">⬜️</div>`;
+              }
             }
-          }
 
-          return `<div class="shop-card">
-            <div class="shop-number shop-section-cuisine">${shop.sectionIndex}</div>
-            <div class="shop-name">${shop.name}</div>
+            const sectionIndexHtmls = booth.sectionIndexes
+              .map((index) => {
+                return `<div class="booth-number booth-section-${sectionName}">${index}</div>`;
+              })
+              .join('');
+
+            return `<div class="booth-card">
+            ${sectionIndexHtmls}
+            <div class="booth-name">${booth.name}</div>
             ${stampStatus}
             <div class="arrow"></div>
           </div>`;
-        })
-        .join('');
-      // console.log('cuisineListHTML', cuisineListHTML);
+          })
+          .join('');
+      }
+
+      const cuisinesListHTML = generateBoothListHTML(cuisinesList, sectionNames.cuisine);
+      const kidsListHTML = generateBoothListHTML(kidsList, sectionNames.kids);
+      const traditionsListHTML = generateBoothListHTML(traditionsList, sectionNames.traditions);
+      const functionsListHTML = generateBoothListHTML(functionsList, sectionNames.functions);
     </script>
 
     <!-- 生成二维码 -->
@@ -413,8 +765,10 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         padding: 0;
         margin: 0;
         overflow: hidden;
-        padding-bottom: env(safe-area-inset-bottom);
-        height: 100vh;
+        height: 0;
+        background-color: #ffeeab;
+        /* 防止 iOS safari 缩放 */
+        touch-action: pan-x pan-y;
       }
 
       .display-block {
@@ -444,9 +798,9 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
     <style>
       #map-container {
         max-width: 100vw;
-        max-height: 100vh;
-        width: 100%;
-        height: 100%;
+        /* max-height: calc(100vh - env(safe-area-inset-bottom)); */
+        width: 100vw;
+        /* height: calc(100vh - env(safe-area-inset-bottom)); */
         overflow: hidden;
       }
       #map {
@@ -467,7 +821,6 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         background: white;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
-        border: 1px solid black;
         box-shadow: 0px -3px 27px 14px #0000007d;
       }
 
@@ -514,7 +867,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
 
       #drawer-content {
         animation-fill-mode: forwards;
-        height: 100px;
+        height: 3vh;
         /* width: 100vw; */
       }
 
@@ -538,21 +891,21 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
 
       @keyframes slideUp {
         from {
-          height: 100px;
+          height: 3vh;
         }
 
         to {
-          height: 500px;
+          height: 60vh;
         }
       }
 
       @keyframes slideDown {
         from {
-          height: 500px;
+          height: 60vh;
         }
 
         to {
-          height: 100px;
+          height: 3vh;
         }
       }
     </style>
@@ -595,7 +948,19 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       .sponsor-tab-group {
         display: flex;
         justify-content: space-between;
-        margin-top: 1rem;
+        /* margin-top: 1rem; */
+        position: fixed;
+        /* width: 100%; */
+        z-index: 100;
+        background: white;
+        padding-bottom: 0.5rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        left: 0;
+        right: 0;
+      }
+      #sponsorTabContainer {
+        margin-top: 3rem;
       }
 
       .sponsor-tab {
@@ -814,7 +1179,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
 
     <!-- 摊位列表样式 -->
     <style>
-      #shopListPopup {
+      #boothListPopup {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -827,10 +1192,10 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         box-shadow: 0px -68px 66px 27px #0000007d;
       }
 
-      #shopListPopup h1 {
+      #boothListPopup h1 {
         text-align: center;
       }
-      #shopList {
+      #boothList {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -838,7 +1203,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         height: 70%;
         padding-top: 1rem;
       }
-      .shop-card {
+      .booth-card {
         margin-bottom: 1rem;
         border-radius: 8px;
         border: 1px black solid;
@@ -846,7 +1211,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         display: flex;
         align-items: center;
       }
-      .shop-number {
+      .booth-number {
         width: 2rem;
         height: 2rem;
         display: flex;
@@ -855,25 +1220,25 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         margin: 10px;
         border-radius: 8px;
       }
-      .shop-name {
+      .booth-name {
         display: flex;
         align-items: center;
       }
-      .shop-stamp-status {
+      .booth-stamp-status {
         margin-left: auto;
         margin-right: 1rem;
       }
 
-      .shop-section-cuisine {
+      .booth-section-cuisine {
         background-color: #ff9500;
       }
-      .shop-section-kids {
+      .booth-section-kids {
         background-color: #008c41;
       }
-      .shop-section-tradition {
+      .booth-section-tradition {
         background-color: #007aff;
       }
-      .shop-section-functions {
+      .booth-section-functions {
         background-color: #ff2d55;
       }
     </style>
@@ -1009,7 +1374,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         </div>
       </div> -->
       <div id="map-container">
-        <img id="map" src="/images/2024-map/map.png?a=2" alt="" />
+        <img id="map" alt="" />
       </div>
 
       <div id="registerPopup" class="display-none">
@@ -1058,10 +1423,10 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         <div class="stamp-cards-list" id="stampCardsList"></div>
       </div>
 
-      <div id="shopListPopup" class="display-none">
-        <div id="shopListPopupCloseBtn" class="btn-close">×</div>
-        <h1 id="sectionName">美食区</h1>
-        <div id="shopList"></div>
+      <div id="boothListPopup" class="display-none">
+        <div id="boothListPopupCloseBtn" class="btn-close">×</div>
+        <h1 id="sectionName"></h1>
+        <div id="boothList"></div>
       </div>
 
       <div id="qrCodePopup" class="display-none">
@@ -1127,17 +1492,18 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
   </script> -->
   <!-- 摊位信息弹窗 -->
   <script>
-    const shopListPopupEle = document.querySelector('#shopListPopup');
-    const shopListPopupCloseBtnEle = document.querySelector('#shopListPopupCloseBtn');
+    const boothListPopupEle = document.querySelector('#boothListPopup');
+    const boothListPopupCloseBtnEle = document.querySelector('#boothListPopupCloseBtn');
     const sectionNameEle = document.querySelector('#sectionName');
-    const shopListEle = document.querySelector('#shopList');
+    const boothListEle = document.querySelector('#boothList');
 
-    function closeShopListPopup() {
-      shopListPopupEle.classList.add('display-none');
-      shopListPopupEle.classList.remove('display-block');
+    function closeBoothListPopup() {
+      boothListPopupEle.classList.add('display-none');
+      boothListPopupEle.classList.remove('display-block');
+      siteStates.hasPopupOpen = false;
     }
 
-    shopListPopupCloseBtnEle.onclick = closeShopListPopup;
+    boothListPopupCloseBtnEle.onclick = closeBoothListPopup;
   </script>
   <!-- pan zoom map script -->
   <script>
@@ -1170,17 +1536,71 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       naturalWidth;
       naturalHeight;
 
+      area = {
+        cuisine: {
+          left: 0,
+          right: 0,
+          top: 0,
+          bottom: 0,
+        },
+      };
+
       constructor(img) {
         this.img = img;
-        this.naturalWidth = this.img.naturalWidth;
-        this.naturalHeight = this.img.naturalHeight;
-        this.calculateInitialSize();
+        img.src = mapURL;
 
         // this.initialWidth = screen.width;
         // this.initialHeight = screen.height;
 
         img.onload = () => {
+          this.calculateInitialSize();
+
           this.reset();
+          this.naturalWidth = this.img.naturalWidth;
+          this.naturalHeight = this.img.naturalHeight;
+          this.area = {
+            cuisine: {
+              left: 170 / this.naturalWidth,
+              top: 340 / this.naturalHeight,
+              right: 351 / this.naturalWidth,
+              bottom: 442 / this.naturalHeight,
+            },
+            kids: {
+              left: 228 / this.naturalWidth,
+              top: 485 / this.naturalHeight,
+              right: 483 / this.naturalWidth,
+              bottom: 588 / this.naturalHeight,
+            },
+            traditions1: {
+              left: 104 / this.naturalWidth,
+              top: 633 / this.naturalHeight,
+              right: 544 / this.naturalWidth,
+              bottom: 698 / this.naturalHeight,
+            },
+            traditions2: {
+              left: 525 / this.naturalWidth,
+              top: 446 / this.naturalHeight,
+              right: 635 / this.naturalWidth,
+              bottom: 626 / this.naturalHeight,
+            },
+            functions1: {
+              left: 154 / this.naturalWidth,
+              top: 741 / this.naturalHeight,
+              right: 518 / this.naturalWidth,
+              bottom: 805 / this.naturalHeight,
+            },
+            functions2: {
+              left: 519 / this.naturalWidth,
+              top: 315 / this.naturalHeight,
+              right: 622 / this.naturalWidth,
+              bottom: 420 / this.naturalHeight,
+            },
+          };
+          console.log('this.area', JSON.stringify(this.area));
+          console.log('initialWidth', this.initialWidth);
+          console.log('initialHeight', this.initialHeight);
+          console.log('naturalWidth', this.naturalWidth);
+          console.log('naturalHeight', this.naturalHeight);
         };
 
         img.ontouchstart = this.onTouchstart.bind(this);
@@ -1210,9 +1630,6 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       setDisplaySize(width, height) {
         this.initialWidth = width;
         this.initialHeight = height;
-
-        console.log('initialWidth', this.initialWidth);
-        console.log('initialHeight', this.initialHeight);
 
         if (this.initialWidth >= 280) {
           this.initialLeft = -(this.initialWidth - 280) / 2;
@@ -1246,24 +1663,65 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       }
 
       onClick(e) {
+        // 如果有打开的弹窗（不是顶层抽屉），不响应地图点击
+        if (siteStates.hasPopupOpen) {
+          return;
+        }
         // TODO：offsetX 和 offsetY 不会随着缩放平移而变化，可以根据这俩来确定点了哪里。但是不能直接用，因为图片显示的尺寸不同屏幕不一样，得按照百分比算
         console.log(e.offsetX, e.offsetY);
         const x = e.offsetX;
         const y = e.offsetY;
 
-        const xPercent = x / this.initialWidth;
-        const yPercent = y / this.initialHeight;
+        const xPercent = x / this.img.clientWidth;
+        const yPercent = y / this.img.clientHeight;
 
+        console.log('offsetX', e.offsetX);
+        console.log('offsetY', e.offsetY);
         console.log('xPercent', xPercent);
         console.log('yPercent', yPercent);
-        console.log('11111');
-        showShopListPopupFunc('cuisine');
+        console.log('initialWidth', this.initialWidth);
+        console.log('initialHeight', this.initialHeight);
+        console.log('this.img.clientHeight', this.img.clientHeight);
+        console.log('this.img.clientWidth', this.img.clientWidth);
+        // showBoothListPopupFunc('cuisine');
 
-        // if (xPercent >= 0.229 && xPercent <= 0.472 && yPercent >= 0.124 && yPercent <= 0.29) {
-        //   showShopListPopup('cuisine');
-        // } else if (x >= 254 && x <= 445 && y >= 457 && y <= 506) {
-        //   showShopListPopup('kids');
-        // }
+        if (
+          xPercent >= this.area.cuisine.left &&
+          xPercent <= this.area.cuisine.right &&
+          yPercent >= this.area.cuisine.top &&
+          yPercent <= this.area.cuisine.bottom
+        ) {
+          showBoothListPopupFunc('cuisine');
+        } else if (
+          xPercent >= this.area.kids.left &&
+          xPercent <= this.area.kids.right &&
+          yPercent >= this.area.kids.top &&
+          yPercent <= this.area.kids.bottom
+        ) {
+          showBoothListPopupFunc('kids');
+        } else if (
+          (xPercent >= this.area.traditions1.left &&
+            xPercent <= this.area.traditions1.right &&
+            yPercent >= this.area.traditions1.top &&
+            yPercent <= this.area.traditions1.bottom) ||
+          (xPercent >= this.area.traditions2.left &&
+            xPercent <= this.area.traditions2.right &&
+            yPercent >= this.area.traditions2.top &&
+            yPercent <= this.area.traditions2.bottom)
+        ) {
+          showBoothListPopupFunc('traditions');
+        } else if (
+          (xPercent >= this.area.functions1.left &&
+            xPercent <= this.area.functions1.right &&
+            yPercent >= this.area.functions1.top &&
+            yPercent <= this.area.functions1.bottom) ||
+          (xPercent >= this.area.functions2.left &&
+            xPercent <= this.area.functions2.right &&
+            yPercent >= this.area.functions2.top &&
+            yPercent <= this.area.functions2.bottom)
+        ) {
+          showBoothListPopupFunc('functions');
+        }
       }
 
       // @HostListener('touchstart', ['$event'])
@@ -1437,8 +1895,10 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
   <script>
     const drawerSliderEle = document.getElementById('drawer-slider');
     const drawerContentEle = document.getElementById('drawer-content');
+    const drawerTabGroupEle = document.getElementById('drawerTabGroup');
     let isDrawerOpen = false;
-    drawerSliderEle.onclick = () => {
+
+    function toggleDrawer() {
       siteStates.isDrawerOpen = !siteStates.isDrawerOpen;
 
       if (siteStates.isDrawerOpen) {
@@ -1446,7 +1906,16 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       } else {
         drawerContentEle.className = 'drawer-close';
       }
-    };
+    }
+
+    function openDrawer() {
+      siteStates.isDrawerOpen = true;
+
+      drawerContentEle.className = 'drawer-open';
+    }
+
+    drawerSliderEle.onclick = toggleDrawer;
+    drawerTabGroup.onclick = openDrawer;
   </script>
 
   <!-- 顶层切换tab -->
@@ -1504,7 +1973,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       });
       sponsorDetailsContainer.innerHTML = `
         <div>
-          <p class="sponsor-details">${sponsorsAndCollaboratorsMap[sponsorKey].details}</p>
+          <p class="sponsor-details">${sponsorsAndCollaboratorsMap[sponsorKey].details ?? ''}</p>
           ${qrImages}
         </div>
         `;
@@ -1565,15 +2034,15 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
   <!--打卡记录弹窗，注册生成二维码 -->
   <script>
     const registeredCheckinButtonsHTML = `<div class="checkin-button" id="showCheckinHistory">
-            <img class="checkin-button-logo" src="./images/2024-map/zgzglogo.png" alt="" />
+            <img class="checkin-button-logo" src="/images/2024-map/zgzglogo.png" alt="" />
             查看打卡记录
           </div>
           <div class="checkin-button" id="showQRCode">
-            <img class="checkin-button-logo" src="./images/2024-map/zgzglogo.png" alt="" />
+            <img class="checkin-button-logo" src="/images/2024-map/zgzglogo.png" alt="" />
             我的二维码
           </div>`;
     const unregisteredCheckinButtonsHTML = `<div class="checkin-button" id="checkinButton">
-            <img class="checkin-button-logo" src="./images/2024-map/zgzglogo.png" alt="" />
+            <img class="checkin-button-logo" src="/images/2024-map/zgzglogo.png" alt="" />
             登记以获取打卡二维码
           </div>`;
 
@@ -1614,16 +2083,19 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
     function closeQRCodePopup() {
       qrCodePopupEle.classList.add('display-none');
       qrCodePopupEle.classList.remove('display-block');
+      siteStates.hasPopupOpen = false;
     }
 
     function showQRCodePopup() {
       qrCodePopupEle.classList.add('display-block');
       qrCodePopupEle.classList.remove('display-none');
+      siteStates.hasPopupOpen = true;
     }
 
     function closeStampPopup() {
       checkinHistoryPopupEle.classList.add('display-none');
       checkinHistoryPopupEle.classList.remove('display-block');
+      siteStates.hasPopupOpen = false;
     }
 
     async function openStampPopup() {
@@ -1635,11 +2107,10 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       querySnapshot.forEach((doc) => {
         const boothIndex = doc.data().booth;
         collectedStamps.add(boothIndex);
-        const sponsorName =
-          sponsorsAndCollaboratorsMap[sponsorsIndex[boothIndex]]?.name ?? '无此摊位';
+        const boothName = allBooths.find((booth) => booth.index === boothIndex);
         stampCards.push(`<div class="stamp-card">
-          <div class="stamp-name">${sponsorName}</div>
-          <img src="./images/2024-map/zgzglogo.png" alt="" />
+          <div class="stamp-name">${boothName}</div>
+          <img src="/images/2024-map/zgzglogo.png" alt="" />
         </div>`);
       });
 
@@ -1651,16 +2122,19 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
 
       checkinHistoryPopupEle.classList.add('display-block');
       checkinHistoryPopupEle.classList.remove('display-none');
+      siteStates.hasPopupOpen = true;
     }
 
     function openRegister() {
       registerPopupEle.classList.add('display-block');
       registerPopupEle.classList.remove('display-none');
+      siteStates.hasPopupOpen = true;
     }
 
     function closeRegister() {
       registerPopupEle.classList.add('display-none');
       registerPopupEle.classList.remove('display-block');
+      siteStates.hasPopupOpen = false;
     }
 
     function register() {
