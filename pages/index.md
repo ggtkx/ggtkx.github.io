@@ -2,14 +2,13 @@
 title: 硅谷脱口秀：硅谷地区汉语喜剧社团！
 layout: home
 description: 硅谷脱口秀：硅谷地区汉语喜剧社团！
-intro_image: "/images/illustrations/micdrop.svg"
+show_image: "https://i.imgur.com/n3YYEqR.png"
+show_image2: "https://i.imgur.com/FSYvupn.png"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_people: true
 permalink: /
 ---
-&nbsp;
-
 ## 开放麦
 
 {% include call.html show_button=true labels=site.data.l10n.cn %}
@@ -34,5 +33,6 @@ permalink: /
 
 - 小红书号：[ggtkx_org](https://www.xiaohongshu.com/user/profile/5c0c79410000000006003274)
 - 微信公众号：svcomedy
+- Instagram: [silicomedy](https://www.instagram.com/silicomedy/)
 - [YouTube](https://www.youtube.com/channel/UCqG1oe7CjCghQdZDldNKT0A/featured)频道
 - [哔哩哔哩](https://space.bilibili.com/482647119)频道
