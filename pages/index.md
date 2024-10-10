@@ -5,7 +5,6 @@ description: 硅谷脱口秀：硅谷地区汉语喜剧社团！
 show_image: "https://i.imgur.com/n3YYEqR.png"
 show_image2: "https://i.imgur.com/FSYvupn.png"
 intro_image_absolute: true
-intro_image_hide_on_mobile: true
 show_people: true
 permalink: /
 ---
