@@ -8,7 +8,7 @@
     />
     <title>2024 金谷拾月游园会电子地图</title>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-    <!-- 全局状态 -->
+    <!-- 全局状态 通用函数 -->
     <script>
       const mapURL = `/images/2024-map/map.png?cache=${Date().toString()}`;
       const siteStates = {
@@ -40,8 +40,26 @@
           boothListEle.innerHTML = functionsListHTML;
           sectionNameEle.innerHTML = '功能 & 赞助区';
         }
-        boothListPopupEle.classList.add('display-block');
-        boothListPopupEle.classList.remove('display-none');
+        // boothListPopupEle.classList.add('display-block');
+        // boothListPopupEle.classList.remove('display-none');
+        // siteStates.hasPopupOpen = true;
+        openPopup(boothListPopupEle);
+      }
+
+      function closePopup(popupEle) {
+        if (!popupEle) {
+          return;
+        }
+        popupEle.classList.add('display-none');
+        popupEle.classList.remove('display-block');
+        siteStates.hasPopupOpen = false;
+      }
+      function openPopup(popupEle) {
+        if (!popupEle) {
+          return;
+        }
+        popupEle.classList.add('display-block');
+        popupEle.classList.remove('display-none');
         siteStates.hasPopupOpen = true;
       }
     </script>
@@ -73,8 +91,8 @@
           // 缺logo
           name: '太阳神美院',
           tier: 'collaborator',
-          logo: '/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货小分队logo.png',
-          qrCode: ['/images/2024-map/sponsors/友情合作-吃货小分队/友情合作-吃货小分队-二维码.png'],
+          logo: '/images/2024-map/sponsors/友情合作-太阳神美院/Logo.PNG',
+          qrCode: ['/images/2024-map/sponsors/友情合作-太阳神美院/QRcode.png'],
         },
         xigu: {
           name: '戏谷剧团',
@@ -205,6 +223,16 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
           qrCode: ['/images/2024-map/sponsors/黄金-Steve/金牌-Steve-Chen-二维码.jpeg'],
           details: `Steve Chen，从业15年的资深房屋贷款经纪。顶尖的团队，凭藉扎实专业知识、丰富沟通技巧、和多年的实战经验，帮助了超过5000个家庭在美国完成购屋的梦想！`,
         },
+        hanfushe: {
+          name: 'hanfushe',
+          tier: 'collaborator',
+          logo: '/images/2024-map/sponsors/友情合作-硅谷汉服社/logo.jpg',
+          qrCode: [
+            '/images/2024-map/sponsors/友情合作-硅谷汉服社/logo简介.jpg',
+            '/images/2024-map/sponsors/友情合作-硅谷汉服社/二维码.jpg',
+          ],
+          details: '',
+        },
       };
       const collaboratorsList = [
         'HeCares',
@@ -215,6 +243,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         'tuokouxiu',
         'aaya',
         'berryfun',
+        'hanfushe',
       ];
       const sponsorsList = [
         '99ranch',
@@ -249,32 +278,43 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       ];
 
       const sponsorsListHTML = sponsorsList
-        .map((sponsor) => {
+        .map((sponsor, i) => {
           const info = sponsorsAndCollaboratorsMap[sponsor];
           return `
-  <div class="sponsor-logo" data-sponsor="${sponsor}">
+  <div class="sponsor-logo tier-${info.tier}" data-sponsor="${sponsor}">
     <img class="tire-icon" src="/images/2024-map/icon-${info.tier}.png" alt="" />
+    <input class="active-selected-sponsor" name="selected-sponsor" type="radio" ${
+      i === 0 ? 'checked' : ''
+    } />
+    <div class="logo-container">
     <img data-sponsor="${sponsor}"
+      tabindex="0"
       class="logo-img"
       src="${info.logo}"
       alt="${info.name}"
     />
+    </div>
   </div>
   `;
         })
         .join('');
 
       const collaboratorsListHTML = collaboratorsList
-        .map((sponsor) => {
+        .map((sponsor, i) => {
           const info = sponsorsAndCollaboratorsMap[sponsor];
           return `
-  <div class="sponsor-logo" data-sponsor="${sponsor}">
+  <div class="sponsor-logo tier-collaborator" data-sponsor="${sponsor}">
+    <input class="active-selected-sponsor" name="selected-sponsor" type="radio" ${
+      i === 0 ? 'checked' : ''
+    } />
+    <div  class="logo-container">
     <img
     data-sponsor="${sponsor}"
       class="logo-img"
       src="${info.logo}"
       alt="${info.name}"
     />
+    </div>
   </div>
   `;
         })
@@ -767,6 +807,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         overflow: hidden;
         height: 0;
         background-color: #ffeeab;
+        font-family: sans-serif;
         /* 防止 iOS safari 缩放 */
         touch-action: pan-x pan-y;
       }
@@ -941,6 +982,37 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         height: 150px;
         border-radius: 0.5rem;
       }
+
+      ul.show-list {
+        background: #edf4f7;
+        border-radius: 0.7rem;
+        padding-right: 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-inline-start: 2rem;
+        margin-top: 0;
+      }
+      .show-list-time {
+        padding-left: 1rem;
+        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+      }
+
+      .lottery-info {
+        background: #edf4f7;
+        border-radius: 0.7rem;
+        padding: 0.5rem;
+      }
+      .lottery-info h4 {
+        margin: 0;
+        color: #ce0f04;
+      }
+      .lottery-info p {
+        margin: 0.5rem 0;
+      }
+      .lottery-info ol {
+        margin: 0;
+      }
     </style>
 
     <!-- Sponsors Tab Styles -->
@@ -953,11 +1025,11 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         /* width: 100%; */
         z-index: 100;
         background: white;
-        padding-bottom: 0.5rem;
-        padding-left: 5%;
-        padding-right: 5%;
-        left: 0;
-        right: 0;
+        padding: 2px;
+        left: 1rem;
+        right: 1rem;
+        border: 1px solid #f5be00;
+        border-radius: 0.7rem;
       }
       #sponsorTabContainer {
         margin-top: 3rem;
@@ -987,7 +1059,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       }
       #sponsorLogoGroup {
         /* width: 500px; */
-        height: 100px;
+        /* height: 100px; */
         white-space: nowrap;
         position: relative;
         overflow-x: scroll;
@@ -995,10 +1067,10 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         margin-top: 1rem;
       }
       .sponsor-logo {
-        width: 100px;
+        /* width: 100px; */
         /* background-color: #eee; */
         /* float: none; */
-        height: 100px;
+        /* height: 100px; */
         margin: 0 0.5rem;
         display: inline-block;
         /* zoom: 1; */
@@ -1009,6 +1081,49 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         width: 100%;
         height: 100%;
         object-fit: contain;
+        opacity: 0.2;
+        -moz-opacity: 0.2; /* Firefox and Mozilla browsers */
+        -webkit-opacity: 0.2;
+      }
+
+      .logo-container {
+        /* border-radius: 100%; */
+        /* border: 5px solid transparent; */
+        padding: 3px;
+        /* filter: opacity(0.5); */
+        width: 100%;
+        height: 100%;
+      }
+
+      .tier-platinum {
+        width: 150px;
+        height: 150px;
+      }
+
+      .tier-gold {
+        width: 100px;
+        height: 100px;
+      }
+
+      .tier-collaborator {
+        width: 50px;
+        height: 50px;
+      }
+
+      input.active-selected-sponsor {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        z-index: 1;
+        opacity: 0;
+        display: block;
+      }
+
+      input.active-selected-sponsor:checked + .logo-container > .logo-img {
+        opacity: 1;
+        -moz-opacity: 1; /* Firefox and Mozilla browsers */
+        -webkit-opacity: 1;
       }
 
       img.tire-icon {
@@ -1017,6 +1132,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         height: 20px;
         right: 0;
         bottom: 0;
+        z-index: 50;
       }
 
       .sponsor-details {
@@ -1042,7 +1158,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
 
       .checkin-button {
         background: linear-gradient(45deg, rgba(240, 220, 220), rgb(254, 247, 216));
-        border-radius: 8px;
+        border-radius: 0.7rem;
         width: 90%;
         display: flex;
         align-items: center;
@@ -1058,8 +1174,8 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       #showCheckinHistory,
       #showQRCode {
         background: linear-gradient(45deg, rgba(240, 220, 220), rgb(254, 247, 216));
-        border-radius: 8px;
-        width: 35%;
+        border-radius: 0.7rem;
+        width: 45%;
         display: flex;
         align-items: center;
       }
@@ -1205,7 +1321,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       }
       .booth-card {
         margin-bottom: 1rem;
-        border-radius: 8px;
+        border-radius: 0.7rem;
         border: 1px black solid;
         width: 90%;
         display: flex;
@@ -1218,11 +1334,15 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         justify-content: center;
         align-items: center;
         margin: 10px;
-        border-radius: 8px;
+        margin-right: 0;
+        border-radius: 0.7rem;
+        color: white;
+        font-weight: bold;
       }
       .booth-name {
         display: flex;
         align-items: center;
+        margin-left: 10px;
       }
       .booth-stamp-status {
         margin-left: auto;
@@ -1235,7 +1355,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       .booth-section-kids {
         background-color: #008c41;
       }
-      .booth-section-tradition {
+      .booth-section-traditions {
         background-color: #007aff;
       }
       .booth-section-functions {
@@ -1315,26 +1435,92 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
               alt=""
             /> 
       `;
-      const showListHTMLContent = showsList
-        .map((show) => {
-          return `
-        <div class="show-list-container">
-              <div class="show-info-card">
-                <div class="show-time">
-                  <span>${show.time}</span>
-                </div>
-                <div class="show-info">
-                  <div class="show-title">${show.title}</div>
-                  <div class="show-intro">
-                    ${show.intro}
-                  </div>
-                </div>
-                <img class="show-bg-img" src="${show.image}" alt="" />
+      // const showListHTMLContent = showsList
+      //   .map((show) => {
+      //     return `
+      //   <div class="show-list-container">
+      //         <div class="show-info-card">
+      //           <div class="show-time">
+      //             <span>${show.time}</span>
+      //           </div>
+      //           <div class="show-info">
+      //             <div class="show-title">${show.title}</div>
+      //             <div class="show-intro">
+      //               ${show.intro}
+      //             </div>
+      //           </div>
+      //           <img class="show-bg-img" src="${show.image}" alt="" />
+      //         </div>
+      //       </div>
+      //   `;
+      //   })
+      //   .join('');
+      const showListHTMLContent = `<div class="show-list-card">
+              <h3 class="show-list-time">1:00 PM - 3:40 PM</h3>
+              <ul class="show-list">
+                <li>Batter Up | Twinkle by Tingna Dance Studio</li>
+                <li>Woman Up | Extremer</li>
+                <li>弦樂團金曲串燒 Rhapsody String Ensemble | 狂响弦乐团</li>
+                <li>Put your records on | Aevum Mistry</li>
+                <li>舞蹈串烧《穿越》 | DD舞团</li>
+                <li>是妈妈是女儿 | Zoe and Jade Worden</li>
+                <li>国乐雅秋 The Fall Melody by Guqin, Bamboo flute and Hulusi | 雅韵国乐社</li>
+                <li>少林雄风 | Shaolin Warrior Martial Arts</li>
+                <li>祥狮欢舞迎金秋 | Leland High School Lion Dance Team</li>
+                <li>华夏有衣-汉服走秀 Chinese Dress Fashion Show | 硅谷汉服社</li>
+                <li>古琴演奏 | 太玄古琴社</li>
+                <li>传承 | Song's Kung Fu</li>
+                <li>
+                  儿童舞蹈《花木兰》《森林圆舞曲》《奇妙的小仙子 》| Dream Hope Star Dance Academy
+                </li>
+                <li>越剧清唱《追鱼》 | Xiaowen Geng</li>
+                <li>舞蹈 - 红昭愿 | 85Fun Studio</li>
+                <li>月光+蝶 | 丁梦</li>
+                <li>中提琴独奏《渔舟唱晚》 | 黄佳艺</li>
+                <li>中英文歌曲串烧 Mashup | 兰兰</li>
+              </ul>
+            </div>
+            <div class="show-list-card">
+              <h3 class="show-list-time">4:10 pm - 4:40 pm</h3>
+              <ul class="show-list">
+                <li>Band: Why Sol Serious</li>
+              </ul>
+            </div>
+            <div class="show-list-card">
+              <h3 class="show-list-time">4:40 pm - 5:10 pm</h3>
+              <div class="lottery-info">
+                <h4>舞台抽奖 Lottery!</h4>
+                <p>
+                  Join Stage lottery to win the grand prize worth
+                  <span style="color: #ce0f04; font-weight: bold">$719!</span>
+                </p>
+                <p style="font-weight: bold">可通过以下方式获取抽奖券，以参与舞台抽奖：</p>
+                <ol>
+                  <li>购买售价 $35 的畅玩券赠送 3 张</li>
+                  <li>购买 ≧$15 的代币赠送 1 张</li>
+                  <li>购买 ≧$30 的代币赠送 2 张</li>
+                  <li>提前 24 小时注册活动赠送 1 张</li>
+                </ol>
+                <p style="font-weight: bold">
+                  How to obtain stage lottery ticket to join the stage lottery?
+                </p>
+                <ol>
+                  <li>Purchase ZGZG-all inclusive ticket ($35) - 3 tickets</li>
+                  <li>Purchase ZGZG tokens ≧ $15 - 1 ticket</li>
+                  <li>Purchase ZGZG tokens ≧ $30 - 2 tickets；</li>
+                  <li>Register 24 hours before event start (before Oct 19 2024, PST 12pm)</li>
+                </ol>
               </div>
             </div>
-        `;
-        })
-        .join('');
+            <div class="show-list-card">
+              <h3 class="show-list-time">5:10 pm - 5:40 pm</h3>
+              <ul class="show-list">
+                <li>特邀嘉宾：走起乐队 Special Guest: StartUp Band</li>
+              </ul>
+            </div>
+            <div style="padding-bottom: 1rem; text-align: center; color: rgb(92, 92, 92)">
+              Produced by 载歌在谷
+            </div>`;
 
       const sponsorsHTMLContent = `
       <div class="sponsor-container">
@@ -1364,6 +1550,14 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
   </head>
   <body>
     <div>
+      <!-- 测试按钮 -->
+      <button
+        onclick="function clearCookies() {Cookies.remove('phone'); Cookies.remove('collectedStamps')} clearCookies()"
+        style="position: absolute; top: 0; right: 0"
+      >
+        删除登记信息
+      </button>
+
       <!-- <div id="top-info">
         <div id="pay-info">
           <span data-i18n-label="payInfo.coin"> </span>
@@ -1390,7 +1584,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
             pattern="[0-9]{10}"
             required
             placeholder="格式：1234567890"
-            style="height: 2rem; width: 100%; margin: 0 4rem; border-radius: 8px"
+            style="height: 2rem; width: 100%; margin: 0 4rem; border-radius: 0.7rem"
           />
         </div>
         <div style="display: flex; margin-top: 1rem; justify-content: center">
@@ -1403,7 +1597,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
               border: 1px #f5be00 solid;
               width: 100%;
               height: 2rem;
-              border-radius: 8px;
+              border-radius: 0.7rem;
             "
           >
             确认
@@ -1437,8 +1631,9 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       </div>
 
       <div id="drawer">
-        <!-- 显示打卡页面 -->
         <div class="checkin-button-container" id="checkinButtonContainer"></div>
+
+        <!-- 显示打卡页面 -->
         <div id="drawer-slider-container">
           <button id="drawer-slider"></button>
         </div>
@@ -1448,7 +1643,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
             id="drawerTab0"
             data-i18n-label="drawer.tab.guide"
           >
-            游园指南111
+            游园指南
           </div>
           <div
             class="drawer-tab drawer-tab__inactive"
@@ -1474,9 +1669,17 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
     </div>
   </body>
 
-  <!-- 设置地图点击监听层 -->
+  <!-- 获取全局 DOM -->
   <script>
-    const mapOverlay = document.querySelector('#mapOverLay');
+    const boothListPopupEle = document.querySelector('#boothListPopup');
+    const checkinHistoryPopupEle = document.querySelector('#checkinHistoryPopup');
+    const registerPopupEle = document.querySelector('#registerPopup');
+    const qrCodePopupEle = document.querySelector('#qrCodePopup');
+
+    // console.log('drawer height', document.querySelector('#drawer').clientHeight);
+
+    // document.querySelector('#checkinButtonContainer').style.bottom =
+    //   document.querySelector('#drawer').clientHeight + 20 + 'px';
   </script>
 
   <!-- 中英切换 -->
@@ -1492,18 +1695,13 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
   </script> -->
   <!-- 摊位信息弹窗 -->
   <script>
-    const boothListPopupEle = document.querySelector('#boothListPopup');
     const boothListPopupCloseBtnEle = document.querySelector('#boothListPopupCloseBtn');
     const sectionNameEle = document.querySelector('#sectionName');
     const boothListEle = document.querySelector('#boothList');
 
-    function closeBoothListPopup() {
-      boothListPopupEle.classList.add('display-none');
-      boothListPopupEle.classList.remove('display-block');
-      siteStates.hasPopupOpen = false;
-    }
-
-    boothListPopupCloseBtnEle.onclick = closeBoothListPopup;
+    boothListPopupCloseBtnEle.onclick = () => {
+      closePopup(boothListPopupEle);
+    };
   </script>
   <!-- pan zoom map script -->
   <script>
@@ -1548,10 +1746,6 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       constructor(img) {
         this.img = img;
         img.src = mapURL;
-
-        // this.initialWidth = screen.width;
-        // this.initialHeight = screen.height;
-
         img.onload = () => {
           this.calculateInitialSize();
 
@@ -1663,11 +1857,23 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       }
 
       onClick(e) {
-        // 如果有打开的弹窗（不是顶层抽屉），不响应地图点击
-        if (siteStates.hasPopupOpen) {
+        if (siteStates.isDrawerOpen) {
+          drawerContentEle.className = 'drawer-close';
+          siteStates.isDrawerOpen = false;
           return;
         }
-        // TODO：offsetX 和 offsetY 不会随着缩放平移而变化，可以根据这俩来确定点了哪里。但是不能直接用，因为图片显示的尺寸不同屏幕不一样，得按照百分比算
+
+        // 如果有打开的弹窗（不是顶层抽屉），不响应地图点击
+        if (siteStates.hasPopupOpen) {
+          closePopup(boothListPopupEle);
+          closePopup(registerPopupEle);
+          closePopup(checkinHistoryPopupEle);
+          closePopup(registerPopupEle);
+          closePopup(qrCodePopupEle);
+          return;
+        }
+
+        // offsetX 和 offsetY 不会随着缩放平移而变化，可以根据这俩来确定点了哪里。但是不能直接用，因为图片显示的尺寸不同屏幕不一样，得按照百分比算
         console.log(e.offsetX, e.offsetY);
         const x = e.offsetX;
         const y = e.offsetY;
@@ -1675,15 +1881,14 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         const xPercent = x / this.img.clientWidth;
         const yPercent = y / this.img.clientHeight;
 
-        console.log('offsetX', e.offsetX);
-        console.log('offsetY', e.offsetY);
-        console.log('xPercent', xPercent);
-        console.log('yPercent', yPercent);
-        console.log('initialWidth', this.initialWidth);
-        console.log('initialHeight', this.initialHeight);
-        console.log('this.img.clientHeight', this.img.clientHeight);
-        console.log('this.img.clientWidth', this.img.clientWidth);
-        // showBoothListPopupFunc('cuisine');
+        // console.log('offsetX', e.offsetX);
+        // console.log('offsetY', e.offsetY);
+        // console.log('xPercent', xPercent);
+        // console.log('yPercent', yPercent);
+        // console.log('initialWidth', this.initialWidth);
+        // console.log('initialHeight', this.initialHeight);
+        // console.log('this.img.clientHeight', this.img.clientHeight);
+        // console.log('this.img.clientWidth', this.img.clientWidth);
 
         if (
           xPercent >= this.area.cuisine.left &&
@@ -1734,10 +1939,6 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
           this.originHaveSet = false;
         }
         this.recordPreTouchPosition(touches['0']);
-        if (siteStates.isDrawerOpen) {
-          drawerContentEle.className = 'drawer-close';
-          siteStates.isDrawerOpen = false;
-        }
       }
 
       // @HostListener('touchmove', ['$event'])
@@ -1912,6 +2113,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       siteStates.isDrawerOpen = true;
 
       drawerContentEle.className = 'drawer-open';
+      drawerContentEle.parentNode.scrollTop = 0;
     }
 
     drawerSliderEle.onclick = toggleDrawer;
@@ -1935,6 +2137,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       sponsorsTab.classList.add('drawer-tab__inactive');
       sponsorsTab.classList.remove('drawer-tab__active');
       tabContainer.innerHTML = tourGuideHTMLContent;
+      drawerContentEle.parentNode.scrollTop = 0;
     };
 
     showListTab.onclick = () => {
@@ -1948,6 +2151,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       sponsorsTab.classList.remove('drawer-tab__active');
 
       tabContainer.innerHTML = showListHTMLContent;
+      drawerContentEle.parentNode.scrollTop = 0;
     };
 
     sponsorsTab.onclick = () => {
@@ -1961,6 +2165,8 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       showListTab.classList.remove('drawer-tab__active');
 
       tabContainer.innerHTML = sponsorsHTMLContent;
+      drawerContentEle.parentNode.scrollTop = 0;
+
       bindSponsorTabEvents();
     };
   </script>
@@ -1968,9 +2174,11 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
   <!-- 赞助商子tab切换 -->
   <script>
     function showSponsorInfo(sponsorKey, sponsorDetailsContainer) {
-      const qrImages = sponsorsAndCollaboratorsMap[sponsorKey].qrCode.map((code) => {
-        return `<img class="sponsor-qr" src="${code}"/>`;
-      });
+      const qrImages = sponsorsAndCollaboratorsMap[sponsorKey].qrCode
+        .map((code) => {
+          return `<img class="sponsor-qr" src="${code}"/>`;
+        })
+        .join('');
       sponsorDetailsContainer.innerHTML = `
         <div>
           <p class="sponsor-details">${sponsorsAndCollaboratorsMap[sponsorKey].details ?? ''}</p>
@@ -1984,6 +2192,15 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         const sponsorKey = e.target.getAttribute('data-sponsor');
         console.log('sponsor is');
         console.log('sponsorDetailsContainer is', sponsorDetailsContainer);
+        let inputEle;
+
+        for (let item of e.target.parentNode.parentNode.children) {
+          if (item.nodeName === 'INPUT') {
+            inputEle = item;
+          }
+        }
+        inputEle.checked = true;
+        console.log('logo image parent', e.target.parentNode.parentNode.children);
         showSponsorInfo(sponsorKey, sponsorDetailsContainer);
       }
     }
@@ -2001,6 +2218,9 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         sponsorTab2.classList.remove('sponsor-tab__active');
 
         sponsorLogoGroup.innerHTML = sponsorsListHTML;
+        sponsorLogoGroup.scrollLeft = 0;
+
+        document.querySelectorAll('.active-selected-sponsor').checked = true;
 
         sponsorLogoGroup.onclick = (e) => {
           selectSponsor(e, sponsorDetailsContainer);
@@ -2016,6 +2236,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         sponsorTab1.classList.remove('sponsor-tab__active');
 
         sponsorLogoGroup.innerHTML = collaboratorsListHTML;
+        sponsorLogoGroup.scrollLeft = 0;
 
         sponsorLogoGroup.onclick = (e) => {
           selectSponsor(e, sponsorDetailsContainer);
@@ -2038,29 +2259,25 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
             查看打卡记录
           </div>
           <div class="checkin-button" id="showQRCode">
-            <img class="checkin-button-logo" src="/images/2024-map/zgzglogo.png" alt="" />
+            <img class="checkin-button-logo" style="height: 76%;" src="/images/2024-map/my-qr-code.png" alt="" />
             我的二维码
           </div>`;
     const unregisteredCheckinButtonsHTML = `<div class="checkin-button" id="checkinButton">
-            <img class="checkin-button-logo" src="/images/2024-map/zgzglogo.png" alt="" />
+            <img class="checkin-button-logo"  src="/images/2024-map/zgzglogo.png" alt="" />
             登记以获取打卡二维码
           </div>`;
 
-    const checkinHistoryPopupEle = document.querySelector('#checkinHistoryPopup');
     const stampCardsListEle = document.querySelector('#stampCardsList');
     const stampCountEle = document.querySelector('#stampCount');
 
-    const registerPopupEle = document.querySelector('#registerPopup');
     const confirmPhoneEle = document.querySelector('#confirmPhone');
     const phoneEle = document.querySelector('#phoneNumber');
-
-    const qrCodePopupEle = document.querySelector('#qrCodePopup');
 
     function showCheckinhistory() {
       if (Cookies.get('phone')) {
         openStampPopup();
       } else {
-        openRegister();
+        openPopup(registerPopupEle);
       }
     }
 
@@ -2069,7 +2286,9 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       document.querySelector('#checkinButtonContainer').innerHTML = registeredCheckinButtonsHTML;
 
       if (document.querySelector('#showQRCode')) {
-        document.querySelector('#showQRCode').onclick = showQRCodePopup;
+        document.querySelector('#showQRCode').onclick = () => {
+          openPopup(qrCodePopupEle);
+        };
         document.querySelector('#showCheckinHistory').onclick = showCheckinhistory;
 
         document.querySelector('#qrCodeContainer').appendChild(siteStates.qrCodeEle);
@@ -2077,25 +2296,9 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       }
     } else {
       document.querySelector('#checkinButtonContainer').innerHTML = unregisteredCheckinButtonsHTML;
-      document.querySelector('#checkinButton').onclick = openRegister;
-    }
-
-    function closeQRCodePopup() {
-      qrCodePopupEle.classList.add('display-none');
-      qrCodePopupEle.classList.remove('display-block');
-      siteStates.hasPopupOpen = false;
-    }
-
-    function showQRCodePopup() {
-      qrCodePopupEle.classList.add('display-block');
-      qrCodePopupEle.classList.remove('display-none');
-      siteStates.hasPopupOpen = true;
-    }
-
-    function closeStampPopup() {
-      checkinHistoryPopupEle.classList.add('display-none');
-      checkinHistoryPopupEle.classList.remove('display-block');
-      siteStates.hasPopupOpen = false;
+      document.querySelector('#checkinButton').onclick = () => {
+        openPopup(registerPopupEle);
+      };
     }
 
     async function openStampPopup() {
@@ -2104,10 +2307,14 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       const stampCards = [];
       const collectedStamps = new Set(Cookies.getJSON('collectedStamps') ?? []);
 
+      console.log('allBooths', allBooths);
+
       querySnapshot.forEach((doc) => {
         const boothIndex = doc.data().booth;
+        console.log('boothIndex', boothIndex);
         collectedStamps.add(boothIndex);
-        const boothName = allBooths.find((booth) => booth.index === boothIndex);
+        const boothName =
+          allBooths.find((booth) => booth.stampIndex === boothIndex)?.name ?? '未知摊位';
         stampCards.push(`<div class="stamp-card">
           <div class="stamp-name">${boothName}</div>
           <img src="/images/2024-map/zgzglogo.png" alt="" />
@@ -2120,21 +2327,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
 
       stampCardsListEle.innerHTML = stampCards.join('');
 
-      checkinHistoryPopupEle.classList.add('display-block');
-      checkinHistoryPopupEle.classList.remove('display-none');
-      siteStates.hasPopupOpen = true;
-    }
-
-    function openRegister() {
-      registerPopupEle.classList.add('display-block');
-      registerPopupEle.classList.remove('display-none');
-      siteStates.hasPopupOpen = true;
-    }
-
-    function closeRegister() {
-      registerPopupEle.classList.add('display-none');
-      registerPopupEle.classList.remove('display-block');
-      siteStates.hasPopupOpen = false;
+      openPopup(checkinHistoryPopupEle);
     }
 
     function register() {
@@ -2145,7 +2338,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
         document.querySelector('#showCheckinHistory').onclick = showCheckinhistory;
         alert('注册成功，请点击主界面“我的二维码”按钮查看');
 
-        closeRegister();
+        closePopup(registerPopupEle);
         document.querySelector('#showQRCode').onclick = showQRCodePopup;
 
         document.querySelector('#qrCodeContainer').appendChild(siteStates.qrCodeEle);
@@ -2164,9 +2357,15 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
       }
     }
 
-    document.querySelector('#checkinHistoryPopupCloseBtn').onclick = closeStampPopup;
-    document.querySelector('#registerPopupCloseBtn').onclick = closeRegister;
-    document.querySelector('#qrCodePopupCloseBtn').onclick = closeQRCodePopup;
+    document.querySelector('#checkinHistoryPopupCloseBtn').onclick = () => {
+      closePopup(checkinHistoryPopupEle);
+    };
+    document.querySelector('#registerPopupCloseBtn').onclick = () => {
+      closePopup(registerPopupEle);
+    };
+    document.querySelector('#qrCodePopupCloseBtn').onclick = () => {
+      closePopup(qrCodePopupEle);
+    };
     confirmPhoneEle.onclick = register;
     phoneEle.oninput = validatePhone;
   </script>
