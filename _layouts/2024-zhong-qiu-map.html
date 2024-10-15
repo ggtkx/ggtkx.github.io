@@ -17,12 +17,8 @@
         selectedTab: 'guide',
         qrCodeEle: undefined,
         hasPopupOpen: false,
-        // phone: '',
-        // collectedStamps: [1, 5, 7],
       };
 
-      // Cookies.set('phone', '');
-      // Cookies.set('collectedStamps', []);
       function showBoothListPopupFunc(sectionName) {
         if (sectionName === sectionNames.cuisine) {
           boothListEle.innerHTML = cuisinesListHTML;
@@ -123,12 +119,12 @@
           qrCode: ['/images/2024-map/sponsors/白金-99大华/白金-大华-二维码.png'],
           details: `下载大华APP，购齐生活所需！生鲜果蔬、生猛活海
 鲜、零食饮料、美妆护肤，应有尽有！最快当天送达，
-载歌在谷专享：全场订单满$68减$10，优惠码:
-ZGZG10。10月万圣节大促：
-10.18 - 10.31
-10% OFF $60+
-15% OFF $80+
-20% OFF $100+，无需折扣码，自动满折。新人注册再送
+载歌在谷专享：全场订单满$68减$10，优惠码:<br/>
+ZGZG10。10月万圣节大促：<br/>
+10.18 - 10.31<br/>
+10% OFF $60+<br/>
+15% OFF $80+<br/>
+20% OFF $100+，无需折扣码，自动满折。新人注册再送<br/>
 减$20优惠券，活动当天去大华摊位可免费领取零食礼包！
 `,
         },
@@ -159,7 +155,7 @@ Meet us: bit.ly/meet-BB
           logo: '/images/2024-map/sponsors/白金-JUSO/Juso_Home_logo-01.png',
           qrCode: [
             '/images/2024-map/sponsors/白金-JUSO/白金-JUSO-Home-二维码1.png',
-            '/images/2024-map/sponsors/白金-JUSO/白金-JUSO-Home-二维码2',
+            '/images/2024-map/sponsors/白金-JUSO/白金-JUSO-Home-二维码2.jpg',
           ],
           details: `Juso Home是一家总部坐落于旧金山湾区的家居用品的品牌。专注于打造现代、时尚且优质的家居体验。我们秉承让高端极简设计触手可及的理念，致力于提供亲民且可负担的高品质产品。欢迎您与我们一起，感受精致家居带来的温馨与品味。`,
         },
@@ -332,83 +328,123 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
           stampIndex: 'cuisine-1',
           sectionIndexes: [1],
           name: '巴九门烧烤',
+          nameEng: '3 kingdoms BBQ',
           checkin: false,
-          price: '$10 - $15',
-          details: '',
         },
         {
           stampIndex: 'cuisine-2',
           sectionIndexes: [2],
           name: '甘了蔗杯',
+          nameEng: 'Sugarcane Cup ',
           checkin: true,
-          checkinCondition: '买3瓶以上',
-          price: '$10',
-          details: `Fresh squeezed sugarcane juice always bring fresh , sweet , nutrition .  `,
+          checkinCondition: {
+            cn: `购买3件商品以上`,
+            en: `Purchase more than 3 items`,
+          },
+          details: {
+            en: `Fresh squeezed sugarcane juice always bring fresh , sweet , nutrition .  `,
+          },
         },
         {
           stampIndex: 'cuisine-3',
           sectionIndexes: [3],
           name: '沙县小吃',
+          nameEng: 'Taste of sha xian',
           checkin: true,
-          checkinCondition: '消费满30',
-          price: '$8 - $12',
-          details: `国民小吃，在中国家喻户晓的沙县小吃`,
+          checkinCondition: {
+            cn: `消费满30`,
+            en: `Spend more than $30`,
+          },
+          details: {
+            cn: `国民小吃，在中国家喻户晓的沙县小吃`,
+          },
         },
         {
           stampIndex: 'cuisine-4',
           sectionIndexes: [4],
-          name: 'HE & C Tea + Pot',
+          name: 'HE&C Tea + Pot',
+          nameEng: 'HE&C Tea + Pot',
           checkin: true,
-          checkinCondition: '消费满40或购买5件以上不同的商品',
-          price: 'Around $8',
-          details: `He& C believes that a cup of tea not only letting us enjoy the symbolic taste but also giving us a quiet and peaceful atmosphere of respect. This calm and peaceful cup helps relieve stress and fatigue. HE&C is fully committed to using the best tea to serve our community and find a beautiful balance in our life.`,
+          checkinCondition: {
+            cn: `购买3件商品以上`,
+            en: `Purchase more than 3 items`,
+          },
+          details: {
+            en: `He& C believes that a cup of tea not only letting us enjoy the symbolic taste but also giving us a quiet and peaceful atmosphere of respect. This calm and peaceful cup helps relieve stress and fatigue. HE&C is fully committed to using the best tea to serve our community and find a beautiful balance in our life.`,
+          },
         },
         {
           stampIndex: 'cuisine-5',
           sectionIndexes: [5],
           name: '书亦烧仙草',
+          nameEng: 'Shuyi Grass Jelly& Tea',
           checkin: false,
-          price: '$7 - $9',
-          details: `书亦烧仙草（Shuyi Grass Jelly & Tea）是一个源自中国的知名茶饮品牌，以传统的烧仙草和创新茶饮为核心产品，深受消费者喜爱。其品牌理念是传承传统茶文化，同时通过创新的方式融入现代元素，打造出具有独特风味和健康特色的饮品。书亦烧仙草不仅注重产品的口感和品质，还注重选用高品质的原材料，如新鲜水果、优质茶叶和天然食材。`,
+          details: {
+            cn: `书亦烧仙草（Shuyi Grass Jelly & Tea）是一个源自中国的知名茶饮品牌，以传统的烧仙草和创新茶饮为核心产品，深受消费者喜爱。其品牌理念是传承传统茶文化，同时通过创新的方式融入现代元素，打造出具有独特风味和健康特色的饮品。书亦烧仙草不仅注重产品的口感和品质，还注重选用高品质的原材料，如新鲜水果、优质茶叶和天然食材。`,
+          },
         },
         {
           stampIndex: 'cuisine-6',
           sectionIndexes: [6],
           name: '貂炸天',
+          nameEng: 'Fantasy Asian Street Food, Inc.',
           checkin: true,
-          details: '',
+          checkinCondition: {
+            cn: `消费满30`,
+            en: `Spend more than $30`,
+          },
         },
         {
           stampIndex: 'cuisine-7',
           sectionIndexes: [7],
-          name: '富贵柠手打柠檬茶',
+          name: '士林台湾小吃',
+          nameEng: 'Shihlin taiwan street snacks ',
           checkin: true,
-          checkinCondition: '消费满$30',
-          price: '$10 - $15',
-          details: '',
+          checkinCondition: {
+            cn: `消费满30`,
+            en: `Spend more than $30`,
+          },
         },
         {
           stampIndex: 'cuisine-8',
           sectionIndexes: [8],
           name: 'CAFÉ KAZKA',
+          nameEng: 'CAFÉ KAZKA',
           checkin: true,
-          price: '$10',
-          details: '',
+          checkinCondition: {
+            cn: `购买3件商品以上`,
+            en: `Purchase more than 3 items`,
+          },
+          details: {
+            en: `Welcome to CAFÉ KAZKA, a local business run by a young married couple. They met each other back in 2015 when a barista job opened in San Francisco. Both of them were passionate about making and creating unique drinks. They've been working in this industry for quite some time and wanted to bring something new and fun to the market. In January 2021, KAZKA was born. The name "KAZKA" symbolizes the sound of happiness when opening a fizzy can. We are so grateful for your continued support, and now we can tell you that we will open a store in Foster City soon. Our owner is a native of Hong Kong; he loves the place where he grew up and, of course, the local food. Inspired by Hong Kong's cafes, we've meticulously designed special and fusion delicacies to match our signature drinks. Come to Cafe KAZKA, where delicious food and one-of-a-kind drinks delight your taste buds. See you in Foster City!`,
+          },
         },
+
         {
           stampIndex: 'cuisine-9',
           sectionIndexes: [9],
-          name: '士林台湾小吃',
+          name: '富贵柠手打柠檬茶',
+          nameEng: 'Rich Lemon Tea',
           checkin: true,
-          price: '$12 - $15',
-          details: '',
+          checkinCondition: {
+            cn: `消费满30`,
+            en: `Spend more than $30`,
+          },
         },
+
         {
           stampIndex: 'cuisine-10',
           sectionIndexes: [10],
-          name: '99大華',
+          name: '99 Ranch Market 大華線上超市',
           checkin: true,
-          details: '',
+          checkinCondition: {
+            cn: `消费满30`,
+            en: `Spend more than $30`,
+          },
+          details: {
+            cn: `99 Ranch Market 大華線上超市：
+大华摊位零食大放送！下载大华APP，各种零食礼包、超值优惠券免费拿！新人再赠送减$20优惠券。数量有限，先到先得！`,
+          },
         },
       ];
       const kidsList = [
@@ -416,167 +452,273 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
           stampIndex: 'kids-1',
           sectionIndexes: [1],
           name: '跃动天地',
+          nameEng: 'Mini Sports Games',
           checkin: true,
           free: true,
           checkinCondition: {
             html: `
-          <div>
-            <ul>
-              <li>
-                [Diabolo]
-                <ul>
-                  <li>For 13 and under: Play the diablo continuously for 10 seconds</li>
-                  <li>For 14 and above: Play the diablo continuously for 20 seconds</li>
-                </ul>
-              </li>
-              <li>
-                [Pitch Pot]
-                <ul>
-                  <li>For all age range: Make 2 or more out of 10 total attempts</li>
-                </ul>
-              </li>
-              <li>
-                [Jianzi]
-                <ul>
-                  <li>For 13 and under: Get 3 in a row without dropping</li>
-                  <li>For 14 and above: Get 5 in a row without dropping</li>
-                </ul>
-              </li>
-              <li>
-                [Jump Rope]
-                <ul>
-                  <li>For 13 and under: Do 20 continuously without tripping</li>
-                  <li>For 14 and above: Do 30</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-            `,
+                <div style="text-align: start;">
+                  <ul>
+                    <li>
+                      [Diabolo]
+                      <ul>
+                        <li>For 13 and under: Play the diablo continuously for 10 seconds</li>
+                        <li>For 14 and above: Play the diablo continuously for 20 seconds</li>
+                      </ul>
+                    </li>
+                    <li>
+                      [Pitch Pot]
+                      <ul>
+                        <li>For all age range: Make 2 or more out of 10 total attempts</li>
+                      </ul>
+                    </li>
+                    <li>
+                      [Jianzi]
+                      <ul>
+                        <li>For 13 and under: Get 3 in a row without dropping</li>
+                        <li>For 14 and above: Get 5 in a row without dropping</li>
+                      </ul>
+                    </li>
+                    <li>
+                      [Jump Rope]
+                      <ul>
+                        <li>For 13 and under: Do 20 continuously without tripping</li>
+                        <li>For 14 and above: Do 30</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                  `,
           },
-          price: '$0',
-          details: `通过完成抖空竹，投壶，踢键子，或者跳绳，来获取活动徽章！
-Get a stamp by Diabolo, Pitch Pot, Jianzi, or rope jumping! `,
+          details: {
+            cn: `通过完成抖空竹，投壶，踢键子，或者跳绳，来获取活动徽章！`,
+            en: `Get a stamp by Diabolo, Pitch Pot, Jianzi, or rope jumping! `,
+          },
         },
         {
           stampIndex: 'kids-2',
           sectionIndexes: [2],
           name: '叠叠乐',
+          nameEng: 'Jenga',
           checkin: true,
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
           free: true,
-          price: '$0',
-          details: `由玩家轮流将下方的积木抽出，堆叠到塔的最上层。 积木塔倒塌即为游戏结束，最后移动积木的玩家为输。
-Take one block on a turn from any level of the tower (except the one below an incomplete top level), and place it on the topmost level in order to complete it. The game ends when the tower falls -- completely or if any block falls from the tower (other than the block a player moves on a turn). `,
+          details: {
+            cn: `由玩家轮流将下方的积木抽出，堆叠到塔的最上层。 积木塔倒塌即为游戏结束，最后移动积木的玩家为输。`,
+            en: `Take one block on a turn from any level of the tower (except the one below an incomplete top level), and place it on the topmost level in order to complete it. The game ends when the tower falls -- completely or if any block falls from the tower (other than the block a player moves on a turn).`,
+          },
         },
         {
           stampIndex: 'kids-3',
           sectionIndexes: [3],
           name: '钓鱼',
+          nameEng: 'Fishing Game',
           checkin: true,
           free: true,
-          price: '$0',
-          details: `儿童钓鱼小游戏。
-Fishing Game for children. `,
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
+          details: {
+            cn: `儿童钓鱼小游戏。`,
+            en: `Fishing Game for children. `,
+          },
         },
         {
           stampIndex: 'kids-4',
           sectionIndexes: [4],
           name: 'Silicon Valley Youth',
+          nameEng: 'Silicon Valley Youth',
           checkin: true,
-          checkinCondition: '完成摊位活动',
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
           price: '$3',
           includedInTicket: true,
-          details: `【组织介绍】
-Silicon Valley Youth is a student-run nonprofit educational and community service organization under the provisions of section 501(c)(3) of the Internal Revenue Code.
-Our mission is to develop the intellectual, moral, civic, and creative capabilities of youth so they can serve and lead our society.
-Silicon Valley Youth is an official certifying organization for the President's Volunteer Service Award.
-All profits go toward supporting education and creating equal opportunities for all students.
-【摊位活动】
-1. 投壺遊戲：轮流将箭杆投抛至酒壶内
-2. 有奖问答游戏：競答不同类型的题目換獎品`,
+          details: {
+            en: `【组织介绍】<br/>
+      Silicon Valley Youth is a student-run nonprofit educational and community service organization under the provisions of section 501(c)(3) of the Internal Revenue Code.<br/>
+      Our mission is to develop the intellectual, moral, civic, and creative capabilities of youth so they can serve and lead our society.<br/>
+      Silicon Valley Youth is an official certifying organization for the President's Volunteer Service Award.<br/>
+      All profits go toward supporting education and creating equal opportunities for all students.`,
+            cn: `【摊位活动】<br/>
+      1. 投壺遊戲：轮流将箭杆投抛至酒壶内<br/>
+      2. 有奖问答游戏：競答不同类型的题目換獎品`,
+          },
         },
         {
           stampIndex: 'kids-5',
           sectionIndexes: [5],
           name: '百变气球',
+          nameEng: `Balloons Twisting`,
           checkin: true,
-          price: '$2',
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
+          price: '$3',
           includedInTicket: true,
-          details: `一起来制作形状百变的气球吧！
-Let's twist balloons to inspire your creativity! `,
+          details: {
+            cn: `一起来制作形状百变的气球吧！`,
+            en: `Let's twist balloons to inspire your creativity! `,
+          },
         },
         {
           stampIndex: 'kids-6',
           sectionIndexes: [6],
-          name: '自制徽章',
+          name: 'BerryFun自制徽章',
+          nameEng: 'DIY Badge provided by BerryFun',
           checkin: true,
-          price: '$2',
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
+          price: '$3',
           includedInTicket: true,
-          details: `一起来制作独属于你的徽章吧！
-DIY your unique badge here! `,
+          details: {
+            cn: `一起来制作独属于你的徽章吧！
+            BerryFun是一个立足科学，以有趣为基础，与孩子们一起探索世界的户外自然教育非营利组织。`,
+            en: `DIY your unique badge here! 
+            "BerryFun" is a nonprofit outdoor nature education organization that is grounded in science and emphasizes fun as a foundation while exploring the world with children.`,
+          },
         },
         {
           stampIndex: 'kids-7',
           sectionIndexes: [7],
           name: '漆扇',
+          nameEng: 'Paintable Fan',
           checkin: true,
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
           price: '$6',
           includedInTicket: true,
-          details: `以漆为笔，以水为墨，具有绝美东方色彩的“漆扇”也由此而生，漆扇，以扇子为载体，运用国家级非遗漆染工艺手工染制而成的艺术品。载歌在谷漆扇铺子将帮助每一位顾客制作完成属于自己的，独一无二的扇子。
-漆扇的主题将在不同时段提供：荷塘月色，菜籽花田，紫气东来，十里芳菲，落日晚霞，蓝色星球，阿勒泰等色系。
-Use lacquer as the brush and water as the ink to create your own lacquer fan artwork! Themes for the lacquer fans will be offered at different times, including: 'Lotus Pond Under Moonlight,' 'Rapeseed Flower Field,' 'Purple Aura From the East,' 'Ten Miles of Fragrance,' 'Sunset Glow,' 'Blue Planet,' and 'Altay,' among others.`,
+          details: {
+            cn: `以漆为笔，以水为墨，具有绝美东方色彩的“漆扇”也由此而生，漆扇，以扇子为载体，运用国家级非遗漆染工艺手工染制而成的艺术品。载歌在谷漆扇铺子将帮助每一位顾客制作完成属于自己的，独一无二的扇子。
+      漆扇的主题将在不同时段提供：荷塘月色，菜籽花田，紫气东来，十里芳菲，落日晚霞，蓝色星球，阿勒泰等色系。`,
+            en: `Use lacquer as the brush and water as the ink to create your own lacquer fan artwork! Themes for the lacquer fans will be offered at different times, including: 'Lotus Pond Under Moonlight,' 'Rapeseed Flower Field,' 'Purple Aura From the East,' 'Ten Miles of Fragrance,' 'Sunset Glow,' 'Blue Planet,' and 'Altay,' among others.`,
+          },
         },
         {
           stampIndex: 'kids-8',
           sectionIndexes: [8],
           name: '万花筒',
+          nameEng: 'DIY Kaleidoscope',
           checkin: true,
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
           price: '$3',
           includedInTicket: true,
-          details: `万花筒DIY制作，工作人员提供材料和指导，快来制作属于自己独一无二的万花筒吧！
-Let's DIY your unique Kaleidoscope together! `,
+          details: {
+            cn: `万花筒DIY制作，工作人员提供材料和指导，快来制作属于自己独一无二的万花筒吧！`,
+            en: `Let's DIY your unique Kaleidoscope together! `,
+          },
         },
         {
           stampIndex: 'kids-9',
           sectionIndexes: [9],
           name: '闪亮画艺坊',
+          nameEng: 'Shining Painting Studio',
           checkin: true,
-          price: '钻石画 $3',
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
+          price: '钻石画$3，刮画$0',
           includedInTicket: true,
-          details: `闪亮画艺坊专门为您提供美丽闪耀的钻石贴画和炫彩刮画纸。无论是儿童、还是喜欢DIY的成人，在我们的店铺都能体验创作的乐趣和成就感。
-DIY diamond paintings by sticking small resin 'diamonds' onto a canvas to create a mosaic-like picture. Or DIY a colorful scratch art painting by scratching off black coating to reveal colorful patterns underneath. `,
+          details: {
+            cn: `闪亮画艺坊专门为您提供美丽闪耀的钻石贴画和炫彩刮画纸。无论是儿童、还是喜欢DIY的成人，在我们的店铺都能体验创作的乐趣和成就感。`,
+            en: `DIY diamond paintings by sticking small resin 'diamonds' onto a canvas to create a mosaic-like picture. Or DIY a colorful scratch art painting by scratching off black coating to reveal colorful patterns underneath. `,
+          },
         },
         {
           stampIndex: 'kids-10',
           sectionIndexes: [10],
           name: '活字印刷',
+          nameEng: 'Movable Type Printing',
           checkin: true,
-          price: '$2',
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
+          price: '$0',
           includedInTicket: true,
-          details: `尝试使用活字印刷来制作你的印刷作品吧！
-Let's try the traditional movable type printing to create your own piece! `,
+          details: {
+            cn: `尝试使用活字印刷来制作你的印刷作品吧！`,
+            en: `Let's try the traditional movable type printing to create your own piece! `,
+          },
         },
         {
           stampIndex: 'kids-11',
           sectionIndexes: [11],
           name: '面部彩绘',
+          nameEng: 'Face Painting',
           checkin: true,
-          details: `志愿者将为您提供画脸服务。
-We'll paint on your face! `,
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
+          price: `成人$10，儿童$6`,
+          includedInTicket: true,
+          details: {
+            cn: `志愿者将为您提供画脸服务。`,
+            en: `We'll paint on your face! `,
+          },
         },
         {
           stampIndex: 'kids-12',
           sectionIndexes: [12],
           name: 'LingoAce',
+          nameEng: 'LingoAce',
           checkin: true,
-          price: '成人 $10，儿童 $5',
-          details: '',
+          checkinCondition: {
+            cn: `【无门槛】打卡摊位即可盖章`,
+            en: `Just stop by to get stamped! `,
+          },
+          details: {
+            cn: `🔥载歌载谷活动给朋友们送福利啦！<br/>
+首次试听lingoace在线中文课或者新加坡数学课的家长！立刻领取价值$25amazon礼品卡一张哦！<br/>
+LingoAce摊位给大家提供万圣节🎃专属礼品！一定要来哦，还可以享受新人福利代金券优惠哦！来摊位扫码立刻了解详情！
+<br/><br/>
+LingoAce是一家全球领先的在线中文教育平台，为4到15岁青少年儿童提供沉浸式的中文学习体验。我们致力于通过互动性强的多媒体课程和专业教师，激发孩子们对中文的兴趣，让学习变得有趣又高效。自2017年成立以来，LingoAce已在全球多个国家开设分支机构，服务遍布世界各地。`,
+          },
         },
         {
           stampIndex: 'kids-13',
           sectionIndexes: [13],
           name: '太阳神美院',
+          nameEng: 'Visionary Arts',
           checkin: true,
-          details: '',
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
+          details: {
+            cn: `🌟太阳神美术学院 – 创意无限！儿童画展 和 义卖🎨<br/>
+孩子们的梦想在纸上绽放，原创作品传递美好，和爱心！
+<br/><br/>
+🔥新生专属优惠🎉<br/>
+游园会当天报名成为学员，立享$50-$100艺术品礼券，助力孩子开启艺术之旅，激发无限潜力！`,
+          },
+        },
+        {
+          stampIndex: 'kids-14',
+          sectionIndexes: ['🎃'],
+          name: '移动售卖',
+          nameEng: 'Halloween Face Mask',
+          checkin: false,
+          price: '面具$3，帽子$5',
+          details: {
+            cn: `青蛙人挑担子售卖儿童面具和帽子。`,
+            en: `Let's get ready for Halloween! We sell masks and hats for kids.`,
+          },
         },
       ];
       const traditionsList = [
@@ -584,261 +726,483 @@ We'll paint on your face! `,
           stampIndex: 'chinese-1',
           sectionIndexes: [1],
           name: '书法',
+          nameEng: 'Calligraphy',
           checkin: true,
-          price: '$2',
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
           includedInTicket: true,
-          details: `书法练习，在灯笼上书写或绘画。
-Let's practice calligraphy by writing and drawing on lanterns!`,
+          details: {
+            cn: `书法练习，在灯笼上书写或绘画。`,
+            en: `Let's practice calligraphy by writing and drawing on lanterns!`,
+          },
         },
         {
           stampIndex: 'chinese-2',
           sectionIndexes: [2],
           name: '灯谜',
+          nameEng: 'Lantern Riddles',
           checkin: true,
-          price: '$2',
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
           includedInTicket: true,
-          details: `自选3个灯谜，答对盖章。
-Choose 3 lantern riddles, get a stamp if you got the correct answers.`,
+          details: {
+            cn: `自选3个灯谜，答对盖章。`,
+            en: `Choose 3 lantern riddles, get a stamp if you got the correct answers.`,
+          },
         },
         {
           stampIndex: 'chinese-3',
           sectionIndexes: [3],
           name: '诗词大会',
+          nameEng: 'Poetry Party',
           checkin: true,
-          price: '$2',
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
           includedInTicket: true,
-          details: `飞花令，诗词抽签。
-Fei Hua Ling & Poetry Lottery. `,
+          details: {
+            cn: `飞花令，诗词抽签。`,
+            en: `Fei Hua Ling & Poetry Lottery. `,
+          },
         },
         {
           stampIndex: 'chinese-4',
           sectionIndexes: [4],
-          name: '一游未尽桌游',
+          name: '一游未尽桌游吧',
+          nameEng: "Toby's Board Game Club",
           checkin: true,
-          checkinCondition: '消费满30',
-          price: '$10 - $50',
-          details: `Toby’s Board Game Club offers a wide range of services to enhance your board game experience. Our knowledgeable staff can recommend and teach you games, and help you find partners to play with. We also offer selections of board games and blind boxes to purchase at the store.`,
+          checkinCondition: {
+            cn: `消费满$30`,
+            en: `Spend more than $30`,
+          },
+          details: {
+            en: `Toby’s Board Game Club offers a wide range of services to enhance your board game experience. Our knowledgeable staff can recommend and teach you games, and help you find partners to play with. We also offer selections of board games and blind boxes to purchase at the store.`,
+          },
         },
         {
           stampIndex: 'chinese-5',
           sectionIndexes: [5],
-          name: 'Cookie’s Treat宠物烘焙',
+          name: 'Cookie‘s Treat宠物烘焙',
+          nameEng: "Cookie's Treat",
           checkin: true,
-          checkinCondition: '消费满30',
-          price: '$8 - $36',
-          details: '',
+          checkinCondition: {
+            cn: `消费满$30`,
+            en: `Spend more than $30`,
+          },
         },
         {
           stampIndex: 'chinese-6',
           sectionIndexes: [6],
           name: '24:01 Bloom & Craft',
+          nameEng: '24:01 Bloom & Craft',
           checkin: true,
-          checkinCondition: '消费满25',
-          price: '$10 - $50',
-          details: '',
+          checkinCondition: {
+            cn: `消费满$30`,
+            en: `Spend more than $30`,
+          },
+          details: {
+            cn: `24:01 Bloom & Craft 是一家集鲜花、手工蜡烛、香水等多种手工艺品为一体的创意品牌。我们不仅提供高品质的手工艺品，每天还有各类Workshop，涵盖花艺设计、香薰蜡烛制作、香水调配等多种主题。通过互动式的体验，顾客可以亲自参与手作过程，享受创作的乐趣，并带回独一无二的作品。无论是寻找礼物还是想要丰富日常生活，我们的品牌都致力于为每一位顾客带来难忘的艺术体验`,
+            en: `24:01 Bloom & Craft is a creative brand that blends the artistry of fresh flowers, handmade candles, perfumes, and a wide range of artisanal crafts. We not only offer premium, handcrafted products, but also host daily workshops covering diverse themes such as floral design, candle-making, and perfume blending. These interactive sessions allow customers to immerse themselves in the creative process, experiencing the joy of crafting while taking home a truly unique creation. Whether you’re searching for the perfect gift or looking to add a touch of artistry to everyday life, our brand is committed to delivering an inspiring and memorable experience for every customer.`,
+          },
         },
         {
           stampIndex: 'chinese-7',
           sectionIndexes: [7],
           name: '茉茉手作',
+          nameEng: 'Momo DIY Studio',
           checkin: true,
-          checkinCondition:
-            '我们是一家实体店铺，希望可以帮助店铺的社交账号引流，并且尽可能的避免强制消费。所以我们希望是关注小红书或者Ins，并且加入微信群即可获得盖章。如需要提高门槛，我们也可以按照消费$15计算。',
-          price: '$3 - $100',
-          details: `Here’s a more polished and attractive version:  ---  **Momo Handmade** is a women-led local business where every day is an invitation to create, relax, and explore culture through the beauty of handcrafted art. We specialize in offering professional courses on intangible cultural heritage crafts, providing an extensive selection of premium materials and an inspiring environment for DIY projects. At Momo Handmade, we empower you to develop new skills, unwind from daily stresses, enhance your artistic sense, and connect with the rich traditions of craftsmanship. Embrace the joy of making something meaningful with us.`,
+          checkinCondition: {
+            cn: `消费满$5，并关注小红书或Ins账号`,
+            en: `Spend more than $5, and follow us on RED or Instagram `,
+          },
+          details: {
+            en: `Momo Handmade is a women-led local business where every day is an invitation to create, relax, and explore culture through the beauty of handcrafted art. We specialize in offering professional courses on intangible cultural heritage crafts, providing an extensive selection of premium materials and an inspiring environment for DIY projects. At Momo Handmade, we empower you to develop new skills, unwind from daily stresses, enhance your artistic sense, and connect with the rich traditions of craftsmanship. Embrace the joy of making something meaningful with us.`,
+          },
         },
         {
           stampIndex: 'chinese-8',
           sectionIndexes: [8],
           name: 'Squishyverse',
+          nameEng: 'Squishyverse',
           checkin: true,
-          checkinCondition: '满$35-$5',
-          details: '',
+          checkinCondition: {
+            cn: `消费满$30`,
+            en: `Spend more than $30`,
+          },
         },
         {
           stampIndex: 'chinese-9',
           sectionIndexes: [9],
           name: '织月亮',
+          nameEng: 'Kintamoon',
           checkin: true,
-          checkinCondition: '消费满30',
-          price: '$4.99 - $22.99',
-          details: '',
+          checkinCondition: {
+            cn: `消费满$30`,
+            en: `Spend more than $30`,
+          },
         },
         {
           stampIndex: 'chinese-10',
           sectionIndexes: [10],
           name: '天工坊',
+          nameEng: 'Handmade Antique Workshop',
           checkin: true,
-          price: '成人 $10，儿童 $2',
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
+          price: '成人 $10，儿童 $3',
           includedInTicket: true,
-          details: `1.成人区(14岁以上）-从工作人员处领取材料，开始创作。
-2.儿童区-工作人员协助小朋友进行制作。因胶枪热度，小朋友不可以单独进行制作。
-1. Adults (>14 years of age) - Pick up materials from the staff and start creating.
-2. Children (<=14 years old) - Ask our staff for assistance. Participants need to be accompanied by our staff because of the glue gun's high temperature.`,
+          details: {
+            cn: `1.成人区(14岁以上）-从工作人员处领取材料，开始创作。<br/>
+      2.儿童区-工作人员协助小朋友进行制作。因胶枪热度，小朋友不可以单独进行制作。`,
+            en: `1. Adults (>14 years of age) - Pick up materials from the staff and start creating.<br/>
+      2. Children (<=14 years old) - Ask our staff for assistance. Participants need to be accompanied by our staff because of the glue gun's high temperature.`,
+          },
         },
         {
           stampIndex: 'chinese-11',
           sectionIndexes: [11],
           name: 'JUSO居所休息空间',
+          nameEng: 'JUSO Space',
           checkin: true,
-          details: '',
+          checkinCondition: {
+            cn: `【无门槛】打卡摊位即可盖章`,
+            en: `Just stop by to get stamped! `,
+          },
+          details: {
+            cn: `Juso Home家居馆，现场礼品福利享不停！ <br/>
+🎁 幸运轮盘大抽奖：超多精美家居好礼等你赢！<br/>
+🛍️时尚购物袋：无门槛免费领取，来即是客！<br/>
+🏠 家居空间体验角：近距离体验网红明星产品，自拍打卡墙！📸<br/>
+🎟️ 专属代金券、独家折扣：轻松打造家居空间，省心又剩💰！`,
+          },
         },
         {
           stampIndex: 'chinese-12',
           sectionIndexes: [12],
           name: '许愿墙',
+          nameEng: 'Wishing Wall',
           checkin: true,
-          price: '$2',
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
           includedInTicket: true,
-          details: `许愿墙从工作人员处领取许愿卡，写下心愿或祈福。悬挂在指定地点。表达对未来的期望和祈愿。 
-A wishing wall allows participants to receive wishing cards from the staff, write down their wishes or prayers, and hang them in a designated area. This process expresses their hopes and blessings for the future.`,
+          details: {
+            cn: `许愿墙从工作人员处领取许愿卡，写下心愿或祈福。悬挂在指定地点。表达对未来的期望和祈愿。`,
+            en: `A wishing wall allows participants to receive wishing cards from the staff, write down their wishes or prayers, and hang them in a designated area. This process expresses their hopes and blessings for the future.`,
+          },
         },
         {
           stampIndex: 'chinese-13',
           sectionIndexes: [13],
-          name: 'KissFingers Press-on Nails',
+          name: 'KissFingers穿戴甲',
+          nameEng: 'KissFingers Press-on Nails',
           checkin: true,
-          checkinCondition: '购买 3 件商品以上',
-          price: '$15 - $25',
-          details: `all hand made press on nails. Asian style. paint on nails 购买3件商品以上可盖章`,
+          checkinCondition: {
+            cn: `购买3件商品以上`,
+            en: `Purchase more than 3 items`,
+          },
+          details: {
+            en: `All hand made press on nails. Asian style. paint on nails. `,
+          },
         },
         {
           stampIndex: 'chinese-14',
           sectionIndexes: [14],
-          name: 'AI汉服照片书',
+          name: 'AI汉服 & Story with AI',
+          nameEng: 'AI Hanfu Photobook & Story with AI',
           checkin: true,
-          price: '$0 - $100',
-          details: `用AI定制汉服写真照 并打印成照片书`,
+          checkinCondition: {
+            cn: `消费满$30`,
+            en: `Spend more than $30`,
+          },
+          details: {
+            cn: `用AI定制汉服写真照 并打印成照片书`,
+            en: `Get your AI fantasy image photobook with us! `,
+          },
         },
         {
           stampIndex: 'chinese-15',
           sectionIndexes: [15],
           name: 'Luckydodo',
+          nameEng: 'Luckydodo',
           checkin: true,
-          price: '$1 - $15',
-          details: '',
+          checkinCondition: {
+            cn: `消费满$30`,
+            en: `Spend more than $30`,
+          },
         },
         {
           stampIndex: 'chinese-16',
           sectionIndexes: [16],
           name: '汉服妆造',
+          nameEng: 'Hanfu Styling - Makeup & Hair styling',
           checkin: true,
-          price: '$40',
-          details: `古风化妆，做古风发型。
-Chinese traditional makeup and hair styling.`,
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
+          details: {
+            cn: `古风化妆，做古风发型。`,
+            en: `Chinese traditional makeup and hair styling.`,
+          },
         },
         {
           stampIndex: 'chinese-17',
           sectionIndexes: [17],
           name: '拍照墙&古琴',
+          nameEng: 'Photo Booth&Guqin',
           checkin: true,
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
           free: true,
-          price: '$0',
-          details: '',
+          details: {
+            cn: `可取任何服饰和道具进行拍照，每组限时3分钟。`,
+            en: `Choose any costume / prop to take photos. Time limit: 3 minutes per group.`,
+          },
         },
         {
           stampIndex: 'chinese-18',
           sectionIndexes: [18],
-          name: 'Taro姻缘墙 & 戏谷剧团',
+          name: 'Taro姻缘墙&戏谷剧团',
+          nameEng: 'Taro Matching Corner & Valley Drama',
           checkin: true,
-          price: '$5',
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
+          price: '$10',
           includedInTicket: true,
-          details: '',
+          details: {
+            cn: `【姻缘墙】单身朋友们在现场领取荷包，只要找到一样香包的异性，双方就可以一起获得精美小奖品！<br/>
+【戏谷剧团】一桌麻将，两次人生，
+三角关系，四个家庭，
+戏谷年度黑色幽默喜剧《领带vs.高跟鞋》<br/>
+12月14日、15日，Starbright theater，不见不散！`,
+            en: `One table of mahjong,
+Two lives reborn,
+Three love triangles,
+Four married couples.
+
+Join us for Valley Drama’s dark comedy play:
+“Necktie vs. High Heels”
+December 14th & 15th at Starbright Theater. See you there!`,
+          },
         },
         {
           stampIndex: 'chinese-19',
           sectionIndexes: [19],
-          name: '糖画',
+          name: '糖画1',
+          nameEng: 'Sugar Painting 1',
           checkin: true,
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
           price: '$6',
           includedInTicket: true,
-          details: `自己创作或临摹底图，来创造独特的糖画吧！
-Let's create your own sugar painting from scratch, or using the template we provide! `,
+          details: {
+            cn: `自己创作或临摹底图，来创造独特的糖画吧！`,
+            en: `Let's create your own sugar painting from scratch, or using the template we provide! `,
+          },
         },
       ];
       const functionsList = [
         {
           stampIndex: 'function-1',
           sectionIndexes: [1],
-          name: '志愿者休息区1',
+          name: '志愿者休息区',
+          nameEng: 'Volunteers Station',
           checkin: false,
-          details: '',
         },
         {
           stampIndex: 'function-2',
           sectionIndexes: [2],
           name: '失物招领处',
+          nameEng: 'Lost & Found',
           checkin: false,
-          details: '',
         },
         {
           stampIndex: 'function-3',
           sectionIndexes: [3],
-          name: '载歌在谷 - 云集',
+          name: '云集',
+          nameEng: 'Cloud Clubs',
           checkin: true,
-          price: '$0',
-          details: `云集是载歌在谷旗下各种社团的集合，运营组会协助大家定期举办团建活动，通过共同的兴趣爱好相互了解，一起搞事情😏🥰👏我们的四大社团分别是：
-✅【职】挂云帆：职场分享类🧑‍💻💼
-✅【书】影婆娑：读书观影📖🎬
-✅体【娱】风云：体育娱乐类🏀🏹
-✅一饱【演】福：文艺表演类🎵💃
-We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We host a variety of Event - workplace skills-sharing seminars, book / movie nights, sports events, and musical performances. `,
+          checkinCondition: {
+            cn: `关注载歌在谷公众号或小红书`,
+            en: `Follow ZGZG on WeChat or RED`,
+          },
+          details: {
+            cn: `【组织介绍】<br/> 云集是载歌在谷旗下各种社团的集合，运营组会协助大家定期举办团建活动，通过共同的兴趣爱好相互了解，一起搞事情😏🥰👏我们的四大社团分别是：<br/>
+✅【职】挂云帆：职场分享类🧑‍💻💼<br/>
+✅【书】影婆娑：读书观影📖🎬<br/>
+✅体【娱】风云：体育娱乐类🏀🏹<br/>
+✅一饱【演】福：文艺表演类🎵💃 <br/><br/>
+【摊位活动】转盘游戏赢取礼品。如果需要“极速”参与，可以支付$1。`,
+            en: `[About us] <br/> We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We host a variety of Event - workplace skills-sharing seminars, book / movie nights, sports events, and musical performances. <br/>
+[Activity] <br/> Spin to win special gifts! We offer fast pass for $1. `,
+          },
         },
         {
           stampIndex: 'function-4',
           sectionIndexes: [4],
           name: '饭团',
+          nameEng: 'Fantuan',
           checkin: true,
-          details: '',
+          checkinCondition: {
+            cn: `【无门槛】打卡摊位即可盖章`,
+            en: `Just stop by to get stamped! `,
+          },
+          details: {
+            cn: `🧧饭团外卖新人注册即获得$100礼包
+快来摊位套圈赢礼物🎁<br/>
+🍙饭团毛绒发绳、零钱包、毛绒AirPods耳机套、斜挎包、大兔子玩偶<br/>
+🆓还有1个月免费会员，7miles内免运费哦！<br/>
+❤️快来饭团外卖开启惊喜时刻！`,
+          },
         },
         {
           stampIndex: 'function-5',
           sectionIndexes: [5],
-          name: 'Balance & Better Family Financial',
+          name: 'Balanced & Better Family Financial Services',
+          nameEng: 'Balanced & Better Family Financial Services',
           checkin: true,
-          details: '',
+          checkinCondition: {
+            cn: `【无门槛】打卡摊位即可盖章`,
+            en: `Just stop by to get stamped! `,
+          },
+          details: {
+            cn: `Balanced & Better，专业理财规划，助您为孩子大学学费早做准备，实现安心无忧的早日退休！<br/><br/>
+来摊位就有机会获得精美礼品🎁 <br/>
+糖果🍬笔记本📒化妆袋👝陀螺玩具🪀 <br/>
+先到先得！！！`,
+            en: `✅Are you a HENRY (High Earning Not Rich Yet)?<br/>
+✅Bothered by high tax burden and wonder about tax-free plans?<br/>
+✅Wonder about ways of passive income?<br/>
+✅Wonder how to plan for a “worry-free” retirement?<br/>
+Balanced & Better Financial Service Team is here to help. We prepared candles, Canvas Makeup Bag, Inspirational notebooks, Unfinished Spinning Tops (kids painting) for the event
+For your life, Balanced and Better!`,
+          },
         },
         {
           stampIndex: 'function-6',
           sectionIndexes: [6],
           name: '老虎证券',
+          nameEng: 'TradeUp',
           checkin: true,
-          details: '',
+          checkinCondition: {
+            cn: `【无门槛】打卡摊位即可盖章`,
+            en: `Just stop by to get stamped! `,
+          },
+          details: {
+            cn: `开户豪礼！新人大礼包！<br/>
+当天开户入金，领取高达5支【免费股票】，总价值最高可达$9,000;<br/>
+入金500及以上赠送一股英伟达(NVDA)；<br/>
+0佣金，0合约费*<br/>
+无SSN也能轻松开户！
+<br/><br/>
+来摊位有更多礼品🎁（吉祥物小老虎玩偶🐯，雨伞☂️，Lamy联名笔🖊️）等您来领取！
+
+TradeUP Securities, Inc.是老虎证券（Nasdaq: TIGR)在美国挂牌营业、有清算资质的证券公司，专注于为全球客户提供迅捷、高质量的证券交易执行、证券清算和全方位金融投资服务。
+<br/>
+----具体条款请参考摊位海报，相关T&C. `,
+            en: `TradeUP Securities,Inc is a one-stop solution for securities trading, clearing, financing, serving both retail and institutional clients. Come to our booth to find more free stocks!`,
+          },
         },
         {
           stampIndex: 'function-78',
           sectionIndexes: [7, 8],
-          name: '签到/兑奖处1',
+          name: '游客签到处',
+          nameEng: 'Visitor Checkin Center',
           checkin: false,
-          details: '',
+          details: {
+            cn: `游玩指南<br/>
+            本活动分为【载歌在谷自营】及【合作】两种摊位。支付方式不同，但均可盖章。<br/>
+            载歌在谷自营摊位：<br/>
+1）可购买$35的畅玩票，畅玩汉服妆造以外的全部载歌在谷自营摊位。成人套票价值$53；儿童套票价值$45。<br/>
+2）或兑换“载歌在谷”游戏币，<br/>
+游玩您喜欢的自营摊位。<br/>
+            食品或手工艺品合作摊位：<br/>
+直接向商家支付现金/转账/刷卡。`,
+            en: `Join the activities! <br/>
+            We provide [ZGZG-owned] and [Vendor] booths. Different payment methods, same stamp! <br/>
+            To join the activities at ZGZG-owned booths: <br/>
+1) Purchase or redeem <br/>
+ZGZG-all-inclusive ticket ($35) <br/>
+for all booths expect for Hanfu Styling. <br/>
+The ZGZG-all-inclusive ticket worth $53 for adults, or $45 for children. <br/>
+2) Or exchange for ZGZG tokens. Pay with token at each booth. <br/>
+            Food/ handcraft Vendor booths: <br/>
+Pay directly to the Vendor at the booth.`,
+          },
         },
         {
           stampIndex: 'function-9',
           sectionIndexes: [9],
           name: 'HeCares急救站',
+          nameEng: 'HeCares Integrative Medicine Center',
           checkin: true,
-          details: '',
+          checkinCondition: {
+            cn: `【无门槛】打卡摊位即可盖章`,
+            en: `Just stop by to get stamped! `,
+          },
         },
         {
           stampIndex: 'function-10',
           sectionIndexes: [10],
-          name: '志愿者休息区2',
-          checkin: false,
-          details: '',
+          name: '糖画2',
+          nameEng: 'Sugar Painting 2',
+          checkin: true,
+          checkinCondition: {
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
+          },
+          price: '$6',
+          includedInTicket: true,
+          details: {
+            cn: `自己创作或临摹底图，来创造独特的糖画吧！`,
+            en: `Let's create your own sugar painting from scratch, or using the template we provide! `,
+          },
         },
         {
           stampIndex: 'function-1112',
           sectionIndexes: [11, 12],
-          name: '签到/兑奖处2',
+          name: '游客兑奖处',
+          nameEng: 'Visitor Rewards Center provided by AAYA',
           checkin: false,
-          details: '',
+          details: {
+            cn: `AAYA致力于为亚裔青少年提供一个服务平台，帮助他们发挥特长、展示才能，培养创造力和领导力，融入社会并服务社区。我们目前运营的项目包括：社区服务、爱心花园（The Giving Garden）、青少年记者（Junior Journalist）、小小艺术家（Young Artist）。我们的目标是提升孩子们的社会责任感和正义感，帮助改善亚裔青少年在西方社会的形象，增强他们的自信心和归属感。 此外，AAYA还为华裔家庭提供低价甚至免费的中文、英文、数学等课程，并鼓励高中生担任助教（Junior Teachers），帮助他们在教学中更深入地理解所学知识。 自2020年成立以来，AAYA于2021年正式注册为合法的501(c)(3)非营利组织，并获得了申请总统义工奖的资质。每年都有数十位热心公益的青少年和成年人通过我们的平台获得这一荣誉，彰显他们对社区服务的贡献与承诺。目前，我们的运作完全依赖家长的捐赠和义工老师们的无私奉献，欢迎社会各界的支持与帮助，助力我们的青少年社群实现更大的理想与目标，走得更远。`,
+            en: `Asian American Youth Association (AAYA) is dedicated to providing a platform for Asian-American youth, helping them showcase their talents, develop creativity and leadership, integrate into society, and serve their community. Our current programs include: Community Service, The Giving Garden, Junior Journalist, and Young Artist. Our goal is to enhance the youth's sense of social responsibility and justice, improve the image of Asian-American youth in Western society, and boost their confidence and sense of belonging.
+In addition, AAYA offers low-cost or even free courses in Chinese, English, and Math to Chinese-American families, while encouraging high school students to serve as Junior Teachers, helping them deepen their understanding of the subjects they teach.
+Since its establishment in 2020, AAYA was officially registered as a legal 501(c)(3) nonprofit organization in 2021 and has earned the qualification to apply for the Presidential Volunteer Service Award. Every year, dozens of passionate youth and adults receive this honor through our platform, recognizing their dedication and commitment to community service. Currently, AAYA is entirely supported by donations from parents and the selfless contributions of volunteer teachers. We welcome support and assistance from all sectors of society to help our youth community achieve greater aspirations and move forward further.`,
+          },
         },
         {
           stampIndex: 'function-13',
           sectionIndexes: [13],
           name: '方太',
+          nameEng: 'Fotile',
           checkin: true,
-          details: '',
+          checkinCondition: {
+            cn: `【无门槛】打卡摊位即可盖章`,
+            en: `Just stop by to get stamped! `,
+          },
+          details: {
+            cn: `静享无烟 安心省心 <br/>
+中式烹饪 认准方太<br/>
+到摊位即可获得方太购物袋1个<br/>
+惊喜礼品 等你解锁<br/>
+还有成套玥影购买代金券快乐优享`,
+          },
         },
       ];
 
@@ -854,45 +1218,45 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
             }
             const supportCheckin = booth.checkin
               ? `<div class="booth-tag" style="
-                    color: rgb(206,15,4);
-                    background: rgb(247,216,215);
-                    border-radius: 4px;
-                    width: 1.4rem;
-                    height: 1.4rem;
-                    text-align: center;
-                    display: flex;
-                    align-content: center;
-                    justify-content: center;
-                    align-items: center;
-                ">章</div>`
+                          color: rgb(206,15,4);
+                          background: rgb(247,216,215);
+                          border-radius: 4px;
+                          width: 1.4rem;
+                          height: 1.4rem;
+                          text-align: center;
+                          display: flex;
+                          align-content: center;
+                          justify-content: center;
+                          align-items: center;
+                      ">章</div>`
               : '';
             const includedInTicket = booth.includedInTicket
               ? `<div class="booth-tag" style="
-                    color: rgb(156,88,2);
-                    background: rgb(239,228,214);
-                    border-radius: 4px;
-                    width: 1.4rem;
-                    height: 1.4rem;
-                    text-align: center;
-                    display: flex;
-                    align-content: center;
-                    justify-content: center;
-                    align-items: center;
-                ">畅</div>`
+                          color: rgb(156,88,2);
+                          background: rgb(239,228,214);
+                          border-radius: 4px;
+                          width: 1.4rem;
+                          height: 1.4rem;
+                          text-align: center;
+                          display: flex;
+                          align-content: center;
+                          justify-content: center;
+                          align-items: center;
+                      ">畅</div>`
               : '';
             const free = booth.free
               ? `<div class="booth-tag" style="
-                    color: rgb(48,176,199);
-                    background: rgb(222,242,246);
-                    border-radius: 4px;
-                    width: 1.4rem;
-                    height: 1.4rem;
-                    text-align: center;
-                    display: flex;
-                    align-content: center;
-                    justify-content: center;
-                    align-items: center;
-                ">免</div>`
+                          color: rgb(48,176,199);
+                          background: rgb(222,242,246);
+                          border-radius: 4px;
+                          width: 1.4rem;
+                          height: 1.4rem;
+                          text-align: center;
+                          display: flex;
+                          align-content: center;
+                          justify-content: center;
+                          align-items: center;
+                      ">免</div>`
               : '';
 
             const sectionIndexHtmls = booth.sectionIndexes
@@ -900,28 +1264,35 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
                 return `<div class="booth-number booth-section-${sectionName}">${index}</div>`;
               })
               .join('');
+            const enNameTag =
+              booth.nameEng && booth.name !== booth.nameEng
+                ? `<div class="booth-name-en">${booth.nameEng}</div>`
+                : '';
 
             return `<div class="booth-card" data-booth-name="${booth.name}">
-            ${sectionIndexHtmls}
-            <div class="booth-name">${booth.name}</div>
-            <div class="booth-tags">
-              ${stampStatus}
-              ${supportCheckin}
-              ${includedInTicket}
-              ${free}
-            </div>
-            <div style="height: 100%;
-                  width: 1rem;
-                  display: flex;
-                  justify-content: center;
-                  align-content: center;
-                  align-items: center;
-                  margin-right: 0.5rem;">
-              <img src="/images/2024-map/arrow.png" alt="" style="object-fit: contain;
-    height: 1.2rem; transform: translate(0px, 2px);"/>
-            </div>
-            <div class="arrow"></div>
-          </div>`;
+                  ${sectionIndexHtmls}
+                  <div class="booth-name">
+                    <div class="booth-name-cn">${booth.name}</div>
+                  ${enNameTag}
+                  </div>
+                  <div class="booth-tags">
+                    ${stampStatus}
+                    ${supportCheckin}
+                    ${includedInTicket}
+                    ${free}
+                  </div>
+                  <div style="height: 100%;
+                        width: 1rem;
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+                        align-items: center;
+                        margin-right: 0.5rem;">
+                    <img src="/images/2024-map/arrow.png" alt="" style="object-fit: contain;
+          height: 1.2rem; transform: translate(0px, 2px);"/>
+                  </div>
+                  <div class="arrow"></div>
+                </div>`;
           })
           .join('');
       }
@@ -931,46 +1302,95 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
 
         const selectedBooth = allBooths.find((b) => b.name === boothName);
 
+        const cnNameHTML = `<div>${selectedBooth.name}</div>`;
+        const enNameHTML =
+          selectedBooth.nameEng && selectedBooth.name !== selectedBooth.nameEng
+            ? `<div>${selectedBooth.nameEng}</div>`
+            : '';
+
+        let priceHTML = '';
+
+        if (selectedBooth.price) {
+          priceHTML = `
+            <div style="display: flex; align-items: center;">
+              <div style="background: #893A2F;
+                border-radius: 50%;
+                color: white;
+                width: 1.4rem;
+                height: 1.4rem;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                margin-right: 5px;">
+                N
+              </div>
+              <span style="color: #893A2F">代币支付: ${selectedBooth.price}</span>
+            </div>
+          `;
+        }
+
         let checkinCondition = '';
 
         if (selectedBooth.checkin && selectedBooth.checkinCondition) {
           if (selectedBooth.checkinCondition.html) {
             checkinCondition = `
-              <h3 style="text-align: center;">打卡条件</h3>
-              ${selectedBooth.checkinCondition.html}
-            `;
+                <h3 style="text-align: center; margin-bottom: 10px;">打卡条件</h3>
+                ${selectedBooth.checkinCondition.html}
+                `;
           } else {
             checkinCondition = `
-              <h3 style="text-align: center;">打卡条件</h3>
-              ${selectedBooth.checkinCondition}
-              `;
+                <h3 style="text-align: center; margin-bottom: 10px;">打卡条件</h3>
+                <p>${selectedBooth.checkinCondition.cn}</p>
+                <p>${selectedBooth.checkinCondition.en}</p>
+                `;
           }
         }
 
+        const cnDetailsHTML = selectedBooth.details?.cn
+          ? `<p class="booth-details">${selectedBooth.details.cn}</p>`
+          : '';
+        const enDetailsHTML = selectedBooth.details?.en
+          ? `<p class="booth-details">${selectedBooth.details.en}</p>`
+          : '';
+        const boothDetailsTitleHTML =
+          cnDetailsHTML || enDetailsHTML
+            ? `<h3 style="text-align: center; width: 100%;">店铺简介</h3>`
+            : '';
+
         boothDetailsEle.innerHTML = `
-          <div style="display: flex;
-              flex-wrap: wrap;
-              align-content: center;
-              justify-content: center;
-              align-items: center;">
-            <h2>${boothName}</h2>
-            <div>
-              ${selectedBooth.details}
-            </div>
-            <div style="    width: 100%;
-    text-align: center;">
-              ${checkinCondition}
-              </div>
-            </div>
-          `;
+                <h2 style="width: 100%; text-align: center;">
+                  ${cnNameHTML}
+                  ${enNameHTML}
+                </h2>
+                <div id="boothDetailsScrollable" style="max-height: 55vh;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: scroll;">
+                    ${priceHTML}
+                  <div style="width: 100%;text-align: center;">
+                    ${checkinCondition}
+                  </div>
+                  <div class="booth-details-container">
+                    ${boothDetailsTitleHTML}
+                    ${cnDetailsHTML}
+                    ${enDetailsHTML}
+                  </div>
+                </div>
+                `;
+        sectionNameEle.classList.add('display-none');
         boothDetailsEle.classList.remove('display-none');
-
         returnToBoothListBtn.classList.remove('display-none');
-
         boothListEle.classList.add('display-none');
+        document.querySelector('#boothDetailsScrollable').scrollTop = 0;
       }
 
       function returnToBoothList() {
+        document.querySelector('#boothDetailsScrollable').scrollTop = 0;
+        sectionNameEle.classList.remove('display-none');
         boothDetailsEle.classList.add('display-none');
         boothListEle.classList.remove('display-none');
         returnToBoothListBtn.classList.add('display-none');
@@ -1028,10 +1448,12 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
 
-      const db = getFirestore(app);
-
-      window.firebaseQuery = query(collection(db, 'stamps'), where('phone', '==', '7895643212'));
+      // const db = getFirestore(app);
+      window.firebaseQueryFn = query;
       window.getDocs = getDocs;
+      window.firebaseCollection = collection;
+      window.firebaseWhere = where;
+      window.firebaseStore = getFirestore(app);
     </script>
 
     <!-- CSS resetting 和 全局 class -->
@@ -1057,7 +1479,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
       .btn-close {
         position: absolute;
         right: 0.5rem;
-        top: 0.5rem;
+        top: 1rem;
         height: 2rem;
         width: 2rem;
         background: white;
@@ -1068,6 +1490,12 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
         font-size: 1.5rem;
         font-weight: bolder;
         text-align: center;
+        vertical-align: middle;
+      }
+
+      .btn-close-ios-safari {
+        display: inline-block;
+        vertical-align: top;
       }
     </style>
 
@@ -1122,7 +1550,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
 
       .drawer-tab {
         padding: 0.5rem 1rem;
-        border-radius: 0.7rem;
+        border-radius: 16px;
         min-width: 4rem;
         display: flex;
         justify-content: center;
@@ -1140,6 +1568,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
       .drawer-content__container {
         margin: 1rem 1rem 0 1rem;
         overflow-y: scroll;
+        max-height: 60vh;
       }
 
       #drawer-content {
@@ -1221,23 +1650,26 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
 
       ul.show-list {
         background: #edf4f7;
-        border-radius: 0.7rem;
+        border-radius: 16px;
         padding-right: 0.5rem;
-        padding-top: 0.5rem;
+        padding-top: 32px;
         padding-bottom: 0.5rem;
         padding-inline-start: 2rem;
         margin-top: 0;
       }
+      ul.show-list li {
+        margin-bottom: 16px;
+      }
       .show-list-time {
-        padding-left: 1rem;
         margin-bottom: 0.5rem;
-        margin-top: 1.5rem;
+        margin-top: 24px;
       }
 
       .lottery-info {
         background: #edf4f7;
-        border-radius: 0.7rem;
-        padding: 0.5rem;
+        border-radius: 16px;
+        padding: 32px 16px;
+        /* padding-top: 32px; */
       }
       .lottery-info h4 {
         margin: 0;
@@ -1265,7 +1697,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
         left: 1rem;
         right: 1rem;
         border: 1px solid #f5be00;
-        border-radius: 0.7rem;
+        border-radius: 16px;
       }
       #sponsorTabContainer {
         margin-top: 3rem;
@@ -1273,7 +1705,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
 
       .sponsor-tab {
         padding: 0.5rem 1rem;
-        border-radius: 0.7rem;
+        border-radius: 16px;
         min-width: 4rem;
         display: flex;
         justify-content: center;
@@ -1293,6 +1725,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
         /* margin: 1rem 1rem 0 1rem; */
         overflow-y: scroll;
       }
+
       #sponsorLogoGroup {
         /* width: 500px; */
         /* height: 100px; */
@@ -1317,9 +1750,9 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
         width: 100%;
         height: 100%;
         object-fit: contain;
-        opacity: 0.2;
-        -moz-opacity: 0.2; /* Firefox and Mozilla browsers */
-        -webkit-opacity: 0.2;
+        opacity: 0.6;
+        -moz-opacity: 0.6; /* Firefox and Mozilla browsers */
+        -webkit-opacity: 0.6;
       }
 
       .logo-container {
@@ -1371,9 +1804,6 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
         z-index: 50;
       }
 
-      .sponsor-details {
-      }
-
       img.sponsor-qr {
         width: 100%;
         object-fit: contain;
@@ -1394,7 +1824,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
 
       .checkin-button {
         background: linear-gradient(45deg, rgba(240, 220, 220), rgb(254, 247, 216));
-        border-radius: 0.7rem;
+        border-radius: 16px;
         width: 90%;
         display: flex;
         align-items: center;
@@ -1410,7 +1840,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
       #showCheckinHistory,
       #showQRCode {
         background: linear-gradient(45deg, rgba(240, 220, 220), rgb(254, 247, 216));
-        border-radius: 0.7rem;
+        border-radius: 16px;
         width: 45%;
         display: flex;
         align-items: center;
@@ -1440,16 +1870,23 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
         text-align: center;
       }
 
+      #rewardRedeemedMark {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 10;
+        backdrop-filter: blur(5px);
+      }
+
       .stamp-cards-list {
         display: grid;
-        padding: 0 1rem;
-        /* flex-wrap: wrap; */
+        padding: 0;
         justify-content: center;
         overflow-y: scroll;
         height: 70%;
         grid-template-columns: 40% 40%;
         gap: 10px;
-        align-items: center;
+        align-items: start;
         justify-items: center;
       }
 
@@ -1464,7 +1901,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
       }
 
       .stamp-name {
-        font-size: 2.2rem;
+        font-size: 1.2rem;
         font-weight: bolder;
         text-align: center;
         justify-items: center;
@@ -1472,9 +1909,10 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
 
       .stamp-card img {
         position: absolute;
-        bottom: 0;
+        bottom: 1rem;
         right: 0;
         width: 5rem;
+        opacity: 0.7;
       }
     </style>
 
@@ -1552,7 +1990,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
         flex-direction: column;
         align-items: center;
         overflow-y: scroll;
-        height: 70%;
+        height: 80%;
         padding-top: 1rem;
       }
 
@@ -1562,7 +2000,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
 
       #returnToBoothListBtn {
         position: absolute;
-        top: 0.5rem;
+        top: 1rem;
         left: 0.5rem;
         width: 1rem;
         height: 1rem;
@@ -1582,7 +2020,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
       }
       .booth-card {
         margin-bottom: 1rem;
-        border-radius: 0.7rem;
+        border-radius: 16px;
         border: 1px black solid;
         width: 90%;
         display: flex;
@@ -1596,14 +2034,22 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
         align-items: center;
         margin: 10px;
         margin-right: 0;
-        border-radius: 0.7rem;
+        border-radius: 8px;
         color: white;
         font-weight: bold;
+        flex-shrink: 0;
       }
       .booth-name {
         display: flex;
-        align-items: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
         margin-left: 10px;
+        margin-right: 10px;
+        flex-direction: column;
+      }
+      .booth-name-cn,
+      .booth-name-en {
+        width: 100%;
       }
       .booth-stamp-status {
         margin-left: auto;
@@ -1705,6 +2151,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
       <img
               src="/images/2024-map/tourGuide.png"
               alt=""
+              style="border-radius: 16px;"
             /> 
       `;
       // const showListHTMLContent = showsList
@@ -1728,9 +2175,10 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
       //   })
       //   .join('');
       const showListHTMLContent = `<div class="show-list-card">
-              <h3 class="show-list-time">1:00 PM - 3:40 PM</h3>
+              <h3 class="show-list-time">12:50 PM - 3:40 PM</h3>
               <ul class="show-list">
-                <li>Batter Up | Twinkle by Tingna Dance Studio</li>
+                <li>祥狮欢舞迎金秋 | Leland High School Lion Dance Team</li>
+                <li>Batter Up | Twinkle by Tingna Dance Studio</li>
                 <li>Woman Up | Extremer</li>
                 <li>弦樂團金曲串燒 Rhapsody String Ensemble | 狂响弦乐团</li>
                 <li>Put your records on | Aevum Mistry</li>
@@ -1738,18 +2186,16 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
                 <li>是妈妈是女儿 | Zoe and Jade Worden</li>
                 <li>国乐雅秋 The Fall Melody by Guqin, Bamboo flute and Hulusi | 雅韵国乐社</li>
                 <li>少林雄风 | Shaolin Warrior Martial Arts</li>
-                <li>祥狮欢舞迎金秋 | Leland High School Lion Dance Team</li>
                 <li>华夏有衣-汉服走秀 Chinese Dress Fashion Show | 硅谷汉服社</li>
                 <li>古琴演奏 | 太玄古琴社</li>
                 <li>传承 | Song's Kung Fu</li>
-                <li>
-                  儿童舞蹈《花木兰》《森林圆舞曲》《奇妙的小仙子 》| Dream Hope Star Dance Academy
-                </li>
+                <li>儿童舞蹈《花木兰》《森林圆舞曲》《奇妙的小仙子 》| Dream Hope Star Dance Academy</li>
                 <li>越剧清唱《追鱼》 | Xiaowen Geng</li>
                 <li>舞蹈 - 红昭愿 | 85Fun Studio</li>
                 <li>月光+蝶 | 丁梦</li>
                 <li>中提琴独奏《渔舟唱晚》 | 黄佳艺</li>
                 <li>中英文歌曲串烧 Mashup | 兰兰</li>
+
               </ul>
             </div>
             <div class="show-list-card">
@@ -1792,7 +2238,8 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
             </div>
             <div style="padding-bottom: 1rem; text-align: center; color: rgb(92, 92, 92)">
               Produced by 载歌在谷
-            </div>`;
+            </div>
+            `;
 
       const sponsorsHTMLContent = `
       <div class="sponsor-container">
@@ -1825,10 +2272,27 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
       <!-- 测试按钮 -->
       <button
         onclick="function clearCookies() {Cookies.remove('phone'); Cookies.remove('collectedStamps')} clearCookies()"
-        style="position: absolute; top: 0; right: 0"
+        style="position: absolute; top: 0; left: 0"
       >
         删除登记信息
       </button>
+
+      <div
+        style="
+          z-index: 1000;
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          background: white;
+          padding: 8px;
+          display: flex;
+          align-items: center;
+          border-radius: 8px;
+        "
+      >
+        <img src="/images/2024-map/feedback.png" alt="" style="width: 1rem; margin-right: 5px" />
+        <a href="http://google.com" target="_blank" style="text-decoration: none">Feedback</a>
+      </div>
 
       <!-- <div id="top-info">
         <div id="pay-info">
@@ -1846,7 +2310,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
       <div id="registerPopup" class="display-none">
         <div id="registerPopupCloseBtn" class="btn-close">×</div>
         <h1>输入手机号</h1>
-        <p style="margin: 0 4rem 1rem 4rem">
+        <p style="margin: 0 2rem 1rem 2rem">
           输入手机号来获取您的专属二维码。可以用来在支持的摊位进行打卡。收集打卡记录可以换取礼品。
         </p>
         <div style="justify-content: center; display: flex">
@@ -1856,7 +2320,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
             pattern="[0-9]{10}"
             required
             placeholder="格式：1234567890"
-            style="height: 2rem; width: 100%; margin: 0 4rem; border-radius: 0.7rem"
+            style="height: 2rem; width: 100%; margin: 0 2rem; border-radius: 16px"
           />
         </div>
         <div style="display: flex; margin-top: 1rem; justify-content: center">
@@ -1864,12 +2328,14 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
             id="confirmPhone"
             disabled
             style="
+              font-size: 1rem;
+              padding-top: 5px;
+              padding-bottom: 5px;
               margin: 0 4rem;
               background: #ffd400;
               border: 1px #f5be00 solid;
               width: 100%;
-              height: 2rem;
-              border-radius: 0.7rem;
+              border-radius: 16px;
             "
           >
             确认
@@ -1882,8 +2348,26 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
         <h1>打卡记录</h1>
 
         <div>
-          <p>你已经收集了 <span id="stampCount">0</span> 个</p>
+          <p>
+            你已经收集了 <span id="stampCount" style="color: #c72c34; font-weight: bold">0</span> 个
+          </p>
           <p>凭打卡记录在兑奖处领奖</p>
+        </div>
+
+        <div id="rewardRedeemedMark" class="display-none">
+          <img
+            src="/images/2024-map/redeemed.png"
+            alt=""
+            style="
+              position: absolute;
+              object-fit: contain;
+              width: 70vw;
+              margin: auto;
+              left: 0;
+              right: 0;
+              top: 3rem;
+            "
+          />
         </div>
 
         <div class="stamp-cards-list" id="stampCardsList"></div>
@@ -1938,15 +2422,34 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
         </div>
         <div class="drawer-content__container">
           <div id="drawer-content">
-            <img src="/images/2024-map/tourGuide.png" alt="游园指南" />
+            <img src="/images/2024-map/tourGuide.png" alt="游园指南" style="border-radius: 16px" />
           </div>
         </div>
       </div>
     </div>
   </body>
 
+  <script>
+    var userAgent = window.navigator.userAgent;
+
+    if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
+      // iPad or iPhone
+      document.querySelectorAll('.btn-close')?.forEach((node) => {
+        node.classList.add('btn-close-ios-safari');
+      });
+    } else {
+      // Anything else
+    }
+  </script>
+
   <!-- 获取全局 DOM -->
   <script>
+    // Drawer 抽屉
+    const drawerEle = document.querySelector('#drawer');
+    const drawerSliderEle = document.querySelector('#drawer-slider');
+    const drawerContentEle = document.querySelector('#drawer-content');
+    const drawerTabGroupEle = document.querySelector('#drawerTabGroup');
+
     // 弹窗
     const boothListPopupEle = document.querySelector('#boothListPopup');
     const checkinHistoryPopupEle = document.querySelector('#checkinHistoryPopup');
@@ -1979,6 +2482,9 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
 
     boothListPopupCloseBtnEle.onclick = () => {
       closePopup(boothListPopupEle);
+      // 返回列表状态
+      sectionNameEle.classList.add('display-block');
+      sectionNameEle.classList.remove('display-none');
       document.querySelector('#boothDetails')?.classList.add('display-none');
       document.querySelector('#returnToBoothListBtn')?.classList.add('display-none');
       document.querySelector('#boothList')?.classList.remove('display-none');
@@ -2153,6 +2659,10 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
           document.querySelector('#boothDetails')?.classList.add('display-none');
           document.querySelector('#returnToBoothListBtn')?.classList.add('display-none');
           document.querySelector('#boothList')?.classList.remove('display-none');
+
+          // 摊位详情会隐藏分区标题
+          sectionNameEle.classList.add('display-block');
+          sectionNameEle.classList.remove('display-none');
 
           closePopup(registerPopupEle);
           closePopup(checkinHistoryPopupEle);
@@ -2375,15 +2885,12 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
     }
 
     // 使用方法
-    let imgElement = document.querySelector('img'); // 选择需要绑定事件的图片元素
+    let imgElement = document.querySelector('#map'); // 选择需要绑定事件的图片元素
     new TouchDragEvent(imgElement);
   </script>
 
   <!-- drawer script -->
   <script>
-    const drawerSliderEle = document.getElementById('drawer-slider');
-    const drawerContentEle = document.getElementById('drawer-content');
-    const drawerTabGroupEle = document.getElementById('drawerTabGroup');
     let isDrawerOpen = false;
 
     function toggleDrawer() {
@@ -2467,7 +2974,7 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
         })
         .join('');
       sponsorDetailsContainer.innerHTML = `
-        <div>
+        <div style="margin-bottom: 1rem;">
           <p class="sponsor-details">${sponsorsAndCollaboratorsMap[sponsorKey].details ?? ''}</p>
           ${qrImages}
         </div>
@@ -2548,6 +3055,11 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
     const unregisteredCheckinButtonsHTML = `<div class="checkin-button" id="checkinButton">
             <img class="checkin-button-logo"  src="/images/2024-map/zgzglogo.png" alt="" />
             登记以获取打卡二维码
+            <img src="/images/2024-map/arrow.png" alt="" style="object-fit: contain;
+    height: 1.2rem;
+    transform: translate(0px, 2px);
+    margin-left: auto;
+    margin-right: 1rem;"/>
           </div>`;
 
     const stampCardsListEle = document.querySelector('#stampCardsList');
@@ -2590,31 +3102,53 @@ We are the gallery of activity clubs in ZGZG. Come to join us on weekends! We ho
     }
 
     async function openStampPopup() {
-      const querySnapshot = await window.getDocs(window.firebaseQuery);
+      const phone = Cookies.get('phone');
+      const query = window.firebaseQueryFn(
+        window.firebaseCollection(window.firebaseStore, 'stamps'),
+        window.firebaseWhere('phone', '==', phone)
+      );
+      const querySnapshot = await window.getDocs(query);
 
       const stampCards = [];
-      const collectedStamps = new Set(Cookies.getJSON('collectedStamps') ?? []);
+      const collectedStamps = new Set();
 
-      // querySnapshot.forEach((doc) => {
-      // const boothIndex = doc.data().booth;
-      ['cuisine-2', 'cuisine-8', 'kids-1'].forEach((doc) => {
-        const boothIndex = doc;
+      querySnapshot.forEach((doc) => {
+        const boothIndex = doc.data().booth;
+        // [
+        //   'cuisine-2',
+        //   'cuisine-3',
+        //   'cuisine-4',
+        //   'cuisine-6',
+        //   'kids-1',
+        //   'kids-2',
+        //   'kids-3',
+        //   'function-1112',
+        // ].forEach((doc) => {
+        //   const boothIndex = doc;
+
+        if (boothIndex === 'function-1112') {
+          Cookies.set('redeemed', '1');
+        }
 
         collectedStamps.add(boothIndex);
-        const boothName =
-          allBooths.find((booth) => booth.stampIndex === boothIndex)?.name ?? '未知摊位';
-        stampCards.push(`<div class="stamp-card">
-          <div class="stamp-name">${boothName}</div>
+        const booth = allBooths.find((booth) => booth.stampIndex === boothIndex);
+
+        const boothNameHTML = stampCards.push(`<div class="stamp-card">
+          <div class="stamp-name">
+            <div>${booth?.name}</div>  
+            <div>${booth?.nameEng && booth.nameEng !== booth?.name ? booth.nameEng : ''}</div>  
+          </div>
           <img src="/images/2024-map/zgzglogo.png" alt="" />
         </div>`);
       });
 
       Cookies.set('collectedStamps', Array.from(collectedStamps));
-
       stampCountEle.innerHTML = stampCards.length;
-
       stampCardsListEle.innerHTML = stampCards.join('');
-
+      if (Cookies.get('redeemed') === '1') {
+        document.querySelector('#rewardRedeemedMark').classList.remove('display-none');
+        document.querySelector('#rewardRedeemedMark').classList.add('display-block');
+      }
       openPopup(checkinHistoryPopupEle);
     }
 
