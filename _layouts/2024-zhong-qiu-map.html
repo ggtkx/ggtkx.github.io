@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <!-- 全局状态 通用函数 -->
     <script>
-      const mapURL = `/images/2024-map/map.png?cache=${Date().toString()}`;
+      const mapURL = `/images/2024-map/map.png`;
       const siteStates = {
         selectedLanguage: 'zh',
         isDrawerOpen: false,
@@ -20,6 +20,11 @@
       };
 
       function showBoothListPopupFunc(sectionName) {
+        cuisinesListHTML = generateBoothListHTML(cuisinesList, sectionNames.cuisine);
+        kidsListHTML = generateBoothListHTML(kidsList, sectionNames.kids);
+        traditionsListHTML = generateBoothListHTML(traditionsList, sectionNames.traditions);
+        functionsListHTML = generateBoothListHTML(functionsList, sectionNames.functions);
+
         if (sectionName === sectionNames.cuisine) {
           boothListEle.innerHTML = cuisinesListHTML;
           sectionNameEle.innerHTML = '美食区';
@@ -67,7 +72,7 @@
           name: 'HeCares',
           tier: 'collaborator',
           logo: '/images/2024-map/sponsors/友情合作-HeCares/友情合作-HeCares-logo.jpeg',
-          qrCode: ['/images/2024-map/sponsors/友情合作-HeCares/HeCares-二维码.png'],
+          qrCode: ['/images/2024-map/sponsors/友情合作-HeCares/HeCares-二维码.jpg'],
         },
         sjusv: {
           name: '交大校友会',
@@ -111,6 +116,25 @@
           tier: 'collaborator',
           logo: '/images/2024-map/sponsors/友情合作方-BerryFun/BerryFun-Logo带字-透明底.png',
           qrCode: ['/images/2024-map/sponsors/友情合作方-BerryFun/BerryFun小红书二维码.PNG'],
+          details: `BerryFun是一个立足科学，以有趣为基础，与孩子们一起探索世界的户外自然教育机构。
+<br/>
+从2021到2024年暑期，BerryFun开展了39期不同主题的户外夏令营，内容涉及植物、中华文化、木工、美食、地质、观鸟、昆虫、电学、魔术、野外生存、服装设计、四大发明、古埃及古巴比伦文化等。
+<br/>
+孩子们在山野间追寻小鹿的足迹，寻找野兔的踪影。<br/>
+在红木森林里且听风吟，投入自然怀抱。<br/>
+在广袤天空看飞鸟翱翔，放飞无限想象。<br/>
+在潺潺小溪里捉鱼摸虾，清凉整个夏天。<br/>
+漫游中国城市雄伟工程，感中华文明之美。<br/>
+在山脚公园里变身鲁班，体验造物的乐趣。<br/>
+在湖光山色中制作美食，犒劳自己的味蕾。<br/>
+在池塘蛙鸣中观察昆虫，感受生命的奇妙。<br/>
+在岩层中探寻化石线索，解读地球的密码。<br/>
+在博物馆里中穿越时空，邂逅古文化和古文明。<br/>
+<br/>
+在没有围栏的课堂里，孩子们恣意扩展想象力的边界。<br/>
+在动手体验中，感受文化、科技与自然的魅力。<br/>
+在蓝天白云青草地，度过一个美好的不插电童年。
+`,
         },
         '99ranch': {
           name: '99大华',
@@ -398,7 +422,7 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
           stampIndex: 'cuisine-7',
           sectionIndexes: [7],
           name: '士林台湾小吃',
-          nameEng: 'Shihlin taiwan street snacks ',
+          nameEng: 'Shihlin Taiwan Street Snacks',
           checkin: true,
           checkinCondition: {
             cn: `消费满30`,
@@ -644,11 +668,11 @@ TradeUp is a Nasdaq-listed fintech company that can support your investments wit
           name: '活字印刷',
           nameEng: 'Movable Type Printing',
           checkin: true,
+          free: true,
           checkinCondition: {
             cn: `完成摊位活动`,
             en: `Complete booth activities`,
           },
-          price: '$0',
           includedInTicket: true,
           details: {
             cn: `尝试使用活字印刷来制作你的印刷作品吧！`,
@@ -728,6 +752,7 @@ LingoAce是一家全球领先的在线中文教育平台，为4到15岁青少年
           name: '书法',
           nameEng: 'Calligraphy',
           checkin: true,
+          free: true,
           checkinCondition: {
             cn: `完成摊位活动`,
             en: `Complete booth activities`,
@@ -744,6 +769,7 @@ LingoAce是一家全球领先的在线中文教育平台，为4到15岁青少年
           name: '灯谜',
           nameEng: 'Lantern Riddles',
           checkin: true,
+          free: true,
           checkinCondition: {
             cn: `完成摊位活动`,
             en: `Complete booth activities`,
@@ -760,6 +786,7 @@ LingoAce是一家全球领先的在线中文教育平台，为4到15岁青少年
           name: '诗词大会',
           nameEng: 'Poetry Party',
           checkin: true,
+          free: true,
           checkinCondition: {
             cn: `完成摊位活动`,
             en: `Complete booth activities`,
@@ -889,6 +916,7 @@ LingoAce是一家全球领先的在线中文教育平台，为4到15岁青少年
           name: '许愿墙',
           nameEng: 'Wishing Wall',
           checkin: true,
+          free: true,
           checkinCondition: {
             cn: `完成摊位活动`,
             en: `Complete booth activities`,
@@ -916,16 +944,16 @@ LingoAce是一家全球领先的在线中文教育平台，为4到15岁青少年
         {
           stampIndex: 'chinese-14',
           sectionIndexes: [14],
-          name: 'AI汉服 & Story with AI',
-          nameEng: 'AI Hanfu Photobook & Story with AI',
+          name: '汉服妆造',
+          nameEng: 'Hanfu Styling - Makeup & Hair styling',
           checkin: true,
           checkinCondition: {
-            cn: `消费满$30`,
-            en: `Spend more than $30`,
+            cn: `完成摊位活动`,
+            en: `Complete booth activities`,
           },
           details: {
-            cn: `用AI定制汉服写真照 并打印成照片书`,
-            en: `Get your AI fantasy image photobook with us! `,
+            cn: `古风化妆，做古风发型。`,
+            en: `Chinese traditional makeup and hair styling.`,
           },
         },
         {
@@ -942,18 +970,19 @@ LingoAce是一家全球领先的在线中文教育平台，为4到15岁青少年
         {
           stampIndex: 'chinese-16',
           sectionIndexes: [16],
-          name: '汉服妆造',
-          nameEng: 'Hanfu Styling - Makeup & Hair styling',
+          name: 'AI汉服 & Story with AI',
+          nameEng: 'AI Hanfu Photobook & Story with AI',
           checkin: true,
           checkinCondition: {
-            cn: `完成摊位活动`,
-            en: `Complete booth activities`,
+            cn: `消费满$30`,
+            en: `Spend more than $30`,
           },
           details: {
-            cn: `古风化妆，做古风发型。`,
-            en: `Chinese traditional makeup and hair styling.`,
+            cn: `用AI定制汉服写真照 并打印成照片书`,
+            en: `Get your AI fantasy image photobook with us! `,
           },
         },
+
         {
           stampIndex: 'chinese-17',
           sectionIndexes: [17],
@@ -1020,22 +1049,22 @@ December 14th & 15th at Starbright Theater. See you there!`,
         {
           stampIndex: 'function-1',
           sectionIndexes: [1],
-          name: '志愿者休息区',
-          nameEng: 'Volunteers Station',
+          name: '志愿者休息/失物招领',
+          nameEng: 'Volunteers/Lost & Found',
           checkin: false,
         },
         {
           stampIndex: 'function-2',
           sectionIndexes: [2],
-          name: '失物招领处',
-          nameEng: 'Lost & Found',
+          name: '古风面具',
+          nameEng: 'Chinese Antique Masks',
           checkin: false,
         },
         {
           stampIndex: 'function-3',
           sectionIndexes: [3],
-          name: '云集',
-          nameEng: 'Cloud Clubs',
+          name: '载歌在谷 - 云集',
+          nameEng: 'ZGZGE - Cloud Clubs',
           checkin: true,
           checkinCondition: {
             cn: `关注载歌在谷公众号或小红书`,
@@ -1312,7 +1341,10 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
 
         if (selectedBooth.price) {
           priceHTML = `
-            <div style="display: flex; align-items: center;">
+            <div style="display: flex;
+              align-items: center;
+              text-align: center;
+              justify-content: center;">
               <div style="background: #893A2F;
                 border-radius: 50%;
                 color: white;
@@ -1363,8 +1395,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
                   ${cnNameHTML}
                   ${enNameHTML}
                 </h2>
-                <div id="boothDetailsScrollable" style="max-height: 55vh;
-                    display: flex;
+                <div id="boothDetailsScrollable" style="height: 55vh;
                     flex-wrap: wrap;
                     align-content: center;
                     justify-content: center;
@@ -1385,22 +1416,21 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
         boothDetailsEle.classList.remove('display-none');
         returnToBoothListBtn.classList.remove('display-none');
         boothListEle.classList.add('display-none');
-        document.querySelector('#boothDetailsScrollable').scrollTop = 0;
+        setTimeout(() => {
+          document.querySelector('#boothDetailsScrollable').scrollTop = -20;
+        }, 0);
       }
 
       function returnToBoothList() {
-        document.querySelector('#boothDetailsScrollable').scrollTop = 0;
+        setTimeout(() => {
+          document.querySelector('#boothDetailsScrollable').scrollTop = -20;
+        }, 0);
         sectionNameEle.classList.remove('display-none');
         boothDetailsEle.classList.add('display-none');
         boothListEle.classList.remove('display-none');
         returnToBoothListBtn.classList.add('display-none');
         boothDetailsEle.scrollTop = 0;
       }
-
-      let cuisinesListHTML = generateBoothListHTML(cuisinesList, sectionNames.cuisine);
-      let kidsListHTML = generateBoothListHTML(kidsList, sectionNames.kids);
-      let traditionsListHTML = generateBoothListHTML(traditionsList, sectionNames.traditions);
-      let functionsListHTML = generateBoothListHTML(functionsList, sectionNames.functions);
     </script>
 
     <!-- 生成二维码 -->
@@ -1416,7 +1446,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
             text: url,
             width: 200,
             height: 200,
-            colorDark: 'red',
+            colorDark: '#151515',
             colorLight: '#ffffff',
             correctLevel: QRCode.CorrectLevel.H,
           });
@@ -1537,7 +1567,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
       #drawer-slider {
         width: 65px;
         height: 7px;
-        border-radius: 16px;
+        border-radius: 8px;
         margin-top: 5px;
         border: none;
       }
@@ -1549,8 +1579,8 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
       }
 
       .drawer-tab {
-        padding: 0.5rem 1rem;
-        border-radius: 16px;
+        padding: 0.5rem 1.3rem;
+        border-radius: 8px;
         min-width: 4rem;
         display: flex;
         justify-content: center;
@@ -1558,11 +1588,11 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
       }
 
       .drawer-tab__active {
-        opacity: 100%;
+        background-color: #ffd400;
       }
 
       .drawer-tab__inactive {
-        opacity: 24%;
+        background-color: rgb(253, 254, 198);
       }
 
       .drawer-content__container {
@@ -1650,7 +1680,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
 
       ul.show-list {
         background: #edf4f7;
-        border-radius: 16px;
+        border-radius: 8px;
         padding-right: 0.5rem;
         padding-top: 32px;
         padding-bottom: 0.5rem;
@@ -1667,7 +1697,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
 
       .lottery-info {
         background: #edf4f7;
-        border-radius: 16px;
+        border-radius: 8px;
         padding: 32px 16px;
         /* padding-top: 32px; */
       }
@@ -1697,7 +1727,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
         left: 1rem;
         right: 1rem;
         border: 1px solid #f5be00;
-        border-radius: 16px;
+        border-radius: 8px;
       }
       #sponsorTabContainer {
         margin-top: 3rem;
@@ -1705,7 +1735,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
 
       .sponsor-tab {
         padding: 0.5rem 1rem;
-        border-radius: 16px;
+        border-radius: 8px;
         min-width: 4rem;
         display: flex;
         justify-content: center;
@@ -1714,11 +1744,11 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
       }
 
       .sponsor-tab__active {
-        opacity: 100%;
+        background-color: #ffd400;
       }
 
       .sponsor-tab__inactive {
-        opacity: 24%;
+        background-color: rgb(253, 254, 198);
       }
 
       .sponsor-container {
@@ -1824,7 +1854,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
 
       .checkin-button {
         background: linear-gradient(45deg, rgba(240, 220, 220), rgb(254, 247, 216));
-        border-radius: 16px;
+        border-radius: 8px;
         width: 90%;
         display: flex;
         align-items: center;
@@ -1840,7 +1870,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
       #showCheckinHistory,
       #showQRCode {
         background: linear-gradient(45deg, rgba(240, 220, 220), rgb(254, 247, 216));
-        border-radius: 16px;
+        border-radius: 8px;
         width: 45%;
         display: flex;
         align-items: center;
@@ -1874,7 +1904,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
         height: 100%;
         width: 100%;
         position: absolute;
-        z-index: 10;
+        z-index: -1;
         backdrop-filter: blur(5px);
       }
 
@@ -1997,6 +2027,9 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
       #boothDetails {
         padding: 0 1rem;
       }
+      .booth-details-container {
+        padding-bottom: 1rem;
+      }
 
       #returnToBoothListBtn {
         position: absolute;
@@ -2020,11 +2053,13 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
       }
       .booth-card {
         margin-bottom: 1rem;
-        border-radius: 16px;
-        border: 1px black solid;
+        border-radius: 8px;
+        /* border: 1px black solid; */
         width: 90%;
         display: flex;
         align-items: center;
+        background: white;
+        box-shadow: 0px 0px 7px 0px #ddd;
       }
       .booth-number {
         width: 2rem;
@@ -2151,7 +2186,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
       <img
               src="/images/2024-map/tourGuide.png"
               alt=""
-              style="border-radius: 16px;"
+              style="border-radius: 8px; margin-bottom: 1rem;"
             /> 
       `;
       // const showListHTMLContent = showsList
@@ -2201,7 +2236,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
             <div class="show-list-card">
               <h3 class="show-list-time">4:10 pm - 4:40 pm</h3>
               <ul class="show-list">
-                <li>Band: Why Sol Serious</li>
+                <li>Band: Why So Serious</li>
               </ul>
             </div>
             <div class="show-list-card">
@@ -2209,23 +2244,19 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
               <div class="lottery-info">
                 <h4>舞台抽奖 Lottery!</h4>
                 <p>
-                  Join Stage lottery to win the grand prize worth
+                  Join the Stage lottery to win the grand prize worth
                   <span style="color: #ce0f04; font-weight: bold">$719!</span>
                 </p>
                 <p style="font-weight: bold">可通过以下方式获取抽奖券，以参与舞台抽奖：</p>
                 <ol>
-                  <li>购买售价 $35 的畅玩券赠送 3 张</li>
-                  <li>购买 ≧$15 的代币赠送 1 张</li>
-                  <li>购买 ≧$30 的代币赠送 2 张</li>
-                  <li>提前 24 小时注册活动赠送 1 张</li>
+                  <li>购买售价$35的畅玩券赠送3张；</li>
+                  <li>提前24小时注册活动赠送1张。</li>
                 </ol>
                 <p style="font-weight: bold">
-                  How to obtain stage lottery ticket to join the stage lottery?
+                  How to obtain stage lottery tickets to join the stage lottery? 
                 </p>
                 <ol>
                   <li>Purchase ZGZG-all inclusive ticket ($35) - 3 tickets</li>
-                  <li>Purchase ZGZG tokens ≧ $15 - 1 ticket</li>
-                  <li>Purchase ZGZG tokens ≧ $30 - 2 tickets；</li>
                   <li>Register 24 hours before event start (before Oct 19 2024, PST 12pm)</li>
                 </ol>
               </div>
@@ -2271,7 +2302,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
     <div>
       <!-- 测试按钮 -->
       <button
-        onclick="function clearCookies() {Cookies.remove('phone'); Cookies.remove('collectedStamps')} clearCookies()"
+        onclick="function clearCookies() {Cookies.remove('redeemed'); Cookies.remove('phone'); Cookies.remove('collectedStamps')} clearCookies()"
         style="position: absolute; top: 0; left: 0"
       >
         删除登记信息
@@ -2320,7 +2351,8 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
             pattern="[0-9]{10}"
             required
             placeholder="格式：1234567890"
-            style="height: 2rem; width: 100%; margin: 0 2rem; border-radius: 16px"
+            autocomplete="off"
+            style="height: 2rem; width: 100%; margin: 0 2rem; border-radius: 8px"
           />
         </div>
         <div style="display: flex; margin-top: 1rem; justify-content: center">
@@ -2335,7 +2367,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
               background: #ffd400;
               border: 1px #f5be00 solid;
               width: 100%;
-              border-radius: 16px;
+              border-radius: 8px;
             "
           >
             确认
@@ -2349,7 +2381,9 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
 
         <div>
           <p>
-            你已经收集了 <span id="stampCount" style="color: #c72c34; font-weight: bold">0</span> 个
+            您已经收集了
+            <span id="stampCount" style="color: #c72c34; font-weight: bold">0</span>
+            处打卡点
           </p>
           <p>凭打卡记录在兑奖处领奖</p>
         </div>
@@ -2366,6 +2400,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
               left: 0;
               right: 0;
               top: 3rem;
+              transform: rotate(-25deg);
             "
           />
         </div>
@@ -2422,7 +2457,11 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
         </div>
         <div class="drawer-content__container">
           <div id="drawer-content">
-            <img src="/images/2024-map/tourGuide.png" alt="游园指南" style="border-radius: 16px" />
+            <img
+              src="/images/2024-map/tourGuide.png"
+              alt="游园指南"
+              style="border-radius: 8px; margin-bottom: 1rem"
+            />
           </div>
         </div>
       </div>
@@ -3087,12 +3126,12 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
 
       if (document.querySelector('#showQRCode')) {
         document.querySelector('#showQRCode').onclick = () => {
+          document.querySelector('#registeredPhone').innerHTML = Cookies.get('phone');
           openPopup(qrCodePopupEle);
         };
         document.querySelector('#showCheckinHistory').onclick = showCheckinhistory;
 
         document.querySelector('#qrCodeContainer').appendChild(siteStates.qrCodeEle);
-        document.querySelector('#registeredPhone').innerHTML = Cookies.get('phone');
       }
     } else {
       document.querySelector('#checkinButtonContainer').innerHTML = unregisteredCheckinButtonsHTML;
@@ -3122,12 +3161,15 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
         //   'kids-1',
         //   'kids-2',
         //   'kids-3',
+        //   'kids-10',
         //   'function-1112',
         // ].forEach((doc) => {
         //   const boothIndex = doc;
 
         if (boothIndex === 'function-1112') {
           Cookies.set('redeemed', '1');
+          // 不要在打卡列表里显示兑奖摊位
+          return;
         }
 
         collectedStamps.add(boothIndex);
@@ -3162,6 +3204,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
 
         closePopup(registerPopupEle);
         document.querySelector('#showQRCode').onclick = () => {
+          document.querySelector('#registeredPhone').innerHTML = Cookies.get('phone');
           openPopup(qrCodePopupEle);
         };
 
