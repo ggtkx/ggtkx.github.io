@@ -2305,7 +2305,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
         onclick="function clearCookies() {Cookies.remove('redeemed'); Cookies.remove('phone'); Cookies.remove('collectedStamps')} clearCookies()"
         style="position: absolute; top: 0; left: 0"
       >
-        删除登记信息
+        删除登记信息(上线前移除)
       </button>
 
       <div
@@ -2322,7 +2322,12 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
         "
       >
         <img src="/images/2024-map/feedback.png" alt="" style="width: 1rem; margin-right: 5px" />
-        <a href="http://google.com" target="_blank" style="text-decoration: none">Feedback</a>
+        <a
+          href="https://docs.google.com/document/d/16ux3i3IZh-Gz1s2OXWIVjh_q2N2Wa-0QfH4-AlMfGfg/edit?tab=t.i0hgrn6djcx0"
+          target="_blank"
+          style="text-decoration: none"
+          >Feedback(链接待更新)</a
+        >
       </div>
 
       <!-- <div id="top-info">
@@ -3234,6 +3239,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
       closePopup(qrCodePopupEle);
     };
     confirmPhoneEle.onclick = register;
+    phoneEle.onblur = validatePhone;
     phoneEle.oninput = validatePhone;
   </script>
 </html>
