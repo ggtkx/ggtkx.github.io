@@ -110,6 +110,10 @@
           tier: 'collaborator',
           logo: '/images/2024-map/sponsors/友情合作方-AAYA/AAYA-logo-中文.png',
           qrCode: ['/images/2024-map/sponsors/友情合作方-AAYA/二维码.jpg'],
+          details: `AAYA致力于为亚裔青少年提供一个服务平台，帮助他们发挥特长、展示才能，培养创造力和领导力，融入社会并服务社区。我们目前运营的项目包括：社区服务、爱心花园（The Giving Garden）、青少年记者（Junior Journalist）、小小艺术家（Young Artist）。我们的目标是提升孩子们的社会责任感和正义感，帮助改善亚裔青少年在西方社会的形象，增强他们的自信心和归属感。 此外，AAYA还为华裔家庭提供低价甚至免费的中文、英文、数学等课程，并鼓励高中生担任助教（Junior Teachers），帮助他们在教学中更深入地理解所学知识。<br/>自2020年成立以来，AAYA于2021年正式注册为合法的501(c)(3)非营利组织，并获得了申请总统义工奖的资质。每年都有数十位热心公益的青少年和成年人通过我们的平台获得这一荣誉，彰显他们对社区服务的贡献与承诺。目前，我们的运作完全依赖家长的捐赠和义工老师们的无私奉献，欢迎社会各界的支持与帮助，助力我们的青少年社群实现更大的理想与目标，走得更远。<br/><br/>
+Asian American Youth Association (AAYA) is dedicated to providing a platform for Asian-American youth, helping them showcase their talents, develop creativity and leadership, integrate into society, and serve their community. Our current programs include: Community Service, The Giving Garden, Junior Journalist, and Young Artist. Our goal is to enhance the youth's sense of social responsibility and justice, improve the image of Asian-American youth in Western society, and boost their confidence and sense of belonging.
+In addition, AAYA offers low-cost or even free courses in Chinese, English, and Math to Chinese-American families, while encouraging high school students to serve as Junior Teachers, helping them deepen their understanding of the subjects they teach.<br/>
+Since its establishment in 2020, AAYA was officially registered as a legal 501(c)(3) nonprofit organization in 2021 and has earned the qualification to apply for the Presidential Volunteer Service Award. Every year, dozens of passionate youth and adults receive this honor through our platform, recognizing their dedication and commitment to community service. Currently, AAYA is entirely supported by donations from parents and the selfless contributions of volunteer teachers. We welcome support and assistance from all sectors of society to help our youth community achieve greater aspirations and move forward further.`,
         },
         berryfun: {
           name: 'BerryFun',
@@ -1058,7 +1062,16 @@ December 14th & 15th at Starbright Theater. See you there!`,
           sectionIndexes: [2],
           name: '古风面具',
           nameEng: 'Chinese Antique Masks',
-          checkin: false,
+          checkin: true,
+          checkinCondition: {
+            cn: `购买面具`,
+            en: `Purchase at least 1 mask`,
+          },
+          price: '$9',
+          details: {
+            cn: `可购买古风面具`,
+            en: `Chinese antique masks available for purchase`,
+          },
         },
         {
           stampIndex: 'function-3',
@@ -1396,10 +1409,6 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
                   ${enNameHTML}
                 </h2>
                 <div id="boothDetailsScrollable" style="height: 55vh;
-                    flex-wrap: wrap;
-                    align-content: center;
-                    justify-content: center;
-                    align-items: center;
                     overflow: scroll;">
                     ${priceHTML}
                   <div style="width: 100%;text-align: center;">
