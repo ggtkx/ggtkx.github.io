@@ -1033,8 +1033,8 @@ December 14th & 15th at Starbright Theater. See you there!`,
           nameEng: 'Sugar Painting 1',
           checkin: true,
           checkinCondition: {
-            cn: `完成摊位活动`,
-            en: `Complete booth activities`,
+            cn: `完成摊位活动。<br/> 注意：传统区糖画1号摊位和功能 & 赞助区糖画2号摊位视为同一个打卡。`,
+            en: `Complete booth activities. <br/> Note: Stamps of Sugar Painting 1 in Chinese Traditions and Sugar Painting 2 in Function & Sponsors count as 1 stamp.`,
           },
           price: '$6',
           includedInTicket: true,
@@ -1194,14 +1194,14 @@ Pay directly to the Vendor at the booth.`,
           },
         },
         {
-          stampIndex: 'function-10',
+          stampIndex: 'chinese-19',
           sectionIndexes: [10],
           name: '糖画2号摊位',
           nameEng: 'Sugar Painting 2',
           checkin: true,
           checkinCondition: {
-            cn: `完成摊位活动`,
-            en: `Complete booth activities`,
+            cn: `完成摊位活动。<br/> 注意：传统区糖画1号摊位和功能 & 赞助区糖画2号摊位视为同一个打卡。`,
+            en: `Complete booth activities. <br/> Note: Stamps of Sugar Painting 1 in Chinese Traditions and Sugar Painting 2 in Function & Sponsors count as 1 stamp.`,
           },
           price: '$6',
           includedInTicket: true,
@@ -2503,7 +2503,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
       <div id="qrCodePopup" class="display-none">
         <div id="qrCodePopupCloseBtn" class="btn-close">×</div>
         <h1>我的二维码</h1>
-        <p>使用的手机号：<span id="registeredPhone"></span></p>
+        <p>使用的手机号：<span id="registeredPhone"></span><br />建议保存截图</p>
         <div id="qrCodeContainer"></div>
       </div>
 
@@ -3240,6 +3240,7 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
         //   'cuisine-3',
         //   'cuisine-4',
         //   'cuisine-6',
+        //   'chinese-19',
         //   'kids-1',
         //   'kids-2',
         //   'kids-3',
@@ -3257,10 +3258,19 @@ Since its establishment in 2020, AAYA was officially registered as a legal 501(c
         collectedStamps.add(boothIndex);
         const booth = allBooths.find((booth) => booth.stampIndex === boothIndex);
 
-        const boothNameHTML = stampCards.push(`<div class="stamp-card">
+        let boothNameHTML;
+
+        if (booth.stampIndex === 'chinese-19') {
+          boothNameHTML = `<div>糖画</div>  
+            <div>Sugar Painting</div>  `;
+        } else {
+          boothNameHTML = `<div>${booth?.name}</div>  
+            <div>${booth?.nameEng && booth.nameEng !== booth?.name ? booth.nameEng : ''}</div>  `;
+        }
+
+        stampCards.push(`<div class="stamp-card">
           <div class="stamp-name">
-            <div>${booth?.name}</div>  
-            <div>${booth?.nameEng && booth.nameEng !== booth?.name ? booth.nameEng : ''}</div>  
+            ${boothNameHTML}
           </div>
           <img src="/images/2024-map/zgzglogo.png" alt="" />
         </div>`);
