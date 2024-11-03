@@ -16,7 +16,7 @@
     flex-wrap: wrap;
   }
   .call-box-top {
-    flex: 1 0 auto;
+    flex: auto;
     padding: 20px;
     @include media-breakpoint-up(md) {
     }
