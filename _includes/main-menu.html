@@ -14,7 +14,12 @@
       {% else %}
         {% if item.url %}
           <li class="{% if item.url == page.url %}active{% endif %}">
-            <a href="{{ item.url | relative_url }}" class="{% if item.call-to-action %}button{% endif %}">{{ item.name }}</a>
+            <a href="{{ item.url | relative_url }}" 
+              class="{% if item.call-to-action %}button{% endif %} {% if item.active %}inactive{% endif %}" 
+              {% if item.active == false %}style="pointer-events: none; cursor: not-allowed;"{% endif %}>
+              {{ item.name }}
+            </a>
+
           </li>
         {% else %}
           <li class="nav-item dropdown">
