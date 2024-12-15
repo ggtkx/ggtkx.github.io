@@ -18,16 +18,29 @@ bodyClass: page-home
       {% if page.intro_image %}
         <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
       {% endif %}
-      {% if page.show_image %}
+        {% if page.show_image %}
         <h2>近期演出</h2>
         <img alt={{ page.title }} class=" intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.show_image | relURL }}"/>
+        <div class="call">
+          <div class="call-box-top">
+            <div class="call-phone"><strong>时间：</strong>1月12日 3:30 PM / 7:00 PM </div>
+            <div class="call-email"><strong>地点：</strong><a href="https://maps.app.goo.gl/161tAg1Cgi7PTWbZ7">Palo Alto Art Center, CA 94303</a></div>
+          </div>
+          <div class="call-box-bottom">
+            <a href="https://www.eventbrite.com/e/1107585250299" class="primary button">购票</a>
+          </div>
+        </div>
+        <div style="margin-bottom: 20px"> </div>
+        {% endif %}
+      {% if page.show_image2 %}
+        <img alt={{ page.title }} class=" intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.show_image2 | relURL }}"/>
         <div class="call">
           <div class="call-box-top">
             <div class="call-phone"><strong>时间：</strong>1月18日 14:30 </div>
             <div class="call-email"><strong>地点：</strong><a href="https://maps.app.goo.gl/kaxC61QbFy4PSsDa6">Exit Theatre, San Francisco, CA 94102</a></div>
           </div>
           <div class="call-box-bottom">
-            <a href="https://newcomedy.eventbrite.com" class="primary button">购票</a>
+            <a href="https://forms.gle/MWVN1ktrvYYRuhHy7" class="primary button">报名</a>
           </div>
         </div>
         <div style="margin-bottom: 20px"> </div>
