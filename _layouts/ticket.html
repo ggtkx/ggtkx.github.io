@@ -1,110 +1,35 @@
 ---
 layout: default
 ---
-<div id="ticket-banner">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 mb-4 col-md-6 col-lg-6 align-self-center">
-                <h1>2022 载歌在谷春晚观众售票！</h1>
-                <span class="rainbow-letters">特别丰厚奖品等待现场幸运观众！</span> <br>
-                <img id="prize" src="https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1641534821/zgzg-io-website/20220104-red_tp4ghf.jpg">
-                <div><br>
-                    <h3>春节晚会：</h3>
-                    <p>
-                        时间：2022年1月15日周六，7pm - 10pm PST<br>
-                        地点：SJCPA，255 S Almaden Blvd, San Jose, CA<br>
-                    </p>
-                    <p><b><span id="warning" onclick="$('#faq').show()"><a href="#faq1" style="color:white">12岁及以上观众必须出示疫苗证. 详情请见FAQ.</a></span></b></p>
-                </div>
-                <div class="mt-1">
-                    <img class="float-left mr-1"
-                        src="https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/c_scale,w_100/v1637133422/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/qr_xcombb.png">
-                    <img class="float-left mr-1" id="red-packet"
-                        src="https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1639328136/zgzg-io-website/2022%E6%98%A5%E6%99%9A%E6%8B%8D%E6%91%84%E8%8A%B1%E7%B5%AE/red_r8hbwh.png">
-                    <br><b>扫描二维码</b>，备注“观众群”，一起聊春晚<br>
-                    更有<b>海量红包奖品</b>等你拿！
+<div class="hero gala-bg"></div>
+    <div class="container pt-4">
+        <div class="container">
+            <div class="home-section-header">
+                <div class="home-section-content_top">  
+                    <div class="row">
+                        <div class="col text-start">
+                            <p class="custom-text-style"> <b>Time: </b> 02/01/2025</p>
+                            <p class="custom-text-style"> <b>Location: </b> Foothill College Smithwick Theater</p>
+                            <p class="custom-text-style"> <b>Address: </b> 12345 El Monte Rd, Los Altos Hills, CA 94022</p>
+                            <p class="custom-text-style"> <b>Ticketing FAQ: </b> <a href="https://zgzg.io/gala#buy-ticket">中文</a>&nbsp;/&nbsp;<a href="https://www.zgzg.io/english#buy-ticket">English</a></p>
+                        </div>
+                        <div class="col_2">
+                            <a class="btn btn-sm btn-bg-darkened mb-1" style="min-width: 120px;" href="{{site.data.data.eventbrite_ticket_link}}">
+                                <span class="material-symbols-outlined">
+                                    confirmation_number
+                                </span>
+                                <span>Eventbrite</span>
+                            </a>
+                            <a class="btn btn-sm btn-bg-darkened mb-1" style="min-width: 120px;" href="{{site.data.data.taro_ticket_link}}">
+                                <span class="material-symbols-outlined">
+                                    confirmation_number
+                                </span>
+                                <span>Taro</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<div class="container">
-    <div class="card">
-        <div class="card-body">
-            请在下方直接购票或在
-            <a id="eventbrite"
-                href="https://www.eventbrite.com/e/2022-zaigezaigu-chinese-new-year-gala-tickets-216058214937"
-                target="_blank">Eventbrite</a> 网站购票。
-            <h4 id="faq1" onclick="toggle_faq()" style="color:#c12028"> 常见问题FAQ (点击展开)</h4>
-            <div id="faq" style="display:none;">
-                <p>问：入场需要出示疫苗卡吗？</p>
-                <p>答：根据剧场要求，12岁及以上观众必须出示完整两针疫苗证明才能入场，入场时检查ID以及疫苗证(原件，复印件，照片均可)。3岁-11岁儿童，需要出示疫苗证明或者48小时内核酸阴性证明，<b style="color:limegreen;">载歌在谷会在晚会现场提供免费核算检测</b>，无需专门准备。2岁以下婴儿不用出示任何证明。</p>
-                <p>问：观众需要戴口罩吗？</p>
-                <p>答：所有观众必须全程佩戴口罩。</p>
-                <p>问：场地座位会隔开售卖吗，还是全部售卖？</p>
-                <p>答：全部售卖，不会隔开。</p>
-                <p>问：今年门票价位如何？</p>
-                <p>答：跟往年一样，我们设置了68刀，48刀，38刀，28刀，18刀五档门票，购票时可选择在座位图上购买，选择适合您的座位。</p>
-                <p>问：门票有手续费吗？</p>
-                <p>答：我们使用Eventbrite平台售票，Eventbrite会收取大约8%的手续费，且退票时无法退还。</p>
-                <p>问：我可以退票吗？如何退票？</p>
-                <p>答：在晚会开始前7天外，即1月8号之前，您可以无条件退票，在购票确认页点击Refund即可，注意手续费无法退还。</p>
-                <p>问：单笔购票有数量限制吗？</p>
-                <p>答：没有。</p>
-                <a onclick="toggle_faq()">收起</a>
-            </div>
-        </div>
-    </div>
-    <div id="buy-button" class="button"> <a id="eventbrite"
-        href="https://www.eventbrite.com/e/2022-zaigezaigu-chinese-new-year-gala-tickets-216058214937"
-        style="color:white;" target="_blank">点击购票</a>
-    </div>
-    <div id="eb-overlay">
-        <svg id="close-overlay" onclick="overlay_off()" x="0" y="0" viewBox="0 0 24 24" xml:space="preserve">
-            <path id="cross-chunky_svg__eds-icon--cross-chunky_base"
-                d="M13.4 12l3.5-3.5-1.4-1.4-3.5 3.5-3.5-3.5-1.4 1.4 3.5 3.5-3.5 3.5 1.4 1.4 3.5-3.5 3.5 3.5 1.4-1.4z">
-            </path>
-        </svg>
-        <div id="eventbrite-widget-container" style="width:100%">
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-    <script>
-        function toggle_faq() {
-            $("#faq").toggle();
-        }
-
-        function overlay_on() {
-            window.scrollTo(0, 0);
-            document.getElementById("eb-overlay").style.display = "block";
-        }
-
-        function overlay_off() {
-            document.getElementById("eb-overlay").style.display = "none";
-        }
-
-        var exampleCallback = function () {
-            console.log('Order complete!');
-        };
-        var iframeContainerHeight;
-        iframeContainerHeight = window.innerHeight * 0.98;
-
-        window.EBWidgets.createWidget({
-            // Required
-            widgetType: 'checkout',
-            eventId: '216058214937',
-            iframeContainerId: 'eventbrite-widget-container',
-
-            // Optional
-            iframeContainerHeight: iframeContainerHeight,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-            onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-        });
-    </script>
-</div>
-
-{% include galalist.html %}
-
-{% assign sponsor_type = site.data.data-sponsor.sponsors %}
-{% include sponsor-template.html %}

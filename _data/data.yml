@@ -18,11 +18,13 @@ main:
     url: "/"
     icon: true
   - name: "TICKETS"
-    url: "https://zgzg.li/2024s-tickets"
+    url: "/ticket"
     call-to-action: true
-    active: false
+    # active: false
 
-gala_ticket_link: "https://kutt.it/2024-ticket-website"
+gala_ticket_link: "/ticket"
+eventbrite_ticket_link: "https://zgzg.li/edit/2025-ticket-website"
+taro_ticket_link: "https://zgzg.li/edit/2025-ticket-taro"
 gala_auidence_guide_link: "https://res.cloudinary.com/zaigezaigu/image/upload/v1705177126/2024_ZGZG_%E6%98%A5%E6%99%9A_%E8%A7%82%E4%BC%97%E6%89%8B%E5%86%8C_compressed_vnsnpp.pdf"
 singer_ticket_link: "https://zgzg.li/2024s-tickets"
 home_image_link: "https://res.cloudinary.com/zaigezaigu/image/upload/v1735837903/2025%E8%9B%87%E5%B9%B4%E6%98%A5%E6%99%9A%E7%BD%91%E9%A1%B5banner-1230_pktphi.jpg"
