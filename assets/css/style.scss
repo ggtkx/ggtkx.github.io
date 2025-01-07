@@ -225,7 +225,7 @@ img {
     }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
 
     #ticket-banner .container {
         background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1640497467/girls_sue1pz.png');
@@ -585,14 +585,22 @@ p.black-p {
 }
 
 .gala-bg{
-    background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1735837903/2025%E8%9B%87%E5%B9%B4%E6%98%A5%E6%99%9A%E7%BD%91%E9%A1%B5banner-1230_pktphi.jpg');
+    background-image: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1736054382/2025%E8%9B%87%E5%B9%B4%E6%98%A5%E6%99%9A%E7%BD%91%E9%A1%B5banner-1230_pktphi1_ew7yqx.png');
   
-    @media screen and (max-width: 760px) {
-      background: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1735837903/2025%E8%9B%87%E5%B9%B4%E6%98%A5%E6%99%9A%E7%BD%91%E9%A1%B5banner-1230_pktphi.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;  
+    // @media screen and (max-width: 768px) {
+    //     background: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1736201689/web_poster_0106_jujrnp.jpg');
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     background-position: center;  
+    // }
+    
+    @media screen and (min-width: 769px) and (max-width: 1800px) {
+        background: url('https://res.cloudinary.com/zaigezaigu/image/upload/v1736054196/2025%E8%9B%87%E5%B9%B4%E6%98%A5%E6%99%9A%E7%BD%91%E9%A1%B5banner-1230_pktphi2_nhiyy2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
+      
     
 }
 
@@ -635,4 +643,14 @@ a.disabled {
         }
         
     }
+}
+
+
+@media screen and (max-width: 992px) {
+#mainSponsor {
+    flex-direction: column !important;
+}
+#mainSponsor > div {
+    width: 100% !important;
+}
 }

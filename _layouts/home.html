@@ -90,10 +90,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
       {% for sponsor in level.sponsor-elements %}
-      <div class="container d-flex align-items-start">
-        <div class="flex-shrink-0" style="width: 50%;">
+      <div id="mainSponsor" class="container d-flex align-items-start">
+        <div class="flex-shrink-0 d-flex justify-content-center align-items-center" style="width: 50%;">
           <img class="img-fluid" style="width: 80%; height: auto;" src="{{sponsor.image}}" alt="{{sponsor.name}}">
         </div>
+        
         <div class="flex-grow-1 text-break" style="width: 50%;">
           <h2>{{sponsor.name}}</h2>
           <p>{{sponsor.description}}</p>
