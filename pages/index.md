@@ -2,7 +2,7 @@
 title: 硅谷脱口秀：硅谷地区汉语喜剧社团！
 layout: home
 description: 硅谷脱口秀：硅谷地区汉语喜剧社团！
-show_image2: "https://i.imgur.com/A63PeTC.jpeg"
+show_image: "https://i.imgur.com/fdexahC.jpeg"
 intro_image_absolute: true
 show_people: true
 permalink: /
