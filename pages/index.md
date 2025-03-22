@@ -9,7 +9,6 @@ events:   [
     "address": "1054 S De Anza Blvd, San Jose, CA 95129",
     "address_url": "https://maps.app.goo.gl/8zN8gmL23MHgnZNF8",
     "tickets_link": "tickets/",
-    "sort_date": "2025-03-29T19:30:00"
   },
   {
     "time": "3月30日 2:00 PM",
@@ -19,7 +18,6 @@ events:   [
     "tickets_link": "https://SFopenmic0330.eventbrite.com",
     "additional_link": "https://docs.google.com/forms/d/e/1FAIpQLScIf8bL7_QU-TgJfHZaWbNTONh8Okf3utqOFRfSXXertdaUYA/viewform",
     "additional_label": "参演",
-    "sort_date": "2025-03-30T14:00:00"
   },
   {
     "time": "4月26日 7:30 PM",
@@ -27,7 +25,6 @@ events:   [
     "address": "College of San Mateo Theatre, San Mateo, CA 94402",
     "address_url": "https://maps.app.goo.gl/XbzyJT17dBa37Hym6",
     "tickets_link": "https://spring-comedy.eventbrite.com",
-    "sort_date": "2025-04-26T19:30:00"
   }
 ]
 intro_image_absolute: true
