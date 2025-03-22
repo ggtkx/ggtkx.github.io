@@ -2,9 +2,31 @@
 title: 硅谷脱口秀：硅谷地区汉语喜剧社团！
 layout: home
 description: 硅谷脱口秀：硅谷地区汉语喜剧社团！
-show_image: "https://i.imgur.com/cNlZbtk.png"
-show_image2: "https://i.imgur.com/rMeKjg9.png"
-show_image3: "https://i.imgur.com/B5C1NW3.jpeg"
+events:   [
+  {
+    "time": "3月29日 7:30 PM",
+    "image": "https://i.imgur.com/rMeKjg9.png",
+    "address": "1054 S De Anza Blvd, San Jose, CA 95129",
+    "address_url": "https://maps.app.goo.gl/8zN8gmL23MHgnZNF8",
+    "tickets_link": "tickets/",
+  },
+  {
+    "time": "3月30日 2:00 PM",
+    "image": "https://i.imgur.com/B5C1NW3.jpeg",
+    "address": "The Function SF, 1414 Market St, San Francisco",
+    "address_url": "https://maps.app.goo.gl/2wHreKGLziQz6bwUA",
+    "tickets_link": "https://SFopenmic0330.eventbrite.com",
+    "additional_link": "https://docs.google.com/forms/d/e/1FAIpQLScIf8bL7_QU-TgJfHZaWbNTONh8Okf3utqOFRfSXXertdaUYA/viewform",
+    "additional_label": "参演",
+  },
+  {
+    "time": "4月26日 7:30 PM",
+    "image": "https://i.imgur.com/ssQzbOn.jpeg",
+    "address": "College of San Mateo Theatre, San Mateo, CA 94402",
+    "address_url": "https://maps.app.goo.gl/XbzyJT17dBa37Hym6",
+    "tickets_link": "https://spring-comedy.eventbrite.com",
+  }
+]
 intro_image_absolute: true
 show_people: true
 permalink: /
