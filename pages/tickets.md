@@ -33,8 +33,6 @@ intro_image_hide_on_mobile: true
 
 请使用以下表单购买门票。请务必多次确认**所选门票演出时间，非当天场次门票不得入内**。如果选项为空，说明该周门票已售罄。因开放麦内容限制，**禁止18岁以下未成年入场**。请您仔细阅读**上方观演规则**，购票则视为您已同意现场规则。请将您的车辆停放在**路边或者地面停车场**，**请勿进入停室内停车场**。
 
-**Sean羊王单口喜剧专场内测版购票请在开放麦票务选单中购买**
-
 <div id="miniextensions-iframe-embed-EIlQstT4R43zFOnPULWT"></div><script src="https://api.miniextensions.com/v1/iframe-embed/EIlQstT4R43zFOnPULWT.js?absoluteShareUrl=https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1"></script>
 
 票务所得不以营利为目的，仅为承担场地等成本。硅谷脱口秀由[P&Y基金会][py]承办，而[P&Y基金会][py]是一个[501(c)(3)][c3]非营利组织。为了可持续发展，还请您慷慨解囊。
