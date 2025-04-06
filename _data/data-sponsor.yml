@@ -11,28 +11,28 @@
 # These fields are referenced in sponsor-template.html.
 
 sponsor-home:
-  sponsor-levels:
-    - level-name: others
-      level-heading: 特别鸣谢
-      elements-div-style-class: col-12 col-md-6 col-lg-4 mb-5
-      sponsor-elements:
-        - name: Steve Chen
-          description: 你好！我是 Steve Chen，湾区资深房屋贷款顾问。<br>
-                        从业 16 年，我帮助超过 5500 个家庭实现了他们的购屋梦想。在 Wells Fargo，我连续 15 年荣膺“总统俱乐部”成员，个人贷款总量常年排名全美前三。<br>
-                        选择我，就是选择安心、省心、高效！<br>
-                        我和我的团队秉持专业、诚信、高效的服务理念，为客户量身定制最优贷款方案。我们熟悉中英双语文化背景，深谙湾区房地产市场，更能精准把握您的需求。<br>
-                        为什么选择 Steve Chen？这三个“S”告诉您答案：<br>
-                        • Service 服务：中英文流利，与您无障碍沟通，让整个贷款流程更轻松。<br>
-                        • Speed 效率：快速批核贷款，为您的买房竞价增添竞争力。<br>
-                        • Skills 专业：特别擅长新移民贷款、RSU Income、信用记录不足等复杂案例，帮您找到适合的解决方案。<br>
-                        我深信，每一位客户都值得最好的服务。无论您是首购族，还是被其他银行拒绝，我都能帮您找到突破口，轻松拿到满意的贷款方案。您的推荐和满意是我最大的动力！<br>
-                        如果您正在寻找一位专业、靠谱的房贷顾问，我愿成为您购屋路上的强大后盾。<br>
-                        Steve Chen - 助您安心贷款、圆梦湾区！<br>
-
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1705376327/WechatIMG324_isy3ap.jpg
-          website: https://homeloans.wellsfargo.com/mortgage/ca/sunnyvale/steve-t-chen
-          cell: (408) 805-1888
-          email: Steve.T.Chen@wellsfargo.com
+  #sponsor-levels:
+  # - level-name: others
+  #    level-heading: 特别鸣谢
+  #    elements-div-style-class: col-12 col-md-6 col-lg-4 mb-5
+  #    sponsor-elements:
+  #      - name: Steve Chen
+  #        description: 你好！我是 Steve Chen，湾区资深房屋贷款顾问。<br>
+  #                      从业 16 年，我帮助超过 5500 个家庭实现了他们的购屋梦想。在 Wells Fargo，我连续 15 年荣膺“总统俱乐部”成员，个人贷款总量常年排名全美前三。<br>
+  #                      选择我，就是选择安心、省心、高效！<br>
+  #                      我和我的团队秉持专业、诚信、高效的服务理念，为客户量身定制最优贷款方案。我们熟悉中英双语文化背景，深谙湾区房地产市场，更能精准把握您的需求。<br>
+  #                      为什么选择 Steve Chen？这三个“S”告诉您答案：<br>
+  #                      • Service 服务：中英文流利，与您无障碍沟通，让整个贷款流程更轻松。<br>
+  #                      • Speed 效率：快速批核贷款，为您的买房竞价增添竞争力。<br>
+  #                      • Skills 专业：特别擅长新移民贷款、RSU Income、信用记录不足等复杂案例，帮您找到适合的解决方案。<br>
+  #                      我深信，每一位客户都值得最好的服务。无论您是首购族，还是被其他银行拒绝，我都能帮您找到突破口，轻松拿到满意的贷款方案。您的推荐和满意是我最大的动力！<br>
+  #                      如果您正在寻找一位专业、靠谱的房贷顾问，我愿成为您购屋路上的强大后盾。<br>
+  #                      Steve Chen - 助您安心贷款、圆梦湾区！<br>
+  #
+  #        image: https://res.cloudinary.com/zaigezaigu/image/upload/v1705376327/WechatIMG324_isy3ap.jpg
+  #        website: https://homeloans.wellsfargo.com/mortgage/ca/sunnyvale/steve-t-chen
+  #        cell: (408) 805-1888
+  #        email: Steve.T.Chen@wellsfargo.com
 
 sponsors-yj-2022:
   sponsor-heading: 2022 云集赞助商
@@ -308,4 +308,3 @@ sponsors:
         - name: Uphonest
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670217981/zgzg-io-website/%E8%B5%9E%E5%8A%A9/UpHonest_Capital_pnhiyf.png
           description: UpHonest Capital威诚资本成立于2015年，由硅谷知名投资人郭威创立 ，以全球化视角 ，专注投资硅谷和中国的早期优质初创企业。成立至今，机构累计投资超过400家初创企业，30个独角兽项目。
-
