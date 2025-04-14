@@ -17,6 +17,13 @@ events:   [
     "address_url": "https://maps.app.goo.gl/jfHqXX1yb6aDYuA88",
     "tickets_link": "https://www.eventbrite.com/e/sean-tickets-1306201195939",
   },
+  {
+    "time": "5月31日 7:30 PM",
+    "image": "https://i.imgur.com/xInJ4O4.png",
+    "address": "Hillsdale Little Theater, 651 31st Avenue San Mateo, CA 94403",
+    "address_url": "https://maps.app.goo.gl/qvxrN5GwZLuWbdQi8",
+    "tickets_link": "https://yanjie.eventbrite.com",
+  },
 ]
 intro_image_absolute: true
 show_people: true
