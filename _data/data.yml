@@ -27,6 +27,9 @@ eventbrite_ticket_link: "https://zgzg.li/2025-ticket-website"
 taro_ticket_link: "https://zgzg.li/2025-ticket-taro"
 gala_auidence_guide_link: "https://drive.google.com/file/d/1UR1OrsDq6ijATcHJMQc8YbqgP3plsa9R/view?usp=sharing"
 singer_ticket_link: "https://zgzg.li/2024s-tickets"
+2025s_prelim_ticket_link: "https://zgzg.li/2025s-prelim-tickets"
+2025s_ticket_link: "https://zgzg.li/2025s-tickets"
+2025s_youth_ticket_link: "https://zgzg.li/2025s-youth-tickets"
 home_image_link: "https://res.cloudinary.com/zaigezaigu/image/upload/v1736054382/2025%E8%9B%87%E5%B9%B4%E6%98%A5%E6%99%9A%E7%BD%91%E9%A1%B5banner-1230_pktphi1_ew7yqx.png"
 gala_stream_link: "https://www.youtube.com/embed/76kZnnX66ac?si=PyglxFfcxzba_F57"
 gala_sponsor_img: "https://res.cloudinary.com/zaigezaigu/image/upload/v1737920698/%E8%B5%9E%E5%8A%A9%E5%95%86%E9%95%BF%E5%9B%BE0126_fgz6dr.jpg"
@@ -532,6 +535,156 @@ galalist:
     description: 诚怀着无穷无尽力量的信仰，持着真诚朝拜路上的人儿。 双手高举合十，道声“扎西德勒”。
 
 singerlist:
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561861/zgzg-io-website/2024singer/heyuan_ipzzfq.jpg
+    name: 河源
+    description: 我是何源，喜欢唱歌写歌。很开心跟大家分享我的音乐。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561861/zgzg-io-website/2024singer/dingmeng_duavrc.jpg
+    name: 丁梦
+    description: 大家好我是丁梦，一个处女座的ENTP。我喜欢各种类型的音乐，是Adam Lambert 12年的老粉。生活中可盐可甜，可攻可受，但本体永远是个失去表情管理的逗逼。我相信，听从内心的声音，脚下就是诗和远方。希望决赛大家都能唱的开心，听的尽兴！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561890/zgzg-io-website/2024singer/hylas_rfnqi9.jpg
+    name: Hylas
+    description: 大家好我是Hylas。认识我的朋友都知道我有一只非常可爱的小狗，是我最宝贝的女儿。带着她去各个国家旅行，跑沙滩，走土路，滚草坪，是我最幸福的事。为了她我也换成了远程工作。我从很多年前就开始在网络上唱歌，这个爱好也保持到了现在。通过唱歌App学了很多新歌，也让我接触到了更多的曲风。很开心今年第二次来到这里，希望可以在这个舞台认识更多好朋友，分享音乐
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561862/zgzg-io-website/2024singer/zhangjinyuan_zyb1ju.jpg
+    name: 张金源
+    description: 哈喽，我是金源，朋友们喜欢叫我小源哥，平平无奇的科技大厂打工人、即将（估计也没那么快）上线原创单曲的业余唱作人、每年都换新曲风的叛逆歌手，毕竟不唱情歌的摇滚主唱不是好rapper
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561862/zgzg-io-website/2024singer/lanlan_kyrgze.jpg
+    name: 兰兰
+    description: 大家好，我是兰兰，是乐队Blankhead的主唱。音乐对我来说，不仅仅是声音的组合，更是一种独特的情感表达方式。它能带给我源源不断的快乐，让我体验到各种丰富的情绪和感受。我特别喜爱那些充满节奏感的歌曲，尤其钟情于欧美风格的音乐。在这些动感的旋律中，我不仅能够与我们乐队的成员尽情地歌唱，还可以与我舞团的朋友们一起随音乐起舞。我希望通过我的歌声，能够传递出快乐和活力，带给大家能量。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561861/zgzg-io-website/2024singer/xupeipei_aaxzga.jpg
+    name: 徐珮珮
+    description: 大家好，我是Peipei，一个在浴室里开了无数次演唱会的资深“歌手”，今天终于从浴室走向了舞台。敬请期待🫡
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561862/zgzg-io-website/2024singer/arielbao_iwn5wk.jpg
+    name: Ariel Bao
+    description: 大家好，我是Ariel。我来自杭州，现在在湾区做软件工程师。大学时期辅修古典声乐，也非常喜欢音乐剧和流行歌曲。非常荣幸参与歌手赛和分享我喜欢的音乐。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561861/zgzg-io-website/2024singer/tianlinduan_nxkcj0.jpg
+    name: Tianlin Duan
+    description: 哈喽大家好，我是Tianlin。很开心能站上歌手赛决赛的舞台，期待探索更多曲风，享受舞台，开发“无限可能”！决赛见～
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561862/zgzg-io-website/2024singer/zhouyu_s57msh.jpg
+    name: 周遇
+    description: 一个说唱爱好者，网易云搜索“周遇”可以找到我的主页，欢迎来玩✌️如果你也是哈利波特粉/金庸粉/UIUC毕业生，或许我的主页会有你觉得有趣的东西。业余喜欢和朋友一起做old-school说唱，近几年也有在接触new school的东西。可以说是Eminem、NF、王以太、Jony J和红花会的头号脑残粉🤣。计划不定期扛着音响去街头演出，感兴趣一起的朋友欢迎私信滴滴我(微信：Mg_schizo)
+
+2025s-youth-singerlist:
+  - image:
+    name: 张韶杭
+    description:
+  - image:
+    name: Anastasia Min
+    description:
+  - image:
+    name: Ivy Deng
+    description:
+  - image:
+    name: Isabella Zhu
+    description:
+  - image:
+    name: Julia Jiang
+    description:
+  - image:
+    name: Brian Xie
+    description:
+  - image:
+    name: Elena He
+    description:
+  - image:
+    name: Rosie Cao
+    description:
+  - image:
+    name: Ginnie Tang
+    description:
+  - image:
+    name: Maureen Liu
+    description:
+  - image:
+    name: 曾博欣
+    description:
+  - image:
+    name: 吴飞碧
+    description:
+  - image:
+    name:
+    description:
+  - image:
+    name:
+    description:
+  - image:
+    name:
+    description:
+  - image:
+    name:
+    description:
+  - image:
+    name:
+    description:
+  - image:
+    name:
+    description:
+
+2025s-prelim-singerlist:
+  - image:
+    name: 金沐阳
+    description:
+  - image:
+    name: Maogeng Qin
+    description:
+  - image:
+    name: Yichi Dang
+    description:
+  - image:
+    name: 快乐傻狗
+    description:
+  - image:
+    name: Yvonne Leung
+    description:
+  - image:
+    name: Ka Wing Li
+    description:
+  - image:
+    name: 王张广露
+    description:
+  - image:
+    name: yAya
+    description:
+  - image:
+    name: Wenyi Cui
+    description:
+  - image:
+    name: 徐海平
+    description:
+  - image:
+    name: Jeffrey Jiang
+    description:
+  - image:
+    name: Yangyi Chen
+    description:
+  - image:
+    name: 张玉弦
+    description:
+  - image:
+    name: Libby
+    description:
+  - image:
+    name: 包容
+    description:
+  - image:
+    name: 董治平
+    description:
+  - image:
+    name: 徐清扬
+    description:
+  - image:
+    name: Yayi Li
+    description:
+  - image:
+    name: Catherine Tran
+    description:
+  - image:
+    name: Sophia Dai
+    description:
+  - image:
+    name: 顾亦滢
+    description:
+
+2025s-singerlist:
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718561861/zgzg-io-website/2024singer/heyuan_ipzzfq.jpg
     name: 河源
     description: 我是何源，喜欢唱歌写歌。很开心跟大家分享我的音乐。
