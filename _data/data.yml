@@ -18,11 +18,12 @@ main:
     url: "/"
     icon: true
   - name: "TICKETS"
-    url: "/ticket"
+    url: "/ticket/singer-ticket"
     call-to-action: true
-    # active: false
+    active: true
 
-gala_ticket_link: "/ticket"
+gala_ticket_link: "/ticket/gala-ticket"
+singer_ticket_link: "/ticket/singer-ticket"
 eventbrite_ticket_link: "https://zgzg.li/2025-ticket-website"
 taro_ticket_link: "https://zgzg.li/2025-ticket-taro"
 gala_auidence_guide_link: "https://drive.google.com/file/d/1UR1OrsDq6ijATcHJMQc8YbqgP3plsa9R/view?usp=sharing"
