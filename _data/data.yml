@@ -23,7 +23,6 @@ main:
     active: true
 
 gala_ticket_link: "/ticket/gala-ticket"
-singer_ticket_link: "/ticket/singer-ticket"
 eventbrite_ticket_link: "https://zgzg.li/2025-ticket-website"
 taro_ticket_link: "https://zgzg.li/2025-ticket-taro"
 gala_auidence_guide_link: "https://drive.google.com/file/d/1UR1OrsDq6ijATcHJMQc8YbqgP3plsa9R/view?usp=sharing"
@@ -565,60 +564,66 @@ singerlist:
     description: 一个说唱爱好者，网易云搜索“周遇”可以找到我的主页，欢迎来玩✌️如果你也是哈利波特粉/金庸粉/UIUC毕业生，或许我的主页会有你觉得有趣的东西。业余喜欢和朋友一起做old-school说唱，近几年也有在接触new school的东西。可以说是Eminem、NF、王以太、Jony J和红花会的头号脑残粉🤣。计划不定期扛着音响去街头演出，感兴趣一起的朋友欢迎私信滴滴我(微信：Mg_schizo)
 
 2025s-youth-singerlist:
-  - image:
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746344655/zgzg-io-website/2025%20singers/Sean_Zhang_Wide_q5u2hy.jpg
     name: 张韶杭
-    description:
-  - image:
+    description: 张韶杭(Sean Zhang)就读于 John Muir Elementary School 5th Grade，性格开朗温和，喜欢交朋友，和同学们一起玩。他喜欢唱歌，也擅长钢琴演奏，参加过湾区多次声乐比赛并获得名次。他也喜欢数学和写作，创作fan book小说，日常还参加了篮球训练，并且通过了武术蓝绿带考级。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746344035/zgzg-io-website/2025%20singers/Anastasia_Miin_Wide_e1qhnn.jpg
     name: Anastasia Min
-    description:
-  - image:
+    description: Anastasia is a 14 years old 9th grade student from California. She began her vocal study at the age 7 and since then has participated in a variety of choirs and solo competitions. Anastasia has placed top 3 at NATS Western Region, first place in NATs SF, VOCE State, USIMC, and other competitions. Besides singing, Anastasia also plays the piano and enjoys Kpop dance classes during her free time.
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746344166/zgzg-io-website/2025%20singers/Ivy_Deng_Wide_yhulea.jpg
     name: Ivy Deng
-    description:
-  - image:
+    description: Ivy. 10岁. 酷爱唱歌表演. 旧金山音乐学院预科声乐系新生. 独唱演出代表作:载歌在谷舞台 (2025春季/2024秋季&冬季音乐会, 2024春晚, 2023秋季游园会), 2025 Sunnyvale 新春游园会. 比赛获奖:一等奖 (Charleston, BACH BIMC, NCYT), 二等奖 (American Protégé, 卡内基音乐厅获奖者音乐会). 音乐剧主演Nemo (@Spindrift).
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746345124/zgzg-io-website/2025%20singers/Zhu_Yunxi_Wide_hrkxcm.jpg
     name: Isabella Zhu
-    description:
-  - image:
+    description: Isabella Zhu (朱芸溪），14岁，喜欢唱歌和音乐剧表演。10岁开始学习声乐演唱，在学校以及多个活动演唱，并参演过多个音乐剧且担任主要角色。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746344297/zgzg-io-website/2025%20singers/Julia_Jiang_Wide_ob28fw.jpg
     name: Julia Jiang
-    description:
-  - image:
+    description: Julia，今年8岁，是一名三年级的小学生。她活泼开朗，热爱唱歌、跳舞和弹钢琴，是个多才多艺的小女孩。舞台是她最喜欢的地方，每一次表演她都全情投入。这次能站上唱歌比赛的决赛舞台，她非常开心，也希望用歌声把快乐带给大家！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746344413/zgzg-io-website/2025%20singers/Brian_Xie_Wide_csq7gy.jpg
     name: Brian Xie
-    description:
-  - image:
+    description: 大家好，我是Brian！从小我就热爱唱歌，因为歌声能带给我无尽的快乐。6岁时，我开始正式学习声乐，8岁时通过了英皇声乐三级考试，并在NATS音乐剧比赛中荣获组别第二名。这些经历让我在学习声乐技巧和探索新曲目时更加充满热情与动力。希望我的歌声也能为大家带来快乐与感动！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746344745/zgzg-io-website/2025%20singers/He_Zixi_Wide_ch0lnm.jpg
     name: Elena He
-    description:
-  - image:
+    description: 大家好！我是5岁的何梓熙 (Elena). 我喜欢迪士尼公主的梦幻世界，也喜欢跟着其他动感旋律摇摆。 我会把幼儿园的操场变成我的舞台，把家里的沙发当成观众席，随时随地大声地歌唱。我希望用我的歌声把美妙的小彩虹送给每个人。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746344570/zgzg-io-website/2025%20singers/Rosie_Cao_Wide_q95deb.jpg
     name: Rosie Cao
-    description:
-  - image:
+    description: My name is Rosie, and I’m born in Atlanta GA and grew up in Michigan. Now I’m 12 years old and a 7th grader in Michigan. I started piano at age 5 and violin at age 7. At the same time, I love singing, both English songs and Chinese songs! I’m grateful that my parents and sister can come with me to support me. I hope you will enjoy my performance!
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746345560/zgzg-io-website/2025%20singers/Ginnie_Tang_Wide_okej4g.jpg
     name: Ginnie Tang
-    description:
-  - image:
+    description: 唐茹婳(Ginnie Tang)，15岁，现就读于Independence high九年级。出生于上海，两岁时来到硅谷。茹婳从小喜欢唱歌，曾是福智合唱团和晶晶合唱团成员。作为福智青少年班成员，茹婳经常和伙伴们参与各种慈善活动，例如到老人院为老人们演唱和做饭。她每年都参加学校的音乐剧演出，曾在《Chocolate Factory》中饰演Charlie, 在《Little Mermaid》中饰演Ariel。在今年的全美中文学校联合会举办的中文歌曲比赛中获得青少年组第一名。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746344496/zgzg-io-website/2025%20singers/Maureen_Liu_Wide_p8oom6.jpg
     name: Maureen Liu
-    description:
-  - image:
+    description: 大家好！我是Maureen (晓晓）Liu，一个爱笑爱唱的阳光女孩！我喜欢唱歌，手工和花样游泳，每周训练让我学会了坚持与团队合作。音乐是我的快乐源泉，从儿童歌曲到流行曲，从中文歌到英文歌我都爱哼唱，站在舞台上用歌声传递快乐是我的梦想！希望能把这份热爱唱给你们听，请多多支持哦～谢谢！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746345688/zgzg-io-website/2025%20singers/Zeng_Boxin_Wide_rtovut.jpg
     name: 曾博欣
-    description:
-  - image:
+    description: 曾博欣，8月的阳光女孩，带着对世界的好奇心快乐的成长。她是人见人爱的开心果，既能在音乐世界里自在徜徉，用清亮歌喉唱响童真，又像永不停歇的小探险家，总在观察思考中抛出其妙的问题。钢琴键上跃动的指尖、书本里专注的眼神、运动场上不服输的倔强、都在讲述这个女孩用热爱浇灌梦想、在挑战中不断突破自我成长的故事。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746403121/zgzg-io-website/2025%20singers/Wu_Feibi_Wide_i7by8z.jpg
     name: 吴飞碧
-    description:
-  - image:
-    name:
-    description:
-  - image:
-    name:
-    description:
-  - image:
-    name:
-    description:
-  - image:
-    name:
-    description:
-  - image:
-    name:
-    description:
-  - image:
-    name:
-    description:
+    description: 吴飞碧（Phoebe Wagner) 是一位来自加州山景城的12岁歌手、词曲创作者和表演者。她一直学习声乐和小提琴，曾与 iSing 女声合唱团以及包括Palo Alto Players 在内的湾区多家剧团合作演出。她参与过多部音乐剧，担任过主演和配角，包括《冰雪奇缘少儿版》、《音乐之声》和《查理和巧克力工厂少儿版》等。Phoebe 也喜欢创作原创音乐和诗歌。她的一首原创诗歌曾获得 Inklings 图书比赛的奖项，她的作品灵感多来自生活中的故事与情感。在舞台之外，她也展现出领导力——曾亲自策划并带领邻里孩子们举办了一周的夏令营，结合创意、组织能力和她对分享的热情。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746343882/zgzg-io-website/2025%20singers/Alicia_Chen_Wide_psca7s.jpg
+    name: Alicia Chen
+    description: Hello, my name is Alicia Chen. I'm 14 years old this year and currently in 9th grade. Singing is one of my favorite things to do, and I have been singing since I was 4 years old. My favorite singers are Selena Gomez and Rosé. Some of my other hobbies are dancing and playing the piano. Through this competition, I hope that I can develop lots of new friendships and have a great experience.
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746345368/zgzg-io-website/2025%20singers/Cindy_Peng_Wide_vmxtzq.jpg
+    name: Cindy Peng
+    description: 我是来自K班的Cindy Peng！从小“我”就是个"小戏精"，最爱跟着爸爸的钢琴又唱又跳，把客厅当成“我”的专属舞台。每年最盼望的就是春节，因为可以一遍遍看春晚学表演！3岁开始，“我”就和爸爸在社区图书馆音乐会演出，现在已经是个拥有15次舞台经验的"小演员"啦！这次载歌载谷的舞台，“我”要把这份快乐传递给在场的每一位大朋友小朋友！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746345255/zgzg-io-website/2025%20singers/Shen_Huaiyu_Wide_efnh4z.jpg
+    name: 沈淮玙
+    description: 我叫沈淮玙，是一个在家里无时无刻都要哼两首歌的人。我的偶像是单依纯！她给我带来了非常大的影响，让我一个小i人变得想要站在舞台上，表现一下自己。所以我很感谢有这次比赛的机会。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746401881/zgzg-io-website/2025%20singers/Li_Zhengmo_Wide_mcdx36.jpg
+    name: 李正墨
+    description: 李正墨是一个阳光开朗的10岁女孩，歌声大气嘹亮，舞姿灵动。她从小热爱舞台，多次在本地少儿歌唱比赛中取得好成绩，用大气的嗓音演绎喜欢的歌曲。无论是比赛还是表演，她总是自信地展现歌舞才华，用表演传递快乐与活力。未来，她希望站上更大的舞台，用歌声与舞蹈点亮更多人的梦想！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746402215/zgzg-io-website/2025%20singers/Li_Zhengmo_Li_Zhengyan_Wide_qwsyf3.jpg
+    name: 李正墨&李正言
+    description: 李正墨和李正言是一对活泼可爱的10岁双胞胎姐妹，凭借大气嘹亮的嗓音和默契的配合，成为备受喜爱的小歌手组合。她们曾多次登台表演，以纯净的歌声和治愈的笑容打动观众。此次，姐妹俩将深情演唱《是妈妈是女儿》，用童真诠释亲情的温暖，传递母女间最真挚的爱。期待她们用天籁之音，再次带来感动与惊喜！
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746402596/zgzg-io-website/2025%20singers/Ella_Tang_Wide_nok3qp.jpg
+    name: Ella Tang
+    description: 大家好，我是Ella，我今年四岁。我喜欢唱歌、钢琴、画画、体操，虽然平时有点小害羞，但一唱起歌就开心得不得了！这是我第一次一个人上台，希望大家喜欢我的表演。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746345470/zgzg-io-website/2025%20singers/Mia_Wang_Wide_oyjvjr.jpg
+    name: Mia Wang
+    description: 我的名字叫Mia Wang。今年13岁。我喜欢唱歌，特别是中国歌曲，跳kpop和打排球。
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746344973/zgzg-io-website/2025%20singers/Peng_Suxin_Wide_ngtaj8.jpg
+    name: 彭素心
+    description: 我叫彭素心，8岁，是St Andrews Episcopal School小学二年级的学生，从小喜欢就唱歌。在吴树德老师指导的天使合唱团和小朋友们一起把古诗词唱给大家。
 
 2025s-prelim-singerlist:
   - image:
