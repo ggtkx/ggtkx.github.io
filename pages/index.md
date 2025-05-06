@@ -4,10 +4,17 @@ layout: home
 description: 硅谷脱口秀：硅谷地区汉语喜剧社团！
 events:   [
   {
+    "time": "5月17日 8:00 PM",
+    "image": "https://i.imgur.com/ATRuZaI.jpeg",
+    "address": "1054 S De Anza Blvd, San Jose, CA 95129",
+    "address_url": "https://maps.app.goo.gl/m6bg3Kz1PpEDGRjf8",
+    "tickets_link": "https://newjokefest.eventbrite.com",
+  },
+  {
     "time": "5月18日 3:30 PM",
     "image": "https://i.imgur.com/gkqiOhA.jpeg",
     "address": "1054 S De Anza Blvd, San Jose, CA 95129",
-    "address_url": "https://maps.app.goo.gl/j3Vim3SQE4z9UTVP6",
+    "address_url": "https://maps.app.goo.gl/m6bg3Kz1PpEDGRjf8",
     "tickets_link": "https://www.eventbrite.com/e/comedy-show-film-pre-screening-tickets-1343429797689",
   },
   {
