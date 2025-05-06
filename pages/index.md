@@ -8,7 +8,7 @@ events:   [
     "image": "https://i.imgur.com/ATRuZaI.jpeg",
     "address": "1054 S De Anza Blvd, San Jose, CA 95129",
     "address_url": "https://maps.app.goo.gl/j3Vim3SQE4z9UTVP6",
-    "tickets_link": "购票链接：https://newjokefest.eventbrite.com",
+    "tickets_link": "https://newjokefest.eventbrite.com",
   },
   {
     "time": "5月18日 3:30 PM",
