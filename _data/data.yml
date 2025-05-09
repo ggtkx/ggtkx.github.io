@@ -27,9 +27,9 @@ eventbrite_ticket_link: "https://zgzg.li/2025-ticket-website"
 taro_ticket_link: "https://zgzg.li/2025-ticket-taro"
 gala_auidence_guide_link: "https://drive.google.com/file/d/1UR1OrsDq6ijATcHJMQc8YbqgP3plsa9R/view?usp=sharing"
 singer_ticket_link: "https://zgzg.li/2024s-tickets"
-2025s_prelim_ticket_link: "https://zgzg.li/2025s-prelim-tickets"
-2025s_ticket_link: "https://zgzg.li/2025s-tickets"
-2025s_youth_ticket_link: "https://zgzg.li/2025s-youth-tickets"
+2025s_prelim_ticket_link: "https://zgzg.li/2025s-prelim-ticket"
+2025s_ticket_link: "https://zgzg.li/2025s-ticket"
+2025s_youth_ticket_link: "https://zgzg.li/2025s-youth-ticket"
 home_image_link: "https://res.cloudinary.com/zaigezaigu/image/upload/v1736054382/2025%E8%9B%87%E5%B9%B4%E6%98%A5%E6%99%9A%E7%BD%91%E9%A1%B5banner-1230_pktphi1_ew7yqx.png"
 gala_stream_link: "https://www.youtube.com/embed/76kZnnX66ac?si=PyglxFfcxzba_F57"
 gala_sponsor_img: "https://res.cloudinary.com/zaigezaigu/image/upload/v1737920698/%E8%B5%9E%E5%8A%A9%E5%95%86%E9%95%BF%E5%9B%BE0126_fgz6dr.jpg"
@@ -568,7 +568,7 @@ singerlist:
     name: 张韶杭
     description: 张韶杭(Sean Zhang)就读于 John Muir Elementary School 5th Grade，性格开朗温和，喜欢交朋友，和同学们一起玩。他喜欢唱歌，也擅长钢琴演奏，参加过湾区多次声乐比赛并获得名次。他也喜欢数学和写作，创作fan book小说，日常还参加了篮球训练，并且通过了武术蓝绿带考级。
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746344035/zgzg-io-website/2025%20singers/Anastasia_Miin_Wide_e1qhnn.jpg
-    name: Anastasia Min
+    name: Anastasia Miin
     description: Anastasia is a 14 years old 9th grade student from California. She began her vocal study at the age 7 and since then has participated in a variety of choirs and solo competitions. Anastasia has placed top 3 at NATS Western Region, first place in NATs SF, VOCE State, USIMC, and other competitions. Besides singing, Anastasia also plays the piano and enjoys Kpop dance classes during her free time.
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746344166/zgzg-io-website/2025%20singers/Ivy_Deng_Wide_yhulea.jpg
     name: Ivy Deng
@@ -603,7 +603,7 @@ singerlist:
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746343882/zgzg-io-website/2025%20singers/Alicia_Chen_Wide_psca7s.jpg
     name: Alicia Chen
     description: Hello, my name is Alicia Chen. I'm 14 years old this year and currently in 9th grade. Singing is one of my favorite things to do, and I have been singing since I was 4 years old. My favorite singers are Selena Gomez and Rosé. Some of my other hobbies are dancing and playing the piano. Through this competition, I hope that I can develop lots of new friendships and have a great experience.
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746345368/zgzg-io-website/2025%20singers/Cindy_Peng_Wide_vmxtzq.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746777682/zgzg-io-website/2025%20singers/Cindy_Peng_Wide_New_lcbgyv.jpg
     name: Cindy Peng
     description: 我是来自K班的Cindy Peng！从小“我”就是个"小戏精"，最爱跟着爸爸的钢琴又唱又跳，把客厅当成“我”的专属舞台。每年最盼望的就是春节，因为可以一遍遍看春晚学表演！3岁开始，“我”就和爸爸在社区图书馆音乐会演出，现在已经是个拥有15次舞台经验的"小演员"啦！这次载歌载谷的舞台，“我”要把这份快乐传递给在场的每一位大朋友小朋友！
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1746345255/zgzg-io-website/2025%20singers/Shen_Huaiyu_Wide_efnh4z.jpg
