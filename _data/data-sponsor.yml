@@ -68,7 +68,7 @@ sponsors-singer:
 
     - level-name: gold
       level-heading: 黄金赞助
-      elements-div-style-class: col-6 col-lg-3 mb-1
+      elements-div-style-class: col-sm-12 col-md-6 col-lg-4 col-xl-2 mb-1
       sponsor-elements:
       - name: Steve Chen
         image: https://res.cloudinary.com/zaigezaigu/image/upload/v1705376327/WechatIMG324_isy3ap.jpg
@@ -87,22 +87,15 @@ sponsors-singer:
         description: Highmark Solution Inc. 是一家专注于数据战略咨询和商业分析的专业公司，主要业务覆盖以下几个方面：为美国各大企业提供数据战略咨询服务，帮助客户制定和实施有效的数据驱动战略，提升业务决策能力和市场竞争力。提供全面的商业分析服务，包括数据挖掘、预测分析、客户细分、市场分析等，帮助企业深度挖掘数据价值，优化运营和提升效益。与Stanford、UCLA、UC Irvine、University of Washington）、加州科技大学等顶尖学府合作，提供商业数据科学和金融工程研究生课程的教学和培训服务，致力于培养下一代数据科学和金融工程领域的专业人才。我们的团队由经验丰富的数据科学家、商业分析师和教育专家组成，致力于为客户提供最前沿的技术和最优质的服务，推动数据驱动决策和创新。联系方式：peterhonglou@ucla.edu, peterlou.wellsfargo@gmail.com
     - level-name: media
       level-heading: 媒体互宣
-      elements-div-style-class: col-6 col-lg-3 mb-1
+      elements-div-style-class: col-sm-12 col-md-6 col-lg-4 col-xl-2 mb-1
       sponsor-elements:
-        - name: 素人剧社
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718563887/%E7%B4%A0%E4%BA%BA%E5%89%A7%E7%A4%BE_seflbz.png
-          description: 素人剧社于2021年9月由中央戏剧学院的三位校友在旧金山湾区创立，是活跃于湾区最专业的中文话剧社。 我们相信戏剧既是生活的延伸，亦是自我的镜子，在日常之外，有一隅世界值得寄情与探索。 有一种感动，只在剧场发生！
-        - name: 红叶故事
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718563888/%E7%BA%A2%E5%8F%B6%E6%95%85%E4%BA%8B_ujyock.png
-          description: 红叶故事网由几位谷歌软件工程师创建，是北美华人交友的后起之秀。精确的地理位置的搜索，用户之间相互评分，系统自动匹配等是网站几个比较有特色的功能。
+  
     - level-name: others
       level-heading: 其他赞助
       elements-div-style-id: last-row-partners
-      elements-div-style-class: col-6 col-lg-3 mb-1
+      elements-div-style-class: col-sm-12 col-md-6 col-lg-4 col-xl-2 mb-1
       sponsor-elements:
-        - name: Ms Sister 婚纱
-          image: https://res.cloudinary.com/zaigezaigu/image/upload/v1718564071/ms_sister_logo1_zy7bce.webp
-          description: MS. SISTER features contemporary and traditional wedding gowns and bridesmaid dresses representing over 10 outstanding American bridal designers and famous Chinese bridal designers.
+
 
 sponsors-tour:
   sponsor-levels:
@@ -231,7 +224,7 @@ sponsors:
 
     - level-name: platinum
       level-heading: 白金赞助
-      elements-div-style-class: col-6 col-lg-3 mb-1
+      elements-div-style-class: col-6 mb-1
       sponsor-elements:
         - name: Ivy Zhang & Anna Duan Realty Team
           image: /images/ivy_anna.svg
@@ -255,7 +248,7 @@ sponsors:
 
     - level-name: gold
       level-heading: 金牌赞助
-      elements-div-style-class: col-6 col-lg-3 mb-1
+      elements-div-style-class: col-sm-12 col-md-6 col-lg-4 mb-1
       sponsor-elements:
         - name: 红叶故事
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670217975/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E7%BA%A2%E5%8F%B6%E6%95%85%E4%BA%8B_ykfnpr.png
@@ -275,7 +268,7 @@ sponsors:
 
     - level-name: food
       level-heading: 餐饮赞助
-      elements-div-style-class: col-12 col-md-6 col-lg-3 mb-5
+      elements-div-style-class: col-sm-12 col-md-6 col-lg-4 mb-1
       sponsor-elements:
         - name: helion 一番膳意
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1670480731/zgzg-io-website/%E8%B5%9E%E5%8A%A9/helion%E4%B8%80%E7%95%AA%E8%86%B3%E6%84%8F_vfky2d.png
@@ -284,7 +277,7 @@ sponsors:
     - level-name: media
       level-heading: 媒体合作
       elements-div-style-id: last-row-partners
-      elements-div-style-class: col-4 col-lg-3 mb-1
+      elements-div-style-class: col-sm-12 col-md-6 col-lg-4 mb-1
       sponsor-elements:
         - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671074829/zgzg-io-website/%E8%B5%9E%E5%8A%A9/%E7%A1%85%E6%98%9F%E4%BA%BA_logo_vkv2lk.png
         - image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671775305/zgzg-io-website/%E8%B5%9E%E5%8A%A9/USChitu_Logo_nbfecq.jpg
@@ -299,7 +292,7 @@ sponsors:
 
     - level-name: others
       level-heading: 合作伙伴
-      elements-div-style-class: col-12 col-md-6 col-lg-3 mb-5
+      elements-div-style-class: col-sm-12 col-md-6 col-lg-4 mb-1
       sponsor-elements:
         - name: 528 剧本杀
           image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1671776441/zgzg-io-website/%E8%B5%9E%E5%8A%A9/528_pic_th9pja.png

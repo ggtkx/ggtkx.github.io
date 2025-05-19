@@ -45,7 +45,6 @@ layout: default
 <div class="container">
     <div class="row">
         <div class="col">
-            <!-- Tab links -->
             <div class="tab">
                 <button class="tab-links default-open" onclick="openTab(event)" data-tab-group="main" data-tab-id="2025s-youth-singer-list">青少年组决赛</button>
                 <button class="tab-links" onclick="openTab(event)" data-tab-group="main" data-tab-id="2025s-prelim-singer-list">成人组复赛</button>
@@ -54,7 +53,6 @@ layout: default
     </div>
     <div class="row">
         <div class="col">
-            <!-- Tab content -->
             <div id="2025s-youth-singer-list" class="tab-content">
                 <div id="galalist-space">
                     <div class="container">
@@ -79,4 +77,10 @@ layout: default
             </div>
         </div>
     </div>
+</div>
+
+
+<div class="container">
+    {% assign sponsor_type = site.data.data-sponsor.sponsors-singer %}
+    {% include sponsor-template.html %}
 </div>
