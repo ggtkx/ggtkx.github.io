@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        {% if sponsor_level.level-name == "food" or sponsor_level.level-name == "others" %}
+        {% if sponsor_level.level-name == "food" or sponsor_level.level-name == "others" or sponsor_level.level-name == "gold"%}
             <div class="row">
                 {% for sponsor_e in sponsor_level.sponsor-elements %}
                     <div id="{{sponsor_level.elements-div-style-id}}" class="{{sponsor_level.elements-div-style-class}}">
