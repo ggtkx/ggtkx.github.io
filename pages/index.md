@@ -4,20 +4,6 @@ layout: home
 description: 硅谷脱口秀：硅谷地区汉语喜剧社团！
 events:   [
   {
-    "time": "5月24日 8:00 PM",
-    "image": "https://i.imgur.com/Q40PV6F.png",
-    "address": "Cubberley Community Center, Palo Alto, CA 94303",
-    "address_url": "https://maps.app.goo.gl/jfHqXX1yb6aDYuA88",
-    "tickets_link": "https://www.eventbrite.com/e/sean-tickets-1306201195939",
-  },
-  {
-    "time": "5月31日 7:30 PM",
-    "image": "https://i.imgur.com/xInJ4O4.png",
-    "address": "Hillsdale Little Theater, 651 31st Avenue San Mateo, CA 94403",
-    "address_url": "https://maps.app.goo.gl/qvxrN5GwZLuWbdQi8",
-    "tickets_link": "https://yanjie.eventbrite.com",
-  },
-  {
     "time": "6月28日 7:30 PM",
     "image": "https://i.imgur.com/dbZfL0u.jpeg",
     "address": "Musical Recital Hall Center of Performing Arts, Santa Clara, CA 95050",
