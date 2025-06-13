@@ -10,6 +10,20 @@ events:   [
     "address_url": "https://maps.app.goo.gl/jqBXXvM7gDxr7Xtu5",
     "tickets_link": "https://silicomedy-yueyue.eventbrite.com",
   },
+  {
+    "time": "7月19日 7:00 PM",
+    "image": "https://i.imgur.com/iHdUooS.jpeg",
+    "address": "Sunnyvale Theatre, 550 E Remington Dr, Sunnyvale, CA",
+    "address_url": "https://maps.app.goo.gl/n8NfuQBofwf1WEoK8",
+    "tickets_link": "https://FUNsunnyvale.eventbrite.com",
+  },
+  {
+    "time": "7月20日 3:00 PM",
+    "image": "https://i.imgur.com/pu1nPbH.jpeg",
+    "address": "College of San Mateo Theatre, Music, 1700 W Hillsdale Blvd, San Mateo, CA",
+    "address_url": "https://maps.app.goo.gl/D4sRf1YrgTnYqm8Y6",
+    "tickets_link": "https://FUNSanMateo.eventbrite.com",
+  },
 ]
 intro_image_absolute: true
 show_people: true
