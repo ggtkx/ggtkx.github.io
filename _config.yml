@@ -25,6 +25,9 @@ collections:
   - gala_positions
   - tour_positions
   - yj_positions
+  - board:
+      output: true
+      permalink: /board/:name/
 
 sass:
   indentWidth: 4
