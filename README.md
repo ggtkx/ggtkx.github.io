@@ -4,8 +4,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c7624c6e88564a0988cb2a0dd82ebd85)](https://www.codacy.com/gh/zgzgorg/yj.zgzg.io/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zgzgorg/yj.zgzg.io&amp;utm_campaign=Badge_Grade)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/zgzgorg/yj.zgzg.io/main.svg)](https://results.pre-commit.ci/latest/github/zgzgorg/yj.zgzg.io/main)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6cee17f2-e6ed-45a0-bfb6-dd8234734ebf/deploy-status)](https://app.netlify.com/projects/zgzg-io/deploys)
 
-为《载歌在谷》志愿者社区，本代码库托管[其官方网站](https://zgzg.io/)的源代码。
+为《载歌在谷》志愿者社区，本代码库托管[其官方网站](https://zgzg.io/)的源代码。部署在 [Netlify](https://app.netlify.com/projects/zgzg-io/deploys) 上。
 
 ## 贡献指南
 
