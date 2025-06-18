@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 理事会公告
+permalink: /board/
 ---
 
 <h1>{{ page.title }}</h1>
