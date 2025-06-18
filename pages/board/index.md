@@ -4,7 +4,6 @@ title: 理事会公告
 permalink: /board/
 ---
 
-<h1>{{ page.title }}</h1>
 <ul>
   {% assign notices = site.board | sort: "date" | reverse %}
   {% for notice in notices %}
