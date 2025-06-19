@@ -8,16 +8,19 @@ homepage:
   show_call_box: false
 
 logo:
-  mobile: "https://i.imgur.com/MjhmkRS.png"
-  desktop: "https://i.imgur.com/MjhmkRS.png"
+  mobile: "/images/zgzglogo.webp"
+  desktop: "/images/zgzglogo.webp"
   desktop_height: "36px"
 
 seo:
   meta_og_title: "载歌在谷：硅谷地区华人志愿者社区"
   meta_og_type: "website"
   meta_og_url: "https://zgzg.io"
-  meta_og_image: "https://tva1.sinaimg.cn/large/008i3skNgy1gt7pnbsm86j313z0qvn08.jpg"
+  meta_og_image: "/images/zgzglogo.webp"
   meta_og_description: "载歌在谷：硅谷地区华人志愿者社区"
+  meta_twitter_card: "summary_large_image"
+  meta_twitter_site: "@zgzgorg"
+  meta_twitter_creator: "@zgzgorg"
 
 collections_dir: collections
 
