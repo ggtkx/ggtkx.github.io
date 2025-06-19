@@ -14,10 +14,10 @@ layout: default
                 决赛：2025 年 7 月 19 日<br>
                 地点：Hammer Theater, San Jose, CA
             </h2>
-            <a href="{{.site.data.data.2025s_prelim_ticket_link}}">
+            <a href="{{site.data.data.singer_2025_prelim_ticket_link}}">
                 <button class="btn btn-primary btn-extend px-xl-5">复赛购票链接</button>
             </a>
-            <a href="{{.site.data.data.2025s_ticket_link}}">
+            <a href="{{site.data.data.singer_2025_ticket_link}}">
                 <button class="btn btn-primary btn-extend px-xl-5">决赛购票链接</button>
             </a>
         </div>
@@ -34,7 +34,7 @@ layout: default
                 </br>
                 </br>
             </h2>
-            <a href="{{.site.data.data.2025s_youth_ticket_link}}">
+            <a href="{{site.data.data.singer_2025_youth_ticket_link}}">
                 <button class="btn btn-primary btn-extend px-xl-5">购票链接</button>
             </a>
         </div>
@@ -57,7 +57,7 @@ layout: default
                 <div id="galalist-space">
                     <div class="container">
                         <div class="row g-1 g-md-2 p-1 p-md-3">
-                            {% for programme in site.data.data.2025s-youth-singerlist %}
+                            {% for programme in site.data.data.singer_2025_youth_singerlist %}
                             {% include programme.html %}
                             {% endfor %}
                         </div>
@@ -68,7 +68,7 @@ layout: default
                 <div id="galalist-space">
                     <div class="container">
                         <div class="row g-1 g-md-2 p-1 p-md-3">
-                            {% for programme in site.data.data.2025s-prelim-singerlist %}
+                            {% for programme in site.data.data.singer_2025_prelim_singerlist %}
                             {% include programme.html %}
                             {% endfor %}
                         </div>
