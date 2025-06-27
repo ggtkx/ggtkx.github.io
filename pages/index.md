@@ -4,13 +4,6 @@ layout: home
 description: 硅谷脱口秀：硅谷地区汉语喜剧社团！
 events:   [
   {
-    "time": "6月28日 7:30 PM",
-    "image": "https://i.imgur.com/dbZfL0u.jpeg",
-    "address": "Musical Recital Hall Center of Performing Arts, Santa Clara, CA 95050",
-    "address_url": "https://maps.app.goo.gl/jqBXXvM7gDxr7Xtu5",
-    "tickets_link": "https://silicomedy-yueyue.eventbrite.com",
-  },
-  {
     "time": "7月19日 7:00 PM",
     "image": "https://i.imgur.com/iHdUooS.jpeg",
     "address": "Sunnyvale Theatre, 550 E Remington Dr, Sunnyvale, CA",
@@ -23,6 +16,13 @@ events:   [
     "address": "College of San Mateo Theatre, Music, 1700 W Hillsdale Blvd, San Mateo, CA",
     "address_url": "https://maps.app.goo.gl/D4sRf1YrgTnYqm8Y6",
     "tickets_link": "https://FUNSanMateo.eventbrite.com",
+  },
+  {
+    "time": "9月13日 7:30 PM",
+    "image": "https://i.imgur.com/tsolgXB.jpeg",
+    "address": "Hillsdale Little Theater, 651 31st Ave, San Mateo, CA",
+    "address_url": "https://maps.app.goo.gl/YPy6Gv2cHFK4usoW6",
+    "tickets_link": "https://zhaoshiyong.eventbrite.com/",
   },
 ]
 intro_image_absolute: true
