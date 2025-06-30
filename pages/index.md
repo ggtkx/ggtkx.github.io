@@ -18,7 +18,7 @@ events:   [
     "tickets_link": "https://FUNSanMateo.eventbrite.com",
   },
   {
-    "time": "7月27日 20:00 PM",
+    "time": "7月27日 8:00 PM",
     "image": "https://i.imgur.com/hBXlnJK.jpeg",
     "address": "线上",
     "additional_link": "https://forms.gle/4jcj9EcoYaCH7m3t5",
