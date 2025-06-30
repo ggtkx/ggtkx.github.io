@@ -19,9 +19,9 @@ events:   [
   },
   {
     "time": "7月27日 20:00 PM",
-    "image": "https://i.imgur.com/iHdUooS.jpeg",
+    "image": "https://i.imgur.com/hBXlnJK.jpeg",
     "address": "线上",
-    "tickets_link": "https://i.imgur.com/hBXlnJK.jpeg",
+    "additional_link": "https://forms.gle/4jcj9EcoYaCH7m3t5",
   },
   {
     "time": "9月13日 7:30 PM",
