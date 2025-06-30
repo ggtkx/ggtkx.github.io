@@ -18,6 +18,12 @@ events:   [
     "tickets_link": "https://FUNSanMateo.eventbrite.com",
   },
   {
+    "time": "7月27日 20:00 PM",
+    "image": "https://i.imgur.com/iHdUooS.jpeg",
+    "address": "线上",
+    "tickets_link": "https://i.imgur.com/hBXlnJK.jpeg",
+  },
+  {
     "time": "9月13日 7:30 PM",
     "image": "https://i.imgur.com/tsolgXB.jpeg",
     "address": "Hillsdale Little Theater, 651 31st Ave, San Mateo, CA",
