@@ -22,6 +22,7 @@ events:   [
     "image": "https://i.imgur.com/hBXlnJK.jpeg",
     "address": "线上",
     "additional_link": "https://forms.gle/4jcj9EcoYaCH7m3t5",
+    "additional_label": "报名链接"
   },
   {
     "time": "9月13日 7:30 PM",
