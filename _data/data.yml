@@ -23,10 +23,7 @@ main:
     active: true
 
 gala_ticket_link: "/ticket/gala-ticket"
-eventbrite_ticket_link: "https://zgzg.li/2025-ticket-website"
-taro_ticket_link: "https://zgzg.li/2025-ticket-taro"
 gala_auidence_guide_link: "https://drive.google.com/file/d/1UR1OrsDq6ijATcHJMQc8YbqgP3plsa9R/view?usp=sharing"
-singer_ticket_link: "https://zgzg.li/2024s-tickets"
 2025s_prelim_ticket_link: "https://zgzg.li/2025s-prelim-ticket"
 2025s_ticket_link: "https://zgzg.li/2025s-ticket"
 2025s_youth_ticket_link: "https://zgzg.li/2025s-youth-ticket"
