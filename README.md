@@ -4,6 +4,8 @@
 
 The Website is deployed to [GitHub pages](https://ggtkx.github.io/) and is served at [ggtkx.org](http://ggtkx.org/en/).
 
+This project works with Ruby 3.1.2 and Jekyll 4.2.0.
+
 The Website is statically generated with [Jekyll](https://jekyllrb.com/). To serve it locally, run:
 
 ```shell

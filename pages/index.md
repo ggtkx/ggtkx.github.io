@@ -2,32 +2,6 @@
 title: 硅谷脱口秀：硅谷地区汉语喜剧社团！
 layout: home
 description: 硅谷脱口秀：硅谷地区汉语喜剧社团！
-events:   [
-  {
-    "time": "7月27日 8:00 PM",
-    "datetime": "2025-07-27",
-    "image": "https://i.imgur.com/hBXlnJK.jpeg",
-    "address": "线上",
-    "additional_link": "https://forms.gle/4jcj9EcoYaCH7m3t5",
-    "additional_label": "报名链接"
-  },
-  {
-    "time": "8月2日 7:30 PM",
-    "datetime": "2025-08-02",
-    "image": "https://i.imgur.com/z7SR3pB.jpeg",
-    "address": "Silicomedy, 1054 S De Anza Blvd, San Jose",
-    "address_url": "https://maps.app.goo.gl/x6qPw4hSptWtWEEN6",
-    "tickets_link": "https://Silicomedy0802.eventbrite.com/",
-  },
-  {
-    "time": "9月13日 7:30 PM",
-    "datetime": "2025-09-13",
-    "image": "https://i.imgur.com/tsolgXB.jpeg",
-    "address": "Hillsdale Little Theater, 651 31st Ave, San Mateo, CA",
-    "address_url": "https://maps.app.goo.gl/YPy6Gv2cHFK4usoW6",
-    "tickets_link": "https://zhaoshiyong.eventbrite.com/",
-  },
-]
 intro_image_absolute: true
 show_people: true
 permalink: /
