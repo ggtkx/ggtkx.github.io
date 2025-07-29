@@ -18,38 +18,7 @@ bodyClass: page-home
         {% if page.intro_image %}
         <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
         {% endif %}
-        {% if page.events.size > 0 %}
-        <h2>近期演出</h2>
-
-        <!-- Current time in seconds since epoch -->
-        {% assign now_secs = 'now' | date: '%s' | plus: 0 %}
-        {% for event in page.events %}
-        <!-- Event time in seconds by end of the date -->
-        {% assign ev_secs = event.datetime | date: '%s' | plus: 86400 | plus: 0 %}
-        <!-- If event has passed, then hide -->
-        {% if ev_secs >= now_secs %}
-          {% if event.image %}
-          <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ event.image | relURL }}"/>
-          {% endif %}
-          <div class="call">
-            <div class="call-box-top">
-              <div class="call-phone"><strong>时间：</strong>{{ event.time }}</div>
-              <div class="call-email"><strong>地点：</strong>
-                <a href="{{ event.address_url }}">{{ event.address }}</a></div>
-            </div>
-            <div class="call-box-bottom">
-              {% if event.tickets_link %}
-              <a href="{{ event.tickets_link }}" class="primary button">购票</a>
-              {% endif %}
-              {% if event.additional_link %}
-              <a href="{{ event.additional_link }}" class="primary button">{{ event.additional_label }}</a>
-              {% endif %}
-            </div>
-          </div>
-          <div style="margin-bottom: 20px"></div>
-        {% endif %}
-        {% endfor %}
-        {% endif %}
+        <div id="events-container"></div>
       </div>
     </div>
   </div>
