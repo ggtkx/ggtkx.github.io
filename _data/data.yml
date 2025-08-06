@@ -226,6 +226,24 @@ tours:
 ybyfs:
   - name:
     type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1754456819/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/jiayi_cropped_btiuey.jpg
+  - name:
+    type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1754456082/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG_3651_czzeqf.jpg
+  - name:
+    type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1754456886/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image3_cropped_zwld2r.jpg
+  - name:
+    type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1754456083/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG_3667_ujf94b.jpg
+  - name:
+    type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1754456082/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG_3629_ghom5v.jpg
+  - name:
+    type:
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1754456082/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/IMG_3563_vwl1om.jpg
+  - name:
+    type:
     image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659930647/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/image_1_q5itgd.png
   - name:
     type:
