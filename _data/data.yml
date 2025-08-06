@@ -17,16 +17,9 @@ main:
   - name: "中"
     url: "/"
     icon: true
-  - name: "TICKETS"
-    url: "/ticket/singer-ticket"
-    call-to-action: true
-    active: true
 
 gala_ticket_link: "/ticket/gala-ticket"
-eventbrite_ticket_link: "https://zgzg.li/2025-ticket-website"
-taro_ticket_link: "https://zgzg.li/2025-ticket-taro"
 gala_auidence_guide_link: "https://drive.google.com/file/d/1UR1OrsDq6ijATcHJMQc8YbqgP3plsa9R/view?usp=sharing"
-singer_ticket_link: "https://zgzg.li/2024s-tickets"
 2025s_prelim_ticket_link: "https://zgzg.li/2025s-prelim-ticket"
 2025s_ticket_link: "https://zgzg.li/2025s-ticket"
 2025s_youth_ticket_link: "https://zgzg.li/2025s-youth-ticket"
@@ -668,7 +661,7 @@ singerlist:
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1747633909/zgzg-io-website/2025%20singers/yAya_gewo5z.jpg
     name: yAya
     description: 唱作歌手，代表作有“银盐的太阳花”, “Outlaw Villain”等。希望能用音乐传递情绪与能量，让大家能享受我的演出。
-  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1747633881/zgzg-io-website/2025%20singers/Dang_Yichi_tdq3ll.jpg
+  - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1747633901/zgzg-io-website/2025%20singers/Wenyi_Cui_o74wpf.jpg
     name: Wenyi Cui
     description: Hello 大家好！我叫文懿Wenyi，对这次比赛的期望就是每次都能把想唱的歌唱好，希望我的舞台给大家带来感动和力量~业余我也会做一些创作，出于对应试教育的反思发行过一个rap叫「大做题家」（在某易云）欢迎大家收听！
   - image: https://res.cloudinary.com/zaigezaigu/image/upload/v1747633904/zgzg-io-website/2025%20singers/Xu_Haiping_n8qkrw.jpg

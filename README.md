@@ -4,15 +4,16 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c7624c6e88564a0988cb2a0dd82ebd85)](https://www.codacy.com/gh/zgzgorg/yj.zgzg.io/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zgzgorg/yj.zgzg.io&amp;utm_campaign=Badge_Grade)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/zgzgorg/yj.zgzg.io/main.svg)](https://results.pre-commit.ci/latest/github/zgzgorg/yj.zgzg.io/main)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6cee17f2-e6ed-45a0-bfb6-dd8234734ebf/deploy-status)](https://app.netlify.com/projects/zgzg-io/deploys)
 
-为《载歌在谷》志愿者社区，本代码库托管[其官方网站](https://zgzg.io/)的源代码。
+为《载歌在谷》志愿者社区，本代码库托管[其官方网站](https://zgzg.io/)的源代码。部署在 [Netlify](https://app.netlify.com/projects/zgzg-io/deploys) 上。
 
 ## 贡献指南
 
 想要开发这个网站，需要用到以下工具：
 
 ### 在本地渲染该网站
-本网站使用 [Jekyll](https://jekyllrb.com/) 渲染。安装 Jekyll 之后，您可以运行以下命令来在您的电脑上（“本地”）打开这个网站：
+本网站使用 [Jekyll](https://jekyllrb.com/) 渲染。安装 Jekyll 之后，您可以运行以下命令来在您的电脑上（"本地"）打开这个网站：
 
 ```shell
 bundle exec jekyll serve
@@ -34,8 +35,8 @@ One of the hooks use the [ESLint](https://eslint.org/) tool to check JavaScript 
 
 ### 如果你想要加入、更新内容
 对于内容贡献者来说，最重要的几个文件夹是：
-- `pages`：这里存放了每个页面的内容。每个页面都是一个单独的 Markdown 文本文档。在每个文件开头，有个符合 YAML 语法的区块，叫“[front matter](https://jekyllrb.com/docs/front-matter/)“，是会被 Jekyll 特殊处理的“元数据”（metadata）。元数据包括（显示在浏览器标签页卡片上的）标题、布局（layout）名称等。对于布局，大部分的页面都可以使用 `layout: page`（例如[《关于我们》](https://github.com/zgzgorg/yj.zgzg.io/blob/68c1e9f1d7072eda10a20c168512daa451b29a22/pages/about.md?plain=1#L3)、[《常见问题》](https://github.com/zgzgorg/yj.zgzg.io/blob/68c1e9f1d7072eda10a20c168512daa451b29a22/pages/faq.md?plain=1#L3)）。
-- `_data`：这里存放了任何需要被 enumerate （“枚举”/“罗列”/“用循环读出”）出来的信息。每个文件都是一个 YAML 文件。例如：
+- `pages`：这里存放了每个页面的内容。每个页面都是一个单独的 Markdown 文本文档。在每个文件开头，有个符合 YAML 语法的区块，叫"[front matter](https://jekyllrb.com/docs/front-matter/)""，是会被 Jekyll 特殊处理的"元数据"（metadata）。元数据包括（显示在浏览器标签页卡片上的）标题、布局（layout）名称等。对于布局，大部分的页面都可以使用 `layout: page`（例如[《关于我们》](https://github.com/zgzgorg/yj.zgzg.io/blob/68c1e9f1d7072eda10a20c168512daa451b29a22/pages/about.md?plain=1#L3)、[《常见问题》](https://github.com/zgzgorg/yj.zgzg.io/blob/68c1e9f1d7072eda10a20c168512daa451b29a22/pages/faq.md?plain=1#L3)）。
+- `_data`：这里存放了任何需要被 enumerate （"枚举"/"罗列"/"用循环读出"）出来的信息。每个文件都是一个 YAML 文件。例如：
   - `data.yml`：定义了网站顶栏、底栏应该有哪些链接；我们有哪些伙伴社区、赞助商；春晚板块有哪些节目；歌手赛有哪些节目；云集板块有哪些栏目…… **这是最主要的、最杂的数据文件。** 当某个列表太大时，您也可以选择把它单独拆出来、成为一个单独的文件，就像下面两项这样👇
   - `past-events.yml`：定义了[《往届回顾》](https://www.zgzg.io/past-events/)页面的内容。
   - `trailer-images.yml`：罗列了一些春晚宣传片的拍摄花絮照片。
@@ -43,14 +44,14 @@ One of the hooks use the [ESLint](https://eslint.org/) tool to check JavaScript 
 ⚠️ **注意**：本代码库虽然包含一个 `images` 文件夹，但它仅应该被用来存放 svg 等源代码格式的图片。若需要存放 jpg、png 等二进制格式的图片，请使用我们自己的 Cloudinary 服务。
 
 ### 如果你想要开发网站功能
-- `_layouts`：当朴素的 `layout: page` 难以满足您的表达需求时，您可以创建新的 layout，存放于这里。请参见下文“如何自由排版”一节。
+- `_layouts`：当朴素的 `layout: page` 难以满足您的表达需求时，您可以创建新的 layout，存放于这里。请参见下文"如何自由排版"一节。
 - `_includes`：存放可复用的一些元件。复用可以发生在：
   - 几页之间。例如：**赞助商列表**（`_includes/sponsor-section.html`）被复用于歌手赛、游园、春晚等页面底部。
   - 一页之内。例如：**栏目卡片**（`_includes/programme.html`）被复用于首页。
   - 其他可复用的元件之内。例如，上述**栏目卡片**也在**云集节目列表**（`_includes/programmes.html`）里被复用：
     <img width="800" alt="image" src="https://user-images.githubusercontent.com/594058/194156682-19832792-da81-4f84-bcb7-a43cc2c3e5cf.png">
 - `assets`：存放了一些脚本和样式表文件。
-  - `assets/css/style.scss`：许多仅对《载歌在谷》有意义的样式（与“对其他网站也有用”相对），都被存放到了这里。如春晚横幅：https://github.com/zgzgorg/yj.zgzg.io/blob/d11235a52359996f299a1bdab37669251c10d21c/assets/css/style.scss#L357-L364
+  - `assets/css/style.scss`：许多仅对《载歌在谷》有意义的样式（与"对其他网站也有用"相对），都被存放到了这里。如春晚横幅：https://github.com/zgzgorg/yj.zgzg.io/blob/d11235a52359996f299a1bdab37669251c10d21c/assets/css/style.scss#L357-L364
   - `assets/js/sidenotes.js`： is a pure-JavaScript plugin that puts `.footnotes` into `#sidebar`, aligning each piece of note at their corresponding superscript, developed by [@tslmy](https://github.com/tslmy).
 - `_sass`：这里存放各种对其他网站也有复用意义的样式表。其实，本网站采用的即是他人制作的、现成的主题——由 [Robert Austin](https://github.com/zerostaticthemes) 制作的 [Serif](https://github.com/zerostaticthemes/jekyll-serif-theme)。
 
@@ -63,15 +64,15 @@ One of the hooks use the [ESLint](https://eslint.org/) tool to check JavaScript 
 
 ![](https://user-images.githubusercontent.com/594058/194150455-816766bc-dd14-4b6f-9f59-4f2136b24fca.jpeg)
 
-我们首先要做的是，在 `pages/gala.md` 的 front matter 上写明“请用一个叫 gala 的 layout 来渲染这个文档，而不是默认的叫 page 的那个 layout”：
+我们首先要做的是，在 `pages/gala.md` 的 front matter 上写明"请用一个叫 gala 的 layout 来渲染这个文档，而不是默认的叫 page 的那个 layout"：
 
 https://github.com/zgzgorg/yj.zgzg.io/blob/d11235a52359996f299a1bdab37669251c10d21c/pages/gala.md?plain=1#L3
 
-接下来，我们创建一个 `_layouts/gala.html` 文件。虽然这是一个 HTML 文档，但是我们依然可以写入 front matter。在它的 front matter 里，我们写“请把这个 layout 嵌套在叫 default 的那个 layout 里”：
+接下来，我们创建一个 `_layouts/gala.html` 文件。虽然这是一个 HTML 文档，但是我们依然可以写入 front matter。在它的 front matter 里，我们写"请把这个 layout 嵌套在叫 default 的那个 layout 里"：
 
 https://github.com/zgzgorg/yj.zgzg.io/blob/d11235a52359996f299a1bdab37669251c10d21c/_layouts/gala.html#L1-L3
 
-接下来的工作，就是常见的“写 HTML”了。其实，我们写的不会是纯粹的 HTML，而是一种叫 [Liquid](https://jekyllrb.com/docs/liquid/) 的“模板语言”（templating language）。模板语言提供一些高阶功能，比如引用一些模块。例如，在现今的 `_layouts/gala.html` 底部，我们就有引用两个模块：
+接下来的工作，就是常见的"写 HTML"了。其实，我们写的不会是纯粹的 HTML，而是一种叫 [Liquid](https://jekyllrb.com/docs/liquid/) 的"模板语言"（templating language）。模板语言提供一些高阶功能，比如引用一些模块。例如，在现今的 `_layouts/gala.html` 底部，我们就有引用两个模块：
 
 https://github.com/zgzgorg/yj.zgzg.io/blob/d11235a52359996f299a1bdab37669251c10d21c/_layouts/gala.html#L32-L33
 
@@ -79,11 +80,11 @@ https://github.com/zgzgorg/yj.zgzg.io/blob/d11235a52359996f299a1bdab37669251c10d
 
 https://github.com/zgzgorg/yj.zgzg.io/blob/d11235a52359996f299a1bdab37669251c10d21c/_includes/galalist.html#L1-L14
 
-这个模块很好地体现了 Jekyll 里的“枚举”该怎么用。注意这一行：
+这个模块很好地体现了 Jekyll 里的"枚举"该怎么用。注意这一行：
 
 https://github.com/zgzgorg/yj.zgzg.io/blob/d11235a52359996f299a1bdab37669251c10d21c/_includes/galalist.html#L7
 
-它说：“请在本网站（`site`）的 `data` 文件夹下，找到叫 `data` 的 YAML 文件，读取其中的 `galalist` 列表。对于其中每个项目（以 `pic` 指代），重复渲染下述内容“。这里所指的”下述内容“，即是：
+它说："请在本网站（`site`）的 `data` 文件夹下，找到叫 `data` 的 YAML 文件，读取其中的 `galalist` 列表。对于其中每个项目（以 `pic` 指代），重复渲染下述内容"。这里所指的"下述内容"，即是：
 
 https://github.com/zgzgorg/yj.zgzg.io/blob/d11235a52359996f299a1bdab37669251c10d21c/_includes/galalist.html#L8-L12
 
@@ -98,7 +99,20 @@ https://github.com/zgzgorg/yj.zgzg.io/blob/d11235a52359996f299a1bdab37669251c10d
 
 https://github.com/zgzgorg/yj.zgzg.io/blob/d11235a52359996f299a1bdab37669251c10d21c/assets/css/style.scss#L184-L190
 
-（⚠️**注意**：我们采用 [SCSS](https://sass-lang.com/) 作为“样式语言”（styling language）。它是 CSS 的一种超集（superset）。）
+（⚠️**注意**：我们采用 [SCSS](https://sass-lang.com/) 作为"样式语言"（styling language）。它是 CSS 的一种超集（superset）。）
+
+## 样式表编译器说明（Sass/SCSS）
+
+本项目所有 SCSS 文件均由 Jekyll 内置的 Ruby Sass（sassc）编译。**请勿使用 Dart Sass 新语法**（如 `@use`、`@forward`、`color.adjust()` 等），只使用 `@import`、`lighten()` 等传统语法。
+
+- 所有开发、预览、部署请务必使用：
+
+  ```shell
+  bundle exec jekyll serve
+  ```
+
+- 团队依赖已在 Gemfile 中锁定，确保所有人编译结果一致。
+- 如遇 Dart Sass 相关 warning，说明未用 bundle exec 或本地误装 Dart Sass CLI。
 
 ## LICENSE
 The MIT License (MIT).
