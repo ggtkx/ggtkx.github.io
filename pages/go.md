@@ -9,8 +9,6 @@ permalink: /go/
 * [购票](/singerticket/)
 
 # 志愿者相关
-
-* [全体志愿者名单及联系方式](https://zgzg.link/zgid-public)
 * 各公司[配捐指南](https://zgzg.link/log-instruction)
 
 # 开发者相关
