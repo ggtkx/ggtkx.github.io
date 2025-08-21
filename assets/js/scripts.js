@@ -1,56 +1,50 @@
-const body = document.querySelector('body')
-const menuTrigger = document.querySelector('#toggle-main-menu-mobile')
-const menuContainer = document.querySelector('#main-menu-mobile')
+/* eslint-disable require-jsdoc */
+const body = document.querySelector('body');
+const menuTrigger = document.querySelector('#toggle-main-menu-mobile');
+const menuContainer = document.querySelector('#main-menu-mobile');
 
-menuTrigger.onclick = function () {
-  menuContainer.classList.toggle('open')
-  menuTrigger.classList.toggle('is-active')
-  body.classList.toggle('lock-scroll')
-}
+menuTrigger.onclick = function() {
+  menuContainer.classList.toggle('open');
+  menuTrigger.classList.toggle('is-active');
+  body.classList.toggle('lock-scroll');
+};
 
 const events = [
   {
-    datetime: "2025-07-27T19:30:00-07:00",
-    image: "https://i.imgur.com/hBXlnJK.jpeg",
-    address: "线上",
-    additional_link: "https://forms.gle/4jcj9EcoYaCH7m3t5",
-    additional_label: "报名链接"
+    datetime: '2025-08-30T19:30:00-07:00',
+    image: 'https://i.imgur.com/wxfAPJk.jpeg',
+    address: 'Silicomedy, 1054 S De Anza Blvd, San Jose',
+    address_url: 'https://maps.app.goo.gl/x6qPw4hSptWtWEEN6',
+    tickets_link: 'https://silicomedy0830.eventbrite.com',
   },
   {
-    datetime: "2025-08-02T19:30:00-07:00",
-    image: "https://i.imgur.com/z7SR3pB.jpeg",
-    address: "Silicomedy, 1054 S De Anza Blvd, San Jose",
-    address_url: "https://maps.app.goo.gl/x6qPw4hSptWtWEEN6",
-    tickets_link: "https://Silicomedy0802.eventbrite.com/"
+    datetime: '2025-09-13T19:30:00-07:00',
+    image: 'https://i.imgur.com/tsolgXB.jpeg',
+    address: 'Hillsdale Little Theater, 651 31st Ave, San Mateo, CA',
+    address_url: 'https://maps.app.goo.gl/YPy6Gv2cHFK4usoW6',
+    tickets_link: 'https://zhaoshiyong.eventbrite.com/',
   },
-  {
-    datetime: "2025-09-13T19:30:00-07:00",
-    image: "https://i.imgur.com/tsolgXB.jpeg",
-    address: "Hillsdale Little Theater, 651 31st Ave, San Mateo, CA",
-    address_url: "https://maps.app.goo.gl/YPy6Gv2cHFK4usoW6",
-    tickets_link: "https://zhaoshiyong.eventbrite.com/"
-  }
-  ];
+];
 
 function formatDateTime(isoString) {
   const dt = new Date(isoString);
 
-  const datePart = new Intl.DateTimeFormat("zh-CN", {
-    dateStyle: "full",
-    hour12:   true,
-    timeZone: 'America/Los_Angeles'
+  const datePart = new Intl.DateTimeFormat('zh-CN', {
+    dateStyle: 'full',
+    hour12: true,
+    timeZone: 'America/Los_Angeles',
   }).formatToParts(dt);
 
   const filtered = datePart
-      .filter(p => p.type !== "weekday" && p.type !== "year")
-      .map(p => (p.value !== '年' ? p.value : undefined))
-      .join("");
+      .filter((p) => p.type !== 'weekday' && p.type !== 'year')
+      .map((p) => (p.value !== '年' ? p.value : undefined))
+      .join('');
 
   const timePart = new Intl.DateTimeFormat('en-US', {
-    hour:     'numeric',
-    minute:   '2-digit',
-    hour12:   true,
-    timeZone: 'America/Los_Angeles'
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true,
+    timeZone: 'America/Los_Angeles',
   }).format(dt); // e.g. "7:30 PM"
 
   return `${filtered} ${timePart}`;
@@ -66,9 +60,9 @@ function renderEvents(data) {
     container.appendChild(header);
   }
 
-  data.forEach(evt => {
+  data.forEach((evt) => {
     const eventDate = new Date(evt.datetime);
-    const eventMs = eventDate.getTime()
+    const eventMs = eventDate.getTime();
     // skip past events
     if (eventMs < nowMs) return;
 
@@ -141,6 +135,6 @@ function renderEvents(data) {
   });
 }
 
-  document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   renderEvents(events);
 });
