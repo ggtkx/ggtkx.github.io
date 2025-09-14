@@ -31,6 +31,9 @@ collections:
   board:
     output: true
     permalink: /board/:name/
+  announce:
+    output: true
+    permalink: /announce/:name/
 
 sass:
   indentWidth: 4

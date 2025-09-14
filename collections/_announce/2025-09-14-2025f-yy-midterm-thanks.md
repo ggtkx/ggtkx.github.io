@@ -13,7 +13,7 @@ permalink: /announce/2025-09-14-2025f-yy-midterm-thanks/
  
 （以及两位不愿意被提及的小伙伴😊）
 
-具体表彰内容请用ZGID登陆后阅读 https://zgzg.li/2025f-yy-thanks
+具体表彰内容请用ZGID登陆后阅读 [https://zgzg.li/2025f-yy-thanks](https://zgzg.li/2025f-yy-thanks)
 
 出品人：ZainanZ@
 
