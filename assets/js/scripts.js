@@ -11,18 +11,18 @@ menuTrigger.onclick = function() {
 
 const events = [
   {
-    datetime: '2025-09-13T19:30:00-07:00',
-    image: 'https://i.imgur.com/tsolgXB.jpeg',
-    address: 'Hillsdale Little Theater, 651 31st Ave, San Mateo, CA',
-    address_url: 'https://maps.app.goo.gl/YPy6Gv2cHFK4usoW6',
-    tickets_link: 'https://zhaoshiyong.eventbrite.com/',
-  },
-  {
     datetime: '2025-09-20T19:30:00-07:00',
     image: 'https://i.imgur.com/H98LuHw.jpeg',
     address: 'Silicomedy, 1054 S De Anza Blvd, San Jose',
     address_url: 'https://maps.app.goo.gl/x6qPw4hSptWtWEEN6',
     tickets_link: 'https://silicomedy0920.eventbrite.com',
+  },
+  {
+    datetime: '2025-10-24T20:00:00-07:00',
+    image: 'https://i.imgur.com/BZ2LFu2.jpeg',
+    address: 'Cubberley Theatre, Palo Alto, CA',
+    address_url: 'https://maps.app.goo.gl/GQzv1nx3YnURwzou8',
+    tickets_link: 'https://fallinlaugh.eventbrite.com',
   },
 ];
 
