@@ -9,7 +9,8 @@ permalink: /go/
 * [购票](/singerticket/)
 
 # 志愿者相关
-* 各公司[配捐指南](https://zgzg.link/log-instruction)
+* 各公司[配捐指南](https://zgzg.li/log-instruction?utm_source=zgzg.io)
+* 载歌在谷[Logo及品牌素材](https://zgzg.li/brand?utm_source=zgzg.io): 可以用于社交媒体、宣传资料等，使用请遵守商标法和相关法律法规。
 
 # 开发者相关
 
