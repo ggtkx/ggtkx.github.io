@@ -10,7 +10,7 @@ main:
   - name: "云集社团"
     url: "/yj/"
   - name: "赞助招商"
-    url: "/sponsorship/"
+    url: "/galatour#sponsors-galatour"
   - name: "En"
     url: "/english/"
     icon: true
@@ -82,8 +82,8 @@ programmes_chunwan:
     button-text: 详情
   - name: 游园会
     image: https://res.cloudinary.com/zaigezaigu/image/upload/v1702274981/Screenshot_2023-12-10_at_10.06.48_PM_yvytdi.jpg
-    description: 春联，剪纸，书法，糖画，汉服，诗词，小舞台，为湾区华人朋友们打造一个最具有中华传统的特色游园会。完全免费，尤其适合家庭，让孩子们体验中国文化。
-    button-url: /tour/
+    description: 春联，剪纸，书法，糖画，汉服，诗词，小舞台，为湾区华人朋友们打造一个最具有中华传统的特色游园会。大量摊位免费，尤其适合家庭，让孩子们体验中国文化。
+    button-url: /galatour/
     button-text: 详情
 
 past-programmes:
