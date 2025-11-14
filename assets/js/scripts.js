@@ -11,7 +11,7 @@ menuTrigger.onclick = function() {
 
 const events = [
   {
-    datetime: '2025-11-22T19:30:00-07:00',
+    datetime: '2025-11-22T19:30:00-08:00',
     image: 'https://i.imgur.com/8DLI38V.jpeg',
     address: 'Silicomedy, 1054 S De Anza Blvd, San Jose',
     address_url: 'https://maps.app.goo.gl/x6qPw4hSptWtWEEN6',
