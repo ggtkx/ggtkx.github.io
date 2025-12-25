@@ -133,10 +133,6 @@ layout: default
                         <p class="custom-text-style"><b>Audition时间:</b> 2025年11月08日 - 2025年11月09日</p>
                         <p class="custom-text-style"><b>Audition地点:</b> Prospect High School Performing Arts</p>
                         <p class="custom-text-style"><b>Audition地址:</b> 18900 Prospect Rd, Saratoga, CA 95070</p>
-                        <a class="btn btn-sm btn-bg-darkened mb-1 mt-2" style="min-width: 140px;" href="https://zgzg.li/2026-gala-audition-register?zgzg-io">
-                            <span class="material-symbols-outlined align-middle">confirmation_number</span>
-                            <span class="align-middle">大众评审报名</span>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -155,21 +151,6 @@ layout: default
             载歌在谷春晚自2015年来已经连续举办了11届，受到社会各界尤其是北美华人圈的广泛关注，合作媒体包括吃货小分队、微博、星岛电台星电视、美国中文电台、喜马拉雅等。<br>
             春晚还接连登上了CCTV4，作为海外华人代表向全球华人拜年，影响深远。
         </p>
-
-        <div class="container text-center pt-3">
-            <div class="row gala-text-grid">
-                <div class="col gala-text-grid">70进20</div>
-                <div class="col gala-text-grid">20进6</div>
-                <div class="col gala-text-grid">150+</div>
-                <div class="col gala-text-grid">150+</div>
-            </div>
-            <div class="row gala-text-grid">
-                <div class="col gala-text-grid-content">节目选拔</div>
-                <div class="col gala-text-grid-content">主持人选拔</div>
-                <div class="col gala-text-grid-content">志愿者</div>
-                <div class="col gala-text-grid-content">演职人员</div>
-            </div>
-        </div>
     </div>
 </div>
 
@@ -178,28 +159,29 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col text-center pb-4">
-                <h1 class="underline">🌟 春晚节目选拔 Audition 🌟</h1>
+                <h1 class="underline">🌟 春晚节目 🌟</h1>
                 <p class="custom-text-style mt-3">
-                    2026载歌在谷春晚的节目与主持人选拔即将拉开帷幕！<br>
-                    我们将从近百个节目和主持人报名中，遴选出最具创意与感染力的表演者。<br>
-                    以下为本届春晚节目与主持人候选名单（持续更新中）。
+                    2026载歌在谷春晚即将拉开帷幕！<br>
+                    我们从近百个节目和主持人报名中，遴选出最具创意与感染力的表演者。<br>
+                    以下为本届春晚节目与主持人名单。
                 </p>
             </div>
         </div>
 
         <!-- Programs Section -->
+        {% assign programs = "喜鹊喳喳喳,伎乐飞天,芦花,艺童迎春,红锈花,西游大裁员,草原赞歌,落叶归根-送别,云宫迅音/左手指月,拉疯在谷,热键逃离,弯弯的月亮,龙的传人,龙船调,钱途,蒙古舞ROAM,赛马,灯火里的中国" | split: "," %}
         <div class="row pt-4">
             <div class="col text-center pb-2">
-                <h3>🎭 节目候选名单（共40个）</h3>
+                <h3>🎭 节目单</h3>
             </div>
         </div>
         <div class="row row-cols-2 row-cols-md-4 g-3 text-center">
-            {% for i in (1..40) %}
+            {% for name in programs %}
             <div class="col fade-in">
                 <div class="card h-100 rounded-3">
                     <div class="card-body">
-                        <p class="card-text fw-bold">节目 {{ i }}</p>
-                        <p class="text-muted small mb-0">（待填节目名称）</p>
+                        <p class="card-text fw-bold">节目 {{ forloop.index }}</p>
+                        <p class="text-muted small mb-0">{{ name }}</p>
                     </div>
                 </div>
             </div>
@@ -207,18 +189,18 @@ layout: default
         </div>
 
         <!-- Hosts Section -->
+        {% assign hosts = "罗泽中,朱毅,蒋瑜婧,黄圣斯,高曲天啸,张越,任蕾,李姿霖" | split: "," %}
         <div class="row pt-5">
             <div class="col text-center pb-2">
-                <h3>🎤 主持人候选名单（共20位）</h3>
+                <h3>🎤 主持人名单</h3>
             </div>
         </div>
         <div class="row row-cols-2 row-cols-md-5 g-3 text-center">
-            {% for i in (1..20) %}
+            {% for name in hosts %}
             <div class="col fade-in">
                 <div class="card h-100 rounded-3">
                     <div class="card-body">
-                        <p class="card-text fw-bold">主持人 {{ i }}</p>
-                        <p class="text-muted small mb-0">（待填姓名）</p>
+                        <p class="card-text fw-bold">{{ name }}</p>
                     </div>
                 </div>
             </div>
@@ -232,9 +214,17 @@ layout: default
     <div class="col col-12 text-center">
         <h1 class="underline">赞助商以及合作伙伴</h1>
     </div>
-    <div class="container pt-6 pb-6 pt-md-8 pb-md-8">
-        <div class="col-md-6 col-md-offset-2">
-            <img src="https://res.cloudinary.com/zaigezaigu/image/upload/v1764218867/zgzg-io-website/2026%E6%98%A5%E6%99%9A/sponsorship_v2.png" class="mx-auto d-block" />
+    <div class="container pt-4 pb-4 pt-md-8 pb-md-8">
+        <div class="container row">
+            <div class="col-md-4">
+                <img src="https://res.cloudinary.com/zaigezaigu/image/upload/v1766558112/zgzg-io-website/2026%E6%98%A5%E6%99%9A/sponsor_left.png" class="mx-auto d-block" />
+            </div>
+            <div class="col-md-4">
+                <img src="https://res.cloudinary.com/zaigezaigu/image/upload/v1766558119/zgzg-io-website/2026%E6%98%A5%E6%99%9A/sponsor_mid.png" class="mx-auto d-block" />
+            </div>
+            <div class="col-md-4">
+                <img src="https://res.cloudinary.com/zaigezaigu/image/upload/v1766558120/zgzg-io-website/2026%E6%98%A5%E6%99%9A/sponsor_right.png" class="mx-auto d-block" />
+            </div>
         </div>
     </div>
 </div>
