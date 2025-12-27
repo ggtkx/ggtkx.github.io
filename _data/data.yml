@@ -53,9 +53,9 @@ programmes:
     description: 职场访谈类节目。活动内容涵盖，科技，创业，生物医疗，职场软技能等多个方向。
     button-url: https://www.youtube.com/channel/UCG2VTUUT3OWEYcAEi3ELamA
     button-text: YouTube 频道
-  - name: 一饱演福
-    image: https://res.cloudinary.com/zaigezaigu/image/upload/t_auto_eco_compression/v1659910251/zgzg-io-website/%E4%BA%91%E9%9B%86/1_fivcxb.png
-    description: 戏剧、表演爱好者相互交流，共同创作、共同成长的平台。我们会定期举行线上线下话剧或表演相关的活动。
+  - name: 云集音乐会
+    image: https://res.cloudinary.com/zaigezaigu/image/upload/v1766799004/zgzg-io-website/%E4%BA%91%E9%9B%86/YBYF/yunji_concert_yacmxf.jpg
+    description: 致力于打造一个让音乐爱好者共同交流、共同创作、共同成长的梦想孵化器。我们不只关注音乐本身，更关注音乐背后的连接。在这里，无论你是创作者还是演绎者，都能找到志同道合的伙伴。我们定期举办面向公众的中大型Live音乐会，以专业级的策划与制作，为音乐爱好者提供闪耀的展示舞台，更为广大观众呈现一场场由热爱铸就的主题视听盛宴。
     button-url: /ybyf/
     button-text: 往期精选
   - name: 书影婆娑
