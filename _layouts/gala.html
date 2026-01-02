@@ -77,6 +77,45 @@ layout: default
         color: #444;
     }
 
+    .ticket-btn {
+        background: linear-gradient(135deg, #c62828, #e53935);
+        color: #fff;
+        font-weight: 600;
+        padding: 10px 26px;
+        border-radius: 999px;
+        box-shadow: 0 6px 16px rgba(198, 40, 40, 0.35);
+        border: none;
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .ticket-btn:hover {
+        background: linear-gradient(135deg, #b71c1c, #d32f2f);
+        box-shadow: 0 10px 22px rgba(183, 28, 28, 0.45);
+        transform: translateY(-2px);
+        color: #fff;
+    }
+
+    /* ===== 购票按钮区与下方红线的视觉间距 ===== */
+    .ticket-action {
+        margin-bottom: 3.5rem; /* 关键：拉开与 about-gala 顶部红线的距离 */
+    }
+
+    /* ===== 购票 FAQ 样式 ===== */
+    .ticket-faq {
+        margin-top: 1.5rem;
+        padding-left: 1rem;
+        border-left: 3px solid var(--gala-gold);
+    }
+
+    .ticket-faq p {
+        margin-bottom: 0.6rem;
+        font-size: 0.95rem;
+        color: #555;
+        line-height: 1.6;
+    }
+
     /* ===== 动画效果 ===== */
     @keyframes fadeInUp {
         from {
@@ -121,18 +160,22 @@ layout: default
             <div class="home-section-content_top">
                 <div class="row"><h2 class="pb-3 text-start">🐉 2026马年 载歌在谷 春晚 🧧</h2></div>
                 <div class="row fade-in align-items-start">
-                    <!-- 左列：春晚信息 -->
                     <div class="col-md-6 text-start mb-3 mb-md-0">
                         <p class="custom-text-style"><b>春晚时间:</b> 2026年02月14日 周六</p>
                         <p class="custom-text-style"><b>春晚地点:</b> San Jose Center for the Performing Arts</p>
                         <p class="custom-text-style"><b>春晚地址:</b> 255 S Almaden Blvd, San Jose, CA 95113</p>
-                    </div>
-
-                    <!-- 右列：Audition信息 -->
-                    <div class="col-md-6 text-start">
-                        <p class="custom-text-style"><b>Audition时间:</b> 2025年11月08日 - 2025年11月09日</p>
-                        <p class="custom-text-style"><b>Audition地点:</b> Prospect High School Performing Arts</p>
-                        <p class="custom-text-style"><b>Audition地址:</b> 18900 Prospect Rd, Saratoga, CA 95070</p>
+                        <div class="ticket-action mt-4">
+                            <a href="https://zgzg.li/2026-ticket-website"
+                               class="btn ticket-btn"
+                               target="_blank">
+                                🎟️ 立即购票
+                            </a>
+                        </div>
+                        <div class="ticket-faq">
+                            <p>🎉 <b>早鸟优惠：</b>2025/12/12 – 2026/1/11 期间购票，自动享受 <b>8 折</b> 优惠</p>
+                            <p>🔁 <b>退票政策：</b>购票后 <b>24 小时内</b> 可无条件退票（手续费不退），超过 24 小时不可退票</p>
+                            <p>👶 <b>儿童政策：</b>4 岁及以下儿童，如 <b>不占用座位</b>，无需购票</p>
+                        </div>
                     </div>
                 </div>
             </div>
