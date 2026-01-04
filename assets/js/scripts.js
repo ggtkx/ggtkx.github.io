@@ -11,11 +11,11 @@ menuTrigger.onclick = function() {
 
 const events = [
   {
-    datetime: '2025-12-13T20:00:00-08:00',
-    image: 'https://i.imgur.com/xl8FNhC.jpeg',
+    datetime: '2025-01-10T19:30:00-08:00',
+    image: 'https://i.imgur.com/fODwDTF.jpeg',
     address: 'Silicomedy, 1054 S De Anza Blvd, San Jose',
     address_url: 'https://maps.app.goo.gl/x6qPw4hSptWtWEEN6',
-    tickets_link: 'https://silicomedy1213.eventbrite.com/',
+    tickets_link: 'https://silicomedy0110.eventbrite.com',
   },
   {
     datetime: '2026-01-17T19:30:00-08:00',
