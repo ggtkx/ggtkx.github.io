@@ -17,6 +17,12 @@ const events = [
     address_url: 'https://maps.app.goo.gl/Z3iiYCzgh47c7v6F6',
     tickets_link: 'https://hongyucomedy.eventbrite.com',
   },
+  {
+    datetime: '2026-02-25T20:00:00-08:00',
+    image: 'https://i.imgur.com/L4wPiFT.jpeg',
+    address: '线上',
+    tickets_link: 'https://forms.gle/roHhD5daLgDCWPHu9',
+  },
 ];
 
 function formatDateTime(isoString) {
