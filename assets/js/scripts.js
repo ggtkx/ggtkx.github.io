@@ -22,6 +22,7 @@ const events = [
     image: 'https://i.imgur.com/L4wPiFT.jpeg',
     address: '线上',
     tickets_link: 'https://forms.gle/roHhD5daLgDCWPHu9',
+    button_text: '报名',
   },
 ];
 
@@ -111,7 +112,7 @@ function renderEvents(data) {
       const buy = document.createElement('a');
       buy.href = evt.tickets_link;
       buy.className = 'primary button';
-      buy.textContent = '购票';
+      buy.textContent = evt.button_text || '购票';
       bottom.appendChild(buy);
     }
     if (evt.additional_link) {
