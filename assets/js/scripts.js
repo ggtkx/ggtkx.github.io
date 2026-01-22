@@ -15,13 +15,13 @@ const events = [
     image: 'https://i.imgur.com/LndkKsI.jpeg',
     address: 'Cubberley Theatre, Palo Alto',
     address_url: 'https://maps.app.goo.gl/Z3iiYCzgh47c7v6F6',
-    tickets_link: 'https://hongyucomedy.eventbrite.com',
+    button_link: 'https://hongyucomedy.eventbrite.com',
   },
   {
     datetime: '2026-02-25T20:00:00-08:00',
     image: 'https://i.imgur.com/L4wPiFT.jpeg',
     address: '线上',
-    tickets_link: 'https://forms.gle/roHhD5daLgDCWPHu9',
+    button_link: 'https://forms.gle/roHhD5daLgDCWPHu9',
     button_text: '报名',
   },
 ];
@@ -108,20 +108,14 @@ function renderEvents(data) {
     const bottom = document.createElement('div');
     bottom.className = 'call-box-bottom';
 
-    if (evt.tickets_link) {
+    if (evt.button_link) {
       const buy = document.createElement('a');
-      buy.href = evt.tickets_link;
+      buy.href = evt.button_link;
       buy.className = 'primary button';
       buy.textContent = evt.button_text || '购票';
       bottom.appendChild(buy);
     }
-    if (evt.additional_link) {
-      const extra = document.createElement('a');
-      extra.href = evt.additional_link;
-      extra.className = 'primary button';
-      extra.textContent = evt.additional_label;
-      bottom.appendChild(extra);
-    }
+
 
     call.appendChild(bottom);
     wrap.appendChild(call);
