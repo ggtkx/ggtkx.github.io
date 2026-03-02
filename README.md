@@ -4,40 +4,38 @@
 
 The Website is deployed to [GitHub pages](https://ggtkx.github.io/) and is served at [ggtkx.org](http://ggtkx.org/en/).
 
-This project works with Ruby 3.1.2 and Jekyll 4.2.0.
+This project works with **Ruby 3.3+** and **Jekyll 4.2.0**. The site is statically generated with [Jekyll](https://jekyllrb.com/).
 
-The Website is statically generated with [Jekyll](https://jekyllrb.com/). To serve it locally, run:
+## Getting started
 
-```shell
-bundle exec jekyll serve
-```
+1. **Install Ruby dependencies**
+   ```shell
+   bundle install
+   ```
+
+2. **Serve the site locally**
+   ```shell
+   bundle exec jekyll serve
+   ```
+   Open [http://localhost:4000](http://localhost:4000) in your browser.
+
+3. **(Optional) Set up for contributing** — install [pre-commit](https://pre-commit.com/) and npm deps so hooks and linting work:
+   ```shell
+   brew install pre-commit   # or: pip install pre-commit
+   pre-commit install
+   npm install
+   ```
 
 ## Contributing
-This repo uses [pre-commit hooks](https://pre-commit.com/) to automate many checks upon making a git commit. (See `.pre-commit-config.yaml` for a list of all hooks enabled.) Assuming you have [Homebrew](https://brew.sh/) installed, you can install the `pre-commit` program via:
 
+This repo uses [pre-commit hooks](https://pre-commit.com/) to run checks on each commit (see `.pre-commit-config.yaml`). One of the hooks runs [ESLint](https://eslint.org/) for JavaScript (config: `.eslintrc.json`, [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)). Install pre-commit and npm dependencies as in step 3 of [Getting started](#getting-started) above.
 
-```shell
-brew install pre-commit
-```
-
-Then, install the pre-commit hooks via:
-
-```shell
-pre-commit install
-```
-
-One of the hooks use the [ESLint](https://eslint.org/) tool to check JavaScript files, including enforcing the [Google JavaScript Code Style](https://google.github.io/styleguide/jsguide.html). (See `.eslintrc.json` for the exact config.) As a [npm package](https://www.npmjs.com/), ESLint is installed via npm and specified in the `package.json`. Install them by:
-
-```shell
-npm install
-```
-
-Data organization:
+**Data organization:**
 - `_data/comedians.json` stores information about each comedian in this club. It is updated automatically to sync up with a Google Sheet.
 - `_data/friends.yml` stores links to our friends.
 - `pages/` contains Markdown documents for each page.
 
-Other technical details:
+**Other technical details:**
 - `pull-sheet/` hosts the mechanism that updates `_data/comedians.json` from the roster.
 - `sidenotes.js` is a pure-JavaScript plugin that puts `.footnotes` into `#sidebar`, aligning each piece of note at their corresponding superscript.
 
