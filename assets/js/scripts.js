@@ -11,25 +11,11 @@ menuTrigger.onclick = function() {
 
 const events = [
   {
-    datetime: '2026-02-14T19:30:00-08:00',
-    image: 'https://cdn.evbuc.com/images/1176908295/92678541107/1/original.20260206-202344',
+    datetime: '2026-03-14T19:30:00-07:00',
+    image: 'https://i.imgur.com/a8YgObZ.jpeg',
     address: '1522 S Winchester Blvd, San Jose',
     address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd,+San+Jose,+CA',
-    button_link: 'https://silicomedy260214.eventbrite.com',
-  },
-  {
-    datetime: '2026-02-25T20:00:00-08:00',
-    image: 'https://i.imgur.com/L4wPiFT.jpeg',
-    address: '线上',
-    button_link: 'https://forms.gle/roHhD5daLgDCWPHu9',
-    button_text: '报名',
-  },
-  {
-    datetime: '2026-03-07T19:30:00-08:00',
-    image: 'https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1176502497%252F1173183678353%252F1%252Foriginal.20260202-215011%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.32%26fp-y%3D0.441%26s%3De229e6e86362a5986ec8dcf45125524a&w=940&q=75',
-    address: 'Louis B. Mayer Theatre, Santa Clara, CA',
-    address_url: 'https://maps.google.com/?q=Louis+B+Mayer+Theatre+Santa+Clara+CA',
-    button_link: 'https://www.eventbrite.com/e/1982234233954',
+    button_link: 'https://huifeidexin.eventbrite.com',
   },
 ];
 

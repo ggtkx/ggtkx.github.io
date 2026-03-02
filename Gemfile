@@ -1,6 +1,12 @@
 # RubyGems is a package management framework for Ruby.
 source "https://rubygems.org"
 
+# Required for Ruby 3.4+ (no longer default gems)
+gem "base64"
+gem "bigdecimal"
+gem "csv"
+gem "logger"
+
 gem "jekyll", "~> 4.1"
 gem "jekyll-environment-variables"
 gem "jekyll-get-json", "~> 1.0"
