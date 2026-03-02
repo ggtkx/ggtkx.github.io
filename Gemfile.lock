@@ -55,10 +55,11 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.4.1)
-    logger (1.7.0)
+    listen (3.10.0)
+      logger
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.7.0)
     mercenary (0.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -85,13 +86,13 @@ PLATFORMS
 DEPENDENCIES
   csv
   jekyll (~> 4.1)
-  logger
   jekyll-environment-variables
   jekyll-get-json (~> 1.0)
   jekyll-last-modified-at
   jekyll-tidy
   jekyll-tsc
+  logger
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.5.23
+   2.3.7
