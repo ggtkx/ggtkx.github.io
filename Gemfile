@@ -2,6 +2,7 @@
 source "https://rubygems.org"
 
 # Required for Ruby 3.4+ (no longer default gems)
+gem "base64"
 gem "csv"
 gem "logger"
 
