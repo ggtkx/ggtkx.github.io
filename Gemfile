@@ -1,6 +1,9 @@
 # RubyGems is a package management framework for Ruby.
 source "https://rubygems.org"
 
+# Use logger gem so Jekyll gets a properly initialized Logger (avoids @level_override nil on Netlify)
+gem "logger"
+
 gem "jekyll", "~> 4.1"
 gem "jekyll-environment-variables"
 gem "jekyll-get-json", "~> 1.0"
