@@ -24,6 +24,13 @@ const events = [
     address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd,+San+Jose,+CA',
     button_link: 'https://huifeidexin.eventbrite.com',
   },
+  {
+    datetime: '2026-04-03T20:00:00-07:00',
+    image: 'https://i.imgur.com/CxPkvg1.jpeg',
+    address: 'Cubberley Theatre, Palo Alto',
+    address_url: 'https://maps.google.com/?q=Cubberley+Theatre+Palo+Alto+CA',
+    button_link: 'https://springcomedy26.eventbrite.com',
+  },
 ];
 
 function formatDateTime(isoString) {
