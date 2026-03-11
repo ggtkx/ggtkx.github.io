@@ -29,7 +29,7 @@ const events = [
     image: 'https://i.imgur.com/CxPkvg1.jpeg',
     address: 'Cubberley Theatre, Palo Alto',
     address_url: 'https://maps.google.com/?q=Cubberley+Theatre+Palo+Alto+CA',
-    button_link: 'https://springcomedy26.eventbrite.com',
+    button_link: 'https://www.eventbrite.com/e/2026-tickets-1984200319569?aff=oddtdtcreator',
   },
 ];
 
