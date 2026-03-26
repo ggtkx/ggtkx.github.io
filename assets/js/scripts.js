@@ -18,18 +18,18 @@ const events = [
     button_link: 'https://www.eventbrite.com/e/1982234233954',
   },
   {
-    datetime: '2026-03-14T19:30:00-07:00',
-    image: 'https://i.imgur.com/a8YgObZ.jpeg',
-    address: '1522 S Winchester Blvd, San Jose',
-    address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd,+San+Jose,+CA',
-    button_link: 'https://huifeidexin.eventbrite.com',
-  },
-  {
     datetime: '2026-04-03T20:00:00-07:00',
     image: 'https://i.imgur.com/CxPkvg1.jpeg',
     address: 'Cubberley Theatre, Palo Alto',
     address_url: 'https://maps.google.com/?q=Cubberley+Theatre+Palo+Alto+CA',
     button_link: 'https://www.eventbrite.com/e/2026-tickets-1984200319569?aff=oddtdtcreator',
+  },
+  {
+    datetime: '2026-04-04T19:30:00-07:00',
+    image: 'https://i.imgur.com/quqeLZj.jpeg',
+    address: '1522 S Winchester Blvd, San Jose',
+    address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd,+San+Jose',
+    button_link: 'https://silicomedy20260404.eventbrite.com',
   },
 ];
 
