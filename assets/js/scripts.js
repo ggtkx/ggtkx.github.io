@@ -11,18 +11,11 @@ menuTrigger.onclick = function() {
 
 const events = [
   {
-    datetime: '2026-04-04T19:30:00-07:00',
-    image: 'https://i.imgur.com/quqeLZj.jpeg',
-    address: '1522 S Winchester Blvd, San Jose',
-    address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd,+San+Jose',
-    button_link: 'https://silicomedy20260404.eventbrite.com',
-  },
-  {
-    datetime: '2026-05-01T20:00:00-07:00',
-    image: 'https://i.imgur.com/ZglvMS2.jpeg',
-    address: 'Cubberley Theatre, Palo Alto',
-    address_url: 'https://maps.google.com/?q=Cubberley+Theatre+Palo+Alto+CA',
-    button_link: 'https://www.eventbrite.com/e/1986488886735?aff=oddtdtcreator',
+    datetime: '2026-06-20T19:30:00-07:00',
+    image: 'https://i.imgur.com/1FHqjm3.jpeg',
+    address: 'Hillsdale Little Theater, San Mateo',
+    address_url: 'https://maps.google.com/?q=Hillsdale+Little+Theater+San+Mateo+CA',
+    button_link: 'https://www.eventbrite.com/e/1989440252349?aff=oddtdtcreator',
   },
 ];
 
