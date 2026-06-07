@@ -25,6 +25,13 @@ const events = [
     button_link: 'https://ggtkx.org/tickets/',
   },
   {
+    datetime: '2026-06-13T19:30:00-07:00',
+    image: 'https://i.imgur.com/2nL5LQ0.jpeg',
+    address: '1522 S Winchester Blvd, San Jose',
+    address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd+San+Jose+CA',
+    button_link: 'https://silicomedy260613.eventbrite.com',
+  },
+  {
     datetime: '2026-06-20T19:30:00-07:00',
     image: 'https://i.imgur.com/1FHqjm3.jpeg',
     address: 'Hillsdale Little Theater, San Mateo',
