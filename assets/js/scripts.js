@@ -17,6 +17,12 @@ const events = [
     address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd+San+Jose+CA',
     button_link: 'https://silicomedy20260801.eventbrite.com',
   },
+  {
+    datetime: '2026-08-22T19:30:00-07:00',
+    address: 'Capuchino High School Little Theater, San Bruno',
+    address_url: 'https://maps.google.com/?q=Capuchino+High+School+Little+Theater+San+Bruno+CA',
+    button_link: 'https://www.eventbrite.com/e/sawyer-tickets-1994110220349',
+  },
 ];
 
 function formatDateTime(isoString) {
