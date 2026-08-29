@@ -32,6 +32,13 @@ const events = [
     address_url: 'https://maps.google.com/?q=Capuchino+High+School+Little+Theater+San+Bruno+CA',
     button_link: 'https://www.eventbrite.com/e/sawyer-tickets-1994110220349',
   },
+  {
+    datetime: '2026-09-12T20:00:00-07:00',
+    image: 'https://i.imgur.com/5hccA9o.jpeg',
+    address: '1522 S Winchester Blvd, San Jose',
+    address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd+San+Jose+CA',
+    button_link: 'https://www.eventbrite.com/e/2026-tickets-1999129237364?aff=oddtdtcreator',
+  },
 ];
 
 function formatDateTime(isoString) {
