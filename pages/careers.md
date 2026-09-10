@@ -6,9 +6,9 @@ intro_image: "/images/illustrations/interview.svg"
 intro_image_hide_on_mobile: false
 ---
 
-硅谷脱口秀诚招各种志愿者！请联系我们的邮箱或公众号（见主页）来报名。
+硅谷脱口秀诚招各种志愿者！请联系我们的微信小助手 GGTKX-support。
 
-另外，欢迎访问我们的[LinkedIn](https://www.linkedin.com/company/ggtkx) 来与往届、当前志愿者们建立联系。
+<img src="https://i.imgur.com/5pjOYSO.jpeg" alt="硅谷脱口秀小助手微信二维码" width="280" />
 
 # 现场导演
 
