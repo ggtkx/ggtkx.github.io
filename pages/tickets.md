@@ -31,7 +31,14 @@ intro_image_hide_on_mobile: true
 
 地址：（2026年1月起）[1522 S Winchester Blvd, San Jose, CA 95128](https://maps.app.goo.gl/T4bu2b66gt9rqkCm8)
 
-请使用以下表单购买门票。请务必多次确认**所选门票演出时间，非当天场次门票不得入内**。如果选项为空，说明该周门票已售罄。因开放麦内容限制，**禁止18岁以下未成年入场**。请您仔细阅读**上方观演规则**，购票则视为您已同意现场规则。请将您的车辆停放在**路边或者地面停车场**，**请勿进入停室内停车场**。
+请使用以下表单购买门票。
+
+1. 购票前请务必仔细确认所选择的演出日期及时间。门票仅限对应场次使用，非当日场次门票恕无法入场。门票一经售出，不退不换。
+2. 演出现场不设购票窗口，请务必于演出开始前在线购票。线上购票通道将在演出开始时间准时关闭，逾期将无法购票。
+3. 如购票选项为空，则表示该周场次已售罄。
+4. 因开放麦演出内容存在一定限制，谢绝18岁以下未成年人入场，敬请理解。
+
+购票前请仔细阅读上方的观演规则。完成购票即视为您已阅读并同意现场相关规则。
 
 <div id="miniextensions-iframe-embed-EIlQstT4R43zFOnPULWT"></div><script src="https://api.miniextensions.com/v1/iframe-embed/EIlQstT4R43zFOnPULWT.js?absoluteShareUrl=https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1"></script>
 

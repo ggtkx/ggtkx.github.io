@@ -8,7 +8,7 @@ intro_image_hide_on_mobile: false
 
 硅谷脱口秀诚招各种志愿者！请联系我们的微信小助手 GGTKX-support。
 
-<img src="https://i.imgur.com/5pjOYSO.jpeg" alt="硅谷脱口秀小助手微信二维码" width="280" />
+<p style="text-align: center;"><img src="https://i.imgur.com/5pjOYSO.jpeg" alt="硅谷脱口秀小助手微信二维码" width="280" /></p>
 
 # 现场导演
 
