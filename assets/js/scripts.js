@@ -31,6 +31,13 @@ const events = [
     address_url: 'https://maps.google.com/?q=Louis+B.+Mayer+Theatre+Santa+Clara+CA',
     button_link: 'https://fallinlaugh2026.eventbrite.com',
   },
+  {
+    datetime: '2026-10-17T20:00:00-07:00',
+    image: 'https://i.imgur.com/y7lKJJ9.jpeg',
+    address: '1522 S Winchester Blvd, San Jose',
+    address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd+San+Jose+CA',
+    button_link: 'https://silicomedy20261017.eventbrite.com',
+  },
 ];
 
 function formatDateTime(isoString) {
