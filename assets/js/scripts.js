@@ -11,32 +11,11 @@ menuTrigger.onclick = function() {
 
 const events = [
   {
-    datetime: '2026-09-12T20:00:00-07:00',
-    image: 'https://i.imgur.com/5hccA9o.jpeg',
-    address: '1522 S Winchester Blvd, San Jose',
-    address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd+San+Jose+CA',
-    button_link: 'https://www.eventbrite.com/e/2026-tickets-1999129237364?aff=oddtdtcreator',
-  },
-  {
-    datetime: '2026-09-19T20:00:00-07:00',
-    image: 'https://i.imgur.com/OIEVOlh.jpeg',
-    address: '1522 S Winchester Blvd, San Jose',
-    address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd+San+Jose+CA',
-    button_link: 'https://silicomedy20260919.eventbrite.com',
-  },
-  {
-    datetime: '2026-10-16T20:00:00-07:00',
-    image: 'https://i.imgur.com/jAFSDsW.jpeg',
-    address: 'Louis B. Mayer Theatre, Santa Clara, CA',
-    address_url: 'https://maps.google.com/?q=Louis+B.+Mayer+Theatre+Santa+Clara+CA',
-    button_link: 'https://fallinlaugh2026.eventbrite.com',
-  },
-  {
-    datetime: '2026-10-17T20:00:00-07:00',
-    image: 'https://i.imgur.com/y7lKJJ9.jpeg',
-    address: '1522 S Winchester Blvd, San Jose',
-    address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd+San+Jose+CA',
-    button_link: 'https://silicomedy20261017.eventbrite.com',
+    datetime: '2026-12-04T20:00:00-08:00',
+    image: 'https://i.imgur.com/pYV4Gz5.jpeg',
+    address: 'Cubberley Theatre, Palo Alto',
+    address_url: 'https://maps.google.com/?q=Cubberley+Theatre+Palo+Alto',
+    button_link: 'https://huifeidexin1204.eventbrite.com',
   },
 ];
 
