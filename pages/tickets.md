@@ -31,16 +31,30 @@ intro_image_hide_on_mobile: true
 
 地址：（2026年1月起）[1522 S Winchester Blvd, San Jose, CA 95128](https://maps.app.goo.gl/T4bu2b66gt9rqkCm8)
 
-请使用以下表单购买门票。
+请在下方的活动列表选择场次，前往好顶购买门票。
 
 1. 购票前请务必仔细确认所选择的演出日期及时间。门票仅限对应场次使用，非当日场次门票恕无法入场。门票一经售出，不退不换。
 2. 演出现场不设购票窗口，请务必于演出开始前在线购票。线上购票通道将在演出开始时间准时关闭，逾期将无法购票。
-3. 如购票选项为空，则表示该周场次已售罄。
+3. 场次及余票状态以好顶活动页为准；如列表暂无活动，请稍后再来查看。
 4. 因开放麦演出内容存在一定限制，谢绝18岁以下未成年人入场，敬请理解。
 
 购票前请仔细阅读上方的观演规则。完成购票即视为您已阅读并同意现场相关规则。
 
-<div id="miniextensions-iframe-embed-EIlQstT4R43zFOnPULWT"></div><script src="https://api.miniextensions.com/v1/iframe-embed/EIlQstT4R43zFOnPULWT.js?absoluteShareUrl=https://app.miniextensions.com/form/Ideq2XodTAOZ5vpL4qiZ?prefill_quantity=1"></script>
+## 近期演出与购票
+
+请选择场次。点击活动将在新标签页打开好顶活动页，查看详情并购票。
+
+<iframe
+  id="howding-events"
+  title="硅谷脱口秀近期演出与购票"
+  src="https://howding.com/embed/silicomedy?layout=list&look=light"
+  width="100%"
+  height="450"
+  style="display: block; border: 1px solid #bfcbda88; border-radius: 4px;"
+></iframe>
+<script src="{{ '/assets/js/howding-embed.js' | relative_url }}" defer></script>
+
+如活动列表未能显示，请[前往好顶查看近期演出与购票](https://howding.com/silicomedy)。
 
 票务所得不以营利为目的，仅为承担场地等成本。硅谷脱口秀由[P&Y基金会][py]承办，而[P&Y基金会][py]是一个[501(c)(3)][c3]非营利组织。为了可持续发展，还请您慷慨解囊。
 
