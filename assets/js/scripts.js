@@ -13,8 +13,8 @@ const events = [
   {
     datetime: '2026-11-21T20:00:00-08:00',
     image: 'https://i.imgur.com/RaVohkr.jpeg',
-    address: '1522 S Winchester Blvd, San Jose',
-    address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd+San+Jose',
+    address: '1522 S Winchester Blvd, San Jose, CA 95128',
+    address_url: 'https://maps.app.goo.gl/T4bu2b66gt9rqkCm8',
     button_link: 'https://silicomedy20261121.eventbrite.com',
   },
   {
