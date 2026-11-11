@@ -11,6 +11,13 @@ menuTrigger.onclick = function() {
 
 const events = [
   {
+    datetime: '2026-11-21T20:00:00-08:00',
+    image: 'https://i.imgur.com/RaVohkr.jpeg',
+    address: '1522 S Winchester Blvd, San Jose',
+    address_url: 'https://maps.google.com/?q=1522+S+Winchester+Blvd+San+Jose',
+    button_link: 'https://silicomedy20261121.eventbrite.com',
+  },
+  {
     datetime: '2026-12-04T20:00:00-08:00',
     image: 'https://i.imgur.com/pYV4Gz5.jpeg',
     address: 'Cubberley Theatre, Palo Alto',
